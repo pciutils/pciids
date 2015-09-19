@@ -1,0 +1,6 @@
+This repository contains the history of the pci.ids file, which is
+automatically generated from the PCI ID Database at http://pci-ids.ucw.cz/.
+
+The contents of the database and the generated files can be distributed under
+the terms of either the GNU General Public License (version 2 or later) or of
+the 3-clause BSD License.
