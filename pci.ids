@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.09.19
-#	Date:    2015-09-19 16:01:04
+#	Version: 2015.09.22
+#	Date:    2015-09-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19416,6 +19416,7 @@
 	0100  CAN-PCIe-02
 1cd2  SesKion GmbH
 	0301  Simulyzer-RT CompactPCI Serial DIO-1 card
+1cdd  secunet Security Networks AG
 1ce4  Exablaze
 	0001  ExaNIC X4
 	0002  ExaNIC X2
