@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.10.20
-#	Date:    2015-10-20 03:15:02
+#	Version: 2015.10.21
+#	Date:    2015-10-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -14019,7 +14019,7 @@
 	8213  IT8213 IDE Controller
 		1458 b000  GA-EG45M-DS2H Mainboard
 	8330  IT8330G
-	8872  IT8874F PCI Dual Serial Port Controller
+	8872  IT887xF PCI to ISA I/O chip with SMB, GPIO, Serial or Parallel Port
 	8888  IT8888F/G PCI to ISA Bridge with SMB [Golden Gate]
 	8889  IT8889F PCI to ISA Bridge
 	8893  IT8893E PCIe to PCI Bridge
