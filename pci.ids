@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.10.24
-#	Date:    2015-10-24 03:15:02
+#	Version: 2015.10.26
+#	Date:    2015-10-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2093,6 +2093,7 @@
 		1458 228c  R9 290X WindForce 3X
 		1458 228d  R9 290X WindForce 3X OC
 		1458 2290  R9 290X WindForce 3X
+		1458 22c1  Grenada PRO [Radeon R9 390]
 		1462 3070  R9 290X Lightning
 		1462 3071  R9 290X Lightning
 		1462 3072  R9 290X Lightning LE
@@ -16882,6 +16883,8 @@
 	2464  HSF 56k Data/Fax/Voice Modem (Mob SmartDAA)
 	2465  HSF 56k Data/Fax/Voice/Spkp (w/HS) Modem (Mob SmartDAA)
 	2466  HSF 56k Data/Fax/Voice/Spkp Modem (Mob SmartDAA)
+	2702  HSFi modem RD01-D270
+		1028 8d88  SmartHSFi V92 56K PCI Modem
 	2f00  HSF 56k HSFi Modem
 		13e0 8d84  IBM HSFi V.90
 		13e0 8d85  Compaq Stinger
@@ -17298,8 +17301,8 @@
 158d  Point Multimedia Systems
 158e  Lara Technology Inc
 158f  Ditect Coop
-# nee 3PAR Inc.
-1590  Hewlett-Packard Company
+# formerly 3PAR Inc.
+1590  Hewlett Packard Enterprise
 	0001  Eagle Cluster Manager
 	0002  Osprey Cluster Manager
 	0003  Harrier Cluster Manager
@@ -21863,9 +21866,9 @@
 		1028 0000  Ethernet 10G X710 rNDC
 		1028 1f99  Ethernet 10G 4P X710/I350 rNDC
 		1028 1f9c  Ethernet 10G 4P X710 SFP+ rNDC
-		103c 0000  HPE Ethernet 10Gb 562SFP+ Adapter
-		103c 22fc  HPE Ethernet 10Gb 2-port 562FLR-SFP+ Adapter
-		103c 22fd  HPE Ethernet 10Gb 2-port 562SFP+ Adapter
+		103c 0000  Ethernet 10Gb 562SFP+ Adapter
+		103c 22fc  HP Ethernet 10Gb 2-port 562FLR-SFP+ Adapter
+		103c 22fd  HP Ethernet 10Gb 2-port 562SFP+ Adapter
 		1137 0000  Ethernet Converged NIC X710-4
 		1137 013b  Ethernet Converged NIC X710-4
 		17aa 0000  ThinkServer X710 AnyFabric for 10GbE SFP+
@@ -26384,6 +26387,7 @@
 	a012  Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
+	a102  Sunrise Point-H SATA controller [AHCI mode]
 	a103  Sunrise Point-H SATA Controller [AHCI mode]
 	a105  Sunrise Point-H SATA Controller [RAID mode]
 	a107  Sunrise Point-H SATA Controller [RAID mode]
