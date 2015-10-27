@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.10.26
-#	Date:    2015-10-26 03:15:02
+#	Version: 2015.10.27
+#	Date:    2015-10-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -22030,6 +22030,7 @@
 		e4bf 3100  CX1-BAND
 	1962  80960RM (i960RM) Microprocessor
 		105a 0000  SuperTrak SX6000 I2O CPU
+	19df  DNV SMBus controller
 	1a21  82840 840 [Carmel] Chipset Host Bridge (Hub A)
 	1a23  82840 840 [Carmel] Chipset AGP Bridge
 	1a24  82840 840 [Carmel] Chipset PCI Bridge (Hub B)
@@ -25734,6 +25735,7 @@
 	530d  80310 (IOP) IO Processor
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
+	5ad4  Broxton SMBus Controller
 	65c0  5100 Chipset Memory Controller Hub
 	65e2  5100 Chipset PCI Express x4 Port 2
 	65e3  5100 Chipset PCI Express x4 Port 3
