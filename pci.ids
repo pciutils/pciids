@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.10.27
-#	Date:    2015-10-27 03:15:02
+#	Version: 2015.10.28
+#	Date:    2015-10-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -7161,7 +7161,7 @@
 		1369 a801  LCM200
 		1397 3136  4xS0-ISDN PCI Adapter
 		1397 3137  S2M-E1-ISDN PCI Adapter
-		1518 0200  Kontron ThinkIO-C
+		1518 0200  ThinkIO-C
 		15ed 1002  MCCS 8-port Serial Hot Swap
 		15ed 1003  MCCS 16-port Serial Hot Swap
 # MIL-STD-1553B Board
@@ -15107,6 +15107,8 @@
 	1752  PCI-1752
 	1754  PCI-1754
 	1756  PCI-1756
+# FPGA bridge to two SJA1000
+	c302  MIOe-3680 2-Port CAN-Bus MIOe Module with Isolation Protection
 13ff  Silicon Spice Inc
 1400  Artx Inc
 	1401  9432 TX
