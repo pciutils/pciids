@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.11.08
-#	Date:    2015-11-08 03:15:01
+#	Version: 2015.11.16
+#	Date:    2015-11-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19479,6 +19479,8 @@
 	00a4  FBC4XGG3 Capture 4x10Gb
 	00a5  FBC2XLG Capture 2x40Gb
 	00a6  FBC1CG Capture 1x100Gb
+	00a9  FBC2XGHH Capture 2x10Gb
+	00af  Capture slave device
 # Used on V120 VME Crate Controller
 1c32  Highland Technology, Inc.
 1c33  Daktronics, Inc
@@ -20096,6 +20098,10 @@
 5431  AuzenTech, Inc.
 544c  Teralogic Inc
 	0350  TL880-based HDTV/ATSC tuner
+544d  TBS Technologies
+	6178  DVB-S2 4 Tuner PCIe Card
+		544d 6904  TBS6904 DVB-S2 Quad Tuner PCIe Card
+		544d 6905  TBS6905 DVB-S2 Quad Tuner PCIe Card
 5452  SCANLAB AG
 	3443  RTC4
 5455  Technische University Berlin
@@ -26337,6 +26343,7 @@
 	9c2d  8 Series USB EHCI #2
 	9c31  8 Series USB xHCI HC
 		17aa 2214  ThinkPad X240
+		8086 7270  Apple MacBookAir6,2 / MacBookPro11,1
 	9c35  8 Series SDIO Controller
 	9c36  8 Series Audio DSP Controller
 	9c3a  8 Series HECI #0
