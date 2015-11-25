@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.11.24
-#	Date:    2015-11-24 03:15:01
+#	Version: 2015.11.25
+#	Date:    2015-11-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10335,6 +10335,7 @@
 	13d7  GM204M [GeForce GTX 980M]
 	13d8  GM204M [GeForce GTX 970M]
 	13d9  GM204M [GeForce GTX 965M]
+	13da  GM204M [GeForce GTX 980]
 	13f0  GM204GL [Quadro M5000]
 	13f1  GM204GL [Quadro M4000]
 	13f2  GM204GL [Tesla M60]
@@ -10343,12 +10344,15 @@
 	13fa  GM204GLM [Quadro M3000M]
 	1401  GM206 [GeForce GTX 960]
 	1402  GM206 [GeForce GTX 950]
+	1407  GM206 [GeForce GTX 750 v2]
 	1617  GM204M [GeForce GTX 980M]
 	1618  GM204M [GeForce GTX 970M]
 	1619  GM204M [GeForce GTX 965M]
+	161a  GM204M [GeForce GTX 980]
 	17c2  GM200 [GeForce GTX TITAN X]
 	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
+	17fd  GM200GL [Tesla M40]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -19539,6 +19543,7 @@
 1cf7  Subspace Dynamics
 1d00  Pure Storage
 1d1d  CNEX Labs
+	1f1f  QEMU NVM Express LightNVM Controller
 	2807  8800 series NVMe SSD
 # CEM Solutions Pvt. Ltd.
 1d21  Allo
