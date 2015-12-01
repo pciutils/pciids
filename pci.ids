@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.11.25
-#	Date:    2015-11-25 03:15:01
+#	Version: 2015.12.01
+#	Date:    2015-12-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2774,7 +2774,7 @@
 	6929  Tonga XT GL [FirePro S7150]
 	692b  Tonga PRO GL [FirePro W7100]
 	692f  Tonga XTV GL [FirePro S7150V]
-	6938  Amethyst XT [Radeon R9 M295X Mac Edition]
+	6938  Amethyst XT [Radeon R9 M295X Mac Edition / R9 380X]
 	6939  Tonga PRO [Radeon R9 285/380]
 		148c 9380  Radeon R9 380
 	700f  RS100 AGP Bridge
@@ -5826,10 +5826,12 @@
 	2020  ISP2020A Fast!SCSI Basic Adapter
 	2031  ISP8324-based 16Gb Fibre Channel to PCI Express Adapter
 		103c 8002  3830C 16G Fibre Channel Host Bus Adapter
+	2071  ISP2714-based 16/32Gb Fibre Channel to PCIe Adapter
 	2100  QLA2100 64-bit Fibre Channel Adapter
 		1077 0001  QLA2100 64-bit Fibre Channel Adapter
 	2200  QLA2200 64-bit Fibre Channel Adapter
 		1077 0002  QLA2200
+	2261  ISP2722-based 16/32Gb Fibre Channel to PCIe Adapter
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
@@ -9641,6 +9643,7 @@
 	0f00  GF108 [GeForce GT 630]
 	0f01  GF108 [GeForce GT 620]
 	0f02  GF108 [GeForce GT 730]
+	0f06  GF108 [GeForce GT 730]
 	0fbb  GM204 High Definition Audio Controller
 	0fc0  GK107 [GeForce GT 640 OEM]
 	0fc1  GK107 [GeForce GT 640]
@@ -19521,6 +19524,8 @@
 # A Western Digital Subsidiary
 1c58  HGST, Inc.
 	0003  Ultrastar SN100 Series NVMe SSD
+		1014 04f5  PCIe3 1.6TB NVMe Adapter
+		1014 04f6  PCIe3 3.2TB NVMe Adapter
 1c7e  TTTech Computertechnik AG
 	0200  zFAS Debug Port
 1c7f  Elektrobit Austria GmbH
