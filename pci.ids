@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.12.01
-#	Date:    2015-12-01 03:15:02
+#	Version: 2015.12.02
+#	Date:    2015-12-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -15566,6 +15566,9 @@
 	5095  T540-5095 Unified Wire Ethernet Controller
 	5096  T580-5096 Unified Wire Ethernet Controller
 	5097  T520-5097 Unified Wire Ethernet Controller
+	5098  T580-5098 Unified Wire Ethernet Controller
+	5099  T580-5099 Unified Wire Ethernet Controller
+	509a  T520-509A Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -15607,6 +15610,9 @@
 	5495  T540-5095 Unified Wire Ethernet Controller
 	5496  T580-5096 Unified Wire Ethernet Controller
 	5497  T520-5097 Unified Wire Ethernet Controller
+	5498  T580-5098 Unified Wire Ethernet Controller
+	5499  T580-5099 Unified Wire Ethernet Controller
+	549a  T520-509A Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -15648,6 +15654,9 @@
 	5595  T540-5095 Unified Wire Storage Controller
 	5596  T580-5096 Unified Wire Storage Controller
 	5597  T520-5097 Unified Wire Storage Controller
+	5598  T580-5098 Unified Wire Storage Controller
+	5599  T580-5099 Unified Wire Storage Controller
+	559a  T520-509A Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -15689,6 +15698,9 @@
 	5695  T540-5095 Unified Wire Storage Controller
 	5696  T580-5096 Unified Wire Storage Controller
 	5697  T520-5097 Unified Wire Storage Controller
+	5698  T580-5098 Unified Wire Storage Controller
+	5699  T580-5099 Unified Wire Storage Controller
+	569a  T520-509A Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -15769,6 +15781,9 @@
 	5895  T540-5095 Unified Wire Ethernet Controller [VF]
 	5896  T580-5096 Unified Wire Ethernet Controller [VF]
 	5897  T520-5097 Unified Wire Ethernet Controller [VF]
+	5898  T580-5098 Unified Wire Ethernet Controller [VF]
+	5899  T580-5099 Unified Wire Ethernet Controller [VF]
+	589a  T520-509A Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
