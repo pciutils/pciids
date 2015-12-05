@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.12.02
-#	Date:    2015-12-02 03:15:02
+#	Version: 2015.12.05
+#	Date:    2015-12-05 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -18798,6 +18798,9 @@
 	0013  SH7757 PCIe Switch [PS]
 	0014  uPD720201 USB 3.0 Host Controller
 	0015  uPD720202 USB 3.0 Host Controller
+	001a  SH7758 PCIe-PCI Bridge [PPB]
+	001b  SH7758 PCIe End-Point [PBI]
+	001d  SH7758 PCIe Switch [PS]
 1919  Soltek Computer Inc.
 1923  Sangoma Technologies Corp.
 	0040  A200/Remora FXO/FXS Analog AFT card
