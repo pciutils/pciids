@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.12.06
-#	Date:    2015-12-06 03:15:02
+#	Version: 2015.12.08
+#	Date:    2015-12-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1534,6 +1534,12 @@
 		1462 3271  Radeon R9 360 OEM
 		1682 7360  Radeon R7 360
 	6660  Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330]
+		1028 05ea  Radeon HD 8670M
+		1028 06bf  Radeon R5 M335
+		103c 1970  Radeon HD 8670M
+		103c 80be  Radeon R5 M330
+		103c 8136  Radeon R5 M330
+		17aa 3804  Radeon R5 M330
 		17aa 3809  Radeon R5 M330
 		17aa 390c  Radeon R5 M330
 	6663  Sun PRO [Radeon HD 8570A/8570M]
@@ -7152,6 +7158,7 @@
 		10b5 3025  Alpermann+Velte PCL PCI L (3V/5V): Timecode Reader Board
 		10b5 3068  Alpermann+Velte PCL PCI HD (3V/5V): Timecode Reader Board
 		10b5 3463  Alpermann+Velte PCL PCI D (v2) (3V/5V): Timecode Reader Board
+		10b5 3591  PLURA PCL PCI L (v2) (3.3V/5V): Time Code Reader Board
 		12fe 0111  CPCI-ASIO4 (ESD 4-port Serial Interface Board)
 		1369 9c01  VX222v2
 		1369 9d01  VX222-Mic
@@ -9917,6 +9924,7 @@
 		1028 065e  GeForce 820M
 		1028 0662  GeForce 820M
 		1028 068d  GeForce 820M
+		1028 06c1  GeForce 820M
 		103c 18ef  GeForce GT 630M
 		103c 18f9  GeForce GT 630M
 		103c 18fb  GeForce GT 630M
@@ -22035,6 +22043,7 @@
 	15d6  Ethernet Connection (5) I219-V
 	15d7  Ethernet Connection (4) I219-LM
 	15d8  Ethernet Connection (4) I219-V
+	15e3  Ethernet Connection (5) I219-LM
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
 	1602  Broadwell-U Integrated Graphics
