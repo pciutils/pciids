@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.12.08
-#	Date:    2015-12-08 03:15:01
+#	Version: 2015.12.10
+#	Date:    2015-12-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -16730,6 +16730,7 @@
 	4401  BCM4401 100Base-T
 		1025 0035  TravelMate 660
 		1025 0064  Extensa 3000 series laptop
+		1028 8127  Dimension 2400
 		103c 08b0  tc1100 tablet
 		1043 80a8  A7V8X motherboard
 	4402  BCM4402 Integrated 10/100BaseT
@@ -17465,7 +17466,7 @@
 	1014  MT27700 Family [ConnectX-4 Virtual Function]
 	1015  MT27710 Family [ConnectX-4 Lx]
 	1016  MT27710 Family [ConnectX-4 Lx Virtual Function]
-	1017  MT28800 Family [ConnectX-4]
+	1017  MT28800 Family [ConnectX-5]
 	1018  MT28800 Family [ConnectX-5 Virtual Function]
 	5274  MT21108 InfiniBridge
 	5a44  MT23108 InfiniHost
@@ -18895,10 +18896,14 @@
 		1924 800a  SFN7x02F-R2 Flareon 7000 Series 10G Adapter
 		1924 800c  SFN7x22F-R3 Flareon Ultra 7000 Series 10G Adapter
 		1924 800d  SFN7x02F-R3 Flareon 7000 Series 10G Adapter
+		1924 8010  SFA7942Q-R1 QSFP+ AOE Adapter
 	0923  SFC9140
 		1924 800b  SFN7x42Q-R1 Flareon Ultra 7000 Series 10/40G Adapter
 		1924 800e  SFN7x42Q-R2 Flareon Ultra 7000 Series 10/40G Adapter
 		1924 800f  SFN7xx4F-R1 Flareon Ultra 7000 Series 10G Adapter
+	0a03  SFC9220
+		1924 8012  SFN8522-R1 Flareon Ultra 8000 Series 10G Adapter
+		1924 8014  SFN8542-R1 Flareon Ultra 8000 Series 10/40G Adapter
 	1803  SFC9020 Virtual Function [Solarstorm]
 	1813  SFL9021 Virtual Function [Solarstorm]
 	1903  SFC9120 Virtual Function
@@ -19138,6 +19143,7 @@
 	8521  AU8521 TV card
 # nee ServerEngines Corp.
 19a2  Emulex Corporation
+	0120  x1 PCIe Gen2 Bridge[Pilot4]
 	0200  BladeEngine 10Gb PCI-E iSCSI adapter
 	0201  BladeEngine 10Gb PCIe Network Adapter
 	0211  BladeEngine2 10Gb Gen2 PCIe Network Adapter
@@ -22039,7 +22045,6 @@
 	15d1  Ethernet Controller 10G X550T
 		8086 0002  Ethernet Converged Network Adapter X550-T1
 		8086 00a2  Ethernet Converged Network Adapter X550-T1
-	15d5  Ethernet Connection (5) I219-LM
 	15d6  Ethernet Connection (5) I219-V
 	15d7  Ethernet Connection (4) I219-LM
 	15d8  Ethernet Connection (4) I219-V
@@ -22826,6 +22831,7 @@
 		1025 005a  TravelMate 290
 		1025 0064  Extensa 3000 series laptop: Intel 82801DBM (ICH4-M)
 		1028 0126  Optiplex GX260
+		1028 0160  Dimension 2400
 		1028 0163  Latitude D505
 		1028 018d  Inspiron 700m/710m
 		1028 0196  Inspiron 5160
@@ -22853,6 +22859,7 @@
 		1025 0064  Extensa 3000 series laptop: Intel 82801DBM (ICH4-M)
 		1028 0126  Optiplex GX260
 		1028 014f  Latitude X300
+		1028 0160  Dimension 2400
 		1028 018d  Inspiron 700m/710m
 		103c 088c  NC8000 laptop
 		103c 0890  NC6000 laptop
@@ -22874,6 +22881,7 @@
 		1025 005a  TravelMate 290
 		1025 0064  Extensa 3000 series laptop: Intel 82801DBM (ICH4-M)
 		1028 0126  Optiplex GX260
+		1028 0160  Dimension 2400
 		1028 0163  Latitude D505
 		1028 018d  Inspiron 700m/710m
 		1028 0196  Inspiron 5160
@@ -22901,6 +22909,7 @@
 		1028 0139  Latitude D400
 		1028 014f  Latitude X300
 		1028 0152  Latitude D500
+		1028 0160  Dimension 2400
 		1028 0163  Latitude D505
 		1028 018d  Inspiron 700m/710m [SigmaTel STAC9750,51]
 		1028 0196  Inspiron 5160
@@ -22917,7 +22926,6 @@
 		1462 5800  845PE Max (MS-6580)
 		1734 1005  D1451 (SCENIC N300, i845GV) Sigmatel STAC9750T
 		1734 1055  Amilo M1420
-		8086 24c5  Dell Dimension 2400
 	24c6  82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller
 		1014 0524  ThinkPad T4x Series
 		1014 0525  ThinkPad
@@ -22943,6 +22951,7 @@
 		1025 005a  TravelMate 290
 		1025 0064  Extensa 3000 series laptop: Intel 82801DBM (ICH4-M)
 		1028 0126  Optiplex GX260
+		1028 0160  Dimension 2400
 		1028 0163  Latitude D505
 		1028 018d  Inspiron 700m/710m
 		1028 0196  Inspiron 5160
@@ -22979,6 +22988,7 @@
 	24cb  82801DB (ICH4) IDE Controller
 		1014 0267  NetVista A30p
 		1028 0126  Optiplex GX260
+		1028 0160  Dimension 2400
 		1043 8089  P4B533
 		114a 0582  PC8 onboard IDE
 		1458 24c2  GA-8PE667 Ultra
@@ -22999,6 +23009,7 @@
 		1028 0126  Optiplex GX260
 		1028 0139  Latitude D400
 		1028 0152  Latitude D500
+		1028 0160  Dimension 2400
 		1028 0163  Latitude D505
 		1028 018d  Inspiron 700m/710m
 		1028 0196  Inspiron 5160
@@ -23262,6 +23273,7 @@
 	2562  82845G/GL[Brookdale-G]/GE Chipset Integrated Graphics Device
 		0e11 00b9  Evo D510 SFF
 		1014 0267  NetVista A30p
+		1028 0160  Dimension 2400
 		1734 1003  D1521 Mainboard (Fujitsu-Siemens)
 		1734 1004  D1451 Mainboard (SCENIC N300, i845GV)
 	2570  82865G/PE/P DRAM Controller/Host-Hub Interface
