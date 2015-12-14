@@ -2100,7 +2100,6 @@
 		1458 228c  R9 290X WindForce 3X
 		1458 228d  R9 290X WindForce 3X OC
 		1458 2290  R9 290X WindForce 3X
-		1458 22c1  Grenada PRO [Radeon R9 390]
 		1462 3070  R9 290X Lightning
 		1462 3071  R9 290X Lightning
 		1462 3072  R9 290X Lightning LE
@@ -2112,6 +2111,7 @@
 		174b e285  R9 290X Tri-X OC
 		1787 2020  R9 290X IceQ X² Turbo
 	67b1  Hawaii PRO [Radeon R9 290]
+		1458 22c1  Grenada PRO [Radeon R9 390]
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
 	6800  Wimbledon XT [Radeon HD 7970M]
