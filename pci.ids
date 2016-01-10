@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.01.09
-#	Date:    2016-01-09 03:15:02
+#	Version: 2016.01.10
+#	Date:    2016-01-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2780,7 +2780,7 @@
 	6929  Tonga XT GL [FirePro S7150]
 	692b  Tonga PRO GL [FirePro W7100]
 	692f  Tonga XTV GL [FirePro S7150V]
-	6938  Tonga XT / Amethyst XT [Radeon R9 M295X Mac Edition / R9 380X]
+	6938  Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X Mac Edition]
 		174b e308  Radeon R9 380X Nitro 4G D5
 	6939  Tonga PRO [Radeon R9 285/380]
 		148c 9380  Radeon R9 380
