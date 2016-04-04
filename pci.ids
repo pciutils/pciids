@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.02
-#	Date:    2016-04-02 03:15:02
+#	Version: 2016.04.04
+#	Date:    2016-04-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2116,6 +2116,14 @@
 	67b1  Hawaii PRO [Radeon R9 290]
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
+	67c0  Ellesmere [Polaris10]
+	67df  Ellesmere [Polaris10]
+	67e0  Baffin [Polaris11]
+	67e1  Baffin [Polaris11]
+	67e8  Baffin [Polaris11]
+	67e9  Baffin [Polaris11]
+	67eb  Baffin [Polaris11]
+	67ff  Baffin [Polaris11]
 	6800  Wimbledon XT [Radeon HD 7970M]
 		1002 0124  Radeon HD 7970M
 		8086 2110  Radeon HD 7970M
@@ -19771,8 +19779,8 @@
 # A Western Digital Subsidiary
 1c58  HGST, Inc.
 	0003  Ultrastar SN100 Series NVMe SSD
-		1014 04f5  PCIe3 1.6TB NVMe Adapter
-		1014 04f6  PCIe3 3.2TB NVMe Adapter
+		1014 04f5  PCIe3 1.6TB NVMe Flash Adapter
+		1014 04f6  PCIe3 3.2TB NVMe Flash Adapter
 # http://www.nicevt.ru/ (in Russian)
 1c63  Science and Research Centre of Computer Technology (JSC "NICEVT")
 # http://www.radiotec.ru/catalog.php?cat=jr8&art=14109
