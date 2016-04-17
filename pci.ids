@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.12
-#	Date:    2016-04-12 03:15:07
+#	Version: 2016.04.17
+#	Date:    2016-04-17 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1507,6 +1507,7 @@
 	6646  Bonaire XT [Radeon R9 M280X]
 	6647  Bonaire PRO [Radeon R9 M270X]
 	6649  Bonaire [FirePro W5100]
+		1002 0b0c  FirePro W4300
 	6650  Bonaire
 	6651  Bonaire
 	6658  Bonaire XTX [Radeon R7 260X/360]
@@ -2083,6 +2084,7 @@
 	679f  Tahiti
 	67a0  Hawaii XT GL [FirePro W9100]
 		1002 0335  FirePro S9150
+		1002 0735  FirePro S9170
 		1028 031f  FirePro W9100
 		1028 0335  FirePro S9150
 	67a1  Hawaii PRO GL [FirePro W8100]
@@ -22262,8 +22264,8 @@
 		1028 1f9f  Ethernet 40G 2P XL710 QSFP+ rNDC
 		108e 0000  10 Gb/40 Gb Ethernet Adapter
 		108e 7b1b  10 Gb/40 Gb Ethernet Adapter
-		1137 0000  Ethernet Converged NIC XL710-Q2
-		1137 013c  Ethernet Converged NIC XL710-Q2
+		1137 0000  Ethernet Converged NIC XL710-QDA2
+		1137 013c  Ethernet Converged NIC XL710-QDA2
 		8086 0000  Ethernet Converged Network Adapter XL710-Q2
 		8086 0001  Ethernet Converged Network Adapter XL710-Q2
 		8086 0002  Ethernet Converged Network Adapter XL710-Q2
@@ -22384,6 +22386,7 @@
 	192b  Iris Graphics 555
 	192d  Iris Graphics P555
 	1932  Iris Pro Graphics 580
+	193a  Iris Pro Graphics P580
 	193b  Iris Pro Graphics 580
 	193d  Iris Pro Graphics P580
 	1960  80960RP (i960RP) Microprocessor
