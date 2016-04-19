@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.18
-#	Date:    2016-04-18 03:15:02
+#	Version: 2016.04.19
+#	Date:    2016-04-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19757,6 +19757,7 @@
 	4254  10G-PCIE3-8D-2S
 	4255  10G-PCIE3-8D-Q
 	4256  10G-PCIE3-8D-2S
+	4258  10G-PCIE3-8E-2S
 1c1c  Symphony
 	0001  82C101
 1c28  Lite-On IT Corp. / Plextor
