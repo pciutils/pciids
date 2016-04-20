@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.19
-#	Date:    2016-04-19 03:15:01
+#	Version: 2016.04.20
+#	Date:    2016-04-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1508,6 +1508,7 @@
 	6647  Bonaire PRO [Radeon R9 M270X]
 	6649  Bonaire [FirePro W5100]
 		1002 0b0c  FirePro W4300
+		103c 0b0c  Bonaire [FirePro W4300]
 	6650  Bonaire
 	6651  Bonaire
 	6658  Bonaire XTX [Radeon R7 260X/360]
@@ -27023,7 +27024,8 @@
 8384  SigmaTel
 8401  TRENDware International Inc.
 8686  ScaleMP
-	1010  vSMPowered system controller [vSMP CTL]
+	1010  vSMP Foundation controller [vSMP CTL]
+	1011  vSMP Foundation MEX/FLX controller [vSMP CTL]
 8800  Trigem Computer Inc.
 	2008  Video assistant component
 8866  T-Square Design Inc.
