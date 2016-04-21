@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.20
-#	Date:    2016-04-20 03:15:02
+#	Version: 2016.04.21
+#	Date:    2016-04-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2116,7 +2116,8 @@
 		174b e282  Vapor-X R9 290X Tri-X OC
 		174b e285  R9 290X Tri-X OC
 		1787 2020  R9 290X IceQ X² Turbo
-	67b1  Hawaii PRO [Radeon R9 290]
+	67b1  Hawaii PRO [Radeon R9 290/390]
+		148c 2358  Radeon R9 390
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
 	67c0  Ellesmere [Polaris10]
@@ -23520,6 +23521,7 @@
 	24f0  Omni-Path HFI Silicon 100 Series [discrete]
 		10a9 802e  Omni-path HFI 100 Series, 1-port
 		10a9 802f  Omni-path HFI 100 Series, 2-port
+		15d9 0001  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16, SIOM Module
 		8086 2628  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16
 		8086 2629  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x8
 		8086 262a  Omni-Path HFI Adapter 100 Series, 2 Ports, Split PCIe x16
