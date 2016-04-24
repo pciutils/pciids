@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.23
-#	Date:    2016-04-23 03:15:02
+#	Version: 2016.04.24
+#	Date:    2016-04-24 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2813,7 +2813,8 @@
 	6929  Tonga XT GL [FirePro S7150]
 	692b  Tonga PRO GL [FirePro W7100]
 	692f  Tonga XTV GL [FirePro S7150V]
-	6938  Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X Mac Edition]
+	6938  Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X]
+		106b 013a  Radeon R9 M295X Mac Edition
 		174b e308  Radeon R9 380X Nitro 4G D5
 	6939  Tonga PRO [Radeon R9 285/380]
 		148c 9380  Radeon R9 380
@@ -16394,7 +16395,7 @@
 	1647  NetXtreme BCM5703 Gigabit Ethernet
 		0e11 0099  NC7780 1000BaseTX
 		0e11 009a  NC7770 1000BaseTX
-		10a9 8010  SGI IO9 Gigabit Ethernet (Copper)
+		10a9 8010  IO9 Gigabit Ethernet (Copper)
 		14e4 0009  BCM5703 1000BaseTX
 		14e4 000a  BCM5703 1000BaseSX
 		14e4 000b  BCM5703 1000BaseTX
@@ -23590,8 +23591,8 @@
 	24df  82801ER (ICH5R) SATA Controller
 		1028 0168  Precision Workstation 670 Mainboard
 	24f0  Omni-Path HFI Silicon 100 Series [discrete]
-		10a9 802e  SGI Omni-path HFI 100 Series, 1-port A-board
-		10a9 802f  SGI Omni-path HFI 100 Series, 2-port A-board
+		10a9 802e  Omni-path HFI 100 Series, 1-port A-board
+		10a9 802f  Omni-path HFI 100 Series, 2-port A-board
 		10a9 8030  Omni-path HFI 100 Series, 1-port B-board
 		10a9 8031  Omni-path HFI 100 Series, 2-port B-board
 		15d9 0934  Omni-Path HFI Adapter 100 Series, 1 Port, PCIe x16, SIOM Module
