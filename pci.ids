@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.24
-#	Date:    2016-04-24 03:15:01
+#	Version: 2016.04.25
+#	Date:    2016-04-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2095,27 +2095,40 @@
 	67a8  Hawaii
 	67a9  Hawaii
 	67aa  Hawaii
-	67b0  Hawaii XT [Radeon R9 290X]
+	67b0  Hawaii XT / Grenada XT [Radeon R9 290X/390X]
+		1028 0b00  Grenada XT [Radeon R9 390X]
+		103c 6566  Radeon R9 390X
 		1043 046a  R9 290X DirectCU II
 		1043 046c  R9 290X DirectCU II OC
 		1043 0474  Matrix R9 290X Platinum
 		1043 0476  ARES III
+		1043 04d7  Radeon R9 390X
+		1043 04db  Radeon R9 390X
+		1043 04df  Radeon R9 390X
+		1043 04e9  Radeon R9 390X
 		1458 227c  R9 290X WindForce 3X OC
 		1458 2281  R9 290X WindForce 3X OC
 		1458 228c  R9 290X WindForce 3X
 		1458 228d  R9 290X WindForce 3X OC
 		1458 2290  R9 290X WindForce 3X
+		1458 22bc  Radeon R9 390X
 		1458 22c1  Grenada PRO [Radeon R9 390]
+		1462 2015  Radeon R9 390X
 		1462 3070  R9 290X Lightning
 		1462 3071  R9 290X Lightning
 		1462 3072  R9 290X Lightning LE
 		1462 3080  R9 290X Gaming
 		1462 3082  R9 290X Gaming OC
 		148c 2347  Devil 13 Dual Core R9 290X
+		148c 2357  Grenada XT [Radeon R9 390X]
 		1682 9290  Double Dissipation R9 290X
+		1682 9395  Grenada XT [Radeon R9 390X]
+		174b 0e34  Radeon R9 390X
 		174b e282  Vapor-X R9 290X Tri-X OC
 		174b e285  R9 290X Tri-X OC
+		174b e324  Grenada XT2 [Radeon R9 390X]
 		1787 2020  R9 290X IceQ X² Turbo
+		1787 2357  Grenada XT [Radeon R9 390X]
 	67b1  Hawaii PRO [Radeon R9 290/390]
 		148c 2358  Radeon R9 390
 	67b9  Vesuvius [Radeon R9 295X2]
@@ -2814,8 +2827,14 @@
 	692b  Tonga PRO GL [FirePro W7100]
 	692f  Tonga XTV GL [FirePro S7150V]
 	6938  Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X]
+		1043 04f5  Radeon R9 380X
+		1043 04f7  Radeon R9 380X
 		106b 013a  Radeon R9 M295X Mac Edition
+		1458 22c8  Radeon R9 380X
+		148c 2350  Radeon R9 380X
+		1682 9385  Radeon R9 380X
 		174b e308  Radeon R9 380X Nitro 4G D5
+		17af 2006  Radeon R9 380X
 	6939  Tonga PRO [Radeon R9 285/380]
 		148c 9380  Radeon R9 380
 # Make naming scheme consistent
