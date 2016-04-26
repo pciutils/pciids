@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.25
-#	Date:    2016-04-25 03:15:02
+#	Version: 2016.04.26
+#	Date:    2016-04-26 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -478,6 +478,21 @@
 	007c  MegaRAID SAS 1078DE
 		1014 0395  ServeRAID-AR10is SAS/SATA Controller
 	007e  SSS6200 PCI-Express Flash SSD
+		1000 0504  Nytro NWD-BLP4-800
+		1000 0507  Nytro NWD-BLP4-1600
+		1000 0581  Nytro NWD-BLP4-400
+		1000 100d  Nytro NWD-BFH6-1200
+		1000 100e  Nytro NWD-BFH8-1600
+		1000 107e  Nytro NWD-BFH8-3200
+		1000 1310  Nytro XP6302-8B1536
+		1000 1311  Nytro XP6302-8B2048
+		1000 1314  Nytro XP6302-8B4096
+		1000 150c  Nytro XP6210-4A2048
+		1000 150f  Nytro XP6210-4B2048
+		1000 160b  Nytro XP6209-4A1024
+		1000 1613  Nytro XP6209-4B2048
+		108e 050a  Nytro ELP4x200_4d_n
+		108e 0581  Nytro ELP4x100_4d_n
 	0080  SAS2208 PCI-Express Fusion-MPT SAS-2
 	0081  SAS2208 PCI-Express Fusion-MPT SAS-2
 	0082  SAS2208 PCI-Express Fusion-MPT SAS-2
