@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.26
-#	Date:    2016-04-26 03:15:01
+#	Version: 2016.04.27
+#	Date:    2016-04-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -16358,7 +16358,7 @@
 		1028 0236  PowerEdge R610 BCM5709 Gigabit Ethernet
 		1028 0237  PowerEdge T610 BCM5709 Gigabit Ethernet
 		103c 7055  NC382i Integrated Multi-port PCI Express Gigabit Server Adapter
-		103c 7059  NC382T PCI Express Dual Port Multifunction Gigabit Server Adapter
+		103c 7059  NC382T PCIe Dual Port Multifunction Gigabit Server Adapter
 		10a9 8027  Quad port Gigabit Ethernet Controller
 	163a  NetXtreme II BCM5709S Gigabit Ethernet
 		1028 027b  PowerEdge M805 Broadcom NetXtreme II BCM5709S
@@ -19168,7 +19168,7 @@
 	000c  Qualcomm MSM6275 UMTS chip
 1932  DiBcom
 193c  MAXIM Integrated Products
-193f  Comtech AHA Corp.
+193f  AHA Products Group
 	0001  AHA36x-PCIX
 	0360  AHA360-PCIe
 	0363  AHA363-PCIe
@@ -19179,6 +19179,8 @@
 	0605  AHA605
 	3641  AHA3641
 	3642  AHA3642
+	6101  AHA6101
+	6102  AHA6102
 1942  ClearSpeed Technology plc
 	e511  Advance X620 accelerator card
 	e521  Advance e620 accelerator card
