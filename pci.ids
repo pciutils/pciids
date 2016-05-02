@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.04.30
-#	Date:    2016-04-30 03:15:02
+#	Version: 2016.05.02
+#	Date:    2016-05-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -22971,6 +22971,32 @@
 	2286  Braswell Serial I/O DMA
 	228a  Braswell Serial I/O HSUART Port 1
 	228c  Braswell Serial I/O HSUART Port 2
+	2292  Braswell Platform Controller Unit SMBus
+	2294  Braswell Storage Cluster Control MMC Port
+	2295  Braswell Storage Cluster Control SDIO Port
+	2296  Braswell Storage Cluster Control SD Port
+	2298  Braswell Trusted Execution Engine Interface
+	229c  Braswell Platform Controller Unit LPC
+	22a3  Braswell SATA Controller
+	22a4  Braswell SATA AHCI Controller
+	22a8  Braswell Low Power Engine Audio
+	22b0  Braswell PCI Configuration Registers
+	22b1  Braswell Integrated Graphics Controller
+	22b5  Braswell USB xHCI Host Controller
+	22b8  Braswell ISP Camera
+	22c0  Braswell Serial I/O DMA
+	22c1  Braswell Serial I/O I2C Port 1
+	22c2  Braswell Serial I/O I2C Port 2
+	22c3  Braswell Serial I/O I2C Port 3
+	22c4  Braswell Serial I/O I2C Port 4
+	22c5  Braswell Serial I/O I2C Port 5
+	22c6  Braswell Serial I/O I2C Port 6
+	22c7  Braswell Serial I/O I2C Port 7
+	22c8  Braswell PCIe Port 1
+	22ca  Braswell PCIe Port 2
+	22cc  Braswell PCIe Port 3
+	22ce  Braswell PCIe Port 4
+	22dc  Braswell P-Unit Power Management
 	2310  DH89xxCC LPC Controller
 	2323  DH89xxCC 4 Port SATA AHCI Controller
 	2330  DH89xxCC SMBus Controller
