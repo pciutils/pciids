@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.05.02
-#	Date:    2016-05-02 03:15:02
+#	Version: 2016.05.07
+#	Date:    2016-05-07 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -17636,6 +17636,7 @@
 	07e0  SATA AHCI controller
 	0801  Virtual Machine Interface
 		15ad 0800  Hypervisor ROM Interface
+	0820  Paravirtual RDMA controller
 	1977  HD Audio Controller
 15ae  Amersham Pharmacia Biotech
 15b0  Zoltrix International Ltd
@@ -18479,7 +18480,9 @@
 	9702  CN23XX [LiquidIO II] Intelligent Adapter
 		177d 0003  CN2350 [LiquidIO II] 2-port 10GbE Intelligent adapter
 		177d 0004  CN2350 [LiquidIO II] 2-port 25GbE Intelligent adapter
+	9703  CN23XX [LiquidIO II] NVMe Controller
 	9712  CN23XX [LiquidIO II] SRIOV Virtual Function
+	9713  CN23XX [LiquidIO II] NVMe SRIOV Virtual Function
 	9800  Octeon Fusion CNF75XX Processor
 	a001  THUNDERX MRML Bridge
 	a002  THUNDERX PCC Bridge
