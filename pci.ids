@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.05.20
-#	Date:    2016-05-20 03:15:02
+#	Version: 2016.05.21
+#	Date:    2016-05-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19152,13 +19152,20 @@
 		1924 800c  SFN7x22F-R3 Flareon Ultra 7000 Series 10G Adapter
 		1924 800d  SFN7x02F-R3 Flareon 7000 Series 10G Adapter
 		1924 8010  SFA7942Q-R1 QSFP+ AOE Adapter
+		1924 8015  SFA7942Q-A5-0-R1 QSFP+ AOE Adapter
 	0923  SFC9140
 		1924 800b  SFN7x42Q-R1 Flareon Ultra 7000 Series 10/40G Adapter
 		1924 800e  SFN7x42Q-R2 Flareon Ultra 7000 Series 10/40G Adapter
 		1924 800f  SFN7xx4F-R1 Flareon Ultra 7000 Series 10G Adapter
 	0a03  SFC9220
+		1924 8011  SFN 8022-R1 Solarflare Flareon 8000 Series 10G Adapter
 		1924 8012  SFN8522-R1 Flareon Ultra 8000 Series 10G Adapter
+		1924 8013  SFN8042-R1 Solarflare Flareon 8000 Series 10/40G Adapter
 		1924 8014  SFN8542-R1 Flareon Ultra 8000 Series 10/40G Adapter
+		1924 8016  SFN8022-R2 Flareon 8000 Series 10G Adapter
+		1924 8017  SFN8522-R2 Flareon Ultra 8000 Series 10G Adapter
+		1924 8018  SFN8042-R2 Flareon 8000 Series 10/40G Adapter
+		1924 8019  SFN8542-R2 Flareon Ultra 8000 Series 10/40G Adapter
 	1803  SFC9020 Virtual Function [Solarstorm]
 	1813  SFL9021 Virtual Function [Solarstorm]
 	1903  SFC9120 Virtual Function
