@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.05.23
-#	Date:    2016-05-23 03:15:02
+#	Version: 2016.05.24
+#	Date:    2016-05-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10802,6 +10802,7 @@
 		1028 0283  Vostro 220
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
+		1028 06f3  Latitude 3570
 		103c 1611  Pavilion DM1Z-3000
 		103c 1950  ProBook 450/455
 		103c 2a6f  Asus IPIBL-LB Motherboard
@@ -18262,6 +18263,7 @@
 		1a3b 1186  AW-NE186H
 	0033  AR9580 Wireless Network Adapter
 	0034  AR9462 Wireless Network Adapter
+		1028 0300  Wireless 1802 802.11abgn Adapter
 		1a56 2003  Killer Wireless-N 1202 Half-size Mini PCIe Card
 	0036  QCA9565 / AR9565 Wireless Network Adapter
 	0037  AR9485 Wireless Network Adapter
@@ -22507,6 +22509,7 @@
 	1902  HD Graphics 510
 	1903  Skylake Processor Thermal Subsystem
 	1904  Skylake Host Bridge/DRAM Registers
+		1028 06f3  Latitude 3570
 	1905  Skylake PCIe Controller (x8)
 	1906  HD Graphics 510
 	1908  Skylake Host Bridge/DRAM Registers
@@ -22517,6 +22520,7 @@
 	1911  Skylake Gaussian Mixture Model
 	1912  HD Graphics 530
 	1916  HD Graphics 520
+		1028 06f3  Latitude 3570
 	1918  Skylake Host Bridge/DRAM Registers
 	1919  Skylake Imaging Unit
 	191b  HD Graphics 530
@@ -26984,20 +26988,28 @@
 	9ce5  Wildcat Point-LP Serial IO GSPI Controller #0
 	9ce6  Wildcat Point-LP Serial IO GSPI Controller #1
 	9d03  Sunrise Point-LP SATA Controller [AHCI mode]
+		1028 06f3  Latitude 3570
 	9d14  Sunrise Point-LP PCI Express Root Port #5
 	9d15  Sunrise Point-LP PCI Express Root Port #6
 	9d21  Sunrise Point-LP PMC
+		1028 06f3  Latitude 3570
 	9d23  Sunrise Point-LP SMBus
+		1028 06f3  Latitude 3570
 	9d27  Sunrise Point-LP Serial IO UART Controller #0
 	9d28  Sunrise Point-LP Serial IO UART Controller #1
 	9d29  Sunrise Point-LP Serial IO SPI Controller #0
 	9d2a  Sunrise Point-LP Serial IO SPI Controller #1
 	9d2d  Sunrise Point-LP Secure Digital IO Controller
 	9d2f  Sunrise Point-LP USB 3.0 xHCI Controller
+		1028 06f3  Latitude 3570
 	9d31  Sunrise Point-LP Thermal subsystem
+		1028 06f3  Latitude 3570
 	9d3a  Sunrise Point-LP CSME HECI #1
+		1028 06f3  Latitude 3570
 	9d48  Sunrise Point-LP LPC Controller
+		1028 06f3  Latitude 3570
 	9d60  Sunrise Point-LP Serial IO I2C Controller #0
+		1028 06f3  Latitude 3570
 		8086 9d60  100 Series PCH/Sunrise Point PCH I2C0 [Skylake/Kaby Lake LPSS I2C]
 	9d61  Sunrise Point-LP Serial IO I2C Controller #1
 	9d62  Sunrise Point-LP Serial IO I2C Controller #2
@@ -27006,6 +27018,7 @@
 	9d65  Sunrise Point-LP Serial IO I2C Controller #5
 	9d66  Sunrise Point-LP Serial IO UART Controller #2
 	9d70  Sunrise Point-LP HD Audio
+		1028 06f3  Latitude 3570
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
 		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
