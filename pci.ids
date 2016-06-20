@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.06.19
-#	Date:    2016-06-19 03:15:02
+#	Version: 2016.06.20
+#	Date:    2016-06-20 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10968,17 +10968,17 @@
 	9500  INI-950 SCSI Adapter
 	9502  INI-950P Ultra Wide SCSI Adapter
 1102  Creative Labs
-	0002  SB Live! EMU10k1
+	0002  EMU10k1 [Sound Blaster Live! Series]
 		100a 1102  SB Live! 5.1 Digital OEM SB0220 EMU10K1-JFF
 		1102 0020  CT4850 SBLive! Value
 		1102 0021  CT4620 SBLive!
-		1102 002f  SBLive! mainboard implementation
+		1102 002f  M002/M003 Integrated SBLive!
 		1102 100a  SB Live! 5.1 Digital OEM [SB0220]
 		1102 4001  E-mu APS
 		1102 8022  CT4780 SBLive! Value
 		1102 8023  CT4790 SoundBlaster PCI512
 		1102 8024  CT4760 SBLive!
-		1102 8025  SBLive! Mainboard Implementation
+		1102 8025  CT1140/SB0040 Integrated SBLive!
 		1102 8026  CT4830 SBLive! Value
 		1102 8027  CT4832 SBLive! Value
 		1102 8028  CT4760 SBLive! OEM version
@@ -10997,7 +10997,7 @@
 		1102 8063  DXW Integrated SBLive! 5.1
 		1102 8064  SBLive! 5.1 Model SB0100
 		1102 8065  SBLive! 5.1 Digital Model SB0220
-		1102 8066  Live! 5.1 Digital [SB0228]
+		1102 8066  SB0228 SBLive! 5.1 Digital
 		1102 8067  SBLive! 5.1 eMicro 28028
 		1102 8068  CT0061 SBLive!
 		1102 8069  SB0101 SBLive! 5.1 Value
@@ -11007,15 +11007,15 @@
 		1102 8071  SB0150 SoundBlaster PCI512
 # EMU8008 PCI version of emu8000 chip
 	0003  SB AWE64(D)
-	0004  SB Audigy
+	0004  EMU10k2/CA0100/CA0102/CA10200 [Sound Blaster Audigy Series]
 		1102 0040  SB0090 Audigy Player
 # Probably an early engineering sample
 		1102 0041  CT4820 SBLive!2
 		1102 0042  CT0070 Audigy
 		1102 0043  CT0072 Audigy
-		1102 0051  SB0090 Audigy Player
+		1102 0051  SB0090 Audigy Player/Platinum (EX)
 		1102 0052  SB0162 Audigy ES
-		1102 0053  SB0090 Audigy Player/OEM
+		1102 0053  CT0090/SB0092 Audigy Player/OEM
 		1102 0054  SB0161 Audigy ES
 		1102 0055  SB0192 Audigy
 		1102 0056  SB0191 Audigy
@@ -11025,7 +11025,7 @@
 		1102 005a  SB0231 Audigy
 		1102 005b  SB0232 Audigy
 		1102 005c  SB0238 Audigy
-		1102 1002  SB Audigy2 Platinum
+		1102 1002  SB0240 Audigy 2 Platinum 6.1
 		1102 1003  SB0350 Audigy 2
 		1102 1004  SB0242 Audigy 2
 		1102 1005  SB0280 Audigy 2 Platinum Ex
@@ -11034,22 +11034,22 @@
 		1102 1008  SB0320 Audigy 2
 		1102 1009  SB Audigy2 OEM HP
 		1102 100a  SB0246 Audigy 2
-		1102 2001  SB Audigy 2 ZS Platinum Pro
-		1102 2002  SB Audigy 2 ZS (SB0350)
+		1102 2001  SB0360 Audigy 2 ZS Platinum Pro
+		1102 2002  SB0350 Audigy 2 ZS
 		1102 2003  SB0352 Audigy 2 ZS
 		1102 2004  SB0355 Audigy 2 ZS
 		1102 2005  SB0359 Audigy 2 ZS
 		1102 2006  SB035x Audigy 2 OEM
 		1102 2007  SB0380 Audigy 4 Pro
-		1102 4001  E-MU 1010
+		1102 4001  E-MU 1010 [MAEM8810]
 		1102 4002  E-MU 0404
 		1102 4003  E-MU 1010
-	0005  SB X-Fi
+	0005  EMU20k1 [Sound Blaster X-Fi Series]
 		1102 0021  X-Fi Platinum
 		1102 002c  X-Fi XtremeGamer FATAL1TY PRO
 		1102 1003  X-Fi XtremeMusic
-	0006  [SB Live! Value] EMU10k1X
-	0007  CA0106 Soundblaster
+	0006  EMU10k1X [SB Live! Value/OEM Series]
+	0007  CA0106/CA0111 [SB Live!/Audigy/X-Fi Series]
 		1102 0007  SBLive! 24bit
 		1102 1001  SB0310 Audigy LS
 		1102 1002  SB0312 Audigy LS
@@ -11058,7 +11058,7 @@
 		1102 1012  SB0790 X-Fi XA
 		1102 1013  Soundblaster X-Fi Xtreme Audio
 		1462 1009  K8N Diamond
-	0008  SB0400 Audigy2 Value
+	0008  CA0108/CA10300 [Sound Blaster Audigy Series]
 		1102 0008  EMU0404 Digital Audio System
 		1102 1001  SB0400 Audigy 2 Value
 		1102 1021  SB0610 Audigy 4 Value
@@ -11074,12 +11074,12 @@
 		1102 4005  E-MU 0404 [MAEM8984]
 		1102 4007  E-MU 1010 [MAEM8982]
 		1102 4201  E-MU 0202 [MAEM8950]
-	0009  [SB X-Fi Xtreme Audio] CA0110-IBG
-		1102 0010  [SB X-Fi Xtreme Audio] CA0110-IBG
+	0009  CA0110 [Sound Blaster X-Fi Xtreme Audio]
+		1102 0010  MB0820 Integrated
 		1102 0018  SB1040 PCI Express
-	000b  EMU20k2 [X-Fi Titanium Series]
+	000b  EMU20k2 [Sound Blaster X-Fi Titanium Series]
 		1102 0041  SB0880 [SoundBlaster X-Fi Titanium PCI-e]
-	0012  SB Recon3D
+	0012  Sound Core3D [Sound Blaster Recon3D / Z-Series]
 		1102 0010  SB1570 SB Audigy Fx
 	4001  SB Audigy FireWire Port
 		1102 0010  SB Audigy FireWire Port
@@ -13779,6 +13779,7 @@
 		1028 04a3  Precision M4600
 	8331  O2 Flash Memory Card
 	8520  SD/MMC Card Reader Controller
+	8621  SD/MMC Card Reader Controller
 1218  Hybricon Corp.
 1219  First Virtual Corporation
 121a  3Dfx Interactive, Inc.
@@ -15852,6 +15853,7 @@
 	5015  T502-BT Unified Wire Ethernet Controller
 	5016  T580-OCP-SO Unified Wire Ethernet Controller
 	5017  T520-OCP-SO Unified Wire Ethernet Controller
+	5018  T540-BT Unified Wire Ethernet Controller
 	5080  T540-5080 Unified Wire Ethernet Controller
 	5081  T540-5081 Unified Wire Ethernet Controller
 	5082  T504-5082 Unified Wire Ethernet Controller
@@ -15898,6 +15900,7 @@
 	5415  T502-BT Unified Wire Ethernet Controller
 	5416  T580-OCP-SO Unified Wire Ethernet Controller
 	5417  T520-OCP-SO Unified Wire Ethernet Controller
+	5418  T540-BT Unified Wire Ethernet Controller
 	5480  T540-5080 Unified Wire Ethernet Controller
 	5481  T540-5081 Unified Wire Ethernet Controller
 	5482  T504-5082 Unified Wire Ethernet Controller
@@ -15944,6 +15947,7 @@
 	5515  T502-BT Unified Wire Storage Controller
 	5516  T580-OCP-SO Unified Wire Storage Controller
 	5517  T520-OCP-SO Unified Wire Storage Controller
+	5518  T540-BT Unified Wire Storage Controller
 	5580  T540-5080 Unified Wire Storage Controller
 	5581  T540-5081 Unified Wire Storage Controller
 	5582  T504-5082 Unified Wire Storage Controller
@@ -15990,6 +15994,7 @@
 	5615  T502-BT Unified Wire Storage Controller
 	5616  T580-OCP-SO Unified Wire Storage Controller
 	5617  T520-OCP-SO Unified Wire Storage Controller
+	5618  T540-BT Unified Wire Storage Controller
 	5680  T540-5080 Unified Wire Storage Controller
 	5681  T540-5081 Unified Wire Storage Controller
 	5682  T504-5082 Unified Wire Storage Controller
@@ -16075,6 +16080,7 @@
 	5815  T502-BT Unified Wire Ethernet Controller [VF]
 	5816  T580-OCP-SO Unified Wire Ethernet Controller [VF]
 	5817  T520-OCP-SO Unified Wire Ethernet Controller [VF]
+	5818  T540-BT Unified Wire Ethernet Controller [VF]
 	5880  T540-5080 Unified Wire Ethernet Controller [VF]
 	5881  T540-5081 Unified Wire Ethernet Controller [VF]
 	5882  T504-5082 Unified Wire Ethernet Controller [VF]
@@ -18811,6 +18817,21 @@
 17db  Cray Inc
 	0101  XT Series [Seastar] 3D Toroidal Router
 17de  KWorld Computer Co. Ltd.
+17df  Dini Group
+	1864  Virtex4 PCI Board w/ QL5064 Bridge [DN7000K10PCI/DN8000K10PCI/DN8000K10PSX/NOTUS]
+	1865  Virtex4 ASIC Emulator [DN8000K10PCIe]
+	1866  Virtex4 ASIC Emulator Cable Connection [DN8000K10PCI]
+	1867  Virtex4 ASIC Emulator Cable Connection [DN8000K10PCIe]
+	1868  Virtex4 ASIC Emulator [DN8000K10PCIe-8]
+	1900  Virtex5 PCIe ASIC Emulator [DN9000K10PCIe8T/DN9002K10PCIe8T/DN9200K10PCIe8T/DN7006K10PCIe8T/DN7406K10PCIe8T]
+	1901  Virtex5 PCIe ASIC Emulator Large BARs [DN9000K10PCIe8T/DN9002K10PCIe8T/DN9200K10PCIe8T/DN7006K10PCIe8T/DN7406K10PCIe8T]
+	1902  Virtex5 PCIe ASIC Emulator Low Power [Interceptor]
+	1903  Spartan6 PCIe FPGA Accelerator Board [DNBFCS12PCIe]
+	1904  Virtex6 PCIe ASIC Emulation Board [DNDUALV6_PCIe4]
+	1905  Virtex6 PCIe ASIC Emulation Board [DNV6F6PCIe]
+	1906  Virtex6 PCIe ASIC Emulation Board [DN2076K10]
+	1907  Virtex6 PCIe ASIC Emulation Board [DNV6F2PCIe]
+	1908  Virtex6 PCIe ASIC Emulation Board Large BARs[DNV6F2PCIe]
 17e4  Sectra AB
 	0001  KK671 Cardbus encryption board
 	0002  KK672 Cardbus encryption board
