@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.06.20
-#	Date:    2016-06-20 03:15:01
+#	Version: 2016.06.21
+#	Date:    2016-06-21 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -18832,6 +18832,13 @@
 	1906  Virtex6 PCIe ASIC Emulation Board [DN2076K10]
 	1907  Virtex6 PCIe ASIC Emulation Board [DNV6F2PCIe]
 	1908  Virtex6 PCIe ASIC Emulation Board Large BARs[DNV6F2PCIe]
+	1909  Kintex7 PCIe FPGA Accelerator Board [DNK7F5PCIe]
+	190a  Virtex7 PCIe ASIC Emulation Board [DNV7F1A]
+	190b  Stratix5 PCIe ASIC Emulation Board [DNS5GXF2]
+	190c  Virtex7 PCIe ASIC Emulation Board [DNV7F2A]
+	190d  Virtex7 PCIe ASIC Emulation Board [DNV7F4A]
+	190e  Virtex7 PCIe ASIC Emulation Board [DNV7F2B]
+	190f  KintexUS PCIe MainRef Design [DNPCIE_40G_KU_LL]
 17e4  Sectra AB
 	0001  KK671 Cardbus encryption board
 	0002  KK672 Cardbus encryption board
