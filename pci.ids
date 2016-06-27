@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.06.21
-#	Date:    2016-06-21 03:15:01
+#	Version: 2016.06.27
+#	Date:    2016-06-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10887,6 +10887,7 @@
 	8177  RTL8191CE PCIe Wireless Network Adapter
 	8178  RTL8192CE PCIe Wireless Network Adapter
 	8179  RTL8188EE Wireless Network Adapter
+		103c 197d  RTL8188EE mini-PCIe card
 	8180  RTL8180L 802.11b MAC
 		1385 4700  MA521 802.11b Wireless PC Card
 		1737 0019  WPC11v4 802.11b Wireless-B Notebook Adapter
@@ -10973,7 +10974,7 @@
 		1102 0020  CT4850 SBLive! Value
 		1102 0021  CT4620 SBLive!
 		1102 002f  M002/M003 Integrated SBLive!
-		1102 100a  SB Live! 5.1 Digital OEM [SB0220]
+		1102 100a  SB0220/0229 SBLive! 5.1 Digital OEM
 		1102 4001  E-mu APS
 		1102 8022  CT4780 SBLive! Value
 		1102 8023  CT4790 SoundBlaster PCI512
@@ -10995,10 +10996,10 @@
 		1102 8061  SB060 SBLive! Player 5.1
 		1102 8062  SB0100 SBLive! 5.1
 		1102 8063  DXW Integrated SBLive! 5.1
-		1102 8064  SBLive! 5.1 Model SB0100
+		1102 8064  SB0100/SB0102 SBLive! 5.1
 		1102 8065  SBLive! 5.1 Digital Model SB0220
 		1102 8066  SB0228 SBLive! 5.1 Digital
-		1102 8067  SBLive! 5.1 eMicro 28028
+		1102 8067  SB0220 SBLive! 5.1
 		1102 8068  CT0061 SBLive!
 		1102 8069  SB0101 SBLive! 5.1 Value
 		1102 806a  SB0103 SBLive! 5.1
@@ -11026,13 +11027,13 @@
 		1102 005b  SB0232 Audigy
 		1102 005c  SB0238 Audigy
 		1102 1002  SB0240 Audigy 2 Platinum 6.1
-		1102 1003  SB0350 Audigy 2
+		1102 1003  SB0350 Audigy 2 / SB0243 Audigy 2 OEM
 		1102 1004  SB0242 Audigy 2
 		1102 1005  SB0280 Audigy 2 Platinum Ex
 		1102 1006  SB0245 Audigy 2 OEM
 		1102 1007  SB0240 Audigy 2 Platinum 6.1
 		1102 1008  SB0320 Audigy 2
-		1102 1009  SB Audigy2 OEM HP
+		1102 1009  SB0249 Audigy 2 OEM
 		1102 100a  SB0246 Audigy 2
 		1102 2001  SB0360 Audigy 2 ZS Platinum Pro
 		1102 2002  SB0350 Audigy 2 ZS
@@ -12914,7 +12915,7 @@
 		103c 30b5  Presario V3242AU
 		103c 30b7  Presario V6133CL
 		103c 30cc  Pavilion dv6700
-		103c 30cf  Pavilion dv9500/9600/9700 series
+		103c 30cf  Pavilion dv95xx/96xx/97xx/98xx series
 		1043 1237  A6J-Q008
 		1043 1967  V6800V
 		144d c018  X20 IV
@@ -14001,6 +14002,7 @@
 	1969  ES1938/ES1946/ES1969 Solo-1 Audiodrive
 		1014 0166  ES1969 SOLO-1 AudioDrive on IBM Aptiva Mainboard
 		125d 8888  Solo-1 Audio Adapter
+		125d 8898  ES1938S TTSOLO1-SL [TerraTec 128i PCI]
 		153b 111b  Terratec 128i PCI
 	1978  ES1978 Maestro 2E
 		0e11 b112  Armada M700/E500
@@ -14125,13 +14127,13 @@
 	0002  DirecPC
 1274  Ensoniq
 	1171  ES1373 / Creative Labs CT5803 [AudioPCI]
-	1371  ES1371 / Creative Labs CT2518/ES1373
+	1371  ES1371/ES1373 / Creative Labs CT2518
 		0e11 0024  AudioPCI on Motherboard Compaq Deskpro
 		0e11 b1a7  ES1371, ES1373 AudioPCI
 		1033 80ac  ES1371, ES1373 AudioPCI
 		1042 1854  Tazer
 		107b 8054  Tabor2
-		1274 1371  AudioPCI 64V/128 / Creative CT4810/CT5803/CT5806 [Sound Blaster PCI]
+		1274 1371  Audio PCI 64V/128/5200 / Creative CT4810/CT5803/CT5806 [Sound Blaster PCI]
 		1274 8001  CT4751 board
 		1462 6470  ES1371, ES1373 AudioPCI On Motherboard MS-6147 1.1A
 		1462 6560  ES1371, ES1373 AudioPCI On Motherboard MS-6156 1.10
@@ -20168,6 +20170,7 @@
 		4c53 4000  PMCCARR1 carrier board
 	0022  HiNT HB4 PCI-PCI Bridge (PCI6150)
 	0026  HB2 PCI-PCI Bridge
+	1014  AudioTrak Maya
 	1018  Audiotrak INCA88
 	1019  Miditrak 2120
 	101a  E.Band [AudioTrak Inca88]
@@ -22604,6 +22607,7 @@
 	15ac  Ethernet Connection X552 10 GbE SFP+
 	15ad  Ethernet Connection X552/X557-AT 10GBASE-T
 	15ae  Ethernet Connection X552 1000BASE-T
+	15b5  DSL6340 USB 3.1 Controller [Alpine Ridge]
 	15b6  DSL6540 USB 3.1 Controller [Alpine Ridge]
 	15b7  Ethernet Connection (2) I219-LM
 	15b8  Ethernet Connection (2) I219-V
@@ -25961,6 +25965,7 @@
 	373f  Xeon C5500/C3500 IOxAPIC
 	37cd  X722 Virtual Function
 	37ce  Ethernet Connection X722 for 10GbE backplane
+		1590 0200  Ethernet 10Gb 2-port 568i Adapter
 	37cf  Ethernet Connection X722 for 10GbE QSFP+
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 	37d1  Ethernet Connection X722 for 1GbE
@@ -26503,6 +26508,7 @@
 		1af4 1100  QEMU Virtual Machine
 	5a84  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Integrated Graphics Controller
 	5a88  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Imaging Unit
+	5a98  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Audio Cluster
 	5a9a  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Trusted Execution Engine
 	5aa2  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Integrated Sensor Hub
 	5aa8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series USB xHCI
@@ -26525,9 +26531,13 @@
 	5acc  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series eMMC Controller
 	5ad0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SDIO Controller
 	5ad4  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SMBus Controller
-	5ad8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
-	5ad9  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
-	5ada  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port
+	5ad6  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port B #1
+	5ad7  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port B #2
+	5ad8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #1
+	5ad9  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #2
+	5ada  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #3
+	5adb  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series PCI Express Port A #4
+	5ae3  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series SATA AHCI Controller
 	5ae8  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Low Pin Count Interface
 	5aee  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series HSUART Controller #4
 	5af0  Atom/Celeron/Pentium Processor N4200/N3350/E3900 Series Host Bridge
