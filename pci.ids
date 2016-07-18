@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.07.13
-#	Date:    2016-07-13 03:15:02
+#	Version: 2016.07.18
+#	Date:    2016-07-18 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10526,7 +10526,7 @@
 	13ba  GM107GL [Quadro K2200]
 	13bb  GM107GL [Quadro K620]
 	13bc  GM107GL [Quadro K1200]
-	13bd  GM107GL [GRID M40]
+	13bd  GM107GL [Tesla M10]
 		10de 110a  GRID M40
 		10de 1160  Tesla M10
 	13c0  GM204 [GeForce GTX 980]
@@ -20409,6 +20409,8 @@
 	adc1  ADC200ME High speed ADC
 	de01  DL200ME High resolution delay line PCI based card
 	de02  DL200ME Middle resolution delay line PCI based card
+# Can't find any information on this company
+4651  TXIC
 4680  Umax Computer Corp
 4843  Hercules Computer Technology Inc
 4916  RedCreek Communications Inc
@@ -20757,6 +20759,7 @@
 	0003  TURBOstor HFP-832 [HiPPI NIC]
 5646  Vector Fabrics BV
 5654  VoiceTronix Pty Ltd
+5678  Dawicontrol Computersysteme GmbH
 5700  Netpower
 584d  AuzenTech Co., Ltd.
 5851  Exacq Technologies
@@ -22574,6 +22577,7 @@
 		8086 0008  Ethernet Converged Network Adapter X710-2
 		8086 0009  Ethernet Controller X710 for 10GbE SFP+
 		8086 000a  Ethernet Controller X710 for 10GbE SFP+
+		8086 000b  Ethernet Server Adapter X710-DA2 for OCP
 		8086 000d  Ethernet Controller X710 for 10GbE SFP+
 		8086 0010  Ethernet Converged Network Adapter X710
 		8086 4005  Ethernet Controller XL710 for 10 Gigabit SFP+
@@ -26011,6 +26015,7 @@
 	37cd  X722 Virtual Function
 	37ce  Ethernet Connection X722 for 10GbE backplane
 		1590 0200  Ethernet 10Gb 2-port 568i Adapter
+		8086 0215  Ethernet 10Gb 2-port 568i Adapter
 	37cf  Ethernet Connection X722 for 10GbE QSFP+
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 	37d1  Ethernet Connection X722 for 1GbE
