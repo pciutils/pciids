@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.07.18
-#	Date:    2016-07-18 03:15:01
+#	Version: 2016.07.20
+#	Date:    2016-07-20 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10000,6 +10000,7 @@
 	10c3  GT218 [GeForce 8400 GS Rev. 3]
 	10c5  GT218 [GeForce 405]
 	10d8  GT218 [NVS 300]
+	10f0  GP104 High Definition Audio Controller
 	1140  GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
 		1019 0799  GeForce 820M
 		1019 999f  GeForce GT 720M
@@ -10859,7 +10860,7 @@
 		1043 8505  P8 series motherboard
 		105b 0d7c  D270S/D250S Motherboard
 		10ec 8168  RTL8111/8168 PCI Express Gigabit Ethernet controller
-		1458 e000  Motherboard
+		1458 e000  Onboard Ethernet
 		1462 238c  Onboard RTL8111b on MSI P965 Platinum Mainboard
 		1462 368c  K9AG Neo2
 		1462 4180  Wind PC MS-7418
@@ -14423,7 +14424,7 @@
 12a8  News Datacom
 12a9  Xiotech Corporation
 12aa  SDL Communications, Inc.
-12ab  Yuan Yuan Enterprise Co., Ltd.
+12ab  YUAN High-Tech Development Co., Ltd.
 	0000  MPG160/Kuroutoshikou ITVC15-STVLP
 	0002  AU8830 [Vortex2] Based Sound Card With A3D Support
 	0003  T507 (DVB-T) TV tuner/capture device
@@ -17403,6 +17404,7 @@
 		0070 8010  WinTV HVR-1400 ExpressCard
 		0070 f038  WinTV HVR-5525
 		107d 6f22  WinFast PxTV1200
+		12ab d585  PE988J Hybrid ATSC/QAM PCI-E AVS Video Capture (SoftEncoder)
 		13c2 3013  TT-budget CT2-4500 CI
 		1461 c039  AVerTV Hybrid Express (A577)
 		153b 117e  Cinergy T PCIe Dual
@@ -17865,6 +17867,8 @@
 	caf1  ConnectX-4 CAPI Function
 # Spectrum, 100GbE Switch
 	cb84  MT52100
+	cf08  MT53236
+	d2f0  Switch-IB 3 HDR (200Gbps) switch
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
