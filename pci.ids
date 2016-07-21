@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.07.20
-#	Date:    2016-07-20 03:15:01
+#	Version: 2016.07.21
+#	Date:    2016-07-21 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19976,6 +19976,8 @@
 # 4TB Nytro PCIe controller
 		1bb1 6523  Nytro XP6500-8A4096
 	0100  Nytro Flash Storage
+		1bb1 0101  Nytro XF1440
+		1bb1 0121  Nytro XM1440
 		1bb1 01a1  Nytro XP7102
 1bb3  Bluecherry
 	4304  BC-04120A MPEG4 4 port video encoder / decoder
