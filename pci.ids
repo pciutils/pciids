@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.08.26
-#	Date:    2016-08-26 03:15:02
+#	Version: 2016.08.31
+#	Date:    2016-08-31 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -16852,32 +16852,32 @@
 		14e4 0009  NetXtreme BCM5703 1000Base-T
 		14e4 000a  NetXtreme BCM5703 1000Base-SX
 	16c8  BCM57301 NetXtreme-C 10Gb Ethernet Controller
-	16c9  BCM57302 NetXtreme-C Dual-port 10Gb/25Gb Ethernet
-	16ca  BCM57304 NetXtreme-C Dual-port 10Gb/25Gb/40Gb/50Gb Ethernet
+	16c9  BCM57302 NetXtreme-C 10Gb/25Gb Ethernet Controller
+	16ca  BCM57304 NetXtreme-C 10Gb/25Gb/40Gb/50Gb Ethernet Controller
 	16cb  BCM57304 NetXtreme-C Ethernet Virtual Function
 	16cc  BCM57417 NetXtreme-E Ethernet Partition
 	16ce  BCM57311 NetXtreme-C 10Gb RDMA Ethernet Controller
-	16cf  BCM57312 NetXtreme-C Dual-port 10Gb/25Gb RDMA Ethernet
-	16d0  BCM57402 NetXtreme-E Dual-port 10Gb Ethernet
-	16d1  BCM57404 NetXtreme-E Dual-port 10Gb/25Gb Ethernet
-	16d2  BCM57406 NetXtreme-E Dual-port 10GBase-T Ethernet
+	16cf  BCM57312 NetXtreme-C 10Gb/25Gb RDMA Ethernet Controller
+	16d0  BCM57402 NetXtreme-E 10Gb Ethernet Controller
+	16d1  BCM57404 NetXtreme-E 10Gb/25Gb Ethernet Controller
+	16d2  BCM57406 NetXtreme-E 10GBASE-T Ethernet Controller
 	16d3  BCM57404 NetXtreme-E Ethernet Virtual Function
 	16d4  BCM57402 NetXtreme-E Ethernet Partition
-	16d5  BCM57407 NetXtreme-E Dual-port 10GBase-T Ethernet
-	16d6  BCM57412 NetXtreme-E Dual-port 10Gb RDMA Ethernet
-	16d7  BCM57414 NetXtreme-E Dual-port 10Gb/25Gb RDMA Ethernet
+	16d5  BCM57407 NetXtreme-E 10GBase-T Ethernet Controller
+	16d6  BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller
+	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
 	16d8  BCM57416 NetXtreme-E Dual-port 10GBase-T RDMA Ethernet
-	16d9  BCM57417 NetXtreme-E Dual-port 10GBase-T RDMA Ethernet
+	16d9  BCM57417 NetXtreme-E 10GBASE-T RDMA Ethernet Controller
 	16dc  BCM57414 NetXtreme-E Ethernet Virtual Function
 	16dd  NetLink BCM5781 Gigabit Ethernet PCI Express
 	16de  BCM57412 NetXtreme-E Ethernet Partition
-	16df  BCM57314 NetXtreme-C Dual-port 10Gb/25Gb/40Gb/50Gb RDMA Ethernet
+	16df  BCM57314 NetXtreme-C 10Gb/25Gb/40Gb/50Gb RDMA Ethernet Controller
 	16e1  BCM57314 NetXtreme-C Ethernet Virtual Function
-	16e2  BCM57417 NetXtreme-E Dual-port 10Gb/25Gb RDMA Ethernet
-	16e3  BCM57416 NetXtreme-E Dual-port 10Gb RDMA Ethernet
+	16e2  BCM57417 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
+	16e3  BCM57416 NetXtreme-E 10Gb RDMA Ethernet Controller
 	16e7  BCM57404 NetXtreme-E Ethernet Partition
 	16e8  BCM57406 NetXtreme-E Ethernet Partition
-	16e9  BCM57407 NetXtreme-E Dual-port 25Gb Ethernet
+	16e9  BCM57407 NetXtreme-E 25Gb Ethernet Controller
 	16ec  BCM57414 NetXtreme-E Ethernet Partition
 	16ee  BCM57416 NetXtreme-E Ethernet Partition
 	16f3  NetXtreme BCM5727 Gigabit Ethernet PCIe
@@ -17629,6 +17629,7 @@
 	9277  5 Volt Delta Sigma Converter Card
 	9278  10 Volt Delta Sigma Converter Card
 	9287  Analog Output Card
+	9290  FPGA Card
 1543  SILICON Laboratories
 	3052  Intel 537 [Winmodem]
 	4c22  Si3036 MC'97 DAA
@@ -18915,6 +18916,7 @@
 17f2  Albatron Corp.
 17f3  RDC Semiconductor, Inc.
 	1010  R1010 IDE Controller
+	2012  M2012/R3308 VGA-compatible graphics adapter
 	6020  R6020 North Bridge
 	6021  R6021 Host Bridge
 	6030  R6030 ISA Bridge
@@ -19132,6 +19134,7 @@
 18d2  Sitecom Europe BV (Wrong ID)
 # Sitecom HFC-S based ISDN controller card DC-105v2
 	3069  DC-105v2 ISDN controller
+18d4  Celestica
 18d8  Dialogue Technology Corp.
 18dd  Artimi Inc
 	4c6f  Artimi RTMI-100 UWB adapter
@@ -19946,7 +19949,7 @@
 	91a4  88SE912x IDE Controller
 	9220  88SE9220 PCIe 2.0 x2 2-port SATA 6 Gb/s RAID Controller
 	9230  88SE9230 PCIe SATA 6Gb/s Controller
-		1d49 0300  M.2 with Mirroring Enablement Kit
+		1d49 0300  ThinkSystem M.2 with Mirroring Enablement Kit
 	9235  88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
 	9480  88SE9480 SAS/SATA 6Gb/s RAID controller
@@ -20140,6 +20143,7 @@
 	100e  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d78  DERA
+1d8f  Enyx
 1de1  Tekram Technology Co.,Ltd.
 	0391  TRM-S1040 [DC-315 / DC-395 series]
 	2020  DC-390
@@ -22616,6 +22620,8 @@
 		103c 22fd  HP Ethernet 10Gb 2-port 562SFP+ Adapter
 		1137 0000  Ethernet Converged NIC X710-4
 		1137 013b  Ethernet Converged NIC X710-4
+		1590 0000  Ethernet 10GbE 4P 563SFP+ Adapter
+		1590 0225  Ethernet 10GbE 4P 563SFP+ Adapter
 		17aa 0000  ThinkServer X710 AnyFabric for 10GbE SFP+
 		17aa 4001  ThinkServer X710-4 AnyFabric for 10GbE SFP+
 		17aa 4002  ThinkServer X710-2 AnyFabric for 10GbE SFP+
