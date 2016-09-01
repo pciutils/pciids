@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.08.31
-#	Date:    2016-08-31 03:15:01
+#	Version: 2016.09.01
+#	Date:    2016-09-01 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10587,6 +10587,7 @@
 	1b81  GP104 [GeForce GTX 1070]
 	1b82  GP104
 	1b83  GP104
+	1ba0  GP104M [GeForce GTX 1080]
 	1ba1  GP104M [GeForce GTX 1070]
 	1bb0  GP104GL
 	1bb1  GP104GL
@@ -10597,6 +10598,7 @@
 	1c01  GP106
 	1c02  GP106 [GeForce GTX 1060 3GB]
 	1c03  GP106 [GeForce GTX 1060 6GB]
+	1c20  GP106M [GeForce GTX 1060]
 	1c30  GP106GL
 	1c60  GP106M [GeForce GTX 1060]
 	1c70  GP106GL
@@ -20044,7 +20046,13 @@
 	4254  10G-PCIE3-8D-2S
 	4255  10G-PCIE3-8D-Q
 	4256  10G-PCIE3-8D-2S
-	4258  10G-PCIE3-8E-2S
+	4258  10G-PCIE3-8E-2S Network Adapter
+	4260  10G-PCIE3-8E-4S Network Adapter
+	4261  10G-PCIE3-8E-4S Network Adapter
+	4262  10G-PCIE3-8E-4S Network Adapter
+	4263  10G-PCIE3-8E-4S Network Adapter
+	4264  10G-PCIE3-8E-2S Network Adapter
+	4265  10G-PCIE3-8E-2S Network Adapter
 1c1c  Symphony
 	0001  82C101
 1c28  Lite-On IT Corp. / Plextor
