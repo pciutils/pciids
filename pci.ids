@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.09.04
-#	Date:    2016-09-04 03:15:02
+#	Version: 2016.09.05
+#	Date:    2016-09-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2175,11 +2175,19 @@
 	67c0  Ellesmere [Polaris10]
 	67df  Ellesmere [Radeon RX 470/480]
 		1002 0b37  Radeon RX 480
+		1043 04a8  Radeon RX 480
+		1043 04b0  Radeon RX 470
 		1043 04fb  Radeon RX 480
 		1462 3411  Radeon RX 470
 		1462 3413  Radeon RX 480
+		148c 2372  Radeon RX 480
+		148c 2373  Radeon RX 470
+		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
-		174b e347  Radeon RX 480
+		174b e347  Radeon RX 470/480
+		174b e349  Radeon RX 470
+		1787 a470  Radeon RX 470
+		1787 a480  Radeon RX 480
 	67e0  Baffin [Polaris11]
 	67e1  Baffin [Polaris11]
 	67e8  Baffin [Polaris11]
@@ -3202,7 +3210,7 @@
 	95cc  RV620 GL [FirePro V3700]
 	95cd  RV620 [FirePro 2450]
 	95cf  RV620 GL [FirePro 2260]
-	960f  RS780 HDMI Audio [Radeon (HD) 3000 Series]
+	960f  RS780 HDMI Audio [Radeon 3000/3100 / HD 3200/3300]
 	9610  RS780 [Radeon HD 3200]
 		1458 d000  GA-MA78GM-S2H Motherboard
 	9611  RS780C [Radeon 3100]
@@ -3303,7 +3311,7 @@
 	9917  Trinity [Radeon HD 7620G]
 	9918  Trinity [Radeon HD 7600G]
 	9919  Trinity [Radeon HD 7500G]
-	9920  Liverpool Graphics
+	9920  Liverpool [Playstation 4 APU]
 	9921  Liverpool HDMI/DP Audio Controller
 	9990  Trinity [Radeon HD 7520G]
 	9991  Trinity [Radeon HD 7540D]
@@ -3323,40 +3331,41 @@
 	99a0  Trinity [Radeon HD 7520G]
 	99a2  Trinity [Radeon HD 7420G]
 	99a4  Trinity [Radeon HD 7400G]
-	aa00  R600 HDMI Audio [Radeon HD 2900 Series]
+	aa00  R600 HDMI Audio [Radeon HD 2900 GT/PRO/XT]
+	aa01  RV635 HDMI Audio [Radeon HD 3650/3730/3750]
 	aa08  RV630 HDMI Audio [Radeon HD 2600 Series]
-	aa10  RV610 HDMI Audio [Radeon HD 2350/2400 Series]
+	aa10  RV610 HDMI Audio [Radeon HD 2350 PRO / 2400 PRO/XT / HD 3410]
 		174b aa10  Radeon HD 2400 PRO
 		18bc aa10  Radeon HD 2400 PRO
 	aa18  RV670/680 HDMI Audio [Radeon HD 3690/3800 Series]
-	aa20  RV635 HDMI Audio [Radeon HD 3600 Series]
-	aa28  RV620 HDMI Audio [Radeon HD 3400 Series]
+	aa20  RV635 HDMI Audio [Radeon HD 3650/3730/3750]
+	aa28  RV620 HDMI Audio [Radeon HD 3450/3470/3550/3570]
 	aa30  RV770 HDMI Audio [Radeon HD 4850/4870]
 		174b aa30  Radeon HD 4850 512MB GDDR3 PCI-E Dual Slot Fansink
 	aa38  RV710/730 HDMI Audio [Radeon HD 4000 series]
 		103c 3628  dv6-1190en
-	aa50  Cypress HDMI Audio [Radeon HD 5800 Series]
+	aa50  Cypress HDMI Audio [Radeon HD 5830/5850/5870 / 6850/6870 Rebrand]
 	aa58  Juniper HDMI Audio [Radeon HD 5700 Series]
 # 5500, 5600 and mobile 5700 series
 	aa60  Redwood HDMI Audio [Radeon HD 5000 Series]
 		1025 033d  Mobility Radeon HD 5650
 		1025 0347  Aspire 7740G
-	aa68  Cedar HDMI Audio [Radeon HD 5400/6300 Series]
+	aa68  Cedar HDMI Audio [Radeon HD 5400/6300/7300 Series]
 		1028 aa68  XPS 8300
-	aa80  Cayman/Antilles HDMI Audio [Radeon HD 6900 Series]
+	aa80  Cayman/Antilles HDMI Audio [Radeon HD 6930/6950/6970/6990]
 	aa88  Barts HDMI Audio [Radeon HD 6800 Series]
-	aa90  Turks/Whistler HDMI Audio [Radeon HD 6000 Series]
+	aa90  Turks HDMI Audio [Radeon HD 6500/6600 / 6700M Series]
 		1028 04a3  Precision M4600
 	aa98  Caicos HDMI Audio [Radeon HD 6400 Series]
 		174b aa98  Radeon HD 6450 1GB DDR3
-	aaa0  Tahiti XT HDMI Audio [Radeon HD 7970 Series]
+	aaa0  Tahiti HDMI Audio [Radeon HD 7870 XT / 7950/7970]
 	aab0  Cape Verde/Pitcairn HDMI Audio [Radeon HD 7700/7800 Series]
 	aac0  Tobago HDMI Audio [Radeon R7 360 / R9 360 OEM]
-	aac8  Hawaii HDMI Audio
+	aac8  Hawaii HDMI Audio [Radeon R9 290/290X / 390/390X]
 # I have a Tonga card and this is the HDMI Audio part
 	aad8  Tonga HDMI Audio [Radeon R9 285/380]
 		174b aad8  Radeon R9 285/380 HDMI Audio
-	aae8  Fiji HDMI/DP Audio Controller
+	aae8  Fiji HDMI/DP Audio [Radeon R9 Nano / FURY/FURY X]
 	ac00  Theater 600 Pro
 	ac02  TV Wonder HD 600 PCIe
 	ac12  Theater HD T507 (DVB-T) TV tuner/capture device
