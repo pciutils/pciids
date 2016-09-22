@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.09.18
-#	Date:    2016-09-18 03:15:02
+#	Version: 2016.09.22
+#	Date:    2016-09-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -4472,6 +4472,11 @@
 		102b 2241  M9138 LP PCIe x16
 		102b 2280  M9188 ATX PCIe x16
 		102b 22c0  M9128 LP PCIe x16
+	0550  SV2
+		102b 00c0  MURA-IPX-I4EF
+		102b 00c1  MURA-IPX-I4DF
+		102b 00c3  MURA-IPX-I4DHF
+		102b 00c5  MURA-IPX-I4EHF
 	0d10  MGA Ultima/Impression
 	1000  MGA G100 [Productiva]
 		102b ff01  Productiva G100
