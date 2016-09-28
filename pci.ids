@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.09.27
-#	Date:    2016-09-27 03:15:02
+#	Version: 2016.09.28
+#	Date:    2016-09-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -22779,6 +22779,17 @@
 		8086 0001  Ethernet Converged Network Adapter X710-T4
 		8086 0002  Ethernet Converged Network Adapter X710-T4
 		8086 1003  Ethernet Converged Network Adapter X710-T
+	158a  Ethernet Controller XXV710 for 25GbE backplane
+	158b  Ethernet Controller XXV710 for 25GbE SFP28
+		8086 0000  Ethernet Network Adapter XXV710
+		8086 0001  Ethernet Network Adapter XXV710-2
+		8086 0002  Ethernet Network Adapter XXV710-2
+		8086 0003  Ethernet Network Adapter XXV710-1
+		8086 0004  Ethernet Network Adapter XXV710-1
+		8086 0005  Ethernet Network Adapter OCP XXV710-2
+		8086 0006  Ethernet Network Adapter OCP XXV710-2
+		8086 0007  Ethernet Network Adapter OCP XXV710-1
+		8086 0008  Ethernet Network Adapter OCP XXV710-1
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
 	15a2  Ethernet Connection (3) I218-LM
