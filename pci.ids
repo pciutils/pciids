@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.10.03
-#	Date:    2016-10-03 03:15:01
+#	Version: 2016.10.11
+#	Date:    2016-10-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -17919,7 +17919,7 @@
 	1015  MT27710 Family [ConnectX-4 Lx]
 	1016  MT27710 Family [ConnectX-4 Lx Virtual Function]
 	1017  MT27800 Family [ConnectX-5]
-	1018  MT28800 Family [ConnectX-5 Virtual Function]
+	1018  MT27800 Family [ConnectX-5 Virtual Function]
 	1019  MT28800 Family [ConnectX-5 Ex]
 	101a  MT28800 Family [ConnectX-5 Ex Virtual Function]
 	101b  MT28831
@@ -17930,6 +17930,7 @@
 	1020  MT28860
 	1021  MT28861
 	1974  MT28800 Family [ConnectX-5 PCIe Bridge]
+	1975  MT416842 Family [BlueField SoC PCIe Bridge]
 	5274  MT21108 InfiniBridge
 	5a44  MT23108 InfiniHost
 	5a45  MT23108 [Infinihost HCA Flash Recovery]
@@ -17964,6 +17965,9 @@
 	7121  NPS-600 configuration and management interface
 	7122  NPS-600 network interface PF
 	7123  NPS-600 network interface VF
+	a2d0  MT416842
+	a2d1  MT416842
+	a2d3  MT416842 BlueField multicore SoC family VF
 # SwitchX-2, 40GbE switch
 	c738  MT51136
 	c739  MT51136 GW
@@ -18879,6 +18883,7 @@
 	0401  Datacenter Technologies QDF2400 PCI Express Root Port
 17cc  NetChip Technology, Inc
 	2280  USB 2.0
+17cd  Cadence Design Systems, Inc.
 17cf  Z-Com, Inc.
 17d3  Areca Technology Corp.
 	1110  ARC-1110 4-Port PCI-X to SATA RAID Controller
@@ -20288,7 +20293,8 @@
 		1432 8102  EN-8102P 10GbE Ethernet Adapter
 		1fc9 3015  Ethernet Adapter
 	4026  TN9610 10GbE SFP+ Ethernet Adapter
-	4027  TN9710 10GBase-T/NBASE-T Ethernet Adapter
+	4027  TN9710P 10GBase-T/NBASE-T Ethernet Adapter
+	4527  TN9710Q 5GBase-T/NBASE-T Ethernet Adapter
 1fcc  StreamLabs
 	f416  MS416
 	fb01  MH4LM
@@ -22293,6 +22299,7 @@
 		17aa 4007  82599ES 10-Gigabit SFI/SFP+ Network Connection
 		17aa 402b  82599ES 10Gb 2-port Server Adapter X520-DA2
 		17aa 402f  FPGA Card XC7VX690T-3FFG1157E
+		18d4 0c09  82599ES 10Gb 2-port SFP+ OCP Mezz Card MOP81-I-10GS2
 		1bd4 001b  10G SFP+ DP ER102Fi4 Rack Adapter
 		1bd4 002f  10G SFP+ DP EP102Fi4A Adapter
 		1bd4 0032  10G SFP+ DP EP102Fi4 Adapter
@@ -22588,6 +22595,7 @@
 		15d9 0652  Dual Port i350 GbE MicroLP [AOC-CGP-i2]
 		17aa 1074  ThinkServer I350-T4 AnyFabric
 		17aa 4005  I350 Gigabit Network Connection
+		18d4 0c07  I350 1Gb 2-port RJ45 OCP Mezz Card MOP41-I-1GT2
 		1bd4 001d  1G base-T QP EP014Ti1 Adapter
 		1bd4 0035  1G base-T QP EP014Ti1 Adapter
 		8086 0001  Ethernet Server Adapter I350-T4
@@ -22696,6 +22704,7 @@
 		1028 1fa9  Ethernet 10G 4P X550 rNDC
 		1590 00d1  Ethernet 10Gb 2-port 562T Adapter
 		1590 00d2  Ethernet 10Gb 2-port 562FLR-T Adapter
+		18d4 0c08  X550 10Gb 2-port RJ45 OCP Mezz Card MOP81-I-10GT2
 		8086 0001  Ethernet Converged Network Adapter X550-T2
 		8086 001a  Ethernet Converged Network Adapter X550-T2
 		8086 0022  Ethernet Converged Network Adapter X550-T2
@@ -22780,11 +22789,11 @@
 		108e 0000  Ethernet Controller X710 for 10GBASE-T
 		108e 4857  Ethernet Controller X710 for 10GBASE-T
 	1587  Ethernet Controller XL710 for 20GbE backplane
-		103c 0000  HP Flex-20 20Gb 2-port 660FLB Adapter
-		103c 22fe  HP Flex-20 20Gb 2-port 660FLB Adapter
+		103c 0000  HPE Ethernet 10/20Gb 2-port 660FLB Adapter
+		103c 22fe  HPE Ethernet 10/20Gb 2-port 660FLB Adapter
 	1588  Ethernet Controller XL710 for 20GbE backplane
-		103c 0000  HP Flex-20 20Gb 2-port 660M Adapter
-		103c 22ff  HP Flex-20 20Gb 2-port 660M Adapter
+		103c 0000  HPE Ethernet 10/20Gb 2-port 660M Adapter
+		103c 22ff  HPE Ethernet 10/20Gb 2-port 660M Adapter
 	1589  Ethernet Controller X710/X557-AT 10GBASE-T
 		108e 0000  Quad Port 10GBase-T Adapter
 		108e 7b1c  Quad Port 10GBase-T Adapter
