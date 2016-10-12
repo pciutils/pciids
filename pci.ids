@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.10.11
-#	Date:    2016-10-11 03:15:02
+#	Version: 2016.10.12
+#	Date:    2016-10-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -243,8 +243,13 @@
 	0013  53c875a
 		1000 1000  LSI53C875A PCI to Ultra SCSI Controller
 	0014  MegaRAID Tri-Mode SAS3516
+		1028 1fd4  PERC H745P MX
 		1d49 0602  ThinkSystem RAID 930-16i 4GB Flash PCIe 12Gb Adapter
 	0016  MegaRAID Tri-Mode SAS3508
+		1028 1fc9  PERC H840 Adapter
+		1028 1fcb  PERC H740P Adapter
+		1028 1fcd  PERC H740P Mini
+		1028 1fcf  PERC H740P Mini
 		1d49 0601  ThinkSystem RAID 930-8i 2GB Flash PCIe 12Gb Adapter
 		1d49 0603  ThinkSystem RAID 930-24i 4GB Flash PCIe 12Gb Adapter
 		1d49 0604  ThinkSystem RAID 930-8e 4GB Flash PCIe 12Gb Adapter
@@ -374,6 +379,7 @@
 		1028 1f4d  PERC FD33xS
 		1028 1f4f  PERC H730P Slim
 		1028 1f54  PERC FD33xD
+		1028 1fd1  PERC H730P MX
 		17aa 1052  ThinkServer RAID 720i
 		17aa 1053  ThinkServer RAID 720ix
 		1d49 0600  ThinkSystem RAID 730-8i 1GB Cache PCIe 12Gb Adapter
@@ -533,8 +539,11 @@
 	0097  SAS3008 PCI-Express Fusion-MPT SAS-3
 		1000 3090  SAS9311-8i
 		1000 30e0  SAS9300-8i
-		1028 1f45  12GB/s HBA internal
+		1028 1f45  HBA330 Adapter
 		1028 1f46  12Gbps HBA
+		1028 1f53  HBA330 Mini
+		1028 1fd2  HBA330 MX
+		1028 1fd3  HBA330 MMZ
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00ac  SAS3416 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
 		1d49 0201  ThinkSystem 9400-16i PCIe 12Gb HBA
