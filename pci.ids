@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.10.12
-#	Date:    2016-10-12 03:15:02
+#	Version: 2016.10.13
+#	Date:    2016-10-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1595,7 +1595,7 @@
 		1462 2938  Radeon R9 360 OEM
 		1462 3271  Radeon R9 360 OEM
 		1682 7360  Radeon R7 360
-	6660  Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330]
+	6660  Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330 / M430]
 		1028 05ea  Radeon HD 8670M
 		1028 06bf  Radeon R5 M335
 		103c 1970  Radeon HD 8670M
@@ -1603,6 +1603,7 @@
 		103c 8136  Radeon R5 M330
 		17aa 3804  Radeon R5 M330
 		17aa 3809  Radeon R5 M330
+		17aa 381a  Radeon R5 M430
 		17aa 390c  Radeon R5 M330
 	6663  Sun PRO [Radeon HD 8570A/8570M]
 		1025 0846  Radeon HD 8570A
@@ -2873,11 +2874,12 @@
 		174b e180  Radeon HD 7350
 		17af 3015  Radeon HD 7350
 	68fe  Cedar LE
-	6900  Topaz XT [Radeon R7 M260/M265 / M340/M360]
+	6900  Topaz XT [Radeon R7 M260/M265 / M340/M360 / M440/M445]
 		1025 1056  Radeon R7 M360 / R8 M365DX
 		1028 0640  Radeon R7 M260/M265
 		1028 0643  Radeon R7 M260/M265
 		1028 067f  Radeon R7 M260
+		1028 0767  Radeon R7 M445
 		1028 130a  Radeon R7 M260
 		103c 2263  Radeon R7 M260
 		103c 2269  Radeon R7 M260
@@ -2888,6 +2890,7 @@
 		103c 80b5  Radeon R7 M360
 		103c 80b9  Radeon R7 M360
 		103c 811c  Radeon R7 M340
+		103c 8226  Radeon R7 M440
 		10cf 1906  Radeon R7 M260
 		1170 9979  Radeon R7 M360
 		1179 f903  Radeon R7 M260
@@ -2899,6 +2902,7 @@
 		17aa 5021  Radeon R7 M260
 	6901  Topaz PRO [Radeon R5 M255]
 		103c 1318  Radeon R6 M255DX
+	6907  Meso XT [Radeon R5 M315]
 	6921  Amethyst XT [Radeon R9 M295X]
 	6929  Tonga XT GL [FirePro S7150]
 	692b  Tonga PRO GL [FirePro W7100]
@@ -3356,7 +3360,7 @@
 	99a4  Trinity [Radeon HD 7400G]
 	aa00  R600 HDMI Audio [Radeon HD 2900 GT/PRO/XT]
 	aa01  RV635 HDMI Audio [Radeon HD 3650/3730/3750]
-	aa08  RV630 HDMI Audio [Radeon HD 2600 Series]
+	aa08  RV630 HDMI Audio [Radeon HD 2600 PRO/XT / HD 3610]
 	aa10  RV610 HDMI Audio [Radeon HD 2350 PRO / 2400 PRO/XT / HD 3410]
 		174b aa10  Radeon HD 2400 PRO
 		18bc aa10  Radeon HD 2400 PRO
@@ -3376,10 +3380,10 @@
 	aa68  Cedar HDMI Audio [Radeon HD 5400/6300/7300 Series]
 		1028 aa68  XPS 8300
 	aa80  Cayman/Antilles HDMI Audio [Radeon HD 6930/6950/6970/6990]
-	aa88  Barts HDMI Audio [Radeon HD 6800 Series]
+	aa88  Barts HDMI Audio [Radeon HD 6790/6850/6870 / 7720 OEM]
 	aa90  Turks HDMI Audio [Radeon HD 6500/6600 / 6700M Series]
 		1028 04a3  Precision M4600
-	aa98  Caicos HDMI Audio [Radeon HD 6400 Series]
+	aa98  Caicos HDMI Audio [Radeon HD 6450 / 7450/8450/8490 OEM / R5 230/235/235X OEM]
 		174b aa98  Radeon HD 6450 1GB DDR3
 	aaa0  Tahiti HDMI Audio [Radeon HD 7870 XT / 7950/7970]
 	aab0  Cape Verde/Pitcairn HDMI Audio [Radeon HD 7700/7800 Series]
@@ -23185,7 +23189,7 @@
 	1e09  7 Series Chipset Family 2-port SATA Controller [IDE mode]
 		144d c652  NP300E5C series laptop
 	1e0e  7 Series/C210 Series Chipset Family SATA Controller [RAID mode]
-	1e10  7 Series/C210 Series Chipset Family PCI Express Root Port 1
+	1e10  7 Series/C216 Chipset Family PCI Express Root Port 1
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
@@ -23197,7 +23201,7 @@
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
 	1e14  7 Series/C210 Series Chipset Family PCI Express Root Port 3
-	1e16  7 Series/C210 Series Chipset Family PCI Express Root Port 4
+	1e16  7 Series/C216 Chipset Family PCI Express Root Port 4
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
 		144d c652  NP300E5C series laptop
@@ -23210,7 +23214,7 @@
 	1e1c  7 Series/C210 Series Chipset Family PCI Express Root Port 7
 	1e1e  7 Series/C210 Series Chipset Family PCI Express Root Port 8
 		1849 1e1e  Motherboard
-	1e20  7 Series/C210 Series Chipset Family High Definition Audio Controller
+	1e20  7 Series/C216 Chipset Family High Definition Audio Controller
 		1028 054b  Dell XPS One 2710
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
@@ -23219,7 +23223,7 @@
 		1043 8445  ASUS P8Z77-V LX Motherboard
 		144d c652  NP300E5C series laptop
 		1849 1898  Z77 Extreme4 motherboard
-	1e22  7 Series/C210 Series Chipset Family SMBus Controller
+	1e22  7 Series/C216 Chipset Family SMBus Controller
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
@@ -23229,14 +23233,14 @@
 	1e24  7 Series/C210 Series Chipset Family Thermal Management Controller
 		1043 1517  Zenbook Prime UX31A
 	1e25  7 Series/C210 Series Chipset Family DMI to PCI Bridge
-	1e26  7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1
+	1e26  7 Series/C216 Chipset Family USB Enhanced Host Controller #1
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
 		1043 84ca  P8 series motherboard
 		144d c652  NP300E5C series laptop
 		1849 1e26  Motherboard
-	1e2d  7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2
+	1e2d  7 Series/C216 Chipset Family USB Enhanced Host Controller #2
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
@@ -23251,7 +23255,7 @@
 		1043 84ca  P8 series motherboard
 		1849 1e31  Motherboard
 	1e33  7 Series/C210 Series Chipset Family LAN Controller
-	1e3a  7 Series/C210 Series Chipset Family MEI Controller #1
+	1e3a  7 Series/C216 Chipset Family MEI Controller #1
 		1043 108d  VivoBook X202EV
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
