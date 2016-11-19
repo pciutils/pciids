@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.10.29
-#	Date:    2016-10-29 03:15:01
+#	Version: 2016.11.19
+#	Date:    2016-11-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -48,9 +48,11 @@
 021b  Compaq Computer Corporation
 	8139  HNE-300 (RealTek RTL8139c) [iPaq Networking]
 0270  Hauppauge computer works Inc. (Wrong ID)
+0291  Davicom Semiconductor, Inc. (Wrong ID)
 # SpeedStream is Efficient Networks, Inc, a Siemens Company
 02ac  SpeedStream
 	1012  1012 PCMCIA 10/100 Ethernet Card [RTL81xx]
+02e0  XFX Pine Group Inc. (Wrong ID)
 0303  Hewlett-Packard Company (Wrong ID)
 0308  ZyXEL Communications Corporation (Wrong ID)
 0315  SK-Electronics Co., Ltd.
@@ -19298,7 +19300,7 @@
 18bc  GeCube Technologies, Inc.
 18c3  Micronas Semiconductor Holding AG
 	0720  nGene PCI-Express Multimedia Controller
-		07ca 032e  Hybrid M779 PCI-E
+		1461 032e  Hybrid M779 PCI-E
 # Nee Octigabay System
 18c8  Cray Inc
 18c9  ARVOO Engineering BV
@@ -20418,6 +20420,7 @@
 2bd8  ROPEX Industrie-Elektronik GmbH
 3000  Hansol Electronics Inc.
 3112  Satelco Ingenieria S.A.
+3130  AUDIOTRAK
 3142  Post Impression Systems.
 31ab  Zonet
 	1faa  ZEW1602 802.11b/g Wireless Adapter
