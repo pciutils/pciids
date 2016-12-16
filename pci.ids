@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.12.15
-#	Date:    2016-12-15 03:15:01
+#	Version: 2016.12.16
+#	Date:    2016-12-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -247,6 +247,7 @@
 	0014  MegaRAID Tri-Mode SAS3516
 		1028 1fd4  PERC H745P MX
 		1d49 0602  ThinkSystem RAID 930-16i 4GB Flash PCIe 12Gb Adapter
+	0015  MegaRAID Tri-Mode SAS3416
 	0016  MegaRAID Tri-Mode SAS3508
 		1028 1fc9  PERC H840 Adapter
 		1028 1fcb  PERC H740P Adapter
