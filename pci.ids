@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.01.27
-#	Date:    2017-01-27 03:15:01
+#	Version: 2017.01.28
+#	Date:    2017-01-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19488,8 +19488,8 @@
 	0155  NT100E3-1-PTP Network Adapter 1x100Gb
 	0165  NT80E3-2-PTP Network Adapter 2x40Gb
 	0175  NT20E3-2-PTP Network Adapter 2x10Gb
-	0185  NT40A01 4x1Gb Network Adapter
-	01a5  NT200A01 2x100Gb Network Adapter
+	0185  NT40A01 Network Adapter
+	01a5  NT200A01 Network Adapter
 18f6  NextIO
 	1000  [Nexsis] Switch Virtual P2P PCIe Bridge
 	1001  [Texsis] Switch Virtual P2P PCIe Bridge
