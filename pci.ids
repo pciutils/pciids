@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.03.04
-#	Date:    2017-03-04 03:15:01
+#	Version: 2017.03.10
+#	Date:    2017-03-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10112,6 +10112,7 @@
 	10d8  GT218 [NVS 300]
 	10ef  GP102 HDMI Audio Controller
 	10f0  GP104 High Definition Audio Controller
+	10f1  GP106 High Definition Audio Controller
 	1140  GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
 		1019 0799  GeForce 820M
 		1019 999f  GeForce GT 720M
@@ -18167,6 +18168,7 @@
 	7123  NPS-600 network interface VF
 	a2d0  MT416842 BlueField SoC Crypto enabled
 	a2d1  MT416842 BlueField SoC Crypto disabled
+	a2d2  MT416842 BlueField integrated ConnectX-5 network controller
 	a2d3  MT416842 BlueField multicore SoC family VF
 # SwitchX-2, 40GbE switch
 	c738  MT51136
@@ -20475,6 +20477,7 @@
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d78  DERA
 1d7c  Aerotech, Inc.
+1d87  Rockchip Inc. RK3399 PCI Express Root Port
 1d8f  Enyx
 1d95  Graphcore Ltd
 1da1  Teko Telecom S.r.l.
