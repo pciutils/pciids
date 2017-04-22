@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.04.03
-#	Date:    2017-04-03 03:15:02
+#	Version: 2017.04.22
+#	Date:    2017-04-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -26587,6 +26587,7 @@
 		17aa 4021  Intel Ethernet Connection X722 for 1GbE
 		17aa 4022  Intel Ethernet Connection X722 for 1GbE
 	37d2  Ethernet Connection X722 for 10GBASE-T
+		14cd 0030  Ethernet OCP 2x10G RJ45 Phy Card [USI-X557-10GbaseT]
 		1590 0218  Ethernet 10Gb 2-port 568FLR-MMT Adapter
 		17aa 4020  Intel Ethernet Connection X722 for 10GBASE
 		17aa 4021  Intel Ethernet Connection X722 for 10GBASE
