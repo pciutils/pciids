@@ -23804,7 +23804,7 @@
 	208e  Sky Lake-E CHA Registers
 	2250  Xeon Phi coprocessor 5100 series
 	225c  Xeon Phi coprocessor SE10/7120 series
-	225d  Xeon Phi coprocessor 3120 series 
+	225d  Xeon Phi coprocessor 3120 series
 	225e  Xeon Phi coprocessor 31S1
 	2280  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SoC Transaction Register
 	2284  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series High Definition Audio Controller
