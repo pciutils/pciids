@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.07.10
-#	Date:    2017-07-10 03:15:02
+#	Version: 2017.07.11
+#	Date:    2017-07-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -23319,6 +23319,7 @@
 		8086 00a2  Ethernet Converged Network Adapter X550-T1
 	15d2  JHL6540 Thunderbolt 3 NHI (C step) [Alpine Ridge 4C 2016]
 	15d3  JHL6540 Thunderbolt 3 Bridge (C step) [Alpine Ridge 4C 2016]
+	15d4  JHL6540 Thunderbolt 3 USB Controller (C step) [Alpine Ridge 4C 2016]
 	15d5  Ethernet SDI Adapter FM10420-25GbE-DA2
 		8086 0001  Intel(R) Ethernet SDI Adapter FM10420-25GbE-DA2
 	15d6  Ethernet Connection (5) I219-V
