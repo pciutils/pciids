@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.07.11
-#	Date:    2017-07-11 03:15:02
+#	Version: 2017.07.13
+#	Date:    2017-07-13 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -20630,7 +20630,7 @@
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d78  DERA
 1d7c  Aerotech, Inc.
-1d87  Rockchip Inc. RK3399 PCI Express Root Port
+1d87  Fuzhou Rockchip Electronics Co., Ltd
 1d8f  Enyx
 1d95  Graphcore Ltd
 1da1  Teko Telecom S.r.l.
@@ -23374,32 +23374,32 @@
 	163d  Broadwell-U Integrated Graphics
 	163e  Broadwell-U Integrated Graphics
 	1889  Ethernet Adaptive Virtual Function
-	1900  Skylake Host Bridge/DRAM Registers
-	1901  Skylake PCIe Controller (x16)
+	1900  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	1901  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
 	1902  HD Graphics 510
-	1903  Skylake Processor Thermal Subsystem
-	1904  Skylake Host Bridge/DRAM Registers
+	1903  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+	1904  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 		1028 06f3  Latitude 3570
 		17aa 382a  B51-80 Laptop
-	1905  Skylake PCIe Controller (x8)
+	1905  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)
 	1906  HD Graphics 510
 		17aa 382a  B51-80 Laptop
-	1908  Skylake Host Bridge/DRAM Registers
-	1909  Skylake PCIe Controller (x4)
-	190c  Skylake Host Bridge/DRAM Registers
-	190f  Skylake Host Bridge/DRAM Registers
-	1910  Skylake Host Bridge/DRAM Registers
-	1911  Skylake Gaussian Mixture Model
+	1908  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	1909  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x4)
+	190c  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	190f  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	1910  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	1911  Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	1912  HD Graphics 530
 	1916  HD Graphics 520
 		1028 06f3  Latitude 3570
-	1918  Skylake Host Bridge/DRAM Registers
-	1919  Skylake Imaging Unit
+	1918  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+	1919  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Imaging Unit
 	191b  HD Graphics 530
 	191d  HD Graphics P530
 	191e  HD Graphics 515
-	191f  Skylake Host Bridge/DRAM Registers
+	191f  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1921  HD Graphics 520
 	1926  Iris Graphics 540
 	1927  Iris Graphics 550
@@ -26781,6 +26781,7 @@
 		17aa 4021  Intel Ethernet Connection X722 for 10G SFP+
 		17aa 4022  Ethernet Connection X722 for 10GbE SFP+
 	37d1  Ethernet Connection X722 for 1GbE
+		14cd 0010  88E1514 Ethernet OCP 2x1G RJ45 Phy Card [USI-1514-1GbaseT]
 		1590 0216  Ethernet 1Gb 2-port 368i Adapter
 		1590 0217  Ethernet 1Gb 2-port 368FLR-MMT Adapter
 		1590 0247  Ethernet 1Gb 4-port 369i Adapter
