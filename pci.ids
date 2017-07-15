@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.07.13
-#	Date:    2017-07-13 03:15:01
+#	Version: 2017.07.15
+#	Date:    2017-07-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -16126,6 +16126,8 @@
 	50a0  T540-50A0 Unified Wire Ethernet Controller
 	50a1  T540-50A1 Unified Wire Ethernet Controller
 	50a2  T580-50A2 Unified Wire Ethernet Controller
+	50a3  T580-50A3 Unified Wire Ethernet Controller
+	50a4  T540-50A4 Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -16179,6 +16181,8 @@
 	54a0  T540-50A0 Unified Wire Ethernet Controller
 	54a1  T540-50A1 Unified Wire Ethernet Controller
 	54a2  T580-50A2 Unified Wire Ethernet Controller
+	54a3  T580-50A3 Unified Wire Ethernet Controller
+	54a4  T540-50A4 Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -16232,6 +16236,8 @@
 	55a0  T540-50A0 Unified Wire Storage Controller
 	55a1  T540-50A1 Unified Wire Storage Controller
 	55a2  T580-50A2 Unified Wire Storage Controller
+	55a3  T580-50A3 Unified Wire Storage Controller
+	55a4  T540-50A4 Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -16285,6 +16291,8 @@
 	56a0  T540-50A0 Unified Wire Storage Controller
 	56a1  T540-50A1 Unified Wire Storage Controller
 	56a2  T580-50A2 Unified Wire Storage Controller
+	56a3  T580-50A3 Unified Wire Storage Controller
+	56a4  T540-50A4 Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -16377,6 +16385,8 @@
 	58a0  T540-50A0 Unified Wire Ethernet Controller [VF]
 	58a1  T540-50A1 Unified Wire Ethernet Controller [VF]
 	58a2  T580-50A2 Unified Wire Ethernet Controller [VF]
+	58a3  T580-50A3 Unified Wire Ethernet Controller [VF]
+	58a4  T540-50A4 Unified Wire Ethernet Controller [VF]
 	6001  T6225-CR Unified Wire Ethernet Controller
 	6002  T6225-SO-CR Unified Wire Ethernet Controller
 	6003  T6425-CR Unified Wire Ethernet Controller
