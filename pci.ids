@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.07.15
-#	Date:    2017-07-15 03:15:02
+#	Version: 2017.07.24
+#	Date:    2017-07-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2434,7 +2434,7 @@
 		144d c0c7  Radeon HD 7550M
 	6842  Thames LE [Radeon HD 7000M Series]
 	6843  Thames [Radeon HD 7670M]
-	6863  Vega 10 [Radeon Vega Frontier Edition]
+	6863  Vega 10 XTX [Radeon Vega Frontier Edition]
 	687f  Vega [Radeon RX Vega]
 	6888  Cypress XT [FirePro V8800]
 	6889  Cypress PRO [FirePro V7800]
@@ -2950,6 +2950,8 @@
 	6987  Polaris12
 	6995  Lexa XT [Radeon PRO WX 2100]
 	699f  Lexa PRO [Radeon RX 550]
+		148c 2380  Lexa XL [Radeon RX 550]
+		1da2 e367  Lexa PRO [Radeon RX 550]
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
@@ -6011,6 +6013,7 @@
 	1016  ISP10160 Single Channel Ultra3 SCSI Processor
 	1020  ISP1020 Fast-wide SCSI
 	1022  ISP1022 Fast-wide SCSI
+	1077  FastLinQ QL45000 Series 50GbE Controller
 	1080  ISP1080 SCSI Host Adapter
 	1216  ISP12160 Dual Channel Ultra3 SCSI Processor
 		101e 8471  QLA12160 on AMI MegaRAID
@@ -16602,6 +16605,7 @@
 	e836  M115S Hybrid Analog/DVB PAL/SECAM/NTSC Tuner
 	f436  AVerTV Hybrid+FM
 1462  Micro-Star International Co., Ltd. [MSI]
+	aaf0  Radeon RX 580 Gaming X 8G
 1463  Fast Corporation
 1464  Interactive Circuits & Systems Ltd
 1465  GN NETTEST Telecom DIV.
@@ -24639,6 +24643,7 @@
 	24f3  Wireless 8260
 # Snow Field Peak AC
 		8086 0010  Dual Band Wireless-AC 8260
+		8086 1010  Dual Band Wireless-AC 8260
 	24f4  Wireless 8260
 # Snow Field Peak AC
 		8086 0030  Dual Band Wireless-AC 8260
