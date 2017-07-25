@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.07.24
-#	Date:    2017-07-24 03:15:02
+#	Version: 2017.07.25
+#	Date:    2017-07-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -6013,7 +6013,6 @@
 	1016  ISP10160 Single Channel Ultra3 SCSI Processor
 	1020  ISP1020 Fast-wide SCSI
 	1022  ISP1022 Fast-wide SCSI
-	1077  FastLinQ QL45000 Series 50GbE Controller
 	1080  ISP1080 SCSI Host Adapter
 	1216  ISP12160 Dual Channel Ultra3 SCSI Processor
 		101e 8471  QLA12160 on AMI MegaRAID
@@ -6027,6 +6026,7 @@
 		1077 e4f4  FastLinQ QL45411H 40GbE Adapter
 	1644  FastLinQ QL45000 Series 100GbE Controller
 		1077 e4f8  FastLinQ QL45611H 100GbE Adapter
+	1654  FastLinQ QL45000 Series 50GbE Controller
 	1656  FastLinQ QL45000 Series 25GbE Controller
 		1077 02a7  QL45212-DE 25GbE Adapter
 		1077 e4f6  FastLinQ QL45211H 25GbE Adapter
