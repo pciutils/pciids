@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.07.25
-#	Date:    2017-07-25 03:15:01
+#	Version: 2017.07.26
+#	Date:    2017-07-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -19285,6 +19285,7 @@
 		17d3 1880  ARC-1880 8/12/16/24 Port PCIe 2.0 to SAS/SATA 6Gb RAID Controller
 		17d3 1882  ARC-1882 8/12/16/24 Port PCIe 3.0 to SAS/SATA 6Gb RAID Controller
 		17d3 1883  ARC-1883 8/12/16/24 Port PCIe 3.0 to SAS/SATA 12Gb RAID Controller
+	1884  ARC-1884 series PCIe 3.0 to SAS/SATA 12/6Gb RAID Controller
 # nee Neterion Inc., previously S2io Inc.
 17d5  Exar Corp.
 	5731  Xframe 10-Gigabit Ethernet PCI-X
