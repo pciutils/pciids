@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.08.25
-#	Date:    2017-08-25 03:15:02
+#	Version: 2017.08.29
+#	Date:    2017-08-29 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10826,7 +10826,7 @@
 	1cb2  GP107GL [Quadro P600]
 	1cb3  GP107GL [Quadro P400]
 	1d01  GP108 [GeForce GT 1030]
-	1d10  [GP108] GeForce MX150
+	1d10  GP108M [GeForce MX150]
 	1d81  GV100
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -17029,6 +17029,7 @@
 	1655  NetXtreme BCM5717 Gigabit Ethernet PCIe
 	1656  NetXtreme BCM5718 Gigabit Ethernet PCIe
 	1657  NetXtreme BCM5719 Gigabit Ethernet PCIe
+		1014 0420  FC 5260/5899 4-port 1 GbE Adapter for Power
 		103c 169d  Ethernet 1Gb 4-port 331FLR Adapter
 		103c 22be  Ethernet 1Gb 4-port 331i Adapter
 		103c 3383  Ethernet 1Gb 4-port 331T Adapter
@@ -18294,6 +18295,7 @@
 	1012  MT27600 Family [Connect-IB Virtual Function]
 	1013  MT27700 Family [ConnectX-4]
 		15b3 0006  MCX416A-BCAT, ConnectX-4 EN, 40/56GbE 2P, PCIe3.0 x16
+		15b3 0008  ConnectX-4 Stand-up dual-port 100GbE MCX416A-CCAT
 		15b3 0033  ConnectX-4 VPI IB EDR/100 GbE Single Port QSFP28 Adapter
 		15b3 0034  ConnectX-4 VPI IB EDR/100 GbE Dual Port QSFP28 Adapter
 		15b3 0050  ConnectX-4 100 GbE Dual Port QSFP28 Adapter
@@ -18390,6 +18392,7 @@
 	0014  RamSan Flash SSD
 	0015  ZBox
 15b7  Sandisk Corp
+	2001  Skyhawk Series NVME SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -19140,6 +19143,10 @@
 		177d 0005  CN2360 [LiquidIO II] 2-port 10GbE Intelligent adapter
 		177d 0006  CN2360 [LiquidIO II] 2-port 25GbE Intelligent adapter
 		177d 0007  CN2350 [LiquidIO II] 2-port 25GbE Intelligent adapter
+		177d 0008  CN2350 [LiquidIO II] 2-port 10GbE SFP+ Intelligent adapter
+		177d 0009  CN2360 [LiquidIO II] 2-port 10GbE SFP+ Intelligent adapter
+		177d 000a  CN2350 [LiquidIO II] 2-port 10GBASE-T Intelligent adapter
+		177d 000b  CN2360 [LiquidIO II] 2-port 10GBASE-T Intelligent adapter
 	9703  CN23XX [LiquidIO II] NVMe Controller
 	9712  CN23XX [LiquidIO II] SRIOV Virtual Function
 		177d 0003  CN2350 [LiquidIO II] 2-port 10GbE SRIOV Virtual Function
@@ -19401,6 +19408,7 @@
 	1a07  KintexUS PCIe Darklite Design [DNPCIe_40G_KU_LL]
 	1a08  KintexUS PCIe Darklite Design [DNPCIe_40G_KU_LL_QSFP]
 	1a09  Arria10 PCIe Darklite Design [DNPCIe_80G_A10_LL]
+	1a0a  VirtexUS PCIe Darklite Design [DNVUF2_HPC_PCIe]
 17e4  Sectra AB
 	0001  KK671 Cardbus encryption board
 	0002  KK672 Cardbus encryption board
@@ -20611,6 +20619,8 @@
 	0003  Ultrastar SN100 Series NVMe SSD
 		1014 04f5  PCIe3 1.6TB NVMe Flash Adapter
 		1014 04f6  PCIe3 3.2TB NVMe Flash Adapter
+	0023  Ultrastar SN200/SN260 Series NVMe SSD (Single Port)
+	0024  Ultrastar SN200/SN260 Series NVMe SSD (Dual Port)
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	0540  PBlaze4 NVMe SSD
 # http://www.nicevt.ru/ (in Russian)
@@ -20649,6 +20659,9 @@
 	0007  ExaNIC X40
 1cf7  Subspace Dynamics
 1d00  Pure Storage
+1d0f  Amazon.com, Inc.
+	cd01  NVMe SSD Controller
+	ec20  Elastic Network Adapter (ENA)
 1d17  Zhaoxin
 	070f  ZX-100 PCI Express Root Port
 	0710  ZX-100/ZX-200 PCI Express Root Port
@@ -21404,6 +21417,8 @@
 	6178  DVB-S2 4 Tuner PCIe Card
 		544d 6904  TBS6904 DVB-S2 Quad Tuner PCIe Card
 		544d 6905  TBS6905 DVB-S2 Quad Tuner PCIe Card
+		6205 0001  TBS6205 DVB-T2/T/C Quad TV Tuner PCIe Card
+		6209 0001  TBS6209 DVB-T2/C2/T/C/ISDB-T OctaTV Tuner
 5452  SCANLAB AG
 	3443  RTC4
 5455  Technische University Berlin
@@ -21435,6 +21450,8 @@
 	c147  Virtualized Graphics Device
 5854  GoTView
 5ace  Beholder International Ltd.
+6205  TBS Technologies (wrong ID)
+6209  TBS Technologies (wrong ID)
 631c  SmartInfra Ltd
 	1652  PXI-1652 Signal Generator
 	2504  PXI-2504 Signal Interrogator
@@ -27466,6 +27483,7 @@
 	5916  HD Graphics 620
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	591d  HD Graphics P630
+	591f  Intel Kaby Lake Host Bridge
 	5a84  Celeron N3350/Pentium N4200/Atom E3900 Series Integrated Graphics Controller
 	5a88  Celeron N3350/Pentium N4200/Atom E3900 Series Imaging Unit
 	5a98  Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster
