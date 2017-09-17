@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.09.15
-#	Date:    2017-09-15 03:15:01
+#	Version: 2017.09.17
+#	Date:    2017-09-17 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -20388,7 +20388,7 @@
 	3003  ioMemory Mezzanine
 1aee  Caustic Graphics Inc.
 # nee Qumranet, Inc.
-1af4  Red Hat, Inc
+1af4  Red Hat, Inc.
 	1000  Virtio network device
 	1001  Virtio block device
 	1002  Virtio memory balloon
