@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.10.09
-#	Date:    2017-10-09 03:15:02
+#	Version: 2017.10.12
+#	Date:    2017-10-12 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -16276,6 +16276,8 @@
 	50a7  T580-50A7 Unified Wire Ethernet Controller
 	50a8  T580-50A8 Unified Wire Ethernet Controller
 	50a9  T580-50A9 Unified Wire Ethernet Controller
+	50aa  T580-50AA Unified Wire Ethernet Controller
+	50ab  T520-50AB Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -16336,6 +16338,8 @@
 	54a7  T580-50A7 Unified Wire Ethernet Controller
 	54a8  T580-50A8 Unified Wire Ethernet Controller
 	54a9  T580-50A9 Unified Wire Ethernet Controller
+	54aa  T580-50AA Unified Wire Ethernet Controller
+	54ab  T520-50AB Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -16456,6 +16460,8 @@
 	56a7  T580-50A7 Unified Wire Storage Controller
 	56a8  T580-50A8 Unified Wire Storage Controller
 	56a9  T580-50A9 Unified Wire Storage Controller
+	56aa  T580-50AA Unified Wire Storage Controller
+	56ab  T520-50AB Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -16555,6 +16561,8 @@
 	58a7  T580-50A7 Unified Wire Ethernet Controller [VF]
 	58a8  T580-50A8 Unified Wire Ethernet Controller [VF]
 	58a9  T580-50A9 Unified Wire Ethernet Controller [VF]
+	58aa  T580-50AA Unified Wire Ethernet Controller [VF]
+	58ab  T520-50AB Unified Wire Ethernet Controller [VF]
 	6001  T6225-CR Unified Wire Ethernet Controller
 	6002  T6225-SO-CR Unified Wire Ethernet Controller
 	6003  T6425-CR Unified Wire Ethernet Controller
@@ -28966,6 +28974,34 @@
 		103c 0701  Smart Array P204i-b SR Gen10
 		103c 1100  Smart Array P816i-a SR Gen10
 		103c 1101  Smart Array P416ie-m SR G10
+		9005 0800  SmartRAID 3154-8i
+		9005 0801  SmartRAID 3152-8i
+		9005 0802  SmartRAID 3151-4i
+		9005 0803  SmartRAID 3101-4i
+		9005 0804  SmartRAID 3154-8e
+		9005 0805  SmartRAID 3102-8i
+		9005 0806  SmartRAID 3100
+		9005 0807  SmartRAID 3162-8i
+		9005 0900  SmartHBA 2100-8i
+		9005 0901  SmartHBA 2100-4i
+		9005 0902  HBA 1100-8i
+		9005 0903  HBA 1100-4i
+		9005 0904  SmartHBA 2100-8e
+		9005 0905  HBA 1100-8e
+		9005 0906  SmartHBA 2100-4i4e
+		9005 0907  HBA 1100
+		9005 0908  SmartHBA 2100
+		9005 090a  SmartHBA 2100A-8i
+		9005 1200  SmartRAID 3154-24i
+		9005 1201  SmartRAID 3154-8i16e
+		9005 1202  SmartRAID 3154-8i8e
+		9005 1280  HBA 1100-16i
+		9005 1281  HBA 1100-16e
+		9005 1300  HBA 1100-8i8e
+		9005 1301  HBA 1100-24i
+		9005 1302  SmartHBA 2100-8i8e
+		9005 1303  SmartHBA 2100-24i
+		9005 1380  SmartRAID 3154-16i
 	0410  AIC-9410W SAS (Razor HBA RAID)
 		9005 0410  ASC-48300(Spirit RAID)
 		9005 0411  ASC-58300 (Oakmont RAID)
