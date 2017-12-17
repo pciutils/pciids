@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.12.15
-#	Date:    2017-12-15 03:15:02
+#	Version: 2017.12.17
+#	Date:    2017-12-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -4043,6 +4043,11 @@
 	1423  Family 15h (Models 30h-3fh) I/O Memory Management Unit
 	1424  Family 15h (Models 30h-3fh) Processor Root Port
 	1426  Family 15h (Models 30h-3fh) Processor Root Port
+	142e  Liverpool Processor Function 0
+	142f  Liverpool Processor Function 1
+	1430  Liverpool Processor Function 2
+	1431  Liverpool Processor Function 3
+	1432  Liverpool Processor Function 4
 	1436  Liverpool Processor Root Complex
 	1437  Liverpool I/O Memory Management Unit
 	1438  Liverpool Processor Root Port
@@ -25511,6 +25516,11 @@
 		15d9 8680  X7DVL-E-O motherboard
 		15d9 9680  X7DBN Motherboard
 	2700  Optane SSD 900P Series
+		8086 3900  900P Series [Add-in Card]
+		8086 3901  900P Series [2.5" SFF]
+	2701  Optane DC P4800X Series SSD
+		8086 3904  DC P4800X Series [Add-in Card]
+		8086 3905  DC P4800X Series [2.5" SFF]
 	2770  82945G/GZ/P/PL Memory Controller Hub
 		1028 01ad  OptiPlex GX620
 		103c 2a3b  Pavilion A1512X
