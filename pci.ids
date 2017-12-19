@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.12.17
-#	Date:    2017-12-17 03:15:02
+#	Version: 2017.12.19
+#	Date:    2017-12-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -20090,11 +20090,15 @@
 		1924 8019  SFN8542-R2 8000 Series 10/40G Adapter
 		1924 801a  SFN8722-R1 8000 Series OCP 10G Adapter
 		1924 801b  SFN8522-R3 8000 Series 10G Adapter
+	0b03  SFC9250 10/25/40/50/100G Ethernet Controller
+		1924 801d  x2522-R1 2000 Series 10/25G Adapter
+		1924 801e  x2542-R1 2000 Series 40/100G Adapter
 	1803  SFC9020 10G Ethernet Controller (Virtual Function)
 	1813  SFL9021 10GBASE-T Ethernet Controller (Virtual Function)
 	1903  SFC9120 10G Ethernet Controller (Virtual Function)
 	1923  SFC9140 10/40G Ethernet Controller (Virtual Function)
 	1a03  SFC9220 10/40G Ethernet Controller (Virtual Function)
+	1b03  SFC9250 10/25/40/50/100G Ethernet Controller (Virtual Function)
 	6703  SFC4000 rev A iSCSI/Onload [Solarstorm]
 		10b8 0102  SMC10GPCIe-10BT (A2) [TigerCard]
 		10b8 0103  SMC10GPCIe-10BT (A3) [TigerCard]
