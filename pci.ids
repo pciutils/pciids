@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2017.12.19
-#	Date:    2017-12-19 03:15:02
+#	Version: 2017.12.20
+#	Date:    2017-12-20 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -5657,6 +5657,22 @@
 	90a3  Aeolia Memory (DDR3/SPM)
 	90a4  Aeolia USB 3.0 xHCI Host Controller
 	90bc  SxS Pro+ memory card
+	90c8  Belize ACPI
+	90c9  Belize Ethernet Controller
+	90ca  Belize SATA AHCI Controller
+	90cb  Belize SD/MMC Host Controller
+	90cc  Belize PCI Express Glue and Miscellaneous Devices
+	90cd  Belize DMA Controller
+	90ce  Belize Memory (DDR3/SPM)
+	90cf  Belize USB 3.0 xHCI Host Controller
+	90d7  Baikal ACPI
+	90d8  Baikal Ethernet Controller
+	90d9  Baikal SATA AHCI Controller
+	90da  Baikal SD/MMC Host Controller
+	90db  Baikal PCI Express Glue and Miscellaneous Devices
+	90dc  Baikal DMA Controller
+	90dd  Baikal Memory (DDR3/SPM)
+	90de  Baikal USB 3.0 xHCI Host Controller
 104e  Oak Technology, Inc
 	0017  OTI-64017
 	0107  OTI-107 [Spitfire]
