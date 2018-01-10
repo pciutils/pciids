@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.01.09
-#	Date:    2018-01-09 03:15:02
+#	Version: 2018.01.10
+#	Date:    2018-01-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10959,6 +10959,7 @@
 	1bb7  GP104GLM [Quadro P4000 Mobile]
 		1462 11e9  Quadro P4000 Max-Q
 	1bb8  GP104GLM [Quadro P3000 Mobile]
+	1bc7  GP104 [P104-101]
 	1be0  GP104M [GeForce GTX 1080 Mobile]
 		1028 07c0  GeForce GTX 1080 Max-Q
 		1458 355b  GeForce GTX 1080 Max-Q
@@ -10967,6 +10968,8 @@
 	1c01  GP106
 	1c02  GP106 [GeForce GTX 1060 3GB]
 	1c03  GP106 [GeForce GTX 1060 6GB]
+	1c04  GP106 [GeForce GTX 1060 5GB]
+	1c06  GP106 [GeForce GTX 1060 6GB Rev. 2]
 	1c07  GP106 [P106-100]
 	1c09  GP106 [P106-090]
 	1c20  GP106M [GeForce GTX 1060 Mobile]
@@ -10994,6 +10997,7 @@
 	1cb3  GP107GL [Quadro P400]
 	1d01  GP108 [GeForce GT 1030]
 	1d10  GP108M [GeForce MX150]
+	1d33  GP108GL [Quadro P500]
 	1d81  GV100 [TITAN V]
 	1db1  GV100 [Tesla V100 SXM2]
 	1db4  GV100 [Tesla V100 PCIe]
@@ -21092,6 +21096,7 @@
 	e00a  Skylark PCI Express Root Port 5 [X-Gene 3]
 	e00b  Skylark PCI Express Root Port 6 [X-Gene 3]
 	e00c  Skylark PCI Express Root Port 7 [X-Gene 3]
+1df7  opencpi.org
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
