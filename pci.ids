@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.01.10
-#	Date:    2018-01-10 03:15:01
+#	Version: 2018.01.14
+#	Date:    2018-01-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2348,6 +2348,7 @@
 		1002 0b05  Radeon HD 8870 OEM
 		174b 8b04  Radeon HD 8860
 	6819  Pitcairn PRO [Radeon HD 7850 / R7 265 / R9 270 1024SP]
+		1043 042c  Radeon HD 7850
 		1682 7269  Radeon R9 270 1024SP
 		1682 9278  Radeon R9 270 1024SP
 		174b a008  Radeon R9 270 1024SP
@@ -11026,6 +11027,7 @@
 	e180  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
 	e200  LightPulse LPe16002
 		1014 03f1  PCIe2 16 Gb 2-port Fibre Channel Adapter (FC EL5B; CCIN 577F)
+		10df e282  Flex System FC5054 4-port 16Gb FC Adapter
 	e208  LightPulse 16Gb Fibre Channel Host Adapter (Lancer-VF)
 	e220  OneConnect NIC (Lancer)
 		17aa 1054  ThinkServer LPm16002B-M6-L AnyFabric
@@ -18528,6 +18530,7 @@
 	0281  NPS-600 Flash Recovery
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
+		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
 		103c 1777  InfiniBand FDR/EN 10/40Gb Dual Port 544FLR-QSFP Adapter (Rev Cx)
 		103c 17c9  Infiniband QDR/Ethernet 10Gb 2-port 544i Adapter
 		103c 18ce  InfiniBand QDR/EN 10Gb Dual Port 544M Adapter
@@ -18573,6 +18576,7 @@
 	1011  MT27600 [Connect-IB]
 	1012  MT27600 Family [Connect-IB Virtual Function]
 	1013  MT27700 Family [ConnectX-4]
+		1014 04f7  PCIe3 2-port 100 GbE (NIC and RoCE) QSFP28 Adapter for Power
 		15b3 0003  Mellanox Technologies ConnectX-4 Stand-up single-port 40GbE MCX413A-BCAT
 		15b3 0005  Mellanox Technologies ConnectX-4 Stand-up single-port 40GbE MCX415A-BCAT
 		15b3 0006  MCX416A-BCAT, ConnectX-4 EN, 40/56GbE 2P, PCIe3.0 x16
@@ -18618,6 +18622,7 @@
 	6372  MT25408 [ConnectX EN 10GigE 10GBaseT, PCIe 2.0 2.5GT/s]
 	6732  MT26418 [ConnectX VPI PCIe 2.0 5GT/s - IB DDR / 10GigE]
 	673c  MT26428 [ConnectX VPI PCIe 2.0 5GT/s - IB QDR / 10GigE]
+		1014 0415  PCIe2 2-port 4X InfiniBand QDR Adapter for Power
 		1014 0487  GX++ 1-port 4X IB QDR Adapter for Power 795
 		103c 1782  4X QDR InfiniBand Mezzanine HCA for c-Class BladeSystem
 		15b3 0021  HP InfiniBand 4X QDR CX-2 PCI-e G2 Dual Port HCA
@@ -21052,7 +21057,13 @@
 1d65  Imagine Communications Corp.
 	04de  Taurus/McKinley
 1d6a  Aquantia Corp.
+	07b1  AQC107 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+	08b1  AQC108 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+	11b1  AQC111 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+	12b1  AQC112 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+	87b1  AQC107 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 	d107  AQC107 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+	d108  AQC108 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 1d6c  Atomic Rules LLC
 	1001  A5PL-E1
 	1002  A5PL-E7
@@ -21076,6 +21087,35 @@
 1d87  Fuzhou Rockchip Electronics Co., Ltd
 1d8f  Enyx
 1d94  Chengdu Higon IC Design Co.Ltd
+	1450  Root Complex
+	1451  I/O Memory Management Unit
+	1452  PCIe Dummy Host Bridge
+	1453  PCIE GPP Bridge
+	1454  Internal PCIe GPP Bridge 0 to Bus B
+	1455  PCIe Dummy Function
+	1456  PSPCCP Command DMA Processor
+	1458  10 Gb Ethernet Controller Port 0/Port1
+	1459  10 Gb Ethernet Controller Port 2/Port3
+	145a  PCIe Dummy Function
+	145b  PCIE Non-Transparent Bridge
+	145c  USB3 XHCI
+	145d  Switch upstream in PCIe
+	145e  Switch downstream in PCIe
+	145f  USB 3.0 Host controller
+	1460  Data Fabric: Device 18h; Function 0
+	1461  Data Fabric: Device 18h; Function 1
+	1462  Data Fabric: Device 18h; Function 2
+	1463  Data Fabric: Device 18h; Function 3
+	1464  Data Fabric: Device 18h; Function 4
+	1465  Data Fabric: Device 18h; Function 5
+	1466  Data Fabric: Device 18h; Function 6
+	1467  Data Fabric: Device 18h; Function 7
+	1468  NTBCCP
+	7901  FCH SATA Controller [AHCI mode]
+	7904  FCH SATA Controller [AHCI mode]
+	7906  FCH SD Flash Controller
+	790b  FCH SMBus Controller
+	790e  FCH LPC Bridge
 1d95  Graphcore Ltd
 1da1  Teko Telecom S.r.l.
 1da2  Sapphire Technology Limited
@@ -28285,6 +28325,7 @@
 	8c26  8 Series/C220 Series Chipset Family USB EHCI #1
 		103c 1909  ZBook 15
 		17aa 220e  ThinkPad T440p
+		17aa 2210  ThinkPad T540p
 		2210 17aa  ThinkPad T540p
 	8c2d  8 Series/C220 Series Chipset Family USB EHCI #2
 		103c 1909  ZBook 15
