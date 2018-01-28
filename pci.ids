@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.01.14
-#	Date:    2018-01-14 03:15:02
+#	Version: 2018.01.28
+#	Date:    2018-01-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -250,6 +250,7 @@
 		1028 1fd4  PERC H745P MX
 		1d49 0602  ThinkSystem RAID 930-16i 4GB Flash PCIe 12Gb Adapter
 		1d49 0604  ThinkSystem RAID 930-8e 4GB Flash PCIe 12Gb Adapter
+		1d49 0607  ThinkSystem RAID 930-16i 8GB Flash PCIe 12Gb Adapter
 		8086 352d  Integrated RAID Module RMSP3AD160F
 		8086 9460  RAID Controller RSP3TD160F
 		8086 9480  RAID Controller RSP3MD088F
@@ -921,6 +922,7 @@
 		1043 836c  M4A785TD Motherboard
 		1043 8410  M4A89GTD PRO/USB3 Motherboard
 		1043 841b  M5A88-V EVO
+		1043 8445  M5A78L LE
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1179 ff50  Satellite P305D-S8995E
 		1458 a022  GA-MA770-DS3rev2.0 Motherboard
@@ -4165,8 +4167,11 @@
 	43a1  Hudson PCI to PCI bridge (PCIE port 1)
 	43a2  Hudson PCI to PCI bridge (PCIE port 2)
 	43a3  Hudson PCI to PCI bridge (PCIE port 3)
+	43b1  X399 Series Chipset PCIe Bridge
 	43b4  300 Series Chipset PCIe Port
+	43b6  X399 Series Chipset SATA Controller
 	43b7  300 Series Chipset SATA Controller
+	43ba  X399 Series Chipset USB 3.1 xHCI Controller
 	43bb  300 Series Chipset USB 3.1 xHCI Controller
 	7006  AMD-751 [Irongate] System Controller
 	7007  AMD-751 [Irongate] AGP Bridge
@@ -9464,6 +9469,7 @@
 		1682 2385  GeForce 9600 GSO 768mb
 	0611  G92 [GeForce 8800 GT]
 		107d 2ab0  Winfast PX8800 GT PCI-E
+		1462 1170  NX8800GT series model V117 2xDVI+TV
 		19da 1040  ZT-88TES2P-FSP
 	0612  G92 [GeForce 9800 GTX / 9800 GTX+]
 	0613  G92 [GeForce 9800 GTX+]
@@ -11288,6 +11294,7 @@
 		144d c652  RTL8168 on a NP300E5C series laptop
 		1458 e000  Onboard Ethernet
 		1462 238c  Onboard RTL8111b on MSI P965 Platinum Mainboard
+		1462 345c  RTL8111B on MS-7345 Motherboard
 		1462 368c  K9AG Neo2
 		1462 4180  Wind PC MS-7418
 		1462 7522  X58 Pro-E
@@ -14109,39 +14116,39 @@
 11fc  Silicon Magic
 11fd  High Street Consultants
 11fe  Comtrol Corporation
-	0001  RocketPort 32 port w/external I/F
-	0002  RocketPort 8 port w/external I/F
-	0003  RocketPort 16 port w/external I/F
-	0004  RocketPort 4 port w/quad cable
-	0005  RocketPort 8 port w/octa cable
-	0006  RocketPort 8 port w/RJ11 connectors
-	0007  RocketPort 4 port w/RJ11 connectors
-	0008  RocketPort 8 port w/ DB78 SNI (Siemens) connector
-	0009  RocketPort 16 port w/ DB78 SNI (Siemens) connector
-	000a  RocketPort Plus 4 port
-	000b  RocketPort Plus 8 port
-	000c  RocketModem 6 port
+	0001  RocketPort PCI 32-port w/external I/F
+	0002  RocketPort PCI 8-port w/external I/F
+	0003  RocketPort PCI 16-port w/external I/F
+	0004  RocketPort PCI 4-port w/Quad Cable
+	0005  RocketPort PCI 8-port w/Octa Cable
+	0006  RocketPort PCI 8-port w/RJ11 connectors
+	0007  RocketPort PCI 4-port w/RJ45 connectors
+	0008  RocketPort PCI 8-port w/DB78 SNI connector (Siemens)
+	0009  RocketPort PCI 16-port w/DB78 SNI connector (Siemens)
+	000a  RocketPort PCI Plus 4-port w/Quad Cable
+	000b  RocketPort PCI Plus 8-port w/Octa Cable
+	000c  RocketModem II 6-port
 	000d  RocketModem 4-port
-	000e  RocketPort Plus 2 port RS232
-	000f  RocketPort Plus 2 port RS422
-	0040  RocketPort Infinity Octa, 8port, RJ45
-	0041  RocketPort Infinity 32port, External Interface
-	0042  RocketPort Infinity 8port, External Interface
-	0043  RocketPort Infinity 16port, External Interface
-	0044  RocketPort Infinity Quad, 4port, DB
-	0045  RocketPort Infinity Octa, 8port, DB
+	000e  RocketPort PCI Plus 2-port RS-232 w/DB9 connectors
+	000f  RocketPort PCI Plus 2-port SMPTE w/DB9 connectors
+	0040  RocketPort INFINITY 8-port w/Octa Cable RJ45
+	0041  RocketPort INFINITY 32-port w/external I/F
+	0042  RocketPort INFINITY 8-port w/external I/F
+	0043  RocketPort INFINITY 16-port w/external I/F
+	0044  RocketPort INFINITY 4-port w/Quad Cable DB
+	0045  RocketPort INFINITY 8-port w/Octa Cable DB
 	0046  RocketPort INFINITY 4-port w/external I/F
-	0047  RocketPort Infinity 4port, RJ45
+	0047  RocketPort INFINITY 4J (4-port) w/RJ45 connectors
 	0048  RocketPort INFINITY 4J (4-port) w/RJ45 connectors
 	004a  RocketPort INFINITY Plus 4-port
 	004b  RocketPort INFINITY Plus 8-port
 	004c  RocketModem INFINITY III 8-port
 	004d  RocketModem INFINITY III 4-port
 	004e  RocketPort INFINITY Plus 2-port
-	004f  RocketPort Infinity 2port, SMPTE
+	004f  RocketPort INFINITY 2-port SMPTE w/DB9 connectors
 	0050  RocketPort INFINITY Plus 4-port RJ45
 	0051  RocketPort INFINITY Plus 8-port RJ11
-	0052  RocketPort Infinity Octa, 8port, SMPTE
+	0052  RocketPort INFINITY 8-port SMPTE w/DB9 Connectors
 	0060  RocketPort EXPRESS 8-port w/Octa Cable
 	0061  RocketPort EXPRESS 32-port w/external I/F
 	0062  RocketPort EXPRESS 8-Port w/external I/F
@@ -14159,7 +14166,7 @@
 	0805  RocketPort uPCI 8-port w/Octa Cable
 	080b  RocketPort Plus uPCI 8-port w/Octa Cable
 	080c  RocketModem III 8-port
-	080d  RcoketModem III 4-port
+	080d  RocketModem III 4-port
 	080e  RocketPort uPCI 2-port RS232 w/DB9 connectors
 	080f  RocketPort uPCI SMPTE 2-port
 	0810  RocketPort Plus uPCI 4J (4-port) w/RJ45 connectors
@@ -16335,6 +16342,7 @@
 	4887  T440T-4087 Unified Wire Ethernet Controller [VF]
 	4888  T440-4088 Unified Wire Ethernet Controller [VF]
 	5001  T520-CR Unified Wire Ethernet Controller
+		193d 1001  510F-B
 	5002  T522-CR Unified Wire Ethernet Controller
 	5003  T540-CR Unified Wire Ethernet Controller
 	5004  T520-BCH Unified Wire Ethernet Controller
@@ -17058,6 +17066,7 @@
 14be  L3 Communications
 14bf  SPIDER Communications Inc.
 14c0  COMPAL Electronics Inc
+	1201  X550 10Gb 2P RJ45 OCP Mezz
 # now owned by CSP, Inc.
 14c1  MYRICOM Inc.
 	0008  Myri-10G Dual-Protocol NIC
@@ -17166,7 +17175,12 @@
 		107b 5048  E4500 Onboard
 		1259 2705  AT-2711FX
 	1601  NetXtreme BCM5752M Gigabit Ethernet PCI Express
+	1604  BCM5745X NetXtreme-E Ethernet Partition
+	1605  BCM5745X NetXtreme-E RDMA Partition
+	1606  BCM5745X NetXtreme-E RDMA Virtual Function
+	1609  BCM5745X NetXtreme-E Ethernet Virtual Function
 	1612  BCM70012 Video Decoder [Crystal HD]
+	1614  BCM57454 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb Ethernet
 	1615  BCM70015 Video Decoder [Crystal HD]
 	1639  NetXtreme II BCM5709 Gigabit Ethernet
 		1028 0235  PowerEdge R710 BCM5709 Gigabit Ethernet
@@ -17409,6 +17423,8 @@
 		103c 193a  FlexFabric 10Gb 2-port 533FLR-T Adapter
 		103c 3382  Ethernet 10Gb 2-port 530FLR-SFP+ Adapter
 		103c 339d  Ethernet 10Gb 2-port 530SFP+ Adapter
+		193d 1003  530F-B
+		193d 1006  530F-L
 	1690  NetXtreme BCM57760 Gigabit Ethernet PCIe
 	1691  NetLink BCM57788 Gigabit Ethernet PCIe
 		1028 04aa  XPS 8300
@@ -17581,6 +17597,7 @@
 	16ed  BCM57414 NetXtreme-E RDMA Partition
 	16ee  BCM57416 NetXtreme-E Ethernet Partition
 	16ef  BCM57416 NetXtreme-E RDMA Partition
+	16f1  BCM57452 NetXtreme-E 10Gb/25Gb/40Gb/50Gb Ethernet
 	16f3  NetXtreme BCM5727 Gigabit Ethernet PCIe
 	16f7  NetXtreme BCM5753 Gigabit Ethernet PCI Express
 	16fd  NetXtreme BCM5753M Gigabit Ethernet PCI Express
@@ -17857,6 +17874,13 @@
 	aa52  BCM43602 802.11ac Wireless LAN SoC
 	b302  BCM56302 StrataXGS 24x1GE 2x10GE Switch Controller
 	b334  BCM56334 StrataXGS 24x1GE 4x10GE Switch Controller
+	b370  BCM56370 Switch ASIC
+	b371  BCM56371 Switch ASIC
+	b372  BCM56372 Switch ASIC
+	b375  BCM56375 Switch ASIC
+	b376  BCM56376 Switch ASIC
+	b377  BCM56377 Switch ASIC
+	b379  Broadcom BCM56379 Switch ASIC
 	b800  BCM56800 StrataXGS 10GE Switch Controller
 	b842  BCM56842 Trident 10GE Switch Controller
 # Trident2
@@ -18565,6 +18589,7 @@
 		15b3 0078  ConnectX-3 Pro 10 GbE Dual Port KR Mezzanine Card
 		15b3 0079  ConnectX-3 Pro 40 GbE Dual Port QSFP+ Adapter
 		15b3 0080  ConnectX-3 Pro 10 GbE Dual Port SFP+ Adapter
+		193d 1002  520F-B
 	1009  MT27530 Family
 	100a  MT27531 Family
 	100b  MT27540 Family
@@ -18592,6 +18617,7 @@
 		15b3 0020  MCX4411A-ACQN, ConnectX-4 Lx EN OCP, 1x25Gb
 		15b3 0021  MCX4421A-ACQN ConnectX-4 Lx EN OCP,2x25G
 		15b3 0025  ConnectX-4 Lx 25 GbE Dual Port SFP28 rNDC
+		193d 100a  620F-B
 	1016  MT27710 Family [ConnectX-4 Lx Virtual Function]
 	1017  MT27800 Family [ConnectX-5]
 	1018  MT27800 Family [ConnectX-5 Virtual Function]
@@ -19416,6 +19442,7 @@
 	0101  PCD-7004 Digital Bi-Directional Ports PCI Card
 	0102  PCD-7104 Digital Input & Output PCI Card
 	0303  PCD-7006C Digital Input & Output PCI Card
+1761  Pickering Interfaces Ltd
 1771  InnoVISION Multimedia Ltd.
 # nee SBS Technologies
 1775  GE Intelligent Platforms
@@ -21137,6 +21164,9 @@
 	e00b  Skylark PCI Express Root Port 6 [X-Gene 3]
 	e00c  Skylark PCI Express Root Port 7 [X-Gene 3]
 1df7  opencpi.org
+	0001  ml605
+	0002  alst4
+	0003  alst4x
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -23252,6 +23282,7 @@
 		17aa 402b  82599ES 10Gb 2-port Server Adapter X520-DA2
 		17aa 402f  FPGA Card XC7VX690T-3FFG1157E
 		18d4 0c09  82599ES 10Gb 2-port SFP+ OCP Mezz Card MOP81-I-10GS2
+		193d 1004  560F-B
 		1bd4 001b  10G SFP+ DP ER102Fi4 Rack Adapter
 		1bd4 002f  10G SFP+ DP EP102Fi4A Adapter
 		1bd4 0032  10G SFP+ DP EP102Fi4 Adapter
@@ -23570,6 +23601,8 @@
 		17aa 1074  ThinkServer I350-T4 AnyFabric
 		17aa 4005  I350 Gigabit Network Connection
 		18d4 0c07  I350 1Gb 2-port RJ45 OCP Mezz Card MOP41-I-1GT2
+		193d 1005  360T-B
+		193d 1007  360T-L
 		1bd4 001d  1G base-T QP EP014Ti1 Adapter
 		1bd4 0035  1G base-T QP EP014Ti1 Adapter
 		8086 0001  Ethernet Server Adapter I350-T4
@@ -23683,9 +23716,12 @@
 	1563  Ethernet Controller 10G X550T
 		1028 1fa8  Ethernet 10G 4P X550/I350 rNDC
 		1028 1fa9  Ethernet 10G 4P X550 rNDC
+		14c0 1201  X550 10Gb 2P RJ45 OCP Mezz
 		1590 00d1  Ethernet 10Gb 2-port 562T Adapter
 		1590 00d2  Ethernet 10Gb 2-port 562FLR-T Adapter
 		18d4 0c08  X550 10Gb 2-port RJ45 OCP Mezz Card MOP81-I-10GT2
+		193d 1008  560T-B
+		193d 1009  560T-L
 		8086 0001  Ethernet Converged Network Adapter X550-T2
 		8086 001a  Ethernet Converged Network Adapter X550-T2
 		8086 001b  Ethernet Server Adapter X550-T2 for OCP
@@ -24696,6 +24732,7 @@
 		1043 8277  P5K PRO Motherboard
 		1043 844d  P8 series motherboard
 		1458 5000  Motherboard
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7418  Wind PC MS-7418
 		15d9 060d  C7SIM-Q Motherboard
 		15d9 9680  X7DBN Motherboard
@@ -25184,6 +25221,7 @@
 	24f4  Wireless 8260
 # Snow Field Peak AC
 		8086 0030  Dual Band Wireless-AC 8260
+	24fb  Dual Band Wireless-AC 3168NGW [Stone Peak]
 	24fd  Wireless 8265 / 8275
 # Windstorm Peak
 		8086 0010  Dual Band Wireless-AC 8265
@@ -25197,6 +25235,7 @@
 	250f  82820 820 (Camino) Chipset AGP Bridge
 	2520  82805AA MTH Memory Translator Hub
 	2521  82804AA MRH-S Memory Repeater Hub for SDRAM
+	2526  Wireless-AC 9260
 	2530  82850 850 (Tehama) Chipset Host Bridge (MCH)
 		1028 00c7  Dimension 8100
 		147b 0507  TH7II-RAID
@@ -26085,6 +26124,7 @@
 		1028 020d  Inspiron 530
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 	2823  C610/X99 series chipset sSATA Controller [RAID mode]
 	2824  82801HB (ICH8) 4 port SATA Controller [AHCI mode]
 		1043 81ec  P5B
@@ -26300,6 +26340,7 @@
 		1028 020d  Inspiron 530
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard
+		1462 7345  MS-7345 Motherboard
 		8086 5044  Desktop Board DP35DP
 	2917  ICH9M-E LPC Interface Controller
 		e4bf cc4d  CCM-BOOGIE
@@ -26315,6 +26356,7 @@
 		1028 0211  Optiplex 755
 		1028 023c  PowerEdge R200 onboard SATA Controller
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801IR [ICH9R]
 	2921  82801IB (ICH9) 2 port SATA Controller [IDE mode]
 		1028 0235  PowerEdge R710 SATA IDE Controller
 		1028 0236  PowerEdge R610 SATA IDE Controller
@@ -26322,6 +26364,7 @@
 		1462 7360  G33/P35 Neo
 	2922  82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode]
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801IR [ICH9R]
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 	2923  82801IB (ICH9) 4 port SATA Controller [AHCI mode]
@@ -26334,6 +26377,7 @@
 		1028 0210  PowerEdge T300 onboard SATA Controller
 		1028 0211  Optiplex 755
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801IR [ICH9R]
 		1462 7360  G33/P35 Neo
 	2928  82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]
 	2929  82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]
@@ -26348,6 +26392,7 @@
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		103c 3628  dv6-1190en
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -26368,6 +26413,7 @@
 		1028 2011  Optiplex 755
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -26385,6 +26431,7 @@
 		1028 029c  PowerEdge M710 USB UHCI Controller
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -26400,6 +26447,7 @@
 		1028 029c  PowerEdge M710 USB UHCI Controller
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -26415,6 +26463,7 @@
 		1028 2011  Optiplex 755
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 2937  Optiplex 755
@@ -26431,6 +26480,7 @@
 		1028 029c  PowerEdge M710 USB UHCI Controller
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 2938  Optiplex 755
@@ -26442,6 +26492,7 @@
 		1028 0237  PowerEdge T610 USB UHCI Controller
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -26459,6 +26510,7 @@
 		1028 029c  PowerEdge M710 USB EHCI Controller
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -26473,6 +26525,7 @@
 		1028 029c  PowerEdge M710 USB EHCI Controller
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 293c  Optiplex 755
@@ -26484,6 +26537,7 @@
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		103c 3628  dv6-1190en
 		1043 829f  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 735a  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 293e  Optiplex 755
@@ -26494,6 +26548,7 @@
 		1028 0211  Optiplex 755
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		8086 2940  Optiplex 755
 	2942  82801I (ICH9 Family) PCI Express Port 2
 		1028 020d  Inspiron 530
@@ -26505,9 +26560,11 @@
 	2948  82801I (ICH9 Family) PCI Express Port 5
 		1028 020d  Inspiron 530
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 	294a  82801I (ICH9 Family) PCI Express Port 6
 		1028 020d  Inspiron 530
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
+		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 	294c  82566DC-2 Gigabit Network Connection
 		17aa 302e  82566DM-2 Gigabit Network Connection
 	2970  82946GZ/PL/GL Memory Controller Hub
@@ -26563,6 +26620,7 @@
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8276  P5K PRO Motherboard: Intel 82P35 Northbridge
 		1043 82b0  P5KPL-VM Motherboard
+		1462 7345  MS-7345 Motherboard: Intel 82G33/P35 Northbridge
 		1462 7360  G33/P35 Neo
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
@@ -29573,9 +29631,8 @@ deaf  Middle Digital Inc.
 	9052  PC Weasel Watchdog Timer
 # formerly SoftHard Technology Ltd.
 deda  XIMEA
-	4001  Camera CB
-# Thunderbolt based camera MT family
-	4021  Camera MT
+	4001  CB or MX camera
+	4021  MT camera
 e000  Winbond
 	e000  W89C940
 e159  Tiger Jet Network Inc.
