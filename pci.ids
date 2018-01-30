@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.01.28
-#	Date:    2018-01-28 03:15:02
+#	Version: 2018.01.30
+#	Date:    2018-01-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -9298,6 +9298,7 @@
 	0424  G86 [GeForce 8400 GS]
 	0425  G86M [GeForce 8600M GS]
 		1025 0121  Aspire 5920G
+		1043 1514  F3SV
 	0426  G86M [GeForce 8400M GT]
 	0427  G86M [GeForce 8400M GS]
 		103c 30cc  Pavilion dv6700
@@ -21217,6 +21218,7 @@
 	4027  TN9710P 10GBase-T/NBASE-T Ethernet Adapter
 		1154 0368  LGY-PCIE-MG
 		1432 8104  10 Gigabit Ethernet PCI Express Adapter
+		1546 4027  IOI9710P 10Gbase-T/NBASE-T Ethernet Adapter
 		1fc9 3015  Ethernet Adapter
 	4527  TN9710Q 5GBase-T/NBASE-T Ethernet Adapter
 1fcc  StreamLabs
