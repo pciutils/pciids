@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.01.30
-#	Date:    2018-01-30 03:15:02
+#	Version: 2018.02.08
+#	Date:    2018-02-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -785,7 +785,7 @@
 		18bc 0101  GC-R9600PRO (Primary)
 	4151  RV350 [Radeon 9600 Series]
 		1043 c004  A9600SE
-		174b 7c37  Radeon 9600 SE
+		174b 7c37  Radeon 9600SE 128M DDR V/D/VO
 	4152  RV360 [Radeon 9600/X1050 Series]
 		1002 0002  Radeon 9600XT
 		1002 4772  All-in-Wonder 9600 XT
@@ -815,7 +815,7 @@
 		18bc 0100  GC-R9600PRO (Secondary)
 	4171  RV350 [Radeon 9600] (Secondary)
 		1043 c005  A9600SE (Secondary)
-		174b 7c36  Radeon 9600 SE (secondary)
+		174b 7c36  Radeon 9600SE 128M DDR V/D/VO (secondary)
 	4172  RV350 [Radeon 9600/X1050 Series] (Secondary)
 		1002 0003  Radeon 9600XT (Secondary)
 		1002 4773  All-in-Wonder 9600 XT (Secondary)
@@ -1609,6 +1609,7 @@
 		1028 0684  FirePro W4170M
 	6607  Mars LE [Radeon HD 8530M / R5 M240]
 	6608  Oland GL [FirePro W2100]
+		13cc 3d28  MXRT-2600
 	6610  Oland XT [Radeon HD 8670 / R7 250/350]
 		1019 0030  Radeon HD 8670
 		1028 2120  Radeon R7 250
@@ -1641,6 +1642,7 @@
 		1002 0b0c  FirePro W4300
 		103c 0b0c  Bonaire [FirePro W4300]
 		103c 230c  FirePro W5100
+		13cc 3d2a  MXRT-5600
 	6650  Bonaire
 	6651  Bonaire
 	6658  Bonaire XTX [Radeon R7 260X/360]
@@ -1880,6 +1882,7 @@
 	6743  Whistler [Radeon E6760]
 	6749  Turks GL [FirePro V4900]
 	674a  Turks GL [FirePro V3900]
+		13cc 3d22  MXRT-2500
 	6750  Onega [Radeon HD 6650A/7650A]
 		1462 2670  Radeon HD 6670A
 		17aa 3079  Radeon HD 7650A
@@ -2301,10 +2304,20 @@
 		1787 a480  Radeon RX 480
 		1da2 e353  Sapphire Radeon RX 580 Pulse 8GB
 		1da2 e366  Nitro+ Radeon RX 580 4GB
-	67e0  Baffin [Polaris11]
+	67e0  Baffin [Radeon Pro WX 4170]
+		103c 8270  Radeon Pro WX 4170
+		103c 8272  Radeon Pro WX 4170
 	67e1  Baffin [Polaris11]
 	67e3  Baffin [Radeon Pro WX 4100]
-	67e8  Baffin [Polaris11]
+	67e8  Baffin [Radeon Pro WX 4130/4150]
+		1028 075d  Radeon Pro WX 4150
+		1028 07b0  Radeon Pro WX 4130/4150
+		1028 07b1  Radeon Pro WX 4130
+		1028 175d  Radeon Pro WX 4150
+		1028 17b0  Radeon Pro WX 4130/4150
+		1028 17b1  Radeon Pro WX 4130
+		103c 8275  Radeon Pro WX 4150
+		103c 8277  Radeon Pro WX 4150
 	67e9  Baffin [Polaris11]
 	67eb  Baffin [Radeon Pro V5300X]
 	67ef  Baffin [Radeon RX 460/560D / Pro 450/455/460/560]
@@ -2330,6 +2343,8 @@
 		1002 0310  FirePro S7000
 		1002 0420  Radeon Sky 500
 	6809  Pitcairn LE GL [FirePro W5000]
+		13cc 3d23  MXRT-5500
+		13cc 3d24  MXRT-5550
 	6810  Curacao XT / Trinidad XT [Radeon R7 370 / R9 270X/370X]
 		148c 0908  Radeon R9 370 OEM
 		1682 7370  Radeon R7 370
@@ -2525,6 +2540,7 @@
 	6888  Cypress XT [FirePro V8800]
 	6889  Cypress PRO [FirePro V7800]
 		1002 0301  FirePro V7800P
+		13cc 3d1f  MXRT-7400
 	688a  Cypress XT [FirePro V9800]
 		1002 030c  FirePro V9800P
 	688c  Cypress XT GL [FireStream 9370]
@@ -2572,6 +2588,8 @@
 		103c 159b  Radeon HD 6850M
 		144d c0ad  Radeon HD 6850M
 	68a9  Juniper XT [FirePro V5800]
+		13cc 3d1e  MXRT-5400
+		13cc 3d20  MXRT-5450
 	68b8  Juniper XT [Radeon HD 5770]
 		106b 00cf  MacPro5,1 [Mac Pro 2.8GHz DDR3]
 	68b9  Juniper LE [Radeon HD 5670 640SP Edition]
@@ -2733,6 +2751,7 @@
 		1462 2246  Radeon HD 6550A
 	68c8  Redwood XT GL [FirePro V4800]
 	68c9  Redwood PRO GL [FirePro V3800]
+		13cc 3d1d  MXRT-2400
 	68d8  Redwood XT [Radeon HD 5670/5690/5730]
 		1028 68e0  Radeon HD 5670
 		174b 5690  Radeon HD 5690
@@ -3045,17 +3064,27 @@
 	7101  R520/M58 [Mobility Radeon X1800 XT]
 	7102  R520/M58 [Mobility Radeon X1800]
 	7104  R520 GL [FireGL V7200]
+		13cc 3d0a  MXRT-5100
 	7109  R520 [Radeon X1800 XL]
 		1002 0322  All-in-Wonder X1800XL
 		1002 0d02  Radeon X1800 CrossFire Edition
 	710a  R520 [Radeon X1800 GTO]
 		1002 0b12  Radeon X1800 GTO²
 	710b  R520 [Radeon X1800 GTO]
+	710e  R520 GL [FireGL V7300]
+		13cc 3d0c  MXRT-5150
+	710f  R520 GL [FireGL V7350]
+		13cc 3d0e  MXRT-7100
 	7120  R520 [Radeon X1800] (Secondary)
 	7124  R520 GL [FireGL V7200] (Secondary)
+		13cc 3d0b  MXRT-5100 (Secondary)
 	7129  R520 [Radeon X1800] (Secondary)
 		1002 0323  All-In-Wonder X1800 XL (Secondary)
 		1002 0d03  Radeon X1800 CrossFire Edition (Secondary)
+	712e  R520 GL [FireGL V7300] (Secondary)
+		13cc 3d0d  MXRT-5150 (Secondary)
+	712f  R520 GL [FireGL V7350] (Secondary)
+		13cc 3d0f  MXRT-7100 (Secondary)
 	7140  RV515 [Radeon X1300/X1550/X1600 Series]
 	7142  RV515 PRO [Radeon X1300/X1550 Series]
 		1002 0322  All-in-Wonder 2006 PCI-E Edition
@@ -3095,12 +3124,16 @@
 	7193  RV516 [Radeon X1550 Series]
 	7196  RV516/M62-S [Mobility Radeon X1350]
 	719b  RV516 GL [FireMV 2250]
+		13cc 3d12  MXRT-1150
+		13cc 3d14  MXRT-2150
 	719f  RV516 [Radeon X1550 Series]
 	71a0  RV516 [Radeon X1300/X1550 Series] (Secondary)
 	71a1  RV516 [Radeon X1600/X1650 Series] (Secondary)
 	71a3  RV516 [Radeon X1300/X1550 Series] (Secondary)
 	71a7  RV516 [Radeon X1300/X1550 Series] (Secondary)
 	71bb  RV516 GL [FireMV 2250] (Secondary)
+		13cc 3d13  MXRT-1150 (Secondary)
+		13cc 3d15  MXRT-2150 (Secondary)
 	71c0  RV530 [Radeon X1600 XT/X1650 GTO]
 		1002 e160  Radeon X1650 GTO
 		174b e160  Radeon X1650 GTO
@@ -3119,6 +3152,7 @@
 		1787 3000  PowerColor X1650 PRO AGP
 	71ce  RV530 [Radeon X1300 XT/X1600 PRO]
 	71d2  RV530 GL [FireGL V3400]
+		13cc 3d08  MXRT-2100
 	71d4  RV530/M66 GL [Mobility FireGL V5250]
 	71d5  RV530/M66-P [Mobility Radeon X1700]
 	71d6  RV530/M66-XT [Mobility Radeon X1700]
@@ -3132,6 +3166,7 @@
 	71e7  RV535 [Radeon X1650 PRO] (Secondary)
 		1787 3001  Radeon X1650 PRO AGP
 	71f2  RV530 GL [FireGL V3400] (Secondary)
+		13cc 3d09  MXRT-2100 (Secondary)
 	7210  RV550/M71 [Mobility Radeon HD 2300]
 	7211  RV550/M71 [Mobility Radeon X2300 HD]
 	7240  R580+ [Radeon X1950 XTX]
@@ -3208,6 +3243,7 @@
 	9403  R600 [Radeon HD 2900 PRO]
 	9405  R600 [Radeon HD 2900 GT]
 	940a  R600 GL [FireGL V8650]
+		13cc 3d16  MXRT-7200
 	940b  R600 GL [FireGL V8600]
 	940f  R600 GL [FireGL V7600]
 	9440  RV770 [Radeon HD 4870]
@@ -3245,6 +3281,7 @@
 		174b 0028  Radeon HD 4650 AGP DDR2
 	9498  RV730 PRO [Radeon HD 4650]
 	949c  RV730 GL [FirePro V7750]
+		13cc 3d1b  MXRT-7300
 	949e  RV730 GL [FirePro V5700]
 	949f  RV730 GL [FirePro V3750]
 	94a0  RV740/M97 [Mobility Radeon HD 4830]
@@ -3331,6 +3368,7 @@
 	958a  RV630 [Radeon HD 2600 X2]
 	958b  RV630/M76 [Mobility Radeon HD 2600 XT]
 	958c  RV630 GL [FireGL V5600]
+		13cc 3d18  MXRT-5200
 	958d  RV630 GL [FireGL V3600]
 	9591  RV635/M86 [Mobility Radeon HD 3650]
 		1002 9591  Mobility Radeon HD 3650
@@ -4081,7 +4119,7 @@
 	1463  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
 	1464  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
 	1465  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
-	1466  Family 17h (Models 00h-0fh) Data Fabric Device 18h Function 6
+	1466  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
 	1467  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
 	1510  Family 14h Processor Root Complex
 		174b 1001  PURE Fusion Mini
@@ -4098,6 +4136,17 @@
 	1535  Family 16h Processor Function 5
 	1536  Family 16h Processor Root Complex
 	1538  Family 16h Processor Function 0
+	1570  Family 15h (Models 60h-6fh) Processor Function 0
+	1571  Family 15h (Models 60h-6fh) Processor Function 1
+	1572  Family 15h (Models 60h-6fh) Processor Function 2
+	1573  Family 15h (Models 60h-6fh) Processor Function 3
+	1574  Family 15h (Models 60h-6fh) Processor Function 4
+	1575  Family 15h (Models 60h-6fh) Processor Function 5
+	1576  Family 15h (Models 60h-6fh) Processor Root Complex
+	1577  Family 15h (Models 60h-6fh) I/O Memory Management Unit
+	157a  Family 15h (Models 60h-6fh) Audio Controller
+	157b  Family 15h (Models 60h-6fh) Host Bridge
+	157c  Family 15h (Models 60h-6fh) Processor Root Port
 	1600  Family 15h Processor Function 0
 	1601  Family 15h Processor Function 1
 	1602  Family 15h Processor Function 2
@@ -5314,7 +5363,7 @@
 	c824  82C824
 	c825  82C825 [Firebridge 2]
 	c832  82C832
-	c861  82C861
+	c861  82C861 OHCI USB Host
 	c881  82C881 [FireLink] 1394 OHCI Link Controller
 	c895  82C895
 	c935  EV1935 ECTIVA MachOne PCIAudio
@@ -10255,8 +10304,10 @@
 	102a  GK110BGL [Tesla K40t]
 	102d  GK210GL [Tesla K80]
 	102e  GK110BGL [Tesla K40d]
+	102f  GK110BGL [Tesla Stella Solo]
 	103a  GK110GL [Quadro K6000]
 	103c  GK110GL [Quadro K5200]
+	103f  GK110BGL [Tesla Stella SXM]
 	1040  GF119 [GeForce GT 520]
 		1043 83a0  ENGT520 SILENT
 	1042  GF119 [GeForce 510]
@@ -10710,6 +10761,7 @@
 	11a3  GK104M [GeForce GTX 680MX]
 		106b 010d  iMac 13,2
 	11a7  GK104M [GeForce GTX 675MX]
+	11af  GK104GLM [GRID IceCube]
 # GRID K2 Quadro USM
 	11b0  GK104GL [GRID K240Q\K260Q vGPU]
 		10de 101a  GRID K240Q
@@ -10889,6 +10941,7 @@
 	13bd  GM107GL [Tesla M10]
 		10de 110a  GRID M40
 		10de 1160  Tesla M10
+		10de 11d2  GRID M10-8Q
 	13c0  GM204 [GeForce GTX 980]
 		1043 8504  GTX980-4GD5
 	13c1  GM204
@@ -10902,6 +10955,10 @@
 	13f0  GM204GL [Quadro M5000]
 	13f1  GM204GL [Quadro M4000]
 	13f2  GM204GL [Tesla M60]
+		10de 114d  GRID M60-1Q
+		10de 114e  GRID M60-2Q
+		10de 1150  GRID M60-8Q
+		10de 11b0  GRID M60-4A
 	13f3  GM204GL [Tesla M6]
 		10de 1184  GRID M6-8Q
 	13f8  GM204GLM [Quadro M5000M / M5000 SE]
@@ -10932,6 +10989,7 @@
 	172f  GP100
 	174d  GM108M [GeForce MX130]
 	174e  GM108M [GeForce MX110]
+	1789  GM107GL [GRID M3-3020]
 	17c2  GM200 [GeForce GTX TITAN X]
 	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
@@ -11003,6 +11061,7 @@
 	1cb1  GP107GL [Quadro P1000]
 	1cb2  GP107GL [Quadro P600]
 	1cb3  GP107GL [Quadro P400]
+	1cb6  GP107GL [Quadro P620]
 	1d01  GP108 [GeForce GT 1030]
 	1d10  GP108M [GeForce MX150]
 	1d33  GP108GL [Quadro P500]
@@ -13770,8 +13829,9 @@
 	6081  MV88SX6081 8-port SATA II PCI-X Controller
 	6101  88SE6101/6102 single-port PATA133 interface
 		1043 82e0  P5K PRO Motherboard
-	6111  88SE6111 1-port PATA133(IDE) and 1-port SATA II Controllers
-	6121  88SE6121 SATA II / PATA Controller
+	6121  88SE6111/6121 SATA II / PATA Controller
+# 6111: 1 SATA port; 6121: 2 SATA ports
+		11ab 6121  88SE6111/6121 1/2 port SATA II + 1 port PATA Controller
 	6141  88SE614x SATA II PCI-E controller
 	6145  88SE6145 SATA II PCI-E controller
 	6180  88F6180 [Kirkwood] ARM SoC
@@ -19371,6 +19431,9 @@
 	7029  AP342 14-bit, 12-Channel Isolated Simultaneous Conversion Analog Input Module
 	702a  AP226 12-Bit, 8-Channel Isolated Analog Output Module
 	702b  AP236 16-Bit, 8-Channel Isolated Analog Output Module
+	7031  AP441-1: 32-Channel Isolated Digital Input Module
+	7032  AP441-2: 32-Channel Isolated Digital Input Module
+	7033  AP441-3: 32-Channel Isolated Digital Input Module
 	7042  AP482 Counter Timer Module with TTL Level Input/Output
 	7043  AP483 Counter Timer Module with TTL Level and RS422 Input/Output
 	7044  AP484 Counter Timer Module with RS422 Input/Output
@@ -20820,6 +20883,9 @@
 	91a4  88SE912x IDE Controller
 	9220  88SE9220 PCIe 2.0 x2 2-port SATA 6 Gb/s RAID Controller
 	9230  88SE9230 PCIe SATA 6Gb/s Controller
+		1028 1fd6  BOSS-S1 Adapter
+		1028 1fdf  BOSS-S1 Modular
+		1028 1fe2  BOSS-S1 Adapter
 		1d49 0300  ThinkSystem M.2 with Mirroring Enablement Kit
 	9235  88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
@@ -20962,6 +21028,8 @@
 		1014 04f5  PCIe3 1.6TB NVMe Flash Adapter
 		1014 04f6  PCIe3 3.2TB NVMe Flash Adapter
 	0023  Ultrastar SN200 Series NVMe SSD
+1c5c  SK hynix
+	1283  PC300 NVMe Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	0540  PBlaze4 NVMe SSD
 # http://www.nicevt.ru/ (in Russian)
