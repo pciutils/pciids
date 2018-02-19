@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.02.15
-#	Date:    2018-02-15 03:15:01
+#	Version: 2018.02.19
+#	Date:    2018-02-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -752,7 +752,9 @@
 	131b  Kaveri [Radeon R4 Graphics]
 	131c  Kaveri [Radeon R7 Graphics]
 	131d  Kaveri [Radeon R6 Graphics]
-	15dd  Vega [Radeon Vega 8 Mobile]
+	15dd  Raven Bridge [Radeon Vega Series / Radeon Vega Mobile Series]
+		103c 83c6  Radeon Vega 8 Mobile
+		1458 d000  Radeon RX Vega 11
 	15ff  Vega [Radeon Vega 28 Mobile]
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
@@ -1600,10 +1602,12 @@
 		103c 2100  FirePro M4100
 	6602  Mars
 	6603  Mars
-	6604  Opal XT [Radeon R7 M265]
+	6604  Opal XT [Radeon R7 M265/M365X/M465]
 		103c 8006  FirePro M4170
+		103c 814f  Litho XT [Radeon R7 M365X]
+		103c 82aa  Litho XT [Radeon R7 M465]
 		17aa 3643  Radeon R7 A360
-	6605  Opal PRO [Radeon R7 M260]
+	6605  Opal PRO [Radeon R7 M260X]
 		103c 2259  FirePro M4150
 	6606  Mars XTX [Radeon HD 8790M]
 		1028 0684  FirePro W4170M
@@ -1678,6 +1682,7 @@
 		103c 80be  Radeon R5 M330
 		103c 8136  Radeon R5 M330
 		103c 8329  Radeon R7 M520
+		17aa 3633  Radeon R5 A330
 		17aa 3804  Radeon R5 M330
 		17aa 3809  Radeon R5 M330
 		17aa 381a  Radeon R5 M430
@@ -2333,7 +2338,14 @@
 		106b 0179  Radeon Pro 560
 		1642 1727  Polaris 21 XL [Radeon RX 560D]
 		1682 956d  Polaris 21 XL [Radeon RX 560D]
-	67ff  Baffin [Radeon RX 560]
+	67ff  Baffin [Radeon RX 550 640SP / RX 560]
+		1002 0b04  Radeon RX 560
+		1043 04bc  Radeon RX 560
+		1458 22ed  Radeon RX 560
+		148c 2381  Radeon RX 560
+		1682 9560  Radeon RX 560
+		1da2 e348  Radeon RX 560
+		1da2 e367  Radeon RX 550 640SP
 	6800  Wimbledon XT [Radeon HD 7970M]
 		1002 0124  Radeon HD 7970M
 		8086 2110  Radeon HD 7970M
@@ -2348,7 +2360,9 @@
 	6808  Pitcairn XT GL [FirePro W7000]
 		1002 0310  FirePro S7000
 		1002 0420  Radeon Sky 500
+		103c 030c  MED-X7000
 		13cc 3d25  MXRT-7500
+		15c3 030c  MED-X7000
 	6809  Pitcairn LE GL [FirePro W5000]
 		13cc 3d23  MXRT-5500
 		13cc 3d24  MXRT-5550
@@ -2410,8 +2424,6 @@
 	682d  Chelsea XT GL [FirePro M4000]
 	682f  Chelsea LP [Radeon HD 7730M]
 		103c 1851  Radeon HD 7750M
-	6830  Cape Verde [Radeon HD 7800M Series]
-	6831  Cape Verde [AMD Radeon HD 7700M Series]
 	6835  Cape Verde PRX [Radeon R9 255 OEM]
 	6837  Cape Verde LE [Radeon HD 7730/8730]
 		1462 2796  Radeon HD 8730
@@ -3025,6 +3037,7 @@
 		103c 2269  Radeon R7 M260
 		103c 22c6  Radeon R7 M260
 		103c 22c8  Radeon R7 M260
+		103c 2b45  Radeon R7 A360
 		103c 808c  Radeon R7 M260
 		103c 8099  Radeon R7 M360
 		103c 80b5  Radeon R7 M360
@@ -3061,7 +3074,8 @@
 		148c 9380  Radeon R9 380
 # Make naming scheme consistent
 		174b e308  Radeon R9 380 Nitro 4G D5
-	694c  Vega [Radeon RX Vega M]
+	694c  Polaris 22 [Radeon RX Vega M GH]
+	694e  Polaris 22 [Radeon RX Vega M GL]
 	6980  Polaris12
 	6981  Polaris12
 	6985  Lexa XT [Radeon PRO WX 3100]
@@ -3408,7 +3422,7 @@
 	95c6  RV620 LE [Radeon HD 3450 AGP]
 	95c9  RV620 LE [Radeon HD 3450 PCI]
 	95cc  RV620 GL [FirePro V3700]
-	95cd  RV620 [FirePro 2450]
+	95cd  RV620 GL [FirePro 2450]
 	95cf  RV620 GL [FirePro 2260]
 	960f  RS780 HDMI Audio [Radeon 3000/3100 / HD 3200/3300]
 	9610  RS780 [Radeon HD 3200]
@@ -3484,7 +3498,19 @@
 	985d  Mullins
 	985e  Mullins
 	985f  Mullins
-	9874  Carrizo
+	9874  Wani [Radeon R5/R6/R7 Graphics]
+		1002 1871  Radeon R5 Graphics
+		1002 1e20  Radeon R7 Graphics
+		1028 06bd  Radeon R6 Graphics
+		103c 2b44  Radeon R6 Graphics
+		103c 8221  Radeon R5 Graphics
+		103c 8223  Radeon R5 Graphics
+		103c 8238  Radeon R7 Graphics
+		103c 8353  Radeon R7 Graphics
+		1458 d000  Radeon R7 Graphics
+		17aa 5113  Radeon R6 Graphics
+		17aa 5116  Radeon R6 Graphics
+		17aa 5118  Radeon R5 Graphics
 	9900  Trinity [Radeon HD 7660G]
 		103c 1985  Pavilion 17-e163sg Notebook PC
 # AMD A10-5800K CPU
@@ -11423,6 +11449,7 @@
 	8821  RTL8821AE 802.11ac PCIe Wireless Network Adapter
 	b723  RTL8723BE PCIe Wireless Network Adapter
 		10ec 8739  Dell Wireless 1801
+	b822  RTL8822BE 802.11a/b/g/n/ac WiFi adapter
 	c821  RTL8821CE 802.11ac PCIe Wireless Network Adapter
 10ed  Ascii Corporation
 	7310  V7310
@@ -13353,6 +13380,7 @@
 	0102  Extended IDE Controller
 	0103  EX-IDE Type-B
 	010f  NVMe Controller
+	0115  XG4 NVMe SSD Controller
 	0404  DVD Decoder card
 	0406  Tecra Video Capture device
 	0407  DVD Decoder card (Version 2)
@@ -18730,6 +18758,8 @@
 		15b3 0050  ConnectX-4 100 GbE Dual Port QSFP28 Adapter
 	1014  MT27700 Family [ConnectX-4 Virtual Function]
 	1015  MT27710 Family [ConnectX-4 Lx]
+		15b3 0001  ConnectX-4 Lx EN network interface card, 25GbE single-port SFP28, PCIe3.0 x8, tall bracket, ROHS R6
+		15b3 0003  ConnectX-4 Lx EN network interface card, 25GbE dual-port SFP28, PCIe3.0 x8, tall bracket, ROHS R6
 		15b3 0004  ConnectX-4 Lx Stand-up dual-port 10GbE MCX4121A-XCAT
 		15b3 0005  Mellanox Technologies ConnectX-4 Lx Stand-up single-port 40GbE MCX4131A-BCAT
 		15b3 0016  ConnectX-4 Lx 25 GbE Dual Port SFP28 Adapter
@@ -20722,6 +20752,8 @@
 	2000  PGPCard - 4 Lane
 	2001  PGPCard - 8 Lane Plus EVR
 	2010  PCI-Express EVR
+# PC-260-101-03
+	2020  PGP-GEN3 PCIe
 1a51  Hectronic AB
 1a55  Rohde & Schwarz DVS GmbH
 	0010  SDStationOEM
