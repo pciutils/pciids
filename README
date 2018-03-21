@@ -4,3 +4,17 @@ automatically generated from the PCI ID Database at http://pci-ids.ucw.cz/.
 The contents of the database and the generated files can be distributed under
 the terms of either the GNU General Public License (version 2 or later) or of
 the 3-clause BSD License.
+
+
+If you know about an ID which is not listed in the database, you are welcome to submit a new entry as a Pull Request.
+
+After you submit the change, it will wait for approval by an admin.
+
+Rules
+There is a couple of simple rules you should obey:
+
+* Avoid generic names like "unknown network card", they are not likely to help anybody.
+* Prefer chip names over marketing names. If you know both, please include the marketing name in square brackets (e.g., "3c595 100BaseTX [Vortex]").
+* Do not repeat the name of the vendor in the name of the device.
+* Look at the names of similar devices and follow the same form.
+* Verify the kind of the entry: do not submit subsystems as devices, do not submit USB ID's to the PCI lists :-)
