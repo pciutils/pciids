@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.03.30
-#	Date:    2018-03-30 03:15:02
+#	Version: 2018.04.02
+#	Date:    2018-04-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -11068,6 +11068,7 @@
 	1b01  GP102
 	1b02  GP102 [TITAN Xp]
 	1b06  GP102 [GeForce GTX 1080 Ti]
+	1b07  GP102 [P102-100]
 	1b30  GP102GL [Quadro P6000]
 	1b38  GP102GL [Tesla P40]
 	1b70  GP102GL
@@ -11142,6 +11143,7 @@
 	1db4  GV100GL [Tesla V100 PCIe 16GB]
 	1db5  GV100GL [Tesla V100 SXM2 32GB]
 	1db6  GV100GL [Tesla V100 PCIe 32GB]
+	1db7  GV100GL [Tesla V100 DGXS 32GB]
 	1dba  GV100GL [Quadro GV100]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -14280,7 +14282,7 @@
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
 	8000  PM8000  [SPC - SAS Protocol Controller]
 	8009  PM8009 SPCve 8x6G
-	8032  ATTO Celerity FC8xEN
+	8032  PM8032 Tachyon QE8
 		117c 003a  Celerity FC-81EN Fibre Channel Adapter
 		117c 003b  Celerity FC-82EN Fibre Channel Adapter
 		117c 003c  Celerity FC-84EN Fibre Channel Adapter
@@ -14576,7 +14578,8 @@
 	0d13  Desktop PCI L1/L3 Telephony
 1232  GPT Limited
 1233  Bus-Tech, Inc.
-1235  Risq Modular Systems, Inc.
+# nee Risq Modular Systems, Inc.
+1235  SMART Modular Technologies
 1236  Sigma Designs Corporation
 	0000  RealMagic64/GX
 	6401  REALmagic 64/GX (SD 6425)
@@ -30184,7 +30187,10 @@ C 0c  Serial bus controller
 	04  Fibre Channel
 	05  SMBus
 	06  InfiniBand
-	07  IPMI SMIC interface
+	07  IPMI Interface
+		00  SMIC
+		01  KCS
+		02  BT (Block Transfer)
 	08  SERCOS interface
 	09  CANBUS
 C 0d  Wireless controller
