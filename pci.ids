@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.04.02
-#	Date:    2018-04-02 03:15:02
+#	Version: 2018.04.03
+#	Date:    2018-04-03 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1707,6 +1707,12 @@
 		17aa 368f  Radeon R5 A230
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
+	66a0  Vega 20
+	66a1  Vega 20
+	66a2  Vega 20
+	66a3  Vega 20
+	66a7  Vega 20
+	66af  Vega 20
 	6704  Cayman PRO GL [FirePro V7900]
 	6707  Cayman LE GL [FirePro V5900]
 	6718  Cayman XT [Radeon HD 6970]
@@ -14286,6 +14292,7 @@
 		117c 003a  Celerity FC-81EN Fibre Channel Adapter
 		117c 003b  Celerity FC-82EN Fibre Channel Adapter
 		117c 003c  Celerity FC-84EN Fibre Channel Adapter
+		117c 403b  ThunderLink FC 1082 Fibre Channel Adapter
 	8053  PM8053 SXP 12G 24-port SAS/SATA expander
 	8054  PM8054 SXP 12G 36-port SAS/SATA expander
 	8055  PM8055 SXP 12G 48-port SAS/SATA expander
@@ -30040,6 +30047,14 @@ C 00  Unclassified device
 C 01  Mass storage controller
 	00  SCSI storage controller
 	01  IDE interface
+		00  ISA Compatibility mode-only controller
+		05  PCI native mode-only controller
+		0a  ISA Compatibility mode controller, supports both channels switched to PCI native mode
+		0f  PCI native mode controller, supports both channels switched to ISA compatibility mode
+		80  ISA Compatibility mode-only controller, supports bus mastering
+		85  PCI native mode-only controller, supports bus mastering
+		8a  ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering
+		8f  PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering
 	02  Floppy disk controller
 	03  IPI bus controller
 	04  RAID bus controller
