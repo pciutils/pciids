@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.04.03
-#	Date:    2018-04-03 03:15:02
+#	Version: 2018.04.04
+#	Date:    2018-04-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1099,7 +1099,7 @@
 		1002 0080  Rage Pro Turbo
 		1002 0084  Rage Pro Turbo
 		1002 4750  Rage Pro Turbo
-	4752  Rage XL PCI
+	4752  Rage 3 [Rage XL PCI]
 		0e11 001e  Proliant Rage XL
 		1002 0008  Rage XL
 		1002 4752  Proliant Rage XL
