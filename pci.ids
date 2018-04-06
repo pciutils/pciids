@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.04.05
-#	Date:    2018-04-05 03:15:02
+#	Version: 2018.04.06
+#	Date:    2018-04-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -6398,7 +6398,7 @@
 		1077 0007  QLogic 2x1GE+2x10GE QL41264HMCU CNA
 		1077 0009  QLogic 2x1GE+2x10GE QL41162HMRJ CNA
 		1077 000b  25GE 2P QL41262HxCU-DE Adapter
-		1077 0011  FastLinQ QL41212H 25GbE Adapter
+		1077 0011  FastLinQ QL41212HLCU 25GbE Adapter
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
 		1077 0039  QLogic QL41262 PCIe 25Gb 2-Port SFP28 Ethernet Adapter
 		1590 021d  10/25GbE 2P QL41222HLCU-HP Adapter
