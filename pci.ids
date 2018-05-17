@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.04.28
-#	Date:    2018-04-28 03:15:02
+#	Version: 2018.05.17
+#	Date:    2018-05-17 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1708,7 +1708,7 @@
 		17aa 368f  Radeon R5 A230
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
-	66a0  Vega 20
+	66a0  Vega 20 [Radeon Instinct]
 	66a1  Vega 20
 	66a2  Vega 20
 	66a3  Vega 20
@@ -2337,6 +2337,7 @@
 		174b e349  Radeon RX 470
 		1787 a470  Radeon RX 470
 		1787 a480  Radeon RX 480
+		1849 5001  Phantom Gaming X RX 580 OC
 		1da2 e353  Sapphire Radeon RX 580 Pulse 8GB
 		1da2 e366  Nitro+ Radeon RX 580 4GB
 	67e0  Baffin [Radeon Pro WX 4170]
@@ -3113,6 +3114,11 @@
 		1028 1720  Radeon RX 550X
 		148c 2380  Lexa XL [Radeon RX 550]
 		1da2 e367  Lexa PRO [Radeon RX 550]
+	69a0  Vega 12
+	69a1  Vega 12
+	69a2  Vega 12
+	69a3  Vega 12
+	69af  Vega 12
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
@@ -10289,6 +10295,7 @@
 	0fc0  GK107 [GeForce GT 640 OEM]
 	0fc1  GK107 [GeForce GT 640]
 	0fc2  GK107 [GeForce GT 630 OEM]
+	0fc5  GK107
 	0fc6  GK107 [GeForce GTX 650]
 		1043 8428  GTX650-DC-1GD5
 	0fc8  GK107 [GeForce GT 740]
@@ -10394,6 +10401,7 @@
 	1040  GF119 [GeForce GT 520]
 		1043 83a0  ENGT520 SILENT
 	1042  GF119 [GeForce 510]
+	1045  GF119
 	1048  GF119 [GeForce 605]
 	1049  GF119 [GeForce GT 620 OEM]
 	104a  GF119 [GeForce GT 610]
@@ -11159,6 +11167,7 @@
 	1d33  GP108GL [Quadro P500]
 	1d81  GV100 [TITAN V]
 	1db1  GV100GL [Tesla V100 SXM2 16GB]
+	1db3  Tesla V100 FHHL 16GB
 	1db4  GV100GL [Tesla V100 PCIe 16GB]
 	1db5  GV100GL [Tesla V100 SXM2 32GB]
 	1db6  GV100GL [Tesla V100 PCIe 32GB]
@@ -12605,8 +12614,7 @@
 # 32-lanes 24-ports Gen.2
 	808c  89HPES32NT24AG2 PCI Express Switch
 	808e  PES24NT24G2 PCI Express Switch
-# 32 port / 8 lane PCIe Gen 2 packet switch
-	808f  PES32NT8AG2
+	808f  89HPES32NT8AG2 32-Lane 8-Port PCIe Gen2 System Interconnect Switch with Non-Transparent Bridging
 	8090  89HPES16NT16G2 16-Lane 16-Port PCIe Gen2 System Interconnect Switch
 	8092  89HPES12NT12G2 12-Lane 12-Port PCIe Gen2 System Interconnect Switch
 	80cf  F32P08xG3 [PCIe boot mode]
@@ -16584,6 +16592,9 @@
 	5016  T580-OCP-SO Unified Wire Ethernet Controller
 	5017  T520-OCP-SO Unified Wire Ethernet Controller
 	5018  T540-BT Unified Wire Ethernet Controller
+	5019  T540-LP-BT Unified Wire Ethernet Controller
+	501a  T540-SO-BT Unified Wire Ethernet Controller
+	501b  T540-SO-CR Unified Wire Ethernet Controller
 	5080  T540-5080 Unified Wire Ethernet Controller
 	5081  T540-5081 Unified Wire Ethernet Controller
 	5082  T504-5082 Unified Wire Ethernet Controller
@@ -16623,6 +16634,7 @@
 	50aa  T580-50AA Unified Wire Ethernet Controller
 	50ab  T520-50AB Unified Wire Ethernet Controller
 	50ac  T540-50AC Unified Wire Ethernet Controller
+	50ad  T520-50AD Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -16647,6 +16659,9 @@
 	5416  T580-OCP-SO Unified Wire Ethernet Controller
 	5417  T520-OCP-SO Unified Wire Ethernet Controller
 	5418  T540-BT Unified Wire Ethernet Controller
+	5419  T540-LP-BT Unified Wire Ethernet Controller
+	541a  T540-SO-BT Unified Wire Ethernet Controller
+	541b  T540-SO-CR Unified Wire Ethernet Controller
 	5480  T540-5080 Unified Wire Ethernet Controller
 	5481  T540-5081 Unified Wire Ethernet Controller
 	5482  T504-5082 Unified Wire Ethernet Controller
@@ -16686,6 +16701,7 @@
 	54aa  T580-50AA Unified Wire Ethernet Controller
 	54ab  T520-50AB Unified Wire Ethernet Controller
 	54ac  T540-50AC Unified Wire Ethernet Controller
+	54ad  T520-50AD Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -16710,6 +16726,9 @@
 	5516  T580-OCP-SO Unified Wire Storage Controller
 	5517  T520-OCP-SO Unified Wire Storage Controller
 	5518  T540-BT Unified Wire Storage Controller
+	5519  T540-LP-BT Unified Wire Storage Controller
+	551a  T540-SO-BT Unified Wire Storage Controller
+	551b  T540-SO-CR Unified Wire Storage Controller
 	5580  T540-5080 Unified Wire Storage Controller
 	5581  T540-5081 Unified Wire Storage Controller
 	5582  T504-5082 Unified Wire Storage Controller
@@ -16749,6 +16768,7 @@
 	55aa  T580-50AA Unified Wire Storage Controller
 	55ab  T520-50AB Unified Wire Storage Controller
 	55ac  T540-50AC Unified Wire Storage Controller
+	55ad  T520-50AD Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -16773,6 +16793,9 @@
 	5616  T580-OCP-SO Unified Wire Storage Controller
 	5617  T520-OCP-SO Unified Wire Storage Controller
 	5618  T540-BT Unified Wire Storage Controller
+	5619  T540-LP-BT Unified Wire Storage Controller
+	561a  T540-SO-BT Unified Wire Storage Controller
+	561b  T540-SO-CR Unified Wire Storage Controller
 	5680  T540-5080 Unified Wire Storage Controller
 	5681  T540-5081 Unified Wire Storage Controller
 	5682  T504-5082 Unified Wire Storage Controller
@@ -16812,6 +16835,7 @@
 	56aa  T580-50AA Unified Wire Storage Controller
 	56ab  T520-50AB Unified Wire Storage Controller
 	56ac  T540-50AC Unified Wire Storage Controller
+	56ad  T520-50AD Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -16875,6 +16899,9 @@
 	5816  T580-OCP-SO Unified Wire Ethernet Controller [VF]
 	5817  T520-OCP-SO Unified Wire Ethernet Controller [VF]
 	5818  T540-BT Unified Wire Ethernet Controller [VF]
+	5819  T540-LP-BT Unified Wire Ethernet Controller [VF]
+	581a  T540-SO-BT Unified Wire Ethernet Controller [VF]
+	581b  T540-SO-CR Unified Wire Ethernet Controller [VF]
 	5880  T540-5080 Unified Wire Ethernet Controller [VF]
 	5881  T540-5081 Unified Wire Ethernet Controller [VF]
 	5882  T504-5082 Unified Wire Ethernet Controller [VF]
@@ -16914,6 +16941,7 @@
 	58aa  T580-50AA Unified Wire Ethernet Controller [VF]
 	58ab  T520-50AB Unified Wire Ethernet Controller [VF]
 	58ac  T540-50AC Unified Wire Ethernet Controller [VF]
+	58ad  T520-50AD Unified Wire Ethernet Controller [VF]
 	6001  T6225-CR Unified Wire Ethernet Controller
 	6002  T6225-SO-CR Unified Wire Ethernet Controller
 	6003  T6425-CR Unified Wire Ethernet Controller
@@ -19467,6 +19495,7 @@
 	0040  QCA9980/9990 802.11ac Wireless Network Adapter
 	0041  QCA6164 802.11ac Wireless Network Adapter
 	0042  QCA9377 802.11ac Wireless Network Adapter
+	0046  QCA9984 802.11ac Wave 2 Wireless Network Adapter
 	0050  QCA9887 802.11ac Wireless Network Adapter
 	0207  AR5210 Wireless Network Adapter [AR5000 802.11a]
 	1014  AR5212 802.11abg NIC
@@ -20776,6 +20805,16 @@
 	5808  DDRdrive X8
 	dd52  DDRdrive X1-30
 19e5  Huawei Technologies Co., Ltd.
+# subvendor
+	0123  ES3000 V3 NVMe PCIe SSD
+		19e5 3022  NVMe SSD ES3600P V3 800GB 2.5" U.2
+		19e5 3023  NVMe SSD ES3600P V3 1200GB 2.5" U.2
+		19e5 3024  NVMe SSD ES3600P V3 1600GB 2.5" U.2
+		19e5 3025  NVMe SSD ES3600P V3 2000GB 2.5" U.2
+		19e5 3026  NVMe SSD ES3600P V3 3200GB 2.5" U.2
+		19e5 3033  NVMe SSD ES3600C V3 1200GB HHHL AIC
+		19e5 3034  NVMe SSD ES3600C V3 1600GB HHHL AIC
+		19e5 3036  NVMe SSD ES3600C V3 3200GB HHHL AIC
 	1710  iBMA Virtual Network Adapter
 	1711  Hi1710 [iBMC Intelligent Management system chip w/VGA support]
 19e7  NET (Network Equipment Technologies)
@@ -24275,30 +24314,32 @@
 		e4bf 3100  CX1-BAND
 	1962  80960RM (i960RM) Microprocessor
 		105a 0000  SuperTrak SX6000 I2O CPU
-	19ac  DNV SMBus Contoller - Host
-	19b0  DNV SATA Controller 0
-	19b1  DNV SATA Controller 0
-	19b2  DNV SATA Controller 0
-	19b3  DNV SATA Controller 0
-	19b4  DNV SATA Controller 0
-	19b5  DNV SATA Controller 0
-	19b6  DNV SATA Controller 0
-	19b7  DNV SATA Controller 0
-	19be  DNV SATA Controller 0
-	19bf  DNV SATA Controller 0
-	19c0  DNV SATA Controller 1
-	19c1  DNV SATA Controller 1
-	19c2  DNV SATA Controller 1
-	19c3  DNV SATA Controller 1
-	19c4  DNV SATA Controller 1
-	19c5  DNV SATA Controller 1
-	19c6  DNV SATA Controller 1
-	19c7  DNV SATA Controller 1
-	19ce  DNV SATA Controller 1
-	19cf  DNV SATA Controller 1
-	19dc  DNV LPC or eSPI
-	19df  DNV SMBus controller
-	19e0  DNV SPI Controller
+	19ac  Atom Processor C3000 Series SMBus Contoller - Host
+	19b0  Atom Processor C3000 Series SATA Controller 0
+	19b1  Atom Processor C3000 Series SATA Controller 0
+	19b2  Atom Processor C3000 Series SATA Controller 0
+	19b3  Atom Processor C3000 Series SATA Controller 0
+	19b4  Atom Processor C3000 Series SATA Controller 0
+	19b5  Atom Processor C3000 Series SATA Controller 0
+	19b6  Atom Processor C3000 Series SATA Controller 0
+	19b7  Atom Processor C3000 Series SATA Controller 0
+	19be  Atom Processor C3000 Series SATA Controller 0
+	19bf  Atom Processor C3000 Series SATA Controller 0
+	19c0  Atom Processor C3000 Series SATA Controller 1
+	19c1  Atom Processor C3000 Series SATA Controller 1
+	19c2  Atom Processor C3000 Series SATA Controller 1
+	19c3  Atom Processor C3000 Series SATA Controller 1
+	19c4  Atom Processor C3000 Series SATA Controller 1
+	19c5  Atom Processor C3000 Series SATA Controller 1
+	19c6  Atom Processor C3000 Series SATA Controller 1
+	19c7  Atom Processor C3000 Series SATA Controller 1
+	19ce  Atom Processor C3000 Series SATA Controller 1
+	19cf  Atom Processor C3000 Series SATA Controller 1
+	19d0  Atom Processor C3000 Series USB 3.0 xHCI Controller
+	19dc  Atom Processor C3000 Series LPC or eSPI
+	19df  Atom Processor C3000 Series SMBus controller
+	19e0  Atom Processor C3000 Series SPI Controller
+	19e2  Atom Processor C3000 Series QuickAssist Technology
 	1a21  82840 840 [Carmel] Chipset Host Bridge (Hub A)
 	1a23  82840 840 [Carmel] Chipset AGP Bridge
 	1a24  82840 840 [Carmel] Chipset PCI Bridge (Hub B)
@@ -27665,6 +27706,7 @@
 	372b  Xeon C5500/C3500 Core
 	372c  Xeon C5500/C3500 Reserved
 	373f  Xeon C5500/C3500 IOxAPIC
+	37c8  C62x Chipset QuickAssist Technology
 	37cd  Ethernet Virtual Function 700 Series
 	37ce  Ethernet Connection X722 for 10GbE backplane
 		1590 0215  Ethernet 10Gb 2-port 568i Adapter
@@ -27687,6 +27729,7 @@
 		17aa 4021  Ethernet Connection X722 for 1GbE
 		17aa 4022  Ethernet Connection X722 for 1GbE
 	37d2  Ethernet Connection X722 for 10GBASE-T
+		1170 37d2  Ethernet Connection X722 for 10GBASE-T
 		14cd 0030  Ethernet OCP 2x10G RJ45 Phy Card [USI-X557-10GbaseT]
 		1590 0218  Ethernet 10Gb 2-port 568FLR-MMT Adapter
 		17aa 4020  Ethernet Connection X722 for 10GBASE-T
