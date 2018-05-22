@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.05.17
-#	Date:    2018-05-17 03:15:01
+#	Version: 2018.05.22
+#	Date:    2018-05-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -5875,7 +5875,7 @@
 	3070  Hitachi FIVE-FX Fibre Channel to PCIe HBA
 	3505  SH7751 PCI Controller (PCIC)
 	350e  SH7751R PCI Controller (PCIC)
-1055  Efar Microsystems
+1055  Standard Microsystems Corp. [SMSC]
 	9130  SLC90E66 [Victory66] IDE
 	9460  SLC90E66 [Victory66] ISA
 	9462  SLC90E66 [Victory66] USB
@@ -17826,9 +17826,9 @@
 	16d5  BCM57407 NetXtreme-E 10GBase-T Ethernet Controller
 	16d6  BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller
 	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
-		14e4 1202  BCM957412M4122 OCP 1x25G Type1 wRoCE
+		14e4 1202  BCM957412M4122C OCP 1x25G Type1 wRoCE
 		14e4 1402  BCM957414A4142 10Gb/25Gb Ethernet PCIe
-		14e4 1404  BCM957414M4142 OCP 2x25G Type1 wRoCE
+		14e4 1404  BCM957414M4142C OCP 2x25G Type1 wRoCE
 		1590 020e  Ethernet 25Gb 2-port 631SFP28 Adapter
 		1590 0211  Ethernet 25Gb 2-port 631FLR-SFP28 Adapter
 	16d8  BCM57416 NetXtreme-E Dual-Media 10G RDMA Ethernet Controller
@@ -18899,11 +18899,12 @@
 	6279  MT25208 [InfiniHost III Ex HCA Flash Recovery]
 	6282  MT25208 [InfiniHost III Ex]
 	6340  MT25408 [ConnectX VPI - IB SDR / 10GigE]
-	634a  MT25418 [ConnectX VPI PCIe 2.0 2.5GT/s - IB DDR / 10GigE]
+	634a  MT25408A0-FCC-DI ConnectX, Dual Port 20Gb/s InfiniBand / 10GigE Adapter IC with PCIe 2.0 x8 2.5GT/s Interface
+		1014 1014  4X InfiniBand DDR Expansion Card (CFFh) for IBM BladeCenter
 	6368  MT25448 [ConnectX EN 10GigE, PCIe 2.0 2.5GT/s]
-	6372  MT25408 [ConnectX EN 10GigE 10GBaseT, PCIe 2.0 2.5GT/s]
-	6732  MT26418 [ConnectX VPI PCIe 2.0 5GT/s - IB DDR / 10GigE]
-	673c  MT26428 [ConnectX VPI PCIe 2.0 5GT/s - IB QDR / 10GigE]
+	6372  MT25458 ConnectX EN 10GBASE-T PCIe 2.5 GT/s
+	6732  MT25408A0-FCC-GI ConnectX, Dual Port 20Gb/s InfiniBand / 10GigE Adapter IC with PCIe 2.0 x8 5.0GT/s Interface
+	673c  MT25408A0-FCC-QI ConnectX, Dual Port 40Gb/s InfiniBand / 10GigE Adapter IC with PCIe 2.0 x8 5.0GT/s Interface
 		1014 0415  PCIe2 2-port 4X InfiniBand QDR Adapter for Power
 		1014 0487  GX++ 1-port 4X IB QDR Adapter for Power 795
 		103c 1782  4X QDR InfiniBand Mezzanine HCA for c-Class BladeSystem
@@ -18912,11 +18913,12 @@
 		103c 1781  NC543i 1-port 4x QDR IB/Flex-10 10Gb Adapter
 		103c 3349  NC543i 2-port 4xQDR IB/10Gb Adapter
 	6750  MT26448 [ConnectX EN 10GigE, PCIe 2.0 5GT/s]
-		1014 0461  2-Port 10 GbE RoCE SR LP PCIe2 (rev b0)
+		1014 0416  PCIe2 2-Port 10GbE RoCE SFP+ Adapter
+		1014 0461  PCIe2 2-Port 10GbE RoCE SR Adapter
 		15b3 0018  HP 10 GbE PCI-e G2 Dual-Port NIC (rev C1)
 # FC EC26
 		15b3 6572  IBM Flex System EN4132 2-port 10Gb RoCE Adapter
-	675a  MT25408 [ConnectX EN 10GigE 10GBaseT, PCIe Gen2 5GT/s]
+	675a  MT26458 ConnectX EN 10GBASE-T PCIe Gen2 5.0 GT/s
 	6764  MT26468 [ConnectX EN 10GigE, PCIe 2.0 5GT/s Virtualization+]
 		103c 3313  NC542m Dual Port Flex-10 10GbE BLc Adapter
 	676e  MT26478 [ConnectX EN 40GigE, PCIe 2.0 5GT/s]
@@ -19134,7 +19136,8 @@
 	5449  SmartPCI561 Modem
 1641  MKNet Corp.
 1642  Bitland(ShenZhen) Information Technology Co., Ltd.
-1657  Brocade Communications Systems, Inc.
+# nee Brocade Communications Systems, Inc.
+1657  Cavium QLogic
 	0013  425/825/42B/82B 4Gbps/8Gbps PCIe dual port FC HBA
 		103c 1742  82B 8Gbps dual port FC HBA
 		103c 1744  42B 4Gbps dual port FC HBA
@@ -19147,8 +19150,7 @@
 		103c 1743  81B 8Gbps single port FC HBA
 		1657 0014  415/815 4Gbps/8Gbps single port PCIe FC HBA
 	0021  804 8Gbps FC HBA for HP Bladesystem c-class
-# AnyIO Adapter
-	0022  1860 16Gbps/10Gbps Fabric Adapter
+	0022  BR-1860 Fabric Adapter
 		1657 0022  10Gbps CNA - FCOE
 		1657 0023  10Gbps CNA - LL
 		1657 0024  16Gbps FC HBA
