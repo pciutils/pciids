@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.05.22
-#	Date:    2018-05-22 03:15:02
+#	Version: 2018.05.24
+#	Date:    2018-05-24 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -73,6 +73,7 @@
 	000a  TTP-Monitoring Card V2.0
 0432  SCM Microsystems, Inc.
 	0001  Pluto2 DVB-T Receiver for PCMCIA [EasyWatch MobilSet]
+0497  Dell Inc. (wrong ID)
 0675  Dynalink
 	1700  IS64PH ISDN Adapter
 	1702  IS64PH ISDN Adapter
@@ -6414,6 +6415,7 @@
 		1077 000b  25GE 2P QL41262HxCU-DE Adapter
 		1077 0011  FastLinQ QL41212HLCU 25GbE Adapter
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
+		1077 0019  QL41232HOCU - Dual Port 25/10GbE SFP28 OCP Adapter
 		1077 0039  QLogic QL41262 PCIe 25Gb 2-Port SFP28 Ethernet Adapter
 		1590 021d  10/25GbE 2P QL41222HLCU-HP Adapter
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
@@ -16963,6 +16965,8 @@
 	6085  T6240-6085 Unified Wire Ethernet Controller
 	6086  T6225-6086 Unified Wire Ethernet Controller
 	6087  T6225-6087 Unified Wire Ethernet Controller
+	6088  T62100-6088 Unified Wire Ethernet Controller
+	6089  T62100-6089 Unified Wire Ethernet Controller
 	6401  T6225-CR Unified Wire Ethernet Controller
 	6402  T6225-SO-CR Unified Wire Ethernet Controller
 	6403  T6425-CR Unified Wire Ethernet Controller
@@ -16984,6 +16988,8 @@
 	6485  T6240-6085 Unified Wire Ethernet Controller
 	6486  T6225-6086 Unified Wire Ethernet Controller
 	6487  T6225-6087 Unified Wire Ethernet Controller
+	6488  T62100-6088 Unified Wire Ethernet Controller
+	6489  T62100-6089 Unified Wire Ethernet Controller
 	6501  T6225-CR Unified Wire Storage Controller
 	6502  T6225-SO-CR Unified Wire Storage Controller
 	6503  T6425-CR Unified Wire Storage Controller
@@ -17005,6 +17011,8 @@
 	6585  T6240-6085 Unified Wire Storage Controller
 	6586  T6225-6086 Unified Wire Storage Controller
 	6587  T6225-6087 Unified Wire Storage Controller
+	6588  T62100-6088 Unified Wire Storage Controller
+	6589  T62100-6089 Unified Wire Storage Controller
 	6601  T6225-CR Unified Wire Storage Controller
 	6602  T6225-SO-CR Unified Wire Storage Controller
 	6603  T6425-CR Unified Wire Storage Controller
@@ -17026,6 +17034,8 @@
 	6685  T6240-6085 Unified Wire Storage Controller
 	6686  T6225-6086 Unified Wire Storage Controller
 	6687  T6225-6087 Unified Wire Storage Controller
+	6688  T62100-6088 Unified Wire Storage Controller
+	6689  T62100-6089 Unified Wire Storage Controller
 	6801  T6225-CR Unified Wire Ethernet Controller [VF]
 	6802  T6225-SO-CR Unified Wire Ethernet Controller [VF]
 	6803  T6425-CR Unified Wire Ethernet Controller [VF]
@@ -17047,6 +17057,8 @@
 	6885  T6240-6085 Unified Wire Ethernet Controller [VF]
 	6886  T6225-6086 Unified Wire Ethernet Controller [VF]
 	6887  T6225-6087 Unified Wire Ethernet Controller [VF]
+	6888  T62100-6088 Unified Wire Ethernet Controller [VF]
+	6889  T62100-6089 Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
@@ -20819,6 +20831,35 @@
 		19e5 3036  NVMe SSD ES3600C V3 3200GB HHHL AIC
 	1710  iBMA Virtual Network Adapter
 	1711  Hi1710 [iBMC Intelligent Management system chip w/VGA support]
+	a120  HiSilicon PCIe Root Port with Gen4
+	a121  HiSilicon PCI-PCI Bridge
+	a122  HiSilicon Embedded DMA Engine
+	a124  HiSilicon Internal SDI Function Engine
+	a125  HiSilicon SDI Network Controller
+	a126  HiSilicon SDI NVMe Storage Controller
+	a127  HiSilicon SDI Accelerator
+	a12a  HiSilicon Add-on PCI-PCI Bridge
+	a220  HNS GE Network Controller
+	a221  HNS GE/10GE/25GE Network Controller
+	a222  HNS GE/10GE/25GE RDMA Network Controller
+	a224  HNS GE/10GE/25GE/50GE RDMA Network Controller
+	a226  HNS GE/10GE/25GE/50GE/100GE RDMA Network Controller
+	a22a  HiSilicon Network For SDI
+	a22e  HNS Network Controller (Virtual Function)
+	a22f  HNS RDMA Network Controller (Virtual Function)
+	a230  HiSilicon SAS 3.0 HBA
+	a235  HiSilicon AHCI HBA
+	a238  HiSilicon USB 3.0 Host Controller
+	a239  HiSilicon USB 2.0 2-port Host Controller
+	a23a  HiSilicon USB 2.0 Host Controller
+	a250  HiSilicon ZIP Engine
+	a251  HiSilicon ZIP Engine(Virtual Function)
+	a255  HiSilicon SEC Engine
+	a256  HiSilicon SEC Engine(Virtual Function)
+	a258  HiSilicon HPRE Engine
+	a259  HiSilicon HPRE Engine(Virtual Function)
+	a25a  HiSilicon RDE Engine
+	a25b  HiSilicon RDE Engine(Virtual Function)
 19e7  NET (Network Equipment Technologies)
 	1001  STIX DSP Card
 	1002  STIX - 1 Port T1/E1 Card
@@ -24555,6 +24596,7 @@
 	1d69  C604/X79 series chipset 4-Port SATA/SAS Storage Control Unit
 	1d6a  C600/X79 series chipset Dual 4-Port SATA Storage Control Unit
 	1d6b  C602 chipset 4-Port SATA Storage Control Unit
+		0497 1028  Dell Precision T3600
 	1d6c  C600/X79 series chipset Dual 4-Port SATA/SAS Storage Control Unit
 	1d6d  C600/X79 series chipset 4-Port SATA/SAS Storage Control Unit
 	1d6e  C600/X79 series chipset Dual 4-Port SATA Storage Control Unit
@@ -28409,6 +28451,7 @@
 	6f51  Xeon Processor D Family QuickData Technology Register DMA Channel 1
 	6f52  Xeon Processor D Family QuickData Technology Register DMA Channel 2
 	6f53  Xeon Processor D Family QuickData Technology Register DMA Channel 3
+	6f54  Xeon Processor D Family QuickAssist Technology
 	6f60  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
 	6f68  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
 	6f6a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
