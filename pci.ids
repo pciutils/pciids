@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.05.24
-#	Date:    2018-05-24 03:15:01
+#	Version: 2018.05.25
+#	Date:    2018-05-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -3120,6 +3120,7 @@
 	69a2  Vega 12
 	69a3  Vega 12
 	69af  Vega 12
+	6b76  RX VEGA 64
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
@@ -5876,7 +5877,7 @@
 	3070  Hitachi FIVE-FX Fibre Channel to PCIe HBA
 	3505  SH7751 PCI Controller (PCIC)
 	350e  SH7751R PCI Controller (PCIC)
-1055  Standard Microsystems Corp. [SMSC]
+1055  Microchip Technology / SMSC
 	9130  SLC90E66 [Victory66] IDE
 	9460  SLC90E66 [Victory66] ISA
 	9462  SLC90E66 [Victory66] USB
@@ -11146,7 +11147,7 @@
 	1c61  GP106M [GeForce GTX 1050 Ti Mobile]
 	1c62  GP106M [GeForce GTX 1050 Mobile]
 	1c70  GP106GL
-	1c80  GP107
+	1c80  GP107 [GeForce GTX 1050 3GB]
 	1c81  GP107 [GeForce GTX 1050]
 	1c82  GP107 [GeForce GTX 1050 Ti]
 	1c8c  GP107M [GeForce GTX 1050 Ti Mobile]
@@ -17839,7 +17840,7 @@
 	16d6  BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller
 	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
 		14e4 1202  BCM957412M4122C OCP 1x25G Type1 wRoCE
-		14e4 1402  BCM957414A4142 10Gb/25Gb Ethernet PCIe
+		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
 		14e4 1404  BCM957414M4142C OCP 2x25G Type1 wRoCE
 		1590 020e  Ethernet 25Gb 2-port 631SFP28 Adapter
 		1590 0211  Ethernet 25Gb 2-port 631FLR-SFP28 Adapter
@@ -18910,7 +18911,7 @@
 	6278  MT25208 InfiniHost III Ex (Tavor compatibility mode)
 	6279  MT25208 [InfiniHost III Ex HCA Flash Recovery]
 	6282  MT25208 [InfiniHost III Ex]
-	6340  MT25408 [ConnectX VPI - IB SDR / 10GigE]
+	6340  MT25408A0-FCC-SI ConnectX, Dual Port 10Gb/s InfiniBand / 10GigE Adapter IC with PCIe 2.0 x8 2.5GT/s Interface
 	634a  MT25408A0-FCC-DI ConnectX, Dual Port 20Gb/s InfiniBand / 10GigE Adapter IC with PCIe 2.0 x8 2.5GT/s Interface
 		1014 1014  4X InfiniBand DDR Expansion Card (CFFh) for IBM BladeCenter
 	6368  MT25448 [ConnectX EN 10GigE, PCIe 2.0 2.5GT/s]
@@ -21283,6 +21284,9 @@
 # Used on V120 VME Crate Controller
 1c32  Highland Technology, Inc.
 1c33  Daktronics, Inc
+1c36  Annapurna Labs Ltd.
+	0001  Gigabit Ethernet Adapter
+	0002  SFP+ 10G Ethernet Adapter
 1c3b  Accensus, LLC
 	0200  Telas2
 # http://www.accensusllc.com/accensustelas2.html
@@ -22880,7 +22884,7 @@
 	0a2a  Haswell-ULT Integrated Graphics Controller
 	0a2e  Haswell-ULT Integrated Graphics Controller
 	0a53  DC P3520 SSD
-	0a54  Express Flash NVMe P4500
+	0a54  Express Flash NVMe P4500/P4600
 		1028 1fe1  Express Flash NVMe 1TB 2.5" U.2 (P4500)
 		1028 1fe2  Express Flash NVMe 2TB 2.5" U.2 (P4500)
 		1028 1fe3  Express Flash NVMe 4TB 2.5" U.2 (P4500)
