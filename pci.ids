@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.06.11
-#	Date:    2018-06-11 03:15:02
+#	Version: 2018.06.18
+#	Date:    2018-06-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2592,15 +2592,19 @@
 	6842  Thames LE [Radeon HD 7000M Series]
 	6843  Thames [Radeon HD 7670M]
 	6860  Vega 10 [Radeon Instinct MI25]
+		1002 0c35  Radeon PRO V320
+		1002 6c75  Radeon PRO V320
 		106b 017c  Radeon Pro Vega 64
 	6861  Vega 10 XT [Radeon PRO WX 9100]
 	6862  Vega 10 XT [Radeon PRO SSG]
 	6863  Vega 10 XTX [Radeon Vega Frontier Edition]
 	6864  Vega
 	6867  Vega 10 XL [Radeon Pro Vega 56]
-	6868  Vega
+	6868  Vega 10 [Radeon PRO WX 8100]
 	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
 	687f  Vega 10 XT [Radeon RX Vega 64]
+	6880  Lexington [Radeon HD 6550M]
+		103c 163c  Pavilion dv6 Radeon HD 6550M
 	6888  Cypress XT [FirePro V8800]
 	6889  Cypress PRO [FirePro V7800]
 		1002 0301  FirePro V7800P
@@ -12626,6 +12630,7 @@
 	806c  PES16T4A/4T4G2 PCI Express Gen2 Switch
 	806e  PES24T6G2 PCI Express Gen2 Switch
 	806f  HIO524G2 PCI Express Gen2 Switch
+	8077  89HPES64H16G2 64-Lane 16-Port PCIe Gen2 System Interconnect Switch
 	8088  PES32NT8BG2 PCI Express Switch
 		1093 752f  PXIe-8383mc Device
 		1093 7543  PXIe-8383mc System Host
@@ -18980,7 +18985,7 @@
 	cb84  MT52100
 	cf08  MT53236
 	cf6c  MT53100 [Spectrum-2]
-	d2f0  Switch-IB 3 HDR (200Gbps) switch
+	d2f0  Quantum HDR (200Gbps) switch
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
@@ -24399,6 +24404,7 @@
 		e4bf 3100  CX1-BAND
 	1962  80960RM (i960RM) Microprocessor
 		105a 0000  SuperTrak SX6000 I2O CPU
+	1964  80960RN (i960RN) Microprocessor
 	19ac  Atom Processor C3000 Series SMBus Contoller - Host
 	19b0  Atom Processor C3000 Series SATA Controller 0
 	19b1  Atom Processor C3000 Series SATA Controller 0
