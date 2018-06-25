@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.06.18
-#	Date:    2018-06-18 03:15:02
+#	Version: 2018.06.25
+#	Date:    2018-06-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1720,7 +1720,7 @@
 	66a1  Vega 20
 	66a2  Vega 20
 	66a3  Vega 20
-	66a7  Vega 20
+	66a7  Vega 20 [Radeon Pro Vega 20]
 	66af  Vega 20
 	6704  Cayman PRO GL [FirePro V7900]
 	6707  Cayman LE GL [FirePro V5900]
@@ -21615,6 +21615,7 @@
 2003  Smart Link Ltd.
 	8800  LM-I56N
 2004  Smart Link Ltd.
+2048  Beijing SpaceControl Technology Co.Ltd
 20f4  TRENDnet
 2116  ZyDAS Technology Corp.
 21c3  21st Century Computer Corp.
