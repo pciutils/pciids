@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.08.12
-#	Date:    2018-08-12 03:15:01
+#	Version: 2018.08.20
+#	Date:    2018-08-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -653,7 +653,7 @@
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
 	02b1  Virtual Endpoint on PCIe Switch (9749)
-		1d49 0004  Lenovo ThinkSystem 1610-8P NVMe Switch Adapter
+		1d49 0004  ThinkSystem 1610-8P NVMe Switch Adapter
 	0407  MegaRAID
 		1000 0530  MegaRAID 530 SCSI 320-0X RAID Controller
 		1000 0531  MegaRAID 531 SCSI 320-4X RAID Controller
@@ -6257,6 +6257,8 @@
 	0074  U4 HT Bridge
 # should be 14e4:1645
 	1645  Broadcom NetXtreme BCM5701 Gigabit Ethernet
+	1801  T2 Bridge Controller
+	1802  T2 Secure Enclave Processor
 	2001  S1X NVMe Controller
 	2002  S3ELab NVMe Controller
 	2003  S3X NVMe Controller
@@ -11154,12 +11156,15 @@
 	1bb3  GP104GL [Tesla P4]
 	1bb4  GP104GL [Tesla P6]
 	1bb5  GP104GLM [Quadro P5200 Mobile]
+		103c 842f  P5200 [Zbook 17 G5 mobile workstation]
 	1bb6  GP104GLM [Quadro P5000 Mobile]
 	1bb7  GP104GLM [Quadro P4000 Mobile]
 		1462 11e9  Quadro P4000 Max-Q
 	1bb8  GP104GLM [Quadro P3000 Mobile]
 	1bb9  GP104GLM [Quadro P4200 Mobile]
+		103c 842f  P4200 [Zbook 17 G5 mobile workstation]
 	1bbb  GP104GLM [Quadro P3200 Mobile]
+		103c 842f  P3200 [Zbook 17 G5 moble workstation]
 	1bc7  GP104 [P104-101]
 	1be0  GP104BM [GeForce GTX 1080 Mobile]
 		1028 07c0  GeForce GTX 1080 Max-Q
@@ -11200,7 +11205,13 @@
 	1cb3  GP107GL [Quadro P400]
 	1cb6  GP107GL [Quadro P620]
 	1cba  GP107GLM [Quadro P2000 Mobile]
+		103c 842c  P2000 [Zbook 15 G5 mobile workstation]
+		103c 842f  P2000 [Zbook 17 G5 mobile workstation]
 	1cbb  GP107GLM [Quadro P1000 Mobile]
+		103c 8429  P1000 [Zbook Studio G5 mobile workstation]
+		103c 842c  P1000 [Zbook 15 G5 mobile workstation]
+		103c 842f  P1000 [Zbook 17 G5 mobile workstation]
+		103c 8451  P1000 [Zbook Studio x360 G5 mobile workstation]
 	1cbc  GP107GLM [Quadro P600 Mobile]
 	1ccc  GP107BM [GeForce GTX 1050 Ti Mobile]
 	1ccd  GP107BM [GeForce GTX 1050 Mobile]
@@ -11218,11 +11229,16 @@
 	1db7  GV100GL [Tesla V100 DGXS 32GB]
 	1dba  GV100GL [Quadro GV100]
 		10de 12eb  TITAN V CEO Edition
-	1e07  GV102
-	1e3c  GV102GL
-	1e82  GV104
-	1e87  GV104
-	1eab  GV104M
+	1e02  TU102
+	1e04  TU102
+	1e07  TU102 [GeForce RTX 2080 Ti]
+	1e30  TU102GL
+	1e3c  TU102GL [Quadro RTX 6000]
+	1e3d  TU102GL
+	1e82  TU104
+	1e87  TU104 [GeForce RTX 2080]
+	1eab  TU104M [GeForce RTX 2080 Mobile]
+	1f07  TU106
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -11569,6 +11585,7 @@
 		10ec 8739  Dell Wireless 1801
 	b822  RTL8822BE 802.11a/b/g/n/ac WiFi adapter
 	c821  RTL8821CE 802.11ac PCIe Wireless Network Adapter
+	d723  RTL8723DE 802.11b/g/n PCIe Adapter
 10ed  Ascii Corporation
 	7310  V7310
 10ee  Xilinx Corporation
@@ -16696,6 +16713,8 @@
 	50ac  T540-50AC Unified Wire Ethernet Controller
 	50ad  T520-50AD Unified Wire Ethernet Controller
 	50ae  T540-50AE Unified Wire Ethernet Controller
+	50af  T580-50AF Unified Wire Ethernet Controller
+	50b0  T520-50B0 Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -16764,6 +16783,8 @@
 	54ac  T540-50AC Unified Wire Ethernet Controller
 	54ad  T520-50AD Unified Wire Ethernet Controller
 	54ae  T540-50AE Unified Wire Ethernet Controller
+	54af  T580-50AF Unified Wire Ethernet Controller
+	54b0  T520-50B0 Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -16832,6 +16853,8 @@
 	55ac  T540-50AC Unified Wire Storage Controller
 	55ad  T520-50AD Unified Wire Storage Controller
 	55ae  T540-50AE Unified Wire Storage Controller
+	55af  T580-50AF Unified Wire Storage Controller
+	55b0  T520-50B0 Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -16900,6 +16923,8 @@
 	56ac  T540-50AC Unified Wire Storage Controller
 	56ad  T520-50AD Unified Wire Storage Controller
 	56ae  T540-50AE Unified Wire Storage Controller
+	56af  T580-50AF Unified Wire Storage Controller
+	56b0  T520-50B0 Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -17007,6 +17032,8 @@
 	58ac  T540-50AC Unified Wire Ethernet Controller [VF]
 	58ad  T520-50AD Unified Wire Ethernet Controller [VF]
 	58ae  T540-50AE Unified Wire Ethernet Controller [VF]
+	58af  T580-50AF Unified Wire Ethernet Controller [VF]
+	58b0  T520-50B0 Unified Wire Ethernet Controller [VF]
 	6001  T6225-CR Unified Wire Ethernet Controller
 	6002  T6225-SO-CR Unified Wire Ethernet Controller
 	6003  T6425-CR Unified Wire Ethernet Controller
@@ -18202,6 +18229,8 @@
 	5850  BCM5850 Crypto Accelerator
 	5e87  Valkyrie offload engine
 	8602  BCM7400/BCM7405 Serial ATA Controller
+	9026  CN99xx [ThunderX2] Integrated USB 3.0 xHCI Host Controller
+	9027  CN99xx [ThunderX2] Integrated AHCI/SATA 3 Host Controller
 	a8d8  BCM43224/5 Wireless Network Adapter
 	aa52  BCM43602 802.11ac Wireless LAN SoC
 	b302  BCM56302 StrataXGS 24x1GE 2x10GE Switch Controller
@@ -19315,6 +19344,7 @@
 	7191  Proc10a_48S
 	71a1  Proc10a_66S
 	71b1  Proc10A
+	72b1  HawkEye
 	73b1  Proc10s
 165d  Hsing Tech. Enterprise Co., Ltd.
 165f  Linux Media Labs, LLC
@@ -19898,6 +19928,8 @@
 	a100  THUNDERX CN88XX 48 core SoC
 	a200  OCTEON TX CN81XX/CN80XX
 	a300  OCTEON TX CN83XX
+	af00  CN99xx [ThunderX2] Integrated PCI Host bridge
+	af84  CN99xx [ThunderX2] Integrated PCI Express RP Bridge
 1787  Hightech Information System Ltd.
 1789  Ennyah Technologies Corp.
 # also used by Struck Innovative Systeme for joint developments
@@ -21083,7 +21115,7 @@
 	0a44  microEnable IV-FULL x4
 	0e44  microEnable IV-GigE x4
 1ae9  Wilocity Ltd.
-	0101  Wil6200 PCI Express Root Port
+	0101  Wil6200 PCI Express Upstream Port
 	0200  Wil6200 PCI Express Port
 	0201  Wil6200 Wireless PCI Express Port
 	0301  Wil6200 802.11ad Wireless Network Adapter
@@ -21273,6 +21305,7 @@
 	e400  PX14400 Dual Xilinx Virtex5 based Digitizer
 1b96  Western Digital
 1b9a  XAVi Technologies Corp.
+1baa  QNAP Systems, Inc.
 1bad  ReFLEX CES
 1bb0  SimpliVity Corporation
 	0002  OmniCube Accelerator OA-3000
@@ -21655,6 +21688,7 @@
 		1154 0368  LGY-PCIE-MG
 		1432 8104  10 Gigabit Ethernet PCI Express Adapter
 		1546 4027  GE10-PCIE4XG202P 10Gbase-T/NBASE-T Ethernet Adapter
+		1baa 3310  PCIe Expansion Card
 		1fc9 3015  Ethernet Adapter
 		4c52 1001  LREC6860BT 10 Gigabit Ethernet Adapter
 	4527  TN9710Q 5GBase-T/NBASE-T Ethernet Adapter
@@ -24279,6 +24313,7 @@
 		8086 00a0  Ethernet Converged Network Adapter X710-T4
 		8086 1003  Ethernet Converged Network Adapter X710-T
 	158a  Ethernet Controller XXV710 for 25GbE backplane
+		1590 0000  10/25Gb Ethernet Adapter
 		1590 0286  Synergy 4610C 10/25Gb Ethernet Adapter
 		8086 000a  Ethernet 25G 2P XXV710 Mezz
 	158b  Ethernet Controller XXV710 for 25GbE SFP28
