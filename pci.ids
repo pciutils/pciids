@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.08.20
-#	Date:    2018-08-20 03:15:02
+#	Version: 2018.08.28
+#	Date:    2018-08-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -7493,6 +7493,7 @@
 	036c  Bt879(??) Video Capture
 		13e9 0070  Win/TV (Video Section)
 	036e  Bt878 Video Capture
+		0000 0001  Euresys Picolo PCIe
 		0070 13eb  WinTV Series
 		0070 ff01  Viewcast Osprey 200
 		0071 0101  DigiTV PCI
@@ -7587,6 +7588,7 @@
 		1851 1851  FlyVideo'98 EZ - video
 		1852 1852  FlyVideo'98 (with FM Tuner)
 	0878  Bt878 Audio Capture
+		0000 0001  Euresys Picolo PCIe
 		0070 13eb  WinTV Series
 		0070 ff01  Viewcast Osprey 200
 		0071 0101  DigiTV PCI
@@ -11048,6 +11050,7 @@
 	1392  GM107M [GeForce GTX 860M]
 	1393  GM107M [GeForce 840M]
 	1398  GM107M [GeForce 845M]
+	1399  NVIDIA GeForce 945M
 	139a  GM107M [GeForce GTX 950M]
 		17aa 362c  GeForce GTX 950A
 		17aa 362f  GeForce GTX 950A
@@ -11122,6 +11125,7 @@
 	174d  GM108M [GeForce MX130]
 	174e  GM108M [GeForce MX110]
 	1789  GM107GL [GRID M3-3020]
+	179c  NVIDIA GeForce 940MX
 	17c2  GM200 [GeForce GTX TITAN X]
 	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
@@ -11238,7 +11242,8 @@
 	1e82  TU104
 	1e87  TU104 [GeForce RTX 2080]
 	1eab  TU104M [GeForce RTX 2080 Mobile]
-	1f07  TU106
+	1eae  TU104M
+	1f07  TU106 [GeForce RTX 2070]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -19376,6 +19381,7 @@
 167e  ONNTO Corp.
 1681  Hercules
 1682  XFX Pine Group Inc.
+	c580  Radeon RX 580
 1688  CastleNet Technology Inc.
 	1170  WLAN 802.11b card
 # nee Atheros Communications, Inc.
@@ -21330,8 +21336,14 @@
 	0100  Nytro Flash Storage
 		1bb1 0101  Nytro XF1440
 		1bb1 0103  Nytro 5000
+		1bb1 0105  Nytro 5020
+		1bb1 0106  Nytro 5020 TCG
 		1bb1 0121  Nytro XM1440
 		1bb1 0123  Nytro 5000
+# Kiowa M.2
+		1bb1 0125  Nytro 5020
+# Kiowa M.2 TCG
+		1bb1 0126  Nytro 5020
 		1bb1 01a1  Nytro XP7102
 1bb3  Bluecherry
 	4304  BC-04120A MPEG4 4 port video encoder / decoder
@@ -21613,6 +21625,8 @@
 1da1  Teko Telecom S.r.l.
 1da2  Sapphire Technology Limited
 1dbb  NGD Systems, Inc.
+1dbf  Guizhou Huaxintong Semiconductor Technology Co., Ltd
+	0401  StarDragon4800 PCI Express Root Port
 1de1  Tekram Technology Co.,Ltd.
 	0391  TRM-S1040 [DC-315 / DC-395 series]
 	2020  DC-390
@@ -24338,8 +24352,8 @@
 	15a9  X552 Virtual Function
 	15aa  Ethernet Connection X552 10 GbE Backplane
 		1059 0120  T4008 10GbE interface
-		1059 0150  RD-01068 10GbE interface
 	15ab  Ethernet Connection X552 10 GbE Backplane
+		1059 0150  RD-01068 10GbE interface
 		1059 0170  RD-01213 10GbE interface
 	15ac  Ethernet Connection X552 10 GbE SFP+
 		1059 0160  RD-01167 10GbE interface
@@ -28322,6 +28336,9 @@
 	3e85  8th Gen Core Processor PCIe Controller (x8)
 	3e89  8th Gen Core Processor PCIe Controller (x4)
 	3e91  8th Gen Core Processor Gaussian Mixture Model
+	3e92  UHD Graphics 630 (Desktop)
+	3e9b  UHD Graphics 630 (Mobile)
+	3ea5  Iris Plus Graphics 655
 	3ec2  8th Gen Core Processor Host Bridge/DRAM Registers
 	3ec4  8th Gen Core Processor Host Bridge/DRAM Registers
 	3ec6  8th Gen Core Processor Host Bridge/DRAM Registers
@@ -30139,6 +30156,7 @@ bdbd  Blackmagic Design
 	a144  DeckLink Mini Monitor 4K
 	a148  DeckLink SDI Micro
 	a14b  DeckLink 8K Pro
+	a1ff  eGPU RX580
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
 c0de  Motorola
@@ -30152,6 +30170,7 @@ caed  Canny Edge
 cafe  Chrysalis-ITS
 	0003  Luna K3 Hardware Security Module
 	0006  Luna PCI-e 3000 Hardware Security Module
+cc53  ScaleFlux Inc.
 cccc  Catapult Communications
 ccec  Curtiss-Wright Controls Embedded Computing
 cddd  Tyzx, Inc.
