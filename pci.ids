@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.08.28
-#	Date:    2018-08-28 03:15:02
+#	Version: 2018.08.30
+#	Date:    2018-08-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -20863,6 +20863,7 @@
 1982  Distant Early Warning Communications Inc
 	1600  OX16C954 HOST-A
 	16ff  OX16C954 HOST-B
+1987  Phison Electronics Corporation
 1989  Montilio Inc.
 	0001  RapidFile Bridge
 	8001  RapidFile
@@ -23032,13 +23033,15 @@
 	0a2a  Haswell-ULT Integrated Graphics Controller
 	0a2e  Haswell-ULT Integrated Graphics Controller
 	0a53  DC P3520 SSD
-	0a54  Express Flash NVMe P4500/P4600
+	0a54  NVMe Datacenter SSD [3DNAND, Beta Rock Controller]
 		1028 1fe1  Express Flash NVMe 1TB 2.5" U.2 (P4500)
 		1028 1fe2  Express Flash NVMe 2TB 2.5" U.2 (P4500)
 		1028 1fe3  Express Flash NVMe 4TB 2.5" U.2 (P4500)
 		1028 1fe4  Express Flash NVMe 4TB HHHL AIC (P4500)
 		8086 4308  Intel SSD D5-P4320 and D5-P4326
-	0a55  Express Flash NVMe P4600
+		8086 4702  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P4500)
+		8086 4704  NVMe Datacenter SSD [3DNAND] SE AIC (P4500)
+	0a55  NVMe DC SSD [3DNAND, Beta Rock Controller]
 		1028 1fe5  Express Flash NVMe 1.6TB 2.5" U.2 (P4600)
 		1028 1fe6  Express Flash NVMe 2TB 2.5" U.2 (P4600)
 		1028 1fe7  Express Flash NVMe 3.2TB 2.5" U.2 (P4600)
