@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.08.30
-#	Date:    2018-08-30 03:15:02
+#	Version: 2018.09.04
+#	Date:    2018-09-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10331,6 +10331,7 @@
 	0fb0  GM200 High Definition Audio
 	0fb8  GP108 High Definition Audio Controller
 	0fb9  GP107GL High Definition Audio Controller
+	0fba  GM206 High Definition Audio Controller
 	0fbb  GM204 High Definition Audio Controller
 	0fc0  GK107 [GeForce GT 640 OEM]
 	0fc1  GK107 [GeForce GT 640]
@@ -19994,6 +19995,7 @@
 	7163  GL9701 PCIe to PCI Bridge
 	8083  GL880 USB 1.1 UHCI controller
 	8084  GL880 USB 2.0 EHCI controller
+	9750  GL9750 SD Host Controller
 17aa  Lenovo
 	402b  Intel 82599ES 10Gb 2-port Server Adapter X520-2
 17ab  Phillips Components
@@ -23038,9 +23040,32 @@
 		1028 1fe2  Express Flash NVMe 2TB 2.5" U.2 (P4500)
 		1028 1fe3  Express Flash NVMe 4TB 2.5" U.2 (P4500)
 		1028 1fe4  Express Flash NVMe 4TB HHHL AIC (P4500)
+		1028 1fee  Express Flash NVMe 1.6TB 2.5" U.2 (P4610)
+		1028 1fef  Express Flash NVMe 3.2TB 2.5" U.2 (P4610)
+		1028 1ff0  Express Flash NVMe 6.4TB 2.5" U.2 (P4610)
+		1028 2003  Express Flash NVMe 1.0 TB 2.5" U.2 (P4510)
+		1028 2004  Express Flash NVMe 2.0TB 2.5" U.2 (P4510)
+		1028 2005  Express Flash NVMe 4.0TB 2.5" U.2 (P4510)
+		108e 4870  NVMe PCIe 3.0 SSD 6.4TB AIC (P4608)
+		108e 487a  NVMe PCIe 3.0 SSD v2 6.4TB 2.5-inch (P4610)
+		108e 4971  NVMe PCIe 3.0 SSD 6.4 TB 2.5-inch (P4600)
+		1590 025d  NVMe Datacenter SSD [3DNAND] 1.0TB 2.5" U.2 (P4500)
+		1590 025e  NVMe Datacenter SSD [3DNAND] 2.0TB 2.5" U.2 (P4500)
+		1590 025f  NVMe Datacenter SSD [3DNAND] 4.0TB 2.5" U.2 (P4500)
+		1590 0262  NVMe Datacenter SSD [3DNAND] 1.6TB 2.5" U.2 (P4600)
+		1590 0264  NVMe Datacenter SSD [3DNAND] 3.2TB 2.5" U.2 (P4600)
+		1590 0265  NVMe Datacenter SSD [3DNAND] 6.4TB 2.5" U.2 (P4600)
+		1590 026c  NVMe Datacenter SSD [3DNAND] 4.0TB AIC (P4500)
 		8086 4308  Intel SSD D5-P4320 and D5-P4326
 		8086 4702  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P4500)
 		8086 4704  NVMe Datacenter SSD [3DNAND] SE AIC (P4500)
+		8086 4712  NVMe Datacenter SSD [3DNAND] ME 2.5" U.2 (P4600)
+		8086 4714  NVMe Datacenter SSD [3DNAND] ME AIC (P4600)
+		8086 4802  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P4510)
+		8086 4804  NVMe Datacenter SSD [3DNAND] SE AIC (P4510)
+		8086 4805  NVMe Datacenter SSD [3DNAND] SE M.2 (P4511)
+		8086 4812  NVMe Datacenter SSD [3DNAND] ME 2.5" U.2 (P4610)
+		8086 4814  NVMe Datacenter SSD [3DNAND] ME AIC (P4610)
 	0a55  NVMe DC SSD [3DNAND, Beta Rock Controller]
 		1028 1fe5  Express Flash NVMe 1.6TB 2.5" U.2 (P4600)
 		1028 1fe6  Express Flash NVMe 2TB 2.5" U.2 (P4600)
@@ -28341,6 +28366,7 @@
 	3e91  8th Gen Core Processor Gaussian Mixture Model
 	3e92  UHD Graphics 630 (Desktop)
 	3e9b  UHD Graphics 630 (Mobile)
+	3ea0  UHD Graphics 620 (Whiskey Lake)
 	3ea5  Iris Plus Graphics 655
 	3ec2  8th Gen Core Processor Host Bridge/DRAM Registers
 	3ec4  8th Gen Core Processor Host Bridge/DRAM Registers
