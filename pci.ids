@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.04
-#	Date:    2018-09-04 03:15:02
+#	Version: 2018.09.07
+#	Date:    2018-09-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2609,7 +2609,7 @@
 	6867  Vega 10 XL [Radeon Pro Vega 56]
 	6868  Vega 10 [Radeon PRO WX 8100]
 	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
-	687f  Vega 10 XT [Radeon RX Vega 64]
+	687f  Vega 10 XL/XT [Radeon RX Vega 56/64]
 	6880  Lexington [Radeon HD 6550M]
 		103c 163c  Pavilion dv6 Radeon HD 6550M
 	6888  Cypress XT [FirePro V8800]
@@ -4081,6 +4081,7 @@
 	03dc  POWER8 Host Bridge (PHB3)
 	044b  GenWQE Accelerator Adapter
 	04aa  Flash Adapter 90 (PCIe2 0.9TB)
+	04c1  POWER9 Host Bridge (PHB4)
 	04da  PCI-E IPR SAS+ Adapter (ASIC)
 		1014 04fb  PCIe3 x16 20GB Cache 12Gb Quad SAS RAID+ Adapter(580B)
 		1014 04fc  PCIe3 x8 12Gb Quad SAS RAID+ Adapter(580A)
@@ -9467,6 +9468,7 @@
 	040f  G84GL [Quadro FX 1700]
 	0410  G92 [GeForce GT 330]
 	0414  G92 [GeForce 9800 GT]
+	0418  G92 [GeForce GT 330 OEM]
 	0420  G86 [GeForce 8400 SE]
 	0421  G86 [GeForce 8500 GT]
 		1462 0960  NX8500GT-TD512EH/M2
@@ -11051,7 +11053,7 @@
 	1392  GM107M [GeForce GTX 860M]
 	1393  GM107M [GeForce 840M]
 	1398  GM107M [GeForce 845M]
-	1399  NVIDIA GeForce 945M
+	1399  GM107M [GeForce 945M]
 	139a  GM107M [GeForce GTX 950M]
 		17aa 362c  GeForce GTX 950A
 		17aa 362f  GeForce GTX 950A
@@ -20974,6 +20976,7 @@
 	a238  HiSilicon USB 3.0 Host Controller
 	a239  HiSilicon USB 2.0 2-port Host Controller
 	a23a  HiSilicon USB 2.0 Host Controller
+	a23b  HiSilicon USB 1.1 Host Controller
 	a250  HiSilicon ZIP Engine
 	a251  HiSilicon ZIP Engine(Virtual Function)
 	a255  HiSilicon SEC Engine
@@ -26269,9 +26272,12 @@
 	2700  Optane SSD 900P Series
 		8086 3900  900P Series [Add-in Card]
 		8086 3901  900P Series [2.5" SFF]
-	2701  Optane DC P4800X Series SSD
-		8086 3904  DC P4800X Series [Add-in Card]
-		8086 3905  DC P4800X Series [2.5" SFF]
+	2701  NVMe Datacenter SSD [Optane]
+		1028 2000  Express Flash NVMe [Optane] 375GB 2.5" U.2 (P4800X)
+		1028 2001  Express Flash NVMe [Optane] 750GB 2.5" U.2 (P4800X)
+		1028 2002  Express Flash NVMe [Optane] 750GB AIC (P4800X)
+		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
+		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2770  82945G/GZ/P/PL Memory Controller Hub
 		1028 01ad  OptiPlex GX620
 		103c 2a3b  Pavilion A1512X
