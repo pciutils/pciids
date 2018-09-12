@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.08
-#	Date:    2018-09-08 03:15:02
+#	Version: 2018.09.12
+#	Date:    2018-09-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2341,7 +2341,7 @@
 		1458 22f0  Radeon RX 570
 		1458 22f7  Radeon RX 570 Gaming 4G
 		1462 3411  Radeon RX 470
-		1462 3413  Radeon RX 480
+		1462 3413  Radeon RX 480 Gaming X 8GB
 		1462 3416  Radeon RX 570
 		1462 3418  Radeon RX 580 Armor 4G OC
 		148c 2372  Radeon RX 480
@@ -14400,6 +14400,7 @@
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
 	8000  PM8000  [SPC - SAS Protocol Controller]
 	8009  PM8009 SPCve 8x6G
+	8018  PM8018 Adaptec SAS Adaptor ASA-70165H PCIe Gen3 x8 6 Gbps 16-lane 4x SFF-8644
 	8032  PM8032 Tachyon QE8
 		117c 003a  Celerity FC-81EN Fibre Channel Adapter
 		117c 003b  Celerity FC-82EN Fibre Channel Adapter
@@ -21206,6 +21207,17 @@
 	1142  ASM1042A USB 3.0 Host Controller
 	1242  ASM1142 USB 3.1 Host Controller
 	1343  ASM1143 USB 3.1 Host Controller
+1b26  Netcope Technologies, a.s.
+	c132  COMBO-LXT155
+	c1c0  NFB-100G1-e0
+	c1c1  NFB-100G1-e1
+	c250  NFB-200G2-master
+	c251  NFB-200G2-slave
+	c2c0  NFB-100G2-e0
+	c2c1  NFB-100G2-e1
+	cb20  COMBO-20G
+	cb40  COMBO-40G
+	cb80  NFB-40G2
 1b2c  Opal-RT Technologies Inc.
 1b36  Red Hat, Inc.
 	0001  QEMU PCI-PCI bridge
@@ -21628,6 +21640,7 @@
 	790e  FCH LPC Bridge
 1d95  Graphcore Ltd
 	0001  Colossus GC2 [C2]
+	0002  Colossus GC1 [S1]
 1da1  Teko Telecom S.r.l.
 1da2  Sapphire Technology Limited
 1dbb  NGD Systems, Inc.
