@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.12
-#	Date:    2018-09-12 03:15:02
+#	Version: 2018.09.15
+#	Date:    2018-09-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2465,8 +2465,9 @@
 		15c3 2b1e  MED-X6000
 	6829  Cape Verde
 	682a  Venus PRO
-	682b  Venus LE / Tropo PRO-L [Radeon HD 8830M / R7 M465X]
+	682b  Cape Verde PRO / Venus LE / Tropo PRO-L [Radeon HD 8830M / R7 250 / R7 M465X]
 		0128 079c  Radeon R7 465X
+		1462 3012  Radeon R7 250
 	682c  Cape Verde GL [FirePro W4100]
 	682d  Chelsea XT GL [FirePro M4000]
 	682f  Chelsea LP [Radeon HD 7730M]
@@ -6375,6 +6376,8 @@
 		1077 02a8  QLE2692 Dual Port 16Gb FC to PCIe Gen3 x8 Adapter
 		1077 02ab  QLE2740 Single Port 32Gb FC to PCIe Gen3 x8 Adapter
 		1077 02ac  QLE2742 Dual Port 32Gb FC to PCIe Gen3 x8 Adapter
+		1077 02b8  2x16Gb QME2692 FC HBA
+		1077 02b9  2x32Gb QME2742 FC HBA
 		1590 00f9  StoreFabric SN1100Q 16Gb Single Port Fibre Channel Host Bus Adapter
 		1590 00fa  StoreFabric SN1100Q 16Gb Dual Port Fibre Channel Host Bus Adapter
 		1590 0203  StoreFabric SN1600Q 32Gb Single Port Fibre Channel Host Bus Adapter
@@ -6444,6 +6447,8 @@
 		1077 0007  QLogic 2x1GE+2x10GE QL41264HMCU CNA
 		1077 0009  QLogic 2x1GE+2x10GE QL41162HMRJ CNA
 		1077 000b  25GE 2P QL41262HxCU-DE Adapter
+		1077 000f  2x25GE QL41262HMKR CNA
+		1077 0010  2x25GE QL41232HMKR NIC
 		1077 0011  FastLinQ QL41212HLCU 25GbE Adapter
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
 		1077 0019  QL41232HOCU - Dual Port 25/10GbE SFP28 OCP Adapter
@@ -6464,6 +6469,7 @@
 		1077 000c  QLogic 2x25GE QL41262HMCU CNA
 		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter
 		1077 000e  FastLinQ QL41162H 10GbE FCoE Adapter
+		1077 000f  2x25GE QL41262HMKR CNA
 	8084  FastLinQ QL41000 Series 10/25/40/50GbE Controller (iSCSI)
 		1077 0001  10GE 2P QL41162HxRJ-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -6477,6 +6483,7 @@
 		1077 000c  QLogic 2x25GE QL41262HMCU CNA
 		1077 000d  FastLinQ QL41262H 25GbE iSCSI Adapter
 		1077 000e  FastLinQ QL41162H 10GbE iSCSI Adapter
+		1077 000f  2x25GE QL41262HMKR CNA
 	8090  FastLinQ QL41000 Series Gigabit Ethernet Controller (SR-IOV VF)
 		1077 0001  25GE 2P QL41262HxCU-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -6490,6 +6497,8 @@
 		1077 000c  QLogic 2x25GE QL41262HMCU CNA
 		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter (SR-IOV VF)
 		1077 000e  FastLinQ QL41162H 10GbE iSCSI Adapter (SR-IOV VF)
+		1077 000f  2x25GE QL41262HMKR CNA
+		1077 0010  2x25GE QL41232HMKR NIC
 		1077 0011  FastLinQ QL41212H 25GbE Adapter (SR-IOV VF)
 		1077 0012  FastLinQ QL41112H 10GbE Adapter (SR-IOV VF)
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
@@ -11128,7 +11137,7 @@
 	174d  GM108M [GeForce MX130]
 	174e  GM108M [GeForce MX110]
 	1789  GM107GL [GRID M3-3020]
-	179c  NVIDIA GeForce 940MX
+	179c  GM107 [GeForce 940MX]
 	17c2  GM200 [GeForce GTX TITAN X]
 	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
@@ -21207,6 +21216,7 @@
 	1142  ASM1042A USB 3.0 Host Controller
 	1242  ASM1142 USB 3.1 Host Controller
 	1343  ASM1143 USB 3.1 Host Controller
+	2142  ASM2142 USB 3.1 Host Controller
 1b26  Netcope Technologies, a.s.
 	c132  COMBO-LXT155
 	c1c0  NFB-100G1-e0
@@ -21606,6 +21616,7 @@
 1d72  Xiaomi
 1d78  DERA
 1d7c  Aerotech, Inc.
+1d82  NETINT Technologies Inc.
 1d87  Fuzhou Rockchip Electronics Co., Ltd
 1d8f  Enyx
 1d94  Chengdu Higon IC Design Co.Ltd
