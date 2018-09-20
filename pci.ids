@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.19
-#	Date:    2018-09-19 03:15:02
+#	Version: 2018.09.20
+#	Date:    2018-09-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -11247,17 +11247,17 @@
 		10de 12eb  TITAN V CEO Edition
 	1e02  TU102
 	1e04  TU102 [GeForce RTX 2080 Ti]
-	1e07  TU102 [GeForce RTX 2080 Ti]
+	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
 	1e30  TU102GL
 	1e3c  TU102GL [Quadro RTX 6000]
 	1e3d  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
-	1e87  TU104 [GeForce RTX 2080]
+	1e87  TU104 [GeForce RTX 2080 Rev. A]
 	1eab  TU104M [GeForce RTX 2080 Mobile]
 	1eae  TU104M
 	1f02  TU106 [GeForce RTX 2070]
-	1f07  TU106 [GeForce RTX 2070]
+	1f07  TU106 [GeForce RTX 2070 Rev. A]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
