@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.20
-#	Date:    2018-09-20 03:15:02
+#	Version: 2018.09.21
+#	Date:    2018-09-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10338,6 +10338,7 @@
 	0f00  GF108 [GeForce GT 630]
 	0f01  GF108 [GeForce GT 620]
 	0f02  GF108 [GeForce GT 730]
+	0f03  GF108 [GeForce GT 610]
 	0f06  GF108 [GeForce GT 730]
 	0fb0  GM200 High Definition Audio
 	0fb8  GP108 High Definition Audio Controller
@@ -20667,7 +20668,7 @@
 		1924 0500  SFE4005-A0
 	c101  EF1-21022T [EtherFabric]
 192a  BiTMICRO Networks Inc.
-	0008  Rampart
+	0008  RAMPART
 192e  TransDimension
 1931  Option N.V.
 	000c  Qualcomm MSM6275 UMTS chip
