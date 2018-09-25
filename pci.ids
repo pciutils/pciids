@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.21
-#	Date:    2018-09-21 03:15:02
+#	Version: 2018.09.25
+#	Date:    2018-09-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -16268,9 +16268,10 @@
 		1612 0000  PCI-1612 4-port RS-232/422/485
 	1711  PCI-1711 16-channel data acquisition card 12-bit, 100kS/s
 	1733  PCI-1733 32-channel isolated digital input card
-	1752  PCI-1752
-	1754  PCI-1754
-	1756  PCI-1756
+	1734  PCI-1734 32-channel isolated digital output card
+	1752  PCI-1752 64-channel Isolated Digital Output Card
+	1754  PCI-1754 64-channel Isolated Digital Input Card
+	1756  PCI-1756 64-ch Isolated Digital I/O PCI Card
 # FPGA bridge to two SJA1000
 	c302  MIOe-3680 2-Port CAN-Bus MIOe Module with Isolation Protection
 13ff  Silicon Spice Inc
