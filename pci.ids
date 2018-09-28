@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.25
-#	Date:    2018-09-25 03:15:02
+#	Version: 2018.09.28
+#	Date:    2018-09-28 03:15:04
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1667,7 +1667,7 @@
 		106b 014b  Tropo XT [Radeon R9 M380 Mac Edition]
 	6641  Saturn PRO [Radeon HD 8930M]
 	6646  Bonaire XT [Radeon R9 M280X]
-	6647  Bonaire PRO [Radeon R9 M270X]
+	6647  Bonaire PRO [Radeon R9 M270X/M280X]
 	6649  Bonaire [FirePro W5100]
 		1002 0b0c  FirePro W4300
 		103c 0b0c  Bonaire [FirePro W4300]
@@ -19714,6 +19714,8 @@
 	4353  PMC-DX2003 Reconfigurable FPGA with TTL and Differential I/O
 	4357  PMC-DX502 Reconfigurable Differential I/O Module
 	4457  PMC730, APC730, AcPC730 Multifunction Module
+	4471  XMC730 Multi-function I/O module with front I/O
+	4473  XMC730CC Multi-function I/O module with rear I/O Conduction-cooled
 	464d  PMC408 32-Channel Digital Input/Output Module
 	4850  PMC220-16 12-Bit Analog Output Module
 	4a42  PMC483, APC483, AcPC483 Counter Timer Module
@@ -22336,7 +22338,7 @@
 544c  Teralogic Inc
 	0350  TL880-based HDTV/ATSC tuner
 544d  TBS Technologies
-	6178  DVB-S2 4 Tuner PCIe Card
+	6178  DVB Tuner PCIe Card
 		544d 6904  TBS6904 DVB-S2 Quad Tuner PCIe Card
 		544d 6905  TBS6905 DVB-S2 Quad Tuner PCIe Card
 		6205 0001  TBS6205 DVB-T2/T/C Quad TV Tuner PCIe Card
