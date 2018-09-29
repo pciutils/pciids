@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.28
-#	Date:    2018-09-28 03:15:04
+#	Version: 2018.09.29
+#	Date:    2018-09-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -1667,7 +1667,8 @@
 		106b 014b  Tropo XT [Radeon R9 M380 Mac Edition]
 	6641  Saturn PRO [Radeon HD 8930M]
 	6646  Bonaire XT [Radeon R9 M280X]
-	6647  Bonaire PRO [Radeon R9 M270X/M280X]
+	6647  Saturn PRO/XT [Radeon R9 M270X/M280X]
+		1043 223d  N551ZU laptop Radeon R9 M280X
 	6649  Bonaire [FirePro W5100]
 		1002 0b0c  FirePro W4300
 		103c 0b0c  Bonaire [FirePro W4300]
@@ -2354,7 +2355,7 @@
 		1787 a470  Radeon RX 470
 		1787 a480  Radeon RX 480
 		1849 5001  Phantom Gaming X RX 580 OC
-		1da2 e353  Sapphire Radeon RX 580 Pulse 8GB
+		1da2 e353  Radeon RX 570 Pulse 4GB
 		1da2 e366  Nitro+ Radeon RX 580 4GB
 	67e0  Baffin [Radeon Pro WX 4170]
 		103c 8270  Radeon Pro WX 4170
@@ -3659,6 +3660,7 @@
 # I have a Tonga card and this is the HDMI Audio part
 	aad8  Tonga HDMI Audio [Radeon R9 285/380]
 		174b aad8  Radeon R9 285/380 HDMI Audio
+	aae0  Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X]
 	aae8  Fiji HDMI/DP Audio [Radeon R9 Nano / FURY/FURY X]
 	aaf0  Ellesmere [Radeon RX 580]
 	ac00  Theater 600 Pro
@@ -4324,10 +4326,16 @@
 	43a1  Hudson PCI to PCI bridge (PCIE port 1)
 	43a2  Hudson PCI to PCI bridge (PCIE port 2)
 	43a3  Hudson PCI to PCI bridge (PCIE port 3)
+	43b0  X370 Series Chipset PCIe Upstream Port
+		1849 43c6  Fatal1ty X370 Professional Gaming
 	43b1  X399 Series Chipset PCIe Bridge
 	43b4  300 Series Chipset PCIe Port
+	43b5  X370 Series Chipset SATA Controller
+		1849 43c8  Fatal1ty X370 Professional Gaming
 	43b6  X399 Series Chipset SATA Controller
 	43b7  300 Series Chipset SATA Controller
+	43b9  X370 Series Chipset USB 3.1 xHCI Controller
+		1849 43d0  Fatal1ty X370 Professional Gaming
 	43ba  X399 Series Chipset USB 3.1 xHCI Controller
 	43bb  300 Series Chipset USB 3.1 xHCI Controller
 	7006  AMD-751 [Irongate] System Controller
@@ -21222,6 +21230,8 @@
 	1080  ASM1083/1085 PCIe to PCI Bridge
 		1849 1080  Motherboard
 	1142  ASM1042A USB 3.0 Host Controller
+	1184  ASM1184e PCIe Switch Port
+		1849 1184  ASM1184e PCIe Switch
 	1242  ASM1142 USB 3.1 Host Controller
 	1343  ASM1143 USB 3.1 Host Controller
 	2142  ASM2142 USB 3.1 Host Controller
