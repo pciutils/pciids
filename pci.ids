@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.09.29
-#	Date:    2018-09-29 03:15:02
+#	Version: 2018.10.02
+#	Date:    2018-10-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -21341,6 +21341,7 @@
 		1d5c 1000  Anker USB 3.0 Express Card
 	1009  FL1009 USB 3.0 Host Controller
 	1100  FL1100 USB 3.0 Host Controller
+		16b8 6e31  Allegro Pro USB 3.0 PCIe
 1b74  OpenVox Communication Co. Ltd.
 	0115  D115P/D115E Single-port E1/T1 card
 	d130  D130P/D130E Single-port E1/T1 card (3rd GEN)
