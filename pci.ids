@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.02
-#	Date:    2018-10-02 03:15:02
+#	Version: 2018.10.07
+#	Date:    2018-10-07 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -10533,6 +10533,7 @@
 	10ef  GP102 HDMI Audio Controller
 	10f0  GP104 High Definition Audio Controller
 	10f1  GP106 High Definition Audio Controller
+	10f7  TU102 High Definition Audio Controller
 	1140  GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
 		1019 0799  GeForce 820M
 		1019 999f  GeForce GT 720M
@@ -11152,6 +11153,7 @@
 	17f0  GM200GL [Quadro M6000]
 	17f1  GM200GL [Quadro M6000 24GB]
 	17fd  GM200GL [Tesla M40]
+	1ad6  TU102 USB 3.1 Controller
 	1b00  GP102 [TITAN X]
 	1b01  GP102
 	1b02  GP102 [TITAN Xp]
@@ -20856,7 +20858,10 @@
 1971  AGEIA Technologies, Inc.
 	1011  Physics Processing Unit [PhysX]
 		1043 0001  PhysX P1
-1974  Eberspaecher Electronics
+# nee Eberspaecher Electronics
+1974  Star Electronics GmbH & Co. KG
+	0009  FlexCard PMC-II
+	0011  FlexCard PMC-II Ethernet
 1976  TRENDnet
 1977  Parsec
 197b  JMicron Technology Corp.
