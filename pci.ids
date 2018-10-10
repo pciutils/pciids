@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.07
-#	Date:    2018-10-07 03:15:01
+#	Version: 2018.10.10
+#	Date:    2018-10-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -412,6 +412,7 @@
 	005c  SAS1064A PCI-X Fusion-MPT SAS
 	005d  MegaRAID SAS-3 3108 [Invader]
 		1000 9361  MegaRAID SAS 9361-8i
+		1000 9363  MegaRAID SAS 9361-4i
 		1000 9364  MegaRAID SAS 9364-8i
 		1000 936a  MegaRAID SAS 9364-8i
 		1028 1f41  PERC H830 Adapter
