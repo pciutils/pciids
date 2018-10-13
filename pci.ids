@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.10
-#	Date:    2018-10-10 03:15:02
+#	Version: 2018.10.13
+#	Date:    2018-10-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -18282,8 +18282,9 @@
 # Tomahawk
 	b960  Broadcom BCM56960 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
-		14e4 8024  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w4GB DRAM
-		14e4 8028  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w8GB DRAM
+		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
+		14e4 8024  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w4GB DRAM (Part No BCM958802A8044C)
+		14e4 8028  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w8GB DRAM (Part No BCM958802A8048C)
 	d804  BCM58804 Stingray 100Gb Ethernet SoC
 14e5  Pixelfusion Ltd
 14e6  SHINING Technology Inc
