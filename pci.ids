@@ -1,11 +1,11 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.13
-#	Date:    2018-10-13 03:15:02
+#	Version: 2018.10.16
+#	Date:    2018-10-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
-#	the PCI ID Project at http://pci-ids.ucw.cz/.
+#	the PCI ID Project at https://pci-ids.ucw.cz/.
 #
 #	New data are always welcome, especially if they are accurate. If you have
 #	anything to contribute, please follow the instructions at the web site.
@@ -22390,6 +22390,7 @@
 	c110  Virtualized HID
 # Device surfaced in guests to provide 2d graphics capabilities
 	c147  Virtualized Graphics Device
+	c200  XCP-ng Project PCI Device for Windows Update
 5854  GoTView
 5ace  Beholder International Ltd.
 6205  TBS Technologies (wrong ID)
