@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.16
-#	Date:    2018-10-16 03:15:02
+#	Version: 2018.10.17
+#	Date:    2018-10-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3145,6 +3145,7 @@
 	69a2  Vega 12
 	69a3  Vega 12
 	69af  Vega 12
+	6fdf  Polaris 20 XL [Radeon RX 580 2048SP]
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
