@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.17
-#	Date:    2018-10-17 03:15:02
+#	Version: 2018.10.18
+#	Date:    2018-10-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11262,13 +11262,14 @@
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
-	1e30  TU102GL
+	1e30  TU102GL [Quadro RTX 6000]
 	1e3c  TU102GL [Quadro RTX 6000]
 	1e3d  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
 	1eab  TU104M [GeForce RTX 2080 Mobile]
 	1eae  TU104M
+	1eb0  TU104GL [Quadro RTX 5000]
 	1f02  TU106 [GeForce RTX 2070]
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 10df  Emulex Corporation
@@ -19864,6 +19865,13 @@
 1760  TEDIA spol. s r. o.
 	0101  PCD-7004 Digital Bi-Directional Ports PCI Card
 	0102  PCD-7104 Digital Input & Output PCI Card
+	0121  PCT-7303A PC card with IRC counters
+	0122  PCT-7408A PC card with counters and timers
+	0123  PCT-7424 PCI card with standard counters
+	0214  PCT-7424C (F0) PC card with standard counters
+	0215  PCT-7424C (F1) PC card with standard counters
+	0216  PCT-7424E (F0) PC card with standard counters
+	0217  PCT-7424E (F1) PC card with standard counters
 	0303  PCD-7006C Digital Input & Output PCI Card
 1761  Pickering Interfaces Ltd
 1771  InnoVISION Multimedia Ltd.
@@ -24173,6 +24181,7 @@
 		1093 76b1  PCIe-8237R-S Ethernet Adapter
 		1093 775b  PCIe-8237 Ethernet Adapter
 		10a9 802a  UV2-BaseIO dual-port GbE
+		1137 023e  1GigE I350 LOM
 		15d9 0652  Dual Port i350 GbE MicroLP [AOC-CGP-i2]
 		17aa 1074  ThinkServer I350-T4 AnyFabric
 		17aa 4005  I350 Gigabit Network Connection
