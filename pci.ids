@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.18
-#	Date:    2018-10-18 03:15:02
+#	Version: 2018.10.20
+#	Date:    2018-10-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13183,6 +13183,7 @@
 		1137 012c  VIC 1340 MLOM Userspace NIC
 		1137 012e  VIC 1227 PCIe Userspace NIC
 		1137 0137  VIC 1380 Mezzanine Userspace NIC
+	023e  1GigE I350 LOM
 1138  Ziatech Corporation
 	8905  8905 [STD 32 Bridge]
 1139  Dynamic Pictures, Inc
@@ -17278,6 +17279,9 @@
 		1014 0621  PCIe3 1.6TB NVMe Flash Adapter II x8
 		1014 0622  PCIe3 3.2TB NVMe Flash Adapter II x8
 		1014 0629  PCIe3 6.4TB NVMe Flash Adapter II x8
+		1014 064a  PCIe3 1.6TB NVMe Flash Adapter III x8
+		1014 064b  PCIe3 3.2TB NVMe Flash Adapter III x8
+		1014 064c  PCIe3 6.4TB NVMe Flash Adapter III x8
 		1028 1fd9  Express Flash PM1725a 800GB SFF
 		1028 1fda  Express Flash PM1725a 1.6TB SFF
 		1028 1fdb  Express Flash PM1725a 3.2TB SFF
@@ -21535,6 +21539,7 @@
 	0008  ExaNIC V5P
 	0009  ExaNIC X25
 	0100  ExaDISK FX1
+1cf0  Akitio
 1cf7  Subspace Dynamics
 1d00  Pure Storage
 1d05  Tongfang Hongkong Limited
@@ -24435,6 +24440,9 @@
 		8086 0008  Ethernet Network Adapter OCP XXV710-1
 		8086 0009  Ethernet 25G 2P XXV710 Adapter
 		8086 4001  Ethernet Network Adapter XXV710-2
+	1591  Ethernet Controller E810-C for backplane
+	1592  Ethernet Controller E810-C for QSFP
+	1593  Ethernet Controller E810-C for SFP
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
 	15a2  Ethernet Connection (3) I218-LM
@@ -27746,6 +27754,7 @@
 # Stone Peak 1x1
 		8086 4210  Dual Band Wireless AC 3165
 	3166  Dual Band Wireless-AC 3165 Plus Bluetooth
+	3184  UHD Graphics 605
 	3200  GD31244 PCI-X SATA HBA
 		1775 c200  C2K onboard SATA host bus adapter
 	3310  IOP348 I/O Processor
