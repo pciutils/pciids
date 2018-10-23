@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.20
-#	Date:    2018-10-20 03:15:02
+#	Version: 2018.10.23
+#	Date:    2018-10-23 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23223,14 +23223,17 @@
 	0d26  Crystal Well Integrated Graphics Controller
 	0d36  Crystal Well Integrated Graphics Controller
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e01  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port in DMI2 Mode
 	0e02  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1a
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e03  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1b
 	0e04  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2a
 	0e05  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2b
 	0e06  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2c
 	0e07  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2d
 	0e08  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3a
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e09  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3b
 	0e0a  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3c
 	0e0b  Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3d
@@ -23243,16 +23246,26 @@
 	0e1e  Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers
 	0e1f  Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers
 	0e20  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e21  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e22  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e23  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e24  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e25  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e26  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e27  Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e28  Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e29  Xeon E7 v2/Xeon E5 v2/Core i7 Memory Hotplug
 	0e2a  Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e2c  Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC
 	0e2e  Xeon E7 v2/Xeon E5 v2/Core i7 CBDMA
 	0e2f  Xeon E7 v2/Xeon E5 v2/Core i7 CBDMA
