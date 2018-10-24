@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.23
-#	Date:    2018-10-23 03:15:01
+#	Version: 2018.10.24
+#	Date:    2018-10-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4794,6 +4794,7 @@
 	0533  MGA G200EH
 		103c 3381  iLO4
 	0534  G200eR2
+		1028 04f7  PowerEdge R320 server
 	0536  Integrated Matrox G200eW3 Graphics Controller
 	0538  MGA G200eH3
 		1590 00e4  iLO5 VGA
@@ -6463,6 +6464,8 @@
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
 		1077 0019  QL41232HOCU - Dual Port 25/10GbE SFP28 OCP Adapter
 		1077 0039  QLogic QL41262 PCIe 25Gb 2-Port SFP28 Ethernet Adapter
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021d  10/25GbE 2P QL41222HLCU-HP Adapter
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
 		1590 021f  10/25GbE 2P QL41262HMCU-HP Adapter
@@ -6480,6 +6483,8 @@
 		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter
 		1077 000e  FastLinQ QL41162H 10GbE FCoE Adapter
 		1077 000f  2x25GE QL41262HMKR CNA
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 	8084  FastLinQ QL41000 Series 10/25/40/50GbE Controller (iSCSI)
 		1077 0001  10GE 2P QL41162HxRJ-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -6494,6 +6499,8 @@
 		1077 000d  FastLinQ QL41262H 25GbE iSCSI Adapter
 		1077 000e  FastLinQ QL41162H 10GbE iSCSI Adapter
 		1077 000f  2x25GE QL41262HMKR CNA
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 	8090  FastLinQ QL41000 Series Gigabit Ethernet Controller (SR-IOV VF)
 		1077 0001  25GE 2P QL41262HxCU-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -6511,6 +6518,8 @@
 		1077 0010  2x25GE QL41232HMKR NIC
 		1077 0011  FastLinQ QL41212H 25GbE Adapter (SR-IOV VF)
 		1077 0012  FastLinQ QL41112H 10GbE Adapter (SR-IOV VF)
+		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
+		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
 		1590 021f  10/25GbE 2P QL41262HMCU-HP Adapter
 	8430  ISP8324 1/10GbE Converged Network Controller (NIC VF)
@@ -17741,7 +17750,8 @@
 		103c 0890  NC6000 laptop
 		103c 099c  NX6110/NC6120
 		10cf 1279  LifeBook E8010D
-	165f  NetXtreme BCM5720 Gigabit Ethernet PCIe
+	165f  NetXtreme BCM5720 2-port Gigabit Ethernet PCIe
+		1028 04f7  PowerEdge R320 server
 	1662  NetXtreme II BCM57712 10 Gigabit Ethernet
 	1663  NetXtreme II BCM57712 10 Gigabit Ethernet Multi Function
 	1665  NetXtreme BCM5717 Gigabit Ethernet PCIe
@@ -21493,6 +21503,7 @@
 		1014 04f5  PCIe3 1.6TB NVMe Flash Adapter
 		1014 04f6  PCIe3 3.2TB NVMe Flash Adapter
 	0023  Ultrastar SN200 Series NVMe SSD
+		1c58 8823  Ultrastar Memory (ME200)
 1c5c  SK hynix
 	1283  PC300 NVMe Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
@@ -23270,10 +23281,13 @@
 	0e2e  Xeon E7 v2/Xeon E5 v2/Core i7 CBDMA
 	0e2f  Xeon E7 v2/Xeon E5 v2/Core i7 CBDMA
 	0e30  Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e32  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0
 	0e33  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1
 	0e34  Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e36  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e37  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring
 	0e38  Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 1
 	0e3a  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 2
@@ -23300,6 +23314,7 @@
 	0e7f  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers
 	0e80  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0
 	0e81  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0e83  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0
 	0e84  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0
 	0e85  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register
@@ -23309,6 +23324,7 @@
 	0e94  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 1
 	0e95  Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register
 	0ea0  Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0
+		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 	0ea8  Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers
 	0eaa  Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers
 	0eab  Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers
@@ -24821,10 +24837,12 @@
 	1c5f  6 Series/C200 Series Chipset Family LPC Controller
 	1d00  C600/X79 series chipset 4-Port SATA IDE Controller
 	1d02  C600/X79 series chipset 6-Port SATA AHCI Controller
+		1028 04f7  C602J on PowerEdge R320 server
 	1d04  C600/X79 series chipset SATA RAID Controller
 	1d06  C600/X79 series chipset SATA Premium RAID Controller
 	1d08  C600/X79 series chipset 2-Port SATA IDE Controller
 	1d10  C600/X79 series chipset PCI Express Root Port 1
+		1028 04f7  C602J on PowerEdge R320 server
 	1d11  C600/X79 series chipset PCI Express Root Port 1
 	1d12  C600/X79 series chipset PCI Express Root Port 2
 	1d13  C600/X79 series chipset PCI Express Root Port 2
@@ -24833,29 +24851,37 @@
 	1d16  C600/X79 series chipset PCI Express Root Port 4
 	1d17  C600/X79 series chipset PCI Express Root Port 4
 	1d18  C600/X79 series chipset PCI Express Root Port 5
+		1028 04f7  C602J on PowerEdge R320 server
 	1d19  C600/X79 series chipset PCI Express Root Port 5
 	1d1a  C600/X79 series chipset PCI Express Root Port 6
 	1d1b  C600/X79 series chipset PCI Express Root Port 6
 	1d1c  C600/X79 series chipset PCI Express Root Port 7
 	1d1d  C600/X79 series chipset PCI Express Root Port 7
 	1d1e  C600/X79 series chipset PCI Express Root Port 8
+		1028 04f7  C602J on PowerEdge R320 server
 	1d1f  C600/X79 series chipset PCI Express Root Port 8
 	1d20  C600/X79 series chipset High Definition Audio Controller
 	1d22  C600/X79 series chipset SMBus Host Controller
 	1d24  C600/X79 series chipset Thermal Management Controller
 	1d25  C600/X79 series chipset DMI to PCI Bridge
 	1d26  C600/X79 series chipset USB2 Enhanced Host Controller #1
+		1028 04f7  C602J on PowerEdge R320 server
 	1d2d  C600/X79 series chipset USB2 Enhanced Host Controller #2
+		1028 04f7  C602J on PowerEdge R320 server
 	1d33  C600/X79 series chipset LAN Controller
 	1d35  C600/X79 series chipset VECI Controller
 	1d3a  C600/X79 series chipset MEI Controller #1
+		1028 04f7  C602J on PowerEdge R320 server
 	1d3b  C600/X79 series chipset MEI Controller #2
+		1028 04f7  C602J on PowerEdge R320 server
 	1d3c  C600/X79 series chipset IDE-r Controller
 	1d3d  C600/X79 series chipset KT Controller
 	1d3e  C600/X79 series chipset PCI Express Virtual Root Port
+		1028 04f7  C602J on PowerEdge R320 server
 	1d3f  C608/C606/X79 series chipset PCI Express Virtual Switch Port
 	1d40  C600/X79 series chipset LPC Controller
 	1d41  C600/X79 series chipset LPC Controller
+		1028 04f7  C602J on PowerEdge R320 server
 	1d50  C608 chipset Dual 4-Port SATA/SAS Storage Control Unit
 	1d54  C600/X79 series chipset Dual 4-Port SATA/SAS Storage Control Unit
 	1d55  C600/X79 series chipset 4-Port SATA/SAS Storage Control Unit
@@ -25346,6 +25372,7 @@
 		1028 020d  Inspiron 530
 		1028 0211  Optiplex 755
 		1028 02da  OptiPlex 980
+		1028 04f7  PowerEdge R320 server
 		103c 2a3b  Pavilion A1512X
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		103c 31fe  ProLiant DL140 G3
