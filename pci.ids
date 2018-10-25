@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.24
-#	Date:    2018-10-24 03:15:02
+#	Version: 2018.10.25
+#	Date:    2018-10-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1678,6 +1678,7 @@
 	6650  Bonaire
 	6651  Bonaire
 	6658  Bonaire XTX [Radeon R7 260X/360]
+		1043 04d3  AMD Radeon R7 260X
 		148c 0907  Radeon R7 360
 		1682 0907  Radeon R7 360
 		1682 7360  Radeon R7 360
@@ -11279,6 +11280,7 @@
 	1eab  TU104M [GeForce RTX 2080 Mobile]
 	1eae  TU104M
 	1eb0  TU104GL [Quadro RTX 5000]
+	1eb8  TU104GL [Tesla T4]
 	1f02  TU106 [GeForce RTX 2070]
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 10df  Emulex Corporation
@@ -11321,6 +11323,7 @@
 		10df e322  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 		10df e323  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 		10df e325  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
+	e333  Lancer Gen6: LPe32000 Fibre Channel Host Adapter
 	f011  Saturn: LightPulse Fibre Channel Host Adapter
 	f015  Saturn: LightPulse Fibre Channel Host Adapter
 	f085  LP850 Fibre Channel Host Adapter
@@ -19658,6 +19661,7 @@
 		1a3b 2100  AW-NB100H 802.11n Wireless Mini PCIe Card
 	003c  QCA986x/988x 802.11ac Wireless Network Adapter
 	003e  QCA6174 802.11ac Wireless Network Adapter
+		1a56 143a  Killer 1435 Wireless-AC
 		1a56 1525  Killer N1525 Wireless-AC
 	0040  QCA9980/9990 802.11ac Wireless Network Adapter
 	0041  QCA6164 802.11ac Wireless Network Adapter
