@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.25
-#	Date:    2018-10-25 03:15:02
+#	Version: 2018.10.26
+#	Date:    2018-10-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11470,6 +11470,7 @@
 	524a  RTS524A PCI Express Card Reader
 	5250  RTS5250 PCI Express Card Reader
 	525a  RTS525A PCI Express Card Reader
+		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5286  RTS5286 PCI Express Card Reader
@@ -13774,6 +13775,7 @@
 	e822  MMC/SD Host Controller
 		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
+		17aa 21cf  ThinkPad T520
 	e823  PCIe SDXC/MMC Host Controller
 		17aa 21cf  ThinkPad T520
 	e832  R5C832 PCIe IEEE 1394 Controller
@@ -23876,6 +23878,7 @@
 		8086 106f  10-Gigabit XF LR Server Adapter
 		8086 a06f  10-Gigabit XF LR Server Adapter
 	10f5  82567LM Gigabit Network Connection
+		17aa 20ee  ThinkPad T400
 	10f6  82574L Gigabit Network Connection
 	10f7  10 Gigabit BR KX4 Dual Port Network Connection
 		108e 7b12  Sun Dual 10GbE PCIe 2.0 FEM
@@ -24364,6 +24367,7 @@
 	156c  DSL5520 Thunderbolt 2 NHI [Falcon Ridge 4C 2013]
 	156d  DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
 	156f  Ethernet Connection I219-LM
+		1028 06dc  Latitude E7470
 	1570  Ethernet Connection I219-V
 	1571  Ethernet Virtual Function 700 Series
 	1572  Ethernet Controller X710 for 10GbE SFP+
@@ -24592,8 +24596,10 @@
 	1901  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
 	1902  HD Graphics 510
 	1903  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 	1904  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 382a  B51-80 Laptop
 	1905  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)
@@ -24610,6 +24616,7 @@
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	1912  HD Graphics 530
 	1916  Skylake GT2 [HD Graphics 520]
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 	1918  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1919  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Imaging Unit
@@ -27135,6 +27142,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 2937  Optiplex 755
 		8086 2942  828011 (ICH9 Family ) USB UHCI Controller
@@ -27152,6 +27160,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 2938  Optiplex 755
 		8086 5044  Desktop Board DP35DP
@@ -27164,6 +27173,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f0  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 5044  Desktop Board DP35DP
 		e4bf cc4d  CCM-BOOGIE
@@ -27197,6 +27207,7 @@
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 7345  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f1  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 293c  Optiplex 755
 		8086 5044  Desktop Board DP35DP
@@ -27209,6 +27220,7 @@
 		1043 829f  P5K PRO Motherboard: 82801IR [ICH9R]
 		1462 735a  MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]
 		1462 7360  G33/P35 Neo
+		17aa 20f2  ThinkPad T400
 		1af4 1100  QEMU Virtual Machine
 		8086 293e  Optiplex 755
 		8086 2940  Optiplex 755
@@ -27384,14 +27396,18 @@
 	2a16  Mobile GME965/GLE960 PT IDER Controller
 	2a17  Mobile GME965/GLE960 KT Controller
 	2a40  Mobile 4 Series Chipset Memory Controller Hub
+		17aa 20e0  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a41  Mobile 4 Series Chipset PCI Express Graphics Port
 		e4bf cc4d  CCM-BOOGIE
 	2a42  Mobile 4 Series Chipset Integrated Graphics Controller
+		17aa 2112  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a43  Mobile 4 Series Chipset Integrated Graphics Controller
+		17aa 2112  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a44  Mobile 4 Series Chipset MEI Controller
+		17aa 20e6  ThinkPad T400
 	2a45  Mobile 4 Series Chipset MEI Controller
 	2a46  Mobile 4 Series Chipset PT IDER Controller
 	2a47  Mobile 4 Series Chipset AMT SOL Redirection
@@ -28689,6 +28705,7 @@
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5917  UHD Graphics 620
 	5918  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+	591b  HD Graphics 630
 	591d  HD Graphics P630
 	591f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	5a84  Celeron N3350/Pentium N4200/Atom E3900 Series Integrated Graphics Controller
@@ -29371,6 +29388,7 @@
 	9ce5  Wildcat Point-LP Serial IO GSPI Controller #0
 	9ce6  Wildcat Point-LP Serial IO GSPI Controller #1
 	9d03  Sunrise Point-LP SATA Controller [AHCI mode]
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 382a  B51-80 Laptop
 	9d10  Sunrise Point-LP PCI Express Root Port #1
@@ -29385,10 +29403,12 @@
 		17aa 382a  B51-80 Laptop
 	9d19  Sunrise Point-LP PCI Express Root Port #10
 	9d21  Sunrise Point-LP PMC
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 382a  B51-80 Laptop
 	9d23  Sunrise Point-LP SMBus
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -29399,16 +29419,19 @@
 	9d2a  Sunrise Point-LP Serial IO SPI Controller #1
 	9d2d  Sunrise Point-LP Secure Digital IO Controller
 	9d2f  Sunrise Point-LP USB 3.0 xHCI Controller
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
 	9d31  Sunrise Point-LP Thermal subsystem
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 382a  B51-80 Laptop
 	9d35  Sunrise Point-LP Integrated Sensor Hub
 	9d3a  Sunrise Point-LP CSME HECI #1
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -29416,6 +29439,7 @@
 	9d43  Sunrise Point-LP LPC Controller
 		17aa 382a  B51-80 Laptop
 	9d48  Sunrise Point-LP LPC Controller
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 	9d4e  Intel(R) 100 Series Chipset Family LPC Controller/eSPI Controller - 9D4E
 	9d56  Sunrise Point-LP LPC Controller
@@ -29432,6 +29456,7 @@
 	9d65  Sunrise Point-LP Serial IO I2C Controller #5
 	9d66  Sunrise Point-LP Serial IO UART Controller #2
 	9d70  Sunrise Point-LP HD Audio
+		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		17aa 382a  B51-80 Laptop
 	9d71  Sunrise Point-LP HD Audio
