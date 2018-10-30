@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.10.29
-#	Date:    2018-10-29 03:15:02
+#	Version: 2018.10.30
+#	Date:    2018-10-30 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26445,6 +26445,7 @@
 		1043 817a  P5LD2-VM Mainboard
 		107b 5048  E4500
 		1462 7418  Wind PC MS-7418
+		1849 2770  ConRoe1333-D667
 		8086 544e  DeskTop Board D945GTP
 	2771  82945G/GZ/P/PL PCI Express Root Port
 	2772  82945G/GZ Integrated Graphics Controller
@@ -27871,6 +27872,19 @@
 		8086 4210  Dual Band Wireless AC 3165
 	3166  Dual Band Wireless-AC 3165 Plus Bluetooth
 	3184  UHD Graphics 605
+	318c  Celeron/Pentium Silver Processor Dynamic Platform and Thermal Framework Processor Participant
+	318e  Celeron/Pentium Silver Processor NorthPeak
+	319a  Celeron/Pentium Silver Processor Trusted Execution Engine Interface
+	31ac  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
+	31ae  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
+	31bc  Celeron/Pentium Silver Processor Serial IO UART Host Controller
+	31be  Celeron/Pentium Silver Processor Serial IO UART Host Controller
+	31c0  Celeron/Pentium Silver Processor Serial IO UART Host Controller
+	31c2  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31c4  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31c6  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31d4  Celeron/Pentium Silver Processor Gaussian Mixture Model
+	31ee  Celeron/Pentium Silver Processor Serial IO UART Host Controller
 	3200  GD31244 PCI-X SATA HBA
 		1775 c200  C2K onboard SATA host bus adapter
 	3310  IOP348 I/O Processor
