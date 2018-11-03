@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.01
-#	Date:    2018-11-01 03:15:02
+#	Version: 2018.11.03
+#	Date:    2018-11-03 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -19143,6 +19143,7 @@
 15b7  Sandisk Corp
 	2001  Skyhawk Series NVME SSD
 	5001  WD Black NVMe SSD
+	5002  WD Black 2018/PC SN720 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -25045,6 +25046,7 @@
 		1043 1477  N56VZ
 		1043 1517  Zenbook Prime UX31A
 		1043 84ca  P8 series motherboard
+		17aa 21f3  ThinkPad T430
 		1849 1e31  Motherboard
 	1e33  7 Series/C210 Series Chipset Family LAN Controller
 	1e3a  7 Series/C216 Chipset Family MEI Controller #1
