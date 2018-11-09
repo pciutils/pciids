@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.03
-#	Date:    2018-11-03 03:15:02
+#	Version: 2018.11.09
+#	Date:    2018-11-09 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -651,6 +651,14 @@
 	00d0  SAS3716 Fusion-MPT Tri-Mode RAID Controller Chip (ROC)
 	00d1  SAS3616 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
 	00d3  MegaRAID Tri-Mode SAS3716W
+	00e0  Fusion-MPT 12GSAS/PCIe Unsupported SAS39xx
+	00e1  Fusion-MPT 12GSAS/PCIe SAS39xx
+	00e2  Fusion-MPT 12GSAS/PCIe Secure SAS39xx
+	00e3  Fusion-MPT 12GSAS/PCIe Unsupported SAS39xx
+	00e4  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
+	00e5  Fusion-MPT 12GSAS/PCIe SAS38xx
+	00e6  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
+	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
 	02b0  Virtual Endpoint on PCIe Switch
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
@@ -726,6 +734,14 @@
 	0807  SA2020ZC
 	0901  61C102
 	1000  63C815
+	10e0  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
+	10e1  MegaRAID 12GSAS/PCIe SAS39xx
+	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
+	10e3  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
+	10e4  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
+	10e5  MegaRAID 12GSAS/PCIe SAS38xx
+	10e6  MegaRAID 12GSAS/PCIe Secure SAS38xx
+	10e7  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	1960  MegaRAID
 		1000 0518  MegaRAID 518 SCSI 320-2 Controller
 		1000 0520  MegaRAID 520 SCSI 320-1 Controller
