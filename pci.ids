@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.09
-#	Date:    2018-11-09 03:15:01
+#	Version: 2018.11.11
+#	Date:    2018-11-11 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11304,6 +11304,7 @@
 	1eab  TU104M [GeForce RTX 2080 Mobile]
 	1eae  TU104M
 	1eb0  TU104GL [Quadro RTX 5000]
+	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
 	1f02  TU106 [GeForce RTX 2070]
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
@@ -17132,6 +17133,7 @@
 	6087  T6225-6087 Unified Wire Ethernet Controller
 	6088  T62100-6088 Unified Wire Ethernet Controller
 	6089  T62100-6089 Unified Wire Ethernet Controller
+	608a  T62100-608a Unified Wire Ethernet Controller
 	6401  T6225-CR Unified Wire Ethernet Controller
 	6402  T6225-SO-CR Unified Wire Ethernet Controller
 	6403  T6425-CR Unified Wire Ethernet Controller
@@ -17155,6 +17157,7 @@
 	6487  T6225-6087 Unified Wire Ethernet Controller
 	6488  T62100-6088 Unified Wire Ethernet Controller
 	6489  T62100-6089 Unified Wire Ethernet Controller
+	648a  T62100-608a Unified Wire Ethernet Controller
 	6501  T6225-CR Unified Wire Storage Controller
 	6502  T6225-SO-CR Unified Wire Storage Controller
 	6503  T6425-CR Unified Wire Storage Controller
@@ -17178,6 +17181,7 @@
 	6587  T6225-6087 Unified Wire Storage Controller
 	6588  T62100-6088 Unified Wire Storage Controller
 	6589  T62100-6089 Unified Wire Storage Controller
+	658a  T62100-608a Unified Wire Storage Controller
 	6601  T6225-CR Unified Wire Storage Controller
 	6602  T6225-SO-CR Unified Wire Storage Controller
 	6603  T6425-CR Unified Wire Storage Controller
@@ -17201,6 +17205,7 @@
 	6687  T6225-6087 Unified Wire Storage Controller
 	6688  T62100-6088 Unified Wire Storage Controller
 	6689  T62100-6089 Unified Wire Storage Controller
+	668a  T62100-608a Unified Wire Storage Controller
 	6801  T6225-CR Unified Wire Ethernet Controller [VF]
 	6802  T6225-SO-CR Unified Wire Ethernet Controller [VF]
 	6803  T6425-CR Unified Wire Ethernet Controller [VF]
@@ -17224,6 +17229,7 @@
 	6887  T6225-6087 Unified Wire Ethernet Controller [VF]
 	6888  T62100-6088 Unified Wire Ethernet Controller [VF]
 	6889  T62100-6089 Unified Wire Ethernet Controller [VF]
+	688a  T62100-608a Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
@@ -21751,14 +21757,14 @@
 	1000  IO Memory Controller
 	2000  NoLoad Hardware Development Kit
 1def  Ampere Computing, LLC
-	e005  Skylark PCI Express Root Port 0 [eMAG]
-	e006  Skylark PCI Express Root Port 1 [eMAG]
-	e007  Skylark PCI Express Root Port 2 [eMAG]
-	e008  Skylark PCI Express Root Port 3 [eMAG]
-	e009  Skylark PCI Express Root Port 4 [eMAG]
-	e00a  Skylark PCI Express Root Port 5 [eMAG]
-	e00b  Skylark PCI Express Root Port 6 [eMAG]
-	e00c  Skylark PCI Express Root Port 7 [eMAG]
+	e005  eMAG PCI Express Root Port 0
+	e006  eMAG PCI Express Root Port 1
+	e007  eMAG PCI Express Root Port 2
+	e008  eMAG PCI Express Root Port 3
+	e009  eMAG PCI Express Root Port 4
+	e00a  eMAG PCI Express Root Port
+	e00b  eMAG PCI Express Root Port 6
+	e00c  eMAG PCI Express Root Port 7
 1df7  opencpi.org
 	0001  ml605
 	0002  alst4
@@ -28802,8 +28808,13 @@
 		17aa 225e  ThinkPad T480
 	5918  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	591b  HD Graphics 630
+	591c  UHD Graphics 615
 	591d  HD Graphics P630
+	591e  HD Graphics 615
 	591f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+	5923  HD Graphics 635
+	5926  Iris Plus Graphics 640
+	5927  Iris Plus Graphics 650
 	5a84  Celeron N3350/Pentium N4200/Atom E3900 Series Integrated Graphics Controller
 	5a88  Celeron N3350/Pentium N4200/Atom E3900 Series Imaging Unit
 	5a98  Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster
@@ -29164,6 +29175,7 @@
 		1993 0ded  mGuard-PCI AV#2
 		1993 0dee  mGuard-PCI AV#1
 		1993 0def  mGuard-PCI AV#0
+	87c0  UHD Graphics 617
 	8800  Platform Controller Hub EG20T PCI Express Port
 	8801  Platform Controller Hub EG20T Packet Hub
 	8802  Platform Controller Hub EG20T Gigabit Ethernet Controller
