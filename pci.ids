@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.12
-#	Date:    2018-11-12 03:15:02
+#	Version: 2018.11.13
+#	Date:    2018-11-13 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2202,6 +2202,7 @@
 		1028 2120  Radeon HD 6450
 		103c 2128  Radeon HD 6450
 		103c 2aee  Radeon HD 7450A
+		1092 6450  Radeon HD 6450
 		1462 2125  Radeon HD 6450
 		1462 2346  Radeon HD 7450
 		1462 2490  Radeon HD 6450
@@ -21353,6 +21354,7 @@
 	001f  DSU
 	0020  ADQ14
 	0023  ADQ7
+	0026  ADQ8
 	2014  TX320
 	2019  S6000
 # now owned by HGST (a Western Digital subsidiary)
