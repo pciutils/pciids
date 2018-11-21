@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.13
-#	Date:    2018-11-13 03:15:01
+#	Version: 2018.11.21
+#	Date:    2018-11-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -587,6 +587,7 @@
 	0084  SAS2208 PCI-Express Fusion-MPT SAS-2
 	0085  SAS2208 PCI-Express Fusion-MPT SAS-2
 	0086  SAS2308 PCI-Express Fusion-MPT SAS-2
+		15d9 0690  Onboard MegaRAID SAS2208 [Thunderbolt]
 		15d9 0691  Onboard SAS2308 PCI-Express Fusion-MPT SAS-2
 	0087  SAS2308 PCI-Express Fusion-MPT SAS-2
 		1000 3020  9207-8i SAS2.1 HBA
@@ -13600,6 +13601,7 @@
 	0102  Extended IDE Controller
 	0103  EX-IDE Type-B
 	010f  NVMe Controller
+	0110  NVMe SSD Controller Cx5
 	0115  XG4 NVMe SSD Controller
 	0404  DVD Decoder card
 	0406  Tecra Video Capture device
@@ -21766,7 +21768,7 @@
 	e007  eMAG PCI Express Root Port 2
 	e008  eMAG PCI Express Root Port 3
 	e009  eMAG PCI Express Root Port 4
-	e00a  eMAG PCI Express Root Port
+	e00a  eMAG PCI Express Root Port 5
 	e00b  eMAG PCI Express Root Port 6
 	e00c  eMAG PCI Express Root Port 7
 1df7  opencpi.org
