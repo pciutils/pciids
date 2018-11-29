@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.21
-#	Date:    2018-11-21 03:15:02
+#	Version: 2018.11.29
+#	Date:    2018-11-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3310,6 +3310,7 @@
 		1043 049e  Radeon R9 FURY
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
+	731f  Navi 10
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -3632,11 +3633,11 @@
 	9919  Trinity [Radeon HD 7500G]
 	9920  Liverpool [Playstation 4 APU]
 	9921  Liverpool HDMI/DP Audio Controller
-	9990  Trinity [Radeon HD 7520G]
-	9991  Trinity [Radeon HD 7540D]
-	9992  Trinity [Radeon HD 7420G]
-	9993  Trinity [Radeon HD 7480D]
-	9994  Trinity [Radeon HD 7400G]
+	9990  Trinity 2 [Radeon HD 7520G]
+	9991  Trinity 2 [Radeon HD 7540D]
+	9992  Trinity 2 [Radeon HD 7420G]
+	9993  Trinity 2 [Radeon HD 7480D]
+	9994  Trinity 2 [Radeon HD 7400G]
 	9995  Richland [Radeon HD 8450G]
 	9996  Richland [Radeon HD 8470D]
 	9997  Richland [Radeon HD 8350G]
@@ -3647,9 +3648,9 @@
 	999c  Richland
 # AMD Quad-Core A8-Series APU A8-6500T with Radeon HD 8550D
 	999d  Richland [Radeon HD 8550D]
-	99a0  Trinity [Radeon HD 7520G]
-	99a2  Trinity [Radeon HD 7420G]
-	99a4  Trinity [Radeon HD 7400G]
+	99a0  Trinity 2 [Radeon HD 7520G]
+	99a2  Trinity 2 [Radeon HD 7420G]
+	99a4  Trinity 2 [Radeon HD 7400G]
 	aa00  R600 HDMI Audio [Radeon HD 2900 GT/PRO/XT]
 	aa01  RV635 HDMI Audio [Radeon HD 3650/3730/3750]
 	aa08  RV630 HDMI Audio [Radeon HD 2600 PRO/XT / HD 3610]
@@ -11311,7 +11312,9 @@
 	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
 	1f02  TU106 [GeForce RTX 2070]
+	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
+	1f08  TU106
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -13602,6 +13605,8 @@
 	0103  EX-IDE Type-B
 	010f  NVMe Controller
 	0110  NVMe SSD Controller Cx5
+		1d49 4039  Thinksystem U.2 CM5 NVMe SSD
+		1d49 403a  Thinksystem AIC CM5 NVMe SSD
 	0115  XG4 NVMe SSD Controller
 	0404  DVD Decoder card
 	0406  Tecra Video Capture device
@@ -17309,6 +17314,7 @@
 	a802  NVMe SSD Controller SM951/PM951
 	a804  NVMe SSD Controller SM961/PM961
 	a808  NVMe SSD Controller SM981/PM981
+		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -21552,6 +21558,7 @@
 		1c58 8823  Ultrastar Memory (ME200)
 1c5c  SK hynix
 	1283  PC300 NVMe Solid State Drive
+	1504  SC300 512GB M.2 2280 SATA Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	0540  PBlaze4 NVMe SSD
 # http://www.nicevt.ru/ (in Russian)
@@ -21777,6 +21784,11 @@
 	0003  alst4x
 1dfc  JSC NT-COM
 	1181  TDM 8 Port E1/T1/J1 Adapter
+1e24  Squirrels Research Labs
+	0101  Acorn CLE-101
+	0215  Acorn CLE-215
+	021f  Acorn CLE-215+
+	1525  Xilinx BCU-1525
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
