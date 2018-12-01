@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.11.29
-#	Date:    2018-11-29 03:15:02
+#	Version: 2018.12.01
+#	Date:    2018-12-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -593,6 +593,7 @@
 		1000 3020  9207-8i SAS2.1 HBA
 		1000 3040  9207-8e SAS2.1 HBA
 		1000 3050  SAS9217-8i
+		1014 0472  N2125 External Host Bus Adapter
 		1590 0044  H220i
 		8086 3000  RS25GB008 RAID Controller
 		8086 3060  RS25FB044 RAID Controller
@@ -630,6 +631,7 @@
 		8086 3020  RAID Controller RSP3GD016J
 	00ae  SAS3508 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00af  SAS3408 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
+		1000 3010  HBA 9400-8i
 		1d49 0200  ThinkSystem 430-8i SAS/SATA 12Gb HBA
 		1d49 0202  ThinkSystem 430-8e SAS/SATA 12Gb HBA
 		1d49 0204  ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA
@@ -11315,6 +11317,7 @@
 	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 	1f08  TU106
+	1f82  TU107
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -11693,6 +11696,7 @@
 	ebf0  SED Systems Modulator/Demodulator
 	ebf1  SED Systems Audio Interface Card
 	ebf2  SED Systems Common PCI Interface
+	ebf3  SED Systems PCIe-AXI Bridge
 10ef  Racore Computer Products, Inc.
 	8154  M815x Token Ring Adapter
 10f0  Peritek Corporation
@@ -13605,6 +13609,10 @@
 	0103  EX-IDE Type-B
 	010f  NVMe Controller
 	0110  NVMe SSD Controller Cx5
+		1028 1ffb  Express Flash NVMe 960G (RI) U.2 (CD5)
+		1028 1ffc  Express Flash NVMe 1.92T (RI) U.2 (CD5)
+		1028 1ffd  Express Flash NVMe 3.84T (RI) U.2 (CD5)
+		1028 1ffe  Express Flash NVMe 7.68T (RI) U.2 (CD5)
 		1d49 4039  Thinksystem U.2 CM5 NVMe SSD
 		1d49 403a  Thinksystem AIC CM5 NVMe SSD
 	0115  XG4 NVMe SSD Controller
@@ -29891,6 +29899,7 @@
 	a348  Cannon Lake PCH cAVS
 	a352  Cannon Lake PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
+	a363  Cannon Lake PCH Active Management Technology - SOL
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Wireless-AC 9560 [Jefferson Peak]
