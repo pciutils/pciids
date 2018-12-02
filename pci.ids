@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.12.01
-#	Date:    2018-12-01 03:15:02
+#	Version: 2018.12.02
+#	Date:    2018-12-02 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11303,9 +11303,13 @@
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
+	1e2d  TU102B
+	1e2e  TU102B
 	1e30  TU102GL [Quadro RTX 6000]
+	1e38  TU102GL
 	1e3c  TU102GL
 	1e3d  TU102GL
+	1e3e  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
 	1eab  TU104M [GeForce RTX 2080 Mobile]
