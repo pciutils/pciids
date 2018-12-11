@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.12.02
-#	Date:    2018-12-02 03:15:01
+#	Version: 2018.12.11
+#	Date:    2018-12-11 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5858,10 +5858,19 @@
 104d  Sony Corporation
 	8004  DTL-H2500 [Playstation development board]
 	8009  CXD1947Q i.LINK Controller
+	800c  DTL-H800 [PS1 sound development board]
 	8039  CXD3222 i.LINK Controller
+	8047  PS2 TOOL MRP
 	8056  Rockwell HCF 56K modem
 	808a  Memory Stick Controller
+	80ff  PS2 Performance Analyzer
+	814a  PS2 Performance Analyzer
+	8183  ATHENS [PS3 prototype developer interface card]
+	81b0  BM-1 [PSP TOOL Board Management Device]
+	81c3  VO-4 [PSP TOOL Video Output Device]
 	81ce  SxS Pro memory card
+	81ff  PS3 TOOL MRP
+	820e  CXD9208GP [PS3 PS2 emulation subsystem adapter]
 # 2nd ID
 	905c  SxS Pro memory card
 # 2nd ID
@@ -11299,7 +11308,7 @@
 	1db7  GV100GL [Tesla V100 DGXS 32GB]
 	1dba  GV100GL [Quadro GV100]
 		10de 12eb  TITAN V CEO Edition
-	1e02  TU102
+	1e02  TU102 [TITAN RTX]
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
@@ -17586,6 +17595,9 @@
 	e010  VScom 100HV2 1 port serial adaptor
 	e020  VScom 200HV2 2 port serial adaptor
 14d3  CIRTECH (UK) Ltd
+	0002  DTL-T14000 Rev. 1 [PS2 TOOL CD/DVD Emulator]
+	0003  DTL-T14000 Rev. 2 [PS2 TOOL CD/DVD Emulator]
+	0004  DTL-T14000 Rev. 3 [PS2 TOOL CD/DVD Emulator]
 14d4  Panacom Technology Corp
 14d5  Nitsuko Corporation
 14d6  Accusys Inc
@@ -23207,6 +23219,8 @@
 		1590 0264  NVMe Datacenter SSD [3DNAND] 3.2TB 2.5" U.2 (P4600)
 		1590 0265  NVMe Datacenter SSD [3DNAND] 6.4TB 2.5" U.2 (P4600)
 		1590 026c  NVMe Datacenter SSD [3DNAND] 4.0TB AIC (P4500)
+		1d49 4802  Thinksystem U.2 P4510 NVMe SSD
+		1d49 4812  Thinksystem U.2 P4610 NVMe SSD
 		8086 4308  Intel SSD D5-P4320 and D5-P4326
 		8086 4702  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P4500)
 		8086 4704  NVMe Datacenter SSD [3DNAND] SE AIC (P4500)
