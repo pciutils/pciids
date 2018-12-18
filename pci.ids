@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.12.11
-#	Date:    2018-12-11 03:15:01
+#	Version: 2018.12.18
+#	Date:    2018-12-18 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3312,6 +3312,7 @@
 		1043 049e  Radeon R9 FURY
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
+	7310  Navi 10
 	731f  Navi 10
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
@@ -10581,6 +10582,8 @@
 	10f0  GP104 High Definition Audio Controller
 	10f1  GP106 High Definition Audio Controller
 	10f7  TU102 High Definition Audio Controller
+	10f9  TU106 High Definition Audio Controller
+		1043 8673  TURBO-RTX2070-8G
 	1140  GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
 		1019 0799  GeForce 820M
 		1019 999f  GeForce GT 720M
@@ -11202,6 +11205,10 @@
 	17fd  GM200GL [Tesla M40]
 	1ad6  TU102 USB 3.1 Controller
 	1ad7  TU102 UCSI Controller
+	1ada  TU106 USB 3.1 Host Controller
+		1043 8673  TURBO-RTX2070-8G
+	1adb  TU106 USB Type-C Port Policy Controller
+		1043 8673  TURBO-RTX2070-8G
 	1b00  GP102 [TITAN X]
 	1b01  GP102
 	1b02  GP102 [TITAN Xp]
@@ -11327,6 +11334,7 @@
 	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
 	1f02  TU106 [GeForce RTX 2070]
+		1043 8673  TURBO RTX 2070
 	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 	1f08  TU106
@@ -13200,6 +13208,15 @@
 		1137 012e  VIC 1227 PCIe Ethernet NIC
 		1137 0137  VIC 1380 Mezzanine Ethernet NIC
 		1137 014d  VIC 1385 PCIe Ethernet NIC
+		1137 015d  VIC 1387 MLOM Ethernet NIC
+		1137 0215  VIC 1440 Mezzanine Ethernet NIC
+		1137 0216  VIC 1480 MLOM Ethernet NIC
+		1137 0217  VIC 1455 PCIe Ethernet NIC
+		1137 0218  VIC 1457 MLOM Ethernet NIC
+		1137 0219  VIC 1485 PCIe Ethernet NIC
+		1137 021a  VIC 1487 MLOM Ethernet NIC
+		1137 024a  VIC 1495 PCIe Ethernet NIC
+		1137 024b  VIC 1497 MLOM Ethernet NIC
 	0044  VIC Ethernet NIC Dynamic
 		1137 0047  VIC P81E PCIe Ethernet NIC Dynamic
 		1137 0048  VIC M81KR Mezzanine Ethernet NIC Dynamic
@@ -19030,6 +19047,7 @@
 	020f  MT28908A0 Family [ConnectX-6 Flash Recovery]
 	0210  MT28908A0 Family [ConnectX-6 Secure Flash Recovery]
 	0211  MT416842 Family [BlueField SoC Flash Recovery]
+	0212  MT2892 Family [ConnectX-6 Dx Flash Recovery]
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
 	024f  MT53100 [Spectrum-2, Secure Flash recovery mode]
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
@@ -19111,8 +19129,8 @@
 	101a  MT28800 Family [ConnectX-5 Ex Virtual Function]
 	101b  MT28908 Family [ConnectX-6]
 	101c  MT28908 Family [ConnectX-6 Virtual Function]
-	101d  MT28841
-	101e  MT28850
+	101d  MT2892 Family [ConnectX-6 Dx]
+	101e  MT2892 Family [ConnectX-6 Dx Virtual Function]
 	101f  MT28851
 	1020  MT28860
 	1021  MT28861
@@ -21746,6 +21764,7 @@
 1d7c  Aerotech, Inc.
 1d82  NETINT Technologies Inc.
 1d87  Fuzhou Rockchip Electronics Co., Ltd
+	1808  RK1808 Neural Network Processor Card
 1d8f  Enyx
 1d94  Chengdu Higon IC Design Co.Ltd
 	1450  Root Complex
