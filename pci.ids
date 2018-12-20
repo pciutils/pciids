@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.12.18
-#	Date:    2018-12-18 03:15:01
+#	Version: 2018.12.20
+#	Date:    2018-12-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2381,7 +2381,7 @@
 		1787 a480  Radeon RX 480
 		1849 5001  Phantom Gaming X RX 580 OC
 		1da2 e353  Radeon RX 570 Pulse 4GB
-		1da2 e366  Nitro+ Radeon RX 580 4GB
+		1da2 e366  Nitro+ Radeon RX 570/580
 	67e0  Baffin [Radeon Pro WX 4170]
 		103c 8270  Radeon Pro WX 4170
 		103c 8272  Radeon Pro WX 4170
@@ -3690,7 +3690,7 @@
 		174b aad8  Radeon R9 285/380 HDMI Audio
 	aae0  Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X]
 	aae8  Fiji HDMI/DP Audio [Radeon R9 Nano / FURY/FURY X]
-	aaf0  Ellesmere [Radeon RX 580]
+	aaf0  Ellesmere [Radeon RX 570/580]
 	ac00  Theater 600 Pro
 	ac02  TV Wonder HD 600 PCIe
 	ac12  Theater HD T507 (DVB-T) TV tuner/capture device
@@ -23720,6 +23720,8 @@
 	104b  82566DC Gigabit Network Connection
 	104c  82562V 10/100 Network Connection
 	104d  82566MC Gigabit Network Connection
+	104e  Ethernet Controller X710 for 10 Gigabit SFP+
+	104f  Ethernet Controller X710 for 10 Gigabit backplane
 	1050  82562EZ 10/100 Ethernet Controller
 		1028 019d  Dimension 3000
 		1462 728c  865PE Neo2 (MS-6728)
@@ -24582,6 +24584,8 @@
 		1590 0286  Synergy 4610C 10/25Gb Ethernet Adapter
 		8086 000a  Ethernet 25G 2P XXV710 Mezz
 	158b  Ethernet Controller XXV710 for 25GbE SFP28
+		1137 0000  Ethernet Network Adapter XXV710
+		1137 0225  Ethernet Network Adapter XXV710
 		8086 0000  Ethernet Network Adapter XXV710
 		8086 0001  Ethernet Network Adapter XXV710-2
 		8086 0002  Ethernet Network Adapter XXV710-2
@@ -24670,6 +24674,7 @@
 	15ec  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
 	15ef  JHL7540 Thunderbolt 3 Bridge [Titan Ridge DD 2018]
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
+	15ff  Ethernet Controller X710 for 10GBASE-T
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
 	1602  Broadwell-U Integrated Graphics
