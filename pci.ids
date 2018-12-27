@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.12.20
-#	Date:    2018-12-20 03:15:02
+#	Version: 2018.12.27
+#	Date:    2018-12-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -802,6 +802,7 @@
 	15dd  Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 83c6  Radeon Vega 8 Mobile
 		1458 d000  Radeon RX Vega 11
+	15de  Raven Ridge HDMI/DP Audio Controller
 	15ff  Vega 11 [Radeon Vega 28 Mobile]
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
@@ -1042,6 +1043,7 @@
 		103c 1611  Pavilion DM1Z-3000
 		1043 82ef  M3A78-EH Motherboard
 		1043 8443  M5A88-V EVO
+		1043 84dd  M5A99X EVO (R1.0) SB950
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		174b 1001  PURE Fusion Mini
 	4392  SB7x0/SB8x0/SB9x0 SATA Controller [Non-RAID5 mode]
@@ -1741,7 +1743,8 @@
 		1025 0846  Radeon HD 8570A
 		17aa 3805  Radeon HD 8570M
 	6664  Jet XT [Radeon R5 M240]
-	6665  Jet PRO [Radeon R5 M230]
+	6665  Jet PRO [Radeon R5 M230 / R7 M260DX]
+		17aa 1309  Radeon R7 M260DX
 		17aa 368f  Radeon R5 A230
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
@@ -4243,7 +4246,7 @@
 	1439  Family 16h Processor Functions 5:1
 	1450  Family 17h (Models 00h-0fh) Root Complex
 	1451  Family 17h (Models 00h-0fh) I/O Memory Management Unit
-	1452  Family 17h (Models 00h-0fh) PCIe Dummy Host Bridge
+	1452  Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
 	1453  Family 17h (Models 00h-0fh) PCIe GPP Bridge
 	1454  Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
 	1456  Family 17h (Models 00h-0fh) Platform Security Processor
@@ -4285,6 +4288,8 @@
 	157a  Family 15h (Models 60h-6fh) Audio Controller
 	157b  Family 15h (Models 60h-6fh) Host Bridge
 	157c  Family 15h (Models 60h-6fh) Processor Root Port
+	15df  Family 17h (Models 10h-1fh) Platform Security Processor
+	15e3  Family 17h (Models 10h-1fh) HD Audio Controller
 	1600  Family 15h Processor Function 0
 	1601  Family 15h Processor Function 1
 	1602  Family 15h Processor Function 2
@@ -4366,6 +4371,10 @@
 		1849 43d0  Fatal1ty X370 Professional Gaming
 	43ba  X399 Series Chipset USB 3.1 xHCI Controller
 	43bb  300 Series Chipset USB 3.1 xHCI Controller
+	43c6  400 Series Chipset PCIe Bridge
+	43c7  400 Series Chipset PCIe Port
+	43c8  400 Series Chipset SATA Controller
+	43d5  400 Series Chipset USB 3.1 XHCI Controller
 	7006  AMD-751 [Irongate] System Controller
 	7007  AMD-751 [Irongate] AGP Bridge
 	700a  AMD-IGR4 AGP Host to PCI Bridge
@@ -11210,7 +11219,7 @@
 	1adb  TU106 USB Type-C Port Policy Controller
 		1043 8673  TURBO-RTX2070-8G
 	1b00  GP102 [TITAN X]
-	1b01  GP102
+	1b01  GP102 [GeForce GTX 1080 Ti 10GB]
 	1b02  GP102 [TITAN Xp]
 	1b04  GP102
 	1b06  GP102 [GeForce GTX 1080 Ti]
@@ -16364,16 +16373,19 @@
 		1612 0004  PCI-1612 4-port RS-232/422/485
 	1603  PCI-1603 2-port isolated RS-232/current loop
 	1604  PCI-1604 2-port RS-232
+	1680  PCI-1680 Rev.A1 2-port CAN-bus with isolation protection
 	16ff  PCI-16xx series PCI multiport serial board (function 1: RX/TX steering CPLD)
 		1601 0000  PCI-1601 2-port unisolated RS-422/485 PCI communications card
 		1602 0000  PCI-1602 2-port isolated RS-422/485
 		1612 0000  PCI-1612 4-port RS-232/422/485
 	1711  PCI-1711 16-channel data acquisition card 12-bit, 100kS/s
+	1713  PCI-1713 32-channel isolated analog input card
 	1733  PCI-1733 32-channel isolated digital input card
 	1734  PCI-1734 32-channel isolated digital output card
 	1752  PCI-1752 64-channel Isolated Digital Output Card
 	1754  PCI-1754 64-channel Isolated Digital Input Card
 	1756  PCI-1756 64-ch Isolated Digital I/O PCI Card
+	a004  PCI-1612 4-port RS-232/422/485
 # FPGA bridge to two SJA1000
 	c302  MIOe-3680 2-Port CAN-Bus MIOe Module with Isolation Protection
 13ff  Silicon Spice Inc
@@ -21016,6 +21028,7 @@
 	1600  OX16C954 HOST-A
 	16ff  OX16C954 HOST-B
 1987  Phison Electronics Corporation
+	5012  E12 NVMe Controller
 1989  Montilio Inc.
 	0001  RapidFile Bridge
 	8001  RapidFile
@@ -21146,6 +21159,7 @@
 	1150  AST1150 PCI-to-PCI Bridge
 	2000  ASPEED Graphics Family
 		15d9 0832  X10SRL-F
+1a05  deltaww
 1a07  Kvaser AB
 	0006  CAN interface PC104+ HS/HS
 	0007  CAN interface PCIcanx II HS or HS/HS
@@ -21766,7 +21780,7 @@
 1d87  Fuzhou Rockchip Electronics Co., Ltd
 	1808  RK1808 Neural Network Processor Card
 1d8f  Enyx
-1d94  Chengdu Higon IC Design Co.Ltd
+1d94  Chengdu Haiguang IC Design Co., Ltd.
 	1450  Root Complex
 	1451  I/O Memory Management Unit
 	1452  PCIe Dummy Host Bridge
