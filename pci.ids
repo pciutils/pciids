@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2018.12.28
-#	Date:    2018-12-28 03:15:02
+#	Version: 2019.01.04
+#	Date:    2019-01-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -274,6 +274,7 @@
 		8086 9460  RAID Controller RSP3TD160F
 		8086 9480  RAID Controller RSP3MD088F
 	0015  MegaRAID Tri-Mode SAS3416
+		1d49 0503  ThinkSystem RAID 530-16i PCIe 12Gb Adapter
 	0016  MegaRAID Tri-Mode SAS3508
 		1028 1fc9  PERC H840 Adapter
 		1028 1fcb  PERC H740P Adapter
@@ -445,6 +446,7 @@
 		1028 1f4d  PERC H330 Embedded (for monolithic)
 		1054 306a  SAS 3004 iMR ROMB
 		1d49 04db  ServeRAID M1210 SAS/SATA Controller
+		1d49 0504  ThinkSystem RAID 520-8i PCIe 12Gb Adapter
 	0060  MegaRAID SAS 1078
 		1000 1006  MegaRAID SAS 8888ELP
 		1000 100a  MegaRAID SAS 8708ELP
@@ -2637,7 +2639,7 @@
 	6863  Vega 10 XTX [Radeon Vega Frontier Edition]
 	6864  Vega
 	6867  Vega 10 XL [Radeon Pro Vega 56]
-	6868  Vega 10 [Radeon PRO WX 8100]
+	6868  Vega 10 [Radeon PRO WX 8100/8200]
 	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
 	687f  Vega 10 XL/XT [Radeon RX Vega 56/64]
 	6880  Lexington [Radeon HD 6550M]
@@ -11241,6 +11243,8 @@
 		1462 11e9  GeForce GTX 1070 Max-Q
 		1558 9501  GeForce GTX 1070 Max-Q
 	1ba2  GP104M [GeForce GTX 1070 Mobile]
+	1ba9  GP104M
+	1baa  GP104M
 	1bad  GP104 [GeForce GTX 1070 Engineering Sample]
 	1bb0  GP104GL [Quadro P5000]
 	1bb1  GP104GL [Quadro P4000]
@@ -11275,6 +11279,7 @@
 	1c22  GP106M [GeForce GTX 1050 Mobile]
 	1c23  GP106M [GeForce GTX 1060 Mobile Rev. 2]
 		1414 0020  GTX 1060 Mobile
+	1c2d  GP106M
 	1c30  GP106GL [Quadro P2000]
 	1c35  GP106
 	1c60  GP106BM [GeForce GTX 1060 Mobile 6GB]
@@ -11311,9 +11316,12 @@
 	1d01  GP108 [GeForce GT 1030]
 	1d10  GP108M [GeForce MX150]
 		17aa 225e  ThinkPad T480
+	1d11  GP108M [GeForce MX230]
 	1d12  GP108M [GeForce MX150]
 		1d72 1701  Mi Notebook Pro [GeForce MX150]
+	1d13  GP108M [GeForce MX250]
 	1d33  GP108GLM [Quadro P500 Mobile]
+	1d52  GP108BM [GeForce MX250]
 	1d81  GV100 [TITAN V]
 	1db1  GV100GL [Tesla V100 SXM2 16GB]
 	1db2  GV100 [Tesla V100-DGXS-16GB]
@@ -11347,6 +11355,7 @@
 	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 	1f08  TU106
+	1f2e  TU106M
 	1f82  TU107
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -24421,6 +24430,7 @@
 	152e  82599 Virtual Function
 	152f  I350 Virtual Function
 	1530  X540 Virtual Function
+	1531  I210 Gigabit Unprogrammed
 	1533  I210 Gigabit Network Connection
 		103c 0003  Ethernet I210-T1 GbE NIC
 		1093 7706  Compact Vision System Ethernet Adapter
@@ -24673,6 +24683,7 @@
 		17aa 225d  ThinkPad T480
 	15d9  JHL6340 Thunderbolt 3 NHI (C step) [Alpine Ridge 2C 2016]
 	15da  JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+	15db  JHL6340 Thunderbolt 3 USB 3.1 Controller (C step) [Alpine Ridge 2C 2016]
 	15df  Ethernet Connection (8) I219-LM
 	15e0  Ethernet Connection (8) I219-V
 	15e1  Ethernet Connection (9) I219-LM
@@ -24688,6 +24699,7 @@
 	15ec  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
 	15ef  JHL7540 Thunderbolt 3 Bridge [Titan Ridge DD 2018]
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
+	15f6  I210 Gigabit Ethernet Connection
 	15ff  Ethernet Controller X710 for 10GBASE-T
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
@@ -29661,6 +29673,7 @@
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
+	9d3d  Sunrise Point-LP Active Management Technology - SOL
 	9d43  Sunrise Point-LP LPC Controller
 		17aa 382a  B51-80 Laptop
 	9d48  Sunrise Point-LP LPC Controller
@@ -29688,6 +29701,20 @@
 		17aa 382a  B51-80 Laptop
 	9d71  Sunrise Point-LP HD Audio
 		17aa 225d  ThinkPad T480
+	9d84  Cannon Point-LP LPC Controller
+	9da3  Cannon Point-LP SMBus Controller
+	9da4  Cannon Point-LP SPI Controller
+	9db0  Cannon Point-LP PCI Express Root Port #9
+	9db6  Cannon Point-LP PCI Express Root Port #15
+	9db8  Cannon Point-LP PCI Express Root Port #1
+	9dbc  Cannon Point-LP PCI Express Root Port #5
+	9dc8  Cannon Point-LP High Definition Audio Controller
+	9dd3  Cannon Point-LP SATA Controller [AHCI Mode]
+	9de0  Cannon Point-LP MEI Controller #1
+	9ded  Cannon Point-LP USB 3.1 xHCI Controller
+	9def  Cannon Point-LP Shared SRAM
+	9df0  Cannon Point-LP CNVi [Wireless-AC]
+	9df9  Cannon Point-LP Thermal Controller
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
 		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
@@ -30130,7 +30157,7 @@
 		9004 7888  AHA-2930UW SCSI Controller
 	8b78  ABA-1030
 	ec78  AHA-4944W/UW
-# Acquired by Microsemi
+# Acquired by Microchip Technology
 9005  Adaptec
 	0010  AHA-2940U2/U2W
 		9005 2180  AHA-2940U2 SCSI Controller
