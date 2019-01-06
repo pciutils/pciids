@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.04
-#	Date:    2019-01-04 03:15:02
+#	Version: 2019.01.06
+#	Date:    2019-01-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -57,8 +57,8 @@
 	0680  Ultra ATA/133 IDE RAID CONTROLLER CARD
 # Wrong ID used in subsystem ID of the TELES.S0/PCI 2.x ISDN adapter
 00a7  Teles AG (Wrong ID)
-# nee nCipher
-0100  Thales e-Security
+# acquired by Thales
+0100  nCipher Security
 0123  General Dynamics
 0128  Dell (wrong ID)
 # 018a is not LevelOne but there is a board misprogrammed
