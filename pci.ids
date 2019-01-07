@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.06
-#	Date:    2019-01-06 03:15:02
+#	Version: 2019.01.07
+#	Date:    2019-01-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -282,7 +282,6 @@
 		1028 1fcf  PERC H740P Mini
 		1d49 0601  ThinkSystem RAID 930-8i 2GB Flash PCIe 12Gb Adapter
 		1d49 0603  ThinkSystem RAID 930-24i 4GB Flash PCIe 12Gb Adapter
-		1d49 0604  ThinkSystem RAID 930-8e 4GB Flash PCIe 12Gb Adapter
 		8086 352e  Integrated RAID Module RMSP3CD080F
 		8086 352f  Integrated RAID Module RMSP3HD080E
 		8086 9461  RAID Controller RSP3DD080F
@@ -11345,17 +11344,23 @@
 	1e3e  TU102GL
 	1e82  TU104 [GeForce RTX 2080]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
-	1eab  TU104M [GeForce RTX 2080 Mobile]
+	1e90  TU104M [GeForce RTX 2080 Mobile]
+	1eab  TU104M
 	1eae  TU104M
 	1eb0  TU104GL [Quadro RTX 5000]
 	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
+	1ed0  TU104M [GeForce RTX 2080 Mobile]
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 	1f08  TU106
+	1f10  TU106M [GeForce RTX 2070 Mobile]
+	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
+	1f50  TU106M [GeForce RTX 2070 Mobile]
+	1f51  TU106M [GeForce RTX 2060 Mobile]
 	1f82  TU107
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -19240,6 +19245,7 @@
 	2001  Skyhawk Series NVME SSD
 	5001  WD Black NVMe SSD
 	5002  WD Black 2018/PC SN720 NVMe SSD
+	5003  WD Black 2018/PC SN520 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
