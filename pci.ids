@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.08
-#	Date:    2019-01-08 03:15:02
+#	Version: 2019.01.09
+#	Date:    2019-01-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11354,7 +11354,7 @@
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
-	1f08  TU106
+	1f08  TU106 [GeForce RTX 2060 Rev. A]
 	1f10  TU106M [GeForce RTX 2070 Mobile]
 	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
@@ -19073,6 +19073,7 @@
 	0210  MT28908A0 Family [ConnectX-6 Secure Flash Recovery]
 	0211  MT416842 Family [BlueField SoC Flash Recovery]
 	0212  MT2892 Family [ConnectX-6 Dx Flash Recovery]
+	0213  MT2892 Family [ConnectX-6 Dx Secure Flash Recovery]
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
 	024f  MT53100 [Spectrum-2, Secure Flash recovery mode]
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
@@ -28702,6 +28703,7 @@
 	3e89  8th Gen Core Processor PCIe Controller (x4)
 	3e91  8th Gen Core Processor Gaussian Mixture Model
 	3e92  UHD Graphics 630 (Desktop)
+	3e93  UHD Graphics 610
 	3e9b  UHD Graphics 630 (Mobile)
 	3ea0  UHD Graphics 620 (Whiskey Lake)
 	3ea5  Iris Plus Graphics 655
@@ -29989,6 +29991,7 @@
 	a352  Cannon Lake PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
 	a363  Cannon Lake PCH Active Management Technology - SOL
+	a368  LPSS I2C Controller #0
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Wireless-AC 9560 [Jefferson Peak]
