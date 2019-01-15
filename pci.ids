@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.09
-#	Date:    2019-01-09 03:15:02
+#	Version: 2019.01.15
+#	Date:    2019-01-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -486,13 +486,14 @@
 		1000 3010  SAS9211-4i
 	0071  MR SAS HBA 2004
 	0072  SAS2008 PCI-Express Fusion-MPT SAS-2 [Falcon]
+		1000 3040  9210-8i
 		1000 30b0  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
 		1028 1f1c  6Gbps SAS HBA Adapter
 		1028 1f1d  PERC H200 Adapter
 		1028 1f1e  PERC H200 Integrated
 		1028 1f1f  PERC H200 Modular
 		1028 1f20  PERC H200 Embedded
-		1028 1f22  Internal Tape Adapter
+		1028 1f22  PERC H200
 		8086 350f  RMS2LL040 RAID Controller
 		8086 3700  SSD 910 Series
 	0073  MegaRAID SAS 2008 [Falcon]
@@ -507,6 +508,7 @@
 		1028 1f52  PERC H310 Embedded1
 		1028 1f53  PERC H310 Embedded2
 		1028 1f54  PERC H310 Reserved
+		1028 1f78  PERC H310
 		1054 3035  LSI MegaRAID SAS 9240-8i
 		1137 0072  2004 iMR ROMB
 		1137 0073  2008 ROMB
@@ -8999,7 +9001,6 @@
 	018b  NV18GL [Quadro4 380 XGL]
 	018c  NV18GL [Quadro NVS 50 PCI]
 	018d  NV18M [GeForce4 448 Go]
-	018f  NV18
 	0190  G80 [GeForce 8800 GTS / 8800 GTX]
 	0191  G80 [GeForce 8800 GTX]
 	0192  G80 [GeForce 8800 GTS]
@@ -21125,8 +21126,12 @@
 		19e5 3033  NVMe SSD ES3600C V3 1200GB HHHL AIC
 		19e5 3034  NVMe SSD ES3600C V3 1600GB HHHL AIC
 		19e5 3036  NVMe SSD ES3600C V3 3200GB HHHL AIC
-	0200  Hi1822 Family (2*25GE)
-	0201  Hi1822 Family (2*100GE)
+	0200  Hi1822 Family (2*100GE)
+	0202  Hi1822 Family (2*32G FC)
+	0203  Hi1822 Family (2*16G FC)
+	0205  Hi1822 Family (2*100GE)
+	0210  Hi1822 Family (4*25GE)
+	0212  Hi1822 Family (2*8G FC)
 	1710  iBMA Virtual Network Adapter
 	1711  Hi1710 [iBMC Intelligent Management system chip w/VGA support]
 	1822  Hi1822 Family (4*25GE)
@@ -21851,6 +21856,8 @@
 	e00a  eMAG PCI Express Root Port 5
 	e00b  eMAG PCI Express Root Port 6
 	e00c  eMAG PCI Express Root Port 7
+1df3  Ethernity Networks
+	0102  ACENIC100 Programmable Network Accelerator
 1df7  opencpi.org
 	0001  ml605
 	0002  alst4
@@ -25288,11 +25295,27 @@
 		15d9 095d  X11SPM-TF
 	2021  Sky Lake-E CBDMA Registers
 	2024  Sky Lake-E MM/Vt-d Configuration Registers
+	2025  Sky Lake-E RAS
+	2026  Sky Lake-E IOAPIC
 	2030  Sky Lake-E PCI Express Root Port A
 	2031  Sky Lake-E PCI Express Root Port B
 	2032  Sky Lake-E PCI Express Root Port C
 	2033  Sky Lake-E PCI Express Root Port D
+	2034  Sky Lake-E VT-d
 	2035  Sky Lake-E RAS Configuration Registers
+	2036  Sky Lake-E IOxAPIC Configuration Registers
+	2040  Sky Lake-E Integrated Memory Controller
+	2041  Sky Lake-E Integrated Memory Controller
+	2042  Sky Lake-E Integrated Memory Controller
+	2043  Sky Lake-E Integrated Memory Controller
+	2044  Sky Lake-E Integrated Memory Controller
+	2045  Sky Lake-E LM Channel 1
+	2046  Sky Lake-E LMS Channel 1
+	2047  Sky Lake-E LMDP Channel 1
+	2048  Sky Lake-E DECS Channel 2
+	2049  Sky Lake-E LM Channel 2
+	204a  Sky Lake-E LMS Channel 2
+	204b  Sky Lake-E LMDP Channel 2
 	204c  Sky Lake-E M3KTI Registers
 	204d  Sky Lake-E M3KTI Registers
 	204e  Sky Lake-E M3KTI Registers
@@ -25300,6 +25323,9 @@
 	2055  Sky Lake-E CHA Registers
 	2056  Sky Lake-E CHA Registers
 	2057  Sky Lake-E CHA Registers
+	2058  Sky Lake-E KTI 0
+	2059  Sky Lake-E UPI Registers
+	2066  Sky Lake-E Integrated Memory Controller
 	2068  Sky Lake-E DDRIO Registers
 	2069  Sky Lake-E DDRIO Registers
 	206a  Sky Lake-E IOxAPIC Configuration Registers
