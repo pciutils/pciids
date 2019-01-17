@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.15
-#	Date:    2019-01-15 03:15:02
+#	Version: 2019.01.17
+#	Date:    2019-01-17 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -493,7 +493,7 @@
 		1028 1f1e  PERC H200 Integrated
 		1028 1f1f  PERC H200 Modular
 		1028 1f20  PERC H200 Embedded
-		1028 1f22  PERC H200
+		1028 1f22  PERC H200 Internal Tape Adapter
 		8086 350f  RMS2LL040 RAID Controller
 		8086 3700  SSD 910 Series
 	0073  MegaRAID SAS 2008 [Falcon]
@@ -16356,6 +16356,7 @@
 		1043 8428  Virtuoso 100 (Xonar Xense)
 		1043 8467  CMI8786 (Xonar DG)
 		1043 8521  CMI8786 (Xonar DGX)
+		1043 8522  Xonar DSX
 		1043 85f4  Virtuoso 100 (Xonar Essence STX II)
 		13f6 8782  PCI 2.0 HD Audio
 		13f6 ffff  CMI8787-HG2PCI
@@ -20006,6 +20007,7 @@
 	0216  PCT-7424E (F0) PC card with standard counters
 	0217  PCT-7424E (F1) PC card with standard counters
 	0303  PCD-7006C Digital Input & Output PCI Card
+	ff00  CTU CAN FD PCIe Card
 1761  Pickering Interfaces Ltd
 1771  InnoVISION Multimedia Ltd.
 # nee SBS Technologies
