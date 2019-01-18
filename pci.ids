@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.17
-#	Date:    2019-01-17 03:15:01
+#	Version: 2019.01.18
+#	Date:    2019-01-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4279,6 +4279,8 @@
 	1535  Family 16h Processor Function 5
 	1536  Family 16h Processor Root Complex
 	1538  Family 16h Processor Function 0
+	1566  Family 16h (Models 30h-3fh) Processor Root Complex
+	156b  Family 16h (Models 30h-3fh) Host Bridge
 	1570  Family 15h (Models 60h-6fh) Processor Function 0
 	1571  Family 15h (Models 60h-6fh) Processor Function 1
 	1572  Family 15h (Models 60h-6fh) Processor Function 2
@@ -4290,6 +4292,12 @@
 	157a  Family 15h (Models 60h-6fh) Audio Controller
 	157b  Family 15h (Models 60h-6fh) Host Bridge
 	157c  Family 15h (Models 60h-6fh) Processor Root Port
+	1580  Family 16h (Models 30h-3fh) Processor Function 0
+	1581  Family 16h (Models 30h-3fh) Processor Function 1
+	1582  Family 16h (Models 30h-3fh) Processor Function 2
+	1583  Family 16h (Models 30h-3fh) Processor Function 3
+	1584  Family 16h (Models 30h-3fh) Processor Function 4
+	1585  Family 16h (Models 30h-3fh) Processor Function 5
 	15df  Family 17h (Models 10h-1fh) Platform Security Processor
 	15e3  Family 17h (Models 10h-1fh) HD Audio Controller
 	1600  Family 15h Processor Function 0
@@ -20121,13 +20129,28 @@
 	0004  CAMAC Controller
 	0005  PROFIBUS
 	0006  AMCC HOTlink
+	0007  LVD Cable Bus
+	0008  100MHz, 64bit Sequence Generator based on VirtexII
+	0009  double 14bit-ADC
+	000a  SIS1100 with N110 TDC
+	000b  double 14bit-ADC with memory
 	000d  Synchronisation Slave
 	000e  SIS1100-eCMC
 	000f  TDC (GPX)
 	0010  PCIe Counter Timer
 	0011  SIS1100-e single link
 	0012  SIS1100-e quad link
+	0013  4x2.5GHz SFP to 4 lane PCIe bridge
+	0014  SIS1100 with GPX piggy back
 	0015  SIS8100 [Gigabit link, MicroTCA]
+	0016  SIS1100e with 4 lanes
+	0017  Quad 14bit, 50MHz ADC with 2.5GHz SFP
+	0018  SIS8300 4-lane PCI Express, Micro TCA for Physics ADC
+	0019  SIS SIS8300-Lx MTCA.4 Digitizer
+	001a  100MHz, 64bit Sequence Generator based on VirtexII
+	001c  Quad 16bit, 150MHz ADC with 2.5GHz SFP
+	0030  100MHz, 64bit Sequence Generator based on Spartan6
+	0031  200MHz 64bit Sequence Generator based on Spartan7
 # nee Techwell, Inc.
 1797  Intersil Techwell
 	5864  TW5864 multimedia video controller
@@ -21871,6 +21894,7 @@
 	0215  Acorn CLE-215
 	021f  Acorn CLE-215+
 	1525  Xilinx BCU-1525
+1e3d  Burlywood, Inc
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -26967,6 +26991,7 @@
 		1775 11cc  CC11/CL11
 	27e2  82801GR/GH/GHM (ICH7 Family) PCI Express Port 6
 		1775 11cc  CC11/CL11
+	280b  Intel(R) Display Audio
 	2810  82801HB/HR (ICH8/R) LPC Interface Controller
 		1043 81ec  P5B
 	2811  82801HEM (ICH8M-E) LPC Interface Controller
@@ -28028,6 +28053,7 @@
 	3184  UHD Graphics 605
 	318c  Celeron/Pentium Silver Processor Dynamic Platform and Thermal Framework Processor Participant
 	318e  Celeron/Pentium Silver Processor NorthPeak
+	3197  Celeron/Pentium Silver Processor PCI-default ISA-bridge
 	319a  Celeron/Pentium Silver Processor Trusted Execution Engine Interface
 	31ac  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
 	31ae  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
@@ -28037,6 +28063,7 @@
 	31c2  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
 	31c4  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
 	31c6  Celeron/Pentium Silver Processor Serial IO SPI Host Controller
+	31cc  Celeron/Pentium Silver Processor SDA Standard Compliant SD Host Controller
 	31d4  Celeron/Pentium Silver Processor Gaussian Mixture Model
 	31ee  Celeron/Pentium Silver Processor Serial IO UART Host Controller
 	3200  GD31244 PCI-X SATA HBA
@@ -30019,7 +30046,10 @@
 	a352  Cannon Lake PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
 	a363  Cannon Lake PCH Active Management Technology - SOL
-	a368  LPSS I2C Controller #0
+	a368  Cannon Lake PCH Serial IO I2C Controller #0
+	a369  Cannon Lake PCH Serial IO I2C Controller #1
+	a36a  Cannon Lake PCH Serial IO I2C Controller #2
+	a36b  Cannon Lake PCH Serial IO I2C Controller #3
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Wireless-AC 9560 [Jefferson Peak]
