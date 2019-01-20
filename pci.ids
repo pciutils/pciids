@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.18
-#	Date:    2019-01-18 03:15:02
+#	Version: 2019.01.20
+#	Date:    2019-01-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -800,12 +800,19 @@
 	131b  Kaveri [Radeon R4 Graphics]
 	131c  Kaveri [Radeon R7 Graphics]
 	131d  Kaveri [Radeon R6 Graphics]
+	13e9  Ariel
+	154c  Kryptos
+	154e  Garfield
+	1551  Arlene
+	1552  Pooky
 	15d8  Picasso
 	15dd  Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 83c6  Radeon Vega 8 Mobile
 		1458 d000  Radeon RX Vega 11
 	15de  Raven Ridge HDMI/DP Audio Controller
 	15ff  Vega 11 [Radeon Vega 28 Mobile]
+	1607  Arden
+	1636  Renoir
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
 	3150  RV380/M24 [Mobility Radeon X600]
@@ -888,18 +895,27 @@
 		1014 053a  ThinkPad R40e
 		103c 0850  Radeon IGP 345M
 	4341  IXP150 AC'97 Audio Controller
-	4342  IXP200 3COM 3C920B Ethernet Controller
-	4345  EHCI USB Controller
-	4347  OHCI USB Controller #1
-	4348  OHCI USB Controller #2
-	4349  Dual Channel Bus Master PCI IDE Controller
+	4342  SB200 PCI to PCI Bridge
+	4345  SB200 EHCI USB Controller
+	4346  Crayola 6 [XENOS Parent Die (XBOX 360)]
+	4347  SB200 OHCI USB Controller #1
+	4348  SB200 OHCI USB Controller #2
+	4349  SB200 IDE Controller
+	434c  SB200 PCI to LPC Bridge
 	434d  IXP AC'97 Modem
-	4353  SMBus
+	4353  SB200 SMBus Controller
 	4354  215CT [Mach64 CT PCI]
 	4358  Mach64 CX [Graphics Xpression]
-	4361  IXP SB300 AC'97 Audio Controller
-	4363  SMBus
-	436e  436E Serial ATA Controller
+	4361  SB300 AC'97 Audio Controller
+	4362  SB300 PCI to PCI Bridge
+	4363  SB300 SMBus Controller
+	4365  SB300 USB Controller (EHCI)
+	4367  SB300 USB Controller (EHCI)
+	4368  SB300 USB Controller (EHCI)
+	4369  SB300 IDE Controller
+	436c  SB300 PCI to LPC Bridge
+	436d  SB300 AC97 Modem Controller
+	436e  SB300 Serial ATA Controller
 	4370  IXP SB400 AC'97 Audio Controller
 		1025 0079  Aspire 5024WLMMi
 		1025 0091  Aspire 5032WXMi
@@ -1081,6 +1097,7 @@
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		174b 1001  PURE Fusion Mini
 	439c  SB7x0/SB8x0/SB9x0 IDE Controller
+		1002 4392  MSI MS-7713 motherboard
 		1019 2120  A785GM-M
 		1043 82ef  M3A78-EH Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
