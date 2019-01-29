@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.20
-#	Date:    2019-01-20 03:15:02
+#	Version: 2019.01.29
+#	Date:    2019-01-29 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -805,12 +805,13 @@
 	154e  Garfield
 	1551  Arlene
 	1552  Pooky
+	1561  Anubis
 	15d8  Picasso
 	15dd  Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 83c6  Radeon Vega 8 Mobile
 		1458 d000  Radeon RX Vega 11
 	15de  Raven Ridge HDMI/DP Audio Controller
-	15ff  Vega 11 [Radeon Vega 28 Mobile]
+	15ff  Fenghuang [Zhongshan Subor Z+]
 	1607  Arden
 	1636  Renoir
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
@@ -894,7 +895,7 @@
 	4337  RS200M [Radeon IGP 330M/340M/345M/350M]
 		1014 053a  ThinkPad R40e
 		103c 0850  Radeon IGP 345M
-	4341  IXP150 AC'97 Audio Controller
+	4341  SB200 AC97 Audio Controller
 	4342  SB200 PCI to PCI Bridge
 	4345  SB200 EHCI USB Controller
 	4346  Crayola 6 [XENOS Parent Die (XBOX 360)]
@@ -902,7 +903,7 @@
 	4348  SB200 OHCI USB Controller #2
 	4349  SB200 IDE Controller
 	434c  SB200 PCI to LPC Bridge
-	434d  IXP AC'97 Modem
+	434d  SB200 AC97 Modem Controller
 	4353  SB200 SMBus Controller
 	4354  215CT [Mach64 CT PCI]
 	4358  Mach64 CX [Graphics Xpression]
@@ -1114,6 +1115,8 @@
 	43a3  SB900 PCI to PCI bridge (PCIE port 3)
 	4437  RS250 [Mobility Radeon 7000 IGP]
 	4554  210888ET [Mach64 ET]
+	4630  XENOS Parent Die (XBOX 360)
+	4631  XENOS Daughter Die (XBOX 360)
 	4654  Mach64 VT
 	4742  Rage 3 [3D Rage PRO AGP 2X]
 		1002 0040  Rage Pro Turbo AGP 2X
@@ -1194,6 +1197,22 @@
 		1002 0084  Rage 3D Pro AGP 2x XPERT 98
 		1002 0087  Rage 3D IIC
 		1002 475a  Rage IIC AGP
+	4845  Xilleon 220 HBIU for HDTV2
+	4846  Xilleon 220 IDE for HDTV2
+	4847  Xilleon 220 USB for HDTV2
+	4848  Xilleon 220 DAIO-0 for HDTV2
+	4849  Xilleon 220 DAIO-1 for HDTV2
+	484a  Xilleon 220 LPC for HDTV2
+	4850  Xilleon 215 HBIU for X215
+	4851  Xilleon 215 IDE for X215
+	4852  Xilleon 215 USB for X215
+	4853  Xilleon 215 DAIO-0 for X215
+	4854  Xilleon 215 DAIO-1 for X215
+	4855  Xilleon 225 HBIU for X225
+	4856  Xilleon 225 IDE for X225
+	4857  Xilleon 225 USB for X225
+	4858  Xilleon 225 DAIO-0 for X225
+	4859  Xilleon 225 DAIO-1 for X225
 	4966  RV250 [Radeon 9000 Series]
 		10f1 0002  RV250 If [Tachyon G9000 PRO]
 		148c 2039  RV250 If [Radeon 9000 Pro "Evil Commando"]
@@ -1746,7 +1765,7 @@
 		1462 2938  Radeon R9 360 OEM
 		1462 3271  Radeon R9 360 OEM
 		1682 7360  Radeon R7 360
-	6660  Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330 / M430 / R7 M520]
+	6660  Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330 / M430 / Radeon 520 Mobile]
 		1028 05ea  Radeon HD 8670M
 		1028 06bf  Radeon R5 M335
 		103c 1970  Radeon HD 8670M
@@ -1762,7 +1781,7 @@
 		1025 0846  Radeon HD 8570A
 		17aa 3805  Radeon HD 8570M
 	6664  Jet XT [Radeon R5 M240]
-	6665  Jet PRO [Radeon R5 M230 / R7 M260DX]
+	6665  Jet PRO [Radeon R5 M230 / R7 M260DX / Radeon 520 Mobile]
 		17aa 1309  Radeon R7 M260DX
 		17aa 368f  Radeon R5 A230
 	6667  Jet ULT [Radeon R5 M230]
@@ -1772,7 +1791,7 @@
 	66a2  Vega 20
 	66a3  Vega 20
 	66a7  Vega 20 [Radeon Pro Vega 20]
-	66af  Vega 20
+	66af  Vega 20 [Radeon VII]
 	6704  Cayman PRO GL [FirePro V7900]
 	6707  Cayman LE GL [FirePro V5900]
 	6718  Cayman XT [Radeon HD 6970]
@@ -3174,8 +3193,9 @@
 		148c 9380  Radeon R9 380
 # Make naming scheme consistent
 		174b e308  Radeon R9 380 Nitro 4G D5
-	694c  Polaris 22 [Radeon RX Vega M GH]
+	694c  Polaris 22 XT [Radeon RX Vega M GH]
 	694e  Polaris 22 XL [Radeon RX Vega M GL]
+	694f  Polaris 22 MGL XL [Radeon Pro WX Vega M GL]
 	6980  Polaris12
 	6981  Polaris12
 	6985  Lexa XT [Radeon PRO WX 3100]
@@ -3628,6 +3648,8 @@
 		17aa 5113  Radeon R6 Graphics
 		17aa 5116  Radeon R6 Graphics
 		17aa 5118  Radeon R5 Graphics
+	9890  Amur
+	98c0  Nolan
 	98e4  Stoney [Radeon R2/R3/R4/R5 Graphics]
 	9900  Trinity [Radeon HD 7660G]
 		103c 1985  Pavilion 17-e163sg Notebook PC
@@ -3656,8 +3678,13 @@
 	9917  Trinity [Radeon HD 7620G]
 	9918  Trinity [Radeon HD 7600G]
 	9919  Trinity [Radeon HD 7500G]
+	991e  Bishop
 	9920  Liverpool [Playstation 4 APU]
 	9921  Liverpool HDMI/DP Audio Controller
+	9922  Starship
+	9923  Starsha2 [Kingston/Clayton]
+	9924  Gladius
+	9926  Jupiter
 	9990  Trinity 2 [Radeon HD 7520G]
 	9991  Trinity 2 [Radeon HD 7540D]
 	9992  Trinity 2 [Radeon HD 7420G]
@@ -3707,14 +3734,34 @@
 	aab0  Cape Verde/Pitcairn HDMI Audio [Radeon HD 7700/7800 Series]
 	aac0  Tobago HDMI Audio [Radeon R7 360 / R9 360 OEM]
 	aac8  Hawaii HDMI Audio [Radeon R9 290/290X / 390/390X]
-# I have a Tonga card and this is the HDMI Audio part
 	aad8  Tonga HDMI Audio [Radeon R9 285/380]
 		174b aad8  Radeon R9 285/380 HDMI Audio
 	aae0  Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X]
 	aae8  Fiji HDMI/DP Audio [Radeon R9 Nano / FURY/FURY X]
-	aaf0  Ellesmere [Radeon RX 570/580]
-	ac00  Theater 600 Pro
+	aaf0  Ellesmere HDMI Audio [Radeon RX 470/480 / 570/580/590]
+	aaf8  Vega 10 HDMI Audio [Radeon Vega 56/64]
+	ab00  Baffin HDMI/DP Audio [Radeon RX 550 640SP / RX 560/560X]
+	ab08  Polaris 22 HDMI Audio
+	ab10  Lexa HDMI Audio
+	ab18  Vega 12 HDMI Audio
+	ab20  Vega 20 HDMI Audio [Radeon VII]
+	ab38  Navi 10 HDMI Audio
+	ac00  Theater 506 World-Wide Analog Decoder
+	ac01  Theater 506 World-Wide Analog Decoder
 	ac02  TV Wonder HD 600 PCIe
+	ac03  Theater 506 PCIe
+	ac04  Theater 506 USB
+	ac05  Theater 506 USB
+	ac06  Theater 506 External USB
+	ac07  Theater 506 External USB
+	ac08  Theater 506A World-Wide Analog Decoder + Demodulator
+	ac09  Theater 506A World-Wide Analog Decoder + Demodulator
+	ac0a  Theater 506A PCIe
+	ac0b  Theater 506A PCIe
+	ac0c  Theater 506A USB
+	ac0d  Theater 506A USB
+	ac0e  Theater 506A External USB
+	ac0f  Theater 506A External USB
 	ac12  Theater HD T507 (DVB-T) TV tuner/capture device
 	cab0  RS100 Host Bridge
 	cab2  RS200 Host Bridge
@@ -5366,6 +5413,7 @@
 	122e  PCI-X Local Bus Adapter
 	127b  sx1000 System Bus Adapter
 	127c  sx1000 I/O Controller
+	128d  Diva [GSP] Management Board
 	1290  Auxiliary Diva Serial Port
 		103c 1291  Diva SP2
 	1291  Auxiliary Diva Serial Port
@@ -11362,7 +11410,9 @@
 		1462 3715  RTX 2080 Ti GAMING X TRIO
 	1e2d  TU102B
 	1e2e  TU102B
-	1e30  TU102GL [Quadro RTX 6000]
+	1e30  TU102GL [Quadro RTX 6000/8000]
+		10de 129e  Quadro RTX 8000
+		10de 12ba  Quadro RTX 6000
 	1e38  TU102GL
 	1e3c  TU102GL
 	1e3d  TU102GL
@@ -11387,6 +11437,8 @@
 	1f50  TU106M [GeForce RTX 2070 Mobile]
 	1f51  TU106M [GeForce RTX 2060 Mobile]
 	1f82  TU107
+	1f92  TU107M
+	1fbf  TU107GL
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -18435,6 +18487,7 @@
 	b842  BCM56842 Trident 10GE Switch Controller
 # Trident2
 	b850  Broadcom BCM56850 Switch ASIC
+	b880  BCM56880 Switch ASIC
 # Tomahawk
 	b960  Broadcom BCM56960 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
@@ -20368,6 +20421,7 @@
 17f2  Albatron Corp.
 17f3  RDC Semiconductor, Inc.
 	1010  R1010 IDE Controller
+	1031  PCI/PCI-X to PCI-E Bridge
 	2012  M2012/R3308 VGA-compatible graphics adapter
 	6020  R6020 North Bridge
 	6021  R6021 Host Bridge
@@ -21899,7 +21953,20 @@
 	e00b  eMAG PCI Express Root Port 6
 	e00c  eMAG PCI Express Root Port 7
 1df3  Ethernity Networks
-	0102  ACENIC100 Programmable Network Accelerator
+	0201  ACE-NIC40 Programmable Network Accelerator
+		1df3 0001  ENA1040
+		1df3 0002  ENA1044
+		1df3 0003  ENA1044S
+	0202  ACE-NIC50 Programmable Network Accelerator
+		1df3 0001  ENA2050F
+		1df3 0002  ENA2050FS
+	0203  ACE-NIC100 Programmable Network Accelerator
+		1df3 0001  ENA2080F
+		1df3 0002  ENA2080FS
+		1df3 0003  ENA2100F
+	0204  ACE-NIC-NID Programmable Network Accelerator
+		1df3 0001  ENA1020Z
+		1df3 0002  ENA1020ZS
 1df7  opencpi.org
 	0001  ml605
 	0002  alst4
@@ -29761,6 +29828,7 @@
 		1028 06f3  Latitude 3570
 	9d4e  Intel(R) 100 Series Chipset Family LPC Controller/eSPI Controller - 9D4E
 		17aa 225d  ThinkPad T480
+	9d50  Sunrise Point LPC Controller
 	9d56  Sunrise Point-LP LPC Controller
 	9d58  Sunrise Point-LP LPC Controller
 		17aa 2247  ThinkPad T570
@@ -30698,6 +30766,7 @@ caed  Canny Edge
 cafe  Chrysalis-ITS
 	0003  Luna K3 Hardware Security Module
 	0006  Luna PCI-e 3000 Hardware Security Module
+	0008  Luna K7 Hardware Security Module
 cc53  ScaleFlux Inc.
 cccc  Catapult Communications
 ccec  Curtiss-Wright Controls Embedded Computing
@@ -30909,6 +30978,7 @@ edd8  ARK Logic Inc
 # Found on M2N68-AM Motherboard
 f043  ASUSTeK Computer Inc. (Wrong ID)
 f05b  Foxconn International, Inc. (Wrong ID)
+f15e  SiFive, Inc.
 f1d0  AJA Video
 	c0fe  Xena HS/HD-R
 	c0ff  Kona/Xena 2
@@ -30920,6 +30990,7 @@ f1d0  AJA Video
 	dcaf  Kona HD
 	dfee  Xena HD-DA
 	eb0e  Corvid 44
+	eb1d  Kona 5
 	efac  Xena SD-MM/SD-22-MM
 	facd  Xena HD-MM
 f5f5  F5 Networks, Inc.
