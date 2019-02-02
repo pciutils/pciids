@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.01.29
-#	Date:    2019-01-29 03:15:01
+#	Version: 2019.02.02
+#	Date:    2019-02-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -810,12 +810,14 @@
 	15dd  Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 83c6  Radeon Vega 8 Mobile
 		1458 d000  Radeon RX Vega 11
-	15de  Raven Ridge HDMI/DP Audio Controller
+	15de  Raven/Raven2/Fenghuang HDMI/DP Audio Controller
+	15df  Raven/Raven2/Fenghuang/Renoir Cryptographic Coprocessor
 	15ff  Fenghuang [Zhongshan Subor Z+]
 	1607  Arden
 	1636  Renoir
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
+	2191  TU116M
 	3150  RV380/M24 [Mobility Radeon X600]
 		103c 0934  nx8220
 	3151  RV380 GL [FireMV 2400]
@@ -1213,6 +1215,44 @@
 	4857  Xilleon 225 USB for X225
 	4858  Xilleon 225 DAIO-0 for X225
 	4859  Xilleon 225 DAIO-1 for X225
+	4860  Xilleon 210 HBIU for X210
+	4861  Xilleon 210 IDE for X210
+	4862  Xilleon 210 USB for X210
+	4863  Xilleon 210 DAIO-0 for X210
+	4864  Xilleon 210 DAIO-1 for X210
+	4865  Xilleon 226 HBIU for X226
+	4866  Xilleon 226 IDE for X226
+	4867  Xilleon 226 USB for X226
+	4868  Xilleon 226 DAIO-0 for X226
+	4869  Xilleon 226 DAIO-1 for X226
+	486a  Xilleon 240S HBIU for X240S
+	486b  Xilleon 240H HBIU for X240H
+	486c  Xilleon 240S USB for X240S
+	486d  Xilleon 240H USB for X240H
+	486e  Xilleon 250 USB 1.1 for X250
+	486f  Xilleon 260 USB 1.1 for X260
+	4870  Xilleon 250 HBIU for X250
+	4871  Xilleon 250 IDE for X250
+	4872  Xilleon 234/235 HBIU for X234/X235
+	4873  Xilleon 244/245 HBIU for X244/X245
+	4874  Xilleon 234/235 USB 1.1 for X234/X235
+	4875  Xilleon 260 HBIU for X260
+	4876  Xilleon 260 IDE for X260
+	4877  Xilleon 244/245 USB 1.1 for X244/X245
+	4878  Xilleon 270 HBIU for X270
+	487b  Xilleon 242 HBIU for X242
+	487d  Xilleon 242 USB 1.1 for X242
+	4880  Xilleon 254 HBIU for X254
+	4881  Xilleon 254 USB 1.1 for X254
+	4882  Xilleon 255 HBIU for X255
+	4883  Xilleon 255 USB 1.1 for X255
+	4884  Xilleon 243 HBIU for X243
+	4885  Xilleon 243 USB 1.1 for X243
+	4886  Xilleon 233 HBIU for X233
+	4887  Xilleon 233 USB 1.1 for X233
+	4888  Xilleon 143 HBIU for X143
+	4889  Xilleon 143 HBIU for X143L
+	488a  Xilleon 143 HBIU for X143S
 	4966  RV250 [Radeon 9000 Series]
 		10f1 0002  RV250 If [Tachyon G9000 PRO]
 		148c 2039  RV250 If [Radeon 9000 Pro "Evil Commando"]
@@ -1687,8 +1727,6 @@
 		103c 1952  ProBook 455 G1
 	6601  Mars [Radeon HD 8730M]
 		103c 2100  FirePro M4100
-	6602  Mars
-	6603  Mars
 	6604  Opal XT [Radeon R7 M265/M365X/M465]
 		1025 0776  Aspire V5 Radeon R7 M265
 		103c 8006  FirePro M4170
@@ -1721,9 +1759,6 @@
 	6613  Oland PRO [Radeon R7 240/340]
 		148c 7340  Radeon R7 340
 		1682 7240  R7 240 2048 MB
-	6620  Mars
-	6621  Mars PRO
-	6623  Mars
 	6631  Oland
 	6640  Saturn XT [FirePro M6100]
 		106b 014b  Tropo XT [Radeon R9 M380 Mac Edition]
@@ -3681,9 +3716,10 @@
 	991e  Bishop
 	9920  Liverpool [Playstation 4 APU]
 	9921  Liverpool HDMI/DP Audio Controller
-	9922  Starship
+	9922  Starshp
 	9923  Starsha2 [Kingston/Clayton]
 	9924  Gladius
+	9925  Kingston/Clayton/Jupiter/Gladius/Montego HDMI Controller
 	9926  Jupiter
 	9990  Trinity 2 [Radeon HD 7520G]
 	9991  Trinity 2 [Radeon HD 7540D]
@@ -4301,11 +4337,13 @@
 	1423  Family 15h (Models 30h-3fh) I/O Memory Management Unit
 	1424  Family 15h (Models 30h-3fh) Processor Root Port
 	1426  Family 15h (Models 30h-3fh) Processor Root Port
-	142e  Liverpool Processor Function 0
-	142f  Liverpool Processor Function 1
-	1430  Liverpool Processor Function 2
-	1431  Liverpool Processor Function 3
-	1432  Liverpool Processor Function 4
+	142e  Liverpool Processor HT configuration
+	142f  Liverpool Processor Address Maps
+	1430  Liverpool Processor DRAM configuration
+	1431  Liverpool Processor Misc configuration
+	1432  Liverpool Processor PM configuration
+	1433  Liverpool Processor NB Performance Monitor
+	1434  Liverpool Processor SPLL Configuration
 	1436  Liverpool Processor Root Complex
 	1437  Liverpool I/O Memory Management Unit
 	1438  Liverpool Processor Root Port
@@ -4315,8 +4353,10 @@
 	1452  Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
 	1453  Family 17h (Models 00h-0fh) PCIe GPP Bridge
 	1454  Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+	1455  Zeppelin/Renoir PCIe Dummy Function
 	1456  Family 17h (Models 00h-0fh) Platform Security Processor
 	1457  Family 17h (Models 00h-0fh) HD Audio Controller
+	145a  Zeppelin/Raven/Raven2 PCIe Dummy Function
 	145b  Zeppelin Non-Transparent Bridge
 	145c  Family 17h (Models 00h-0fh) USB 3.0 Host Controller
 	145f  USB 3.0 Host controller
@@ -4370,6 +4410,26 @@
 	1603  Family 15h Processor Function 3
 	1604  Family 15h Processor Function 4
 	1605  Family 15h Processor Function 5
+	1608  Arden Device 18h: Function 0
+	1609  Arden Device 18h: Function 1
+	160a  Arden Device 18h: Function 2
+	160b  Arden Device 18h: Function 3
+	160c  Arden Device 18h: Function 4
+	160d  Arden Device 18h: Function 5
+	160e  Arden Device 18h: Function 6
+	160f  Arden Device 18h: Function 7
+	1620  Anubis HT Configuration
+	1621  Anubis Address Maps
+	1622  Anubis DRAM Configuration
+	1623  Anubis Miscellaneous Configuration
+	1624  Anubis PM Configuration
+	1625  Anubis NB Performance Monitor
+	1626  Arden Root Complex
+	1627  Arden IOMMU
+	1628  Arden PCIe Dummy Host Bridge
+	1629  Arden PCIe GPP Bridge
+	162a  Arden Internal PCIe GPP Bridge 0 to bus X
+	162b  Arden PCIe Non-Transparent Bridge
 	1700  Family 12h/14h Processor Function 0
 	1701  Family 12h/14h Processor Function 1
 	1702  Family 12h/14h Processor Function 2
@@ -11396,7 +11456,7 @@
 	1d52  GP108BM [GeForce MX250]
 	1d81  GV100 [TITAN V]
 	1db1  GV100GL [Tesla V100 SXM2 16GB]
-	1db2  GV100 [Tesla V100-DGXS-16GB]
+	1db2  GV100GL [Tesla V100-DGXS-16GB]
 	1db3  GV100GL [Tesla V100 FHHL 16GB]
 	1db4  GV100GL [Tesla V100 PCIe 16GB]
 	1db5  GV100GL [Tesla V100 SXM2 32GB]
@@ -11439,6 +11499,12 @@
 	1f82  TU107
 	1f92  TU107M
 	1fbf  TU107GL
+	2182  TU116 [GeForce GTX 1660 Ti Rev. A]
+	2183  TU116
+	2184  TU116 [GeForce GTX 1660]
+	2191  TU116M
+	21ae  TU116GL
+	21bf  TU116GL
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -18492,6 +18558,7 @@
 	b960  Broadcom BCM56960 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
 		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
+		14e4 8023  PS410T-H04 NetXtreme-S 4x10G 10GBaseT PCIe SmartNIC
 		14e4 8024  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w4GB DRAM (Part No BCM958802A8044C)
 		14e4 8028  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w8GB DRAM (Part No BCM958802A8048C)
 	d804  BCM58804 Stingray 100Gb Ethernet SoC
@@ -20009,6 +20076,10 @@
 	7042  AP482 Counter Timer Module with TTL Level Input/Output
 	7043  AP483 Counter Timer Module with TTL Level and RS422 Input/Output
 	7044  AP484 Counter Timer Module with RS422 Input/Output
+	7051  APA7-501 Reconfigurable Artix-7 52,160 Cell FPGA module 48 TTL channels
+	7052  APA7-502 Reconfigurable Artix-7 52,160 Cell FPGA module 24 RS485 channels
+	7053  APA7-503 Reconfigurable Artix-7 52,160 Cell FPGA module 24 TTL & 12 RS485 channels
+	7054  APA7-504 Reconfigurable Artix-7 52,160 Cell FPGA module 24 LVDS channels
 16da  Advantech Co., Ltd.
 	0011  INES GPIB-PCI
 16df  PIKA Technologies Inc.
@@ -20421,6 +20492,8 @@
 17f2  Albatron Corp.
 17f3  RDC Semiconductor, Inc.
 	1010  R1010 IDE Controller
+	1011  R1011 IDE Controller
+	1012  R1012 IDE Controller
 	1031  PCI/PCI-X to PCI-E Bridge
 	2012  M2012/R3308 VGA-compatible graphics adapter
 	6020  R6020 North Bridge
@@ -24668,6 +24741,7 @@
 		8086 000e  Ethernet Server Adapter OCP X710-2
 		8086 000f  Ethernet Server Adapter OCP X710-2
 		8086 0010  Ethernet Converged Network Adapter X710
+		8086 0013  Ethernet 10G 2P X710 OCP
 		8086 4005  Ethernet Controller X710 for 10GbE SFP+
 		8086 4006  Ethernet Controller X710 for 10GbE SFP+
 		8086 4007  Ethernet Controller X710 for 10GbE SFP+
@@ -29826,7 +29900,7 @@
 	9d48  Sunrise Point-LP LPC Controller
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
-	9d4e  Intel(R) 100 Series Chipset Family LPC Controller/eSPI Controller - 9D4E
+	9d4e  Sunrise Point LPC Controller/eSPI Controller
 		17aa 225d  ThinkPad T480
 	9d50  Sunrise Point LPC Controller
 	9d56  Sunrise Point-LP LPC Controller
@@ -30766,6 +30840,7 @@ caed  Canny Edge
 cafe  Chrysalis-ITS
 	0003  Luna K3 Hardware Security Module
 	0006  Luna PCI-e 3000 Hardware Security Module
+	0007  Luna K6 Hardware Security Module
 	0008  Luna K7 Hardware Security Module
 cc53  ScaleFlux Inc.
 cccc  Catapult Communications
