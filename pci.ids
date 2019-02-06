@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.05
-#	Date:    2019-02-05 03:15:01
+#	Version: 2019.02.06
+#	Date:    2019-02-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4309,6 +4309,34 @@
 	1302  Family 11h Processor DRAM Controller
 	1303  Family 11h Processor Miscellaneous Control
 	1304  Family 11h Processor Link Control
+	1305  Griffin Function 5
+	1306  Griffin Function 6
+	1307  Griffin Function 7
+	1308  Kaveri Audio Controller
+	1314  Wrestler/Bheem/Ontario/Krishna Audio Controller
+	13e0  Ariel Root Complex
+	13e1  Ariel IOMMU
+	13e2  Ariel PCIe Dummy Host Bridge
+	13e3  Ariel PCIe GPP Bridge
+	13e4  Ariel PCIe Dummy Host Bridge
+	13e5  Ariel Internal PCIe GPP Bridge 0 to Bus A
+	13e6  Ariel Internal PCIe GPP Bridge 0 to Bus B
+	13e7  Ariel SMBus Controller
+	13e8  Ariel LPC Bridge
+	13ea  Ariel HD Audio Controller
+	13eb  Ariel HD Audio Coprocessor
+	13ec  Ariel Cryptographic Coprocessor
+	13ed  Ariel USB 3.1 Type C: Gen2 x 1port + DP Alt Mode
+	13ee  Ariel USB 3.1 Type A: Gen2 x 2 ports
+	13ef  Ariel ZCN/MP4
+	13f0  Ariel Device 24: Function 0
+	13f1  Ariel Device 24: Function 1
+	13f2  Ariel Device 24: Function 2
+	13f3  Ariel Device 24: Function 3
+	13f4  Ariel Device 24: Function 4
+	13f5  Ariel Device 24: Function 5
+	13f6  Ariel Device 24: Function 6
+	13f7  Ariel Device 24: Function 7
 	1400  Family 15h (Models 10h-1fh) Processor Function 0
 	1401  Family 15h (Models 10h-1fh) Processor Function 1
 	1402  Family 15h (Models 10h-1fh) Processor Function 2
