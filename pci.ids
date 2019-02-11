@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.06
-#	Date:    2019-02-06 03:15:02
+#	Version: 2019.02.11
+#	Date:    2019-02-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -487,6 +487,7 @@
 	0071  MR SAS HBA 2004
 	0072  SAS2008 PCI-Express Fusion-MPT SAS-2 [Falcon]
 		1000 3040  9210-8i
+		1000 3080  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
 		1000 30b0  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
 		1028 1f1c  6Gbps SAS HBA Adapter
 		1028 1f1d  PERC H200 Adapter
@@ -593,6 +594,7 @@
 		15d9 0691  Onboard SAS2308 PCI-Express Fusion-MPT SAS-2
 	0087  SAS2308 PCI-Express Fusion-MPT SAS-2
 		1000 3020  9207-8i SAS2.1 HBA
+		1000 3030  SAS9207-4i4e
 		1000 3040  9207-8e SAS2.1 HBA
 		1000 3050  SAS9217-8i
 		1014 0472  N2125 External Host Bus Adapter
@@ -623,6 +625,8 @@
 		1028 1f53  HBA330 Mini
 		1028 1fd2  HBA330 MX
 		1028 1fd3  HBA330 MMZ
+# Supermicro AOC-S3008L-L8e uses 0808 for their SAS3008 SAS controller
+		15d9 0808  AOC-S3008L-L8e
 		1bd4 0011  Inspur 12Gb 8i-3008 IT SAS HBA
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 		8086 3530  Integrated RAID Module RMSP3JD160J
@@ -4323,6 +4327,7 @@
 	13e6  Ariel Internal PCIe GPP Bridge 0 to Bus B
 	13e7  Ariel SMBus Controller
 	13e8  Ariel LPC Bridge
+	13e9  Ariel Internal GPU
 	13ea  Ariel HD Audio Controller
 	13eb  Ariel HD Audio Coprocessor
 	13ec  Ariel Cryptographic Coprocessor
@@ -4364,6 +4369,7 @@
 	1422  Family 15h (Models 30h-3fh) Processor Root Complex
 	1423  Family 15h (Models 30h-3fh) I/O Memory Management Unit
 	1424  Family 15h (Models 30h-3fh) Processor Root Port
+	1425  Kaveri P2P Bridge for GFX PCIe Port [1:0]
 	1426  Family 15h (Models 30h-3fh) Processor Root Port
 	142e  Liverpool Processor HT configuration
 	142f  Liverpool Processor Address Maps
@@ -4376,6 +4382,24 @@
 	1437  Liverpool I/O Memory Management Unit
 	1438  Liverpool Processor Root Port
 	1439  Family 16h Processor Functions 5:1
+	143a  Kingston/Clayton/Gladius/Montego Root Complex
+	143b  Kingston/Clayton/Gladius/Montego P2P Bridge for UMI Link
+	1440  Matisse Device 24: Function 0
+	1441  Matisse Device 24: Function 1
+	1442  Matisse Device 24: Function 2
+	1443  Matisse Device 24: Function 3
+	1444  Matisse Device 24: Function 4
+	1445  Matisse Device 24: Function 5
+	1446  Matisse Device 24: Function 6
+	1447  Matisse Device 24: Function 7
+	1448  Renoir Device 24: Function 0
+	1449  Renoir Device 24: Function 1
+	144a  Renoir Device 24: Function 2
+	144b  Renoir Device 24: Function 3
+	144c  Renoir Device 24: Function 4
+	144d  Renoir Device 24: Function 5
+	144e  Renoir Device 24: Function 6
+	144f  Renoir Device 24: Function 7
 	1450  Family 17h (Models 00h-0fh) Root Complex
 	1451  Family 17h (Models 00h-0fh) I/O Memory Management Unit
 	1452  Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
@@ -4387,6 +4411,8 @@
 	145a  Zeppelin/Raven/Raven2 PCIe Dummy Function
 	145b  Zeppelin Non-Transparent Bridge
 	145c  Family 17h (Models 00h-0fh) USB 3.0 Host Controller
+	145d  Zeppelin Switch Upstream (PCIE SW.US)
+	145e  Zeppelin Switch Downstream (PCIE SW.DS)
 	145f  USB 3.0 Host controller
 	1460  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
 	1461  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
@@ -4396,6 +4422,36 @@
 	1465  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
 	1466  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
 	1467  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+	1468  Zeppelin Cryptographic Coprocessor NTBCCP
+	1480  Starship/Matisse Root Complex
+	1481  Starship/Matisse IOMMU
+	1482  Starship/Matisse PCIe Dummy Host Bridge
+	1483  Starship/Matisse GPP Bridge
+	1484  Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+	1485  Starship/Matisse Reserved SPP
+	1486  Starship/Matisse Cryptographic Coprocessor PSPCPP
+	1487  Starship/Matisse HD Audio Controller
+	1488  Starship Reserved SSP
+	1489  Starship Reserved SSP
+	148a  Starship/Matisse PCIe Dummy Function
+	148b  Starship/Matisse Non-Transparent Bridge
+	148c  Starship USB 3.0 Host Controller
+	148d  Starship/Matisse Switch Upstream (PCIE SW.US)
+	148e  Starship/Matisse Switch Downstream (PCIE SW.DS)
+	148f  Starship Reserved SSP
+	1490  Starship Device 24; Function 0
+	1491  Starship Device 24; Function 1
+	1492  Starship Device 24; Function 2
+	1493  Starship Device 24; Function 3
+	1494  Starship Device 24; Function 4
+	1495  Starship Device 24; Function 5
+	1496  Starship Device 24; Function 6
+	1497  Starship Device 24; Function 7
+	1498  Starship/Matisse PTDMA
+	1499  Starship/Matisse NVMe
+	149a  Starship PCIe GPP Bridge [1:0]
+	149b  Starship Reserved SSP
+	149c  Matisse USB 3.0 Host Controller
 	1510  Family 14h Processor Root Complex
 		174b 1001  PURE Fusion Mini
 	1512  Family 14h Processor Root Port
@@ -4410,8 +4466,32 @@
 	1534  Family 16h Processor Function 4
 	1535  Family 16h Processor Function 5
 	1536  Family 16h Processor Root Complex
+	1537  Kabini/Mullins PSP-Platform Security Processor
 	1538  Family 16h Processor Function 0
+	1539  Kabini P2P Bridge for PCIe Ports[4:0]
+	1540  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky HT Configuration
+	1541  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Address Maps
+	1542  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky DRAM Configuration
+	1543  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Miscellaneous Configuration
+	1544  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky PM Configuration
+	1545  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky NB Performance Monitor
+	1546  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Root Complex
+	1547  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky IOMMU
+	1548  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky UMI PCIe Dummy Host Bridge
+	1549  Kryptos/Cato/Garfield/Garfield+ P2P Bridge for PCIe Port [3:0]
+	154a  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Audio Processor
+	154b  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Security Processor
+	154d  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky/Anubis HDMI Controller
+	154f  Anubis Audio Processor
+	1550  Garfield+/Arlene/Pooky/Anubis SPLL Configuration
+	1553  Arlene/Pooky P2P Bridge for PCIE (3:0)
+	155b  Anubis Root Complex
+	155c  Anubis IOMMU
+	155d  Anubis UMI PCIe Dummy Bridge
+	155e  Anubis P2P Bridge for PCIe Ports [4:0]
+	1560  Anubis Security Processor
 	1566  Family 16h (Models 30h-3fh) Processor Root Complex
+	1567  Mullins IOMMU
 	156b  Family 16h (Models 30h-3fh) Host Bridge
 	1570  Family 15h (Models 60h-6fh) Processor Function 0
 	1571  Family 15h (Models 60h-6fh) Processor Function 1
@@ -4421,23 +4501,87 @@
 	1575  Family 15h (Models 60h-6fh) Processor Function 5
 	1576  Family 15h (Models 60h-6fh) Processor Root Complex
 	1577  Family 15h (Models 60h-6fh) I/O Memory Management Unit
+	1578  Carrizo Platform Security Processor
+	1579  Carrizo Audio Processor
 	157a  Family 15h (Models 60h-6fh) Audio Controller
 	157b  Family 15h (Models 60h-6fh) Host Bridge
 	157c  Family 15h (Models 60h-6fh) Processor Root Port
+	157d  Carrizo Audio Dummy Host Bridge
+	157e  Carrizo Audio Controller
 	1580  Family 16h (Models 30h-3fh) Processor Function 0
 	1581  Family 16h (Models 30h-3fh) Processor Function 1
 	1582  Family 16h (Models 30h-3fh) Processor Function 2
 	1583  Family 16h (Models 30h-3fh) Processor Function 3
 	1584  Family 16h (Models 30h-3fh) Processor Function 4
 	1585  Family 16h (Models 30h-3fh) Processor Function 5
+	1590  Amur/Nolan HT Configuration
+	1591  Amur/Nolan Address Maps
+	1592  Amur/Nolan DRAM Configuration
+	1593  Amur/Nolan Miscellaneous Configuration
+	1594  Amur/Nolan PM Configuration
+	1595  Amur/Nolan NB Performance Monitor
+	1596  Amur/Nolan Root Complex
+	1597  Amur/Nolan IOMMU
+	1598  Amur/Nolan Platform Security Processor
+	1599  Amur/Nolan PCIe Dummy Host Bridge
+	159d  Amur Function 6: Gasket
+	15b0  Stoney HT Configuration
+	15b1  Stoney Address Maps
+	15b2  Stoney DRAM Configuration
+	15b3  Stoney Miscellaneous Configuration
+	15b4  Stoney PM Configuration
+	15b5  Stoney NB Performance Monitor
+	15bc  Stoney PCIe [GFX,GPP] Bridge [4:0]
+	15be  Stoney Audio Processor
+	15d0  Raven/Raven2 Root Complex
+	15d1  Raven/Raven2 IOMMU
+	15d2  Raven/Raven2 PCIe Dummy Host Bridge
+	15d3  Raven/Raven2 PCIe GPP Bridge [6:0]
+	15d4  FireFlight USB 3.1
+	15d5  FireFlight USB 3.1
+	15da  Raven/Raven2 PCIe Dummy Host Bridge
+	15db  Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus A
+	15dc  Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus B
+	15de  Raven/Raven2/FireFlight HD Audio Controller
 	15df  Family 17h (Models 10h-1fh) Platform Security Processor
+	15e0  Raven USB 3.1
+	15e1  Raven USB 3.1
+	15e2  Raven/Raven2/FireFlight/Renoir Audio Processor
 	15e3  Family 17h (Models 10h-1fh) HD Audio Controller
+	15e4  Raven/Raven2/Renoir Sensor Fusion Hub
+	15e5  Raven2 USB 3.1
+	15e6  Raven/Raven2/Renoir Non-Sensor Fusion Hub KMDF driver
+	15e8  Raven/Raven2 Device 24: Function 0
+	15e9  Raven/Raven2 Device 24: Function 1
+	15ea  Raven/Raven2 Device 24: Function 2
+	15eb  Raven/Raven2 Device 24: Function 3
+	15ec  Raven/Raven2 Device 24: Function 4
+	15ed  Raven/Raven2 Device 24: Function 5
+	15ee  Raven/Raven2 Device 24: Function 6
+	15ef  Raven/Raven2 Device 24: Function 7
+	15f0  FireFlight Device 24: Function 0
+	15f1  FireFlight Device 24: Function 1
+	15f2  FireFlight Device 24: Function 2
+	15f3  FireFlight Device 24: Function 3
+	15f4  FireFlight Device 24: Function 4
+	15f5  FireFlight Device 24: Function 5
+	15f6  FireFlight Device 24: Function 6
+	15f7  FireFlight Device 24: Function 7
+	15f8  FireFlight Root Complex
+	15f9  FireFlight IOMMU
+	15fa  FireFlight PCIe Dummy Host Bridge
+	15fb  FireFlight PCIe GPP Bride 3:0
+	15fc  FireFlight PCIe Dummy Host Bridge
+	15fd  FireFlight Internal PCIe GPP Bridge 0 to Bus A
+	15fe  FireFlight Internal PCIe GPP Bridge 0 to Bus B
+	15ff  FireFlight Bus A; Device 0: Function 0: Internal GPU
 	1600  Family 15h Processor Function 0
 	1601  Family 15h Processor Function 1
 	1602  Family 15h Processor Function 2
 	1603  Family 15h Processor Function 3
 	1604  Family 15h Processor Function 4
 	1605  Family 15h Processor Function 5
+	1606  Arden Security Processor
 	1608  Arden Device 18h: Function 0
 	1609  Arden Device 18h: Function 1
 	160a  Arden Device 18h: Function 2
@@ -4458,12 +4602,25 @@
 	1629  Arden PCIe GPP Bridge
 	162a  Arden Internal PCIe GPP Bridge 0 to bus X
 	162b  Arden PCIe Non-Transparent Bridge
+	1630  Renoir Root Complex
+	1631  Renoir IOMMU
+	1632  Renoir PCIe Dummy Host Bridge
+	1633  Renoir PCIe GPP Bridge
+	1634  Renoir PCIe GPP Bridge
+	1635  Renoir Internal PCIe GPP Bridge to Bus
+	1637  Renoir HD Audio Controller
+	1639  Renoir USB 3.1
+	1641  Renoir 10GbE Controller Port 0 (XGBE0/1)
+	1642  Renoir WLAN
+	1643  Renoir BT
+	1644  Renoir I2S
 	1700  Family 12h/14h Processor Function 0
 	1701  Family 12h/14h Processor Function 1
 	1702  Family 12h/14h Processor Function 2
 	1703  Family 12h/14h Processor Function 3
 	1704  Family 12h/14h Processor Function 4
 	1705  Family 12h Processor Root Complex
+	1706  Llano P2P Bridge to external GPU
 	1707  Family 12h Processor Root Port
 	1708  Family 12h Processor Root Port
 	1709  Family 12h Processor Root Port
@@ -9934,40 +10091,39 @@
 	0638  G94GL [Quadro FX 1800]
 	063a  G94GLM [Quadro FX 2700M]
 	063f  G94 [GeForce 9600 GE]
-	0640  G96 [GeForce 9500 GT]
-	0641  G96 [GeForce 9400 GT]
+	0640  G96C [GeForce 9500 GT]
+	0641  G96C [GeForce 9400 GT]
 		1682 4009  PV-T94G-ZAFG
 	0642  G96 [D9M-10]
 	0643  G96 [GeForce 9500 GT]
 	0644  G96 [GeForce 9500 GS]
 		174b 9600  Geforce 9500GS 512M DDR2 V/D/HDMI
-	0645  G96 [GeForce 9500 GS]
-	0646  G96 [GeForce GT 120]
-	0647  G96M [GeForce 9600M GT]
-	0648  G96M [GeForce 9600M GS]
-	0649  G96M [GeForce 9600M GT]
+	0645  G96C [GeForce 9500 GS]
+	0646  G96C [GeForce GT 120]
+	0647  G96CM [GeForce 9600M GT]
+	0648  G96CM [GeForce 9600M GS]
+	0649  G96CM [GeForce 9600M GT]
 		1043 202d  GeForce GT 220M
 	064a  G96M [GeForce 9700M GT]
 	064b  G96M [GeForce 9500M G]
-	064c  G96M [GeForce 9650M GT]
-	064d  G96 [GeForce 9600 GT]
-	064e  G96 [GeForce 9600 GT / 9800 GT]
-	0651  G96M [GeForce G 110M]
-	0652  G96M [GeForce GT 130M]
+	064c  G96CM [GeForce 9650M GT]
+	064e  G96C [GeForce 9600 GSO / 9800 GT]
+	0651  G96CM [GeForce G 110M]
+	0652  G96CM [GeForce GT 130M]
 		152d 0850  GeForce GT 240M LE
-	0653  G96M [GeForce GT 120M]
-	0654  G96M [GeForce GT 220M]
+	0653  G96CM [GeForce GT 120M]
+	0654  G96CM [GeForce GT 220M]
 		1043 14a2  GeForce GT 320M
 		1043 14d2  GeForce GT 320M
-	0655  G96 [GeForce GT 120]
-	0656  G96 [GeForce 9650 S]
+	0655  G96 [GeForce GT 120 Mac Edition]
+	0656  G96 [GeForce GT 120 Mac Edition]
 	0658  G96GL [Quadro FX 380]
-	0659  G96GL [Quadro FX 580]
+	0659  G96CGL [Quadro FX 580]
 	065a  G96GLM [Quadro FX 1700M]
-	065b  G96 [GeForce 9400 GT]
+	065b  G96C [GeForce 9400 GT]
 	065c  G96GLM [Quadro FX 770M]
 	065d  G96 [GeForce 9500 GA / 9600 GT / GTS 250]
-	065f  G96 [GeForce G210]
+	065f  G96C [GeForce G210]
 	06c0  GF100 [GeForce GTX 480]
 	06c4  GF100 [GeForce GTX 465]
 	06ca  GF100M [GeForce GTX 480M]
@@ -23578,6 +23734,9 @@
 	0c7d  Atom Processor S1200 Internal
 	0c7e  Atom Processor S1200 Internal
 	0c7f  Atom Processor S1200 Internal
+	0cf8  Ethernet Controller X710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
+		8086 0000  Ethernet Controller X710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
+		8086 0001  Ethernet Controller X710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0d00  Crystal Well DRAM Controller
 	0d01  Crystal Well PCI Express x16 Controller
 	0d04  Crystal Well DRAM Controller
@@ -23587,6 +23746,9 @@
 	0d16  Crystal Well Integrated Graphics Controller
 	0d26  Crystal Well Integrated Graphics Controller
 	0d36  Crystal Well Integrated Graphics Controller
+	0d58  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
+		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
+		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
 		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 		15d9 066b  X9SRL-F
@@ -24770,6 +24932,8 @@
 		8086 000f  Ethernet Server Adapter OCP X710-2
 		8086 0010  Ethernet Converged Network Adapter X710
 		8086 0013  Ethernet 10G 2P X710 OCP
+		8086 0014  Ethernet 10G 4P X710 OCP
+		8086 0015  Ethernet Server Adapter X710-DA2 for OCP
 		8086 4005  Ethernet Controller X710 for 10GbE SFP+
 		8086 4006  Ethernet Controller X710 for 10GbE SFP+
 		8086 4007  Ethernet Controller X710 for 10GbE SFP+
@@ -24927,6 +25091,10 @@
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
 	15f6  I210 Gigabit Ethernet Connection
 	15ff  Ethernet Controller X710 for 10GBASE-T
+		8086 0005  Ethernet 10G 2P X710-T2L-t Adapter
+		8086 0006  Ethernet 10G 4P X710-T4L-t Adapter
+		8086 0007  Ethernet 10G 2P X710-T2L-t OCP
+		8086 0008  Ethernet 10G 4P X710-T4L-t OCP
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
 	1602  Broadwell-U Integrated Graphics
@@ -28937,8 +29105,10 @@
 	3cf4  Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 0
 	3cf5  Xeon E5/Core i7 Integrated Memory Controller System Address Decoder 1
 	3cf6  Xeon E5/Core i7 System Address Decoder
-	3e18  8th Gen Core Processor Host Bridge/DRAM Registers
-	3e1f  8th Gen Core Processor Host Bridge/DRAM Registers
+	3e10  8th Gen Core 4-core Processor Host Bridge/DRAM Registers [Coffee Lake H]
+	3e18  8th Gen Core 4-core Workstation Processor Host Bridge/DRAM Registers [Coffee Lake S]
+	3e1f  8th Gen Core 4-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S]
+	3e30  8th Gen Core 8-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S]
 	3e81  8th Gen Core Processor PCIe Controller (x16)
 	3e85  8th Gen Core Processor PCIe Controller (x8)
 	3e89  8th Gen Core Processor PCIe Controller (x4)
@@ -30203,6 +30373,9 @@
 	a2ee  200 Series PCH PCI Express Root Port #24
 	a2f0  200 Series PCH HD Audio
 	a304  H370 Chipset LPC/eSPI Controller
+	a305  Z390 Chipset LPC/eSPI Controller
+	a306  Q370 Chipset LPC/eSPI Controller
+	a30c  QM370 Chipset LPC/eSPI Controller
 	a323  Cannon Lake PCH SMBus Controller
 	a324  Cannon Lake PCH SPI Controller
 	a32c  Cannon Lake PCH PCI Express Root Port #21
@@ -30231,6 +30404,7 @@
 	a343  Cannon Lake PCH PCI Express Root Port #20
 	a348  Cannon Lake PCH cAVS
 	a352  Cannon Lake PCH SATA AHCI Controller
+	a353  Cannon Lake Mobile PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
 	a363  Cannon Lake PCH Active Management Technology - SOL
 	a368  Cannon Lake PCH Serial IO I2C Controller #0
