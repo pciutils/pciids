@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.12
-#	Date:    2019-02-12 03:15:01
+#	Version: 2019.02.13
+#	Date:    2019-02-13 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4766,6 +4766,7 @@
 		103c 1985  Pavilion 17-e163sg Notebook PC
 	7809  FCH USB OHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
+	780a  Kabini/Mullins SATA Raid/AHCI Mode (DotHill driver)
 	780b  FCH SMBus Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
@@ -24773,6 +24774,7 @@
 		8086 00a2  Ethernet Server Adapter I350-T2
 		8086 5001  Ethernet Server Adapter I350-T4
 		8086 5002  Ethernet Server Adapter I350-T2
+		8086 5003  Ethernet 1G 4P I350-t OCP
 	1522  I350 Gigabit Fiber Network Connection
 		108e 7b17  Quad Port GbE PCIe 2.0 ExpressModule, MMF
 		108e 7b19  Dual Port GbE PCIe 2.0 Low Profile Adapter, MMF
