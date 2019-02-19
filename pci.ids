@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.13
-#	Date:    2019-02-13 03:15:01
+#	Version: 2019.02.19
+#	Date:    2019-02-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -266,6 +266,7 @@
 		1000 1000  LSI53C875A PCI to Ultra SCSI Controller
 	0014  MegaRAID Tri-Mode SAS3516
 		1028 1fd4  PERC H745P MX
+		1137 020e  UCSC-RAID-M5 12G Modular RAID Controller
 		1d49 0602  ThinkSystem RAID 930-16i 4GB Flash PCIe 12Gb Adapter
 		1d49 0604  ThinkSystem RAID 930-8e 4GB Flash PCIe 12Gb Adapter
 		1d49 0607  ThinkSystem RAID 930-16i 8GB Flash PCIe 12Gb Adapter
@@ -821,7 +822,6 @@
 	1636  Renoir
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
-	2191  TU116M
 	3150  RV380/M24 [Mobility Radeon X600]
 		103c 0934  nx8220
 	3151  RV380 GL [FireMV 2400]
@@ -3772,6 +3772,7 @@
 		174b aa98  Radeon HD 6450 1GB DDR3
 	aaa0  Tahiti HDMI Audio [Radeon HD 7870 XT / 7950/7970]
 	aab0  Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]
+	aab8  Tiran HDMI Audio
 	aac0  Tobago HDMI Audio [Radeon R7 360 / R9 360 OEM]
 	aac8  Hawaii HDMI Audio [Radeon R9 290/290X / 390/390X]
 	aad8  Tonga HDMI Audio [Radeon R9 285/380]
@@ -29128,6 +29129,7 @@
 	3e93  UHD Graphics 610
 	3e9b  UHD Graphics 630 (Mobile)
 	3ea0  UHD Graphics 620 (Whiskey Lake)
+		1028 089e  Inspiron 5482
 	3ea5  Iris Plus Graphics 655
 	3ec2  8th Gen Core Processor Host Bridge/DRAM Registers
 	3ec4  8th Gen Core Processor Host Bridge/DRAM Registers
@@ -30142,6 +30144,8 @@
 	9dc8  Cannon Point-LP High Definition Audio Controller
 	9dd3  Cannon Point-LP SATA Controller [AHCI Mode]
 	9de0  Cannon Point-LP MEI Controller #1
+	9de8  Cannon Point-LP Serial IO I2C Controller #0
+	9de9  Cannon Point-LP Serial IO I2C Controller #1
 	9ded  Cannon Point-LP USB 3.1 xHCI Controller
 	9def  Cannon Point-LP Shared SRAM
 	9df0  Cannon Point-LP CNVi [Wireless-AC]
@@ -31277,6 +31281,7 @@ f1d0  AJA Video
 	db09  Corvid 24
 	dcaf  Kona HD
 	dfee  Xena HD-DA
+	eb0d  Corvid 88
 	eb0e  Corvid 44
 	eb1d  Kona 5
 	efac  Xena SD-MM/SD-22-MM
