@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.19
-#	Date:    2019-02-19 03:15:02
+#	Version: 2019.02.20
+#	Date:    2019-02-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3608,16 +3608,16 @@
 	9613  RS780MC [Mobility Radeon HD 3100]
 	9614  RS780D [Radeon HD 3300]
 	9616  RS780L [Radeon 3000]
-	9640  BeaverCreek [Radeon HD 6550D]
-	9641  BeaverCreek [Radeon HD 6620G]
-	9642  Sumo [Radeon HD 6370D]
-	9643  Sumo [Radeon HD 6380G]
-	9644  Sumo [Radeon HD 6410D]
-	9645  Sumo [Radeon HD 6410D]
-	9647  BeaverCreek [Radeon HD 6520G]
+	9640  Sumo [Radeon HD 6550D]
+	9641  Sumo [Radeon HD 6620G]
+	9642  SuperSumo [Radeon HD 6370D]
+	9643  SuperSumo [Radeon HD 6380G]
+	9644  SuperSumo [Radeon HD 6410D]
+	9645  SuperSumo [Radeon HD 6410D]
+	9647  Sumo [Radeon HD 6520G]
 	9648  Sumo [Radeon HD 6480G]
-	9649  Sumo [Radeon HD 6480G]
-	964a  BeaverCreek [Radeon HD 6530D]
+	9649  SuperSumo [Radeon HD 6480G]
+	964a  Sumo [Radeon HD 6530D]
 	964b  Sumo
 	964c  Sumo
 	964e  Sumo
@@ -25734,6 +25734,7 @@
 	2086  Sky Lake-E PCU Registers
 	208d  Sky Lake-E CHA Registers
 	208e  Sky Lake-E CHA Registers
+	2241  Larrabee
 	2250  Xeon Phi coprocessor 5100 series
 	225c  Xeon Phi coprocessor SE10/7120 series
 	225d  Xeon Phi coprocessor 3120 series 
