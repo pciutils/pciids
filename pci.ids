@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.20
-#	Date:    2019-02-20 03:15:02
+#	Version: 2019.02.23
+#	Date:    2019-02-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -10131,6 +10131,7 @@
 	06ca  GF100M [GeForce GTX 480M]
 	06cb  GF100 [GeForce GTX 480]
 	06cd  GF100 [GeForce GTX 470]
+	06d0  GF100GL
 	06d1  GF100GL [Tesla C2050 / C2070]
 		10de 0771  Tesla C2050
 		10de 0772  Tesla C2070
@@ -11685,7 +11686,7 @@
 	1f82  TU107
 	1f92  TU107M
 	1fbf  TU107GL
-	2182  TU116 [GeForce GTX 1660 Ti Rev. A]
+	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
 	2191  TU116M
@@ -14561,6 +14562,7 @@
 	7820  MV78200 [Discovery Innovation] ARM SoC
 	7823  MV78230 [Armada XP] ARM SoC
 	7846  88F6820 [Armada 385] ARM SoC
+	d40f  Bobcat3 Ethernet Switch
 	f003  GT-64010 Primary Image Piranha Image Generator
 11ac  Canon Information Systems Research Aust.
 11ad  Lite-On Communications Inc
@@ -18430,6 +18432,7 @@
 		1590 0211  Ethernet 25Gb 2-port 631FLR-SFP28 Adapter
 	16d8  BCM57416 NetXtreme-E Dual-Media 10G RDMA Ethernet Controller
 		1028 1feb  NetXtreme-E 10Gb SFP+ Adapter
+		14e4 4163  BCM957416M4163C OCP 2x10GBT Type1 wRoCE
 		1590 020c  Ethernet 10Gb 2-port 535T Adapter
 		1590 0212  Ethernet 10Gb 2-port 535FLR-T Adapter
 	16d9  BCM57417 NetXtreme-E 10GBASE-T RDMA Ethernet Controller
@@ -21162,7 +21165,13 @@
 		1924 801d  x2522-R1 2000 Series 10/25G Adapter
 		1924 801e  x2542-R1 2000 Series 40/100G Adapter
 		1924 8022  XtremeScale X2522 10G Network Adapter
+		1924 8024  XtremeScale X2562 OCP 3.0 Dual Port SFP28
+		1924 8027  XtremeScale X2541 PCIe Single Port QSFP28
 		1924 8028  XtremeScale X2522-25G Network Adapter
+		1924 802a  XtremeScale X2542 PCIe Dual Port QSFP28
+		1924 802b  XtremeScale X2552 OCP 2.0 Dual Port SFP28
+		1924 802c  XtremeScale X2522-25G PCIe Dual Port SFP28
+		1924 802d  XtremeScale X2562 OCP 3.0 Dual Port SFP28
 	1803  SFC9020 10G Ethernet Controller (Virtual Function)
 	1813  SFL9021 10GBASE-T Ethernet Controller (Virtual Function)
 	1903  SFC9120 10G Ethernet Controller (Virtual Function)
@@ -21959,7 +21968,8 @@
 	0001  82C101
 1c28  Lite-On IT Corp. / Plextor
 	0122  M6e PCI Express SSD [Marvell 88SS9183]
-1c2c  Fiberblaze
+# previously Fiberblaze
+1c2c  Silicom Denmark
 	000a  Capture
 	000f  SmartNIC
 	00a0  FBC4G Capture 4x1Gb
@@ -21970,9 +21980,15 @@
 	00a5  FBC2XLG Capture 2x40Gb
 	00a6  FBC1CG Capture 1x100Gb
 	00a9  FBC2XGHH Capture 2x10Gb
-	00ad  FBC2CGG3HL Capture 2x200Gb
+	00ad  FBC2CGG3HL Capture 2x100Gb [Padua]
 	00af  Capture slave device
-	a001  FBC2CGG3 Capture 2x200Gb
+	00e0  PacketMover 2x100Gb [Savona]
+	00e1  PacketMover 2x100Gb [Tivoli]
+	a001  FBC2CGG3 Capture 2x100Gb [Mango]
+	a00e  FB2CG Capture 2x100Gb [Savona]
+	a00f  FB2CG Capture 2x40Gb [Savona]
+	a011  FB2CG Capture 2x25Gb [Savona]
+	a012  FB2CG Capture 8x10Gb [Savona]
 # Used on V120 VME Crate Controller
 1c32  Highland Technology, Inc.
 1c33  Daktronics, Inc
