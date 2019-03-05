@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.02.23
-#	Date:    2019-02-23 03:15:02
+#	Version: 2019.03.05
+#	Date:    2019-03-05 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -219,8 +219,7 @@
 0eac  SHF Communication Technologies AG
 	0008  Ethernet Powerlink Managing Node 01
 0f62  Acrox Technologies Co., Ltd.
-# Formerly NCR
-1000  LSI Logic / Symbios Logic
+1000  Broadcom / LSI
 	0001  53c810
 		1000 1000  LSI53C810AE PCI to SCSI I/O Processor
 	0002  53c820
@@ -401,7 +400,7 @@
 		8086 3510  RMS25PB080 RAID Controller
 		8086 3511  RMS25PB040 RAID Controller
 		8086 3512  RMT3PB080 RAID Controller
-		8086 3513  RMS25CB080 RAID Controller
+		8086 3513  Integrated RAID Module RMS25CB080
 		8086 3514  RMS25CB040 RAID Controller
 		8086 351c  RMS25PB080N RAID Controller
 		8086 351d  RMS25CB080N RAID Controller
@@ -480,6 +479,7 @@
 	0062  SAS1078 PCI-Express Fusion-MPT SAS
 		1000 0062  SAS1078 PCI-Express Fusion-MPT SAS
 	0064  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
+		1000 3030  9200-16e 6Gb/s SAS/SATA PCIe x8 External HBA
 		1000 30c0  SAS 9201-16i
 	0065  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
 	006e  SAS2308 PCI-Express Fusion-MPT SAS-2
@@ -503,6 +503,7 @@
 		1000 9241  MegaRAID SAS 9240-4i
 		1000 92a0  MegaRAID SAS 9220-8i
 		1014 03b1  ServeRAID M1015 SAS/SATA Controller
+		1014 040d  ServeRAID M1115 SAS/SATA Controller
 		1028 1f4e  PERC H310 Adapter
 		1028 1f4f  PERC H310 Integrated
 		1028 1f50  PERC H310 Mini Blades
@@ -2450,11 +2451,13 @@
 		1462 3413  Radeon RX 480 Gaming X 8GB
 		1462 3416  Radeon RX 570
 		1462 3418  Radeon RX 580 Armor 4G OC
+		1462 8a92  Radeon RX 580
 		148c 2372  Radeon RX 480
 		148c 2373  Radeon RX 470
 		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
 		1682 9588  Radeon RX 580 XTR
+		1682 c570  RX 570
 		174b e347  Radeon RX 470/480
 		174b e349  Radeon RX 470
 		1787 a470  Radeon RX 470
@@ -2479,6 +2482,7 @@
 	67e9  Baffin [Polaris11]
 	67eb  Baffin [Radeon Pro V5300X]
 	67ef  Baffin [Radeon RX 460/560D / Pro 450/455/460/555/555X/560/560X]
+		103c 3421  RX460
 		106b 0160  Radeon Pro 460
 		106b 0166  Radeon Pro 455
 		106b 0167  Radeon Pro 450
@@ -2717,6 +2721,8 @@
 	6868  Vega 10 [Radeon PRO WX 8100/8200]
 	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
 	687f  Vega 10 XL/XT [Radeon RX Vega 56/64]
+		1002 0b36  RX Vega64
+		1002 6b76  RX Vega56
 	6880  Lexington [Radeon HD 6550M]
 		103c 163c  Pavilion dv6 Radeon HD 6550M
 	6888  Cypress XT [FirePro V8800]
@@ -11684,14 +11690,15 @@
 	1f50  TU106M [GeForce RTX 2070 Mobile]
 	1f51  TU106M [GeForce RTX 2060 Mobile]
 	1f82  TU107
-	1f92  TU107M
+	1f92  TU107M [GeForce GTX 1650 Mobile]
 	1fbf  TU107GL
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
-	2191  TU116M
+	2191  TU116M [GeForce GTX 1660 Mobile]
 	21ae  TU116GL
 	21bf  TU116GL
+	21d1  TU116M [GeForce GTX 1660 Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -11874,6 +11881,7 @@
 		103c 1985  Pavilion 17-e163sg Notebook PC
 		17aa 3832  Yoga 520
 	522a  RTS522A PCI Express Card Reader
+		103c 8079  EliteBook 840 G3
 	5249  RTS5249 PCI Express Card Reader
 		103c 1909  ZBook 15
 	524a  RTS524A PCI Express Card Reader
@@ -19494,7 +19502,7 @@
 	101b  MT28908 Family [ConnectX-6]
 	101c  MT28908 Family [ConnectX-6 Virtual Function]
 	101d  MT2892 Family [ConnectX-6 Dx]
-	101e  MT2892 Family [ConnectX-6 Dx Virtual Function]
+	101e  ConnectX Family mlx5Gen Virtual Function
 	101f  MT28851
 	1020  MT28860
 	1021  MT28861
@@ -20657,6 +20665,8 @@
 	1915  Arria10 PCIe MainRef Design [DNPCIe_80G_A10_LL]
 	1916  VirtexUS PCIe Accelerator Board [DNVUF2_HPC_PCIe]
 	1917  UltrascalePlus PCIe Accelerator Board [DNPCIe_400G_VU_LL]
+	1918  VirtexUS+ ASIC Emulation Board [DNVUPF4A]
+	1919  UltrascalePlus PCIe Accelerator Board [DNPCIe_400G_VUP_HBM_LL]
 	1a00  Virtex6 PCIe DMA Netlist Design
 	1a01  Virtex6 PCIe Darklite Design [DNPCIe_HXT_10G_LL]
 	1a02  Virtex7 PCIe DMA Netlist Design
@@ -20669,6 +20679,8 @@
 	1a0a  VirtexUS PCIe Darklite Design [DNVUF2_HPC_PCIe]
 	1a0b  UltrascalePlus PCIe Darklite Design [DNPCIe_400G_VU_LL]
 	1a0c  KintexUS PCIe DRAM Packet Capture Design [DNPCIe_40G_KU_LL]
+	1a0d  KintexUS PCIe DRAM Packet Capture Design [DNPCIe_40G_KU_LL_2QSFP]
+	1a0e  UltrascalePlus PCIe Darklite Design [DNPCIe_400G_VUP_HBM_LL]
 17e4  Sectra AB
 	0001  KK671 Cardbus encryption board
 	0002  KK672 Cardbus encryption board
@@ -24454,6 +24466,7 @@
 		103c 2159  Ethernet 10Gb 2-port 562i Adapter
 		108e 7b11  Ethernet Server Adapter X520-2
 		1170 004c  82599 DP 10G Mezzanine Adapter
+		15d9 0611  AOC-STGN-I2S [REV 1.01]
 		1734 11a9  10 Gigabit Dual Port Network Connection
 		17aa 1071  ThinkServer X520-2 AnyFabric
 		17aa 4007  82599ES 10-Gigabit SFI/SFP+ Network Connection
@@ -24925,6 +24938,7 @@
 	156d  DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
 	156f  Ethernet Connection I219-LM
 		1028 06dc  Latitude E7470
+		103c 8079  EliteBook 840 G3
 	1570  Ethernet Connection I219-V
 	1571  Ethernet Virtual Function 700 Series
 	1572  Ethernet Controller X710 for 10GbE SFP+
@@ -25119,6 +25133,10 @@
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
 	15f6  I210 Gigabit Ethernet Connection
 	15ff  Ethernet Controller X710 for 10GBASE-T
+		8086 0001  Ethernet Network Adapter X710-T4L
+		8086 0002  Ethernet Network Adapter X710-T4L
+		8086 0003  Ethernet Network Adapter X710-T2L
+		8086 0004  Ethernet Network Adapter X710-T2L
 		8086 0005  Ethernet 10G 2P X710-T2L-t Adapter
 		8086 0006  Ethernet 10G 4P X710-T4L-t Adapter
 		8086 0007  Ethernet 10G 2P X710-T2L-t OCP
@@ -25172,6 +25190,7 @@
 	1904  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 382a  B51-80 Laptop
 	1905  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)
 	1906  HD Graphics 510
@@ -25190,6 +25209,7 @@
 	1916  Skylake GT2 [HD Graphics 520]
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 	1918  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1919  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Imaging Unit
 	191b  HD Graphics 530
@@ -29144,6 +29164,7 @@
 	3e91  8th Gen Core Processor Gaussian Mixture Model
 	3e92  UHD Graphics 630 (Desktop)
 	3e93  UHD Graphics 610
+	3e98  UHD Graphics 630 (Desktop 9 Series)
 	3e9b  UHD Graphics 630 (Mobile)
 	3ea0  UHD Graphics 620 (Whiskey Lake)
 		1028 089e  Inspiron 5482
@@ -30070,10 +30091,13 @@
 	9d03  Sunrise Point-LP SATA Controller [AHCI mode]
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d10  Sunrise Point-LP PCI Express Root Port #1
+	9d11  Sunrise Point-LP PCI Express Root Port #2
 	9d12  Sunrise Point-LP PCI Express Root Port #3
+	9d13  Sunrise Point-LP PCI Express Root Port #4
 	9d14  Sunrise Point-LP PCI Express Root Port #5
 		17aa 382a  B51-80 Laptop
 	9d15  Sunrise Point-LP PCI Express Root Port #6
@@ -30083,15 +30107,18 @@
 	9d18  Sunrise Point-LP PCI Express Root Port #9
 		17aa 382a  B51-80 Laptop
 	9d19  Sunrise Point-LP PCI Express Root Port #10
+	9d1a  Sunrise Point-LP PCI Express Root Port #11
 	9d21  Sunrise Point-LP PMC
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d23  Sunrise Point-LP SMBus
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
@@ -30104,12 +30131,14 @@
 	9d2f  Sunrise Point-LP USB 3.0 xHCI Controller
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d31  Sunrise Point-LP Thermal subsystem
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
@@ -30118,16 +30147,19 @@
 	9d3a  Sunrise Point-LP CSME HECI #1
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d3d  Sunrise Point-LP Active Management Technology - SOL
+		103c 8079  EliteBook 840 G3
 	9d43  Sunrise Point-LP LPC Controller
 		17aa 382a  B51-80 Laptop
 	9d48  Sunrise Point-LP LPC Controller
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 	9d4e  Sunrise Point LPC Controller/eSPI Controller
 		17aa 225d  ThinkPad T480
 	9d50  Sunrise Point LPC Controller
@@ -30137,6 +30169,7 @@
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	9d60  Sunrise Point-LP Serial IO I2C Controller #0
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 225d  ThinkPad T480
 		8086 9d60  100 Series PCH/Sunrise Point PCH I2C0 [Skylake/Kaby Lake LPSS I2C]
 	9d61  Sunrise Point-LP Serial IO I2C Controller #1
@@ -30148,21 +30181,27 @@
 	9d70  Sunrise Point-LP HD Audio
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		103c 8079  EliteBook 840 G3
 		17aa 382a  B51-80 Laptop
 	9d71  Sunrise Point-LP HD Audio
 		17aa 225d  ThinkPad T480
 	9d84  Cannon Point-LP LPC Controller
+		1028 089e  Inspiron 5482
 	9da3  Cannon Point-LP SMBus Controller
 	9da4  Cannon Point-LP SPI Controller
 	9db0  Cannon Point-LP PCI Express Root Port #9
+	9db4  Cannon Point-LP PCI Express Root Port #13
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
 	9dc8  Cannon Point-LP High Definition Audio Controller
+		1028 089e  Inspiron 5482
 	9dd3  Cannon Point-LP SATA Controller [AHCI Mode]
 	9de0  Cannon Point-LP MEI Controller #1
 	9de8  Cannon Point-LP Serial IO I2C Controller #0
+		1028 089e  Inspiron 5482
 	9de9  Cannon Point-LP Serial IO I2C Controller #1
+		1028 089e  Inspiron 5482
 	9ded  Cannon Point-LP USB 3.1 xHCI Controller
 	9def  Cannon Point-LP Shared SRAM
 	9df0  Cannon Point-LP CNVi [Wireless-AC]
