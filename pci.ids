@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.03.05
-#	Date:    2019-03-05 03:15:01
+#	Version: 2019.03.12
+#	Date:    2019-03-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -481,6 +481,7 @@
 	0064  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
 		1000 3030  9200-16e 6Gb/s SAS/SATA PCIe x8 External HBA
 		1000 30c0  SAS 9201-16i
+		1000 30d0  9201-16e 6Gb/s SAS/SATA PCIe x8 External HBA
 	0065  SAS2116 PCI-Express Fusion-MPT SAS-2 [Meteor]
 	006e  SAS2308 PCI-Express Fusion-MPT SAS-2
 	0070  SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire]
@@ -2457,7 +2458,7 @@
 		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
 		1682 9588  Radeon RX 580 XTR
-		1682 c570  RX 570
+		1682 c570  Radeon RX 570
 		174b e347  Radeon RX 470/480
 		174b e349  Radeon RX 470
 		1787 a470  Radeon RX 470
@@ -2482,7 +2483,7 @@
 	67e9  Baffin [Polaris11]
 	67eb  Baffin [Radeon Pro V5300X]
 	67ef  Baffin [Radeon RX 460/560D / Pro 450/455/460/555/555X/560/560X]
-		103c 3421  RX460
+		103c 3421  Radeon RX 460
 		106b 0160  Radeon Pro 460
 		106b 0166  Radeon Pro 455
 		106b 0167  Radeon Pro 450
@@ -4387,7 +4388,7 @@
 	1434  Liverpool Processor SPLL Configuration
 	1436  Liverpool Processor Root Complex
 	1437  Liverpool I/O Memory Management Unit
-	1438  Liverpool Processor Root Port
+	1438  Liverpool UMI PCIe Dummy Host Bridge
 	1439  Family 16h Processor Functions 5:1
 	143a  Kingston/Clayton/Gladius/Montego Root Complex
 	143b  Kingston/Clayton/Gladius/Montego P2P Bridge for UMI Link
@@ -4420,7 +4421,7 @@
 	145c  Family 17h (Models 00h-0fh) USB 3.0 Host Controller
 	145d  Zeppelin Switch Upstream (PCIE SW.US)
 	145e  Zeppelin Switch Downstream (PCIE SW.DS)
-	145f  USB 3.0 Host controller
+	145f  Zeppelin USB 3.0 Host controller
 	1460  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
 	1461  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
 	1462  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
@@ -9226,6 +9227,7 @@
 	0111  NV11 [GeForce2 MX200]
 	0112  NV11M [GeForce2 Go]
 	0113  NV11GL [Quadro2 MXR/EX/Go]
+		1028 00e5  Quadro2 Go
 	0140  NV43 [GeForce 6600 GT]
 		1458 3125  GV-NX66T128D
 		1458 3126  GV-NX66T256DE
@@ -13189,6 +13191,7 @@
 112f  Dalsa Inc.
 	0000  MVC IC-PCI
 	0001  MVC IM-PCI Video frame grabber/processor
+	0004  PCDig Digital Image Capture
 	0008  PC-CamLink PCI framegrabber
 1130  Computervision
 1131  Philips Semiconductors
@@ -19517,6 +19520,7 @@
 	5a46  MT23108 PCI Bridge
 	5e8c  MT24204 [InfiniHost III Lx HCA]
 	5e8d  MT25204 [InfiniHost III Lx HCA Flash Recovery]
+	6001  NVMe SNAP Controller
 	6274  MT25204 [InfiniHost III Lx HCA]
 	6278  MT25208 InfiniHost III Ex (Tavor compatibility mode)
 	6279  MT25208 [InfiniHost III Ex HCA Flash Recovery]
@@ -21006,6 +21010,7 @@
 	0175  NT20E3-2-PTP Network Adapter 2x10Gb
 	0185  NT40A01 Network Adapter
 	01a5  NT200A01 Network Adapter
+	01c5  NT200A02 Network Adapter
 18f6  NextIO
 	1000  [Nexsis] Switch Virtual P2P PCIe Bridge
 	1001  [Texsis] Switch Virtual P2P PCIe Bridge
@@ -21857,6 +21862,7 @@
 		1028 1fd6  BOSS-S1 Adapter
 		1028 1fdf  BOSS-S1 Modular
 		1028 1fe2  BOSS-S1 Adapter
+		1028 2010  BOSS-S2 Adapter
 		1d49 0300  ThinkSystem M.2 with Mirroring Enablement Kit
 	9235  88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
@@ -22225,6 +22231,9 @@
 1d95  Graphcore Ltd
 	0001  Colossus GC2 [C2]
 	0002  Colossus GC1 [S1]
+1d9b  Facebook, Inc.
+	0010  Networking DOM Engine
+	0011  IO Bridge
 1da1  Teko Telecom S.r.l.
 1da2  Sapphire Technology Limited
 1dbb  NGD Systems, Inc.
@@ -23785,6 +23794,8 @@
 	0d16  Crystal Well Integrated Graphics Controller
 	0d26  Crystal Well Integrated Graphics Controller
 	0d36  Crystal Well Integrated Graphics Controller
+	0d4e  Ethernet Connection (10) I219-LM
+	0d4f  Ethernet Connection (10) I219-V
 	0d58  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
@@ -30191,6 +30202,7 @@
 	9da4  Cannon Point-LP SPI Controller
 	9db0  Cannon Point-LP PCI Express Root Port #9
 	9db4  Cannon Point-LP PCI Express Root Port #13
+		1028 089e  Inspiron 5482
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
@@ -30206,6 +30218,7 @@
 	9def  Cannon Point-LP Shared SRAM
 	9df0  Cannon Point-LP CNVi [Wireless-AC]
 	9df9  Cannon Point-LP Thermal Controller
+	9dfc  Cannon Point-LP Integrated Sensor Hub
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
 		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
@@ -30526,6 +30539,8 @@
 	d158  Core Processor Miscellaneous Registers
 	f1a5  SSD 600P Series
 	f1a6  SSD Pro 7600p/760p/E 6100p Series
+	f1a8  SSDPEKNW020T8 [660p, 2TB]
+		8086 390d  SSDPEKNW020T8 [660p, 2TB]
 80ee  InnoTek Systemberatung GmbH
 	beef  VirtualBox Graphics Adapter
 	cafe  VirtualBox Guest Service
