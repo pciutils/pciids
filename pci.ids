@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.03.12
-#	Date:    2019-03-12 03:15:02
+#	Version: 2019.03.14
+#	Date:    2019-03-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -6749,6 +6749,9 @@
 		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02a2  QLE2694L Quad Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02ad  QLE2694U Quad Port 16/32Gb Fibre Channel to PCIe Adapter
+	2081  ISP2814-based 64/32G Fibre Channel to PCIe Controller
+		1077 02e1  QLE2874 Quad Port 64GFC PCIe Gen4 x16 Adapter
+		1077 02e3  QLE2774 Quad Port 32GFC PCIe Gen4 x16 Adapter
 	2100  QLA2100 64-bit Fibre Channel Adapter
 		1077 0001  QLA2100 64-bit Fibre Channel Adapter
 	2200  QLA2200 64-bit Fibre Channel Adapter
@@ -6768,6 +6771,11 @@
 		1590 00fa  StoreFabric SN1100Q 16Gb Dual Port Fibre Channel Host Bus Adapter
 		1590 0203  StoreFabric SN1600Q 32Gb Single Port Fibre Channel Host Bus Adapter
 		1590 0204  StoreFabric SN1600Q 32Gb Dual Port Fibre Channel Host Bus Adapter
+	2281  ISP2812-based 64/32G Fibre Channel to PCIe Controller
+		1077 02e2  QLE2872 Dual Port 64GFC PCIe Gen4 x8 Adapter
+		1077 02e4  QLE2772 Dual Port 32GFC PCIe Gen4 x8 Adapter
+		1077 02ee  QLE2870 Single Port 64GFC PCIe Gen4 x8 Adapter
+		1077 02f0  QLE2770 Single Port 32GFC PCIe Gen4 x8 Adapter
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
