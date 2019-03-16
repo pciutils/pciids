@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.03.14
-#	Date:    2019-03-14 03:15:02
+#	Version: 2019.03.16
+#	Date:    2019-03-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11688,7 +11688,7 @@
 	1eb0  TU104GL [Quadro RTX 5000]
 	1eb1  TU104GL [Quadro RTX 4000]
 	1eb8  TU104GL [Tesla T4]
-	1ed0  TU104M [GeForce RTX 2080 Mobile]
+	1ed0  TU104BM [GeForce RTX 2080 Mobile]
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
@@ -11697,9 +11697,9 @@
 	1f10  TU106M [GeForce RTX 2070 Mobile]
 	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
-	1f50  TU106M [GeForce RTX 2070 Mobile]
-	1f51  TU106M [GeForce RTX 2060 Mobile]
-	1f82  TU107
+	1f50  TU106BM [GeForce RTX 2070 Mobile]
+	1f51  TU106BM [GeForce RTX 2060 Mobile]
+	1f82  TU107 [GeForce GTX 1650]
 	1f92  TU107M [GeForce GTX 1650 Mobile]
 	1fbf  TU107GL
 	2182  TU116 [GeForce GTX 1660 Ti]
@@ -11708,7 +11708,7 @@
 	2191  TU116M [GeForce GTX 1660 Mobile]
 	21ae  TU116GL
 	21bf  TU116GL
-	21d1  TU116M [GeForce GTX 1660 Mobile]
+	21d1  TU116BM [GeForce GTX 1660 Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -22206,6 +22206,7 @@
 	0100  RK3399 PCI Express Root Port
 	1808  RK1808 Neural Network Processor Card
 1d8f  Enyx
+1d93  YADRO (KNS Group)
 1d94  Chengdu Haiguang IC Design Co., Ltd.
 	1450  Root Complex
 	1451  I/O Memory Management Unit
@@ -28774,6 +28775,7 @@
 	372c  Xeon C5500/C3500 Reserved
 	373f  Xeon C5500/C3500 IOxAPIC
 	37c8  C62x Chipset QuickAssist Technology
+	37cc  Ethernet Connection X722
 	37cd  Ethernet Virtual Function 700 Series
 	37ce  Ethernet Connection X722 for 10GbE backplane
 		1590 0215  Ethernet 10Gb 2-port 568i Adapter
