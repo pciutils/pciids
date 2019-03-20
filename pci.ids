@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.03.16
-#	Date:    2019-03-16 03:15:01
+#	Version: 2019.03.20
+#	Date:    2019-03-20 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21976,6 +21976,7 @@
 	0011  MIPS SoC PCI Express Port
 1bf4  VTI Instruments Corporation
 	0001  SentinelEX
+	7011  RX0xxx
 1bfd  EeeTOP
 1c09  CSP, Inc.
 	4254  10G-PCIE3-8D-2S
@@ -23691,6 +23692,7 @@
 		1028 2005  Express Flash NVMe 4.0TB 2.5" U.2 (P4510)
 		108e 4870  NVMe PCIe 3.0 SSD 6.4TB AIC (P4608)
 		108e 4871  NVMe PCIe 3.0 SSD 6.4TB 2.5-inch (P4600)
+		108e 4879  NVMe PCIe 3.0 SSD v2 6.4TB AIC (P4618)
 		108e 487a  NVMe PCIe 3.0 SSD v2 6.4TB 2.5-inch (P4610)
 		1590 025d  NVMe Datacenter SSD [3DNAND] 1.0TB 2.5" U.2 (P4500)
 		1590 025e  NVMe Datacenter SSD [3DNAND] 2.0TB 2.5" U.2 (P4500)
@@ -27038,6 +27040,7 @@
 		1028 2000  Express Flash NVMe [Optane] 375GB 2.5" U.2 (P4800X)
 		1028 2001  Express Flash NVMe [Optane] 750GB 2.5" U.2 (P4800X)
 		1028 2002  Express Flash NVMe [Optane] 750GB AIC (P4800X)
+		1028 200a  Express Flash NVMe [Optane] 375GB AIC (P4800X)
 		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2770  82945G/GZ/P/PL Memory Controller Hub
