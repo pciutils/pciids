@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.03.21
-#	Date:    2019-03-21 03:15:02
+#	Version: 2019.03.22
+#	Date:    2019-03-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30556,7 +30556,9 @@
 		8086 390d  SSDPEKNW020T8 [660p, 2TB]
 8088  Beijing Wangxun Technology Co., Ltd.
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
+		8088 1000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
 	2001  Ethernet Controller RP2000 for 10GbE SFP+
+		8088 2000  Ethernet Network Adaptor RP2000 for 10GbE SFP+
 80ee  InnoTek Systemberatung GmbH
 	beef  VirtualBox Graphics Adapter
 	cafe  VirtualBox Guest Service
