@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.04
-#	Date:    2019-04-04 03:15:01
+#	Version: 2019.04.06
+#	Date:    2019-04-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22072,6 +22072,8 @@
 1cb5  Focusrite Audio Engineering Ltd
 	0002  Clarett
 1cb8  Dawning Information Industry Co., Ltd.
+1cc4  Union Memory (Shenzhen)
+	17ab  NVMe 256G SSD device
 1cc5  Embedded Intelligence, Inc.
 	0100  CAN-PCIe-02
 1cc7  Radian Memory Systems Inc.
@@ -22312,6 +22314,7 @@
 	0215  Acorn CLE-215
 	021f  Acorn CLE-215+
 	1525  Xilinx BCU-1525
+1e26  Fujitsu Client Computing Limited
 1e38  Thinci, Inc
 1e3d  Burlywood, Inc
 # nee Tumsan Oy
