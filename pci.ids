@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.06
-#	Date:    2019-04-06 03:15:02
+#	Version: 2019.04.09
+#	Date:    2019-04-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1488,9 +1488,9 @@
 		1002 0028  Rage 128 AIW
 		1002 0029  Rage 128 AIW
 		1002 0068  Rage 128 AIW
-	5246  Rage 4 [Rage Fury/Xpert 128/Xpert 2000 AGP]
+	5246  Rage 128 (Rage 4) series
 		1002 0004  Magnum/Xpert 128/Xpert 99
-		1002 0008  Magnum/Xpert128/X99/Xpert2000
+		1002 0008  Rage 128 AGP 2x
 		1002 0028  Rage 128 AIW AGP
 		1002 0044  Rage Fury/Xpert 128/Xpert 2000
 		1002 0068  Rage 128 AIW AGP
@@ -3744,7 +3744,7 @@
 	9999  Richland [Radeon HD 8510G]
 	999a  Richland [Radeon HD 8410G]
 	999b  Richland [Radeon HD 8310G]
-	999c  Richland
+	999c  Richland [Radeon HD 8650D]
 # AMD Quad-Core A8-Series APU A8-6500T with Radeon HD 8550D
 	999d  Richland [Radeon HD 8550D]
 	99a0  Trinity 2 [Radeon HD 7520G]
@@ -9351,7 +9351,7 @@
 	0197  G80GL [Tesla C870]
 	019d  G80GL [Quadro FX 5600]
 	019e  G80GL [Quadro FX 4600]
-	01a0  nForce 220/420 NV11 [GeForce2 MX]
+	01a0  nForce 220/420 NV1A [GeForce2 MX]
 	01a4  nForce CPU bridge
 	01ab  nForce 420 Memory Controller (DDR)
 	01ac  nForce 220/420 Memory Controller
@@ -9404,7 +9404,7 @@
 		a0a0 03b9  UK79G-1394 motherboard
 	01ef  nForce2 Memory Controller 5
 		a0a0 03b9  UK79G-1394 motherboard
-	01f0  C17 [GeForce4 MX IGP]
+	01f0  NV1F C17 [GeForce4 MX IGP]
 		a0a0 03b5  UK79G-1394 motherboard
 	0200  NV20 [GeForce3]
 		1043 402f  AGP-V8200 DDR
