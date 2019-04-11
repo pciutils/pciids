@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.09
-#	Date:    2019-04-09 03:15:02
+#	Version: 2019.04.11
+#	Date:    2019-04-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7808,6 +7808,12 @@
 		1093 7803  PXIe-4303
 		1093 7805  PXIe-4305
 		1093 788e  PXIe-4304
+		1093 78f8  NI FlexRIO Module (KU035)
+		1093 78f9  NI FlexRIO Module (KU040)
+		1093 78fa  NI FlexRIO Module (KU060)
+		1093 79d3  NI FlexRIO PCIe Module (KU035)
+		1093 79d4  NI FlexRIO PCIe Module (KU040)
+		1093 79d5  NI FlexRIO PCIe Module (KU060)
 	c801  PCI-GPIB
 	c811  PCI-GPIB+
 	c821  PXI-GPIB
@@ -11692,7 +11698,11 @@
 	1eae  TU104M
 	1eb0  TU104GL [Quadro RTX 5000]
 	1eb1  TU104GL [Quadro RTX 4000]
+	1eb5  TU104GL
+	1eb6  TU104GL
 	1eb8  TU104GL [Tesla T4]
+	1eb9  TU104GL
+	1ebe  TU104GL
 	1ed0  TU104BM [GeForce RTX 2080 Mobile]
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
@@ -11702,10 +11712,13 @@
 	1f10  TU106M [GeForce RTX 2070 Mobile]
 	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
+	1f36  TU106GLM
 	1f50  TU106BM [GeForce RTX 2070 Mobile]
 	1f51  TU106BM [GeForce RTX 2060 Mobile]
+	1f81  TU107
 	1f82  TU107 [GeForce GTX 1650]
 	1f92  TU107M [GeForce GTX 1650 Mobile]
+	1fae  TU107GL
 	1fbf  TU107GL
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
@@ -22309,6 +22322,7 @@
 	0003  alst4x
 1dfc  JSC NT-COM
 	1181  TDM 8 Port E1/T1/J1 Adapter
+1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
 1e24  Squirrels Research Labs
 	0101  Acorn CLE-101
 	0215  Acorn CLE-215
