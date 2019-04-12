@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.11
-#	Date:    2019-04-11 03:15:02
+#	Version: 2019.04.12
+#	Date:    2019-04-12 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7811,6 +7811,9 @@
 		1093 78f8  NI FlexRIO Module (KU035)
 		1093 78f9  NI FlexRIO Module (KU040)
 		1093 78fa  NI FlexRIO Module (KU060)
+		1093 7995  PXIe-7911R
+		1093 7996  PXIe-7912R
+		1093 7997  PXIe-7915R
 		1093 79d3  NI FlexRIO PCIe Module (KU035)
 		1093 79d4  NI FlexRIO PCIe Module (KU040)
 		1093 79d5  NI FlexRIO PCIe Module (KU060)
@@ -11640,6 +11643,7 @@
 	1c8d  GP107M [GeForce GTX 1050 Mobile]
 	1c8e  GP107M
 	1c8f  GP107M [GeForce GTX 1050 Ti Max-Q]
+	1c91  GP107M [GeForce GTX 1050 3 GB Max-Q]
 	1c92  GP107M [GeForce GTX 1050 Mobile]
 	1ca7  GP107GL
 	1ca8  GP107GL
@@ -11723,7 +11727,7 @@
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
-	2191  TU116M [GeForce GTX 1660 Mobile]
+	2191  TU116M [GeForce GTX 1660 Ti Mobile]
 	21ae  TU116GL
 	21bf  TU116GL
 	21d1  TU116BM [GeForce GTX 1660 Mobile]
