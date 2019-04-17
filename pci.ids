@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.12
-#	Date:    2019-04-12 03:15:01
+#	Version: 2019.04.17
+#	Date:    2019-04-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -19460,6 +19460,7 @@
 	024f  MT53100 [Spectrum-2, Secure Flash recovery mode]
 	0250  Spectrum-3, Flash recovery mode
 	0251  Spectrum-3, Secure Flash recovery mode
+	0252  Amos chiplet
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
 	0263  MT27710 [ConnectX-4 Lx Programmable Virtual Function] EN
 	0264  Innova-2 Flex Burn image
@@ -19610,7 +19611,7 @@
 	caf1  ConnectX-4 CAPI Function
 # Spectrum, 100GbE Switch
 	cb84  MT52100
-	cf08  MT53236
+	cf08  Switch-IB2
 	cf6c  MT53100 [Spectrum-2]
 	cf70  Spectrum-3
 	d2f0  Quantum HDR (200Gbps) switch
