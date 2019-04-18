@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.17
-#	Date:    2019-04-17 03:15:02
+#	Version: 2019.04.18
+#	Date:    2019-04-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11719,11 +11719,11 @@
 	1f36  TU106GLM
 	1f50  TU106BM [GeForce RTX 2070 Mobile]
 	1f51  TU106BM [GeForce RTX 2060 Mobile]
-	1f81  TU107
-	1f82  TU107 [GeForce GTX 1650]
-	1f92  TU107M [GeForce GTX 1650 Mobile]
-	1fae  TU107GL
-	1fbf  TU107GL
+	1f81  TU117
+	1f82  TU117 [GeForce GTX 1650]
+	1f92  TU117M [GeForce GTX 1650 Mobile]
+	1fae  TU117GL
+	1fbf  TU117GL
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
