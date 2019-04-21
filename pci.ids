@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.18
-#	Date:    2019-04-18 03:15:02
+#	Version: 2019.04.21
+#	Date:    2019-04-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -6776,6 +6776,7 @@
 		1590 00fa  StoreFabric SN1100Q 16Gb Dual Port Fibre Channel Host Bus Adapter
 		1590 0203  StoreFabric SN1600Q 32Gb Single Port Fibre Channel Host Bus Adapter
 		1590 0204  StoreFabric SN1600Q 32Gb Dual Port Fibre Channel Host Bus Adapter
+		1590 022d  5830C 32Gb Dual Port Fibre Channel Adapter
 	2281  ISP2812-based 64/32G Fibre Channel to PCIe Controller
 		1077 02e2  QLE2872 Dual Port 64GFC PCIe Gen4 x8 Adapter
 		1077 02e4  QLE2772 Dual Port 32GFC PCIe Gen4 x8 Adapter
