@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.04.25
-#	Date:    2019-04-25 03:15:02
+#	Version: 2019.05.01
+#	Date:    2019-05-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20909,6 +20909,7 @@
 	0624  MF624 Multifunction I/O PCI Card
 	0625  MF625 3-phase Motor Driver
 	0634  MF634 Multifunction I/O PCIe Card
+	0644  MF644 Multifunction I/O Thb Card
 186f  WiNRADiO Communications
 1876  L-3 Communications
 	a101  VigraWATCH PCI
@@ -22074,6 +22075,7 @@
 		1c58 8823  Ultrastar Memory (ME200)
 1c5c  SK hynix
 	1283  PC300 NVMe Solid State Drive
+	1284  PC300 NVMe Solid State Drive 512GB
 	1504  SC300 512GB M.2 2280 SATA Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	0540  PBlaze4 NVMe SSD
@@ -22338,6 +22340,10 @@
 1e26  Fujitsu Client Computing Limited
 1e38  Thinci, Inc
 1e3d  Burlywood, Inc
+1e57  Beijing Panyi Technology Co., Ltd
+	0001  PY8800
+	0100  PY8800
+		0000 0100  PY8800 64GB Accelerator
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
