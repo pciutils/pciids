@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.05.03
-#	Date:    2019-05-03 03:15:03
+#	Version: 2019.05.14
+#	Date:    2019-05-14 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2453,6 +2453,7 @@
 		1462 3413  Radeon RX 480 Gaming X 8GB
 		1462 3416  Radeon RX 570
 		1462 3418  Radeon RX 580 Armor 4G OC
+		1462 341e  Radeon RX 570 Armor 4G OC
 		1462 8a92  Radeon RX 580
 		148c 2372  Radeon RX 480
 		148c 2373  Radeon RX 470
@@ -3244,12 +3245,12 @@
 	694e  Polaris 22 XL [Radeon RX Vega M GL]
 	694f  Polaris 22 MGL XL [Radeon Pro WX Vega M GL]
 	6980  Polaris12
-	6981  Polaris12
+	6981  Lexa XT [Radeon PRO WX 3200]
 	6985  Lexa XT [Radeon PRO WX 3100]
 	6986  Polaris12
-	6987  Lexa [Radeon E9171 MCM]
+	6987  Lexa [Radeon 540X/550X/630 / RX 640 / E9171 MCM]
 	6995  Lexa XT [Radeon PRO WX 2100]
-	699f  Lexa PRO [Radeon RX 550/550X]
+	699f  Lexa PRO [Radeon 540/540X/550/550X / RX 540X/550/550X]
 		1028 1720  Radeon RX 550X
 		148c 2380  Lexa XL [Radeon RX 550]
 		1da2 e367  Lexa PRO [Radeon RX 550]
@@ -8341,12 +8342,14 @@
 	9056  PCI9056 32-bit 66MHz PCI <-> IOBus Bridge
 		10b5 2979  CellinkBlade 11 - CPCI board VoATM AAL1
 		10b5 3268  IXXAT iPC-I XC16/PCIe CAN Board
+		10b5 3334  Cambridge Pixel HPx Radar Input Card
 		10b5 3352  Alpermann+Velte PCL PCIe HD: Timecode Reader Board
 		10b5 3353  Alpermann+Velte PCL PCIe D: Timecode Reader Board
 		10b5 3354  Alpermann+Velte PCL PCIe LV: Timecode Reader Board
 		10b5 3355  Alpermann+Velte PCL PCIe L: Timecode Reader Board
 		10b5 3415  Alpermann+Velte PCIe TS: Time Synchronisation Board
 		10b5 3493  Alpermann+Velte PCL PCIe 3G: Timecode Reader Board
+		10b5 3565  Cambridge Pixel HPx Radar Output Card
 		1369 c001  LX6464ES
 		1369 c201  LX1616ES
 		14b4 d10a  DekTec DTA-110T
@@ -11773,7 +11776,8 @@
 		10df e322  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 		10df e323  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 		10df e325  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-	e333  Lancer Gen6: LPe32000 Fibre Channel Host Adapter
+		10df e332  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
+		10df e333  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
 	f011  Saturn: LightPulse Fibre Channel Host Adapter
 	f015  Saturn: LightPulse Fibre Channel Host Adapter
 	f085  LP850 Fibre Channel Host Adapter
@@ -11796,7 +11800,11 @@
 	f400  LPe36000 Fibre Channel Host Adapter [Prism]
 		10df f401  LPe35000 Fibre Channel Host Adapter [Prism]
 		10df f402  LPe35000 Fibre Channel Host Adapter [Prism]
+		10df f405  LPe35000 Fibre Channel Host Adapter [Prism]
 		10df f410  LPe35002-M2-D 2-Port 32Gb Fibre Channel Adapter
+		10df f411  LPe35000-M2-D 1-Port 32Gb Fibre Channel Adapter
+		10df f418  LPe35000 Fibre Channel Host Adapter [Prism]
+		10df f419  LPe35000 Fibre Channel Host Adapter [Prism]
 	f700  LP7000 Fibre Channel Host Adapter
 	f701  LP7000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
 	f800  LP8000 Fibre Channel Host Adapter
@@ -21979,12 +21987,32 @@
 		1bb1 0103  Nytro 5000
 		1bb1 0105  Nytro 5020
 		1bb1 0106  Nytro 5020 TCG
+# Larkspur 2.5"
+		1bb1 0107  Nytro 5320
+# Larkspur 2.5" TCG
+		1bb1 0108  Nytro 5320 TCG
 		1bb1 0121  Nytro XM1440
 		1bb1 0123  Nytro 5000
 # Kiowa M.2
 		1bb1 0125  Nytro 5020
 # Kiowa M.2 TCG
 		1bb1 0126  Nytro 5020
+# Larkspur M.2 22110mm
+		1bb1 0127  Nytro 5320 M.2
+# Larkspur M.2 22110mm TCG
+		1bb1 0128  Nytro 5320 M.2 TCG
+# Larkspur M.2 2280mm
+		1bb1 0131  Nytro 5320 M.2
+# Larkspur M.2 2280mm TCG
+		1bb1 0132  Nytro 5320 M.2 TCG
+# Larkspur E1.S
+		1bb1 0141  Nytro 5320 E1.S
+# Larkspur E1.S TCG
+		1bb1 0142  Nytro 5320 E1.S TCG
+# Kersey 2.5"
+		1bb1 0151  Nytro 5520
+# Kersey 2.5" TCG
+		1bb1 0152  Nytro 5520 TCG
 		1bb1 01a1  Nytro XP7102
 1bb3  Bluecherry
 	4304  BC-04120A MPEG4 4 port video encoder / decoder
@@ -22093,6 +22121,7 @@
 1c8a  TSF5 Corporation
 	0001  Hunter PCI Express
 1c8c  Mobiveil, Inc.
+1cb0  Shannon Systems
 1cb1  Collion UG & Co.KG
 1cb5  Focusrite Audio Engineering Ltd
 	0002  Clarett
@@ -23197,6 +23226,7 @@
 	0122  2nd Generation Core Processor Family Integrated Graphics Controller
 	0126  2nd Generation Core Processor Family Integrated Graphics Controller
 		1028 04cc  Vostro 3350
+		17aa 21ce  ThinkPad T420
 		17aa 21cf  ThinkPad T520
 	0150  Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller
 		1043 84ca  P8 series motherboard
@@ -25852,6 +25882,7 @@
 	225c  Xeon Phi coprocessor SE10/7120 series
 	225d  Xeon Phi coprocessor 3120 series 
 	225e  Xeon Phi coprocessor 31S1
+	2262  Xeon Phi coprocessor 7220
 	2280  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SoC Transaction Register
 	2284  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series High Definition Audio Controller
 	2286  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series LPIO1 DMA Controller
