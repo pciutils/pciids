@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.05.14
-#	Date:    2019-05-14 03:15:01
+#	Version: 2019.05.16
+#	Date:    2019-05-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -602,6 +602,7 @@
 		1000 3050  SAS9217-8i
 		1000 3060  SAS9217-4i4e
 		1014 0472  N2125 External Host Bus Adapter
+		1590 0041  H220i
 		1590 0044  H220i
 		8086 3000  RS25GB008 RAID Controller
 		8086 3060  RS25FB044 RAID Controller
@@ -11759,7 +11760,7 @@
 	e100  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
 	e131  LightPulse 8Gb/s PCIe Shared I/O Fibre Channel Adapter
 	e180  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
-	e200  LightPulse LPe16002
+	e200  Lancer: LPe16000 Fibre Channel Host Adapter
 		1014 03f1  PCIe2 16 Gb 2-port Fibre Channel Adapter (FC EL5B; CCIN 577F)
 		10df e282  Flex System FC5054 4-port 16Gb FC Adapter
 	e208  LightPulse 16Gb Fibre Channel Host Adapter (Lancer-VF)
@@ -22372,6 +22373,10 @@
 1e26  Fujitsu Client Computing Limited
 1e38  Thinci, Inc
 1e3d  Burlywood, Inc
+1e4c  GSI Technology
+# Associative Processing Unit chip
+	0010  Gemini [ Lida ]
+		1e4c 0120  SE120
 1e57  Beijing Panyi Technology Co., Ltd
 	0001  PY8800
 	0100  PY8800
