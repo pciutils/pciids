@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.06.08
-#	Date:    2019-06-08 03:15:02
+#	Version: 2019.06.12
+#	Date:    2019-06-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24944,8 +24944,10 @@
 		1bd4 0035  1G base-T QP EP014Ti1 Adapter
 		8086 0001  Ethernet Server Adapter I350-T4
 		8086 0002  Ethernet Server Adapter I350-T2
+		8086 0003  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
 		8086 00a1  Ethernet Server Adapter I350-T4
 		8086 00a2  Ethernet Server Adapter I350-T2
+		8086 00a3  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
 		8086 5001  Ethernet Server Adapter I350-T4
 		8086 5002  Ethernet Server Adapter I350-T2
 		8086 5003  Ethernet 1G 4P I350-t OCP
@@ -28909,6 +28911,7 @@
 	37ce  Ethernet Connection X722 for 10GbE backplane
 		1590 0215  Ethernet 10Gb 2-port 568i Adapter
 		17aa 4023  Intel Ethernet Connection X722 for 10GbE backplane
+		17aa 4025  Ethernet Connection X722 for 10GbE backplane
 	37cf  Ethernet Connection X722 for 10GbE QSFP+
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4020  Intel Ethernet Connection X722 for 10G SFP+
@@ -28933,10 +28936,12 @@
 		17aa 4020  Ethernet Connection X722 for 10GBASE-T
 		17aa 4021  Ethernet Connection X722 for 10GBASE-T
 		17aa 4022  Ethernet Connection X722 for 10GBASE-T
+		17aa 4025  Ethernet Connection X722 for 10GBASE-T
 	37d3  Ethernet Connection X722 for 10GbE SFP+
 		1590 0219  Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter
 		17aa 4020  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4021  Ethernet Connection X722 for 10GbE SFP+
+		17aa 4025  Ethernet Connection X722 for 10GbE SFP+
 	37d4  Ethernet Connection X722 for 10GbE QSFP+
 	37d9  X722 Hyper-V Virtual Function
 	3a00  82801JD/DO (ICH10 Family) 4-port SATA IDE Controller
