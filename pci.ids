@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.06.12
-#	Date:    2019-06-12 03:15:02
+#	Version: 2019.06.17
+#	Date:    2019-06-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11652,6 +11652,7 @@
 	1c8d  GP107M [GeForce GTX 1050 Mobile]
 	1c8e  GP107M
 	1c8f  GP107M [GeForce GTX 1050 Ti Max-Q]
+	1c90  GP107M [GeForce MX150]
 	1c91  GP107M [GeForce GTX 1050 3 GB Max-Q]
 	1c92  GP107M [GeForce GTX 1050 Mobile]
 	1ca7  GP107GL
@@ -11733,6 +11734,7 @@
 	1f92  TU117M [GeForce GTX 1650 Mobile]
 	1fae  TU117GL
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
+	1fb9  TU117GLM [Quadro T1000 Mobile]
 	1fbf  TU117GL
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
@@ -25119,9 +25121,13 @@
 		8086 000e  Ethernet Server Adapter OCP X710-2
 		8086 000f  Ethernet Server Adapter OCP X710-2
 		8086 0010  Ethernet Converged Network Adapter X710
+		8086 0011  Ethernet Network Adapter X710-2 for OCP NIC 3.0
+		8086 0012  Ethernet Network Adapter X710-4 for OCP NIC 3.0
 		8086 0013  Ethernet 10G 2P X710 OCP
 		8086 0014  Ethernet 10G 4P X710 OCP
 		8086 0015  Ethernet Server Adapter X710-DA2 for OCP
+		8086 00a1  Ethernet Network Adapter X710-2 for OCP NIC 3.0
+		8086 00a2  Ethernet Network Adapter X710-4 for OCP NIC 3.0
 		8086 4005  Ethernet Controller X710 for 10GbE SFP+
 		8086 4006  Ethernet Controller X710 for 10GbE SFP+
 		8086 4007  Ethernet Controller X710 for 10GbE SFP+
