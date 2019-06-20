@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.06.17
-#	Date:    2019-06-17 03:15:02
+#	Version: 2019.06.20
+#	Date:    2019-06-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21739,7 +21739,7 @@
 	0009  RAIDCore Controller
 	000a  RAIDCore Controller
 1aae  Global Velocity, Inc.
-1ab4  Distributed Management Task Force, Inc. (DMTF)Distributed Management Task Force, Inc. (DMTF)
+1ab4  Distributed Management Task Force, Inc. (DMTF)
 1ab6  CalDigit, Inc.
 	6201  RAID Card
 # Parallels VM virtual devices
