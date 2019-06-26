@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.06.20
-#	Date:    2019-06-20 03:15:02
+#	Version: 2019.06.26
+#	Date:    2019-06-26 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -273,6 +273,8 @@
 		8086 9460  RAID Controller RSP3TD160F
 		8086 9480  RAID Controller RSP3MD088F
 	0015  MegaRAID Tri-Mode SAS3416
+		1028 1f3c  PERC H345 Adapter
+		1028 1f3d  PERC H345 Front
 		1d49 0503  ThinkSystem RAID 530-16i PCIe 12Gb Adapter
 	0016  MegaRAID Tri-Mode SAS3508
 		1028 1fc9  PERC H840 Adapter
@@ -636,6 +638,8 @@
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 		8086 3530  Integrated RAID Module RMSP3JD160J
 	00ac  SAS3416 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
+		1028 1fe3  HBA345 Adapter
+		1028 1fe4  HBA345 Front
 		1d49 0201  ThinkSystem 430-16i SAS/SATA 12Gb HBA
 		1d49 0203  ThinkSystem 430-16e SAS/SATA 12Gb HBA
 		8086 3000  RAID Controller RSP3QD160J
@@ -672,6 +676,10 @@
 	00e3  Fusion-MPT 12GSAS/PCIe Unsupported SAS39xx
 	00e4  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
 	00e5  Fusion-MPT 12GSAS/PCIe SAS38xx
+		1028 200b  HBA355i Adapter
+		1028 200c  HBA355i Front
+		1028 200d  HBA355e Adapter
+		1028 200e  HBA355i MX
 	00e6  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
 	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
 	02b0  Virtual Endpoint on PCIe Switch
@@ -751,7 +759,15 @@
 	1000  63C815
 	10e0  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
 	10e1  MegaRAID 12GSAS/PCIe SAS39xx
+		1028 1ae0  PERC H755 Adapter
+		1028 1ae1  PERC H755 Front
+		1028 1ae2  PERC H755N Front
+		1028 1ae3  PERC H755 MX
 	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
+		1028 1ae0  PERC H755 Adapter
+		1028 1ae1  PERC H755 Front
+		1028 1ae2  PERC H755N Front
+		1028 1ae3  PERC H755 MX
 	10e3  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
 	10e4  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	10e5  MegaRAID 12GSAS/PCIe SAS38xx
@@ -18262,6 +18278,11 @@
 		10cf 1279  LifeBook E8010D
 	165f  NetXtreme BCM5720 2-port Gigabit Ethernet PCIe
 		1028 04f7  PowerEdge R320 server
+		103c 1786  NC332T Adapter
+		103c 193d  NC332i Adapter
+		103c 2133  NC332i Adapter
+		103c 22e8  NC332i Adapter
+		103c 22eb  NC332i Adapter
 	1662  NetXtreme II BCM57712 10 Gigabit Ethernet
 	1663  NetXtreme II BCM57712 10 Gigabit Ethernet Multi Function
 	1665  NetXtreme BCM5717 Gigabit Ethernet PCIe
@@ -22246,6 +22267,8 @@
 	2807  8800 series NVMe SSD
 # CEM Solutions Pvt. Ltd.
 1d21  Allo
+1d22  Baidu Technology
+	1380  Cloud Storage Device
 1d26  Kalray Inc.
 	0040  Turbocard2 Accelerator
 	0080  Open Network Interface Card 80G
@@ -25178,6 +25201,8 @@
 	1588  Ethernet Controller XL710 for 20GbE backplane
 		103c 0000  Ethernet 10/20Gb 2-port 660M Adapter
 		103c 22ff  Ethernet 10/20Gb 2-port 660M Adapter
+		1137 0000  Ethernet Network Adapter XXV710
+		1137 02b4  Ethernet Network Adapter XXV710 OCP 2.0
 	1589  Ethernet Controller X710/X557-AT 10GBASE-T
 		108e 0000  Quad Port 10GBase-T Adapter
 		108e 7b1c  Quad Port 10GBase-T Adapter
@@ -25194,6 +25219,7 @@
 	158b  Ethernet Controller XXV710 for 25GbE SFP28
 		1137 0000  Ethernet Network Adapter XXV710
 		1137 0225  Ethernet Network Adapter XXV710
+		1137 02b4  Ethernet Network Adapter XXV710 OCP 2.0
 		8086 0000  Ethernet Network Adapter XXV710
 		8086 0001  Ethernet Network Adapter XXV710-2
 		8086 0002  Ethernet Network Adapter XXV710-2
@@ -25409,6 +25435,18 @@
 	1962  80960RM (i960RM) Microprocessor
 		105a 0000  SuperTrak SX6000 I2O CPU
 	1964  80960RN (i960RN) Microprocessor
+	1980  Atom Processor C3000 Series System Agent
+	19a1  Atom Processor C3000 Series Error Registers
+	19a2  Atom Processor C3000 Series Root Complex Event Collector
+	19a3  Atom Processor C3000 Series Integrated QAT Root Port
+	19a4  Atom Processor C3000 Series PCI Express Root Port #0
+	19a5  Atom Processor C3000 Series PCI Express Root Port #1
+	19a6  Atom Processor C3000 Series PCI Express Root Port #2
+	19a7  Atom Processor C3000 Series PCI Express Root Port #3
+	19a8  Atom Processor C3000 Series PCI Express Root Port #4
+	19a9  Atom Processor C3000 Series PCI Express Root Port #5
+	19aa  Atom Processor C3000 Series PCI Express Root Port #6
+	19ab  Atom Processor C3000 Series PCI Express Root Port #7
 	19ac  Atom Processor C3000 Series SMBus Contoller - Host
 	19b0  Atom Processor C3000 Series SATA Controller 0
 	19b1  Atom Processor C3000 Series SATA Controller 0
@@ -25431,7 +25469,16 @@
 	19ce  Atom Processor C3000 Series SATA Controller 1
 	19cf  Atom Processor C3000 Series SATA Controller 1
 	19d0  Atom Processor C3000 Series USB 3.0 xHCI Controller
+	19d1  Atom Processor C3000 Series Integrated LAN Root Port #0
+	19d2  Atom Processor C3000 Series Integrated LAN Root Port #1
+	19d3  Atom Processor C3000 Series ME HECI 1
+	19d4  Atom Processor C3000 Series ME HECI 2
+	19d5  Atom Processor C3000 Series ME KT Controller
+	19d6  Atom Processor C3000 Series ME HECI 3
+	19d8  Atom Processor C3000 Series HSUART Controller
 	19dc  Atom Processor C3000 Series LPC or eSPI
+	19dd  Atom Processor C3000 Series Primary to Side Band (P2SB) Bridge
+	19de  Atom Processor C3000 Series Power Management Controller
 	19df  Atom Processor C3000 Series SMBus controller
 	19e0  Atom Processor C3000 Series SPI Controller
 	19e2  Atom Processor C3000 Series QuickAssist Technology
@@ -29523,6 +29570,7 @@
 	5909  Xeon E3-1200 v6/7th Gen Core Processor PCIe Controller (x4)
 	590c  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	590f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+		1462 7a68  B250 KRAIT GAMING (MS-7A68)
 	5910  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	5911  Xeon E3-1200 v6/7th Gen Core Processor Gaussian Mixture Model
 	5912  HD Graphics 630
@@ -30486,6 +30534,7 @@
 	a169  100 Series/C230 Series Chipset Family PCI Express Root Port #19
 	a16a  100 Series/C230 Series Chipset Family PCI Express Root Port #20
 	a170  100 Series/C230 Series Chipset Family HD Audio Controller
+		1028 06e4  XPS 15 9550
 	a171  CM238 HD Audio Controller
 	a182  C620 Series Chipset Family SATA Controller [AHCI mode]
 	a186  C620 Series Chipset Family SATA Controller [RAID mode]
