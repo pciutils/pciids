@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.06.30
-#	Date:    2019-06-30 03:15:01
+#	Version: 2019.07.24
+#	Date:    2019-07-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3424,7 +3424,7 @@
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
 	7310  Navi 10
-	731f  Navi 10
+	731f  Navi 10 [Radeon RX 5700 / 5700 XT]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -11725,7 +11725,9 @@
 	1e3c  TU102GL
 	1e3d  TU102GL
 	1e3e  TU102GL
+	1e81  TU104 [GeForce RTX 2080 SUPER]
 	1e82  TU104 [GeForce RTX 2080]
+	1e84  TU104 [GeForce RTX 2070 SUPER]
 	1e87  TU104 [GeForce RTX 2080 Rev. A]
 	1e90  TU104M [GeForce RTX 2080 Mobile]
 	1eab  TU104M
@@ -11741,6 +11743,7 @@
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
+	1f06  TU106 [GeForce RTX 2060 SUPER]
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 	1f08  TU106 [GeForce RTX 2060 Rev. A]
 	1f10  TU106M [GeForce RTX 2070 Mobile]
@@ -19320,6 +19323,9 @@
 	9278  10 Volt Delta Sigma Converter Card
 	9287  Analog Output Card
 	9290  FPGA Card
+	9300  Universal Exhaust Gas Oxygen Sensor Simulator
+	9310  Digital Programmable Resistor
+	9350  Analog Input Card
 1543  SILICON Laboratories
 	3052  Intel 537 [Winmodem]
 	4c22  Si3036 MC'97 DAA
@@ -19602,6 +19608,8 @@
 	1021  MT28861
 	1974  MT28800 Family [ConnectX-5 PCIe Bridge]
 	1975  MT416842 Family [BlueField SoC PCIe Bridge]
+	1976  MT28908 Family [ConnectX-6 PCIe Bridge]
+	1977  MT2892 Family [ConnectX-6 Dx PCIe Bridge]
 	1978  MT42822 Family [BlueField-2 SoC PCIe Bridge]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
@@ -21789,6 +21797,7 @@
 		13c2 3016  TT-budget S2-4200 Twin
 		4254 0552  S952 v3
 1ae0  Google, Inc.
+	0042  Compute Engine Virtual Ethernet [gVNIC]
 1ae3  SANBlaze Technology, Inc.
 1ae7  First Wise Media GmbH
 	0520  HFC-S PCI A [X-TENSIONS XC-520]
@@ -22204,6 +22213,8 @@
 	0007  ExaNIC X40
 	0008  ExaNIC V5P
 	0009  ExaNIC X25
+	000a  ExaNIC X100
+	000b  ExaNIC V9P
 	0100  ExaDISK FX1
 1cf0  Akitio
 1cf7  Subspace Dynamics
@@ -22222,41 +22233,41 @@
 	0714  ZX-100/ZX-200 PCI Express Root Port
 	0715  ZX-100/ZX-200 PCI Express Root Port
 	0716  ZX-D PCI Express Root Port
-	0717  ZX-D PCI Express Root Port
-	0718  ZX-D PCI Express Root Port
-	0719  ZX-D PCI Express Root Port
-	071a  ZX-D PCI Express Root Port
-	071b  ZX-D PCI Express Root Port
-	071c  ZX-D PCI Express Root Port
-	071d  ZX-D PCI Express Root Port
-	071e  ZX-D PCI Express Root Port
+	0717  ZX-D/ZX-E PCI Express Root Port
+	0718  ZX-D/ZX-E PCI Express Root Port
+	0719  ZX-D/ZX-E PCI Express Root Port
+	071a  ZX-D/ZX-E PCI Express Root Port
+	071b  ZX-D/ZX-E PCI Express Root Port
+	071c  ZX-D/ZX-E PCI Express Root Port
+	071d  ZX-D/ZX-E PCI Express Root Port
+	071e  ZX-D/ZX-E PCI Express Root Port
 	071f  ZX-200 Upstream Port of PCI Express Switch
 	0720  ZX-200 PCIE RC6 controller
 	0721  ZX-200 Downstream Port of PCI Express Switch
 	0722  ZX-200 PCIE P2C bridge
 	1000  ZX-D Standard Host Bridge
-	1001  ZX-D Miscellaneous Bus
+	1001  ZX-D/ZX-E Miscellaneous Bus
 	3001  ZX-100 Standard Host Bridge
 	300a  ZX-100 Miscellaneous Bus
-	3038  ZX-100/ZX-200 Standard Universal PCI to USB Host Controller
-	3104  ZX-100/ZX-200 Standard Enhanced PCI to USB Host Controller
+	3038  ZX-100/ZX-200/ZX-E Standard Universal PCI to USB Host Controller
+	3104  ZX-100/ZX-200/ZX-E Standard Enhanced PCI to USB Host Controller
 	31b0  ZX-100/ZX-D Standard Host Bridge
 	31b1  ZX-100/ZX-D Standard Host Bridge
 	31b2  ZX-100/ZX-D DRAM Controller
 	31b3  ZX-100/ZX-D Power Management Controller
 	31b4  ZX-100/ZX-D I/O APIC
 	31b5  ZX-100/ZX-D Scratch Device
-	31b7  ZX-100/ZX-D Standard Host Bridge
+	31b7  ZX-100/ZX-D/ZX-E Standard Host Bridge
 	31b8  ZX-100/ZX-D PCI to PCI Bridge
-	3288  ZX-100/ZX-D High Definition Audio Controller
-	345b  ZX-100/ZX-D Miscellaneous Bus
+	3288  ZX-100/ZX-D/ZX-E High Definition Audio Controller
+	345b  ZX-100/ZX-D/ZX-E Miscellaneous Bus
 	3a02  ZX-100 C-320 GPU
 	3a03  ZX-D C-860 GPU
 	9002  ZX-100/ZX-200 EIDE Controller
-	9003  ZX-100 EIDE Controller
-	9045  ZX-100/ZX-D RAID Accelerator
-	9046  ZX-D RAID Accelerator
-	9083  ZX-100/ZX-200 StorX AHCI Controller
+	9003  ZX-100/ZX-E EIDE Controller
+	9045  ZX-100/ZX-D/ZX-E RAID Accelerator 0
+	9046  ZX-D/ZX-E RAID Accelerator 1
+	9083  ZX-100/ZX-200/ZX-E StorX AHCI Controller
 	9084  ZX-100 StorX AHCI Controller
 	9100  ZX-200 Cross bus
 	9101  ZX-200 Traffic Controller
@@ -22265,10 +22276,11 @@
 	9180  ZX-200 Networking Gigabit Ethernet Adapter
 	9202  ZX-100 USB eXtensible Host Controller
 	9203  ZX-200 USB eXtensible Host Controller
+	9204  ZX-E USB eXtensible Host Controller
 	9286  ZX-D eMMC Host Controller
-	9300  ZX-D eSPI Host Controller
+	9300  ZX-D/ZX-E eSPI Host Controller
 	95d0  ZX-100 Universal SD Host Controller
-	f410  ZX-100/ZX-D PCI Com Port
+	f410  ZX-100/ZX-D/ZX-E PCI Com Port
 1d18  RME
 	0001  Fireface UFX+
 1d1d  CNEX Labs
@@ -22284,6 +22296,7 @@
 	00c0  Turbocard3 Accelerator
 	0140  Open Network Interface Card 40G
 	e004  AB01/EMB01 Development Board
+1d37  NovaSparks
 1d40  Techman Electronics (Changshu) Co., Ltd.
 1d44  DPT
 	a400  PM2x24/PM3224
@@ -27235,6 +27248,8 @@
 		1028 200a  Express Flash NVMe [Optane] 375GB AIC (P4800X)
 		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
+	2723  Wi-Fi 6 AX200
+		8086 2723  Wireless AX200
 	2770  82945G/GZ/P/PL Memory Controller Hub
 		1028 01ad  OptiPlex GX620
 		103c 2a3b  Pavilion A1512X
