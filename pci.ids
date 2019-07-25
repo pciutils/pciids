@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.07.24
-#	Date:    2019-07-24 03:15:02
+#	Version: 2019.07.25
+#	Date:    2019-07-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22158,6 +22158,7 @@
 	0003  Ultrastar SN100 Series NVMe SSD
 		1014 04f5  PCIe3 1.6TB NVMe Flash Adapter
 		1014 04f6  PCIe3 3.2TB NVMe Flash Adapter
+		1c58 0003  Ultrastar SN100/SN150 NVMe SSD
 	0023  Ultrastar SN200 Series NVMe SSD
 		1c58 8823  Ultrastar Memory (ME200)
 1c5c  SK hynix
@@ -22297,6 +22298,10 @@
 	0140  Open Network Interface Card 40G
 	e004  AB01/EMB01 Development Board
 1d37  NovaSparks
+	0013  PM3
+	0014  PM4
+	0015  PM4edge
+	0016  PM4edge User Device
 1d40  Techman Electronics (Changshu) Co., Ltd.
 1d44  DPT
 	a400  PM2x24/PM3224
