@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.08.04
-#	Date:    2019-08-04 03:15:02
+#	Version: 2019.08.06
+#	Date:    2019-08-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25126,6 +25126,8 @@
 	1563  Ethernet Controller 10G X550T
 		1028 1fa8  Ethernet 10G 4P X550/I350 rNDC
 		1028 1fa9  Ethernet 10G 4P X550 rNDC
+		1137 02b2  X550-TX 10 Gig LOM
+		1137 02b3  X550-TX 10 Gig LOM
 		1170 0001  Intel Ethernet Controller X550-T2 OCP card
 		14c0 1201  X550 10Gb 2P RJ45 OCP Mezz
 		1590 00d1  Ethernet 10Gb 2-port 562T Adapter
