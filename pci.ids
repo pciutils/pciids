@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.08.07
-#	Date:    2019-08-07 03:15:02
+#	Version: 2019.08.08
+#	Date:    2019-08-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30796,8 +30796,7 @@
 	d158  Core Processor Miscellaneous Registers
 	f1a5  SSD 600P Series
 	f1a6  SSD Pro 7600p/760p/E 6100p Series
-	f1a8  SSDPEKNW020T8 [660p, 2TB]
-		8086 390d  SSDPEKNW020T8 [660p, 2TB]
+	f1a8  SSD 660P Series
 8088  Beijing Wangxun Technology Co., Ltd.
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
 		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
