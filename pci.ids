@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.08.22
-#	Date:    2019-08-22 03:15:01
+#	Version: 2019.08.23
+#	Date:    2019-08-23 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -687,6 +687,10 @@
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 	00e6  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
+		1028 200b  HBA355i Adapter
+		1028 200c  HBA355i Front
+		1028 200d  HBA355e Adapter
+		1028 200e  HBA355i MX
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
@@ -19373,6 +19377,7 @@
 	110f  PCI Express Core Reference Design Virtual Function
 	1110  XpressRich Reference Design
 	1113  XpressSwitch
+	be00  PCI Express Bridge
 1557  MEDIASTAR Co Ltd
 1558  CLEVO/KAPOK Computer
 1559  SI LOGIC Ltd
@@ -30514,6 +30519,7 @@
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
+	9dbf  Cannon Point PCI Express Root Port #8
 	9dc8  Cannon Point-LP High Definition Audio Controller
 		1028 089e  Inspiron 5482
 	9dd3  Cannon Point-LP SATA Controller [AHCI Mode]
@@ -30525,6 +30531,7 @@
 	9ded  Cannon Point-LP USB 3.1 xHCI Controller
 	9def  Cannon Point-LP Shared SRAM
 	9df0  Cannon Point-LP CNVi [Wireless-AC]
+	9df5  BayHubTech Integrated SD controller
 	9df9  Cannon Point-LP Thermal Controller
 	9dfc  Cannon Point-LP Integrated Sensor Hub
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
