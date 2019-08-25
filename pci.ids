@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.08.23
-#	Date:    2019-08-23 03:15:01
+#	Version: 2019.08.25
+#	Date:    2019-08-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22373,6 +22373,7 @@
 1d7c  Aerotech, Inc.
 1d82  NETINT Technologies Inc.
 	0101  Codensity D400 SSD
+	0102  Codensity D408 PCIe Gen4 NVMe SSD
 	0202  Codensity T408 Video Encoding-Decoding Accelerator
 1d87  Fuzhou Rockchip Electronics Co., Ltd
 	0100  RK3399 PCI Express Root Port
