@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.08.25
-#	Date:    2019-08-25 03:15:01
+#	Version: 2019.09.01
+#	Date:    2019-09-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7857,10 +7857,12 @@
 		1093 7802  PXIe-4302
 		1093 7803  PXIe-4303
 		1093 7805  PXIe-4305
+		1093 786f  PXIe-4163
 		1093 788e  PXIe-4304
 		1093 78f8  NI FlexRIO Module (KU035)
 		1093 78f9  NI FlexRIO Module (KU040)
 		1093 78fa  NI FlexRIO Module (KU060)
+		1093 78ff  PXIe-4162
 		1093 7995  PXIe-7911R
 		1093 7996  PXIe-7912R
 		1093 7997  PXIe-7915R
@@ -11854,10 +11856,13 @@
 		10df f401  LPe35000 Fibre Channel Host Adapter [Prism]
 		10df f402  LPe35000 Fibre Channel Host Adapter [Prism]
 		10df f405  LPe35000 Fibre Channel Host Adapter [Prism]
+		10df f406  LPe35000 Fibre Channel Host Adapter [Prism]
 		10df f410  LPe35002-M2-D 2-Port 32Gb Fibre Channel Adapter
 		10df f411  LPe35000-M2-D 1-Port 32Gb Fibre Channel Adapter
 		10df f418  LPe35000 Fibre Channel Host Adapter [Prism]
 		10df f419  LPe35000 Fibre Channel Host Adapter [Prism]
+		1590 02d5  LPe35000 Fibre Channel Host Adapter [Prism]
+		1590 02d6  LPe35000 Fibre Channel Host Adapter [Prism]
 	f700  LP7000 Fibre Channel Host Adapter
 	f701  LP7000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
 	f800  LP8000 Fibre Channel Host Adapter
@@ -12072,6 +12077,7 @@
 		1028 0283  Vostro 220
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
+		1028 06f2  Latitude 3470
 		1028 06f3  Latitude 3570
 		103c 1611  Pavilion DM1Z-3000
 		103c 1950  ProBook 450/455
@@ -18544,6 +18550,7 @@
 		14e4 1202  BCM957412M4122C OCP 1x25G Type1 wRoCE
 		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
 		14e4 1404  BCM957414M4142C OCP 2x25G Type1 wRoCE
+		14e4 4140  NetXtreme E-Series Advanced Dual-port 25Gb SFP28 Network Daughter Card
 		1590 020e  Ethernet 25Gb 2-port 631SFP28 Adapter
 		1590 0211  Ethernet 25Gb 2-port 631FLR-SFP28 Adapter
 	16d8  BCM57416 NetXtreme-E Dual-Media 10G RDMA Ethernet Controller
@@ -22210,6 +22217,8 @@
 1cb5  Focusrite Audio Engineering Ltd
 	0002  Clarett
 1cb8  Dawning Information Industry Co., Ltd.
+1cc1  ADATA Technology Co., Ltd.
+	8201  XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive
 1cc4  Union Memory (Shenzhen)
 	17ab  NVMe 256G SSD device
 1cc5  Embedded Intelligence, Inc.
@@ -22561,6 +22570,7 @@
 2116  ZyDAS Technology Corp.
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
+	22a0  Flex Logix InferX X1 Inference Accelerator
 22db  Missing Link Electronics, Inc.
 2304  Colorgraphic Communications Corp.
 2348  Racore
@@ -24981,6 +24991,7 @@
 		1043 849c  P8P67 Deluxe Motherboard
 	1507  Ethernet Express Module X520-P2
 	1508  82598EB Gigabit BX Network Connection
+	1509  82580 Gigabit Network Connection
 	150a  82576NS Gigabit Network Connection
 	150b  82598EB 10-Gigabit AT2 Server Adapter
 		8086 a10c  82598EB 10-Gigabit AT2 Server Adapter
@@ -30515,12 +30526,14 @@
 	9da3  Cannon Point-LP SMBus Controller
 	9da4  Cannon Point-LP SPI Controller
 	9db0  Cannon Point-LP PCI Express Root Port #9
+	9db1  Cannon Point-LP PCI Express Root Port #10
 	9db4  Cannon Point-LP PCI Express Root Port #13
 		1028 089e  Inspiron 5482
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
 	9dbf  Cannon Point PCI Express Root Port #8
+	9dc5  Cannon Point-LP Serial IO I2C Host Controller
 	9dc8  Cannon Point-LP High Definition Audio Controller
 		1028 089e  Inspiron 5482
 	9dd3  Cannon Point-LP SATA Controller [AHCI Mode]
