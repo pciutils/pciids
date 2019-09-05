@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.03
-#	Date:    2019-09-03 03:15:02
+#	Version: 2019.09.05
+#	Date:    2019-09-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -14246,6 +14246,7 @@
 		103c 30cf  Pavilion dv95xx/96xx/97xx/98xx series
 		1043 1237  A6J-Q008
 		1043 1967  V6800V
+		104d 9035  VAIO VGN-FW11ZRU
 		144d c018  X20 IV
 		17aa 20ca  ThinkPad T61/T400
 	0811  R5C811
