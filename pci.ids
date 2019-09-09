@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.05
-#	Date:    2019-09-05 03:15:02
+#	Version: 2019.09.09
+#	Date:    2019-09-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -6765,6 +6765,7 @@
 	1654  FastLinQ QL45000 Series 50GbE Controller
 		1077 0032  QL45212 Flex 50Gb 2-port Ethernet Adapter
 		1590 0223  Synergy 6810C 25/50Gb Ethernet Adapter
+		1590 0287  Synergy 6820C 25/50Gb CNA
 	1656  FastLinQ QL45000 Series 25GbE Controller
 		1077 0033  QL45214 Flex 25Gb 4-port Ethernet Adapter
 		1077 02a7  QL45212-DE 25GbE Adapter
@@ -11814,8 +11815,12 @@
 	e100  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
 	e131  LightPulse 8Gb/s PCIe Shared I/O Fibre Channel Adapter
 	e180  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
-	e200  Lancer: LPe16000 Fibre Channel Host Adapter
-		1014 03f1  PCIe2 16 Gb 2-port Fibre Channel Adapter (FC EL5B; CCIN 577F)
+	e200  LPe15000/LPe16000 Series 8Gb/16Gb Fibre Channel Adapter
+		1014 03f1  PCIe2 2-Port 16Gb Fibre Channel Adapter for POWER (FC EL5B; CCIN 577F)
+		1014 04e3  PCIe3 4-Port 10GbE SR Adapter for POWER (FC EN15/EN16; CCIN 2CE3)
+		1014 04e4  PCIe3 4-Port 10GbE SFP+ Adapter for POWER (FC EN18; CCIN 2CE4)
+		10df e280  LPe16002B-M6 2-Port 16Gb Fibre Channel Adapter
+		10df e281  LPe16000B-M6 1-Port 16Gb Fibre Channel Adapter
 		10df e282  Flex System FC5054 4-port 16Gb FC Adapter
 	e208  LightPulse 16Gb Fibre Channel Host Adapter (Lancer-VF)
 	e220  OneConnect NIC (Lancer)
@@ -11824,15 +11829,29 @@
 	e240  OneConnect iSCSI Initiator (Lancer)
 	e260  OneConnect FCoE Initiator (Lancer)
 	e268  OneConnect 10Gb FCoE Converged Network Adapter (Lancer-VF)
-	e300  Lancer Gen6: LPe32000 Fibre Channel Host Adapter
-		10df e310  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e311  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e312  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e322  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e323  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e325  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e332  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
-		10df e333  Lancer Gen6: LPe31000 Fibre Channel Host Adapter
+	e300  LPe31000/LPe32000 Series 16Gb/32Gb Fibre Channel Adapter
+		1014 0614  PCIe3 4-Port 16Gb Fibre Channel Adapter for POWER (FC EN1C/EN1D; CCIN 578E)
+		1014 0615  PCIe3 2-Port 32Gb Fibre Channel Adapter for POWER (FC EN1A/EN1B; CCIN 578F)
+		10df e300  LPe32002-M2 2-Port 32Gb Fibre Channel Adapter
+		10df e301  LPe32000-M2 1-Port 32Gb Fibre Channel Adapter
+		10df e310  LPe31002-M6 2-Port 16Gb Fibre Channel Adapter
+		10df e311  LPe31000-M6 1-Port 16Gb Fibre Channel Adapter
+		10df e312  LPe31004-M6 4-Port 16Gb Fibre Channel Adapter
+		10df e320  LPe32002-M2-D 2-Port 32Gb Fibre Channel Adapter
+		10df e321  LPe32000-M2-D 1-Port 32Gb Fibre Channel Adapter
+		10df e322  LPe31002-M6-D 2-Port 16Gb Fibre Channel Adapter
+		10df e323  LPe31000-M6-D 1-Port 16Gb Fibre Channel Adapter
+		10df e324  LPm32002-D 2-Port 32Gb Fibre Channel Mezz Card
+		10df e325  LPm31002-D 2-Port 16Gb Fibre Channel Mezz Card
+		10df e330  LPe32002-M2-L 2-Port 32Gb PCIe Fibre Channel Adapter
+		10df e331  LPe32000-M2-L 1-Port 32Gb PCIe Fibre Channel Adapter
+		10df e332  LPe31002-M6-L 2-Port 16Gb PCIe Fibre Channel Adapter
+		10df e333  LPe31000-M6-L 1-Port 16Gb PCIe Fibre Channel Adapter
+		1590 0201  StoreFabric SN1600E 1-Port 32Gb Fibre Channel Adapter
+		1590 0202  StoreFabric SN1600E 2-Port 32Gb Fibre Channel Adapter
+		1590 0213  StoreFabric SN1200E 1-Port 16Gb Fibre Channel Adapter
+		1590 0214  StoreFabric SN1200E 2-Port 16Gb Fibre Channel Adapter
+		1590 022e  Synergy 5330C 2-Port 32Gb Fibre Channel Mezz Card
 	f011  Saturn: LightPulse Fibre Channel Host Adapter
 	f015  Saturn: LightPulse Fibre Channel Host Adapter
 	f085  LP850 Fibre Channel Host Adapter
@@ -11846,23 +11865,27 @@
 	f0e1  Zephyr LightPulse Fibre Channel Host Adapter
 	f0e5  Zephyr LightPulse Fibre Channel Host Adapter
 	f0f5  Neptune LightPulse Fibre Channel Host Adapter
-	f100  Saturn-X: LightPulse Fibre Channel Host Adapter
+	f100  LPe12000 Series 8Gb Fibre Channel Adapter
 		1014 038a  8Gb PCI Express Dual Port FC Adapter for POWER
 		103c 3282  8Gb Dual-port PCI-e FC HBA
+		10df f140  LPe12000-M8-L 1-Port 8Gb PCIe Fibre Channel Adapter
+		10df f141  LPe12002-M8-L 2-Port 8Gb PCIe Fibre Channel Adapter
 	f111  Saturn-X LightPulse Fibre Channel Host Adapter
 	f112  Saturn-X LightPulse Fibre Channel Host Adapter
 	f180  LPSe12002 EmulexSecure Fibre Channel Adapter
-	f400  LPe36000 Fibre Channel Host Adapter [Prism]
-		10df f401  LPe35000 Fibre Channel Host Adapter [Prism]
-		10df f402  LPe35000 Fibre Channel Host Adapter [Prism]
-		10df f405  LPe35000 Fibre Channel Host Adapter [Prism]
-		10df f406  LPe35000 Fibre Channel Host Adapter [Prism]
+	f400  LPe35000/LPe36000 Series 32Gb/64Gb Fibre Channel Adapter
+		10df f401  LPe35000-M2 1-Port 32Gb Fibre Channel Adapter
+		10df f402  LPe35002-M2 2-Port 32Gb Fibre Channel Adapter
+		10df f403  LPe36000-M64 1-Port 64Gb Fibre Channel Adapter
+		10df f404  LPe36002-M64 2-Port 64Gb Fibre Channel Adapter
+		10df f405  LPe35004-M2 4-Port 32Gb Fibre Channel Adapter
+		10df f406  LPe35004-X6 4-Port Fibre Channel Adapter
 		10df f410  LPe35002-M2-D 2-Port 32Gb Fibre Channel Adapter
 		10df f411  LPe35000-M2-D 1-Port 32Gb Fibre Channel Adapter
-		10df f418  LPe35000 Fibre Channel Host Adapter [Prism]
-		10df f419  LPe35000 Fibre Channel Host Adapter [Prism]
-		1590 02d5  LPe35000 Fibre Channel Host Adapter [Prism]
-		1590 02d6  LPe35000 Fibre Channel Host Adapter [Prism]
+		10df f418  LPe35000-M2-L 1-Port 32Gb PCIe Fibre Channel Adapter
+		10df f419  LPe35002-M2-L 2-Port 32Gb PCIe Fibre Channel Adapter
+		1590 02d5  StoreFabric SN1610E 1-Port 32Gb Fibre Channel Adapter
+		1590 02d6  StoreFabric SN1610E 2-Port 32Gb Fibre Channel Adapter
 	f700  LP7000 Fibre Channel Host Adapter
 	f701  LP7000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
 	f800  LP8000 Fibre Channel Host Adapter
@@ -18875,6 +18898,8 @@
 	b880  BCM56880 Switch ASIC
 # Tomahawk
 	b960  Broadcom BCM56960 Switch ASIC
+# Tomahawk4
+	b990  BCM56990 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
 		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
 		14e4 8023  PS410T-H04 NetXtreme-S 4x10G 10GBaseT PCIe SmartNIC
