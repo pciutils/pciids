@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.09
-#	Date:    2019-09-09 03:15:02
+#	Version: 2019.09.11
+#	Date:    2019-09-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22512,6 +22512,7 @@
 1e26  Fujitsu Client Computing Limited
 1e38  Thinci, Inc
 1e3d  Burlywood, Inc
+1e49  Yangtze Memory Technologies Co.,Ltd
 1e4c  GSI Technology
 # Associative Processing Unit chip
 	0010  Gemini [ Lida ]
@@ -29514,6 +29515,7 @@
 	3e91  8th Gen Core Processor Gaussian Mixture Model
 	3e92  UHD Graphics 630 (Desktop)
 	3e93  UHD Graphics 610
+	3e96  HD Graphics P630
 	3e98  UHD Graphics 630 (Desktop 9 Series)
 	3e9b  UHD Graphics 630 (Mobile)
 	3ea0  UHD Graphics 620 (Whiskey Lake)
