@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.11
-#	Date:    2019-09-11 03:15:02
+#	Version: 2019.09.14
+#	Date:    2019-09-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2526,6 +2526,7 @@
 	67e9  Baffin [Polaris11]
 	67eb  Baffin [Radeon Pro V5300X]
 	67ef  Baffin [Radeon RX 460/560D / Pro 450/455/460/555/555X/560/560X]
+		1028 1703  RX 560D OEM OC 2 GB
 		103c 3421  Radeon RX 460
 		106b 0160  Radeon Pro 460
 		106b 0166  Radeon Pro 455
@@ -18874,6 +18875,7 @@
 	5841  BCM5841 Crypto Accelerator
 	5850  BCM5850 Crypto Accelerator
 	5e87  Valkyrie offload engine
+	5e88  Viper Offload Engine
 	8602  BCM7400/BCM7405 Serial ATA Controller
 	9026  CN99xx [ThunderX2] Integrated USB 3.0 xHCI Host Controller
 	9027  CN99xx [ThunderX2] Integrated AHCI/SATA 3 Host Controller
@@ -22309,6 +22311,7 @@
 	0722  ZX-200 PCIE P2C bridge
 	1000  ZX-D Standard Host Bridge
 	1001  ZX-D/ZX-E Miscellaneous Bus
+	1003  ZX-E Standard Host Bridge
 	3001  ZX-100 Standard Host Bridge
 	300a  ZX-100 Miscellaneous Bus
 	3038  ZX-100/ZX-200/ZX-E Standard Universal PCI to USB Host Controller
@@ -22325,6 +22328,7 @@
 	345b  ZX-100/ZX-D/ZX-E Miscellaneous Bus
 	3a02  ZX-100 C-320 GPU
 	3a03  ZX-D C-860 GPU
+	3a04  ZX-E C-960 GPU
 	9002  ZX-100/ZX-200 EIDE Controller
 	9003  ZX-100/ZX-E EIDE Controller
 	9045  ZX-100/ZX-D/ZX-E RAID Accelerator 0
@@ -22335,6 +22339,7 @@
 	9101  ZX-200 Traffic Controller
 	9141  ZX-100 High Definition Audio Controller
 	9142  ZX-D High Definition Audio Controller
+	9144  ZX-E High Definition Audio Controller
 	9180  ZX-200 Networking Gigabit Ethernet Adapter
 	9202  ZX-100 USB eXtensible Host Controller
 	9203  ZX-200 USB eXtensible Host Controller
@@ -26102,7 +26107,7 @@
 	2241  Larrabee
 	2250  Xeon Phi coprocessor 5100 series
 	225c  Xeon Phi coprocessor SE10/7120 series
-	225d  Xeon Phi coprocessor 3120 series 
+	225d  Xeon Phi coprocessor 3120 series
 	225e  Xeon Phi coprocessor 31S1
 	2262  Xeon Phi coprocessor 7220
 	2280  Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SoC Transaction Register
