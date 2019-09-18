@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.14
-#	Date:    2019-09-14 03:15:02
+#	Version: 2019.09.18
+#	Date:    2019-09-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22407,6 +22407,10 @@
 		1d6c 2001  DPDK-Aware Virtual Function [Arkville VF]
 	100f  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover for Versal]
 	1010  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover for Agilex]
+	1011  AR-MAN-U50 [Manitou Class Accelerator for U50]
+	1012  AR-MAN-U200 [Manitou Class Accelerator for U200]
+	1013  AR-MAN-U250 [Manitou Class Accelerator for U250]
+	1014  AR-MAN-U280 [Manitou Class Accelerator for U280]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA
@@ -25363,6 +25367,7 @@
 		8086 4001  Ethernet Network Adapter XXV710-2
 	1591  Ethernet Controller E810-C for backplane
 	1592  Ethernet Controller E810-C for QSFP
+		8086 0009  Ethernet Network Adapter E810-C-Q1
 	1593  Ethernet Controller E810-C for SFP
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
