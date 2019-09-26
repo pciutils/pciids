@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.18
-#	Date:    2019-09-18 03:15:02
+#	Version: 2019.09.26
+#	Date:    2019-09-26 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -6902,6 +6902,8 @@
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
 		1077 0019  QL41232HOCU - Dual Port 25/10GbE SFP28 OCP Adapter
 		1077 0039  QLogic QL41262 PCIe 25Gb 2-Port SFP28 Ethernet Adapter
+		1077 0056  2x10GE QL41132HxRJ NIC
+		1077 0057  2x25GE QL41232HxCU NIC
 		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021d  10/25GbE 2P QL41222HLCU-HP Adapter
@@ -6957,6 +6959,8 @@
 		1077 0010  2x25GE QL41232HMKR NIC
 		1077 0011  FastLinQ QL41212H 25GbE Adapter (SR-IOV VF)
 		1077 0012  FastLinQ QL41112H 10GbE Adapter (SR-IOV VF)
+		1077 0056  2x10GE QL41132HxRJ NIC
+		1077 0057  2x25GE QL41232HxCU NIC
 		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021e  10/25GbE 2P QL41162HMRJ-HP Adapter
@@ -11617,6 +11621,7 @@
 	17c2  GM200 [GeForce GTX TITAN X]
 	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
+		10de 1141  VCA 6000
 	17f1  GM200GL [Quadro M6000 24GB]
 	17fd  GM200GL [Tesla M40]
 	1ad6  TU102 USB 3.1 Controller
@@ -18628,6 +18633,11 @@
 		1028 0209  XPS M1330
 		103c 30c0  Compaq 6710b
 		17aa 3a23  IdeaPad S10e
+	1750  BCM57508 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
+	1751  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
+	1752  BCM57502 NetXtreme-E 10Gb/25Gb/40Gb/50Gb Ethernet
+	1806  BCM5750X NetXtreme-E Ethernet Virtual Function
+	1807  BCM5750X NetXtreme-E RDMA Virtual Function
 	3352  BCM3352
 	3360  BCM3360
 	4210  BCM4210 iLine10 HomePNA 2.0
@@ -18812,6 +18822,7 @@
 	43bc  BCM43602 802.11ac Wireless LAN SoC
 	43d3  BCM43567 802.11ac Wireless Network Adapter
 	43d9  BCM43570 802.11ac Wireless Network Adapter
+	43dc  BCM4355 802.11ac Wireless LAN SoC
 	43df  BCM4354 802.11ac Wireless LAN SoC
 	43e9  BCM4358 802.11ac Wireless LAN SoC
 	43ec  BCM4356 802.11ac Wireless Network Adapter
@@ -18828,7 +18839,7 @@
 	4412  BCM4412 10/100BaseT
 	4430  BCM44xx CardBus iLine32 HomePNA 2.0
 	4432  BCM4432 CardBus 10/100BaseT
-	4464  BCM4464 802.11ac Wireless Network Adapter
+	4464  BCM4364 802.11ac Wireless Network Adapter
 	4610  BCM4610 Sentry5 PCI to SB Bridge
 	4611  BCM4610 Sentry5 iLine32 HomePNA 1.0
 	4612  BCM4610 Sentry5 V.90 56k Modem
@@ -25099,6 +25110,7 @@
 		8086 00a1  Ethernet Server Adapter I350-T4
 		8086 00a2  Ethernet Server Adapter I350-T2
 		8086 00a3  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
+		8086 00aa  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
 		8086 5001  Ethernet Server Adapter I350-T4
 		8086 5002  Ethernet Server Adapter I350-T2
 		8086 5003  Ethernet 1G 4P I350-t OCP
@@ -25367,8 +25379,15 @@
 		8086 4001  Ethernet Network Adapter XXV710-2
 	1591  Ethernet Controller E810-C for backplane
 	1592  Ethernet Controller E810-C for QSFP
+		8086 0002  Ethernet Network Adapter E810-C-Q2
+		8086 0004  Ethernet Network Adapter E810-C-Q2
 		8086 0009  Ethernet Network Adapter E810-C-Q1
 	1593  Ethernet Controller E810-C for SFP
+		8086 0005  Ethernet Network Adapter E810-XXV-4
+		8086 0006  Ethernet Network Adapter E810-XXV-4
+		8086 0007  Ethernet Network Adapter E810-XXV-4
+		8086 0008  Ethernet Network Adapter E810-XXV-2
+		8086 0009  Ethernet Network Adapter E810-XXV-2 for OCP 2.0
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
 	15a2  Ethernet Connection (3) I218-LM
