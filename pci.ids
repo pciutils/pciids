@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.26
-#	Date:    2019-09-26 03:15:01
+#	Version: 2019.09.28
+#	Date:    2019-09-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -6831,6 +6831,8 @@
 		1077 02e4  QLE2772 Dual Port 32GFC PCIe Gen4 x8 Adapter
 		1077 02ee  QLE2870 Single Port 64GFC PCIe Gen4 x8 Adapter
 		1077 02f0  QLE2770 Single Port 32GFC PCIe Gen4 x8 Adapter
+		1590 02d3  SN1610Q - 1P Enhanced 32GFC Single Port Fibre Channel Host Bus Adapter
+		1590 02d4  SN1610Q – 2P Enhanced 32GFC Dual Port Fibre Channel Host Bus Adapter
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
