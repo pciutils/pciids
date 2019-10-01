@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.09.28
-#	Date:    2019-09-28 03:15:02
+#	Version: 2019.10.01
+#	Date:    2019-10-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20261,6 +20261,7 @@
 		1a32 0303  EM303 802.11bgn Wireless Mini PCIe Card [AR9281]
 		1a32 0306  EM306 802.11bgn Wireless Half-size Mini PCIe Card [AR9283]
 		1a3b 1067  AW-NE771 802.11bgn Wireless Mini PCIe Card [AR9281]
+		1a3b 1071  AW-NE772 802.11abgn Wireless Mini PCIe Card [AR9280]
 		1a3b 1081  AW-NE773 802.11abgn Wireless Half-size Mini PCIe Card [AR9280]
 	002b  AR9285 Wireless Network Adapter (PCI-Express)
 		1028 0204  Wireless 1502 802.11bgn Half-size Mini PCIe Card
@@ -25172,6 +25173,7 @@
 	1531  I210 Gigabit Unprogrammed
 	1533  I210 Gigabit Network Connection
 		103c 0003  Ethernet I210-T1 GbE NIC
+		1059 0180  RD10019 1GbE interface
 		1093 7706  Compact Vision System Ethernet Adapter
 		10a9 802c  UV300 BaseIO single-port GbE
 		10a9 802d  UV3000 BaseIO GbE Network
@@ -29154,6 +29156,7 @@
 		17aa 4022  Ethernet Connection X722 for 1GbE
 		17aa 4024  Ethernet Connection X722 for 1GbE
 	37d2  Ethernet Connection X722 for 10GBASE-T
+		1059 0180  RD10019 10GbE interface
 		1170 37d2  Ethernet Connection X722 for 10GBASE-T
 		14cd 0030  Ethernet OCP 2x10G RJ45 Phy Card [USI-X557-10GbaseT]
 		1590 0218  Ethernet 10Gb 2-port 568FLR-MMT Adapter
