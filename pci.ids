@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.10.01
-#	Date:    2019-10-01 03:15:02
+#	Version: 2019.10.02
+#	Date:    2019-10-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22276,6 +22276,8 @@
 	0303  Simulyzer-RT CompactPCI Serial PSI5-SIM-1 card
 	0304  Simulyzer-RT CompactPCI Serial PWR-ANA-1 card
 	0305  Simulyzer-RT CompactPCI Serial CAN-1 card
+# supports 8x CAN (-FD) interfaces
+	0306  Simulyzer-RT CompactPCI Serial CAN-2 card (CAN-FD)
 1cd7  Nanjing Magewell Electronics Co., Ltd.
 	0010  Pro Capture Endpoint
 	0014  PRO CAPTURE AIO 4K PLUS
