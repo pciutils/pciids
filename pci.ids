@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.10.06
-#	Date:    2019-10-06 03:15:01
+#	Version: 2019.10.09
+#	Date:    2019-10-09 03:15:03
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3448,6 +3448,7 @@
 		174b e329  Radeon R9 FURY
 	7310  Navi 10
 	731f  Navi 10 [Radeon RX 5700 / 5700 XT]
+	7340  Navi 14 [Radeon RX 5500 / 5500M]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -6904,6 +6905,9 @@
 		1077 0012  FastLinQ QL41112H 10GbE Adapter
 		1077 0019  QL41232HOCU - Dual Port 25/10GbE SFP28 OCP Adapter
 		1077 0039  QLogic QL41262 PCIe 25Gb 2-Port SFP28 Ethernet Adapter
+		1077 0053  QLogic 2x25GE QL41232HQCU NIC
+		1077 0054  2x10GE QL41132HQRJ NIC
+		1077 0055  QLogic 2x10GE QL41132HQCU NIC
 		1077 0056  2x10GE QL41132HxRJ NIC
 		1077 0057  2x25GE QL41232HxCU NIC
 		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
@@ -6961,6 +6965,9 @@
 		1077 0010  2x25GE QL41232HMKR NIC
 		1077 0011  FastLinQ QL41212H 25GbE Adapter (SR-IOV VF)
 		1077 0012  FastLinQ QL41112H 10GbE Adapter (SR-IOV VF)
+		1077 0053  QLogic 2x25GE QL41232HQCU NIC
+		1077 0054  QLogic 2x10GE QL41132HQRJ NIC
+		1077 0055  QLogic 2x10GE QL41132HQCU NIC
 		1077 0056  2x10GE QL41132HxRJ NIC
 		1077 0057  2x25GE QL41232HxCU NIC
 		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
@@ -22480,6 +22487,8 @@
 1da2  Sapphire Technology Limited
 1da3  Habana Labs Ltd.
 	0001  HL-1000 AI Inference Accelerator [Goya]
+# PCIe accelerator card for Deep Learning training tasks
+	1000  HL-2000 AI Training Accelerator [Gaudi]
 1dbb  NGD Systems, Inc.
 1dbf  Guizhou Huaxintong Semiconductor Technology Co., Ltd
 	0401  StarDragon4800 PCI Express Root Port
