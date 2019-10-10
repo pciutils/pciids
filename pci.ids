@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.10.09
-#	Date:    2019-10-09 03:15:03
+#	Version: 2019.10.10
+#	Date:    2019-10-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21021,6 +21021,10 @@
 # HT1000 uses 3 IDs 1166:024a (Native SATA Mode), 1166:024b (PATA/IDE Mode), 182f:000b (RAID Mode) depends on SATA BIOS setting
 	000b  BCM5785 [HT1000] SATA (RAID Mode)
 1830  Credence Systems Corporation
+	8000  CPIn
+	8001  CPId
+	8002  CPIx
+	8003  CPIq
 183b  MikroM GmbH
 	08a7  MVC100 DVI
 	08a8  MVC101 SDI
@@ -25478,6 +25482,7 @@
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
 	15f6  I210 Gigabit Ethernet Connection
 	15ff  Ethernet Controller X710 for 10GBASE-T
+		1137 02c1  Ethernet Network Adapter X710-T2L
 		8086 0000  Ethernet Network Adapter X710-TL
 		8086 0001  Ethernet Network Adapter X710-T4L
 		8086 0002  Ethernet Network Adapter X710-T4L
@@ -25487,6 +25492,11 @@
 		8086 0006  Ethernet 10G 4P X710-T4L-t Adapter
 		8086 0007  Ethernet 10G 2P X710-T2L-t OCP
 		8086 0008  Ethernet 10G 4P X710-T4L-t OCP
+		8086 0009  Ethernet Network Adapter X710-T4L for OCP 3.0
+		8086 000a  Ethernet Network Adapter X710-T4L for OCP 3.0
+		8086 000b  Ethernet Network Adapter X710-T2L for OCP 3.0
+		8086 000c  Ethernet Network Adapter X710-T2L for OCP 3.0
+		8086 000f  Ethernet Network Adapter X710-T2L for OCP 3.0
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
 	1602  Broadwell-U Integrated Graphics
