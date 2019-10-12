@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.10.10
-#	Date:    2019-10-10 03:15:02
+#	Version: 2019.10.12
+#	Date:    2019-10-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -14136,7 +14136,7 @@
 1177  Silicon Engineering
 1178  Alfa, Inc.
 	afa1  Fast Ethernet Adapter
-1179  Toshiba America Info Systems
+1179  Toshiba Corporation
 	0102  Extended IDE Controller
 	0103  EX-IDE Type-B
 	010f  NVMe Controller
@@ -14145,6 +14145,8 @@
 		1028 1ffc  Express Flash NVMe 1.92T (RI) U.2 (CD5)
 		1028 1ffd  Express Flash NVMe 3.84T (RI) U.2 (CD5)
 		1028 1ffe  Express Flash NVMe 7.68T (RI) U.2 (CD5)
+		1179 0001  KIOXIA CM5-R series SSD
+		1179 0021  KIOXIA CD5 series SSD
 		1d49 4039  Thinksystem U.2 CM5 NVMe SSD
 		1d49 403a  Thinksystem AIC CM5 NVMe SSD
 	0113  BG3 NVMe SSD Controller
@@ -31556,6 +31558,7 @@ bdbd  Blackmagic Design
 	a1ff  eGPU RX580
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
+	2263  P1 NVMe PCIe SSD
 c0de  Motorola
 c0fe  Motion Engineering, Inc.
 ca3b  Cambrionix Ltd.
