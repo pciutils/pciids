@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.11.05
-#	Date:    2019-11-05 03:15:03
+#	Version: 2019.11.06
+#	Date:    2019-11-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -683,6 +683,10 @@
 	00e2  Fusion-MPT 12GSAS/PCIe Secure SAS39xx
 	00e3  Fusion-MPT 12GSAS/PCIe Unsupported SAS39xx
 	00e4  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
+		1028 200b  HBA355i Adapter
+		1028 200c  HBA355i Front
+		1028 200d  HBA355e Adapter
+		1028 200e  HBA355i MX
 	00e5  Fusion-MPT 12GSAS/PCIe SAS38xx
 		1028 200b  HBA355i Adapter
 		1028 200c  HBA355i Front
@@ -15898,7 +15902,7 @@
 12b4  FutureTel Inc
 12b5  Granite Systems Inc.
 12b6  Natural Microsystems
-12b7  Cognex Modular Vision Systems Div. - Acumen Inc.
+12b7  Cognex Corporation
 12b8  Korg
 # Nee US Robotics
 12b9  3Com Corp, Modem Division
@@ -22532,11 +22536,29 @@
 	0401  StarDragon4800 PCI Express Root Port
 1dd8  Pensando Systems Inc
 	1000  DSC Capri Upstream Port
+		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
+		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
+		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
 	1001  DSC Virtual Downstream Port
+		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
+		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
+		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
 	1002  DSC Ethernet Controller
+		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
+		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
+		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
 	1003  DSC Ethernet Controller VF
+		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
+		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
+		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
 	1004  DSC Management Controller
+		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
+		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
+		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
 	1007  DSC Storage Accelerator
+		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
+		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
+		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
 1de0  Groq
 	0000  Q100 Tensor Streaming Processor
 1de1  Tekram Technology Co.,Ltd.
@@ -29834,6 +29856,7 @@
 	5926  Iris Plus Graphics 640
 	5927  Iris Plus Graphics 650
 	5a84  Celeron N3350/Pentium N4200/Atom E3900 Series Integrated Graphics Controller
+	5a85  HD Graphics 500
 	5a88  Celeron N3350/Pentium N4200/Atom E3900 Series Imaging Unit
 	5a98  Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster
 	5a9a  Celeron N3350/Pentium N4200/Atom E3900 Series Trusted Execution Engine
