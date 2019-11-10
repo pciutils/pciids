@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.11.06
-#	Date:    2019-11-06 03:15:02
+#	Version: 2019.11.10
+#	Date:    2019-11-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -495,6 +495,7 @@
 	006e  SAS2308 PCI-Express Fusion-MPT SAS-2
 	0070  SAS2004 PCI-Express Fusion-MPT SAS-2 [Spitfire]
 		1000 3010  SAS9211-4i
+		1014 040e  ServeRAID H1110
 	0071  MR SAS HBA 2004
 	0072  SAS2008 PCI-Express Fusion-MPT SAS-2 [Falcon]
 		1000 3040  9210-8i
@@ -688,10 +689,14 @@
 		1028 200d  HBA355e Adapter
 		1028 200e  HBA355i MX
 	00e5  Fusion-MPT 12GSAS/PCIe SAS38xx
-		1028 200b  HBA355i Adapter
-		1028 200c  HBA355i Front
-		1028 200d  HBA355e Adapter
-		1028 200e  HBA355i MX
+# Invalid part
+		1028 200b  HBA355i Adapter Invalid
+# Invalid part
+		1028 200c  HBA355i Front Invalid
+# Invalid part
+		1028 200d  HBA355e Adapter Invalid
+# Invalid part
+		1028 200e  HBA355i MX Invalid
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 	00e6  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
@@ -701,7 +706,15 @@
 		1028 200e  HBA355i MX
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
-	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
+	00e7  HBA355i MX
+# Tampered part
+		1028 200b  HBA355i Adapter Tampered
+# Tampered part
+		1028 200c  HBA355i Front Tampered
+# Tampered part
+		1028 200d  HBA355e Adapter Tampered
+# Tampered part
+		1028 200e  HBA355i MX Tampered
 	02b0  Virtual Endpoint on PCIe Switch
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
@@ -778,6 +791,10 @@
 	0901  61C102
 	1000  63C815
 	10e0  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
+		1028 1ae0  PERC H755 Adapter - Invalid Device
+		1028 1ae1  PERC H755 Front - Invalid Device
+		1028 1ae2  PERC H755N Front - Invalid Device
+		1028 1ae3  PERC H755 MX - Invalid Device
 	10e1  MegaRAID 12GSAS/PCIe SAS39xx
 		1028 1ae0  PERC H755 Adapter
 		1028 1ae1  PERC H755 Front
@@ -801,6 +818,10 @@
 		1d49 060e  ThinkSystem RAID 940-32i 8GB Flash PCIe Gen4 12Gb Adapter
 		1d49 060f  ThinkSystem RAID 940-8e 4GB Flash PCIe Gen4 12Gb Adapter
 	10e3  MegaRAID 12GSAS/PCIe Unsupported SAS39xx
+		1028 1ae0  PERC H755 Adapter - Tampered Device
+		1028 1ae1  PERC H755 Front - Tampered Device
+		1028 1ae2  PERC H755N Front - Tampered Device
+		1028 1ae3  PERC H755 MX - Tampered Device
 	10e4  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	10e5  MegaRAID 12GSAS/PCIe SAS38xx
 	10e6  MegaRAID 12GSAS/PCIe Secure SAS38xx
@@ -10826,7 +10847,7 @@
 	0e0f  GK208 HDMI/DP Audio Controller
 	0e12  TegraK1 PCIe x4 Bridge
 	0e13  TegraK1 PCIe x1 Bridge
-	0e1a  GK110 HDMI Audio
+	0e1a  GK110 High Definition Audio Controller
 	0e1b  GK107 HDMI Audio Controller
 		103c 197b  ZBook 15
 		1043 8428  GTX650-DC-1GD5
@@ -11414,8 +11435,7 @@
 		106b 010d  iMac 13,2
 	11a7  GK104M [GeForce GTX 675MX]
 	11af  GK104GLM [GRID IceCube]
-# GRID K2 Quadro USM
-	11b0  GK104GL [GRID K240Q\K260Q vGPU]
+	11b0  GK104GL [GRID K240Q / K260Q vGPU]
 		10de 101a  GRID K240Q
 		10de 101b  GRID K260Q
 	11b1  GK104GL [GRID K2 Tesla USM]
@@ -11653,12 +11673,15 @@
 		10de 1141  VCA 6000
 	17f1  GM200GL [Quadro M6000 24GB]
 	17fd  GM200GL [Tesla M40]
-	1ad6  TU102 USB 3.1 Controller
+	1ad6  TU102 USB 3.1 Host Controller
 	1ad7  TU102 UCSI Controller
+	1ad8  TU104 USB 3.1 Host Controller
+	1ad9  TU104 USB Type-C UCSI Controller
 	1ada  TU106 USB 3.1 Host Controller
 		1043 8673  TURBO-RTX2070-8G
 	1adb  TU106 USB Type-C Port Policy Controller
 		1043 8673  TURBO-RTX2070-8G
+	1aeb  TU116 High Definition Audio Controller
 	1b00  GP102 [TITAN X]
 	1b01  GP102 [GeForce GTX 1080 Ti 10GB]
 	1b02  GP102 [TITAN Xp]
@@ -30683,6 +30706,7 @@
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
+	9dbe  Cannon Point-LP PCI Express Root Port #7
 	9dbf  Cannon Point PCI Express Root Port #8
 	9dc5  Cannon Point-LP Serial IO I2C Host Controller
 	9dc8  Cannon Point-LP High Definition Audio Controller
