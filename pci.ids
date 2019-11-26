@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.11.25
-#	Date:    2019-11-25 03:15:02
+#	Version: 2019.11.26
+#	Date:    2019-11-26 03:15:03
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -708,7 +708,8 @@
 		1028 200d  HBA355e Adapter Invalid
 # Invalid part
 		1028 200e  HBA350i MX Invalid
-	00e5  HBA355i Adapter, HBA355i Front, HBA355e, HBA350i MX
+# Soft Secure
+	00e5  Fusion-MPT 12GSAS/PCIe SAS38xx
 # Soft Secure
 		1028 200b  HBA355i Adapter
 # Soft Secure
@@ -899,6 +900,7 @@
 	131c  Kaveri [Radeon R7 Graphics]
 	131d  Kaveri [Radeon R6 Graphics]
 	13e9  Ariel
+	1478  Navi 10 XL Upstream Port of PCI Express Switch
 	1479  Navi 10 XL Downstream Port of PCI Express Switch
 	154c  Kryptos
 	154e  Garfield
@@ -18424,6 +18426,8 @@
 		10cf 1279  LifeBook E8010D
 	165f  NetXtreme BCM5720 2-port Gigabit Ethernet PCIe
 		1028 04f7  PowerEdge R320 server
+		1028 08ff  PowerEdge Rx5xx LOM Board
+		1028 0900  PowerEdge C6525 LOM
 		103c 1786  NC332T Adapter
 		103c 193d  NC332i Adapter
 		103c 2133  NC332i Adapter
@@ -18449,6 +18453,7 @@
 		1028 0179  Optiplex GX280
 		1028 0182  Latitude D610
 		1028 0187  Precision M70
+		1028 01a3  Latitude X1
 		1028 01a8  Precision 380
 		1028 01ad  OptiPlex GX620
 		103c 3006  DC7100 SFF(DX878AV)
@@ -19673,6 +19678,10 @@
 	0250  Spectrum-3, Flash recovery mode
 	0251  Spectrum-3, Secure Flash recovery mode
 	0252  Amos chiplet
+	0254  Spectrum-4, Flash recovery mode
+	0255  Spectrum-4, Secure Flash recovery mode
+	0256  Ofek chiplet
+	0257  Quantum-2 in Flash Recovery Mode
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
 	0263  MT27710 [ConnectX-4 Lx Programmable Virtual Function] EN
 	0264  Innova-2 Flex Burn image
@@ -19833,7 +19842,9 @@
 	cf08  Switch-IB2
 	cf6c  MT53100 [Spectrum-2]
 	cf70  Spectrum-3
+	cf80  Spectrum-4
 	d2f0  Quantum HDR (200Gbps) switch
+	d2f2  Quantum-2 NDR (400Gbps) switch
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
@@ -20428,7 +20439,7 @@
 16b8  Sonnet Technologies, Inc.
 16be  Creatix Polymedia GmbH
 16c3  Synopsys, Inc.
-	abcd  DWC_usb3
+	abcd  DWC_usb3 / PCIe bridge
 	abce  DWC_usb3
 	abcf  DWC_usb31
 	edda  EPMockUp
@@ -22284,6 +22295,7 @@
 	5001  25G-PCIE3-8B-2S Security Intelligent Adapter
 1c1c  Symphony
 	0001  82C101
+1c1f  SoftLab-NSK
 1c28  Lite-On IT Corp. / Plextor
 	0122  M6e PCI Express SSD [Marvell 88SS9183]
 # previously Fiberblaze
@@ -29094,6 +29106,7 @@
 	34ea  Ice Lake-LP Serial IO I2C Controller #2
 	34eb  Ice Lake-LP Serial IO I2C Controller #3
 	34ed  Ice Lake-LP USB 3.1 xHCI Host Controller
+	34f0  Killer Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)
 	34f8  Ice Lake-LP SD Controller
 	3500  6311ESB/6321ESB PCI Express Upstream Port
 		103c 31fe  ProLiant DL140 G3
