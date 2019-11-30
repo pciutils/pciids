@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.11.26
-#	Date:    2019-11-26 03:15:03
+#	Version: 2019.11.30
+#	Date:    2019-11-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18426,6 +18426,7 @@
 		10cf 1279  LifeBook E8010D
 	165f  NetXtreme BCM5720 2-port Gigabit Ethernet PCIe
 		1028 04f7  PowerEdge R320 server
+		1028 08fd  PowerEdge R6515/R7515 LOM
 		1028 08ff  PowerEdge Rx5xx LOM Board
 		1028 0900  PowerEdge C6525 LOM
 		103c 1786  NC332T Adapter
@@ -29712,6 +29713,7 @@
 	3e1f  8th Gen Core 4-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S]
 		1458 5000  Z370 AORUS Gaming K3-CF
 	3e30  8th Gen Core 8-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S]
+	3e33  8th/9th Gen Core Processor Host Bridge/DRAM Registers [Coffee Lake]
 	3e34  Coffee Lake HOST and DRAM Controller
 	3e81  8th Gen Core Processor PCIe Controller (x16)
 	3e85  8th Gen Core Processor PCIe Controller (x8)
@@ -31029,6 +31031,7 @@
 	a30c  QM370 Chipset LPC/eSPI Controller
 	a323  Cannon Lake PCH SMBus Controller
 	a324  Cannon Lake PCH SPI Controller
+	a328  Cannon Lake PCH Serial IO UART Host Controller
 	a32c  Cannon Lake PCH PCI Express Root Port #21
 	a32d  Cannon Lake PCH PCI Express Root Port #22
 	a32e  Cannon Lake PCH PCI Express Root Port #23
@@ -31058,6 +31061,7 @@
 	a353  Cannon Lake Mobile PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
 	a363  Cannon Lake PCH Active Management Technology - SOL
+	a364  Cannon Lake PCH HECI Controller #2
 	a368  Cannon Lake PCH Serial IO I2C Controller #0
 	a369  Cannon Lake PCH Serial IO I2C Controller #1
 	a36a  Cannon Lake PCH Serial IO I2C Controller #2
@@ -31108,6 +31112,23 @@
 	f1a6  SSD Pro 7600p/760p/E 6100p Series
 	f1a8  SSD 660P Series
 8088  Beijing Wangxun Technology Co., Ltd.
+	0101  WX1860A2 Gigabit Ethernet Controller
+		8088 0201  Dual-Port Ethernet Network Adaptor SF200T
+	0102  WX1860A2S Gigabit Ethernet Controller
+		8088 0210  Dual-Port Ethernet Network Adaptor SF200T-S
+	0103  WX1860 Gigabit Ethernet Controller
+		8088 0401  Qual-Port Ethernet Network Adaptor SF400T
+		8088 0440  Qual-Port Ethernet Network Adaptor SF400-OCP
+	0104  WX1860A4S Gigabit Ethernet Controller
+		8088 0410  Qual-Port Ethernet Network Adaptor SF400T-S
+	0105  WX1860AL2 Gigabit Ethernet Controller
+		8088 0202  Dual-Port Ethernet Network Adaptor SF200HT
+	0106  WX1860AL2S Gigabit Ethernet Controller
+		8088 0220  Dual-Port Ethernet Network Adaptor SF200HT-S
+	0107  WX1860AL4 Gigabit Ethernet Controller
+		8088 0402  Qual-Port Ethernet Network Adaptor SF400HT
+	0108  WX1860AL4S Gigabit Ethernet Controller
+		8088 0420  Qual-Port Ethernet Network Adaptor SF400HT-S
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
 		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
 	2001  Ethernet Controller RP2000 for 10GbE SFP+
