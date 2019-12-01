@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.11.30
-#	Date:    2019-11-30 03:15:02
+#	Version: 2019.12.01
+#	Date:    2019-12-01 03:15:04
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22692,6 +22692,7 @@
 		1e4c 0120  SE120
 1e57  Beijing Panyi Technology Co., Ltd
 1e6b  Axiado Corp.
+1e89  ID Quantique SA
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
