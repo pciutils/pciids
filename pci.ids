@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.12.21
-#	Date:    2019-12-21 03:15:01
+#	Version: 2019.12.23
+#	Date:    2019-12-23 03:15:03
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -6984,6 +6984,13 @@
 		1077 0055  QLogic 2x10GE QL41132HQCU NIC
 		1077 0056  2x10GE QL41132HxRJ NIC
 		1077 0057  2x25GE QL41232HxCU NIC
+		1077 0068  10GbE 2p SFP+ QL41132HLCU-HC Adapter
+		1077 0069  10GbE 2p BASE-T QL41132HQRJ-HC OCP3 Adapter
+		1077 0070  10GbE 2p BASE-T QL41132HLRJ-HC Adapter
+		1077 0071  10GbE 2p SFP+ QL41132HQCU-HC OCP3 Adapter
+		1077 0072  10GbE 4p SFP+ QL41134HLCU-HC Adapter
+		1077 0073  10/25GbE 2p SFP28 QL41232HQCU-HC OCP3 Adapter
+		1077 0074  10/25GbE 2p SFP28 QL41232HLCU-HC Adapter
 		1590 021a  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021b  10GbE 2P QL41162HLRJ-HP Adapter
 		1590 021d  10/25GbE 2P QL41222HLCU-HP Adapter
@@ -11787,6 +11794,7 @@
 	1c70  GP106GL
 	1c81  GP107 [GeForce GTX 1050]
 	1c82  GP107 [GeForce GTX 1050 Ti]
+		1043 8613  PH-GTX1050TI-4G
 	1c83  GP107 [GeForce GTX 1050 3GB]
 	1c8c  GP107M [GeForce GTX 1050 Ti Mobile]
 	1c8d  GP107M [GeForce GTX 1050 Mobile]
@@ -32021,6 +32029,7 @@ f1d0  AJA Video
 	c0ff  Kona/Xena 2
 	cafe  Kona SD
 	cfee  Xena LS/SD-22-DA/SD-DA
+	dafe  Corvid 1
 	daff  KONA LHi
 	db00  IoExpress
 	db01  Corvid22
@@ -32029,6 +32038,8 @@ f1d0  AJA Video
 	db04  Kona 3G QUAD
 	db05  Kona LHe+
 	db06  IoXT
+	db07  Kona 3G P2P
+	db08  Kona 3G QUAD P2P
 	db09  Corvid 24
 	db11  T-Tap
 	dcaf  Kona HD
@@ -32042,7 +32053,10 @@ f1d0  AJA Video
 	eb16  Corvid HEVC
 		10cf 1049  Corvid HEVC M31
 	eb18  Corvid HB-R
+	eb1a  Kona IP 1SFP
+	eb1c  Kona IP 2SFP
 	eb1d  Io4KPlus
+	eb1e  IoIP
 	eb1f  Kona 5
 	eb23  Kona 1
 	eb24  Kona HDMI
