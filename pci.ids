@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2019.12.26
-#	Date:    2019-12-26 03:15:04
+#	Version: 2020.01.05
+#	Date:    2020-01-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3503,8 +3503,12 @@
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
 	7310  Navi 10
-	731f  Navi 10 [Radeon RX 5700 / 5700 XT]
-	7340  Navi 14 [Radeon RX 5500 / 5500M]
+	7312  Navi 10 [Radeon Pro W5700]
+	731f  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
+	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5500M]
+	7341  Navi 14 [Radeon Pro W5500]
+	7347  Navi 14 [Radeon Pro W5500M]
+	734f  Navi 14 [Radeon Pro W5300M]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -13961,7 +13965,7 @@
 		1259 2975  AT-2970SX/2SC Gigabit Ethernet Adapter
 		1259 2976  AT-2970LX/2SC Gigabit Ethernet Adapter
 		1259 2977  AT-2970TX/2TX Gigabit Ethernet Adapter
-	4320  SK-9871 V2.0 Gigabit Ethernet 1000Base-ZX Adapter, PCI64, Fiber ZX/SC
+	4320  SK-98xx V2.0 Gigabit Ethernet Adapter [Marvell 88E8001]
 		1148 0121  Marvell RDK-8001 Adapter
 		1148 0221  Marvell RDK-8002 Adapter
 		1148 0321  Marvell RDK-8003 Adapter
@@ -13980,9 +13984,23 @@
 		1148 5061  SK-9861 V2.0 Gigabit Ethernet 1000Base-SX Adapter
 		1148 5071  SK-9871 V2.0 Gigabit Ethernet 1000Base-ZX Adapter
 		1148 9521  SK-9521 10/100/1000Base-T Adapter
+		1259 2916  AT-2916T
 	4400  SK-9Dxx Gigabit Ethernet Adapter
 	4500  SK-9Mxx Gigabit Ethernet Adapter
-	9000  SK-9S21 10/100/1000Base-T Server Adapter, PCI-X, Copper RJ-45
+	9000  SK-9Sxx Gigabit Ethernet Server Adapter PCI-X [Marvell 88E8022]
+		1148 2100  SK-9S21 10/100/1000Base-T Server Adapter, PCI-X, Copper RJ-45
+		1148 2200  SK-9S22 10/100/1000Base-T Dual Port Server Adapter, PCI-X, 2 Copper RJ-45
+		1148 2210  SK-9P22 10/100/1000 Base-T Dual Port PMC card
+		1148 2220  TPMC-GBE-CO
+		1148 8100  SK-9S81 1000Base-SX Server Adapter,PCI-X, Fiber SX/LC
+		1148 8200  SK-9S82 1000Base-SX Dual Port Server Adapter, PCI-X, 2 Fiber SX/LC
+		1148 8210  SK-9P82 1000 Base-SX Dual Port PMC card
+		1148 8220  TPMC-GBE-FI
+		1148 9100  SK-9S91 1000Base-LX Server Adapter,PCI-X, Fiber LX/LC
+		1148 9200  SK-9S92 1000Base-LX Dual Port Server Adapter, PCI-X, 2 Fiber LX/LC
+		1259 2973  AT-2971SX v2 Gigabit Adapter
+		1259 2974  AT-2971T v2 Gigabit Adapter
+		1259 2978  AT-2971LX Gigabit Adapter
 	9843  [Fujitsu] Gigabit Ethernet
 	9e00  SK-9E21D 10/100/1000Base-T Adapter, Copper RJ-45
 		1148 2100  SK-9E21 Server Adapter
@@ -14788,6 +14806,8 @@
 	4380  88E8057 PCI-E Gigabit Ethernet Controller
 # AVB = "Audio Video Bridging"
 	4381  Yukon Optima 88E8059 [PCIe Gigabit Ethernet Controller with AVB]
+		1259 2803  AT-2814FX
+		1259 2804  AT-2874xx
 	4611  GT-64115 System Controller
 	4620  GT-64120/64120A/64121A System Controller
 	4801  GT-48001
@@ -22040,6 +22060,8 @@
 	0310  Wil6200 802.11ad Wireless Network Adapter
 1aea  Alcor Micro
 	6601  AU6601 PCI-E Flash card reader controller
+	6621  AU6621 PCI-E Flash card reader controller
+	6625  AU6625 PCI-E Flash card reader controller
 1aec  Wolfson Microelectronics
 # nee Fusion-io
 1aed  SanDisk
@@ -25445,6 +25467,7 @@
 		18d4 0c08  X550 10Gb 2-port RJ45 OCP Mezz Card MOP81-I-10GT2
 		193d 1008  560T-B
 		193d 1009  560T-L
+		193d 1011  UN-NIC-ETH563T-sL-2P
 		8086 0001  Ethernet Converged Network Adapter X550-T2
 		8086 001a  Ethernet Converged Network Adapter X550-T2
 		8086 001b  Ethernet Server Adapter X550-T2 for OCP
