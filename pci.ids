@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.01.10
-#	Date:    2020-01-10 03:15:02
+#	Version: 2020.01.12
+#	Date:    2020-01-12 03:15:03
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3762,6 +3762,7 @@
 	9830  Kabini [Radeon HD 8400 / R3 Series]
 	9831  Kabini [Radeon HD 8400E]
 	9832  Kabini [Radeon HD 8330]
+		1849 9832  QC5000-ITX/PH
 	9833  Kabini [Radeon HD 8330E]
 	9834  Kabini [Radeon HD 8210]
 	9835  Kabini [Radeon HD 8310E]
@@ -3771,6 +3772,7 @@
 	9839  Kabini [Radeon HD 8180]
 	983d  Temash [Radeon HD 8250/8280G]
 	9840  Kabini HDMI/DP Audio
+		1849 9840  QC5000-ITX/PH
 	9850  Mullins [Radeon R3 Graphics]
 	9851  Mullins [Radeon R4/R5 Graphics]
 		1179 f928  Beema [Radeon R5 Graphics]
@@ -4584,6 +4586,7 @@
 	1534  Family 16h Processor Function 4
 	1535  Family 16h Processor Function 5
 	1536  Family 16h Processor Root Complex
+		1849 1536  QC5000-ITX/PH
 	1537  Kabini/Mullins PSP-Platform Security Processor
 	1538  Family 16h Processor Function 0
 	1539  Kabini P2P Bridge for PCIe Ports[4:0]
@@ -4879,6 +4882,7 @@
 	7801  FCH SATA Controller [AHCI mode]
 		103c 168b  ProBook 4535s Notebook
 		103c 194e  ProBook 455 G1 Notebook
+		1849 7801  QC5000-ITX/PH
 	7802  FCH SATA Controller [RAID mode]
 	7803  FCH SATA Controller [RAID mode]
 	7804  FCH SATA Controller [AHCI mode]
@@ -4888,29 +4892,35 @@
 	7807  FCH USB OHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		1849 7807  QC5000-ITX/PH
 	7808  FCH USB EHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		1849 7808  QC5000-ITX/PH
 	7809  FCH USB OHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 	780a  Kabini/Mullins SATA Raid/AHCI Mode (DotHill driver)
 	780b  FCH SMBus Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		1849 780b  QC5000-ITX/PH
 	780c  FCH IDE Controller
 	780d  FCH Azalia Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
 		1043 8444  F2A85-M Series
+		1849 8892  QC5000-ITX/PH
 	780e  FCH LPC Bridge
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		1849 780e  QC5000-ITX/PH
 	780f  FCH PCI Bridge
 	7812  FCH USB XHCI Controller
 	7813  FCH SD Flash Controller
 	7814  FCH USB XHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		1849 7814  QC5000-ITX/PH
 	7900  FCH SATA Controller [IDE mode]
 	7901  FCH SATA Controller [AHCI mode]
 		103c 8615  Pavilion Laptop 15-cw1xxx
@@ -21867,16 +21877,30 @@
 		19e5 3034  NVMe SSD ES3600C V3 1600GB HHHL AIC
 		19e5 3036  NVMe SSD ES3600C V3 3200GB HHHL AIC
 	0200  Hi1822 Family (2*100GE)
+		19e5 d139  Hi1822 SP572 (2*100GE)
 	0202  Hi1822 Family (2*32G FC)
+		19e5 d302  Hi1822 SP521 (2*32G FC)
+		19e5 d304  Hi1822 SP526 (2*32G FC)
 	0203  Hi1822 Family (2*16G FC)
+		19e5 d301  Hi1822 SP520 (2*16G FC)
+		19e5 d305  Hi1822 SP525 (2*16G FC)
 	0205  Hi1822 Family (2*100GE)
+		19e5 df27  Hi1822 MZ731 MEZZ (2*100GE)
 	0206  Hi1822 Family (2*25GE)
+		19e5 d138  Hi1822 SP582 (2*25GE)
 	0210  Hi1822 Family (4*25GE)
+		19e5 df2e  Hi1822 MZ532 MEZZ (4*25GE)
 	0211  Hi1822 Family (4*25GE)
+		19e5 d12f  Hi1822 SP571 (4*25GE)
+		19e5 d137  Hi1822 SP581 (4*25GE)
 	0212  Hi1822 Family (2*8G FC)
+		19e5 d303  Hi1822 SP522 (2*8G FC)
+		19e5 d306  Hi1822 SP523 (2*8G FC)
 	1710  iBMA Virtual Network Adapter
 	1711  Hi1710 [iBMC Intelligent Management system chip w/VGA support]
 	1822  Hi1822 Family (4*25GE)
+		19e5 d129  Hi1822 SP570 (4*25GE)
+		19e5 d136  Hi1822 SP580 (4*25GE)
 	371e  Hi1822 Family Virtual Bridge
 	375e  Hi1822 Family Virtual Function
 	379e  Hi1822 Family Virtual Function
@@ -22244,6 +22268,7 @@
 1b6f  Etron Technology, Inc.
 	7023  EJ168 USB 3.0 Host Controller
 	7052  EJ188/EJ198 USB 3.0 Host Controller
+		1849 7052  QC5000-ITX/PH
 1b73  Fresco Logic
 	1000  FL1000G USB 3.0 Host Controller
 		1d5c 1000  Anker USB 3.0 Express Card
