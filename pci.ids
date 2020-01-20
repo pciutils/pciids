@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.01.17
-#	Date:    2020-01-17 03:15:04
+#	Version: 2020.01.20
+#	Date:    2020-01-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25739,7 +25739,11 @@
 	15ec  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
 	15ef  JHL7540 Thunderbolt 3 Bridge [Titan Ridge DD 2018]
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
+	15f4  Ethernet Connection (15) I219-LM
+	15f5  Ethernet Connection (15) I219-V
 	15f6  I210 Gigabit Ethernet Connection
+	15fb  Ethernet Connection (13) I219-LM
+	15fc  Ethernet Connection (13) I219-V
 	15ff  Ethernet Controller X710 for 10GBASE-T
 		1137 0000  X710TLG GbE RJ45 PCIe NIC
 		1137 02c1  X710T2LG 2x10 GbE RJ45 PCIe NIC
@@ -25920,6 +25924,10 @@
 	19df  Atom Processor C3000 Series SMBus controller
 	19e0  Atom Processor C3000 Series SPI Controller
 	19e2  Atom Processor C3000 Series QuickAssist Technology
+	1a1c  Ethernet Connection (17) I219-LM
+	1a1d  Ethernet Connection (17) I219-V
+	1a1e  Ethernet Connection (16) I219-LM
+	1a1f  Ethernet Connection (16) I219-V
 	1a21  82840 840 [Carmel] Chipset Host Bridge (Hub A)
 	1a23  82840 840 [Carmel] Chipset AGP Bridge
 	1a24  82840 840 [Carmel] Chipset PCI Bridge (Hub B)
