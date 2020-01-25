@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.01.21
-#	Date:    2020-01-21 03:15:02
+#	Version: 2020.01.25
+#	Date:    2020-01-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22423,7 +22423,7 @@
 	00a4  FBC4XGG3 Capture 4x10Gb [Livigno]
 	00a5  FBC2XLG Capture 2x40Gb [Livorno]
 	00a6  FBC1CG Capture 1x100Gb
-	00a9  FBC2XGHH Capture 2x10Gb
+	00a9  FBC2XGHH Capture 2x10Gb [Latina]
 	00ad  FBC2CGG3HL Capture 2x100Gb [Padua]
 	00af  Capture slave device
 	00e0  PacketMover 2x100Gb [Savona]
@@ -22467,7 +22467,14 @@
 	1285  PC300 NVMe Solid State Drive 1TB
 	1504  SC300 512GB M.2 2280 SATA Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
+	000d  PBlaze5 520/526 AIC
+	003d  PBlaze5 920/926 AIC
+	010d  PBlaze5 520/526 U.2
+	013d  PBlaze5 920/926 U.2
 	0540  PBlaze4 NVMe SSD
+	0550  PBlaze5 700/900
+	0555  PBlaze5 510/516
+	0557  PBlaze5 910/916
 # http://www.nicevt.ru/ (in Russian)
 1c63  Science and Research Centre of Computer Technology (JSC "NICEVT")
 # http://www.radiotec.ru/catalog.php?cat=jr8&art=14109
@@ -22798,7 +22805,8 @@
 # JungleCat VU35P Module
 	1635  JCM35
 1e26  Fujitsu Client Computing Limited
-1e38  Thinci, Inc
+# nee Thinci, Inc
+1e38  Blaize, Inc
 1e3d  Burlywood, Inc
 1e49  Yangtze Memory Technologies Co.,Ltd
 1e4c  GSI Technology
@@ -25648,7 +25656,21 @@
 		1137 0225  Ethernet Network Adapter XXV710
 		1137 02b4  Ethernet Network Adapter XXV710 OCP 2.0
 # UEFI PXE Disabled
+		1374 0230  Single Port 25 Gigabit Ethernet PCI Express Server Adapter (PE325G1I71)
+# With UEFI PXE Enabled
+		1374 0231  Single Port 25 Gigabit Ethernet PCI Express Server Adapter (PE325G1I71EU)
+# UEFI PXE Disabled
 		1374 0234  Dual Port 25 Gigabit Ethernet PCI Express Server Adapter (PE325G2I71)
+# With UEFI PXE Enabled
+		1374 0235  Dual Port 25 Gigabit Ethernet PCI Express Server Adapter (PE325G2I71EU)
+# PCIe x8 Bifurcated as x4x4, UEFI PXE Disabled, low profile
+		1374 0238  Quad Port 25 Gigabit Ethernet PCI Express Server Adapter (PE325G4I71L)
+# PCIe x8 Bifurcated as x4x4, UEFI PXE Enabled, low profile
+		1374 0239  Quad Port 25 Gigabit Ethernet PCI Express Server Adapter (PE325G4I71LEU)
+# PCIe x16 Bifurcated as x8x8, UEFI PXE Disabled, low profile
+		1374 023a  Quad Port 25 Gigabit Ethernet PCI Express Server Adapter (PE31625G4I71L)
+# PCIe x16 Bifurcated as x8x8, UEFI PXE Enabled, low profile
+		1374 023b  Quad Port 25 Gigabit Ethernet PCI Express Server Adapter (PE31625G4I71LEU)
 		1590 0000  Ethernet Network Adapter XXV710-2
 		1590 0253  Ethernet 10/25/Gb 2-port 661SFP28 Adapter
 		8086 0000  Ethernet Network Adapter XXV710
@@ -31976,6 +31998,10 @@ d161  Digium, Inc.
 	8010  Wildcard A4B 4-port analog card (PCI-Express)
 	8013  Wildcard TE236/TE436 quad-span T1/E1/J1 card
 	b410  Wildcard B410 quad-BRI card
+d209  Ultimarc
+	1500  PAC Drive
+	15a2  SpinTrak
+	1601  AimTrak
 d4d4  Dy4 Systems Inc
 	0601  PCI Mezzanine Card
 d531  I+ME ACTIA GmbH
