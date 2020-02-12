@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.02.10
-#	Date:    2020-02-10 03:15:02
+#	Version: 2020.02.12
+#	Date:    2020-02-12 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -883,7 +883,9 @@
 	1306  Kaveri
 	1307  Kaveri
 	1308  Kaveri HDMI/DP Audio Controller
+		17aa 3988  Z50-75
 	1309  Kaveri [Radeon R6/R7 Graphics]
+		17aa 3830  Z50-75
 	130a  Kaveri [Radeon R6 Graphics]
 	130b  Kaveri [Radeon R4 Graphics]
 	130c  Kaveri [Radeon R7 Graphics]
@@ -1929,7 +1931,7 @@
 		17aa 3805  Radeon HD 8570M
 	6664  Jet XT [Radeon R5 M240]
 	6665  Jet PRO [Radeon R5 M230 / R7 M260DX / Radeon 520 Mobile]
-		17aa 1309  Radeon R7 M260DX
+		17aa 1309  Z50-75 Radeon R7 M260DX
 		17aa 368f  Radeon R5 A230
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
@@ -4892,6 +4894,7 @@
 	7801  FCH SATA Controller [AHCI mode]
 		103c 168b  ProBook 4535s Notebook
 		103c 194e  ProBook 455 G1 Notebook
+		17aa 3988  Z50-75
 		1849 7801  QC5000-ITX/PH
 	7802  FCH SATA Controller [RAID mode]
 	7803  FCH SATA Controller [RAID mode]
@@ -4902,27 +4905,33 @@
 	7807  FCH USB OHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		17aa 3988  Z50-75
 		1849 7807  QC5000-ITX/PH
 	7808  FCH USB EHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		17aa 3988  Z50-75
 		1849 7808  QC5000-ITX/PH
 	7809  FCH USB OHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
+		17aa 3988  Z50-75
 	780a  Kabini/Mullins SATA Raid/AHCI Mode (DotHill driver)
 	780b  FCH SMBus Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		17aa 3988  Z50-75
 		1849 780b  QC5000-ITX/PH
 	780c  FCH IDE Controller
 	780d  FCH Azalia Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
 		1043 8444  F2A85-M Series
+		17aa 3988  Z50-75
 		1849 8892  QC5000-ITX/PH
 	780e  FCH LPC Bridge
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		17aa 3988  Z50-75
 		1849 780e  QC5000-ITX/PH
 	780f  FCH PCI Bridge
 	7812  FCH USB XHCI Controller
@@ -4930,6 +4939,7 @@
 	7814  FCH USB XHCI Controller
 		103c 194e  ProBook 455 G1 Notebook
 		103c 1985  Pavilion 17-e163sg Notebook PC
+		17aa 3988  Z50-75
 		1849 7814  QC5000-ITX/PH
 	7900  FCH SATA Controller [IDE mode]
 	7901  FCH SATA Controller [AHCI mode]
@@ -11901,6 +11911,10 @@
 	1e30  TU102GL [Quadro RTX 6000/8000]
 		10de 129e  Quadro RTX 8000
 		10de 12ba  Quadro RTX 6000
+	1e37  TU102GL [GRID RTX T10-4/T10-8/T10-16]
+		10de 1347  GRID RTX T10-8
+		10de 1348  GRID RTX T10-4
+		10de 1370  GRID RTX T10-16
 	1e38  TU102GL
 	1e3c  TU102GL
 	1e3d  TU102GL
@@ -12293,6 +12307,7 @@
 		1462 7522  X58 Pro-E
 		1462 7c37  X570-A PRO motherboard
 		1775 11cc  CC11/CL11
+		17aa 3814  Z50-75
 		1849 8168  Motherboard (one of many)
 		7470 3468  TG-3468 Gigabit PCI Express Network Adapter
 		8086 2055  NUC Kit DN2820FYKH
@@ -12343,6 +12358,7 @@
 	8821  RTL8821AE 802.11ac PCIe Wireless Network Adapter
 	b723  RTL8723BE PCIe Wireless Network Adapter
 		10ec 8739  Dell Wireless 1801
+		17aa b736  Z50-75
 	b822  RTL8822BE 802.11a/b/g/n/ac WiFi adapter
 		103c 831b  Realtek RTL8822BE 802.11ac 2 × 2 Wi-Fi + Bluetooth 4.2 Combo Adapter (MU-MIMO supported)
 	c821  RTL8821CE 802.11ac PCIe Wireless Network Adapter
