@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.02.12
-#	Date:    2020-02-12 03:15:01
+#	Version: 2020.02.15
+#	Date:    2020-02-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -509,6 +509,10 @@
 		1028 1f22  PERC H200 Internal Tape Adapter
 # Fujitsu D2607 SAS2008 HBA controller
 		1734 1177  HBA Ctrl SAS 6G 0/1 [D2607]
+		1bd4 000d  6G SAS2008IT
+		1bd4 000e  6G SAS2008IR
+		1bd4 000f  6G SAS2008IT SA5248
+		1bd4 0010  6G SAS2008IR SA5248
 		8086 350f  RMS2LL040 RAID Controller
 		8086 3700  SSD 910 Series
 	0073  MegaRAID SAS 2008 [Falcon]
@@ -617,6 +621,8 @@
 		1590 0041  H220i
 		1590 0042  H221 / 9207-8e
 		1590 0044  H220i
+		1bd4 0009  6G SAS2308IR
+		1bd4 000a  6G SAS2308IT
 		8086 3000  RS25GB008 RAID Controller
 		8086 3060  RS25FB044 RAID Controller
 		8086 3516  RMS25JB080 RAID Controller
@@ -648,6 +654,7 @@
 		1bd4 000b  12G SAS3008IR
 		1bd4 000c  12G SAS3008IT
 		1bd4 0011  Inspur 12Gb 8i-3008 IT SAS HBA
+		1bd4 0012  12Gb SAS3008IR UDM
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 # 8 Internal and 8 External port channel 9400 HBA
 		1000 3040  HBA 9400-8i8e
