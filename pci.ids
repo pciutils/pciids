@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.02.15
-#	Date:    2020-02-15 03:15:02
+#	Version: 2020.02.16
+#	Date:    2020-02-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21950,6 +21950,7 @@
 	0211  Hi1822 Family (4*25GE)
 		19e5 d12f  Hi1822 SP571 (4*25GE)
 		19e5 d137  Hi1822 SP581 (4*25GE)
+		19e5 d142  Hi1822 SP583 (4*25GE)
 	0212  Hi1822 Family (2*8G FC)
 		19e5 d303  Hi1822 SP522 (2*8G FC)
 		19e5 d306  Hi1822 SP523 (2*8G FC)
@@ -21958,6 +21959,7 @@
 	1822  Hi1822 Family (4*25GE)
 		19e5 d129  Hi1822 SP570 (4*25GE)
 		19e5 d136  Hi1822 SP580 (4*25GE)
+		19e5 d141  Hi1822 SP583 (4*25GE)
 	371e  Hi1822 Family Virtual Bridge
 	375e  Hi1822 Family Virtual Function
 	379e  Hi1822 Family Virtual Function
