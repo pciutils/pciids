@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.02.16
-#	Date:    2020-02-16 03:15:02
+#	Version: 2020.02.22
+#	Date:    2020-02-22 03:15:04
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -67,6 +67,7 @@
 # 018a is not LevelOne but there is a board misprogrammed
 018a  LevelOne
 	0106  FPC-0106TX misprogrammed [RTL81xx]
+01de  Oxide Computer Company
 # 021b is not Compaq but there is a board misprogrammed
 021b  Compaq Computer Corporation
 	8139  HNE-300 (RealTek RTL8139c) [iPaq Networking]
@@ -436,6 +437,8 @@
 		1028 1fd1  PERC H730P MX
 		17aa 1052  ThinkServer RAID 720i
 		17aa 1053  ThinkServer RAID 720ix
+		1bd4 0014  6G SAS3108 2G
+		1bd4 0015  6G SAS3108 4G
 		1d49 0600  ThinkSystem RAID 730-8i 1GB Cache PCIe 12Gb Adapter
 		1d49 0608  ThinkSystem RAID 730-8i 2GB Flash PCIe 12Gb Adapter
 		1d49 0609  ThinkSystem RAID 730-8i 4GB Flash PCIe 12Gb Adapter
@@ -655,6 +658,9 @@
 		1bd4 000c  12G SAS3008IT
 		1bd4 0011  Inspur 12Gb 8i-3008 IT SAS HBA
 		1bd4 0012  12Gb SAS3008IR UDM
+		1bd4 0026  12G SAS3008IT RACK
+		1bd4 0027  12G SAS3008IMR RACK
+		1bd4 0028  12G SAS3008IR RACK
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 # 8 Internal and 8 External port channel 9400 HBA
 		1000 3040  HBA 9400-8i8e
@@ -1873,6 +1879,7 @@
 		1642 3f09  Radeon R7 350
 	6611  Oland [Radeon HD 8570 / R7 240/340 OEM]
 		1028 210b  Radeon R5 240 OEM
+		1642 1869  AMD Radeon 520
 		174b 4248  Radeon R7 240 OEM
 		174b a240  Radeon R7 240 OEM
 		174b d340  Radeon R7 340 OEM
@@ -19916,6 +19923,7 @@
 	1978  MT42822 Family [BlueField-2 SoC PCIe Bridge]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
+		1bd4 003a  10G SFP28 SP EO251FM9 Adapter
 		1bd4 004d  SN10XMP2P25,YZPC-01191-101
 	5274  MT21108 InfiniBridge
 	5a44  MT23108 InfiniHost
@@ -22868,6 +22876,8 @@
 1e89  ID Quantique SA
 	0002  Quantis-PCIe-40M
 	0003  Quantis-PCIe-240M
+# aka SED Systems
+1e94  Calian SED
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
