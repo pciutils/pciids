@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.03.04
-#	Date:    2020-03-04 03:15:02
+#	Version: 2020.03.05
+#	Date:    2020-03-05 03:15:04
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -437,8 +437,8 @@
 		1028 1fd1  PERC H730P MX
 		17aa 1052  ThinkServer RAID 720i
 		17aa 1053  ThinkServer RAID 720ix
-		1bd4 0014  6G SAS3108 2G
-		1bd4 0015  6G SAS3108 4G
+		1bd4 0014  12G SAS3108 2G
+		1bd4 0015  12G SAS3108 4G
 		1d49 0600  ThinkSystem RAID 730-8i 1GB Cache PCIe 12Gb Adapter
 		1d49 0608  ThinkSystem RAID 730-8i 2GB Flash PCIe 12Gb Adapter
 		1d49 0609  ThinkSystem RAID 730-8i 4GB Flash PCIe 12Gb Adapter
@@ -21965,6 +21965,7 @@
 		19e5 3036  NVMe SSD ES3600C V3 3200GB HHHL AIC
 	0200  Hi1822 Family (2*100GE)
 		19e5 d139  Hi1822 SP572 (2*100GE)
+		19e5 d13d  Hi1822 SC371 (2*100GE)
 	0202  Hi1822 Family (2*32G FC)
 		19e5 d302  Hi1822 SP521 (2*32G FC)
 		19e5 d304  Hi1822 SP526 (2*32G FC)
@@ -21975,6 +21976,7 @@
 		19e5 df27  Hi1822 MZ731 MEZZ (2*100GE)
 	0206  Hi1822 Family (2*25GE)
 		19e5 d138  Hi1822 SP582 (2*25GE)
+		19e5 d13a  Hi1822 SC381 (2*25GE)
 	0210  Hi1822 Family (4*25GE)
 		19e5 df2e  Hi1822 MZ532 MEZZ (4*25GE)
 	0211  Hi1822 Family (4*25GE)
@@ -22885,6 +22887,7 @@
 	1635  JCM35
 1e26  Fujitsu Client Computing Limited
 1e36  Shanghai Enflame Technology Co. Ltd
+	0001  T10 [CloudBlazer]
 # nee Thinci, Inc
 1e38  Blaize, Inc
 1e3d  Burlywood, Inc
