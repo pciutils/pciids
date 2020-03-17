@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.03.16
-#	Date:    2020-03-16 03:15:04
+#	Version: 2020.03.17
+#	Date:    2020-03-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22028,6 +22028,8 @@
 	a12a  HiSilicon Add-on PCI-PCI Bridge
 	a220  HNS GE Network Controller
 	a221  HNS GE/10GE/25GE Network Controller
+		19e5 0454  TM280
+		19e5 04cc  TM210
 		19e5 d14a  TM280 4*25G
 		19e5 d14b  TM210 4*GE
 	a222  HNS GE/10GE/25GE RDMA Network Controller
@@ -23946,7 +23948,7 @@
 	06eb  Comet Lake PCH Serial IO I2C Controller #3
 	06ed  Comet Lake USB 3.1 xHCI Host Controller
 	06ef  Comet Lake PCH Shared SRAM
-	06f0  Wireless AX201
+	06f0  Wi-Fi 6 AX201
 	06f9  Comet Lake PCH Thermal Controller
 	06fb  Comet Lake PCH Serial IO SPI Controller #2
 	0700  CE Media Processor A/V Bridge
