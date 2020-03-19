@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.03.17
-#	Date:    2020-03-17 03:15:02
+#	Version: 2020.03.19
+#	Date:    2020-03-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11797,6 +11797,7 @@
 	1adb  TU106 USB Type-C UCSI Controller
 		1043 8673  TURBO-RTX2070-8G
 	1aeb  TU116 High Definition Audio Controller
+	1aec  TU116 USB 3.1 Host Controller
 	1aed  TU116 [GeForce GTX 1650 SUPER]
 	1b00  GP102 [TITAN X]
 	1b01  GP102 [GeForce GTX 1080 Ti 10GB]
@@ -18150,7 +18151,7 @@
 		1028 1ff9  Express Flash PM1725b 6.4TB AIC
 		1028 1ffa  Express Flash PM1725b 12.8TB AIC
 	a824  NVMe SSD Controller PM173X
-		1028 2040  EMC PowerEdge Express Flash Ent NVMe AGN SED MU U.2 Gen4 1.6TB
+		1028 2040  EMC PowerEdge Express Flash Ent NVMe AGN SED MU U.2 Gen4 1.6TB / AGN MU U.2 Gen4 1.6TB
 		1028 2041  EMC PowerEdge Express Flash Ent NVMe AGN SED MU U.2 Gen4 3.2TB
 		1028 2042  EMC PowerEdge Express Flash Ent NVMe AGN SED MU U.2 Gen4 6.4TB
 		1028 2043  EMC PowerEdge Express Flash Ent NVMe AGN SED MU U.2 Gen4 12.8TB
@@ -22516,6 +22517,12 @@
 1c1c  Symphony
 	0001  82C101
 1c1f  SoftLab-NSK
+	0015  FD842
+	0019  FD722
+	001a  FD788
+	001b  FD720
+	001c  FD922
+	001d  Vega
 1c28  Lite-On IT Corp. / Plextor
 	0122  M6e PCI Express SSD [Marvell 88SS9183]
 # previously Fiberblaze
@@ -23848,6 +23855,7 @@
 	02d3  Comet Lake SATA AHCI Controller
 	02e0  Comet Lake Management Engine Interface
 	02e8  Serial IO I2C Host Controller
+	02e9  Comet Lake Serial IO I2C Host Controller
 	02f0  Wireless-AC 9462
 	02f9  Comet Lake Thermal Subsytem
 	02fc  Comet Lake Integrated Sensor Solution
