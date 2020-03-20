@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.03.19
-#	Date:    2020-03-19 03:15:02
+#	Version: 2020.03.20
+#	Date:    2020-03-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30912,6 +30912,7 @@
 	96a1  Integrated RAID
 	9a0b  Volume Management Device NVMe RAID Controller
 	9b41  UHD Graphics
+	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
 	9bc4  UHD Graphics
 	9c00  8 Series SATA Controller 1 [IDE mode]
