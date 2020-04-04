@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.04.02
-#	Date:    2020-04-02 03:15:02
+#	Version: 2020.04.04
+#	Date:    2020-04-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11986,8 +11986,8 @@
 	1f09  TU106 [GeForce GTX 1660 SUPER]
 	1f10  TU106M [GeForce RTX 2070 Mobile]
 	1f11  TU106M [GeForce RTX 2060 Mobile]
-	1f12  TU106 [GeForce RTX 2060]
-	1f15  TU106 [GeForce RTX 2060]
+	1f12  TU106M [GeForce RTX 2060 Max-Q]
+	1f15  TU106M [GeForce RTX 2060 Mobile]
 	1f2e  TU106M
 	1f36  TU106GLM [Quadro RTX 3000 Mobile / Max-Q]
 	1f42  TU106 [GeForce RTX 2060 SUPER]
@@ -12330,6 +12330,7 @@
 		1028 04da  Vostro 3750
 		1028 06f2  Latitude 3470
 		1028 06f3  Latitude 3570
+		1028 0869  Vostro 3470
 		103c 1611  Pavilion DM1Z-3000
 		103c 1950  ProBook 450/455
 		103c 2a6f  Asus IPIBL-LB Motherboard
@@ -20598,6 +20599,7 @@
 		1028 0300  Wireless 1802 802.11abgn Adapter
 		1a56 2003  Killer Wireless-N 1202 Half-size Mini PCIe Card
 	0036  QCA9565 / AR9565 Wireless Network Adapter
+		1028 020e  Vostro 3470
 	0037  AR9485 Wireless Network Adapter
 # Also used as Gigabyte GC-WB150 on a PCIe-to-mini-PCIe converter
 		1a3b 2100  AW-NB100H 802.11n Wireless Mini PCIe Card
@@ -22649,7 +22651,10 @@
 	0010  Pro Capture Endpoint
 	0014  PRO CAPTURE AIO 4K PLUS
 	0017  PRO CAPTURE AIO 4K
+	0051  Eco Capture Dual HDMI M.2
+	0052  Eco Capture HDMI 4K M.2
 	0053  Eco Capture Dual SDI M.2
+	0054  Eco Capture Quad SDI M.2
 1cdd  secunet Security Networks AG
 1ce4  Exablaze
 	0001  ExaNIC X4
@@ -26040,6 +26045,7 @@
 		1028 06e4  XPS 15 9550
 		103c 825b  OMEN-17-w001nv
 	1911  Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+		1028 0869  Vostro 3470
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
@@ -30105,6 +30111,7 @@
 	3e89  8th Gen Core Processor PCIe Controller (x4)
 	3e91  8th Gen Core Processor Gaussian Mixture Model
 	3e92  UHD Graphics 630 (Desktop)
+		1028 0869  Vostro 3470
 	3e93  UHD Graphics 610
 	3e96  HD Graphics P630
 	3e98  UHD Graphics 630 (Desktop 9 Series)
@@ -30113,6 +30120,7 @@
 		1028 089e  Inspiron 5482
 	3ea5  Iris Plus Graphics 655
 	3ec2  8th Gen Core Processor Host Bridge/DRAM Registers
+		1028 0869  Vostro 3470
 		1043 8694  PRIME H310M-D
 	3ec4  8th Gen Core Processor Host Bridge/DRAM Registers
 	3ec6  8th Gen Core Processor Host Bridge/DRAM Registers
@@ -31470,6 +31478,7 @@
 	a2ee  200 Series PCH PCI Express Root Port #24
 	a2f0  200 Series PCH HD Audio
 	a304  H370 Chipset LPC/eSPI Controller
+		1028 0869  Vostro 3470
 	a305  Z390 Chipset LPC/eSPI Controller
 	a306  Q370 Chipset LPC/eSPI Controller
 	a309  Cannon Point-LP LPC Controller
@@ -31477,7 +31486,9 @@
 	a30d  HM470 Chipset LPC/eSPI Controller
 	a30e  Cannon Lake LPC Controller
 	a323  Cannon Lake PCH SMBus Controller
+		1028 0869  Vostro 3470
 	a324  Cannon Lake PCH SPI Controller
+		1028 0869  Vostro 3470
 	a328  Cannon Lake PCH Serial IO UART Host Controller
 	a32c  Cannon Lake PCH PCI Express Root Port #21
 	a32d  Cannon Lake PCH PCI Express Root Port #22
@@ -31504,9 +31515,12 @@
 	a342  Cannon Lake PCH PCI Express Root Port #19
 	a343  Cannon Lake PCH PCI Express Root Port #20
 	a348  Cannon Lake PCH cAVS
+		1028 0869  Vostro 3470
 	a352  Cannon Lake PCH SATA AHCI Controller
+		1028 0869  Vostro 3470
 	a353  Cannon Lake Mobile PCH SATA AHCI Controller
 	a360  Cannon Lake PCH HECI Controller
+		1028 0869  Vostro 3470
 	a363  Cannon Lake PCH Active Management Technology - SOL
 	a364  Cannon Lake PCH HECI Controller #2
 	a368  Cannon Lake PCH Serial IO I2C Controller #0
@@ -31514,9 +31528,11 @@
 	a36a  Cannon Lake PCH Serial IO I2C Controller #2
 	a36b  Cannon Lake PCH Serial IO I2C Controller #3
 	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
+		1028 0869  Vostro 3470
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Wireless-AC 9560 [Jefferson Peak]
 	a379  Cannon Lake PCH Thermal Controller
+		1028 0869  Vostro 3470
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
 	b152  21152 PCI-to-PCI Bridge
