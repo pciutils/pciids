@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.04.04
-#	Date:    2020-04-04 03:15:02
+#	Version: 2020.04.08
+#	Date:    2020-04-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -455,6 +455,7 @@
 		1028 1f4c  PERC H330 Mini (for blades)
 		1028 1f4d  PERC H330 Embedded (for monolithic)
 		1054 306a  SAS 3004 iMR ROMB
+		1734 1211  PRAID CP400i [D3307-A12]
 		1d49 04db  ServeRAID M1210 SAS/SATA Controller
 		1d49 0504  ThinkSystem RAID 520-8i PCIe 12Gb Adapter
 	0060  MegaRAID SAS 1078
@@ -21186,11 +21187,35 @@
 	1011  R1011 IDE Controller
 	1012  R1012 IDE Controller
 	1031  PCI/PCI-X to PCI-E Bridge
+# Integrated in Vortex86EX, Vortex86EX2 SoC
+	1070  CAN Bus Controller
+# Integrated in Vortex86EX, Vortex86EX2 SoCs
+	1331  Motion Control Interface
+# Found in the Vortex86EX2 SoC
+	1930  Hybrid Function Control Register
+# IGP = on-chip integrated in the MSTI-PMX-1000 (Vortex86MX).
+	2010  RDC M2010 VGA-compatible graphics adapter
 	2012  M2012/R3308 VGA-compatible graphics adapter
+# IGP = on-chip integrated in the Vortex86DX3. Basic 2D accel. UMA architecture.
+	2015  RDC M2015 VGA-compatible graphics adapter
+# Found in the Vortex86EX SoC
+	6011  R6011 ISA Bridge
+# Found in the Vortex86EX2 SoC
+	6013  R6013 ISA Bridge
 	6020  R6020 North Bridge
 	6021  R6021 Host Bridge
+# Found in the Vortex86DX3 SoC
+	6023  R6023 Host Bridge
+# Found in the Vortex86EX SoC
+	6025  R6025 Host Bridge
+# Found in the Vortex86EX2 SoC
+	6026  R6026 Host Bridge
 	6030  R6030 ISA Bridge
 	6031  R6031 ISA Bridge
+# Found in the Vortex86DX3 SoC
+	6035  R6035 ISA Bridge
+# Found in MSTI-PMX-1000 (Vortex86MX) SoC.
+	6036  R6036 ISA Bridge
 	6040  R6040 MAC Controller
 	6060  R6060 USB 1.1 Controller
 	6061  R6061 USB 2.0 Controller
