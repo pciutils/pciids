@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.04.08
-#	Date:    2020-04-08 03:15:02
+#	Version: 2020.04.13
+#	Date:    2020-04-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -655,10 +655,13 @@
 		1028 1fd3  HBA330 MMZ
 # Supermicro AOC-S3008L-L8e uses 0808 for their SAS3008 SAS controller
 		15d9 0808  AOC-S3008L-L8e
+		1bd4 0008  12G SAS3008IMR Onboard
 		1bd4 000b  12G SAS3008IR
 		1bd4 000c  12G SAS3008IT
 		1bd4 0011  Inspur 12Gb 8i-3008 IT SAS HBA
 		1bd4 0012  12Gb SAS3008IR UDM
+		1bd4 001f  12G SAS3008IR Onboard
+		1bd4 0020  12G SAS3008IT Onboard
 		1bd4 0026  12G SAS3008IT RACK
 		1bd4 0027  12G SAS3008IMR RACK
 		1bd4 0028  12G SAS3008IR RACK
@@ -2852,7 +2855,7 @@
 	6861  Vega 10 XT [Radeon PRO WX 9100]
 	6862  Vega 10 XT [Radeon PRO SSG]
 	6863  Vega 10 XTX [Radeon Vega Frontier Edition]
-	6864  Vega
+	6864  Vega 10 [Radeon Pro V340]
 	6867  Vega 10 XL [Radeon Pro Vega 56]
 	6868  Vega 10 [Radeon PRO WX 8100/8200]
 	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
@@ -11978,6 +11981,8 @@
 	1ec2  TU104 [GeForce RTX 2070 SUPER]
 	1ec7  TU104 [GeForce RTX 2070 SUPER]
 	1ed0  TU104BM [GeForce RTX 2080 Mobile]
+	1ed1  TU104BM [GeForce RTX 2070 SUPER Mobile / Max-Q]
+	1ed3  TU104BM [GeForce RTX 2080 SUPER Mobile / Max-Q]
 	1f02  TU106 [GeForce RTX 2070]
 		1043 8673  TURBO RTX 2070
 	1f04  TU106
@@ -11993,7 +11998,7 @@
 	1f36  TU106GLM [Quadro RTX 3000 Mobile / Max-Q]
 	1f42  TU106 [GeForce RTX 2060 SUPER]
 	1f47  TU106 [GeForce RTX 2060 SUPER]
-	1f50  TU106BM [GeForce RTX 2070 Mobile]
+	1f50  TU106BM [GeForce RTX 2070 Mobile / Max-Q]
 	1f51  TU106BM [GeForce RTX 2060 Mobile]
 	1f81  TU117
 	1f82  TU117 [GeForce GTX 1650]
