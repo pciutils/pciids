@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.04.13
-#	Date:    2020-04-13 03:15:02
+#	Version: 2020.04.18
+#	Date:    2020-04-18 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2572,6 +2572,8 @@
 		1002 0b37  Radeon RX 480
 		1028 1722  Radeon RX 570X
 		1028 1723  Radeon RX 580X
+# OEM card found in desktops sold by HP.
+		103c 840e  Radeon RX 580 4GB
 		1043 04a8  Radeon RX 480
 		1043 04b0  Radeon RX 470
 		1043 04fb  Radeon RX 480
@@ -11809,7 +11811,7 @@
 		1043 8673  TURBO-RTX2070-8G
 	1aeb  TU116 High Definition Audio Controller
 	1aec  TU116 USB 3.1 Host Controller
-	1aed  TU116 [GeForce GTX 1650 SUPER]
+	1aed  TU116 USB Type-C UCSI Controller
 	1b00  GP102 [TITAN X]
 	1b01  GP102 [GeForce GTX 1080 Ti 10GB]
 	1b02  GP102 [TITAN Xp]
@@ -12004,8 +12006,10 @@
 	1f82  TU117 [GeForce GTX 1650]
 	1f91  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 	1f92  TU117M [GeForce GTX 1650 Mobile]
+	1f94  TU117M
 	1f95  TU117M [GeForce GTX 1650 Ti Mobile]
 	1f96  TU117M [GeForce GTX 1650 Mobile / Max-Q]
+	1f99  TU117M
 	1fae  TU117GL
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
@@ -22539,6 +22543,7 @@
 	1102  OmniBusBox II Multi-Protocol Interface Core
 	1103  OmniBus II cPCIe/PXIe Multi-Protocol Interface Card
 1bd4  Inspur Electronic Information Industry Co., Ltd.
+	0911  Arria10_PCIe_F10A1150
 1bee  IXXAT Automation GmbH
 	0003  CAN-IB200/PCIe
 1bef  Lantiq
@@ -25880,6 +25885,7 @@
 		8086 0008  Ethernet Network Adapter OCP XXV710-1
 		8086 0009  Ethernet 25G 2P XXV710 Adapter
 		8086 000a  Ethernet 25G 2P XXV710 OCP
+		8086 000c  Ethernet Network Adapter XXV710-DA2 for OCP 3.0
 		8086 4001  Ethernet Network Adapter XXV710-2
 	1591  Ethernet Controller E810-C for backplane
 	1592  Ethernet Controller E810-C for QSFP
@@ -30987,11 +30993,15 @@
 	96a1  Integrated RAID
 	9a09  11th Gen Core Processor PCIe Controller
 	9a0b  Volume Management Device NVMe RAID Controller
+	9a13  Tiger Lake-LP Thunderbolt USB Controller
 	9a14  11th Gen Core Processor Host Bridge/DRAM Registers
-	9a23  Tiger Lake PCI Express Root Port #2
-	9a25  Tiger Lake PCI Express Root Port #3
-	9a27  Tiger Lake PCI Express Root Port #4
-	9a29  Tiger Lake PCI Express Root Port #5
+	9a1b  Tiger Lake-LP Thunderbolt NHI #0
+	9a1d  Tiger Lake-LP Thunderbolt NHI #1
+	9a23  Tiger Lake-LP Thunderbolt PCI Express Root Port #0
+	9a25  Tiger Lake-LP Thunderbolt PCI Express Root Port #1
+	9a27  Tiger Lake-LP Thunderbolt PCI Express Root Port #2
+	9a29  Tiger Lake-LP Thunderbolt PCI Express Root Port #3
+	9a33  Tiger Lake Trace Hub
 	9b41  UHD Graphics
 	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
@@ -31272,14 +31282,26 @@
 		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
-	a082  Tigerlake LP Z0 Chipset eSPI Controller
-	a0a3  Tiger Lake PCH LP SMBus Controller
-	a0a4  Tiger Lake PCH LP SPI Controller
-	a0a8  Tiger Lake PCH Serial IO UART Host Controller
-	a0ab  Tiger Lake PCH Serial IO SPI Host Controller
-	a0c8  Tiger Lake PCH LP cAVS
-	a0e0  Tiger Lake PCH HECI Controller
-	a0e8  Tiger Lake PCH LP Serial IO I2C Controller #0
+	a082  Tiger Lake-LP LPC Controller
+	a0a3  Tiger Lake-LP SMBus Controller
+	a0a4  Tiger Lake-LP SPI Controller
+	a0a6  Tiger Lake-LP Trace Hub
+	a0a8  Tiger Lake-LP Serial IO UART Controller #0
+	a0a9  Tiger Lake-LP Serial IO UART Controller #1
+	a0ab  Tiger Lake-LP Serial IO SPI Controller #1
+	a0b0  Tiger Lake-LP PCI Express Root Port #9
+	a0bf  Tiger Lake-LP PCI Express Root Port #8
+	a0c5  Tiger Lake-LP Serial IO I2C Controller #4
+	a0c6  Tiger Lake-LP Serial IO I2C Controller #5
+	a0c8  Tiger Lake-LP Smart Sound Technology Audio Controller
+	a0e0  Tiger Lake-LP Management Engine Interface
+	a0e8  Tiger Lake-LP Serial IO I2C Controller #0
+	a0e9  Tiger Lake-LP Serial IO I2C Controller #1
+	a0ea  Tiger Lake-LP Serial IO I2C Controller #2
+	a0eb  Tiger Lake-LP Serial IO I2C Controller #3
+	a0ed  Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller
+	a0ef  Tiger Lake-LP Shared SRAM
+	a0fc  Tiger Lake-LP Integrated Sensor Hub
 	a102  Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
 	a103  HM170/QM170 Chipset SATA Controller [AHCI Mode]
 		1028 06e4  XPS 15 9550
