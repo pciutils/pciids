@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.04.18
-#	Date:    2020-04-18 03:15:01
+#	Version: 2020.04.21
+#	Date:    2020-04-21 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -31002,6 +31002,7 @@
 	9a27  Tiger Lake-LP Thunderbolt PCI Express Root Port #2
 	9a29  Tiger Lake-LP Thunderbolt PCI Express Root Port #3
 	9a33  Tiger Lake Trace Hub
+	9a49  UHD Graphics
 	9b41  UHD Graphics
 	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
@@ -31301,6 +31302,7 @@
 	a0eb  Tiger Lake-LP Serial IO I2C Controller #3
 	a0ed  Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller
 	a0ef  Tiger Lake-LP Shared SRAM
+	a0f0  Wi-Fi 6 AX201
 	a0fc  Tiger Lake-LP Integrated Sensor Hub
 	a102  Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
 	a103  HM170/QM170 Chipset SATA Controller [AHCI Mode]
@@ -32703,6 +32705,7 @@ C 0c  Serial bus controller
 		10  OHCI
 		20  EHCI
 		30  XHCI
+		40  USB4 Host Interface
 		80  Unspecified
 		fe  USB Device
 	04  Fibre Channel
