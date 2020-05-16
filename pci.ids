@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.05.13
-#	Date:    2020-05-13 03:15:02
+#	Version: 2020.05.16
+#	Date:    2020-05-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20879,11 +20879,22 @@
 	0121  PCT-7303A PC card with IRC counters
 	0122  PCT-7408A PC card with counters and timers
 	0123  PCT-7424 PCI card with standard counters
+	0141  PCA7208AL - Analog Inputs/Outputs
+	0142  PCA7208AS - Analog inputs/Outputs
+	0143  PCA7408AL - Analog Inputs/Outputs
+	0144  PCA7408AS - Analog Inputs/Outputs
 	0214  PCT-7424C (F0) PC card with standard counters
 	0215  PCT-7424C (F1) PC card with standard counters
 	0216  PCT-7424E (F0) PC card with standard counters
 	0217  PCT-7424E (F1) PC card with standard counters
+	0240  PCA7428CL_F0 - analog Inputs
+	0241  PCA7428CL_F1 - analog Inputs
+	0242  PCA7428CS_F0 - Analog Inputs/Outputs non isolated
+	0243  PCA7428CS_F1 - Analog Inputs/Outputs non isolated
+	0244  PCA7428CE_F0 - Analog Inputs isolated
+	0245  PCA7428CE_F1 - Analog Inputs isolated
 	0303  PCD-7006C Digital Input & Output PCI Card
+	0800  PCD8006 - PCIe digital Inputs/Outputs
 	ff00  CTU CAN FD PCIe Card
 1761  Pickering Interfaces Ltd
 1771  InnoVISION Multimedia Ltd.
@@ -22071,10 +22082,13 @@
 	0200  Hi1822 Family (2*100GE)
 		19e5 d139  Hi1822 SP572 (2*100GE)
 		19e5 d13d  Hi1822 SC371 (2*100GE)
+		19e5 d147  Hi1822 SP573 (2*100GE)
 	0202  Hi1822 Family (2*32G FC)
+		19e5 d149  Hi1822 SP528 (2*32G FC)
 		19e5 d302  Hi1822 SP521 (2*32G FC)
 		19e5 d304  Hi1822 SP526 (2*32G FC)
 	0203  Hi1822 Family (2*16G FC)
+		19e5 d148  Hi1822 SP527 (2*16G FC)
 		19e5 d301  Hi1822 SP520 (2*16G FC)
 		19e5 d305  Hi1822 SP525 (2*16G FC)
 	0205  Hi1822 Family (2*100GE)
@@ -22082,6 +22096,7 @@
 	0206  Hi1822 Family (2*25GE)
 		19e5 d138  Hi1822 SP582 (2*25GE)
 		19e5 d13a  Hi1822 SC381 (2*25GE)
+		19e5 d145  Hi1822 SP586 (2*25GE)
 	0210  Hi1822 Family (4*25GE)
 		19e5 df2e  Hi1822 MZ532 MEZZ (4*25GE)
 	0211  Hi1822 Family (4*25GE)
@@ -22097,6 +22112,7 @@
 		19e5 d129  Hi1822 SP570 (4*25GE)
 		19e5 d136  Hi1822 SP580 (4*25GE)
 		19e5 d141  Hi1822 SP583 (4*25GE)
+		19e5 d146  Hi1822 SP585 (4*25GE)
 	371e  Hi1822 Family Virtual Bridge
 	375e  Hi1822 Family Virtual Function
 	379e  Hi1822 Family Virtual Function
@@ -22635,8 +22651,11 @@
 	a00a  FBC2CGG3 Capture 8x10Gb [Mango]
 	a00e  FB2CG Capture 2x100Gb [Savona]
 	a00f  FB2CG Capture 2x40Gb [Savona]
+	a010  FB2CGHH Capture 2x40Gb [Tivoli]
 	a011  FB2CG Capture 2x25Gb [Savona]
 	a012  FB2CG Capture 8x10Gb [Savona]
+	a013  FB2CGHH Capture 2x25Gb [Tivoli]
+	a014  FB2CGHH Capture 8x10Gb [Tivoli]
 	a015  FB2CGHH Capture 2x100Gb [Tivoli]
 # Used on V120 VME Crate Controller
 1c32  Highland Technology, Inc.
@@ -24621,6 +24640,7 @@
 	0d58  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
+	0d9f  Ethernet Controller (2) I225-IT
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
 		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 		15d9 066b  X9SRL-F
@@ -26031,6 +26051,8 @@
 	15ec  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
 	15ef  JHL7540 Thunderbolt 3 Bridge [Titan Ridge DD 2018]
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
+	15f2  Intel(R) Ethernet Controller I225-LM
+	15f3  Intel(R) Ethernet Controller I225-V
 	15f4  Ethernet Connection (15) I219-LM
 	15f5  Ethernet Connection (15) I219-V
 	15f6  I210 Gigabit Ethernet Connection
@@ -30380,6 +30402,7 @@
 	5201  EtherExpress PRO/100 Intelligent Server Fast Ethernet Controller
 		8086 0001  EtherExpress PRO/100 Server Ethernet Adapter
 	530d  80310 (IOP) IO Processor
+	5502  Ethernet Controller (2) I225-LMvP
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
 	5900  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
@@ -32210,6 +32233,13 @@
 	0001  SG2010 PCI over Starfabric Bridge
 	0002  SG2010 PCI to Starfabric Gateway
 	0003  SG1010 Starfabric Switch and PCI Bridge
+9d32  Beijing Starblaze Technology Co. Ltd.
+	0000  STAR1000 PCIe NVMe SSD Controller
+	1001  STAR1000P PCIe NVMe SSD Controller
+	1201  STAR1200C NVMe SSD
+	1202  STAR1200I NVMe SSD
+	1203  STAR1200L NVMe SSD
+	1204  STAR1200E NVMe SSD
 a0a0  AOPEN Inc.
 a0f1  UNISYS Corporation
 a200  NEC Corporation
