@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.05.16
-#	Date:    2020-05-16 03:15:02
+#	Version: 2020.05.17
+#	Date:    2020-05-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3362,7 +3362,8 @@
 	6901  Topaz PRO [Radeon R5 M255]
 		103c 1318  Radeon R6 M255DX
 	6907  Meso XT [Radeon R5 M315]
-	6921  Amethyst XT [Radeon R9 M295X]
+	6920  Amethyst [Radeon R9 M395/ M395X Mac Edition]
+	6921  Amethyst XT [Radeon R9 M295X / M390X]
 	6929  Tonga XT GL [FirePro S7150]
 	692b  Tonga PRO GL [FirePro W7100]
 		13cc 3d2b  MXRT-7600
