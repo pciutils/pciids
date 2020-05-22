@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.05.17
-#	Date:    2020-05-17 03:15:02
+#	Version: 2020.05.22
+#	Date:    2020-05-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24546,6 +24546,13 @@
 		1028 1fe7  Express Flash NVMe 3.2TB 2.5" U.2 (P4600)
 		1028 1fe8  Express Flash NVMe 2.0TB HHHL AIC (P4600)
 		1028 1fe9  Express Flash NVMe 4.0TB HHHL AIC (P4600)
+	0b60  NVMe DC SSD [3DNAND, Beta Rock Controller]
+		1028 2064  NVMe SED RI U.2 1.92TB (P5500)
+		1028 2065  NVMe SED RI U.2 3.84TB (P5500)
+		1028 2066  NVMe SED RI U.2 7.68TB (P5500)
+		1028 2101  NVMe RI U.2 1.92TB (P5500)
+		1028 2102  NVMe RI U.2 3.84TB (P5500)
+		1028 2103  NVMe RI U.2 7.68TB (P5500)
 	0be0  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 	0be1  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 		105b 0d7c  D270S/D250S Motherboard
