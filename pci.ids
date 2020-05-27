@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.05.22
-#	Date:    2020-05-22 03:15:02
+#	Version: 2020.05.27
+#	Date:    2020-05-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3542,7 +3542,7 @@
 		1043 049e  Radeon R9 FURY
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
-	7310  Navi 10
+	7310  Navi 10 [Radeon Pro W5700X]
 	7312  Navi 10 [Radeon Pro W5700]
 	731f  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5500M]
@@ -3744,6 +3744,7 @@
 	9599  RV635 PRO [Radeon HD 3650 AGP]
 	95c0  RV620 PRO [Radeon HD 3470]
 		1002 95c0  Mobility Radeon HD 3470
+		1028 3243  C120D
 	95c2  RV620/M82 [Mobility Radeon HD 3410/3430]
 	95c4  RV620/M82 [Mobility Radeon HD 3450/3470]
 		1002 95c4  Mobility Radeon HD 3400
@@ -5196,6 +5197,7 @@
 	0519  MGA 2064W [Millennium]
 	051a  MGA 1064SG [Mystique]
 		102b 0100  MGA-1064SG Mystique
+		102b 051a  MGA-1164SG Mystique 220
 		102b 1100  MGA-1084SG Mystique
 		102b 1200  MGA-1084SG Mystique
 		1100 102b  MGA-1084SG Mystique
@@ -11561,6 +11563,7 @@
 	11a3  GK104M [GeForce GTX 680MX]
 		106b 010d  iMac 13,2
 	11a7  GK104M [GeForce GTX 675MX]
+	11a9  GK104M [GeForce GTX 870M]
 	11af  GK104GLM [GRID IceCube]
 	11b0  GK104GL [GRID K240Q / K260Q vGPU]
 		10de 101a  GRID K240Q
@@ -12006,6 +12009,7 @@
 	1f50  TU106BM [GeForce RTX 2070 Mobile / Max-Q]
 	1f51  TU106BM [GeForce RTX 2060 Mobile]
 	1f54  TU106BM [GeForce RTX 2070 Mobile]
+	1f55  TU106BM [GeForce RTX 2060 Mobile]
 	1f81  TU117
 	1f82  TU117 [GeForce GTX 1650]
 	1f91  TU117M [GeForce GTX 1650 Mobile / Max-Q]
@@ -12018,6 +12022,9 @@
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
 	1fbf  TU117GL
+	20b0  GA100 [GRID A100X]
+	20be  GA100 [GRID A100A]
+	20bf  GA100 [GRID A100B]
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
@@ -24547,9 +24554,15 @@
 		1028 1fe8  Express Flash NVMe 2.0TB HHHL AIC (P4600)
 		1028 1fe9  Express Flash NVMe 4.0TB HHHL AIC (P4600)
 	0b60  NVMe DC SSD [3DNAND, Beta Rock Controller]
+		1028 2060  NVMe SED MU U.2 1.6TB (P5600)
+		1028 2061  NVMe SED MU U.2 3.2TB (P5600)
+		1028 2062  NVMe SED MU U.2 6.4TB (P5600)
 		1028 2064  NVMe SED RI U.2 1.92TB (P5500)
 		1028 2065  NVMe SED RI U.2 3.84TB (P5500)
 		1028 2066  NVMe SED RI U.2 7.68TB (P5500)
+		1028 209e  NVMe MU U.2 1.6TB (P5600)
+		1028 209f  NVMe MU U.2 3.2TB (P5600)
+		1028 2100  NVMe MU U.2 6.4TB (P5600)
 		1028 2101  NVMe RI U.2 1.92TB (P5500)
 		1028 2102  NVMe RI U.2 3.84TB (P5500)
 		1028 2103  NVMe RI U.2 7.68TB (P5500)
@@ -29491,6 +29504,8 @@
 	318e  Celeron/Pentium Silver Processor NorthPeak
 	3192  Gemini Lake P2SB
 	3197  Celeron/Pentium Silver Processor PCI-default ISA-bridge
+	3198  Celeron/Pentium Silver Processor High Definition Audio
+		17aa 380b  V130-15IGM Laptop (Lenovo) - Type 81HL
 	319a  Celeron/Pentium Silver Processor Trusted Execution Engine Interface
 	31a2  Celeron/Pentium Silver Processor Integrated Sensor Solution
 	31ac  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
