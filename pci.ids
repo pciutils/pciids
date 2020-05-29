@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.05.27
-#	Date:    2020-05-27 03:15:02
+#	Version: 2020.05.29
+#	Date:    2020-05-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11997,6 +11997,7 @@
 	1f07  TU106 [GeForce RTX 2070 Rev. A]
 	1f08  TU106 [GeForce RTX 2060 Rev. A]
 	1f09  TU106 [GeForce GTX 1660 SUPER]
+	1f0a  TU106 [GeForce GTX 1650]
 	1f10  TU106M [GeForce RTX 2070 Mobile]
 	1f11  TU106M [GeForce RTX 2060 Mobile]
 	1f12  TU106M [GeForce RTX 2060 Max-Q]
@@ -12029,6 +12030,7 @@
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
 	2187  TU116 [GeForce GTX 1650 SUPER]
+	2188  TU116 [GeForce GTX 1650]
 	2191  TU116M [GeForce GTX 1660 Ti Mobile]
 	2192  TU116M [GeForce GTX 1650 Ti Mobile]
 	21ae  TU116GL
@@ -22942,6 +22944,7 @@
 1d95  Graphcore Ltd
 	0001  Colossus GC2 [C2]
 	0002  Colossus GC1 [S1]
+1d97  Shenzhen Longsys Electronics Co., Ltd.
 1d9b  Facebook, Inc.
 	0010  Networking DOM Engine
 	0011  IO Bridge
@@ -24563,9 +24566,9 @@
 		1028 209e  NVMe MU U.2 1.6TB (P5600)
 		1028 209f  NVMe MU U.2 3.2TB (P5600)
 		1028 2100  NVMe MU U.2 6.4TB (P5600)
-		1028 2101  NVMe RI U.2 1.92TB (P5500)
-		1028 2102  NVMe RI U.2 3.84TB (P5500)
-		1028 2103  NVMe RI U.2 7.68TB (P5500)
+		1028 2102  NVMe RI U.2 1.92TB (P5500)
+		1028 2103  NVMe RI U.2 3.84TB (P5500)
+		1028 2104  NVMe RI U.2 7.68TB (P5500)
 	0be0  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 	0be1  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 		105b 0d7c  D270S/D250S Motherboard
