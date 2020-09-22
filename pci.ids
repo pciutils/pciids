@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.09.21
-#	Date:    2020-09-21 03:15:02
+#	Version: 2020.09.22
+#	Date:    2020-09-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22589,6 +22589,8 @@
 1b4b  Marvell Technology Group Ltd.
 	0640  88SE9128 SATA III 6Gb/s RAID Controller
 	2241  88NR2241 Non-Volatile memory controller
+		1d49 0306  ThinkSystem M.2 NVMe 2-Bay RAID Enablement Kit
+		1d49 0307  ThinkSystem 7mm NVMe 2-Bay Rear RAID Enablement Kit
 	9120  88SE9120 SATA 6Gb/s Controller
 	9123  88SE9123 PCIe SATA 6.0 Gb/s controller
 		dc93 600e  DC-6xxe series SATA 6G controller
@@ -31363,6 +31365,7 @@
 	9b61  Comet Lake-U v1 4c Host Bridge/DRAM Controller
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
 	9bc4  UHD Graphics
+	9bc8  UHD Graphics 630
 	9c00  8 Series SATA Controller 1 [IDE mode]
 	9c01  8 Series SATA Controller 1 [IDE mode]
 	9c02  8 Series SATA Controller 1 [AHCI mode]
@@ -31946,6 +31949,9 @@
 		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
 	a379  Cannon Lake PCH Thermal Controller
 		1028 0869  Vostro 3470
+	a382  400 Series Chipset Family SATA AHCI Controller
+	a3a3  Comet Lake PCH-V SMBus Host Controller
+	a3b1  Comet Lake PCH-V Thermal Subsystem
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
 	b152  21152 PCI-to-PCI Bridge
