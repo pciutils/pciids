@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.09.22
-#	Date:    2020-09-22 03:15:01
+#	Version: 2020.10.07
+#	Date:    2020-10-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -765,7 +765,7 @@
 		1028 200b  HBA355i Adapter
 		1028 200c  HBA355i Front
 		1028 200d  HBA355e Adapter
-		1028 200e  HBA355i MX
+		1028 200e  HBA350i MX
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
@@ -973,9 +973,9 @@
 	3154  RV380/M24 GL [Mobility FireGL V3200]
 	3155  RV380 GL [FireMV 2400]
 	3171  RV380 GL [FireMV 2400] (Secondary)
-	3e50  RV380 [Radeon X600]
+	3e50  RV380 [Radeon X550/X600]
 	3e54  RV380 GL [FireGL V3200]
-	3e70  RV380 [Radeon X600] (Secondary)
+	3e70  RV380 [Radeon X550/X600] (Secondary)
 	4136  RS100 [Mobility IGP 320M]
 	4137  RS200 [Radeon IGP 340]
 	4144  R300 [Radeon 9500]
@@ -3410,6 +3410,7 @@
 		148c 9380  Radeon R9 380
 # Make naming scheme consistent
 		174b e308  Radeon R9 380 Nitro 4G D5
+	693b  Tonga PRO GL [FirePro W7100 / Barco MXRT-7600]
 	694c  Polaris 22 XT [Radeon RX Vega M GH]
 	694e  Polaris 22 XL [Radeon RX Vega M GL]
 	694f  Polaris 22 MGL XL [Radeon Pro WX Vega M GL]
@@ -3434,7 +3435,7 @@
 	7100  R520 [Radeon X1800 XT]
 	7101  R520/M58 [Mobility Radeon X1800 XT]
 	7102  R520/M58 [Mobility Radeon X1800]
-	7104  R520 GL [FireGL V7200]
+	7104  R520 GL [FireGL V7200 / Barco MXTR-5100]
 		13cc 3d0a  MXRT-5100
 	7109  R520 [Radeon X1800 XL]
 		1002 0322  All-in-Wonder X1800XL
@@ -12053,6 +12054,7 @@
 	1f51  TU106BM [GeForce RTX 2060 Mobile]
 	1f54  TU106BM [GeForce RTX 2070 Mobile]
 	1f55  TU106BM [GeForce RTX 2060 Mobile]
+	1f76  TU106GLM [Quadro RTX 3000 Mobile Refresh]
 	1f81  TU117
 	1f82  TU117 [GeForce GTX 1650]
 	1f91  TU117M [GeForce GTX 1650 Mobile / Max-Q]
@@ -12061,7 +12063,9 @@
 	1f95  TU117M [GeForce GTX 1650 Ti Mobile]
 	1f96  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 	1f97  TU117M [GeForce MX450]
+	1f98  TU117M [GeForce MX450]
 	1f99  TU117M
+	1f9c  TU117M [GeForce MX450]
 	1fae  TU117GL
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
@@ -12086,9 +12090,10 @@
 	2204  GA102 [GeForce RTX 3090]
 	2206  GA102 [GeForce RTX 3080 10GB / 20GB]
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
+		1462 3892  RTX 3080 10GB GAMING X TRIO
 	222b  GA102 [GeForce RTX 3080 Ti Engineering Sample]
 	222f  GA102 [GeForce RTX 3080 11GB Engineering Sample]
-	2230  GA102GL [Quadro RTX 48GB]
+	2230  GA102GL [RTX A6000]
 	223f  GA102GL
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2484  GA104 [GeForce RTX 3070]
@@ -12498,6 +12503,7 @@
 		17aa b023  ThinkPad E595
 	c821  RTL8821CE 802.11ac PCIe Wireless Network Adapter
 	c822  RTL8822CE 802.11ac PCIe Wireless Network Adapter
+	c82f  RTL8822CE 802.11ac PCIe Wireless Network Adapter
 	d723  RTL8723DE 802.11b/g/n PCIe Adapter
 10ed  Ascii Corporation
 	7310  V7310
@@ -19770,7 +19776,8 @@
 1526  ISS, Inc
 1527  SOLECTRON
 1528  ACKSYS
-1529  AMERICAN MICROSystems Inc
+# nee American Microsystems Inc
+1529  ON Semiconductor
 152a  QUICKTURN DESIGN Systems
 152b  FLYTECH Technology CO Ltd
 152c  MACRAIGOR Systems LLC
@@ -21195,6 +21202,7 @@
 	8083  GL880 USB 1.1 UHCI controller
 	8084  GL880 USB 2.0 EHCI controller
 	9750  GL9750 SD Host Controller
+	e763  GL9763E eMMC Controller
 17aa  Lenovo
 	402b  Intel 82599ES 10Gb 2-port Server Adapter X520-2
 17ab  Phillips Components
@@ -21982,7 +21990,7 @@
 	0087  MPC8343
 	00b4  MPC8315E
 	00b6  MPC8314E
-		1a56 1101  Killer Xeno Pro Gigabit Ethernet Controller
+		1a56 1101  Bigfoot Killer Xeno Pro Gigabit Ethernet Controller
 	00c2  MPC8379E
 	00c3  MPC8379
 	00c4  MPC8378E
@@ -22021,7 +22029,7 @@
 	7011  MPC8641D PCI Host Bridge
 	7018  MPC8610
 	c006  MPC8308
-		1a56 1201  Killer E2100 Gigabit Ethernet Controller
+		1a56 1201  Bigfoot Killer E2100 Gigabit Ethernet Controller
 # PCIe interface for emulator
 	fc02  RedStone
 # CFI device over PCIe
@@ -22367,7 +22375,8 @@
 	0065  Atomix HDMI STAN
 	0070  RED Rocket
 	0090  CinePlay
-1a56  Bigfoot Networks, Inc.
+# nee Bigfoot Networks, now owned by Intel
+1a56  Rivet Networks
 1a57  Highly Reliable Systems
 1a58  Razer USA Ltd.
 1a5d  Celoxica
@@ -22430,10 +22439,58 @@
 1ae7  First Wise Media GmbH
 	0520  HFC-S PCI A [X-TENSIONS XC-520]
 1ae8  Silicon Software GmbH
-	0a40  microEnable IV-BASE x1
-	0a41  microEnable IV-FULL x1
-	0a44  microEnable IV-FULL x4
-	0e44  microEnable IV-GigE x4
+# CameraLink frame grabber for Visual Applets
+	0751  mE5 marathon VCL
+# CameraLink HS frame grabber
+	0752  mE5 marathon AF2
+# CoaXpress frame grabber
+	0753  mE5 marathon ACX QP
+# CameraLink frame grabber
+	0754  mE5 marathon ACL
+# CoaXpress frame grabber
+	0755  mE5 marathon ACX SP
+# CoaXpress frame grabber
+	0756  mE5 marathon ACX DP
+# CoaXpress frame grabber for Visual Applets
+	0757  mE5 marathon VCX QP
+# CameraLink HS frame grabber for Visual Applets
+	0758  mE5 marathon VF2
+# CameraLink frame grabber for Visual Applets / AI applications
+	0759  mE5 marathon VCLx
+# CameraLink frame grabber
+	0a40  microEnable IV AD1-CL
+# CameraLink frame grabber for Visual Applets
+	0a41  microEnable IV VD1-CL
+# CameraLink frame grabber
+	0a42  microEnable IV AD4-CL
+# CameraLink frame grabber for Visual Applets
+	0a44  microEnable IV VD4-CL
+# CameraLink frame grabber
+	0a45  microEnable IV AS1-CL
+# CoaXpress frame grabber
+	0a53  microEnable 5 AQ8-CXP6B
+# CoaXpress frame grabber for Visual Applets
+	0a54  microEnable 5 VQ8-CXP6B
+# CoaXpress frame grabber for Visual Applets
+	0a56  microEnable 5 VQ8-CXP6D
+# CoaXpress frame grabber
+	0a57  microEnable 5 AQ8-CXP6D
+# CameraLink frame grabber for Visual Applets
+	0a58  microEnable 5 VD8-CL
+# CameraLink frame grabber
+	0a5a  microEnable 5 AD8-CL
+# OEM product
+	0b52  mE5 Abacus 4G Base
+# OEM product
+	0b53  mE5 Abacus 4G Base II
+# OEM product
+	0b61  mE6 Abacus 4TG
+# CoaXpress frame grabber
+	0b63  CXP-12 Interface Card 1C
+# GigE Vision frame grabber
+	0e42  microEnable IV AQ4-GE
+# GigE Vision frame grabber for Visual Applets
+	0e44  microEnable IV VQ4-GE
 1ae9  Wilocity Ltd.
 	0101  Wil6200 PCI Express Upstream Port
 	0200  Wil6200 PCI Express Port
@@ -22621,6 +22678,7 @@
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
 	9480  88SE9480 SAS/SATA 6Gb/s RAID controller
 	9485  88SE9485 SAS/SATA 6Gb/s controller
+1b4c  GALAX
 1b55  NetUP Inc.
 	18f6  Dual DVB Universal CI card
 	18f7  Dual DVB Universal CI card rev 1.4
@@ -22831,6 +22889,8 @@
 	1285  PC300 NVMe Solid State Drive 1TB
 	1327  BC501 NVMe Solid State Drive 512GB
 	1504  SC300 512GB M.2 2280 SATA Solid State Drive
+	2839  PE8000 Series NVMe Solid State Drive
+		0100 1c5c  PE8000 Series NVMe Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	000d  PBlaze5 520/526 AIC
 	003d  PBlaze5 920/926 AIC
@@ -23285,6 +23345,8 @@
 	0100  The device has already been deleted.
 		0000 0100  PY8800 64GB Accelerator
 1e6b  Axiado Corp.
+1e7c  Brainchip Inc
+	bca1  AKD1000 Neural Network Coprocessor [Akida]
 1e85  Heitec AG
 1e89  ID Quantique SA
 	0002  Quantis-PCIe-40M
@@ -23375,6 +23437,7 @@
 2348  Racore
 	2010  8142 100VG/AnyLAN
 2646  Kingston Technology Company, Inc.
+	2263  A2000, M.2, 500GB
 270b  Xantel Corporation
 270f  Chaintech Computer Co. Ltd
 2711  AVID Technology Inc.
@@ -23420,7 +23483,7 @@
 3442  Bihl+Wiedemann GmbH
 	1783  AS-i 3.0 cPCI Master
 	1922  AS-i 3.0 PCI Master
-3475  Arastra Inc.
+3475  Arista Networks, Inc.
 3513  ARCOM Control Systems Ltd
 37d9  ITD Firm ltd.
 	1138  SCHD-PH-8 Phase detector
@@ -24219,6 +24282,7 @@
 		8086 0034  Wireless-AC 9560 160MHz
 		8086 0070  Wi-Fi 6 AX201 160MHz
 		8086 0074  Wi-Fi 6 AX201 160MHz
+	02f5  Comet Lake PCH-LP SCS3
 	02f9  Comet Lake Thermal Subsytem
 	02fc  Comet Lake Integrated Sensor Solution
 	0309  80303 I/O Processor PCI-to-PCI Bridge
@@ -32344,7 +32408,7 @@
 		9005 0552  Series 8 - ASR-8805 - 8 internal 0 external 12G SAS Port/PCIe 3.0
 		9005 0553  Series 8 - ASR-8085 - 0 internal 8 external 12G SAS Port/PCIe 3.0
 		9005 0554  Series 8 - ASR-8885 - 8 internal 8 external 12G SAS Port/PCIe 3.0
-	028f  Smart Storage PQI 12G SAS/PCIe 3
+	028f  Smart Storage PQI SAS
 		103c 0600  Smart Array P408i-p SR Gen10
 		103c 0601  Smart Array P408e-p SR Gen10
 		103c 0602  Smart Array P408i-a SR Gen10
