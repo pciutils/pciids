@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.10.07
-#	Date:    2020-10-07 03:15:02
+#	Version: 2020.10.11
+#	Date:    2020-10-11 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12091,8 +12091,8 @@
 	2206  GA102 [GeForce RTX 3080 10GB / 20GB]
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
 		1462 3892  RTX 3080 10GB GAMING X TRIO
-	222b  GA102 [GeForce RTX 3080 Ti Engineering Sample]
-	222f  GA102 [GeForce RTX 3080 11GB Engineering Sample]
+	222b  GA102 [GeForce RTX 3090 Engineering Sample]
+	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
 	223f  GA102GL
 	2482  GA104 [GeForce RTX 3070 Ti]
@@ -19846,7 +19846,12 @@
 	1100  PCI Express Core Reference Design
 	110f  PCI Express Core Reference Design Virtual Function
 	1110  XpressRich Reference Design
+	1111  XpressRich-AXI Ref Design
+	1112  QuickPCIe
 	1113  XpressSwitch
+	1114  Inspector
+	1115  XpressLINK Ref Design
+	1116  XpressLINK-SOC Ref Design
 	be00  PCI Express Bridge
 1557  MEDIASTAR Co Ltd
 1558  CLEVO/KAPOK Computer
