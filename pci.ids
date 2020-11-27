@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.11.14
-#	Date:    2020-11-14 03:15:02
+#	Version: 2020.11.27
+#	Date:    2020-11-27 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2623,6 +2623,7 @@
 		148c 2379  Radeon RX 570 4G [Red Dragon]
 		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
+		1682 9587  Radeon RX 590 FATBOY 8GB
 		1682 9588  Radeon RX 580 XTR
 		1682 c570  Radeon RX 570
 		1682 c580  Radeon RX 580
@@ -3584,6 +3585,7 @@
 	7312  Navi 10 [Radeon Pro W5700]
 	731f  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1458 2313  Radeon RX 5700 XT Gaming OC
+		1682 5701  RX 5700 XT RAW II
 		1da2 e411  Radeon RX 5600 XT
 	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5500M]
 	7341  Navi 14 [Radeon Pro W5500]
@@ -8567,6 +8569,7 @@
 		10b5 2905  Alpermann+Velte PCI TS: Time Synchronisation Board
 		10b5 3196  Goramo PLX200SYN sync serial card
 		10b5 9050  PCI-I04 PCI Passive PC/CAN Interface
+		12fe 0001  CAN-PCI/331 CAN bus controller
 		1369 8901  PCX11+ PCI
 		1369 8f01  VX222
 		1369 9401  PCX924
@@ -12083,6 +12086,7 @@
 	1fae  TU117GL
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
+	1fbb  TU117GLM [Quadro T500 Mobile]
 	1fbf  TU117GL
 	1fd9  TU117BM [GeForce GTX 1650 Mobile Refresh]
 	1ff9  TU117GLM [Quadro T1000 Mobile]
@@ -12103,13 +12107,17 @@
 	21c4  TU116 [GeForce GTX 1660 SUPER]
 	21d1  TU116BM [GeForce GTX 1660 Ti Mobile]
 	2204  GA102 [GeForce RTX 3090]
+	2205  GA102 [GeForce RTX 3080 Ti]
 	2206  GA102 [GeForce RTX 3080]
+		10de 1467  GA102 [GeForce RTX 3080]
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
 		1462 3892  RTX 3080 10GB GAMING X TRIO
 	222b  GA102 [GeForce RTX 3090 Engineering Sample]
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
+	2235  GA102GL [RTX A40]
 	223f  GA102GL
+	2321  GA103
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2484  GA104 [GeForce RTX 3070]
 		10de 146b  GA104 [GeForce RTX 3070]
@@ -12123,7 +12131,11 @@
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3070 Mobile 16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
+	2501  GA106 [GeForce RTX 3060 6GB / 12GB]
+	2505  GA106
+	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
+	2583  GA107 [GeForce RTX 3050]
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -14502,6 +14514,7 @@
 1179  Toshiba Corporation
 	0102  Extended IDE Controller
 	0103  EX-IDE Type-B
+	010e  PXP04 NVMe SSD
 	010f  NVMe Controller
 	0110  NVMe SSD Controller Cx5
 		1028 1ffb  Express Flash NVMe 960G (RI) U.2 (CD5)
@@ -14513,7 +14526,9 @@
 		1d49 4039  Thinksystem U.2 CM5 NVMe SSD
 		1d49 403a  Thinksystem AIC CM5 NVMe SSD
 	0113  BG3 NVMe SSD Controller
+		1179 0001  Toshiba KBG30ZMS128G 128GB NVMe SSD
 	0115  XG4 NVMe SSD Controller
+	011a  XG6 NVMe SSD Controller
 	0404  DVD Decoder card
 	0406  Tecra Video Capture device
 	0407  DVD Decoder card (Version 2)
@@ -15940,6 +15955,7 @@
 	0820  SM820 Lynx3D
 	0910  SM910
 	2262  SM2262/SM2262EN SSD Controller
+	2263  SM2263EN/SM2263XT SSD Controller
 1270  Olympus Optical Co., Ltd.
 1271  GW Instruments
 1272  Telematics International
@@ -16417,6 +16433,7 @@
 	8150  PCI to PCI Bridge
 	8152  PI7C8152A/PI7C8152B/PI7C8152BI PCI-to-PCI Bridge
 	8154  PI7C8154A/PI7C8154B/PI7C8154BI PCI-to-PCI Bridge
+	8619  PI7C9X2G1616PR PCIe2 16-Port/16-Lane Packet Switch
 	e110  PI7C9X110 PCI Express to PCI bridge
 		1775 11cc  CC11/CL11 CompactPCI Bridge
 	e111  PI7C9X111SL PCIe-to-PCI Reversible Bridge
@@ -18257,7 +18274,9 @@
 	a544  Exynos 8890 PCIe Root Complex
 	a800  XP941 PCIe SSD
 	a802  NVMe SSD Controller SM951/PM951
-	a804  NVMe SSD Controller SM961/PM961
+		144d a801  PM963 2.5" NVMe PCIe SSD
+	a804  NVMe SSD Controller SM961/PM961/SM963
+		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a820  NVMe SSD Controller 171X
@@ -20269,6 +20288,8 @@
 	5006  WD Black 2019/PC SN750 NVMe SSD
 	5009  WD Blue SN550 NVMe SSD
 		15b7 5009  WD Blue SN550 NVMe SSD
+	500b  PC SN530 NVMe SSD
+		1414 500b  Xbox Series X
 	500d  WD Ultrastar DC SN340 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
@@ -22397,6 +22418,7 @@
 1a4a  SLAC National Accelerator Lab TID-AIR
 	1000  MCOR Power Supply Controller
 	1010  AMC EVR - Stockholm Timing Board
+	1020  PGPCard - Gen3 Cameralink Interface
 	1030  PGPCard - Gen3 GIGe Interface
 	2000  PGPCard - 4 Lane
 	2001  PGPCard - 8 Lane Plus EVR
@@ -22953,6 +22975,7 @@
 	1285  PC300 NVMe Solid State Drive 1TB
 	1327  BC501 NVMe Solid State Drive 512GB
 	1504  SC300 512GB M.2 2280 SATA Solid State Drive
+	1527  PC401 NVMe Solid State Drive 256GB
 	243b  PE6110 NVMe Solid State Drive
 		1c5c 0100  PE6110 NVMe Solid State Drive
 	2839  PE8000 Series NVMe Solid State Drive
@@ -23263,6 +23286,7 @@
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1001  DSC Virtual Downstream Port
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -23272,6 +23296,7 @@
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1002  DSC Ethernet Controller
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -23281,6 +23306,7 @@
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1003  DSC Ethernet Controller VF
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -23290,6 +23316,7 @@
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1004  DSC Management Controller
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -23299,6 +23326,7 @@
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1007  DSC Storage Accelerator
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -23308,8 +23336,10 @@
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 1de0  Groq
-	0000  Q100 Tensor Streaming Processor
+# rename due to conflict with a term in use by another company for an entirely different product.
+	0000  TSP100 Tensor Streaming Processor
 1de1  Tekram Technology Co.,Ltd.
 	0391  TRM-S1040 [DC-315 / DC-395 series]
 	2020  DC-390
@@ -23457,6 +23487,8 @@
 1e94  Calian SED
 1e95  Solid State Storage Technology Corporation
 1eab  Hefei DATANG Storage Technology Co.,LTD.
+	300a  NVMe SSD Controller 300A
+	300b  NVMe SSD Controller 300B
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
@@ -23542,6 +23574,7 @@
 	2010  8142 100VG/AnyLAN
 2646  Kingston Technology Company, Inc.
 	2263  A2000 NVMe SSD
+	500d  OM3PDP3 NVMe SSD
 270b  Xantel Corporation
 270f  Chaintech Computer Co. Ltd
 2711  AVID Technology Inc.
@@ -25793,6 +25826,9 @@
 		8086 4532  Desktop Board D815EEA2/D815EFV
 		8086 4541  D815EEA Motherboard
 		8086 4557  D815EGEW Mainboard
+	1136  Thunderbolt 4 Bridge [Maple Ridge 4C 2020]
+	1137  Thunderbolt 4 NHI [Maple Ridge 4C 2020]
+	1138  Thunderbolt 4 USB Controller [Maple Ridge 4C 2020]
 	1161  82806AA PCI64 Hub Advanced Programmable Interrupt Controller
 		8086 1161  82806AA PCI64 Hub APIC
 	1162  Xscale 80200 Big Endian Companion Chip
@@ -26392,6 +26428,7 @@
 	1591  Ethernet Controller E810-C for backplane
 	1592  Ethernet Controller E810-C for QSFP
 		1137 02bf  E810CQDA2 2x100 GbE QSFP28 PCIe NIC
+		8086 0001  Ethernet Network Adapter E810-C-Q1
 		8086 0002  Ethernet Network Adapter E810-C-Q2
 		8086 0004  Ethernet Network Adapter E810-C-Q2
 		8086 0005  Ethernet Network Adapter E810-C-Q1 for OCP3.0
@@ -26400,6 +26437,7 @@
 		8086 000a  Ethernet Network Adapter E810-C-Q1 for OCP
 		8086 000b  Ethernet 100G 2P E810-C Adapter
 		8086 000c  Ethernet 100G 2P E810-C OCP
+		8086 000d  Ethernet Network Adapter E810-L-Q2 for OCP 3.0
 	1593  Ethernet Controller E810-C for SFP
 		1137 02c3  E810XXVDA4 4x25/10 GbE SFP28 PCIe NIC
 		8086 0002  Ethernet Network Adapter E810-L-2
@@ -28066,6 +28104,7 @@
 		103c 0934  Compaq nw8240/nx8220
 		103c 0944  Compaq nc6220 Notebook PC
 		103c 099c  NX6110/NC6120
+		1043 82d9  Asus Eee PC 900
 		104d 81b7  Vaio VGN-S3XP
 		a304 81b7  Vaio VGN-S3XP
 		e4bf 0ccd  CCD-CALYPSO
@@ -29469,6 +29508,7 @@
 		1028 022f  Inspiron 1525
 		103c 30c0  Compaq 6710b
 		103c 30c1  Compaq 6910p
+		103c 30c5  Compaq 8510p
 		103c 30cc  Pavilion dv6700
 		103c 30d9  Presario C700
 		1043 1017  X58LE
@@ -29950,6 +29990,8 @@
 		17aa 380b  V130-15IGM Laptop (Lenovo) - Type 81HL
 	319a  Celeron/Pentium Silver Processor Trusted Execution Engine Interface
 	31a2  Celeron/Pentium Silver Processor Integrated Sensor Solution
+	31a8  Celeron/Pentium Silver Processor USB 3.0 xHCI Controller
+		1849 31a8  Celeron/Pentium Silver Processor USB 3.0 xHCI Controller
 	31ac  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
 	31ae  Celeron/Pentium Silver Processor Serial IO I2C Host Controller
 	31bc  Celeron/Pentium Silver Processor Serial IO UART Host Controller
@@ -29967,6 +30009,8 @@
 	31da  Gemini Lake PCI Express Root Port
 	31db  Gemini Lake PCI Express Root Port
 	31dc  AC 1550i Wireless
+	31e3  Celeron/Pentium Silver Processor SATA Controller
+	31e8  Celeron/Pentium Silver Processor LPC Controller
 	31ee  Celeron/Pentium Silver Processor Serial IO UART Host Controller
 	31f0  Gemini Lake Host Bridge
 	3200  GD31244 PCI-X SATA HBA
@@ -31539,21 +31583,21 @@
 	96a1  Integrated RAID
 	9a09  11th Gen Core Processor PCIe Controller
 	9a0b  Volume Management Device NVMe RAID Controller
-	9a13  Tiger Lake-LP Thunderbolt USB Controller
+	9a13  Tiger Lake-LP Thunderbolt 4 USB Controller
 	9a14  11th Gen Core Processor Host Bridge/DRAM Registers
-	9a17  Tiger Lake-H Thunderbolt USB Controller
-	9a1b  Tiger Lake-LP Thunderbolt NHI #0
-	9a1d  Tiger Lake-LP Thunderbolt NHI #1
-	9a1f  Tiger Lake-H Thunderbolt NHI #0
-	9a21  Tiger Lake-H Thunderbolt NHI #1
-	9a23  Tiger Lake-LP Thunderbolt PCI Express Root Port #0
-	9a25  Tiger Lake-LP Thunderbolt PCI Express Root Port #1
-	9a27  Tiger Lake-LP Thunderbolt PCI Express Root Port #2
-	9a29  Tiger Lake-LP Thunderbolt PCI Express Root Port #3
-	9a2b  Tiger Lake-H Thunderbolt PCI Express Root Port #0
-	9a2d  Tiger Lake-H Thunderbolt PCI Express Root Port #1
-	9a2f  Tiger Lake-H Thunderbolt PCI Express Root Port #2
-	9a31  Tiger Lake-H Thunderbolt PCI Express Root Port #3
+	9a17  Tiger Lake-H Thunderbolt 4 USB Controller
+	9a1b  Tiger Lake-LP Thunderbolt 4 NHI #0
+	9a1d  Tiger Lake-LP Thunderbolt 4 NHI #1
+	9a1f  Tiger Lake-H Thunderbolt 4 NHI #0
+	9a21  Tiger Lake-H Thunderbolt 4 NHI #1
+	9a23  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #0
+	9a25  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #1
+	9a27  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #2
+	9a29  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #3
+	9a2b  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #0
+	9a2d  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #1
+	9a2f  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #2
+	9a31  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3
 	9a33  Tiger Lake Trace Hub
 	9a49  Iris Xe Graphics
 	9b41  UHD Graphics
@@ -32209,6 +32253,8 @@
 		8088 0402  Qual-Port Ethernet Network Adaptor SF400HT
 	0108  WX1860AL4S Gigabit Ethernet Controller
 		8088 0420  Qual-Port Ethernet Network Adaptor SF400HT-S
+# add new device ID
+	010b  WX1860AL1 Gigabit Ethernet Controller
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
 		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
 	2001  Ethernet Controller RP2000 for 10GbE SFP+
