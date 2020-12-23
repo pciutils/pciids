@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.12.13
-#	Date:    2020-12-13 03:15:01
+#	Version: 2020.12.23
+#	Date:    2020-12-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -908,6 +908,8 @@
 		8086 0523  MegaRAID RAID Controller SRCS16
 	3050  SAS2008 PCI-Express Fusion-MPT SAS-2
 	6001  DX1 Multiformat Broadcast HD/SD Encoder/Decoder
+	c012  PEX880xx PCIe Gen 4 Switch
+		1d49 0003  ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter
 1001  Kolter Electronic
 	0010  PCI 1616 Measurement card with 32 digital I/O lines
 	0011  OPTO-PCI Opto-Isolated digital I/O board
@@ -10774,6 +10776,7 @@
 	0a21  GT216M [GeForce GT 330M]
 	0a22  GT216 [GeForce 315]
 	0a23  GT216 [GeForce 210]
+	0a24  GT216 [GeForce 405]
 	0a26  GT216 [GeForce 405]
 	0a27  GT216 [GeForce 405]
 	0a28  GT216M [GeForce GT 230M]
@@ -12167,8 +12170,8 @@
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
-	2501  GA106 [GeForce RTX 3060]
-	2503  GA106 [GeForce RTX 3050 Ti]
+	2501  GA106 [GeForce RTX 3060 12GB]
+	2503  GA106 [GeForce RTX 3060 6GB]
 	2505  GA106
 	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
@@ -12549,6 +12552,14 @@
 		16ec 011f  USR997903
 		1734 1091  D2030-A1
 		a0a0 0449  AK86-L motherboard
+	816a  RTL8111xP UART #1
+		ea50 ce19  mCOM10-L1900
+	816b  RTL8111xP UART #2
+		ea50 ce19  mCOM10-L1900
+	816c  RTL8111xP IPMI interface
+		ea50 ce19  mCOM10-L1900
+	816d  RTL8111xP EHCI host controller
+		ea50 ce19  mCOM10-L1900
 	8171  RTL8191SEvA Wireless LAN Controller
 	8172  RTL8191SEvB Wireless LAN Controller
 	8173  RTL8192SE Wireless LAN Controller
@@ -14552,6 +14563,7 @@
 1172  Altera Corporation
 	00a7  Stratix V
 	0530  Stratix IV
+	646c  KT-500/KT-521 board
 1173  Adobe Systems, Inc
 1174  Bridgeport Machines
 1175  Mitron Computer Inc.
@@ -16222,9 +16234,9 @@
 1281  Yokogawa Electric Corporation
 1282  Davicom Semiconductor, Inc.
 	6585  DM562P V90 Modem
-	9009  Ethernet 100/10 MBit
+	9009  DM9009 Ethernet Controller
 	9100  21x4x DEC-Tulip compatible 10/100 Ethernet
-	9102  21x4x DEC-Tulip compatible 10/100 Ethernet
+	9102  DM9102 Fast Ethernet Controller
 # Subsystem ID is main ID reveresed.
 		0291 8212  DM9102A (DM9102AE, SM9102AF) Ethernet 100/10 MBit
 	9132  Ethernet 100/10 MBit
@@ -16472,6 +16484,7 @@
 	2304  PI7C9X2G304 EL/SL PCIe2 3-Port/4-Lane Packet Switch
 	2404  PI7C9X2G404 EL/SL PCIe2 4-Port/4-Lane Packet Switch
 	2608  PI7C9X2G608GP PCIe2 6-Port/8-Lane Packet Switch
+		ea50 cc10  RXi2-BP
 	400a  PI7C9X442SL PCI Express Bridge Port
 	400e  PI7C9X442SL USB OHCI Controller
 	400f  PI7C9X442SL USB EHCI Controller
@@ -16517,12 +16530,13 @@
 12ea  Zuken
 12eb  Aureal Semiconductor
 	0001  Vortex 1
+		0000 0300  Terasound A3D PCI
 		104d 8036  AU8820 Vortex Digital Audio Processor
 		1092 2000  Sonic Impact A3D
 		1092 2100  Sonic Impact A3D
 		1092 2110  Sonic Impact A3D
 		1092 2200  Sonic Impact A3D
-		122d 1002  AU8820 Vortex Digital Audio Processor
+		122d 1002  SC 338-A3D
 		12eb 0001  AU8820 Vortex Digital Audio Processor
 		5053 3355  Montego
 		50b2 1111  XLerate
@@ -16817,6 +16831,7 @@
 	0004  PCI-S0
 	0005  PCI-FUT-S0
 	0006  OTDU-1U (FPGA Zynq-7000)
+	0007  OTDU-EX
 1354  Dwave System Inc
 1355  Kratos Analytical Ltd
 1356  The Logical Co
@@ -20335,7 +20350,7 @@
 	5003  WD Blue SN500 / PC SN520 NVMe SSD
 	5004  PC SN520 NVMe SSD
 	5005  PC SN520 NVMe SSD
-	5006  WD Black 2019 / PC SN750 NVMe SSD
+	5006  WD Black SN750 / PC SN730 NVMe SSD
 	5009  WD Blue SN550 NVMe SSD
 		15b7 5009  WD Blue SN550 NVMe SSD
 	500b  PC SN530 NVMe SSD
@@ -22373,7 +22388,12 @@
 		19e5 d136  Hi1822 SP580 (4*25GE)
 		19e5 d141  Hi1822 SP583 (4*25GE)
 		19e5 d146  Hi1822 SP585 (4*25GE)
+	3714  ES3000 V5 NVMe PCIe SSD
+		19e5 5312  NVMe SSD ES3500P V5 2000GB 2.5" U.2
 	371e  Hi1822 Family Virtual Bridge
+	3754  ES3000 V6 NVMe PCIe SSD
+		19e5 6122  NVMe SSD ES3600P V6 1600GB 2.5" U.2
+		19e5 6123  NVMe SSD ES3600P V6 3200GB 2.5" U.2
 	375e  Hi1822 Family Virtual Function
 	379e  Hi1822 Family Virtual Function
 	a120  HiSilicon PCIe Root Port with Gen4
@@ -22850,6 +22870,7 @@
 	2402  Ultrastar DC SN640 NVMe SSD
 	2404  Ultrastar DC SN640 NVMe SSD
 	2500  Ultrastar DC SN840 NVMe SSD
+	2600  Ultrastar DC ZN540 ZNS NVMe SSD
 	3714  PC SN730 NVMe SSD
 	3734  PC SN730 NVMe SSD
 1b9a  XAVi Technologies Corp.
@@ -30160,6 +30181,7 @@
 	34aa  Ice Lake-LP Serial IO SPI Controller #0
 	34ab  Ice Lake-LP Serial IO SPI Controller #1
 	34b0  Ice Lake-LP PCI Express Root Port #9
+	34b7  Ice Lake-LP PCI Express Root Port #16
 	34bc  Ice Lake-LP PCI Express Root Port #5
 	34c5  Ice Lake-LP Serial IO I2c Controller #4
 	34c6  Ice Lake-LP Serial IO I2c Controller #5
@@ -30171,8 +30193,10 @@
 	34ea  Ice Lake-LP Serial IO I2C Controller #2
 	34eb  Ice Lake-LP Serial IO I2C Controller #3
 	34ed  Ice Lake-LP USB 3.1 xHCI Host Controller
+	34ef  Ice Lake-LP DRAM Controller
 	34f0  Killer Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW)
 	34f8  Ice Lake-LP SD Controller
+	34fc  Ice Lake-LP Integrated Sensor Solution
 	3500  6311ESB/6321ESB PCI Express Upstream Port
 		103c 31fe  ProLiant DL140 G3
 		15d9 9680  X7DBN Motherboard
@@ -30823,6 +30847,7 @@
 	4032  5400 Chipset IOxAPIC
 	4035  5400 Chipset FBD Registers
 	4036  5400 Chipset FBD Registers
+	4041  NVMe Datacenter SSD [Optane]
 	4100  Moorestown Graphics and Video
 	4108  Atom Processor E6xx Integrated Graphics Controller
 	4109  Atom Processor E6xx Integrated Graphics Controller
@@ -30836,6 +30861,13 @@
 	4115  Atom Processor E6xx PCI Host Bridge #2
 	4116  Atom Processor E6xx PCI Host Bridge #3
 	4117  Atom Processor E6xx PCI Host Bridge #4
+	4140  NVMe Datacenter SSD [Optane]
+		1028 2134  NVMe Datacenter SSD [Optane] SED 400GB 2.5" U.2 (P5800X)
+		1028 2135  NVMe Datacenter SSD [Optane] SED 800GB 2.5" U.2 (P5800X)
+		1028 2136  NVMe Datacenter SSD [Optane] SED 1.6GB 2.5" U.2 (P5800X)
+		1028 2137  NVMe Datacenter SSD [Optane] 400GB 2.5" U.2 (P5800X)
+		1028 2138  NVMe Datacenter SSD [Optane] 800GB 2.5" U.2 (P5800X)
+		1028 2139  NVMe Datacenter SSD [Optane] 1.6TB 2.5" U.2 (P5800X)
 	4220  PRO/Wireless 2200BG [Calexico2] Network Connection
 		103c 0934  Compaq nw8240/nx8220
 		103c 12f6  nc6120/nc6220/nw8240/nx8220
@@ -31377,6 +31409,7 @@
 		1993 0ded  mGuard-PCI AV#2
 		1993 0dee  mGuard-PCI AV#1
 		1993 0def  mGuard-PCI AV#0
+	8603  Ice Lake-LP Dynamic Tuning Processor Participant
 	87c0  UHD Graphics 617
 	8800  Platform Controller Hub EG20T PCI Express Port
 	8801  Platform Controller Hub EG20T Packet Hub
@@ -31405,8 +31438,10 @@
 	8818  Platform Controller Hub EG20T Controller Area Network (CAN) Controller
 	8819  Platform Controller Hub EG20T IEEE 1588 Hardware Assist
 	8a0d  Ice Lake Thunderbolt 3 NHI #1
+	8a12  Ice Lake-LP Processor Host Bridge/DRAM Registers
 	8a13  Ice Lake Thunderbolt 3 USB Controller
 	8a17  Ice Lake Thunderbolt 3 NHI #0
+	8a19  Image Signal Processor
 	8a1d  Ice Lake Thunderbolt 3 PCI Express Root Port #0
 	8a1f  Ice Lake Thunderbolt 3 PCI Express Root Port #1
 	8a21  Ice Lake Thunderbolt 3 PCI Express Root Port #2
