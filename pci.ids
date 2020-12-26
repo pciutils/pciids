@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.12.23
-#	Date:    2020-12-23 03:15:02
+#	Version: 2020.12.26
+#	Date:    2020-12-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22394,6 +22394,13 @@
 	3754  ES3000 V6 NVMe PCIe SSD
 		19e5 6122  NVMe SSD ES3600P V6 1600GB 2.5" U.2
 		19e5 6123  NVMe SSD ES3600P V6 3200GB 2.5" U.2
+		19e5 6124  NVMe SSD ES3600P V6 6400GB 2.5" U.2
+		19e5 6141  NVMe SSD ES3800P V6 800GB 2.5" U.2
+		19e5 6142  NVMe SSD ES3800P V6 1600GB 2.5" U.2
+		19e5 6212  NVMe SSD ES3500P V6 1920GB 2.5" U.2
+		19e5 6213  NVMe SSD ES3500P V6 3840GB 2.5" U.2
+		19e5 6214  NVMe SSD ES3500P V6 7680GB 2.5" U.2
+		19e5 6215  NVMe SSD ES3500P V6 15360GB 2.5" U.2
 	375e  Hi1822 Family Virtual Function
 	379e  Hi1822 Family Virtual Function
 	a120  HiSilicon PCIe Root Port with Gen4
