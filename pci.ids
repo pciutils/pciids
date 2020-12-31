@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.12.26
-#	Date:    2020-12-26 03:15:02
+#	Version: 2020.12.31
+#	Date:    2020-12-31 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -953,6 +953,7 @@
 	1478  Navi 10 XL Upstream Port of PCI Express Switch
 	1479  Navi 10 XL Downstream Port of PCI Express Switch
 	154c  Kryptos [Radeon RX 350]
+		1462 7c28  MS-7C28 Motherboard
 	154e  Garfield
 	1551  Arlene
 	1552  Pooky
@@ -11911,6 +11912,7 @@
 	1aeb  TU116 High Definition Audio Controller
 	1aec  TU116 USB 3.1 Host Controller
 	1aed  TU116 USB Type-C UCSI Controller
+	1aef  GA102 High Definition Audio Controller
 	1b00  GP102 [TITAN X]
 	1b01  GP102 [GeForce GTX 1080 Ti 10GB]
 	1b02  GP102 [TITAN Xp]
@@ -12558,7 +12560,7 @@
 		ea50 ce19  mCOM10-L1900
 	816c  RTL8111xP IPMI interface
 		ea50 ce19  mCOM10-L1900
-	816d  RTL8111xP EHCI host controller
+	816d  RTL811x EHCI host controller
 		ea50 ce19  mCOM10-L1900
 	8171  RTL8191SEvA Wireless LAN Controller
 	8172  RTL8191SEvB Wireless LAN Controller
@@ -19167,6 +19169,7 @@
 	1805  BCM57508 NetXtreme-E RDMA Partition
 	1806  BCM5750X NetXtreme-E Ethernet Virtual Function
 	1807  BCM5750X NetXtreme-E RDMA Virtual Function
+	2711  BCM2711 PCIe Bridge
 	3352  BCM3352
 	3360  BCM3360
 	4210  BCM4210 iLine10 HomePNA 2.0
@@ -22816,6 +22819,7 @@
 	9192  88SE9172 SATA III 6Gb/s RAID Controller
 	91a0  88SE912x SATA 6Gb/s Controller [IDE mode]
 	91a4  88SE912x IDE Controller
+	9215  88SE9215 PCIe 2.0 x1 4-port SATA 6 Gb/s Controller
 	9220  88SE9220 PCIe 2.0 x2 2-port SATA 6 Gb/s RAID Controller
 	9230  88SE9230 PCIe SATA 6Gb/s Controller
 		1028 1fd6  BOSS-S1 Adapter
@@ -23549,7 +23553,7 @@
 	1601  NVMe SSD Controller MAP1601
 1e4c  GSI Technology
 # Associative Processing Unit (APU)
-	0010  APU [Leda-G]
+	0010  APU [Leda]
 		1e4c 0120  SE120
 1e57  Beijing Panyi Technology Co., Ltd
 	0100  The device has already been deleted.
@@ -26717,6 +26721,7 @@
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
 	1905  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)
 	1906  HD Graphics 510
@@ -30817,7 +30822,8 @@
 	3e81  8th Gen Core Processor PCIe Controller (x16)
 	3e85  8th Gen Core Processor PCIe Controller (x8)
 	3e89  8th Gen Core Processor PCIe Controller (x4)
-	3e91  8th Gen Core Processor Gaussian Mixture Model
+	3e90  UHD Graphics 610
+	3e91  UHD Graphics 630
 	3e92  UHD Graphics 630 (Desktop)
 		1028 0869  Vostro 3470
 	3e93  UHD Graphics 610
@@ -31722,6 +31728,7 @@
 	9b61  Comet Lake-U v1 4c Host Bridge/DRAM Controller
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
 	9bc4  UHD Graphics
+	9bc5  UHD Graphics 630
 	9bc8  UHD Graphics 630
 	9c00  8 Series SATA Controller 1 [IDE mode]
 	9c01  8 Series SATA Controller 1 [IDE mode]
