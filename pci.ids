@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2020.12.31
-#	Date:    2020-12-31 03:15:02
+#	Version: 2021.01.01
+#	Date:    2021-01-01 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -964,7 +964,7 @@
 		ea50 cc10  RXi2-BP
 	15dd  Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 83c6  Radeon Vega 8 Mobile
-		1043 876b  PRIME B450M-A Motherboard
+		1043 876b  PRIME Motherboard
 		1458 d000  Radeon RX Vega 11
 		ea50 cc10  RXi2-BP
 	15de  Raven/Raven2/Fenghuang HDMI/DP Audio Controller
@@ -1767,7 +1767,7 @@
 	5964  RV280 [Radeon 9200 SE]
 		1002 5964  Radeon 9200 SE, 64-bit 128MB DDR, 200/166MHz
 		1043 c006  Radeon 9200 SE / TD / 128M
-		1458 4018  Radeon 9200 SE
+		1458 4018  R92S128T (Radeon 9200 SE 128MB)
 		1458 4032  Radeon 9200 SE 128MB
 		147b 6191  R9200SE-DT
 		148c 2073  CN-AG92E
@@ -1856,7 +1856,7 @@
 		1002 5c63  Apple iBook G4 2004
 		144d c00c  P30 notebook
 	5d44  RV280 [Radeon 9200 SE] (Secondary)
-		1458 4019  Radeon 9200 SE (Secondary)
+		1458 4019  R92S128T (Radeon 9200 SE 128MB Secondary)
 		1458 4032  Radeon 9200 SE 128MB
 		147b 6190  R9200SE-DT (Secondary)
 		174b 7c12  Radeon 9200 SE (Secondary)
@@ -5665,6 +5665,7 @@
 		1931 000a  GlobeTrotter Fusion Quad Lite (PPP data)
 		1931 000b  GlobeTrotter Fusion Quad Lite (GSM data)
 		807d 0035  PCI-USB2 (OHCI subsystem)
+		8086 4d44  D850EMV2 motherboard
 	003b  PCI to C-bus Bridge
 	003e  NAPCCARD Cardbus Controller
 	0046  PowerVR PCX2 [midas]
@@ -5695,6 +5696,7 @@
 		14c2 0205  PTI-205N USB 2.0 Host Controller
 		1799 0002  Root Hub
 		807d 1043  PCI-USB2 (EHCI subsystem)
+		8086 4d44  D850EMV2 motherboard
 	00e7  uPD72873 [Firewarden] IEEE1394a OHCI 1.1 Link/2-port PHY Controller
 	00f2  uPD72874 [Firewarden] IEEE1394a OHCI 1.1 Link/3-port PHY Controller
 	00f3  uPD6113x Multimedia Decoder/Processor [EMMA2]
@@ -22821,7 +22823,7 @@
 	91a4  88SE912x IDE Controller
 	9215  88SE9215 PCIe 2.0 x1 4-port SATA 6 Gb/s Controller
 	9220  88SE9220 PCIe 2.0 x2 2-port SATA 6 Gb/s RAID Controller
-	9230  88SE9230 PCIe SATA 6Gb/s Controller
+	9230  88SE9230 PCIe 2.0 x2 4-port SATA 6 Gb/s RAID Controller
 		1028 1fd6  BOSS-S1 Adapter
 		1028 1fdf  BOSS-S1 Modular
 		1028 1fe2  BOSS-S1 Adapter
@@ -26708,7 +26710,7 @@
 	18a0  C4xxx Series QAT
 	18a1  C4XXX Series QAT Virtual Function
 	1900  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
-	1901  6th-9th Gen Core Processor PCIe Controller (x16)
+	1901  6th-10th Gen Core Processor PCIe Controller (x16)
 	1902  HD Graphics 510
 	1903  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
 		1028 06d6  Latitude 7275 tablet
@@ -27463,6 +27465,7 @@
 		147b 0507  TH7II-RAID
 		8086 4532  Desktop Board D815EEA2/D815EFV
 		8086 4557  D815EGEW Mainboard
+		8086 4d44  D850EMV2 motherboard
 		8086 5744  S845WD1-E mainboard
 	2443  82801BA/BAM SMBus Controller
 		1014 01c6  Netvista A40/A40p
@@ -27504,6 +27507,7 @@
 		147b 0507  TH7II-RAID
 		8086 4557  D815EGEW Mainboard
 		8086 4656  Desktop Board D815EFV
+		8086 4d44  D850EMV2 motherboard
 	2446  82801BA/BAM AC'97 Modem Controller
 		1025 1016  Travelmate 612 TX
 		104d 80df  Vaio PCG-FX403
@@ -27578,6 +27582,7 @@
 		15d9 3280  Supermicro P4SBE Mainboard
 		8086 4532  Desktop Board D815EEA2/D815EFV
 		8086 4557  D815EGEW Mainboard
+		8086 4d44  D850EMV2 motherboard
 		8086 5744  S845WD1-E mainboard
 	244c  82801BAM ISA Bridge (LPC)
 	244e  82801 PCI Bridge
@@ -31726,6 +31731,7 @@
 	9b53  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b61  Comet Lake-U v1 4c Host Bridge/DRAM Controller
+	9b63  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
 	9bc4  UHD Graphics
 	9bc5  UHD Graphics 630
