@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.01.01
-#	Date:    2021-01-01 03:15:01
+#	Version: 2021.01.03
+#	Date:    2021-01-03 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2624,6 +2624,7 @@
 		1462 3418  Radeon RX 580 Armor 4G OC
 		1462 341b  Radeon RX 570 Armor 8G OC
 		1462 341e  Radeon RX 570 Armor 4G OC
+		1462 809e  Radeon RX 480 4GB
 		1462 8a92  Radeon RX 580
 		148c 2372  Radeon RX 480 [Red Dragon]
 		148c 2373  Radeon RX 470
@@ -4777,17 +4778,17 @@
 	15dc  Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus B
 	15de  Raven/Raven2/FireFlight HD Audio Controller
 	15df  Family 17h (Models 10h-1fh) Platform Security Processor
-		1043 876b  PRIME B450M-A Motherboard
+		1043 876b  PRIME Motherboard
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	15e0  Raven USB 3.1
 		103c 8615  Pavilion Laptop 15-cw1xxx
-		1043 876b  PRIME B450M-A Motherboard
+		1043 876b  PRIME Motherboard
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	15e1  Raven USB 3.1
 		103c 8615  Pavilion Laptop 15-cw1xxx
-		1043 876b  PRIME B450M-A Motherboard
+		1043 876b  PRIME Motherboard
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	15e2  Raven/Raven2/FireFlight/Renoir Audio Processor
@@ -5061,7 +5062,7 @@
 	7900  FCH SATA Controller [IDE mode]
 	7901  FCH SATA Controller [AHCI mode]
 		103c 8615  Pavilion Laptop 15-cw1xxx
-		1043 876b  PRIME B450M-A Motherboard
+		1043 876b  PRIME Motherboard
 		1462 7c37  X570-A PRO motherboard
 		ea50 ce19  mCOM10-L1900
 	7902  FCH SATA Controller [RAID mode]
@@ -5071,7 +5072,7 @@
 	7908  FCH USB EHCI Controller
 	790b  FCH SMBus Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
-		1043 876b  PRIME B450M-A Motherboard
+		1043 876b  PRIME Motherboard
 		1462 7c37  X570-A PRO motherboard
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
