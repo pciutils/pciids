@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.01.03
-#	Date:    2021-01-03 03:15:02
+#	Version: 2021.01.09
+#	Date:    2021-01-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -978,6 +978,8 @@
 	15ff  Fenghuang [Zhongshan Subor Z+]
 	1607  Arden
 	1636  Renoir
+	1638  Cezanne
+	163f  VanGogh
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
 	3150  RV380/M24 [Mobility Radeon X600]
@@ -3157,6 +3159,7 @@
 		17af 3000  Radeon HD 6510
 		17af 3010  Radeon HD 5630
 	68da  Redwood LE [Radeon HD 5550/5570/5630/6390/6490/7570]
+		1462 8071  VR5550-MD1G (Radeon HD 5550)
 		148c 3000  Radeon HD 6390
 		148c 3001  Radeon HD 6490
 		1545 7570  Radeon HD 7570
@@ -12147,6 +12150,7 @@
 	2192  TU116M [GeForce GTX 1650 Ti Mobile]
 	21ae  TU116GL
 	21bf  TU116GL
+	21c2  TU116
 	21c4  TU116 [GeForce GTX 1660 SUPER]
 	21d1  TU116BM [GeForce GTX 1660 Ti Mobile]
 	2204  GA102 [GeForce RTX 3090]
@@ -12169,9 +12173,11 @@
 	2486  GA104 [GeForce RTX 3060 Ti]
 	249c  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	249d  GA104M [GeForce RTX 3070 Mobile / Max-Q]
+	249f  GA104M
 	24ac  GA104 [GeForce RTX 30x0 Engineering Sample]
 	24ad  GA104 [GeForce RTX 3060 Engineering Sample]
 	24af  GA104 [GeForce RTX 3070 Engineering Sample]
+	24b6  GA104
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
@@ -12627,6 +12633,7 @@
 	5005  Alveo U250
 	7038  FPGA Card XC7VX690T
 		17aa 402f  FPGA XC7VX690T-3FFG1157E
+	8019  Memory controller
 	8380  Ellips ProfiXpress Profibus Master
 	8381  Ellips Santos Frame Grabber
 	d154  Copley Controls CAN card (PCI-CAN-02)
@@ -16259,6 +16266,7 @@
 	8888  IT8888F/G PCI to ISA Bridge with SMB [Golden Gate]
 	8889  IT8889F PCI to ISA Bridge
 	8892  IT8892E PCIe to PCI Bridge
+		8086 200d  DH61CR motherboard
 	8893  IT8893E PCIe to PCI Bridge
 	e886  IT8330G
 1284  Sahara Networks, Inc.
@@ -21367,6 +21375,7 @@
 	0400  Datacenter Technologies QDF2432 PCI Express Root Port
 	0401  Datacenter Technologies QDF2400 PCI Express Root Port
 	1000  QCS405 PCIe Root Complex
+	1101  QCA6390 Wireless Network Adapter [AX500-DBS (2x2)]
 17cc  NetChip Technology, Inc
 	2280  USB 2.0
 17cd  Cadence Design Systems, Inc.
@@ -23067,10 +23076,9 @@
 	2839  PE8000 Series NVMe Solid State Drive
 		1c5c 0100  PE8000 Series NVMe Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
-	000d  PBlaze5 520/526 AIC
-	003d  PBlaze5 920/926 AIC
-	010d  PBlaze5 520/526 U.2
-	013d  PBlaze5 920/926 U.2
+	000d  PBlaze5 520/526
+	003d  PBlaze5 920/926
+	003e  PBlaze6 6920
 	0540  PBlaze4 NVMe SSD
 	0550  PBlaze5 700/900
 	0555  PBlaze5 510/516
@@ -23516,6 +23524,7 @@
 	0002  T11 [CloudBlazer]
 	0003  T10s [CloudBlazer]
 	8011  I10 [CloudBlazer]
+	8012  I10L [CloudBlazer]
 # nee Thinci, Inc
 1e38  Blaize, Inc
 	0102  Xplorer X1600
@@ -24415,6 +24424,7 @@
 	0100  2nd Generation Core Processor Family DRAM Controller
 		1028 04aa  XPS 8300
 		1043 844d  P8P67/P8H67 Series Motherboard
+		8086 200d  DH61CR motherboard
 	0101  Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port
 		1028 04b2  Vostro 3350
 		106b 00dc  MacBookPro8,2 [Core i7, 15", 2011]
@@ -24494,6 +24504,7 @@
 		1043 844d  P8B WS Motherboard
 	0172  Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller
 	0176  3rd Gen Core processor Graphics Controller
+	0201  Arctic Sound
 	0284  Comet Lake PCH-LP LPC Premium Controller/eSPI Controller
 	02a3  Comet Lake PCH-LP SMBus Host Controller
 	02a4  Comet Lake SPI (flash) Controller
@@ -26154,6 +26165,7 @@
 	1503  82579V Gigabit Network Connection
 		1043 849c  P8P67 Deluxe Motherboard
 		10cf 161c  LIFEBOOK E752
+		8086 200d  DH61CR motherboard
 	1507  Ethernet Express Module X520-P2
 	1508  82598EB Gigabit BX Network Connection
 	1509  82580 Gigabit Network Connection
@@ -26870,6 +26882,7 @@
 	1c02  6 Series/C200 Series Chipset Family 6 port Desktop SATA AHCI Controller
 		1028 04aa  XPS 8300
 		1043 844d  P8 series motherboard
+		8086 200d  DH61CR motherboard
 		8086 7270  Server Board S1200BT Family
 	1c03  6 Series/C200 Series Chipset Family 6 port Mobile SATA AHCI Controller
 		1028 04a3  Precision M4600
@@ -26920,6 +26933,7 @@
 		17aa 21cf  ThinkPad T520
 # Realtek ALC888 audio codec
 		8086 2008  DQ67SW board
+		8086 200d  DH61CR motherboard
 		8086 7270  Apple MacBookPro8,2 [Core i7, 15", 2011]
 	1c22  6 Series/C200 Series Chipset Family SMBus Controller
 		1028 04a3  Precision M4600
@@ -26928,6 +26942,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
+		8086 200d  DH61CR motherboard
 		8086 7270  Server Board S1200BT Family / Apple MacBook Pro 8,1/8,2
 	1c24  6 Series/C200 Series Chipset Family Thermal Management Controller
 	1c25  6 Series/C200 Series Chipset Family DMI to PCI Bridge
@@ -26938,6 +26953,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
+		8086 200d  DH61CR motherboard
 		8086 7270  Server Board S1200BT Family / Apple MacBook Pro 8,1/8,2
 	1c27  6 Series/C200 Series Chipset Family USB Universal Host Controller #1
 		8086 7270  Apple MacBookPro8,2 [Core i7, 15", 2011]
@@ -26950,6 +26966,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
+		8086 200d  DH61CR motherboard
 		8086 7270  Server Board S1200BT Family / Apple MacBook Pro 8,1/8,2
 	1c33  6 Series/C200 Series Chipset Family LAN Controller
 	1c35  6 Series/C200 Series Chipset Family VECI Controller
@@ -26960,6 +26977,7 @@
 		1028 04da  Vostro 3750
 		1043 844d  P8 series motherboard
 		17aa 21cf  ThinkPad T520
+		8086 200d  DH61CR motherboard
 		8086 7270  Apple MacBookPro8,2 [Core i7, 15", 2011]
 	1c3b  6 Series/C200 Series Chipset Family MEI Controller #2
 	1c3c  6 Series/C200 Series Chipset Family IDE-r Controller
@@ -27003,6 +27021,7 @@
 	1c5a  Upgraded Q67 Express Chipset LPC Controller
 	1c5b  6 Series/C200 Series Chipset Family LPC Controller
 	1c5c  H61 Express Chipset LPC Controller
+		8086 200d  DH61CR motherboard
 	1c5d  6 Series/C200 Series Chipset Family LPC Controller
 	1c5e  6 Series/C200 Series Chipset Family LPC Controller
 	1c5f  6 Series/C200 Series Chipset Family LPC Controller
@@ -30978,7 +30997,14 @@
 		8086 1316  WiMAX/WiFi Link 5150 ABG
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
+	4905  DG1 [Iris Xe MAX Graphics]
+	4906  DG1 [Iris Xe Pod]
+	4907  SG1 [Server GPU SG-18M]
+	4908  DG1 [Iris Xe Graphics]
 	4c3d  Volume Management Device NVMe RAID Controller
+	4f80  DG2
+	4f81  DG2
+	4f82  DG2
 	5001  LE80578
 	5002  LE80578 Graphics Processor Unit
 	5009  LE80578 Video Display Controller
