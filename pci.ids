@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.01.09
-#	Date:    2021-01-09 03:15:02
+#	Version: 2021.01.11
+#	Date:    2021-01-11 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -980,6 +980,7 @@
 	1636  Renoir
 	1638  Cezanne
 	163f  VanGogh
+	164c  Lucienne
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
 	3150  RV380/M24 [Mobility Radeon X600]
@@ -1997,9 +1998,9 @@
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
 	66a0  Vega 20 [Radeon Instinct]
-	66a1  Vega 20
+	66a1  Vega 20 WKS GL-XE [Radeon Pro VII]
 	66a2  Vega 20
-	66a3  Vega 20
+	66a3  Vega 20 [Radeon Pro Vega II/Radeon Pro Vega II Duo]
 	66a7  Vega 20 [Radeon Pro Vega 20]
 	66af  Vega 20 [Radeon VII]
 	6704  Cayman PRO GL [FirePro V7900]
@@ -2908,7 +2909,12 @@
 	6864  Vega 10 [Radeon Pro V340]
 	6867  Vega 10 XL [Radeon Pro Vega 56]
 	6868  Vega 10 [Radeon PRO WX 8100/8200]
+	6869  Vega 10 XGA [Radeon Pro Vega 48]
+	686a  Vega 10 LEA
+	686b  Vega 10 XTXA [Radeon Pro Vega 64X]
 	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
+	686d  Vega 10 GLXTA
+	686e  Vega 10 GLXLA
 	687f  Vega 10 XL/XT [Radeon RX Vega 56/64]
 		1002 0b36  RX Vega64
 		1002 6b76  RX Vega64
@@ -3607,6 +3613,9 @@
 	7347  Navi 14 [Radeon Pro W5500M]
 	734f  Navi 14 [Radeon Pro W5300M]
 	7360  Navi 12 [Radeon Pro 5600M]
+	7388  Arcturus GL-XL
+	738c  Arcturus GL-XL [AMD Instinct MI100]
+	738e  Arcturus GL-XL
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
 	73c3  Navi 22
 	73df  Navi 22
@@ -4682,6 +4691,7 @@
 	149b  Starship Reserved SSP
 	149c  Matisse USB 3.0 Host Controller
 		1462 7c37  X570-A PRO motherboard
+	149d  Vangogh CVIP
 	1510  Family 14h Processor Root Complex
 		174b 1001  PURE Fusion Mini
 	1512  Family 14h Processor Root Port
@@ -4867,6 +4877,8 @@
 	1642  Renoir WLAN
 	1643  Renoir BT
 	1644  Renoir I2S
+	1648  VanGogh Root Complex
+	1649  VanGogh PSP/CCP
 	1700  Family 12h/14h Processor Function 0
 	1701  Family 12h/14h Processor Function 1
 	1702  Family 12h/14h Processor Function 2
@@ -30997,6 +31009,8 @@
 		8086 1316  WiMAX/WiFi Link 5150 ABG
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
+	4680  AlderLake-S GT1
+	46a0  AlderLake-P GT2
 	4905  DG1 [Iris Xe MAX Graphics]
 	4906  DG1 [Iris Xe Pod]
 	4907  SG1 [Server GPU SG-18M]
@@ -31752,17 +31766,17 @@
 	9a2f  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #2
 	9a31  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3
 	9a33  Tiger Lake Trace Hub
-	9a49  Iris Xe Graphics
-	9b41  UHD Graphics
+	9a49  TigerLake GT2 [Iris Xe Graphics]
+	9b41  CometLake-U GT2 [UHD Graphics]
 	9b44  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b53  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b61  Comet Lake-U v1 4c Host Bridge/DRAM Controller
 	9b63  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
-	9bc4  UHD Graphics
-	9bc5  UHD Graphics 630
-	9bc8  UHD Graphics 630
+	9bc4  CometLake-H GT2 [UHD Graphics]
+	9bc5  CometLake-S GT2 [UHD Graphics 630]
+	9bc8  CometLake-S GT2 [UHD Graphics 630]
 	9c00  8 Series SATA Controller 1 [IDE mode]
 	9c01  8 Series SATA Controller 1 [IDE mode]
 	9c02  8 Series SATA Controller 1 [AHCI mode]
