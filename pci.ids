@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.01.11
-#	Date:    2021-01-11 03:15:01
+#	Version: 2021.01.31
+#	Date:    2021-01-31 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -705,8 +705,7 @@
 		1d49 0200  ThinkSystem 430-8i SAS/SATA 12Gb HBA
 		1d49 0202  ThinkSystem 430-8e SAS/SATA 12Gb HBA
 		1d49 0204  ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA
-# PCIe switch SES management endpoint
-	00b2  PEX880xx PCIe Gen 4 Switch SES management endpoint
+	00b2  PCIe Switch management endpoint
 		1d49 0003  ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00bf  SAS3404 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
@@ -1163,6 +1162,7 @@
 		1179 ff50  Satellite P305D-S8995E
 		1458 a022  GA-MA770-DS3rev2.0 Motherboard
 		1458 a102  GA-880GMA-USB3
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		17f2 5000  KI690-AM2 Motherboard
 	4384  SBx00 PCI to PCI Bridge
 	4385  SBx00 SMBus Controller
@@ -1175,6 +1175,7 @@
 		1179 ff50  Satellite P305D-S8995E
 		1458 4385  GA-MA770-DS3rev2.0 Motherboard
 		1462 7368  K9AG Neo2
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 		174b 1001  PURE Fusion Mini
 		17f2 5000  KI690-AM2 Motherboard
@@ -1225,6 +1226,7 @@
 		1043 8389  M4A785TD Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1458 b002  GA-MA770-DS3rev2.0 Motherboard
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		1849 4390  Motherboard (one of many)
 	4391  SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode]
 		103c 1609  ProLiant MicroServer N36L
@@ -1248,6 +1250,7 @@
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1458 5004  GA-880GMA-USB3
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 		174b 1001  PURE Fusion Mini
 	4397  SB7x0/SB8x0/SB9x0 USB OHCI0 Controller
@@ -1258,12 +1261,14 @@
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1458 5004  GA-880GMA-USB3
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 		174b 1001  PURE Fusion Mini
 	4398  SB7x0 USB OHCI1 Controller
 		1019 2120  A785GM-M
 		1043 82ef  M3A78-EH Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 	4399  SB7x0/SB8x0/SB9x0 USB OHCI2 Controller
 		1019 2120  A785GM-M
@@ -1271,6 +1276,7 @@
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1458 5004  GA-880GMA-USB3
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		174b 1001  PURE Fusion Mini
 	439c  SB7x0/SB8x0/SB9x0 IDE Controller
 		1002 4392  MSI MS-7713 motherboard
@@ -1278,6 +1284,7 @@
 		103c 1609  ProLiant MicroServer N36L
 		1043 82ef  M3A78-EH Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
+		1462 7596  760GM-E51(MS-7596) Motherboard
 	439d  SB7x0/SB8x0/SB9x0 LPC host controller
 		1019 2120  A785GM-M
 		103c 1609  ProLiant MicroServer N36L
@@ -1285,6 +1292,7 @@
 		1043 82ef  M3A78-EH Motherboard
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
+		1462 7596  760GM-E51(MS-7596) Motherboard
 		174b 1001  PURE Fusion Mini
 	43a0  SB700/SB800/SB900 PCI to PCI bridge (PCIE port 0)
 	43a1  SB700/SB800/SB900 PCI to PCI bridge (PCIE port 1)
@@ -2592,6 +2600,7 @@
 		1043 04dd  STRIX R9 390
 		148c 2358  Radeon R9 390
 		174b e324  Sapphire Nitro R9 390
+	67b8  Hawaii XT [Radeon R9 290X Engineering Sample]
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
 	67c0  Ellesmere [Radeon Pro WX 7100 Mobile]
@@ -3619,6 +3628,7 @@
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
 	73c3  Navi 22
 	73df  Navi 22
+	73e0  Navi 23
 	73ff  Navi 23
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
@@ -3827,6 +3837,7 @@
 	95cd  RV620 GL [FirePro 2450]
 	95cf  RV620 GL [FirePro 2260]
 	960f  RS780 HDMI Audio [Radeon 3000/3100 / HD 3200/3300]
+		1462 7596  760GM-E51(MS-7596) Motherboard
 	9610  RS780 [Radeon HD 3200]
 		1458 d000  GA-MA78GM-S2H Motherboard
 	9611  RS780C [Radeon 3100]
@@ -3835,6 +3846,8 @@
 	9614  RS780D [Radeon HD 3300]
 	9615  RS780E [Radeon HD 3200]
 	9616  RS780L [Radeon 3000]
+# ID is probably a copy-paste error by a MSI developer from another mainboard, since all other ID numbers on this mainboard including the sub-device of this device has used subsystem ID 1462:7596
+		1462 7501  760GM-E51(MS-7596) Motherboard
 	9640  Sumo [Radeon HD 6550D]
 	9641  Sumo [Radeon HD 6620G]
 	9642  SuperSumo [Radeon HD 6370D]
@@ -7057,6 +7070,7 @@
 		103c 17e8  SN1000Q 16Gb Dual Port Fibre Channel Adapter
 		103c 1939  QMH2672 16Gb Dual Port Fibre Channel Adapter
 		103c 8002  3830C 16G Fibre Channel Host Bus Adapter
+		1077 0241  QLE2670 16Gb Single Port Fibre Channel Adapter
 	2071  ISP2714-based 16/32Gb Fibre Channel to PCIe Adapter
 		1077 0283  QLE2764 Quad Port 32Gb Fibre Channel to PCIe Adapter
 		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
@@ -7065,6 +7079,9 @@
 	2081  ISP2814-based 64/32G Fibre Channel to PCIe Controller
 		1077 02e1  QLE2874 Quad Port 64GFC PCIe Gen4 x16 Adapter
 		1077 02e3  QLE2774 Quad Port 32GFC PCIe Gen4 x16 Adapter
+	2089  ISP2854-based 64/32G Fibre Channel to PCIe Controller with StorCryption
+		1077 02e8  QLE2884 Quad Port 64GFC PCIe Gen4 x16 Adapter with StorCryption
+		1077 02ea  QLE2784 Quad Port 32GFC PCIe Gen4 x16 Adapter with StorCryption
 	2100  QLA2100 64-bit Fibre Channel Adapter
 		1077 0001  QLA2100 64-bit Fibre Channel Adapter
 	2200  QLA2200 64-bit Fibre Channel Adapter
@@ -7094,6 +7111,11 @@
 		1077 02f3  QLogic 2x32Gb QLE2772 FC HBA
 		1590 02d3  SN1610Q - 1P Enhanced 32GFC Single Port Fibre Channel Host Bus Adapter
 		1590 02d4  SN1610Q – 2P Enhanced 32GFC Dual Port Fibre Channel Host Bus Adapter
+	2289  ISP2852-based 64/32G Fibre Channel to PCIe Controller with StorCryption
+		1077 02e9  QLE2882 Dual Port 64GFC PCIe Gen4 x8 Adapter with StorCryption
+		1077 02eb  QLE2782 Dual Port 32GFC PCIe Gen4 x8 Adapter with StorCryption
+		1077 02ef  QLE2880 Single Port 64GFC PCIe Gen4 x8 Adapter with StorCryption
+		1077 02f1  QLE2780 Single Port 32GFC PCIe Gen4 x8 Adapter with StorCryption
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
@@ -11994,8 +12016,8 @@
 	1c2d  GP106M
 	1c30  GP106GL [Quadro P2000]
 	1c31  GP106GL [Quadro P2200]
-	1c35  GP106
-	1c36  GP106
+	1c35  GP106M [Quadro P2000 Mobile]
+	1c36  GP106 [P106M]
 	1c60  GP106BM [GeForce GTX 1060 Mobile 6GB]
 		103c 8390  GeForce GTX 1060 Max-Q 6GB
 	1c61  GP106BM [GeForce GTX 1050 Ti Mobile]
@@ -12141,6 +12163,7 @@
 	1f98  TU117M [GeForce MX450]
 	1f99  TU117M
 	1f9c  TU117M [GeForce MX450]
+	1f9d  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 	1fae  TU117GL
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
@@ -12150,6 +12173,7 @@
 	1ff9  TU117GLM [Quadro T1000 Mobile]
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
+	20b2  GA100 [A100 SXM4 80GB]
 	20be  GA100 [GRID A100A]
 	20bf  GA100 [GRID A100B]
 	20f1  GA100 [A100 PCIe 40GB]
@@ -12193,8 +12217,8 @@
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
-	2501  GA106 [GeForce RTX 3060 12GB]
-	2503  GA106 [GeForce RTX 3060 6GB]
+	2501  GA106 [GeForce RTX 3060]
+	2503  GA106 [GeForce RTX 3060]
 	2505  GA106
 	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
@@ -18369,6 +18393,7 @@
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
+	a80a  NVMe SSD Controller PM9A1/980PRO
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -21179,6 +21204,10 @@
 	0245  PCA7428CE_F1 - Analog Inputs isolated
 	0303  PCD-7006C Digital Input & Output PCI Card
 	0800  PCD8006 - PCIe digital Inputs/Outputs
+	0840  PCA-8428 General-purpose multifunctional PCIe card with 8 analog inputs and 2 analog outputs
+	0841  PCA-8429 General-purpose multifunctional PCIe card with 8 analog inputs
+	0842  PCA-8438 General-purpose multifunctional PCIe card with 16 analog inputs and 2 analog outputs
+	0843  PCA-8439 General-purpose multifunctional PCIe card with 16 analog inputs
 	ff00  CTU CAN FD PCIe Card
 1761  Pickering Interfaces Ltd
 1771  InnoVISION Multimedia Ltd.
@@ -23091,6 +23120,7 @@
 	000d  PBlaze5 520/526
 	003d  PBlaze5 920/926
 	003e  PBlaze6 6920
+		1c5f 0a31  NVMe SSD PBlaze6 6920 3840GB 2.5" U.2
 	0540  PBlaze4 NVMe SSD
 	0550  PBlaze5 700/900
 	0555  PBlaze5 510/516
@@ -23174,6 +23204,7 @@
 1d00  Pure Storage
 1d05  Tongfang Hongkong Limited
 1d0f  Amazon.com, Inc.
+	8061  NVMe EBS Controller
 	cd01  NVMe SSD Controller
 	ec20  Elastic Network Adapter (ENA)
 	efa0  Elastic Fabric Adapter (EFA)
@@ -23331,7 +23362,7 @@
 	0100  RK3399 PCI Express Root Port
 	1808  RK1808 Neural Network Processor Card
 1d8f  Enyx
-1d93  YADRO (KNS Group)
+1d93  YADRO
 1d94  Chengdu Haiguang IC Design Co., Ltd.
 	1450  Root Complex
 	1451  I/O Memory Management Unit
@@ -23387,61 +23418,61 @@
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
 		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
-		1dd8 4007  DSP DSC-25 10/25G 2p OCP Card
-		1dd8 4008  DSC-25 10/25G 2-port SFP28 x8 4GB RAM 8GB eMMC
+		1dd8 4007  DSP DSC-25 Ent 10/25G OCP3 Card
+		1dd8 4008  DSP DSC-25 10/25G 2p SFP28 Card
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
-		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1001  DSC Virtual Downstream Port
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
 		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
-		1dd8 4007  DSP DSC-25 10/25G 2p OCP Card
-		1dd8 4008  DSC-25 10/25G 2-port SFP28 x8 4GB RAM 8GB eMMC
+		1dd8 4007  DSP DSC-25 Ent 10/25G OCP3 Card
+		1dd8 4008  DSP DSC-25 10/25G 2p SFP28 Card
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
-		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1002  DSC Ethernet Controller
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
 		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
-		1dd8 4007  DSP DSC-25 10/25G 2p OCP Card
-		1dd8 4008  DSC-25 10/25G 2-port SFP28 x8 4GB RAM 8GB eMMC
+		1dd8 4007  DSP DSC-25 Ent 10/25G OCP3 Card
+		1dd8 4008  DSP DSC-25 10/25G 2p SFP28 Card
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
-		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1003  DSC Ethernet Controller VF
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
 		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
-		1dd8 4007  DSP DSC-25 10/25G 2p OCP Card
-		1dd8 4008  DSC-25 10/25G 2-port SFP28 x8 4GB RAM 8GB eMMC
+		1dd8 4007  DSP DSC-25 Ent 10/25G OCP3 Card
+		1dd8 4008  DSP DSC-25 10/25G 2p SFP28 Card
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
-		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1004  DSC Management Controller
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
 		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
-		1dd8 4007  DSP DSC-25 10/25G 2p OCP Card
-		1dd8 4008  DSC-25 10/25G 2-port SFP28 x8 4GB RAM 8GB eMMC
+		1dd8 4007  DSP DSC-25 Ent 10/25G OCP3 Card
+		1dd8 4008  DSP DSC-25 10/25G 2p SFP28 Card
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
-		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 	1007  DSC Storage Accelerator
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
 		1dd8 4002  Naples 25Gb 2-port SFP28 x8 4GB
-		1dd8 4007  DSP DSC-25 10/25G 2p OCP Card
-		1dd8 4008  DSC-25 10/25G 2-port SFP28 x8 4GB RAM 8GB eMMC
+		1dd8 4007  DSP DSC-25 Ent 10/25G OCP3 Card
+		1dd8 4008  DSP DSC-25 10/25G 2p SFP28 Card
 		1dd8 400a  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 400c  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
-		1dd8 400d  DSP DSC-100 100G 2p QSFP28 Card
+		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 1de0  Groq
 # rename due to conflict with a term in use by another company for an entirely different product.
@@ -23465,6 +23496,40 @@
 	e00a  eMAG PCI Express Root Port 5
 	e00b  eMAG PCI Express Root Port 6
 	e00c  eMAG PCI Express Root Port 7
+# Root Complex A (RCA)
+	e100  Altra PCI Express Root Complex A
+# RCA port 0
+	e101  Altra PCI Express Root Port a0
+# RCA port 1
+	e102  Altra PCI Express Root Port a1
+# RCA port 2
+	e103  Altra PCI Express Root Port a2
+# RAC port 3
+	e104  Altra PCI Express Root Port a3
+# RCA port 4
+	e105  Altra PCI Express Root Port a4
+# RCA port 5
+	e106  Altra PCI Express Root Port a5
+# RCA port 6
+	e107  Altra PCI Express Root Port a6
+# Root Complex B (RCB)
+	e110  Altra PCI Express Root Complex B
+# RCB port 0
+	e111  Altra PCI Express Root Port b0
+# RCB port 1
+	e112  Altra PCI Express Root Port b1
+# RCB port 2
+	e113  Altra PCI Express Root Port b2
+# RCB port 3
+	e114  Altra PCI Express Root Port b3
+# RCB port 4
+	e115  Altra PCI Express Root Port b4
+# RCB port 5
+	e116  Altra PCI Express Root Port b5
+# RCB port 6
+	e117  Altra PCI Express Root Port b6
+# RCB port 7
+	e118  Altra PCI Express Root Port b7
 1df3  Ethernity Networks
 	0201  ACE-NIC40 Programmable Network Accelerator
 		1df3 0001  ENA1040
@@ -25112,7 +25177,7 @@
 		1028 1fe9  Express Flash NVMe 4.0TB HHHL AIC (P4600)
 	0b26  Thunderbolt 4 Bridge [Goshen Ridge 2020]
 	0b27  Thunderbolt 4 USB Controller [Goshen Ridge 2020]
-	0b60  NVMe DC SSD [3DNAND, Beta Rock Controller]
+	0b60  NVMe DC SSD [3DNAND, Sentinel Rock Controller]
 		1028 2060  NVMe SED MU U.2 1.6TB (P5600)
 		1028 2061  NVMe SED MU U.2 3.2TB (P5600)
 		1028 2062  NVMe SED MU U.2 6.4TB (P5600)
@@ -25125,6 +25190,7 @@
 		1028 2102  NVMe RI U.2 1.92TB (P5500)
 		1028 2103  NVMe RI U.2 3.84TB (P5500)
 		1028 2104  NVMe RI U.2 7.68TB (P5500)
+		8086 8008  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P5510)
 	0be0  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 	0be1  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 		105b 0d7c  D270S/D250S Motherboard
@@ -26415,6 +26481,8 @@
 		17aa 0000  ThinkServer X710 AnyFabric for 10GbE SFP+
 		17aa 4001  ThinkServer X710-4 AnyFabric for 10GbE SFP+
 		17aa 4002  ThinkServer X710-2 AnyFabric for 10GbE SFP+
+		193d 1020  NIC-ETH561F-sL-4x10G
+		193d 1021  NIC-ETH561F-sL-2x10G
 		19e5 d11c  Ethernet 2-port X710 10Gb SFP+ Adapter SP330
 		1bd4 0056  Ethernet Network Adapter X710-BM2 for OCP NIC 3.0
 		8086 0000  Ethernet Converged Network Adapter X710
@@ -29698,6 +29766,7 @@
 	2a41  Mobile 4 Series Chipset PCI Express Graphics Port
 		e4bf cc4d  CCM-BOOGIE
 	2a42  Mobile 4 Series Chipset Integrated Graphics Controller
+		1028 02aa  Dell Inspiron 1545
 		17aa 2112  ThinkPad T400
 		e4bf cc4d  CCM-BOOGIE
 	2a43  Mobile 4 Series Chipset Integrated Graphics Controller
@@ -30113,8 +30182,8 @@
 		8086 4210  Dual Band Wireless AC 3165
 	3166  Dual Band Wireless-AC 3165 Plus Bluetooth
 		8086 4210  Dual Band Wireless-AC 3165
-	3184  UHD Graphics 605
-	3185  UHD Graphics 605
+	3184  GeminiLake [UHD Graphics 605]
+	3185  GeminiLake [UHD Graphics 600]
 	318c  Celeron/Pentium Silver Processor Dynamic Platform and Thermal Framework Processor Participant
 	318e  Celeron/Pentium Silver Processor NorthPeak
 	3190  Celeron/Pentium Silver Processor Gaussian Mixture Model
@@ -30859,17 +30928,17 @@
 	3e81  8th Gen Core Processor PCIe Controller (x16)
 	3e85  8th Gen Core Processor PCIe Controller (x8)
 	3e89  8th Gen Core Processor PCIe Controller (x4)
-	3e90  UHD Graphics 610
-	3e91  UHD Graphics 630
-	3e92  UHD Graphics 630 (Desktop)
+	3e90  CoffeeLake-S GT1 [UHD Graphics 610]
+	3e91  CoffeeLake-S GT2 [UHD Graphics 630]
+	3e92  CometLake-S GT2 [UHD Graphics 630]
 		1028 0869  Vostro 3470
-	3e93  UHD Graphics 610
-	3e96  HD Graphics P630
-	3e98  UHD Graphics 630 (Desktop 9 Series)
-	3e9b  UHD Graphics 630 (Mobile)
-	3ea0  UHD Graphics 620 (Whiskey Lake)
+	3e93  CoffeeLake-S GT1 [UHD Graphics 610]
+	3e96  CoffeeLake-S GT2 [UHD Graphics P630]
+	3e98  CoffeeLake-S GT2 [UHD Graphics 630]
+	3e9b  CoffeeLake-H GT2 [UHD Graphics 630]
+	3ea0  WhiskeyLake-U GT2 [UHD Graphics 620]
 		1028 089e  Inspiron 5482
-	3ea5  Iris Plus Graphics 655
+	3ea5  CoffeeLake-U GT3e [Iris Plus Graphics 655]
 	3ec2  8th Gen Core Processor Host Bridge/DRAM Registers
 		1028 0869  Vostro 3470
 		1043 8694  PRIME H310M-D
@@ -32076,6 +32145,7 @@
 	a0a9  Tiger Lake-LP Serial IO UART Controller #1
 	a0ab  Tiger Lake-LP Serial IO SPI Controller #1
 	a0b0  Tiger Lake-LP PCI Express Root Port #9
+	a0bd  Tigerlake PCH-LP PCI Express Root Port #6
 	a0bf  Tiger Lake-LP PCI Express Root Port #8
 	a0c5  Tiger Lake-LP Serial IO I2C Controller #4
 	a0c6  Tiger Lake-LP Serial IO I2C Controller #5
