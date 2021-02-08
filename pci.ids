@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.01.31
-#	Date:    2021-01-31 03:15:02
+#	Version: 2021.02.08
+#	Date:    2021-02-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1921,6 +1921,7 @@
 	6607  Mars LE [Radeon HD 8530M / R5 M240]
 	6608  Oland GL [FirePro W2100]
 		13cc 3d28  MXRT-2600
+	6609  Oland GL [FirePro W2100 / Barco MXRT 2600]
 	6610  Oland XT [Radeon HD 8670 / R7 250/350]
 		1019 0030  Radeon HD 8670
 		1028 2120  Radeon R7 250
@@ -3626,6 +3627,7 @@
 	738c  Arcturus GL-XL [AMD Instinct MI100]
 	738e  Arcturus GL-XL
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
+		1eae 6701  XFX Speedster MERC 319 AMD Radeon RX 6800 XT Black
 	73c3  Navi 22
 	73df  Navi 22
 	73e0  Navi 23
@@ -7102,6 +7104,7 @@
 		1590 0203  StoreFabric SN1600Q 32Gb Single Port Fibre Channel Host Bus Adapter
 		1590 0204  StoreFabric SN1600Q 32Gb Dual Port Fibre Channel Host Bus Adapter
 		1590 022d  5830C 32Gb Dual Port Fibre Channel Adapter
+		193d 100d  NIC-FC680i-Mb-2x16G
 	2281  ISP2812-based 64/32G Fibre Channel to PCIe Controller
 		1077 02e2  QLE2872 Dual Port 64GFC PCIe Gen4 x8 Adapter
 		1077 02e4  QLE2772 Dual Port 32GFC PCIe Gen4 x8 Adapter
@@ -7208,6 +7211,8 @@
 		1590 021f  10/25GbE 2P QL41262HMCU-HP Adapter
 		1590 0220  10/25GbE 2P QL41122HLRJ-HP Adapter
 		1590 02bd  10Gb 2P 524SFP+ NIC
+		193d 1030  NIC-ETH681i-Mb-2x25G
+		193d 1032  NIC-ETH682i-Mb-2x25G
 	8080  FastLinQ QL41000 Series 10/25/40/50GbE Controller (FCoE)
 		1077 0001  10GE 2P QL41162HxRJ-DE Adapter
 		1077 0002  10GE 2P QL41112HxCU-DE Adapter
@@ -12199,6 +12204,7 @@
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
 	2235  GA102GL [RTX A40]
+	2236  GA102GL
 	223f  GA102GL
 	228b  GA104 High Definition Audio Controller
 	2321  GA103
@@ -12214,6 +12220,7 @@
 	24ad  GA104 [GeForce RTX 3060 Engineering Sample]
 	24af  GA104 [GeForce RTX 3070 Engineering Sample]
 	24b6  GA104
+	24b8  GA104
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
@@ -12224,6 +12231,8 @@
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
 	2560  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	2583  GA107 [GeForce RTX 3050]
+	25a2  GA107
+	25a4  GA107
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -12285,6 +12294,7 @@
 		1590 0213  StoreFabric SN1200E 1-Port 16Gb Fibre Channel Adapter
 		1590 0214  StoreFabric SN1200E 2-Port 16Gb Fibre Channel Adapter
 		1590 022e  Synergy 5330C 2-Port 32Gb Fibre Channel Mezz Card
+		193d 1060  NIC-FC730i-Mb-2P
 	f011  Saturn: LightPulse Fibre Channel Host Adapter
 	f015  Saturn: LightPulse Fibre Channel Host Adapter
 	f085  LP850 Fibre Channel Host Adapter
@@ -18995,6 +19005,7 @@
 		103c 339d  Ethernet 10Gb 2-port 530SFP+ Adapter
 		193d 1003  530F-B
 		193d 1006  530F-L
+		193d 100f  NIC-ETH522i-Mb-2x10G
 	1690  NetXtreme BCM57760 Gigabit Ethernet PCIe
 	1691  NetLink BCM57788 Gigabit Ethernet PCIe
 		1028 04aa  XPS 8300
@@ -19021,6 +19032,7 @@
 	16a0  NetLink BCM5785 Fast Ethernet
 	16a1  BCM57840 NetXtreme II 10 Gigabit Ethernet
 		1043 866e  PEB-10G/57840-2T 10GBase-T Network Adapter
+		193d 100b  NIC-ETH521i-Mb-4x10G
 	16a2  BCM57840 NetXtreme II 10/20-Gigabit Ethernet
 		103c 1916  FlexFabric 20Gb 2-port 630FLB Adapter
 		103c 1917  FlexFabric 20Gb 2-port 630M Adapter
@@ -20271,12 +20283,14 @@
 		15b3 0021  MCX4421A-ACQN ConnectX-4 Lx EN OCP,2x25G
 		15b3 0025  ConnectX-4 Lx 25 GbE Dual Port SFP28 rNDC
 		193d 100a  620F-B
+		193d 1031  NIC-ETH640i-Mb-2x25G
 	1016  MT27710 Family [ConnectX-4 Lx Virtual Function]
 	1017  MT27800 Family [ConnectX-5]
 		15b3 0006  ConnectX®-5 EN network interface card, 100GbE single-port QSFP28, PCIe3.0 x16, tall bracket; MCX515A-CCAT
 		15b3 0007  Mellanox ConnectX®-5 MCX516A-CCAT
 		15b3 0020  ConnectX®-5 EN network interface card, 10/25GbE dual-port SFP28, PCIe3.0 x8, tall bracket ; MCX512A-ACAT
 		15b3 0068  ConnectX®-5 EN network interface card for OCP2.0, Type 1, with host management, 25GbE dual-port SFP28, PCIe3.0 x8, no bracket Halogen free ; MCX542B-ACAN
+		193d 1051  NIC-IB1040i-Mb-2P
 	1018  MT27800 Family [ConnectX-5 Virtual Function]
 	1019  MT28800 Family [ConnectX-5 Ex]
 		15b3 0008  ConnectX-5 Ex EN network interface card, 100GbE dual-port QSFP28, PCIe4.0 x16, tall bracket; MCX516A-CDAT
@@ -20397,7 +20411,7 @@
 15b7  Sandisk Corp
 	2001  Skyhawk Series NVME SSD
 	5001  WD Black NVMe SSD
-	5002  WD Black 2018 / PC SN720 NVMe SSD
+	5002  WD Black 2018/SN750 / PC SN720 NVMe SSD
 	5003  WD Blue SN500 / PC SN520 NVMe SSD
 	5004  PC SN520 NVMe SSD
 	5005  PC SN520 NVMe SSD
@@ -20407,6 +20421,7 @@
 	500b  PC SN530 NVMe SSD
 		1414 500b  Xbox Series X
 	500d  WD Ultrastar DC SN340 NVMe SSD
+	5011  WD Black SN850
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -22868,6 +22883,7 @@
 	9172  88SE9172 SATA 6Gb/s Controller
 	9178  88SE9170 PCIe SATA 6Gb/s Controller
 	917a  88SE9172 SATA III 6Gb/s RAID Controller
+	9182  88SE9182 PCIe 2.0 x2 2-port SATA 6 Gb/s Controller
 	9183  88SS9183 PCIe SSD Controller
 	9192  88SE9172 SATA III 6Gb/s RAID Controller
 	91a0  88SE912x SATA 6Gb/s Controller [IDE mode]
@@ -23335,6 +23351,9 @@
 	1014  AR-MAN-U280 [Manitou Class Accelerator for U280]
 	1015  AR-ARK-BBDEV-FX0 [Arkville 32B DPDK Baseband Device]
 	1016  AR-ARK-BBDEV-FX1 [Arkville 64B DPDK Baseband Device]
+	1017  AR-ARK-FX1 [Arkville 64B Multi-Homed Primary Endpoint]
+	1018  AR-ARK-FX1 [Arkville 64B Multi-Homed Secondary Endpoint]
+	1019  AR-ARK-FX1 [Arkville 64B Multi-Homed Tertiary Endpoint]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -23512,6 +23531,8 @@
 	e106  Altra PCI Express Root Port a5
 # RCA port 6
 	e107  Altra PCI Express Root Port a6
+# RCA port 7
+	e108  Altra PCI Express Root Port a7
 # Root Complex B (RCB)
 	e110  Altra PCI Express Root Complex B
 # RCB port 0
@@ -23660,12 +23681,17 @@
 # aka SED Systems
 1e94  Calian SED
 1e95  Solid State Storage Technology Corporation
+1ea0  Tencent Technology (Shenzhen) Company Limited
+	2a16  Cloud Intelligent Inference Controller
 1eab  Hefei DATANG Storage Technology Co.,LTD.
 	300a  NVMe SSD Controller 300A
 	300b  NVMe SSD Controller 300B
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
+1ed8  Digiteq Automotive
+	0101  FG4 PCIe Frame Grabber
+1ed9  Myrtle.ai
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -24586,6 +24612,9 @@
 	02a3  Comet Lake PCH-LP SMBus Host Controller
 	02a4  Comet Lake SPI (flash) Controller
 	02a6  Comet Lake North Peak
+	02b1  Comet Lake PCI Express Root Port #10
+	02b3  Comet Lake PCI Express Root Port #12
+	02c5  Comet Lake Serial IO I2C Host Controller
 	02c8  Comet Lake PCH-LP cAVS
 	02d3  Comet Lake SATA AHCI Controller
 	02e0  Comet Lake Management Engine Interface
@@ -26463,6 +26492,7 @@
 	156f  Ethernet Connection I219-LM
 		1028 06dc  Latitude E7470
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 	1570  Ethernet Connection I219-V
 	1571  Ethernet Virtual Function 700 Series
 	1572  Ethernet Controller X710 for 10GbE SFP+
@@ -26529,6 +26559,7 @@
 		1059 0170  RD-01213 10GbE interface
 		1590 0000  Ethernet 2-port 563i Adapter
 		1590 00f8  Ethernet 2-port 563i Adapter
+		193d 100e  NIC-ETH561i-Mb-4x10G
 		8086 0000  Ethernet Converged Network Adapter XL710-Q2
 	1583  Ethernet Controller XL710 for 40GbE QSFP+
 		1028 0000  Ethernet 40G 2P XL710 QSFP+ rNDC
@@ -26840,6 +26871,7 @@
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 	1918  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1919  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Imaging Unit
 		1028 06d6  Latitude 7275 tablet
@@ -31970,6 +32002,7 @@
 	9d16  Sunrise Point-LP PCI Express Root Port #7
 	9d17  Sunrise Point-LP PCI Express Root Port #8
 	9d18  Sunrise Point-LP PCI Express Root Port #9
+		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
 	9d19  Sunrise Point-LP PCI Express Root Port #10
 	9d1a  Sunrise Point-LP PCI Express Root Port #11
@@ -31980,6 +32013,7 @@
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
@@ -32039,6 +32073,7 @@
 		17aa 382a  B51-80 Laptop
 	9d3d  Sunrise Point-LP Active Management Technology - SOL
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 	9d43  Sunrise Point-LP LPC Controller
 		17aa 382a  B51-80 Laptop
 	9d46  LPC/eSPI Controller
@@ -32048,6 +32083,7 @@
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 	9d4e  Sunrise Point LPC Controller/eSPI Controller
 		17aa 225d  ThinkPad T480
 	9d50  Sunrise Point LPC Controller
@@ -32080,6 +32116,7 @@
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
 		103c 8079  EliteBook 840 G3
+		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
 	9d71  Sunrise Point-LP HD Audio
 		1025 1094  Acer Aspire E5-575G
@@ -32493,25 +32530,52 @@
 8088  Beijing Wangxun Technology Co., Ltd.
 	0101  WX1860A2 Gigabit Ethernet Controller
 		8088 0201  Dual-Port Ethernet Network Adaptor SF200T
+		8088 4201  Dual-Port Ethernet Network Adaptor SF200T (WOL)
+		8088 8201  Dual-Port Ethernet Network Adaptor SF200T (NCSI)
+		8088 c201  Dual-Port Ethernet Network Adaptor SF200T (WOL, NCSI)
 	0102  WX1860A2S Gigabit Ethernet Controller
 		8088 0210  Dual-Port Ethernet Network Adaptor SF200T-S
 	0103  WX1860A4 Gigabit Ethernet Controller
 		8088 0401  Qual-Port Ethernet Network Adaptor SF400T
 		8088 0440  Qual-Port Ethernet Network Adaptor SF400-OCP
+		8088 4103  Quad-Port Ethernet Network Adaptor SF400T (WOL)
+		8088 8103  Quad-Port Ethernet Network Adaptor SF400T (NCSI)
+		8088 c103  Quad-Port Ethernet Network Adaptor SF400T (WOL, NCSI)
 	0104  WX1860A4S Gigabit Ethernet Controller
 		8088 0410  Qual-Port Ethernet Network Adaptor SF400T-S
 	0105  WX1860AL2 Gigabit Ethernet Controller
 		8088 0202  Dual-Port Ethernet Network Adaptor SF200HT
+		8088 4202  Dual-Port Ethernet Network Adaptor SF200HT (WOL)
+		8088 8202  Dual-Port Ethernet Network Adaptor SF200HT (NCSI)
+		8088 c202  Dual-Port Ethernet Network Adaptor SF200HT (WOL, NCSI)
 	0106  WX1860AL2S Gigabit Ethernet Controller
 		8088 0220  Dual-Port Ethernet Network Adaptor SF200HT-S
 	0107  WX1860AL4 Gigabit Ethernet Controller
 		8088 0402  Qual-Port Ethernet Network Adaptor SF400HT
+		8088 4402  Quad-Port Ethernet Network Adaptor SF400HT (WOL)
+		8088 8402  Quad-Port Ethernet Network Adaptor SF400HT (NCSI)
+		8088 c402  Quad-Port Ethernet Network Adaptor SF400HT (WOL, NCSI)
 	0108  WX1860AL4S Gigabit Ethernet Controller
 		8088 0420  Qual-Port Ethernet Network Adaptor SF400HT-S
+	0109  WX1860-LC Gigabit Ethernet Controller
+	010a  WX1860A1 Gigabit Ethernet Controller
 # add new device ID
 	010b  WX1860AL1 Gigabit Ethernet Controller
+		8088 0102  Single-Port Ethernet Network Adaptor SF100HT
+		8088 4102  Single-Port Ethernet Network Adaptor SF100HT (WOL)
+		8088 8102  Single-Port Ethernet Network Adaptor SF100HT (NCSI)
+		8088 c102  Single-Port Ethernet Network Adaptor SF100HT (WOL, NCSI)
+	0111  WX1860A2 Ethernet Controller Virtual Function
+	0113  WX1860A4 Ethernet Controller Virtual Function
+	0115  WX1860AL2 Ethernet Controller Virtual Function
+	0117  WX1860AL4 Ethernet Controller Virtual Function
+	0119  WX1860-LC Gigabit Ethernet Controller Virtual Function
+	011a  WX1860A1 Gigabit Ethernet Controller Virtual Function
+	011b  WX1860AL1 Gigabit Ethernet Controller Virtual Function
+	1000  Ethernet Controller RP1000 Virtual Function for 10GbE SFP+
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
 		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
+	2000  Ethernet Controller RP2000 Virtual Function for 10GbE SFP+
 	2001  Ethernet Controller RP2000 for 10GbE SFP+
 		8088 2000  Ethernet Network Adaptor RP2000 for 10GbE SFP+
 80ee  InnoTek Systemberatung GmbH
