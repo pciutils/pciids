@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.02.08
-#	Date:    2021-02-08 03:15:01
+#	Version: 2021.02.12
+#	Date:    2021-02-12 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4652,6 +4652,7 @@
 	1450  Family 17h (Models 00h-0fh) Root Complex
 	1451  Family 17h (Models 00h-0fh) I/O Memory Management Unit
 	1452  Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+		ea50 ce19  mCOM10-L1900
 	1453  Family 17h (Models 00h-0fh) PCIe GPP Bridge
 	1454  Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
 	1455  Zeppelin/Renoir PCIe Dummy Function
@@ -4803,7 +4804,9 @@
 	15d5  FireFlight USB 3.1
 	15da  Raven/Raven2 PCIe Dummy Host Bridge
 	15db  Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus A
+		ea50 ce19  mCOM10-L1900
 	15dc  Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus B
+		ea50 ce19  mCOM10-L1900
 	15de  Raven/Raven2/FireFlight HD Audio Controller
 	15df  Family 17h (Models 10h-1fh) Platform Security Processor
 		1043 876b  PRIME Motherboard
@@ -23137,6 +23140,9 @@
 	003d  PBlaze5 920/926
 	003e  PBlaze6 6920
 		1c5f 0a31  NVMe SSD PBlaze6 6920 3840GB 2.5" U.2
+		1c5f 0a41  NVMe SSD PBlaze6 6920 7680GB 2.5" U.2
+		1c5f 4a31  NVMe SSD PBlaze6 6920 3200GB 2.5" U.2
+		1c5f 4a41  NVMe SSD PBlaze6 6920 6400GB 2.5" U.2
 	0540  PBlaze4 NVMe SSD
 	0550  PBlaze5 700/900
 	0555  PBlaze5 510/516
@@ -23692,6 +23698,7 @@
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
 1ed9  Myrtle.ai
+1ee9  SUSE LLC
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -24612,14 +24619,19 @@
 	02a3  Comet Lake PCH-LP SMBus Host Controller
 	02a4  Comet Lake SPI (flash) Controller
 	02a6  Comet Lake North Peak
+	02b0  Comet Lake PCI Express Root Port #9
 	02b1  Comet Lake PCI Express Root Port #10
 	02b3  Comet Lake PCI Express Root Port #12
+	02b4  Comet Lake PCI Express Root Port #13
+	02b8  Comet Lake PCI Express Root Port #1
+	02bc  Comet Lake PCI Express Root Port #5
 	02c5  Comet Lake Serial IO I2C Host Controller
 	02c8  Comet Lake PCH-LP cAVS
 	02d3  Comet Lake SATA AHCI Controller
 	02e0  Comet Lake Management Engine Interface
 	02e8  Serial IO I2C Host Controller
 	02e9  Comet Lake Serial IO I2C Host Controller
+	02ea  Comet Lake PCH-LP LPSS: I2C Controller #2
 	02ed  Comet Lake PCH-LP USB 3.1 xHCI Host Controller
 	02ef  Comet Lake PCH-LP Shared SRAM
 	02f0  Comet Lake PCH-LP CNVi WiFi
@@ -31849,8 +31861,10 @@
 	9622  Integrated RAID
 	9641  Integrated RAID
 	96a1  Integrated RAID
+	9a03  TigerLake-LP Dynamic Tuning Processor Participant
 	9a09  11th Gen Core Processor PCIe Controller
 	9a0b  Volume Management Device NVMe RAID Controller
+	9a0d  Tiger Lake-LP Telemetry Aggregator
 	9a13  Tiger Lake-LP Thunderbolt 4 USB Controller
 	9a14  11th Gen Core Processor Host Bridge/DRAM Registers
 	9a17  Tiger Lake-H Thunderbolt 4 USB Controller
