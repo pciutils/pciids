@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.02.12
-#	Date:    2021-02-12 03:15:01
+#	Version: 2021.02.17
+#	Date:    2021-02-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4184,12 +4184,12 @@
 		2646 0001  KNE100TX Fast Ethernet
 	000a  21230 Video Codec
 	000d  PBXGB [TGA2]
-	000f  DEFPA FDDI PCI-to-PDQ Interface Chip [PFI]
-		1011 def1  FDDI controller (DEFPA)
-		103c def1  FDDI controller (3X-DEFPA)
+	000f  PCI-to-PDQ Interface Chip [PFI] FDDI (DEFPA)
+		1011 def1  FDDIcontroller/PCI (DEFPA)
+		103c def1  FDDIcontroller/PCI (3X-DEFPA)
 	0014  DECchip 21041 [Tulip Pass 3]
 		1186 0100  DE-530+
-	0016  DGLPB [OPPO]
+	0016  ATMworks 350 Adapter [OPPO] (DGLPB)
 	0017  PV-PCI Graphics Controller (ZLXp-L)
 	0018  Memory Channel interface
 	0019  DECchip 21142/43
@@ -12558,6 +12558,7 @@
 		1028 0283  Vostro 220
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
+		1028 05d7  Alienware X51 R2
 		1028 06f2  Latitude 3470
 		1028 06f3  Latitude 3570
 		1028 0869  Vostro 3470
@@ -15557,6 +15558,7 @@
 	8073  PM8073 Tachyon SPCve 12G 16-port SAS/SATA controller
 	8531  PM8531 PFX 24xG3 Fanout PCIe Switches
 	8546  PM8546 B-FEIP PSX 96xG3 PCIe Storage Switch
+	8562  PM8562 Switchtec PFX-L 32xG3 Fanout-Lite PCIe Gen3 Switch
 11f9  I-Cube Inc
 11fa  Kasan Electronics Company, Ltd.
 11fb  Datel Inc
@@ -21175,6 +21177,7 @@
 	ab08  21x4x DEC-Tulip compatible 10/100 Ethernet
 	ab09  21x4x DEC-Tulip compatible 10/100 Ethernet
 173b  Altima (nee Broadcom)
+	0001  AC1002 PCI Gigabit Ethernet controller
 	03e8  AC1000 Gigabit Ethernet
 	03e9  AC1001 Gigabit Ethernet
 	03ea  AC9100 Gigabit Ethernet
@@ -22804,6 +22807,7 @@
 	1242  ASM1142 USB 3.1 Host Controller
 	1343  ASM1143 USB 3.1 Host Controller
 	2142  ASM2142 USB 3.1 Host Controller
+		1462 7a72  H270 PC MATE
 	3242  ASM3242 USB 3.2 Host Controller
 1b26  Netcope Technologies, a.s.
 	c132  COMBO-LXT155
@@ -23129,6 +23133,7 @@
 	1284  PC300 NVMe Solid State Drive 512GB
 	1285  PC300 NVMe Solid State Drive 1TB
 	1327  BC501 NVMe Solid State Drive 512GB
+	1339  BC511
 	1504  SC300 512GB M.2 2280 SATA Solid State Drive
 	1527  PC401 NVMe Solid State Drive 256GB
 	243b  PE6110 NVMe Solid State Drive
@@ -24670,6 +24675,7 @@
 	0406  Haswell Integrated Graphics Controller
 	040a  Xeon E3-1200 v3 Processor Integrated Graphics Controller
 	0412  Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller
+		1028 05d7  Alienware X51 R2
 		103c 1998  EliteDesk 800 G1
 		17aa 3098  ThinkCentre E73
 		17aa 309f  ThinkCentre M83
@@ -25259,6 +25265,7 @@
 	0bf6  Atom Processor D2xxx/N2xxx DRAM Controller
 	0bf7  Atom Processor D2xxx/N2xxx DRAM Controller
 	0c00  4th Gen Core Processor DRAM Controller
+		1028 05d7  Alienware X51 R2
 		103c 1998  EliteDesk 800 G1
 		17aa 3098  ThinkCentre E73
 		17aa 309f  ThinkCentre M83
@@ -26710,6 +26717,7 @@
 	15b6  DSL6540 USB 3.1 Controller [Alpine Ridge]
 	15b7  Ethernet Connection (2) I219-LM
 	15b8  Ethernet Connection (2) I219-V
+		1462 7a72  H270 PC MATE
 	15b9  Ethernet Connection (3) I219-LM
 	15bb  Ethernet Connection (7) I219-LM
 	15bc  Ethernet Connection (7) I219-V
@@ -26875,6 +26883,7 @@
 		103c 825b  OMEN-17-w001nv
 	1911  Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
 		1028 0869  Vostro 3470
+		1462 7a72  H270 PC MATE
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 		17aa 225d  ThinkPad T480
@@ -31184,6 +31193,7 @@
 		8086 0001  EtherExpress PRO/100 Server Ethernet Adapter
 	530d  80310 (IOP) IO Processor
 	5502  Ethernet Controller (2) I225-LMvP
+	5504  Ethernet Controller I226-K
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
 	5900  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
@@ -31198,9 +31208,11 @@
 	590c  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	590f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 		1462 7a68  B250 KRAIT GAMING (MS-7A68)
+		1462 7a72  H270 PC MATE
 	5910  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	5911  Xeon E3-1200 v6/7th Gen Core Processor Gaussian Mixture Model
 	5912  HD Graphics 630
+		1462 7a72  H270 PC MATE
 	5914  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 		17aa 225d  ThinkPad T480
 	5916  HD Graphics 620
@@ -31626,6 +31638,7 @@
 	8c00  8 Series/C220 Series Chipset Family 4-port SATA Controller 1 [IDE mode]
 	8c01  8 Series Chipset Family 4-port SATA Controller 1 [IDE mode] - Mobile
 	8c02  8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]
+		1028 05d7  Alienware X51 R2
 		103c 1998  EliteDesk 800 G1
 		17aa 3098  ThinkCentre E73
 		17aa 309f  ThinkCentre M83
@@ -31664,12 +31677,14 @@
 	8c1e  8 Series/C220 Series Chipset Family PCI Express Root Port #8
 	8c1f  8 Series/C220 Series Chipset Family PCI Express Root Port #8
 	8c20  8 Series/C220 Series Chipset High Definition Audio Controller
+		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
 		17aa 220e  ThinkPad T440p
 		17aa 309f  ThinkCentre M83
 	8c21  8 Series/C220 Series Chipset High Definition Audio Controller
 	8c22  8 Series/C220 Series Chipset Family SMBus Controller
+		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
 		17aa 220e  ThinkPad T440p
@@ -31678,6 +31693,7 @@
 	8c23  8 Series Chipset Family CHAP Counters
 	8c24  8 Series Chipset Family Thermal Management Controller
 	8c26  8 Series/C220 Series Chipset Family USB EHCI #1
+		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
 		17aa 220e  ThinkPad T440p
@@ -31686,12 +31702,14 @@
 		17aa 309f  ThinkCentre M83
 		2210 17aa  ThinkPad T540p
 	8c2d  8 Series/C220 Series Chipset Family USB EHCI #2
+		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
 		17aa 220e  ThinkPad T440p
 		17aa 3098  ThinkCentre E73
 		17aa 309f  ThinkCentre M83
 	8c31  8 Series/C220 Series Chipset Family USB xHCI
+		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
 		17aa 220e  ThinkPad T440p
@@ -31700,6 +31718,7 @@
 	8c33  8 Series/C220 Series Chipset Family LAN Controller
 	8c34  8 Series/C220 Series Chipset Family NAND Controller
 	8c3a  8 Series/C220 Series Chipset Family MEI Controller #1
+		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
 		17aa 220e  ThinkPad T440p
@@ -31720,6 +31739,7 @@
 	8c48  8 Series/C220 Series Chipset Family LPC Controller
 	8c49  HM86 Express LPC Controller
 	8c4a  H87 Express LPC Controller
+		1028 05d7  Alienware X51 R2
 	8c4b  HM87 Express LPC Controller
 	8c4c  Q85 Express LPC Controller
 		17aa 309f  ThinkCentre M83
@@ -32384,16 +32404,20 @@
 	a252  Lewisburg SSATA Controller [AHCI mode]
 	a256  Lewisburg SSATA Controller [RAID mode]
 	a282  200 Series PCH SATA controller [AHCI mode]
+		1462 7a72  H270 PC MATE
 	a286  200 Series PCH SATA controller [RAID mode]
 	a290  200 Series PCH PCI Express Root Port #1
 	a291  200 Series PCH PCI Express Root Port #2
 	a292  200 Series PCH PCI Express Root Port #3
 	a293  200 Series PCH PCI Express Root Port #4
 	a294  200 Series PCH PCI Express Root Port #5
+		1462 7a72  H270 PC MATE
 	a295  200 Series PCH PCI Express Root Port #6
 	a296  200 Series PCH PCI Express Root Port #7
+		1462 7a72  H270 PC MATE
 	a297  200 Series PCH PCI Express Root Port #8
 	a298  200 Series PCH PCI Express Root Port #9
+		1462 7a72  H270 PC MATE
 	a299  200 Series PCH PCI Express Root Port #10
 	a29a  200 Series PCH PCI Express Root Port #11
 	a29b  200 Series PCH PCI Express Root Port #12
@@ -32403,7 +32427,9 @@
 	a29f  200 Series PCH PCI Express Root Port #16
 	a2a0  200 Series/Z370 Chipset Family P2SB
 	a2a1  200 Series/Z370 Chipset Family Power Management Controller
+		1462 7a72  H270 PC MATE
 	a2a3  200 Series/Z370 Chipset Family SMBus Controller
+		1462 7a72  H270 PC MATE
 	a2a4  200 Series/Z370 Chipset Family SPI Controller
 	a2a5  200 Series/Z370 Chipset Family Gigabit Ethernet Controller
 	a2a6  200 Series/Z370 Chipset Family Trace Hub
@@ -32412,10 +32438,14 @@
 	a2a9  200 Series/Z370 Chipset Family Serial IO SPI Controller #0
 	a2aa  200 Series/Z370 Chipset Family Serial IO SPI Controller #1
 	a2af  200 Series/Z370 Chipset Family USB 3.0 xHCI Controller
+		1462 7a72  H270 PC MATE
 	a2b1  200 Series PCH Thermal Subsystem
+		1462 7a72  H270 PC MATE
 	a2ba  200 Series PCH CSME HECI #1
+		1462 7a72  H270 PC MATE
 	a2bb  200 Series PCH CSME HECI #2
 	a2c4  200 Series PCH LPC Controller (H270)
+		1462 7a72  H270 PC MATE
 	a2c5  200 Series PCH LPC Controller (Z270)
 	a2c6  200 Series PCH LPC Controller (Q270)
 	a2c7  200 Series PCH LPC Controller (Q250)
@@ -32437,6 +32467,8 @@
 	a2ed  200 Series PCH PCI Express Root Port #23
 	a2ee  200 Series PCH PCI Express Root Port #24
 	a2f0  200 Series PCH HD Audio
+		1462 7a72  H270 PC MATE
+		1462 fa72  H270 PC MATE
 	a304  H370 Chipset LPC/eSPI Controller
 		1028 0869  Vostro 3470
 	a305  Z390 Chipset LPC/eSPI Controller
@@ -32538,6 +32570,8 @@
 	d157  Core Processor System Control and Status Registers
 	d158  Core Processor Miscellaneous Registers
 	f1a5  SSD 600P Series
+# M.2 22 x 80mm, NVMe
+		8086 390a  SSDPEKKW256G7 256GB
 	f1a6  SSD Pro 7600p/760p/E 6100p Series
 		8086 390b  SSD Pro 7600p/760p/E 6100p Series [NVM Express]
 	f1a8  SSD 660P Series
