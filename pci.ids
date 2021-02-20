@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.02.17
-#	Date:    2021-02-17 03:15:02
+#	Version: 2021.02.20
+#	Date:    2021-02-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4956,6 +4956,7 @@
 	2096  CS5536 [Geode companion] UDC
 	2097  CS5536 [Geode companion] UOC
 	209a  CS5536 [Geode companion] IDE
+	2625  AMD Lance/PCI PCNet/32
 	3000  ELanSC520 Microcontroller
 	43a0  Hudson PCI to PCI bridge (PCIE port 0)
 	43a1  Hudson PCI to PCI bridge (PCIE port 1)
@@ -12234,7 +12235,8 @@
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
 	2560  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	2583  GA107 [GeForce RTX 3050]
-	25a2  GA107
+	25a0  GA107M [GeForce RTX 3050 Ti Mobile]
+	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a4  GA107
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 10df  Emulex Corporation
@@ -12968,12 +12970,12 @@
 	0336  K8M890CE Host Bridge
 	0340  PT900 Host Bridge
 	0351  K8T890CF Host Bridge
-	0353  VX800 Host Bridge
+	0353  VX800/820-Series Chipset Host-Bridge Controller
 	0364  CN896/VN896/P4M900 Host Bridge
 		1043 81ce  P5VD2-VM mothervoard
 	0391  VT8371 [KX133]
 	0409  VX855/VX875 Host Bridge: Host Control
-	0410  VX900 Host Bridge: Host Control
+	0410  VX900 Series Host Bridge: Host Control
 	0415  VT6415 PATA IDE Host Controller
 		1043 838f  Motherboard
 	0501  VT8501 [Apollo MVP4]
@@ -13000,7 +13002,7 @@
 # probably all K7VT2/4*/6
 		1849 0571  K7VT series Motherboards
 	0576  VT82C576 3V [Apollo Master]
-	0581  CX700/VX700 RAID Controller
+	0581  CX700/VX700/VX800/820-Series Serial ATA RAID-Controller
 # Upgrade bios to get correct ID: 5324 instead of 0581
 		1106 0581  Wrong IDE ID
 	0585  VT82C585VP [Apollo VP1/VPX]
@@ -13066,7 +13068,7 @@
 	1353  VX800/VX820 Error Reporting
 	1364  CN896/VN896/P4M900 Host Bridge
 	1409  VX855/VX875 Error Reporting
-	1410  VX900 Error Reporting
+	1410  VX900 Series Error Reporting
 	1571  VT82C576M/VT82C586
 	1595  VT82C595/97 [Apollo VP2/97]
 	1732  VT1732 [Envy24 II] PCI Multi-Channel Audio Controller
@@ -13091,7 +13093,7 @@
 	2353  VX800/VX820 Host Bus Control
 	2364  CN896/VN896/P4M900 Host Bridge
 	2409  VX855/VX875 Host Bus Control
-	2410  VX900 CPU Bus Controller
+	2410  VX900 Series CPU Bus Controller
 	287a  VT8251 PCI to PCI Bridge
 	287b  VT8251 Host Bridge
 	287c  VT8251 PCIE Root Port
@@ -13224,7 +13226,7 @@
 	3101  VT8653 Host Bridge
 	3102  VT8662 Host Bridge
 	3103  VT8615 Host Bridge
-	3104  USB 2.0
+	3104  USB 2.0 EHCI-Compliant Host-Controller
 		0925 1234  onboard EHCI USB 2.0 Controller
 		1019 0a81  L7VTA v1.0 Motherboard (KT400-8235)
 		1043 808c  A7V8X motherboard
@@ -13337,7 +13339,7 @@
 	3269  KT880 Host Bridge
 	3282  K8T800Pro Host Bridge
 	3287  VT8251 PCI to ISA Bridge
-	3288  VT8237A/VT8251 HDA Controller
+	3288  VX900/VT8xxx High Definition Audio Controller
 		19da a179  ZBOX VD01
 	3290  K8M890 Host Bridge
 	3296  P4M800 Host Bridge
@@ -13350,7 +13352,7 @@
 	3344  CN700/P4M800 Pro/P4M800 CE/VN800 Graphics [S3 UniChrome Pro]
 	3349  VT8251 AHCI/SATA 4-Port Controller
 	3351  VT3351 Host Bridge
-	3353  VX800 PCI to PCI Bridge
+	3353  VX800/820 PCI to PCI Bridge
 	3364  CN896/VN896/P4M900 Host Bridge
 	3371  CN896/VN896/P4M900 [Chrome 9 HC]
 	3372  VT8237S PCI to ISA Bridge
@@ -13360,12 +13362,12 @@
 		1043 8374  M5A88-V EVO
 		1043 8384  P8P67 Deluxe Motherboard
 	3409  VX855/VX875 DRAM Bus Control
-	3410  VX900 DRAM Bus Control
+	3410  VX900 Series DRAM Bus Control
 		19da a179  ZBOX nano VD01
-	3432  VL80x xHCI USB 3.0 Controller
+	3432  VL800/801 xHCI USB 3.0 Controller
 	3456  VX11 Standard Host Bridge
 	345b  VX11 Miscellaneous Bus
-	3483  VL805 USB 3.0 Host Controller
+	3483  VL805/806 xHCI USB 3.0 Controller
 	3a01  VX11 Graphics [Chrome 645/640]
 	4149  VIA VT6420 (ATA133) Controller
 	4204  K8M800 Host Bridge
@@ -13388,7 +13390,7 @@
 	4353  VX800/VX820 Power Management Control
 	4364  CN896/VN896/P4M900 Host Bridge
 	4409  VX855/VX875 Power Management Control
-	4410  VX900 Power Management and Chip Testing Control
+	4410  VX900 Series Power Management and Chip Testing Control
 		19da a179  ZBOX nano VD01
 	5030  VT82C596 ACPI [Apollo PRO]
 	5122  VX855/VX875 Chrome 9 HCM Integrated Graphics
@@ -13397,7 +13399,7 @@
 	5287  VT8251 Serial ATA Controller
 	5290  K8M890 I/O APIC Interrupt Controller
 	5308  PT894 I/O APIC Interrupt Controller
-	5324  VX800 Serial ATA and EIDE Controller
+	5324  CX700M2/VX700/VX800/820-Series Serial ATA & EIDE-Controller
 	5327  P4M890 I/O APIC Interrupt Controller
 	5336  K8M890CE I/O APIC Interrupt Controller
 	5340  PT900 I/O APIC Interrupt Controller
@@ -13406,7 +13408,7 @@
 	5364  CN896/VN896/P4M900 I/O APIC Interrupt Controller
 	5372  VT8237/8251 Serial ATA Controller
 	5409  VX855/VX875 APIC and Central Traffic Control
-	5410  VX900 APIC and Central Traffic Control
+	5410  VX900 Series APIC and Central Traffic Control
 	6100  VT85C100A [Rhine II]
 	6287  SATA RAID Controller
 	6290  K8M890CE Host Bridge
@@ -13414,7 +13416,7 @@
 	6353  VX800/VX820 Scratch Registers
 	6364  CN896/VN896/P4M900 Security Device
 	6409  VX855/VX875 Scratch Registers
-	6410  VX900 Scratch Registers
+	6410  VX900 Series Scratch Registers
 		19da a179  ZBOX nano VD01
 	7122  VX900 Graphics [Chrome9 HD]
 	7204  K8M800 Host Bridge
@@ -13440,7 +13442,7 @@
 	7353  VX800/VX820 North-South Module Interface Control
 	7364  CN896/VN896/P4M900 Host Bridge
 	7409  VX855/VX875 North-South Module Interface Control
-	7410  VX900 North-South Module Interface Control
+	7410  VX900 Series North-South Module Interface Control
 		19da a179  ZBOX nano VD01
 	8231  VT8231 [PCI-to-ISA Bridge]
 	8235  VT8235 ACPI
@@ -13450,7 +13452,7 @@
 	8391  VT8371 [KX133 AGP]
 	8400  MVP4
 	8409  VX855/VX875 Bus Control and Power Management
-	8410  VX900 Bus Control and Power Management
+	8410  VX900 Series Bus Control and Power Management
 		19da a179  ZBOX VD01
 	8500  KLE133/PLE133/PLE133T
 	8501  VT8501 [Apollo MVP4 AGP]
@@ -13466,19 +13468,19 @@
 	8a26  KL133/KL133A/KM133/KM133A [S3 ProSavage]
 	8d01  PN133/PN133T [S3 Twister]
 	8d04  KM266/P4M266/P4M266A/P4N266 [S3 ProSavageDDR]
-	9001  VX900 Serial ATA Controller
+	9001  VX900 Series Serial-ATA Controller
 	9082  Standard AHCI 1.0 SATA Controller
 	9140  HDMI Audio Device
 	9201  USB3.0 Controller
-	9530  Secure Digital Memory Card Controller
-	95d0  SDIO Host Controller
+	9530  VX800/820/900 Series Secure Digital Memory Card Controller
+	95d0  VX800/820/900 Series SDIO Host Controller
 	a208  PT890 PCI to PCI Bridge Controller
 	a238  K8T890 PCI to PCI Bridge Controller
 	a327  P4M890 PCI to PCI Bridge Controller
-	a353  VX8xx South-North Module Interface Control
+	a353  VX8xx/900 Series South-North Module Interface Control
 	a364  CN896/VN896/P4M900 PCI to PCI Bridge Controller
-	a409  VX855/VX875 USB Device Controller
-	a410  VX900 PCI Express Root Port 0
+	a409  VX855/VX875/VX900 Series USB Device Controller
+	a410  VX900 Series PCI Express Root Port 0
 	b091  VT8633 [Apollo Pro266 AGP]
 	b099  VT8366/A/7 [Apollo KT266/A/333 AGP]
 	b101  VT8653 AGP Bridge
@@ -13493,31 +13495,32 @@
 	b198  VT8237/VX700 PCI Bridge
 	b213  VPX/VPX2 I/O APIC Interrupt Controller
 	b353  VX855/VX875/VX900 PCI to PCI Bridge
-	b410  VX900 PCI Express Root Port 1
+	b410  VX900 Series PCI Express Root Port 1
 	b999  [K8T890 North / VT8237 South] PCI Bridge
 	c208  PT890 PCI to PCI Bridge Controller
 	c238  K8T890 PCI to PCI Bridge Controller
 	c327  P4M890 PCI to PCI Bridge Controller
 	c340  PT900 PCI to PCI Bridge Controller
-	c353  VX800/VX820 PCI Express Root Port
+	c353  VX800/820-Series PCI-Express Root (PCI-to-PCI Virtual Bridge)
 	c364  CN896/VN896/P4M900 PCI to PCI Bridge Controller
 	c409  VX855/VX875 EIDE Controller
-	c410  VX900 PCI Express Root Port 2
+	c410  VX900 Series PCI Express Root Port 2
 	d104  VT8237R USB UDCI Controller
 	d208  PT890 PCI to PCI Bridge Controller
 	d213  VPX/VPX2 PCI to PCI Bridge Controller
 	d238  K8T890 PCI to PCI Bridge Controller
 	d340  PT900 PCI to PCI Bridge Controller
-	d410  VX900 PCI Express Root Port 3
+	d410  VX900 Series PCI Express Root Port 3
 	e208  PT890 PCI to PCI Bridge Controller
 	e238  K8T890 PCI to PCI Bridge Controller
 	e340  PT900 PCI to PCI Bridge Controller
-	e353  VX800/VX820 PCI Express Root Port
-	e410  VX900 PCI Express Physical Layer Electrical Sub-block
+	e353  VX800/820-Series PCI-Express Root Port 0
+	e410  VX900 Series PCI Express Physical Layer Electrical Sub-block
 	f208  PT890 PCI to PCI Bridge Controller
 	f238  K8T890 PCI to PCI Bridge Controller
 	f340  PT900 PCI to PCI Bridge Controller
-	f353  VX800/VX820 PCI Express Root Port
+	f353  VX800/820-Series PCI-Express Root Port 1
+	f410  VX900 Series PCI UART Port 0-3
 1107  Stratus Computers
 	0576  VIA VT82C570MV [Apollo] (Wrong vendor ID!)
 1108  Proteon, Inc.
@@ -23954,6 +23957,8 @@
 	7073  CH356 PCI Quad Serial and Parallel Ports Controller
 	7173  CH355 PCI Quad Serial Port Controller
 434e  CAST Navigation LLC
+43b0  Tiger Lake-H PCIe Root Port #9
+43bc  Tiger Lake-H PCIe Root Port #5
 4444  Internext Compression Inc
 	0016  iTVC16 (CX23416) Video Decoder
 		0070 0003  WinTV PVR 250
@@ -26533,6 +26538,7 @@
 		193d 1020  NIC-ETH561F-sL-4x10G
 		193d 1021  NIC-ETH561F-sL-2x10G
 		19e5 d11c  Ethernet 2-port X710 10Gb SFP+ Adapter SP330
+		1bd4 0042  10G SFP+ DP EP102Fi4 Adapter
 		1bd4 0056  Ethernet Network Adapter X710-BM2 for OCP NIC 3.0
 		8086 0000  Ethernet Converged Network Adapter X710
 		8086 0001  Ethernet Converged Network Adapter X710-4
@@ -28802,6 +28808,7 @@
 	277c  82975X Memory Controller Hub
 		1043 8178  P5WDG2 WS Professional motherboard
 	277d  82975X PCI Express Root Port
+	2780  82915G/GV/GL/910GL [Grantsdale] Graphics Device
 	2782  82915G Integrated Graphics Controller
 		1043 2582  P5GD1-VW Mainboard
 		1734 105b  Scenic W620
@@ -31129,6 +31136,14 @@
 		8086 1216  WiMAX/WiFi Link 5150 ABG
 		8086 1311  WiMAX/WiFi Link 5150 AGN
 		8086 1316  WiMAX/WiFi Link 5150 ABG
+	438b  Tiger Lake-H LPC/eSPI Controller
+	43a3  Tiger Lake-H SMBus Controller
+	43a4  Tiger Lake-H SPI Controller
+	43c8  Tiger Lake-H HD Audio Controller
+	43e0  Tiger Lake-H Management Engine Interface
+	43e8  Tiger Lake-H Serial IO I2C Controller #0
+	43ed  Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller
+	43ef  Tiger Lake-H Shared SRAM
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
@@ -31881,6 +31896,7 @@
 	9622  Integrated RAID
 	9641  Integrated RAID
 	96a1  Integrated RAID
+	9a01  11th Gen Core Processor PCIe Controller
 	9a03  TigerLake-LP Dynamic Tuning Processor Participant
 	9a09  11th Gen Core Processor PCIe Controller
 	9a0b  Volume Management Device NVMe RAID Controller
@@ -31901,7 +31917,9 @@
 	9a2f  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #2
 	9a31  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3
 	9a33  Tiger Lake Trace Hub
+	9a36  11th Gen Core Processor Host Bridge/DRAM Registers
 	9a49  TigerLake GT2 [Iris Xe Graphics]
+	9a60  TigerLake GT2 [Iris Xe Graphics]
 	9b41  CometLake-U GT2 [UHD Graphics]
 	9b44  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b53  Comet Lake-S 6c Host Bridge/DRAM Controller
@@ -33146,6 +33164,7 @@
 	0001  SG2010 PCI over Starfabric Bridge
 	0002  SG2010 PCI to Starfabric Gateway
 	0003  SG1010 Starfabric Switch and PCI Bridge
+9a11  Tiger Lake-H Gaussian & Neural Accelerator
 9d32  Beijing Starblaze Technology Co. Ltd.
 	0000  STAR1000 PCIe NVMe SSD Controller
 	1001  STAR1000P PCIe NVMe SSD Controller
