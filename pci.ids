@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.03.06
-#	Date:    2021-03-06 03:15:02
+#	Version: 2021.03.10
+#	Date:    2021-03-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3643,6 +3643,7 @@
 	73c3  Navi 22
 	73df  Navi 22 [Radeon RX 6700/6700 XT]
 	73e0  Navi 23
+	73e1  Navi 23
 	73ff  Navi 23 [Radeon RX 6600/6600 XT]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
@@ -12215,7 +12216,7 @@
 	21c4  TU116 [GeForce GTX 1660 SUPER]
 	21d1  TU116BM [GeForce GTX 1660 Ti Mobile]
 	2204  GA102 [GeForce RTX 3090]
-	2205  GA102 [GeForce RTX 3080 Ti]
+	2205  GA102 [GeForce RTX 3080 20GB]
 	2206  GA102 [GeForce RTX 3080]
 		10de 1467  GA102 [GeForce RTX 3080]
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
@@ -12228,6 +12229,7 @@
 	2236  GA102GL
 	223f  GA102GL
 	228b  GA104 High Definition Audio Controller
+	2302  GA103
 	2321  GA103
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2484  GA104 [GeForce RTX 3070]
@@ -23131,6 +23133,7 @@
 	001b  FD720
 	001c  FD922
 	001d  Vega
+	001f  FD940
 1c28  Lite-On IT Corp. / Plextor
 	0122  M6e PCI Express SSD [Marvell 88SS9183]
 # previously Fiberblaze
@@ -23283,6 +23286,7 @@
 	0009  ExaNIC X25
 	000a  ExaNIC X100
 	000b  ExaNIC V9P
+	000c  ExaNIC V9P-3
 	0100  ExaDISK FX1
 1cf0  Akitio
 1cf7  Subspace Dynamics
@@ -32566,6 +32570,7 @@
 	a324  Cannon Lake PCH SPI Controller
 		1028 0869  Vostro 3470
 	a328  Cannon Lake PCH Serial IO UART Host Controller
+	a32b  Cannon Lake PCH SPI Host Controller
 	a32c  Cannon Lake PCH PCI Express Root Port #21
 	a32d  Cannon Lake PCH PCI Express Root Port #22
 	a32e  Cannon Lake PCH PCI Express Root Port #23
