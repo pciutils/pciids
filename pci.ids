@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.03.10
-#	Date:    2021-03-10 03:15:01
+#	Version: 2021.03.11
+#	Date:    2021-03-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12215,6 +12215,7 @@
 	21c2  TU116
 	21c4  TU116 [GeForce GTX 1660 SUPER]
 	21d1  TU116BM [GeForce GTX 1660 Ti Mobile]
+	2200  GA102
 	2204  GA102 [GeForce RTX 3090]
 	2205  GA102 [GeForce RTX 3080 20GB]
 	2206  GA102 [GeForce RTX 3080]
@@ -12225,8 +12226,10 @@
 	222b  GA102 [GeForce RTX 3090 Engineering Sample]
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
+	2231  GA102GL
 	2235  GA102GL [RTX A40]
 	2236  GA102GL
+	2237  GA102GL
 	223f  GA102GL
 	228b  GA104 High Definition Audio Controller
 	2302  GA103
@@ -31211,6 +31214,7 @@
 	43e8  Tiger Lake-H Serial IO I2C Controller #0
 	43ed  Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller
 	43ef  Tiger Lake-H Shared SRAM
+	43f0  Wi-Fi 6 AX201
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
@@ -31963,11 +31967,12 @@
 	9622  Integrated RAID
 	9641  Integrated RAID
 	96a1  Integrated RAID
-	9a01  11th Gen Core Processor PCIe Controller
+	9a01  11th Gen Core Processor PCIe Controller #1
 	9a03  TigerLake-LP Dynamic Tuning Processor Participant
 	9a09  11th Gen Core Processor PCIe Controller
 	9a0b  Volume Management Device NVMe RAID Controller
 	9a0d  Tiger Lake-LP Telemetry Aggregator
+	9a0f  11th Gen Core Processor PCIe Controller #0
 	9a11  GNA Scoring Accelerator module
 	9a13  Tiger Lake-LP Thunderbolt 4 USB Controller
 	9a14  11th Gen Core Processor Host Bridge/DRAM Registers
