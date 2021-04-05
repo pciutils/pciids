@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.03.22
-#	Date:    2021-03-22 03:15:01
+#	Version: 2021.04.05
+#	Date:    2021-04-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -916,6 +916,7 @@
 		8086 0523  MegaRAID RAID Controller SRCS16
 	3050  SAS2008 PCI-Express Fusion-MPT SAS-2
 	6001  DX1 Multiformat Broadcast HD/SD Encoder/Decoder
+	c010  PEX88048 50 lane, 50 port, PCI Express Gen 4.0 ExpressFabric Platform
 	c012  PEX880xx PCIe Gen 4 Switch
 		1d49 0003  ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter
 1001  Kolter Electronic
@@ -2671,6 +2672,7 @@
 # https://www.techpowerup.com/vgabios/?manufacturer=Powercolor&model=RX+580
 		148c 2378  Radeon RX 580
 		148c 2379  Radeon RX 570 4G [Red Dragon]
+		148c 2391  Radeon RX 590 [Red Devil]
 		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
 		1682 9587  Radeon RX 590 FATBOY 8GB
@@ -12216,6 +12218,7 @@
 	1fbb  TU117GLM [Quadro T500 Mobile]
 	1fbf  TU117GL
 	1fd9  TU117BM [GeForce GTX 1650 Mobile Refresh]
+	1fdd  TU117BM [GeForce GTX 1650 Mobile Refresh]
 	1ff9  TU117GLM [Quadro T1000 Mobile]
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
@@ -12256,6 +12259,7 @@
 	2302  GA103
 	2321  GA103
 	2482  GA104 [GeForce RTX 3070 Ti]
+	2483  GA104
 	2484  GA104 [GeForce RTX 3070]
 		10de 146b  GA104 [GeForce RTX 3070]
 		10de 14ae  GA104 [GeForce RTX 3070 16GB]
@@ -12282,6 +12286,7 @@
 	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a4  GA107
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
+	25b5  GA107GLM [RTX A4 Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -12966,6 +12971,7 @@
 	3220  RocketRAID 3220
 	3320  RocketRAID 3320
 	4310  RocketRaid 4310
+	7505  SSD7505 PCIe Gen4 x16 4-Port M.2 NVMe RAID Controller
 1104  RasterOps Corp.
 1105  Sigma Designs, Inc.
 	1105  REALmagic Xcard MPEG 1/2/3/4 DVD Decoder
@@ -16109,6 +16115,8 @@
 	5a4b  Telsat Turbo
 1268  Tektronix
 1269  Thomson-CSF/TTM
+# MBIM on top of MHI
+	00b4  5G Data Card [Cinterion MV31-W]
 126a  Lexmark International, Inc.
 126b  Adax, Inc.
 126c  Northern Telecom
@@ -18620,6 +18628,7 @@
 148a  OPTO
 148b  INNOMEDIALOGIC Inc.
 148c  Tul Corporation / PowerColor
+	2391  Radeon RX 590 [Red Devil]
 148d  DIGICOM Systems, Inc.
 	1003  HCF 56k Data/Fax Modem
 148e  OSI Plus Corporation
@@ -18997,6 +19006,8 @@
 		1028 08fd  PowerEdge R6515/R7515 LOM
 		1028 08ff  PowerEdge Rx5xx LOM Board
 		1028 0900  PowerEdge C6525 LOM
+# Dell 5720 LOM
+		1028 0917  PowerEdge C6520 LOM
 		103c 1786  NC332T Adapter
 		103c 193d  NC332i Adapter
 		103c 2133  NC332i Adapter
@@ -21497,6 +21508,7 @@
 	8083  GL880 USB 1.1 UHCI controller
 	8084  GL880 USB 2.0 EHCI controller
 	9750  GL9750 SD Host Controller
+	9755  GL9755 SD Host Controller
 	e763  GL9763E eMMC Controller
 17aa  Lenovo
 	3181  ThinkCentre M75n IoT
@@ -22869,6 +22881,7 @@
 	1052  Virtio input
 # virtio 1.0
 	1053  Virtio socket
+	105a  Virtio file system
 	1110  Inter-VM shared memory
 		1af4 1100  QEMU Virtual Machine
 1af5  Netezza Corp.
@@ -23111,6 +23124,8 @@
 # Kersey 2.5" TCG
 		1bb1 0152  Nytro 5520 TCG
 		1bb1 01a1  Nytro XP7102
+	5012  FireCuda 510 SSD
+	5016  FireCuda 520 SSD
 1bb3  Bluecherry
 	4304  BC-04120A MPEG4 4 port video encoder / decoder
 	4309  BC-08240A MPEG4 4 port video encoder / decoder
@@ -23692,7 +23707,11 @@
 		1df3 0000  Maintenance Mode
 		1df3 0001  ENA2200F
 	0207  ACE-NIC50RN Programmable Network Accelerator
+		1df3 0000  Maintenance Mode
+		1df3 0001  ENA2050RN
 	0208  ACE-NIC100RN Programmable Network Accelerator
+		1df3 0000  Maintenance Mode
+		1df3 0001  ENA2100RN
 1df7  opencpi.org
 	0001  ml605
 	0002  alst4
@@ -31275,6 +31294,15 @@
 	4907  SG1 [Server GPU SG-18M]
 	4908  DG1 [Iris Xe Graphics]
 	4c3d  Volume Management Device NVMe RAID Controller
+	4da3  JaserLake SMBus
+	4da4  JaserLake SPI (flash) Controller
+	4de0  Management Engine Interface
+	4de8  Serial IO I2C Host Controller
+	4de9  Serial IO I2C Host Controller
+	4df0  Wi-Fi 6 AX201 160MHz
+	4e03  Dynamic Tuning service
+	4e19  JasperLake IPU
+	4e71  UHD Graphics
 	4f80  DG2
 	4f81  DG2
 	4f82  DG2
@@ -32022,7 +32050,7 @@
 	9a03  TigerLake-LP Dynamic Tuning Processor Participant
 	9a09  11th Gen Core Processor PCIe Controller
 	9a0b  Volume Management Device NVMe RAID Controller
-	9a0d  Tiger Lake-LP Telemetry Aggregator
+	9a0d  Tigerlake Telemetry Aggregator Driver
 	9a0f  11th Gen Core Processor PCIe Controller #0
 	9a11  GNA Scoring Accelerator module
 	9a13  Tiger Lake-LP Thunderbolt 4 USB Controller
