@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.04.05
-#	Date:    2021-04-05 03:15:02
+#	Version: 2021.04.08
+#	Date:    2021-04-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7171,7 +7171,8 @@
 		103c 12dd  4Gb Fibre Channel [AB429A]
 	2432  ISP2432-based 4Gb Fibre Channel to PCI Express HBA
 		103c 7040  FC1142SR 4Gb 1-port PCIe Fibre Channel Host Bus Adapter [HPAE311A]
-		1077 0137  QLE2460 4 GB PCI-X Host-Bus-Adapter
+		1077 0137  QLE2460 Single-Port 4Gbps FC-to-PCI-X/PCIe Host Bus Adapter
+		1077 0138  QLE2462 Dual-Port 4Gbps FC-to-PCI-X/PCIe Host Bus Adapter
 	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
 		1014 041e  FC EN0Y/EN12 PCIe2 LP 8 Gb 4-port Fibre Channel Adapter for POWER
 		103c 3262  StorageWorks 81Q
@@ -12285,8 +12286,12 @@
 	25a0  GA107M [GeForce RTX 3050 Ti Mobile]
 	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a4  GA107
+	25a5  GA107M
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
+	25b8  GA107GLM
+	25e0  GA107BM
+	25e2  GA107BM
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -23211,6 +23216,8 @@
 	00e1  PacketMover 2x100Gb [Tivoli]
 	00e3  PacketMover 2x10Gb [Tivoli]
 	00e5  PacketMover 2x10Gb [Corfu]
+	1000  SmartNIC N5010 4x100Gb
+	1001  SmartNIC N5011 w/2xE810 4x100Gb
 	a000  FBC2CGG3 Capture 2x40Gb [Mango_02]
 	a001  FBC2CGG3 Capture 2x100Gb [Mango_02]
 	a003  FBC2CGG3 Capture 16x10Gb [Mango]
@@ -25373,6 +25380,7 @@
 		8086 8008  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P5510)
 		8086 8d08  NVMe Datacenter SSD [3DNAND] VE 2.5" U.2 (P5316)
 		8086 8d1d  NVMe Datacenter SSD [3DNAND] VE E1.L 9.5/18mm (P5316)
+	0bd0  Ponte Vecchio 2T
 	0be0  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 	0be1  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 		105b 0d7c  D270S/D250S Motherboard
@@ -26803,6 +26811,7 @@
 	1591  Ethernet Controller E810-C for backplane
 	1592  Ethernet Controller E810-C for QSFP
 		1137 02bf  E810CQDA2 2x100 GbE QSFP28 PCIe NIC
+		193d 1050  NIC-ETH1060F-LP-2P 2x100GbE Ethernet PCIe Card
 		8086 0001  Ethernet Network Adapter E810-C-Q1
 		8086 0002  Ethernet Network Adapter E810-C-Q2
 		8086 0004  Ethernet Network Adapter E810-C-Q2
@@ -28920,6 +28929,20 @@
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2723  Wi-Fi 6 AX200
 		8086 2723  Wireless AX200
+	2725  Wi-Fi 6 AX210/AX211/AX411 160MHz
+		8086 0020  Wi-Fi 6 AX210 160MHz
+		8086 0024  Wi-Fi 6 AX210 160MHz
+		8086 0090  Wi-Fi 6 AX211 160MHz
+		8086 00b0  Wi-Fi 6 AX411 160MHz
+		8086 0310  Wi-Fi 6 AX210 160MHz
+		8086 0510  Wi-Fi 6 AX210 160MHz
+		8086 0a10  Wi-Fi 6 AX210 160MHz
+		8086 2020  Wi-Fi 6 AX210 160MHz
+		8086 4020  Wi-Fi 6 AX210 160MHz
+		8086 6020  Wi-Fi 6 AX210 160MHz
+		8086 6024  Wi-Fi 6 AX210 160MHz
+		8086 e020  Wi-Fi 6 AX210 160MHz
+		8086 e024  Wi-Fi 6 AX210 160MHz
 	2770  82945G/GZ/P/PL Memory Controller Hub
 		1028 01ad  OptiPlex GX620
 		103c 2a3b  Pavilion A1512X
@@ -31181,7 +31204,7 @@
 	4140  NVMe Datacenter SSD [Optane]
 		1028 2134  NVMe Datacenter SSD [Optane] SED 400GB 2.5" U.2 (P5800X)
 		1028 2135  NVMe Datacenter SSD [Optane] SED 800GB 2.5" U.2 (P5800X)
-		1028 2136  NVMe Datacenter SSD [Optane] SED 1.6GB 2.5" U.2 (P5800X)
+		1028 2136  NVMe Datacenter SSD [Optane] SED 1.6TB 2.5" U.2 (P5800X)
 		1028 2137  NVMe Datacenter SSD [Optane] 400GB 2.5" U.2 (P5800X)
 		1028 2138  NVMe Datacenter SSD [Optane] 800GB 2.5" U.2 (P5800X)
 		1028 2139  NVMe Datacenter SSD [Optane] 1.6TB 2.5" U.2 (P5800X)
@@ -31289,11 +31312,16 @@
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
 	46a0  AlderLake-P GT2
+	46c0  AlderLake-M GT1
 	4905  DG1 [Iris Xe MAX Graphics]
 	4906  DG1 [Iris Xe Pod]
 	4907  SG1 [Server GPU SG-18M]
 	4908  DG1 [Iris Xe Graphics]
 	4c3d  Volume Management Device NVMe RAID Controller
+	4c8a  RocketLake-S GT1 [UHD Graphics 750]
+	4c8b  RocketLake-S GT1 [UHD Graphics 730]
+	4c90  RocketLake-S GT1 [UHD Graphics P750]
+	4c9a  RocketLake-S [UHD Graphics]
 	4da3  JaserLake SMBus
 	4da4  JaserLake SPI (flash) Controller
 	4de0  Management Engine Interface
@@ -31302,7 +31330,9 @@
 	4df0  Wi-Fi 6 AX201 160MHz
 	4e03  Dynamic Tuning service
 	4e19  JasperLake IPU
-	4e71  UHD Graphics
+	4e55  JasperLake [UHD Graphics]
+	4e61  JasperLake [UHD Graphics]
+	4e71  JasperLake [UHD Graphics]
 	4f80  DG2
 	4f81  DG2
 	4f82  DG2
@@ -32071,9 +32101,9 @@
 	9a31  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3
 	9a33  Tiger Lake Trace Hub
 	9a36  11th Gen Core Processor Host Bridge/DRAM Registers
-	9a49  TigerLake GT2 [Iris Xe Graphics]
-	9a60  TigerLake GT2 [Iris Xe Graphics]
-	9a68  Tiger Lake-H UHD Graphics
+	9a49  TigerLake-LP GT2 [Iris Xe Graphics]
+	9a60  TigerLake-LP GT2 [Iris Xe Graphics]
+	9a68  TigerLake-H GT1 [UHD Graphics]
 	9b41  CometLake-U GT2 [UHD Graphics]
 	9b44  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b53  Comet Lake-S 6c Host Bridge/DRAM Controller
