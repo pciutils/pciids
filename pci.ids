@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.04.08
-#	Date:    2021-04-08 03:15:02
+#	Version: 2021.04.11
+#	Date:    2021-04-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3646,6 +3646,7 @@
 	731f  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1458 2313  Radeon RX 5700 XT Gaming OC
 		1682 5701  RX 5700 XT RAW II
+		1849 5120  Radeon RX 5600 XT
 		1da2 e411  Radeon RX 5600 XT
 	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5500M]
 	7341  Navi 14 [Radeon Pro W5500]
@@ -19533,6 +19534,7 @@
 	4410  BCM4413 iLine32 HomePNA 2.0
 	4411  BCM4413 V.90 56k modem
 	4412  BCM4412 10/100BaseT
+	4415  BCM4359 802.11ac Dual-Band Wireless Network Controller
 	441f  BCM4361 802.11ac Dual-Band Wireless Network Controller
 	4420  BCM4361 802.11ac 2.4 GHz Wireless Network Controller
 	4421  BCM4361 802.11ac 5 GHz Wireless Network Controller
@@ -21539,10 +21541,11 @@
 		1385 6d00  WPNT511 RangeMax 240 Mbps Wireless CardBus Adapter
 		1737 0054  WPC54GX4 v1 802.11g Wireless-G Notebook Adapter with SRX400
 	0105  MSM8998 PCIe Root Complex
-	0108  SM8150/SA8195P PCIe Root Complex
-	0300  MDM9x35 LTE Modem
-	0301  MDM9640 PCIe Root Complex
-	0302  MDM9x55 LTE Modem [Snapdragon X12]
+	0108  SM8150 PCIe Root Complex
+	0109  SA8195P PCIe Root Complex
+	0300  MDM9x35 LTE Modem [Snapdragon X7]
+	0301  MDM9x45 LTE Modem [Snapdragon X12]
+	0302  MDM9x55 LTE Modem [Snapdragon X16]
 	0400  Datacenter Technologies QDF2432 PCI Express Root Port
 	0401  Datacenter Technologies QDF2400 PCI Express Root Port
 	1000  QCS405 PCIe Root Complex
@@ -32102,7 +32105,7 @@
 	9a33  Tiger Lake Trace Hub
 	9a36  11th Gen Core Processor Host Bridge/DRAM Registers
 	9a49  TigerLake-LP GT2 [Iris Xe Graphics]
-	9a60  TigerLake-LP GT2 [Iris Xe Graphics]
+	9a60  TigerLake-H GT1 [UHD Graphics]
 	9a68  TigerLake-H GT1 [UHD Graphics]
 	9b41  CometLake-U GT2 [UHD Graphics]
 	9b44  10th Gen Core Processor Host Bridge/DRAM Registers
@@ -32114,6 +32117,7 @@
 	9bc4  CometLake-H GT2 [UHD Graphics]
 	9bc5  CometLake-S GT2 [UHD Graphics 630]
 	9bc8  CometLake-S GT2 [UHD Graphics 630]
+	9bca  Comet Lake UHD Graphics
 	9c00  8 Series SATA Controller 1 [IDE mode]
 	9c01  8 Series SATA Controller 1 [IDE mode]
 	9c02  8 Series SATA Controller 1 [AHCI mode]
