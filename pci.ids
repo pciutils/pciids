@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.04.11
-#	Date:    2021-04-11 03:15:02
+#	Version: 2021.04.15
+#	Date:    2021-04-15 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4070,6 +4070,7 @@
 	ab10  Lexa HDMI Audio
 	ab18  Vega 12 HDMI Audio
 	ab20  Vega 20 HDMI Audio [Radeon VII]
+	ab28  Navi 21 HDMI Audio [Radeon RX 6800/6800 XT / 6900 XT]
 	ab38  Navi 10 HDMI Audio
 	ac00  Theater 506 World-Wide Analog Decoder
 	ac01  Theater 506 World-Wide Analog Decoder
@@ -11716,6 +11717,7 @@
 	1184  GK104 [GeForce GTX 770]
 	1185  GK104 [GeForce GTX 660 OEM]
 		10de 106f  GK104 [GeForce GTX 760 OEM]
+	1186  GK104 [GeForce GTX 660 Ti]
 	1187  GK104 [GeForce GTX 760]
 	1188  GK104 [GeForce GTX 690]
 	1189  GK104 [GeForce GTX 670]
@@ -12225,6 +12227,7 @@
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
 	20b2  GA100 [A100 SXM4 80GB]
+	20b7  GA100GL [A30 PCIe]
 	20be  GA100 [GRID A100A]
 	20bf  GA100 [GRID A100B]
 	20f1  GA100 [A100 PCIe 40GB]
@@ -12253,8 +12256,8 @@
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
 	2231  GA102GL
-	2235  GA102GL [RTX A40]
-	2236  GA102GL
+	2235  GA102GL [A40]
+	2236  GA102GL [A10]
 	2237  GA102GL
 	223f  GA102GL
 	228b  GA104 High Definition Audio Controller
@@ -20422,6 +20425,8 @@
 	1979  MT2910 Family [ConnectX-7 PCIe Bridge]
 	197a  MT43162 Family [BlueField-3 Lx SoC PCIe Bridge]
 	197b  MT43244 Family [BlueField-3 SoC PCIe Bridge]
+	2021  MT42822 Family [BlueField-2 SoC Emulated PCIe Bridge]
+	2024  MT43244 Family [BlueField-3 SoC Emulated PCIe Bridge]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
 		1bd4 003a  25G SFP28 SP EO251FM9 Adapter
