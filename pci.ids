@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.04.15
-#	Date:    2021-04-15 03:15:01
+#	Version: 2021.04.24
+#	Date:    2021-04-24 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -991,6 +991,7 @@
 	1638  Cezanne
 	163f  VanGogh
 	164c  Lucienne
+	164d  Rembrandt
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
 	3150  RV380/M24 [Mobility Radeon X600]
@@ -3667,7 +3668,7 @@
 	73e0  Navi 23
 	73e1  Navi 23
 	73e4  Navi 23 USB
-	73ff  Navi 23 [Radeon RX 6600/6600 XT]
+	73ff  Navi 23 [Radeon RX 6600/6600 XT/6600M]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -12217,6 +12218,9 @@
 	1f9c  TU117M [GeForce MX450]
 	1f9d  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 	1fae  TU117GL
+	1fb0  TU117GLM [Quadro T1000 Mobile]
+	1fb1  TU117GLM [Quadro T600 Mobile]
+	1fb2  TU117GLM [Quadro T400 Mobile]
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
 	1fbb  TU117GLM [Quadro T500 Mobile]
@@ -12227,6 +12231,7 @@
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
 	20b2  GA100 [A100 SXM4 80GB]
+	20b6  GA100GL [PG506-232]
 	20b7  GA100GL [A30 PCIe]
 	20be  GA100 [GRID A100A]
 	20bf  GA100 [GRID A100B]
@@ -12255,10 +12260,10 @@
 	222b  GA102 [GeForce RTX 3090 Engineering Sample]
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
-	2231  GA102GL
+	2231  GA102GL [RTX A5000]
 	2235  GA102GL [A40]
 	2236  GA102GL [A10]
-	2237  GA102GL
+	2237  GA102GL [A10G]
 	223f  GA102GL
 	228b  GA104 High Definition Audio Controller
 	2302  GA103
@@ -12275,6 +12280,7 @@
 	24ac  GA104 [GeForce RTX 30x0 Engineering Sample]
 	24ad  GA104 [GeForce RTX 3060 Engineering Sample]
 	24af  GA104 [GeForce RTX 3070 Engineering Sample]
+	24b0  GA104GL [RTX A4000]
 	24b6  GA104
 	24b8  GA104
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
@@ -18739,9 +18745,11 @@
 		103c 1240  Myrinet M2L-PCI64/2-3.0 LANai 7.4 (HP OEM)
 14c2  DTK Computer
 14c3  MEDIATEK Corp.
+	7612  MT7612E 802.11acbgn PCI Express Wireless Network Adapter
 	7630  MT7630e 802.11bgn Wireless Network Adapter
 # MT7612E too?
 	7662  MT7662E 802.11ac PCI Express Wireless Network Adapter
+	7915  MT7915E 802.11ax PCI Express Wireless Network Adapter
 14c4  IWASAKI Information Systems Co Ltd
 14c5  Automation Products AB
 14c6  Data Race Inc
@@ -20425,7 +20433,9 @@
 	1979  MT2910 Family [ConnectX-7 PCIe Bridge]
 	197a  MT43162 Family [BlueField-3 Lx SoC PCIe Bridge]
 	197b  MT43244 Family [BlueField-3 SoC PCIe Bridge]
+	2020  MT2892 Family [ConnectX-6 Dx Emulated PCIe Bridge]
 	2021  MT42822 Family [BlueField-2 SoC Emulated PCIe Bridge]
+	2023  MT2910 Family [ConnectX-7 Emulated PCIe Bridge]
 	2024  MT43244 Family [BlueField-3 SoC Emulated PCIe Bridge]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
@@ -22920,8 +22930,10 @@
 	1080  ASM1083/1085 PCIe to PCI Bridge
 		1849 1080  Motherboard
 	1142  ASM1042A USB 3.0 Host Controller
-	1184  ASM1184e PCIe Switch Port
-		1849 1184  ASM1184e PCIe Switch
+	1182  ASM1182e 2-Port PCIe x1 Gen2 Packet Switch
+		1b21 118f  ASM1182e 2-Port PCIe x1 Gen2 Packet Switch
+	1184  ASM1184e 4-Port PCIe x1 Gen2 Packet Switch
+		1849 1184  ASM1184e 4-Port PCIe x1 Gen2 Packet Switch
 	1242  ASM1142 USB 3.1 Host Controller
 	1343  ASM1143 USB 3.1 Host Controller
 	2142  ASM2142 USB 3.1 Host Controller
@@ -31316,6 +31328,8 @@
 	43ed  Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller
 	43ef  Tiger Lake-H Shared SRAM
 	43f0  Wi-Fi 6 AX201
+		8086 0074  Wi-Fi 6 AX201 160MHz
+		8086 02a4  Wireless-AC 9462
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
