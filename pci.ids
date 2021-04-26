@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.04.24
-#	Date:    2021-04-24 03:15:01
+#	Version: 2021.04.26
+#	Date:    2021-04-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23165,6 +23165,16 @@
 1bbf  Maxeler Technologies Ltd.
 	0003  MAX3
 	0004  MAX4
+1bc0  Innodisk Corporation
+	1001  PCIe 3TG6-P Controller
+	1002  PCIe 3TE6 Controller
+	1160  PCIe 3TE2 Controller
+	1321  PCIe 4TG-P Controller
+	1322  PCIe 4TE Controller
+	2262  PCIe 3TG3-P Controller
+	5208  PCIe 3TE7 Controller
+	5216  PCIe 3TE8 Controller
+	5236  PCIe 4TG2-P Controller
 1bcf  NEC Corporation
 	001c  Vector Engine 1.0
 1bd0  Astronics Corporation
@@ -23309,6 +23319,10 @@
 	0001  Hunter PCI Express
 1c8c  Mobiveil, Inc.
 1cb0  Shannon Systems
+	8266  Andalusia Series SSD
+		1cb0 2021  Andalusia Series OCS U.2 SSD
+		1cb0 2121  Andalusia Series ZNS U.2 SSD
+		1cb0 2f21  Andalusia Series NVMe U.2 SSD
 	d000  Venice NVMe SSD
 		1cb0 2010  Venice-E Series OCS U.2
 		1cb0 2011  Venice Series OCS U.2
@@ -23854,6 +23868,8 @@
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
+1ebd  Emerge Technologies Company Ltd.
+	0101  Seirios 2063 Video Codec
 1ed3  Yeston
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
@@ -24800,6 +24816,7 @@
 		8086 0034  Wireless-AC 9560 160MHz
 		8086 0070  Wi-Fi 6 AX201 160MHz
 		8086 0074  Wi-Fi 6 AX201 160MHz
+		8086 4070  Wireless-AC 9462 80MHz
 	02f5  Comet Lake PCH-LP SCS3
 	02f9  Comet Lake Thermal Subsytem
 	02fc  Comet Lake Integrated Sensor Solution
@@ -31327,7 +31344,8 @@
 	43e8  Tiger Lake-H Serial IO I2C Controller #0
 	43ed  Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller
 	43ef  Tiger Lake-H Shared SRAM
-	43f0  Wi-Fi 6 AX201
+	43f0  Tiger Lake PCH CNVi WiFi
+		8086 0034  Wireless-AC 9560
 		8086 0074  Wi-Fi 6 AX201 160MHz
 		8086 02a4  Wireless-AC 9462
 	444e  Turbo Memory Controller
@@ -32863,6 +32881,8 @@
 	1011  vSMP Foundation MEX/FLX controller [vSMP CTL]
 8800  Trigem Computer Inc.
 	2008  Video assistant component
+8820  Stryker Corporation
+	2724  Mako Front Side Motor Controller [cPCI]
 8866  T-Square Design Inc.
 8888  Silicon Magic
 8912  TRX
