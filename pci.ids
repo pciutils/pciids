@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.05.04
-#	Date:    2021-05-04 03:15:01
+#	Version: 2021.05.10
+#	Date:    2021-05-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3658,6 +3658,7 @@
 	7388  Arcturus GL-XL
 	738c  Arcturus GL-XL [AMD Instinct MI100]
 	738e  Arcturus GL-XL
+	73a3  Navi 21 [Radeon PRO W6800]
 	73a4  Navi 21 USB
 	73af  Navi 21 [Radeon RX 6900 XT]
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
@@ -3669,6 +3670,9 @@
 	73e1  Navi 23
 	73e4  Navi 23 USB
 	73ff  Navi 23 [Radeon RX 6600/6600 XT/6600M]
+	7408  Aldebaran
+	740c  Aldebaran
+	740f  Aldebaran
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -12142,7 +12146,7 @@
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
 		1462 3715  RTX 2080 Ti GAMING X TRIO
-	1e09  CMP 50HX
+	1e09  TU102 [CMP 50HX]
 	1e2d  TU102 [GeForce RTX 2080 Ti Engineering Sample]
 	1e2e  TU102 [GeForce RTX 2080 Ti 12GB Engineering Sample]
 	1e30  TU102GL [Quadro RTX 6000/8000]
@@ -12258,7 +12262,7 @@
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
 		1462 3892  RTX 3080 10GB GAMING X TRIO
 	2208  GA102 [GeForce RTX 3080 Ti]
-	220d  GA102
+	220d  GA102 [GeForce RTX 3080 Lite Hash Rate]
 	222b  GA102 [GeForce RTX 3090 Engineering Sample]
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
@@ -21371,7 +21375,9 @@
 	0004  Octeon (and older) FIPS
 	0005  Octeon CN38XX Network Processor Pass 3.x
 	0006  RoHS
-	0010  Nitrox XL NPX
+	0010  CN15XX/CN16XX [Nitrox PX]
+	0011  CNN35XX [Nitrox III]
+	0012  CNN55XX [Nitrox V]
 	0020  Octeon CN31XX Network Processor
 	0030  Octeon CN30XX Network Processor
 	0040  Octeon CN58XX Network Processor
@@ -23533,6 +23539,9 @@
 	1017  AR-ARK-FX1 [Arkville 64B Multi-Homed Primary Endpoint]
 	1018  AR-ARK-FX1 [Arkville 64B Multi-Homed Secondary Endpoint]
 	1019  AR-ARK-FX1 [Arkville 64B Multi-Homed Tertiary Endpoint]
+	101a  AR-ARK-SRIOV-FX0 [Arkville 32B Primary Physical Function]
+	101b  AR-ARK-SRIOV-FX1 [Arkville 64B Primary Physical Function]
+	101c  AR-ARK-SRIOV-VF [Arkville Virtual Function]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -23607,6 +23616,8 @@
 	0001  HL-1000 AI Inference Accelerator [Goya]
 # PCIe accelerator card for Deep Learning training tasks
 	1000  HL-2000 AI Training Accelerator [Gaudi]
+# PCIe accelerator card for Deep Learning training tasks with secured firmware
+	1010  HL-2000 AI Training Accelerator [Gaudi secured]
 1db2  ATP ELECTRONICS INC
 1dbb  NGD Systems, Inc.
 1dbf  Guizhou Huaxintong Semiconductor Technology Co., Ltd
@@ -30480,6 +30491,8 @@
 	31da  Gemini Lake PCI Express Root Port
 	31db  Gemini Lake PCI Express Root Port
 	31dc  Gemini Lake PCH CNVi WiFi
+		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
+		8086 0034  Wireless-AC 9560
 	31e3  Celeron/Pentium Silver Processor SATA Controller
 	31e8  Celeron/Pentium Silver Processor LPC Controller
 	31ee  Celeron/Pentium Silver Processor Serial IO UART Host Controller
@@ -30581,6 +30594,9 @@
 	34ed  Ice Lake-LP USB 3.1 xHCI Host Controller
 	34ef  Ice Lake-LP DRAM Controller
 	34f0  Ice Lake-LP PCH CNVi WiFi
+		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
+		8086 0074  Wi-Fi 6 AX201
+		8086 0264  Wireless-AC 9461
 	34f8  Ice Lake-LP SD Controller
 	34fc  Ice Lake-LP Integrated Sensor Solution
 	3500  6311ESB/6321ESB PCI Express Upstream Port
@@ -31357,6 +31373,7 @@
 	43f0  Tiger Lake PCH CNVi WiFi
 		8086 0034  Wireless-AC 9560
 		8086 0074  Wi-Fi 6 AX201 160MHz
+		8086 0264  Wireless-AC 9461
 		8086 02a4  Wireless-AC 9462
 	444e  Turbo Memory Controller
 	467f  Volume Management Device NVMe RAID Controller
@@ -32779,6 +32796,7 @@
 	a36f  Cannon Lake PCH Shared SRAM
 	a370  Cannon Lake PCH CNVi WiFi
 		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
+		8086 0034  Wireless-AC 9560
 	a379  Cannon Lake PCH Thermal Controller
 		1028 0869  Vostro 3470
 	a382  400 Series Chipset Family SATA AHCI Controller
