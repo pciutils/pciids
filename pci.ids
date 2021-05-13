@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.05.10
-#	Date:    2021-05-10 03:15:02
+#	Version: 2021.05.13
+#	Date:    2021-05-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3487,6 +3487,7 @@
 	6985  Lexa XT [Radeon PRO WX 3100]
 	6986  Polaris12
 	6987  Lexa [Radeon 540X/550X/630 / RX 640 / E9171 MCM]
+	698f  Lexa XT [Radeon PRO WX 3100 / Barco MXRT 4700]
 	6995  Lexa XT [Radeon PRO WX 2100]
 	699f  Lexa PRO [Radeon 540/540X/550/550X / RX 540X/550/550X]
 		1028 1720  Radeon RX 550X
@@ -16138,8 +16139,6 @@
 	5a4b  Telsat Turbo
 1268  Tektronix
 1269  Thomson-CSF/TTM
-# MBIM on top of MHI
-	00b4  5G Data Card [Cinterion MV31-W]
 126a  Lexmark International, Inc.
 126b  Adax, Inc.
 126c  Northern Telecom
@@ -17727,9 +17726,50 @@
 	9513  OX16PCI954 (Quad 16950 UART) function 1 (parallel port)
 	9521  OX16PCI952 (Dual 16950 UART)
 	9523  OX16PCI952 Integrated Parallel Port
-	c158  OXPCIe952 Dual 16C950 UART
+# The OXPCIe952 PCI Express Bridge to Dual Serial & Parallel Port chip is a multifunction device that encodes five reset straps and 1:0 function bits in bits 6:0 of the device ID. Hence it consumes a whole 128-entry block, which is however sparsely populated as obviously disabled functions do not appear in the configuration space.
+	c100  OXPCIe952 Parallel Port
+	c101  OXPCIe952 Legacy 950 UART
+	c104  OXPCIe952 Parallel Port
+	c105  OXPCIe952 Legacy 950 UART
+	c106  OXPCIe952 GPIO
+	c108  OXPCIe952 Parallel Port
+	c109  OXPCIe952 Legacy 950 UART
+	c10c  OXPCIe952 Parallel Port
+	c10d  OXPCIe952 Legacy 950 UART
+	c10e  OXPCIe952 GPIO
+	c110  OXPCIe952 Parallel Port
+	c114  OXPCIe952 Parallel Port
+	c118  OXPCIe952 Parallel Port
+	c11b  OXPCIe952 Native 950 UART
+	c11c  OXPCIe952 Parallel Port
+	c11e  OXPCIe952 GPIO
+	c11f  OXPCIe952 Native 950 UART
+	c120  OXPCIe952 Legacy 950 UART
+	c124  OXPCIe952 Legacy 950 UART
+	c126  OXPCIe952 GPIO
+	c128  OXPCIe952 Legacy 950 UART
+	c12c  OXPCIe952 Legacy 950 UART
+	c12e  OXPCIe952 GPIO
+	c134  OXPCIe952 GPIO
+	c138  OXPCIe952 Native 950 UART
+	c13c  OXPCIe952 GPIO
+	c13d  OXPCIe952 Native 950 UART
+	c140  OXPCIe952 Legacy 950 UART #1
+	c141  OXPCIe952 Legacy 950 UART #2
+	c144  OXPCIe952 Legacy 950 UART #1
+	c145  OXPCIe952 Legacy 950 UART #2
+	c146  OXPCIe952 GPIO
+	c148  OXPCIe952 Legacy 950 UART #1
+	c149  OXPCIe952 Legacy 950 UART #2
+	c14c  OXPCIe952 Legacy 950 UART #1
+	c14d  OXPCIe952 Legacy 950 UART #2
+	c14e  OXPCIe952 GPIO
+	c154  OXPCIe952 GPIO
+	c158  OXPCIe952 Dual Native 950 UART
 		e4bf c504  CP4-SCAT Wireless Technologies Carrier Board
 		e4bf d551  DU1-MUSTANG Dual-Port RS-485 Interface
+	c15c  OXPCIe952 GPIO
+	c15d  OXPCIe952 Dual Native 950 UART
 	c308  EX-44016 16-port serial
 1416  Multiwave Innovation pte Ltd
 1417  Convergenet Technologies Inc
