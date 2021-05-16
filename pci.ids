@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.05.13
-#	Date:    2021-05-13 03:15:02
+#	Version: 2021.05.16
+#	Date:    2021-05-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12299,18 +12299,21 @@
 	2504  GA106 [GeForce RTX 3060 Lite Hash Rate]
 	2505  GA106
 	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
+	2523  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
 	2560  GA106M [GeForce RTX 3060 Mobile / Max-Q]
+	2563  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	2583  GA107 [GeForce RTX 3050]
 	25a0  GA107M [GeForce RTX 3050 Ti Mobile]
 	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a4  GA107
-	25a5  GA107M
+	25a5  GA107M [GeForce RTX 3050 Mobile]
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
 	25b8  GA107GLM [RTX A2000 Mobile]
-	25e0  GA107BM
-	25e2  GA107BM
+	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
+	25e2  GA107BM [GeForce RTX 3050 Mobile]
+	25e5  GA107BM [GeForce RTX 3050 Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -18532,7 +18535,7 @@
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
-	a80a  NVMe SSD Controller PM9A1/980PRO
+	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -23646,6 +23649,7 @@
 	0001  Colossus GC2 [C2]
 	0002  Colossus GC1 [S1]
 1d97  Shenzhen Longsys Electronics Co., Ltd.
+	2263  SM2263EN/SM2263XT-based OEM SSD
 1d9b  Facebook, Inc.
 	0010  Networking DOM Engine
 	0011  IO Bridge
@@ -23858,7 +23862,7 @@
 1e36  Shanghai Enflame Technology Co. Ltd
 	0001  T10 [CloudBlazer]
 	0002  T11 [CloudBlazer]
-	0003  T10s [CloudBlazer]
+	0003  T10(QSFP-DD) [CloudBlazer]
 	8011  I10 [CloudBlazer]
 	8012  I10L [CloudBlazer]
 # nee Thinci, Inc
@@ -29026,7 +29030,8 @@
 		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2723  Wi-Fi 6 AX200
-		8086 2723  Wireless AX200
+		1a56 1654  Killer™ Wi-Fi 6 AX1650x (AX200NGW)
+		8086 0084  Wi-Fi 6 AX200NGW
 	2725  Wi-Fi 6 AX210/AX211/AX411 160MHz
 		8086 0020  Wi-Fi 6 AX210 160MHz
 		8086 0024  Wi-Fi 6 AX210 160MHz
@@ -33558,6 +33563,7 @@ bdbd  Blackmagic Design
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
 	2263  P1 NVMe PCIe SSD
+	540a  P2 NVMe PCIe SSD
 c0de  Motorola
 c0fe  Motion Engineering, Inc.
 ca3b  Cambrionix Ltd.
