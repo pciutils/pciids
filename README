@@ -1,5 +1,8 @@
-This repository contains the history of the pci.ids file, which is
-automatically generated from the PCI ID Database at http://pci-ids.ucw.cz/.
+This branch contains the list of PCI IDs for the devices that have been
+verified to work with YADRO VEGMAN series of servers. Generally, this is
+a stripped down version of the original PCI IDs database maintained by
+Martin Mares and Albert Pool, and is only applicable to YADRO VEGMAN
+series of servers.
 
 The contents of the database and the generated files can be distributed under
 the terms of either the GNU General Public License (version 2 or later) or of
