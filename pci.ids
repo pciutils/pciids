@@ -55,7 +55,7 @@
 		1077 015d  QLE2562 PCI Express to 8Gb FC Dual Channel
 		1077 015e  QLE2564 PCI Express to 8Gb FC Quad Channel
 
-# Accelerators
+# GPUs
 #------------
 
 10de  NVIDIA Corporation
@@ -87,6 +87,11 @@
 		1000 30a0  SAS9300-8e
 		1000 30e0  SAS9300-8i
 	00c9  SAS3216 PCI-Express Fusion-MPT SAS-3
+9005  Adaptec
+	028f  Smart Storage PQI SAS
+		9005 0800  SmartRAID 3154-8i
+		9005 0807  SmartRAID 3162-8i
+		9005 1380  SmartRAID 3154-16i
 
 # NVMe SSD
 #--------
@@ -97,6 +102,7 @@
 144d  Samsung Electronics Co Ltd
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
+	a80a  NVMe SSD Controller PM9A1/980PRO
 	a822  NVMe SSD Controller 172Xa/172Xb
 		1028 1ff3  Express Flash PM1725b 1.6TB SFF
 		1028 1ff4  Express Flash PM1725b 3.2TB SFF
