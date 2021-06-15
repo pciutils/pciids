@@ -32,6 +32,27 @@
 	1593  Ethernet Controller E810-C for SFP
 		1137 02be  E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC
 	37d0  Ethernet Connection X722 for 10GbE SFP+
+		17aa 4020  Intel Ethernet Connection X722 for 10G SFP+
+		17aa 4021  Intel Ethernet Connection X722 for 10G SFP+
+		17aa 4022  Ethernet Connection X722 for 10GbE SFP+
+		8086 0001  Ethernet Network Adapter X722-2
+		8086 0002  Ethernet Network Adapter X722-2
+		8086 0003  Ethernet Network Adapter X722-4
+		8086 0004  Ethernet Network Adapter X722-4
+	37d1  Ethernet Connection X722 for 1GbE
+		14cd 0010  88E1514 Ethernet OCP 2x1G RJ45 Phy Card [USI-1514-1GbaseT]
+		1590 0216  Ethernet 1Gb 2-port 368i Adapter
+		1590 0217  Ethernet 1Gb 2-port 368FLR-MMT Adapter
+		1590 0247  Ethernet 1Gb 4-port 369i Adapter
+		17aa 4020  Ethernet Connection X722 for 1GbE
+		17aa 4021  Ethernet Connection X722 for 1GbE
+		17aa 4022  Ethernet Connection X722 for 1GbE
+		17aa 4024  Ethernet Connection X722 for 1GbE
+	37d3  Ethernet Connection X722 for 10GbE SFP+
+		1590 0219  Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter
+		17aa 4020  Ethernet Connection X722 for 10GbE SFP+
+		17aa 4021  Ethernet Connection X722 for 10GbE SFP+
+		17aa 4025  Ethernet Connection X722 for 10GbE SFP+
 
 # FC adapters
 #-----------
