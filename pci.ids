@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.06.22
-#	Date:    2021-06-22 03:15:02
+#	Version: 2021.06.27
+#	Date:    2021-06-27 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -697,6 +697,18 @@
 		1000 46a0  MegaRAID 9660-24i Tri-Mode Storage Adapter
 		1000 46b0  MegaRAID 9665W-16i Tri-Mode Storage Adapter
 		1000 46c0  MegaRAID 9680W-16e Tri-Mode Storage Adapter
+		1028 2114  PERC H965 Adapter
+		1028 2115  PERC H965 Front
+		1028 2117  PERC H965 MX
+		1028 213a  PERC H965e Adapter
+		1028 213b  PERC H765 Adapter
+		1028 213c  PERC H765 Front
+		1028 213d  PERC H765N Front
+		1028 213e  PERC H765 MX
+		1028 213f  PERC H365 Adapter
+		1028 2140  PERC H365 Front
+		1028 2141  PERC H360 MX
+		1028 2142  HBA 465e Adapter
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 # 8 Internal and 8 External port channel 9400 HBA
 		1000 3040  HBA 9400-8i8e
@@ -729,12 +741,18 @@
 	00c2  SAS3324 PCI-Express Fusion-MPT SAS-3
 	00c3  SAS3324 PCI-Express Fusion-MPT SAS-3
 	00c4  SAS3224 PCI-Express Fusion-MPT SAS-3
+# SAS 9305 16 internal port HBA
+		1000 3190  SAS9305-16i
+# SAS 9305 24 internal port HBA
+		1000 31a0  SAS9305-24i
 		1170 0002  SAS3224 PCI Express to 12Gb HBA MEZZ CARD
 	00c5  SAS3316 PCI-Express Fusion-MPT SAS-3
 	00c6  SAS3316 PCI-Express Fusion-MPT SAS-3
 	00c7  SAS3316 PCI-Express Fusion-MPT SAS-3
 	00c8  SAS3316 PCI-Express Fusion-MPT SAS-3
 	00c9  SAS3216 PCI-Express Fusion-MPT SAS-3
+# 9305 16 external port SAS HBA
+		1000 3180  SAS9305-16e
 	00ce  MegaRAID SAS-3 3316 [Intruder]
 		1000 9371  MegaRAID SAS 9361-16i
 		1000 9390  MegaRAID SAS 9380-8i8e
@@ -785,6 +803,7 @@
 		1028 200c  HBA355i Front
 		1028 200d  HBA355e Adapter
 		1028 200e  HBA350i MX
+		1028 2175  HBA350i Adapter
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0207  ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
@@ -5857,7 +5876,7 @@
 	0325  315PRO PCI/AGP VGA Display Adapter
 	0330  330 [Xabre] PCI/AGP VGA Display Adapter
 	0406  85C501/2
-	0496  85C496
+	0496  SiS85C496 PCI & CPU Memory Controller (PCM)
 	0530  530 Host
 	0540  540 Host
 	0550  550 Host
@@ -18583,6 +18602,14 @@
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
+		0128 215a  DC NVMe PM9A3 RI U.2 960GB
+		0128 215b  DC NVMe PM9A3 RI U.2 1.92TB
+		0128 215c  DC NVMe PM9A3 RI U.2 3.84TB
+		0128 215d  DC NVMe PM9A3 RI U.2 7.68TB
+		0128 2166  DC NVMe PM9A3 RI 110M.2 960GB
+		0128 2167  DC NVMe PM9A3 RI 110M.2 1.92TB
+		0128 2168  DC NVMe PM9A3 RI 80M.2 480GB
+		0128 2169  DC NVMe PM9A3 RI 80M.2 960GB
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -18662,6 +18689,8 @@
 		1028 2131  Ent NVMe v2 AGN RI U.2 7.68TB
 		1028 2132  Ent NVMe v2 AGN FIPS RI U.2 15.36TB
 		1028 2133  Ent NVMe v2 AGN RI U.2 15.36TB
+	a825  NVMe SSD Controller PM173Xa
+	a826  NVMe SSD Controller PM174X
 	ecec  Exynos 8895 PCIe Root Complex
 144e  OLITEC
 144f  Askey Computer Corp.
@@ -19428,6 +19457,7 @@
 		14e4 d124  NetXtreme-E P2100D BCM57508 2x100G QSFP PCIE
 		14e4 df24  BCM57508 NetXtreme-E NGM2100D 2x100G KR Mezz Ethernet
 	1751  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
+		1028 09d4  PowerEdge XR11/XR12 LOM
 		14e4 5045  NetXtreme-E BCM57504 4x25G OCP3.0
 		14e4 5250  NetXtreme-E BCM57504 4x25G KR Mezz
 		14e4 d142  NetXtreme-E P425D BCM57504 4x25G SFP28 PCIE
@@ -20431,11 +20461,12 @@
 	0255  Spectrum-4, Secure Flash recovery mode
 	0256  Abir GearBox
 	0257  Quantum-2 in Flash Recovery Mode
-	0258  AbirGearBox Flash Recovery
+	0258  Quantum-2 in Flash Recovery Mode
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
 	0263  MT27710 [ConnectX-4 Lx Programmable Virtual Function] EN
 	0264  Innova-2 Flex Burn image
 	0281  NPS-600 Flash Recovery
+	0357  Quantum-2 Secure Flash Recovery Mode
 	0358  Abir GearBox Secure Flash recovery mode
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
@@ -21348,6 +21379,7 @@
 	7029  AP342 14-bit, 12-Channel Isolated Simultaneous Conversion Analog Input Module
 	702a  AP226 12-Bit, 8-Channel Isolated Analog Output Module
 	702b  AP236 16-Bit, 8-Channel Isolated Analog Output Module
+	702c  AP560A Module 4 Independent isolated CAN bus channels
 	7031  AP441-1: 32-Channel Isolated Digital Input Module
 	7032  AP441-2: 32-Channel Isolated Digital Input Module
 	7033  AP441-3: 32-Channel Isolated Digital Input Module
@@ -21358,6 +21390,7 @@
 	7052  APA7-502 Reconfigurable Artix-7 52,160 Cell FPGA module 24 RS485 channels
 	7053  APA7-503 Reconfigurable Artix-7 52,160 Cell FPGA module 24 TTL & 12 RS485 channels
 	7054  APA7-504 Reconfigurable Artix-7 52,160 Cell FPGA module 24 LVDS channels
+	7073  AP730 Multi-function I/O Module 16 Digital I/O 8 Differential Analog In 4 Analog Out
 16da  Advantech Co., Ltd.
 	0011  INES GPIB-PCI
 16df  PIKA Technologies Inc.
@@ -33894,6 +33927,7 @@ edd8  ARK Logic Inc
 f043  ASUSTeK Computer Inc. (Wrong ID)
 f05b  Foxconn International, Inc. (Wrong ID)
 f15e  SiFive, Inc.
+	0000  FU740-C000 RISC-V SoC PCI Express x8 to AXI4 Bridge
 f1d0  AJA Video
 	c0fe  Xena HS/HD-R
 	c0ff  Kona/Xena 2
