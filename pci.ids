@@ -12,10 +12,9 @@
 # ETH Cards
 #---------
 
-1000  Broadcom / LSI
+14e4  Broadcom Inc. and subsidiaries
 	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
 		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
-14e4  Broadcom Inc. and subsidiaries
 	1751  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
 15b3  Mellanox Technologies
 	1015  MT27710 Family [ConnectX-4 Lx]
@@ -26,10 +25,11 @@
 	1533  I210 Gigabit Network Connection
 	1539  I211 Gigabit Network Connection
 	1572  Ethernet Controller X710 for 10GbE SFP+
-		1137 020a  Ethernet Converged NIC X710-DA2
 		1137 013b  Ethernet Converged NIC X710-DA4
+		1137 020a  Ethernet Converged NIC X710-DA2
 		1590 0000  Ethernet Controller X710 for 10GbE SFP+
 	1593  Ethernet Controller E810-C for SFP
+	159b  Ethernet Controller E810-XXV for SFP
 		1137 02be  E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4020  Intel Ethernet Connection X722 for 10G SFP+
@@ -57,24 +57,23 @@
 # FC adapters
 #-----------
 
-1000  Broadcom / LSI
+1077  QLogic Corp.
+	2071  ISP2714-based 16/32Gb Fibre Channel to PCIe Adapter
+		1077 0283  QLE2764 Quad Port 32Gb Fibre Channel to PCIe Adapter
+		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
+	2261  ISP2722-based 16/32Gb Fibre Channel to PCIe Adapter
+		1077 0299  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
+		1077 029a  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1077 02a7  QLE2690 Single Port 16Gb FC to PCIe Gen3 x8 Adapter
+		1077 02a8  QLE2692 Dual Port 16Gb FC to PCIe Gen3 x8 Adapter
+	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
+		1077 015d  QLE2562 PCI Express to 8Gb FC Dual Channel
+		1077 015e  QLE2564 PCI Express to 8Gb FC Quad Channel
 10df  Emulex Corporation
 	e131  LightPulse 8Gb/s PCIe Shared I/O Fibre Channel Adapter
 	e300  LPe31000/LPe32000 Series 16Gb/32Gb Fibre Channel Adapter
 		10df e300  LPe32002-M2 2-Port 32Gb Fibre Channel Adapter
 1b4b  Marvell Technology Group Ltd.
-1fc1  QLogic, Corp.
-	2071  ISP2714-based 16/32Gb Fibre Channel to PCIe Adapter
-		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
-		1077 0283  QLE2764 Quad Port 32Gb Fibre Channel to PCIe Adapter
-	2261  ISP2722-based 16/32Gb Fibre Channel to PCIe Adapter
-		1077 02a7  QLE2690 Single Port 16Gb FC to PCIe Gen3 x8 Adapter
-		1077 02a8  QLE2692 Dual Port 16Gb FC to PCIe Gen3 x8 Adapter
-		1077 0299  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
-		1077 029a  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
-	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
-		1077 015d  QLE2562 PCI Express to 8Gb FC Dual Channel
-		1077 015e  QLE2564 PCI Express to 8Gb FC Quad Channel
 
 # GPUs
 #------------
@@ -88,17 +87,10 @@
 #-----------------------------
 
 1000  Broadcom / LSI
-	00ce  MegaRAID SAS-3 3316 [Intruder]
-		1000 9380  MegaRAID SAS 9380-8e
-		1000 9390  MegaRAID SAS 9380-8i8e
-	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
-		1000 4010  MegaRAID 9560-8i
-# 9560 16 internal port RAID controller
-		1000 4000  MegaRAID 9560-16i
 	005d  MegaRAID SAS-3 3108 [Invader]
 		1000 9361  MegaRAID SAS 9361-8i
 		1000 9363  MegaRAID SAS 9361-4i
-		1000 9371  MegaRAID SAS 9361-16i
+		1000 9380  MegaRAID SAS 9380-8e
 	0090  SAS3108 PCI-Express Fusion-MPT SAS-3
 	0091  SAS3108 PCI-Express Fusion-MPT SAS-3
 	0094  SAS3108 PCI-Express Fusion-MPT SAS-3
@@ -108,6 +100,12 @@
 		1000 30a0  SAS9300-8e
 		1000 30e0  SAS9300-8i
 	00c9  SAS3216 PCI-Express Fusion-MPT SAS-3
+	00ce  MegaRAID SAS-3 3316 [Intruder]
+		1000 9371  MegaRAID SAS 9361-16i
+		1000 9390  MegaRAID SAS 9380-8i8e
+	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
+		1000 4000  MegaRAID 9560-16i
+		1000 4010  MegaRAID 9560-8i
 9005  Adaptec
 	028f  Smart Storage PQI SAS
 		9005 0800  SmartRAID 3154-8i
