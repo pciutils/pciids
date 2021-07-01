@@ -109,6 +109,7 @@
 9005  Adaptec
 	028f  Smart Storage PQI SAS
 		9005 0800  SmartRAID 3154-8i
+		9005 0801  SmartRAID 3152-8i
 		9005 0807  SmartRAID 3162-8i
 		9005 1380  SmartRAID 3154-16i
 
