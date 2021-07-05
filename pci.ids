@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.07.02
-#	Date:    2021-07-02 03:15:02
+#	Version: 2021.07.05
+#	Date:    2021-07-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4915,14 +4915,17 @@
 		ea50 ce19  mCOM10-L1900
 	15e2  Raven/Raven2/FireFlight/Renoir Audio Processor
 		17aa 5124  ThinkPad E595
+		ea50 ce19  mCOM10-L1900
 	15e3  Family 17h (Models 10h-1fh) HD Audio Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		1043 86c7  PRIME B450M-A Motherboard
 		17aa 5124  ThinkPad E595
 	15e4  Raven/Raven2/Renoir Sensor Fusion Hub
 	15e5  Raven2 USB 3.1
+		ea50 ce19  mCOM10-L1900
 	15e6  Raven/Raven2/Renoir Non-Sensor Fusion Hub KMDF driver
 		1022 15e4  Raven/Raven2/Renoir Sensor Fusion Hub
+		ea50 ce19  mCOM10-L1900
 	15e8  Raven/Raven2 Device 24: Function 0
 	15e9  Raven/Raven2 Device 24: Function 1
 	15ea  Raven/Raven2 Device 24: Function 2
@@ -17805,9 +17808,11 @@
 	9513  OX16PCI954 (Quad 16950 UART) function 1 (parallel port)
 	9521  OX16PCI952 (Dual 16950 UART)
 	9523  OX16PCI952 Integrated Parallel Port
+# Multifunction device with 3 function bits in ID
+	c000  OXPCIe840 Parallel Port
 	c004  OXPCIe840 Parallel Port
 	c006  OXPCIe840 GPIO
-# The OXPCIe952 PCI Express Bridge to Dual Serial & Parallel Port chip is a multifunction device that encodes five reset straps and 1:0 function bits in bits 6:0 of the device ID. Hence it consumes a whole 128-entry block, which is however sparsely populated as obviously disabled functions do not appear in the configuration space.
+# Multifunction device with 7 function bits in ID
 	c100  OXPCIe952 Parallel Port
 	c101  OXPCIe952 Legacy 950 UART
 	c104  OXPCIe952 Parallel Port
@@ -17851,12 +17856,18 @@
 		e4bf d551  DU1-MUSTANG Dual-Port RS-485 Interface
 	c15c  OXPCIe952 GPIO
 	c15d  OXPCIe952 Dual Native 950 UART
+# Multifunction device with 4 function bits in ID
+	c204  OXPCIe954 GPIO
 	c208  OXPCIe954 Quad Native 950 UART
 	c20c  OXPCIe954 GPIO
 	c20d  OXPCIe954 Quad Native 950 UART
-	c308  EX-44016 16-port serial
+# Multifunction device with 4 function bits in ID
+	c304  OXPCIe958 GPIO
+	c308  OXPCIe958 Quad Native 950 UART
 	c30c  OXPCIe958 GPIO
 	c30d  OXPCIe958 Quad Native 950 UART
+# Multifunction device with 8 function bits in ID
+	c530  OXPCIe200 Dual OHCI USB Controller (ULPI/R-ULPI)
 	c531  OXPCIe200 Dual EHCI USB Controller (ULPI/R-ULPI)
 	c534  OXPCIe200 Dual OHCI USB Controller (ULPI/R-ULPI)
 	c535  OXPCIe200 Dual EHCI USB Controller (ULPI/R-ULPI)
@@ -17911,6 +17922,7 @@
 	c5a5  OXPCIe200 EHCI USB Controller (ULPI)
 	c5a6  OXPCIe200 Programmable Memory Interface & GPIO
 	c5a8  OXPCIe200 OHCI USB Controller (ULPI)
+	c5a9  OXPCIe200 EHCI USB Controller (ULPI)
 	c5aa  OXPCIe200 Programmable Memory Interface
 	c5ab  OXPCIe200 Native 950 UART
 	c5ac  OXPCIe200 OHCI USB Controller (ULPI)
@@ -18918,7 +18930,8 @@
 14a8  FEATRON Technologies Corporation
 14a9  HIVERTEC Inc
 14aa  Advanced MOS Technology Inc
-14ab  Mentor Graphics Corp.
+# nee Mentor Graphics Corp.
+14ab  Siemens Industry Software Inc.
 14ac  Novaweb Technologies Inc
 14ad  Time Space Radio AB
 14ae  CTI, Inc
@@ -20560,16 +20573,16 @@
 	0252  Amos chiplet
 	0253  Amos GearBox Manager
 	0254  Spectrum-4, Flash recovery mode
-	0255  Spectrum-4, Secure Flash recovery mode
+	0255  Spectrum-4 RMA
 	0256  Abir GearBox
 	0257  Quantum-2 in Flash Recovery Mode
-	0258  Quantum-2 in Flash Recovery Mode
+	0258  Quantum-2 RMA
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
 	0263  MT27710 [ConnectX-4 Lx Programmable Virtual Function] EN
 	0264  Innova-2 Flex Burn image
 	0281  NPS-600 Flash Recovery
-	0357  Quantum-2 Secure Flash Recovery Mode
-	0358  Abir GearBox Secure Flash recovery mode
+	0357  Abir GearBox in Flash Recovery Mode
+	0358  Abir GearBox in RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
 		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
@@ -23804,6 +23817,7 @@
 	1808  RK1808 Neural Network Processor Card
 	3566  RK3568 Remote Signal Processor
 1d8f  Enyx
+1d92  Abaco Systems Inc.
 1d93  YADRO
 1d94  Chengdu Haiguang IC Design Co., Ltd.
 	1450  Root Complex
@@ -24129,6 +24143,7 @@
 1e7b  Dataland
 1e7c  Brainchip Inc
 	bca1  AKD1000 Neural Network Coprocessor [Akida]
+1e81  Ramaxel Technology(Shenzhen) Limited
 1e85  Heitec AG
 1e89  ID Quantique SA
 	0002  Quantis-PCIe-40M
@@ -25096,7 +25111,7 @@
 		8086 0034  Wireless-AC 9560 160MHz
 		8086 0070  Wi-Fi 6 AX201 160MHz
 		8086 0074  Wi-Fi 6 AX201 160MHz
-		8086 4070  Wireless-AC 9462 80MHz
+		8086 4070  Wi-Fi 6 AX201 160MHz
 	02f5  Comet Lake PCH-LP SCS3
 	02f9  Comet Lake Thermal Subsytem
 	02fc  Comet Lake Integrated Sensor Solution
@@ -27539,6 +27554,7 @@
 		1028 04aa  XPS 8300
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
+		103c 2abf  HP Pavilion p6-2100 Desktop PC Series
 		1043 8418  P8P67 Deluxe Motherboard
 		1043 841b  P8H67 Series Motherboard
 		17aa 21cf  ThinkPad T520
