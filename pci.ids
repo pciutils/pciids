@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.07.05
-#	Date:    2021-07-05 03:15:02
+#	Version: 2021.07.20
+#	Date:    2021-07-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -808,6 +808,7 @@
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0207  ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0208  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb HBA
+		1d49 0209  ThinkSystem 440-8e SAS/SATA PCIe Gen4 12Gb HBA
 	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
 # Tampered part
 		1028 200b  HBA355i Adapter Tampered
@@ -8707,13 +8708,15 @@
 	8717  PEX 8717 16-lane, 8-Port PCI Express Gen 3 (8.0 GT/s) Switch with DMA
 	8718  PEX 8718 16-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
 	8724  PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA
+	8725  PEX 8725 24-Lane, 10-Port PCI Express Gen 3 (8.0 GT/s) Multi-Root Switch with DMA
 	8732  PEX 8732 32-lane, 8-Port PCI Express Gen 3 (8.0 GT/s) Switch
 	8734  PEX 8734 32-lane, 8-Port PCI Express Gen 3 (8.0GT/s) Switch
 	8747  PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s) Switch
 	8748  PEX 8748 48-Lane, 12-Port PCI Express Gen 3 (8 GT/s) Switch, 27 x 27mm FCBGA
-# This is the Non-Transparent-Bridge Virtualized Port as presented by the PLX PEX 8732 chip, the physical bridges show up at 10b5:8732
-	87b0  PEX 8732 32-lane, 8-Port PCI Express Gen 3 (8.0 GT/s) Switch
+	8749  PEX 8749 48-Lane, 18-Port PCI Express Gen 3 (8.0 GT/s) Multi-Root Switch with DMA
+	87b0  PEX PCI Express Switch NT0 Port Virtual Interface
 		1093 7761  PXIe-8830mc
+	87d0  PEX PCI Express Switch DMA interface
 	9016  PLX 9016 8-port serial controller
 	9030  PCI9030 32-bit 33MHz PCI <-> IOBus Bridge
 		10b5 2695  Hilscher CIF50-PB/DPS Profibus
@@ -9060,7 +9063,7 @@
 	1449  M1449
 	1451  M1451
 	1461  M1461
-	1489  M1489
+	1489  M1489 Cache-Memory PCI Controller (CMP) [FinALi 486] CPU to PCI bridge
 	1511  M1511 [Aladdin]
 	1512  M1512 [Aladdin]
 	1513  M1513 [Aladdin]
@@ -19877,6 +19880,7 @@
 	b960  Broadcom BCM56960 Switch ASIC
 # Tomahawk4
 	b990  BCM56990 Switch ASIC
+	c909  BCM78909 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
 		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
 		14e4 8023  PS410T-H04 NetXtreme-S 4x10G 10GBaseT PCIe SmartNIC
@@ -23050,7 +23054,8 @@
 1ae3  SANBlaze Technology, Inc.
 1ae7  First Wise Media GmbH
 	0520  HFC-S PCI A [X-TENSIONS XC-520]
-1ae8  Silicon Software GmbH
+# nee Silicon Software GmbH
+1ae8  Basler AG
 # CameraLink frame grabber for Visual Applets
 	0751  mE5 marathon VCL
 # CameraLink HS frame grabber
@@ -23099,6 +23104,12 @@
 	0b61  mE6 Abacus 4TG
 # CoaXpress frame grabber
 	0b63  CXP-12 Interface Card 1C
+# CoaXpress frame grabber
+	0b64  CXP-12 Interface Card 4C
+# CoaXpress frame grabber
+	0b65  CXP-12 Interface Card 2C
+# CoaXpress Thunderbolt frame grabber
+	0b66  CXP-12 LightBridge 2C
 # GigE Vision frame grabber
 	0e42  microEnable IV AQ4-GE
 # GigE Vision frame grabber for Visual Applets
@@ -23746,6 +23757,9 @@
 1d62  Nebbiolo Technologies
 1d65  Imagine Communications Corp.
 	04de  Taurus/McKinley
+1d69  Celeno Communications
+	2432  CL2432
+	2440  CL2440
 1d6a  Aquantia Corp.
 	0001  AQC107 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 	00b1  AQC100 10G Ethernet MAC controller [AQtion]
@@ -23788,6 +23802,7 @@
 	101a  AR-ARK-SRIOV-FX0 [Arkville 32B Primary Physical Function]
 	101b  AR-ARK-SRIOV-FX1 [Arkville 64B Primary Physical Function]
 	101c  AR-ARK-SRIOV-VF [Arkville Virtual Function]
+	101d  AR-ARK-NIC [Arkville ArkNIC Kernel Path Device]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -24085,6 +24100,8 @@
 # nee Thinci, Inc
 1e38  Blaize, Inc
 	0102  Xplorer X1600
+# https://www.medion.com/
+1e39  MEDION AG
 1e3b  Shenzhen DAPU Microelectronics Co., Ltd
 	1098  Haishen NVMe SSD
 		1e3b 0001  Enterprise NVMe SSD U.2 0.8TB (H2100)
@@ -24170,6 +24187,10 @@
 1ee9  SUSE LLC
 1eec  Viscore Technologies Ltd
 1efb  Flexxon Pte Ltd
+1f02  Beijing Dayu Technology
+1f03  Shenzhen Shichuangyi Electronics Co., Ltd
+	2262  SM2262EN-based OEM SSD
+	5216  IG5216-based NVMe SSD
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -27554,6 +27575,7 @@
 		1028 04aa  XPS 8300
 		1028 04b2  Vostro 3350
 		1028 04da  Vostro 3750
+# Realtek ALC656
 		103c 2abf  HP Pavilion p6-2100 Desktop PC Series
 		1043 8418  P8P67 Deluxe Motherboard
 		1043 841b  P8H67 Series Motherboard
@@ -33201,7 +33223,8 @@
 8322  Sodick America Corp.
 8384  SigmaTel
 8401  TRENDware International Inc.
-8686  ScaleMP
+# nee ScaleMP
+8686  SAP
 	1010  vSMP Foundation controller [vSMP CTL]
 	1011  vSMP Foundation MEX/FLX controller [vSMP CTL]
 8800  Trigem Computer Inc.
