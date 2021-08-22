@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.08.16
-#	Date:    2021-08-16 03:15:01
+#	Version: 2021.08.22
+#	Date:    2021-08-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3714,10 +3714,13 @@
 	7388  Arcturus GL-XL
 	738c  Arcturus GL-XL [AMD Instinct MI100]
 	738e  Arcturus GL-XL
+	73a2  Navi 21 Pro-XTA [Radeon Pro W6900X]
 	73a3  Navi 21 [Radeon PRO W6800]
 	73a4  Navi 21 USB
+	73ab  Navi 21 Pro-XLA [Radeon Pro W6800X/Radeon Pro W6800X Duo]
 	73af  Navi 21 [Radeon RX 6900 XT]
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
+		1002 0e3a  Gigabyte AMD Radeon RX 6900 XT
 		1eae 6701  XFX Speedster MERC 319 AMD Radeon RX 6800 XT Black
 	73c3  Navi 22
 	73c4  Navi 22 USB
@@ -19815,6 +19818,7 @@
 	441f  BCM4361 802.11ac Dual-Band Wireless Network Controller
 	4420  BCM4361 802.11ac 2.4 GHz Wireless Network Controller
 	4421  BCM4361 802.11ac 5 GHz Wireless Network Controller
+	4425  BRCM4378 Wireless Network Adapter
 	4430  BCM44xx CardBus iLine32 HomePNA 2.0
 	4432  BCM4432 CardBus 10/100BaseT
 	4464  BCM4364 802.11ac Wireless Network Adapter
@@ -21097,7 +21101,7 @@
 	0002  SiByte BCM1125H/1250 System-on-a-Chip HyperTransport
 	0012  SiByte BCM1280/BCM1480 System-on-a-Chip PCI-X
 	0014  Sibyte BCM1280/BCM1480 System-on-a-Chip HyperTransport
-1677  Bernecker + Rainer
+1677  B&R Industrial Automation GmbH
 	104e  5LS172.6 B&R Dual CAN Interface Card
 	12d7  5LS172.61 B&R Dual CAN Interface Card
 	20ad  5ACPCI.MFIO-K01 Profibus DP / K-Feldbus / COM
@@ -22949,6 +22953,7 @@
 1a22  Ambric Inc.
 1a29  Fortinet, Inc.
 	4338  CP8 Content Processor ASIC
+	43a0  CP9 Content Processor ASIC
 	4e36  NP6 Network Processor
 	4e37  NP7 Network Processor
 1a2b  Ascom AG
