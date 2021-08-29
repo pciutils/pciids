@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.08.22
-#	Date:    2021-08-22 03:15:01
+#	Version: 2021.08.29
+#	Date:    2021-08-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12811,6 +12811,7 @@
 	8812  RTL8812AE 802.11ac PCIe Wireless Network Adapter
 	8813  RTL8813AE 802.11ac PCIe Wireless Network Adapter
 	8821  RTL8821AE 802.11ac PCIe Wireless Network Adapter
+	8852  RTL8852AE 802.11ax PCIe Wireless Network Adapter
 	b723  RTL8723BE PCIe Wireless Network Adapter
 		10ec 8739  Dell Wireless 1801
 		17aa b736  Z50-75
@@ -24240,6 +24241,7 @@
 	2a16  Cloud Intelligent Inference Controller
 1ea7  Intelliprop, Inc
 	223a  Typhon+ PCIe to Gen-Z Bridge
+	224a  IPA-PE224A CXL to Gen-Z Bridge [Sphinx]
 1eab  Hefei DATANG Storage Technology Co.,LTD.
 	300a  NVMe SSD Controller 300A
 	300b  NVMe SSD Controller 300B
