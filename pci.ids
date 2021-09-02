@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.08.29
-#	Date:    2021-08-29 03:15:02
+#	Version: 2021.09.02
+#	Date:    2021-09-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22003,6 +22003,8 @@
 	6013  R6013 ISA Bridge
 	6020  R6020 North Bridge
 	6021  R6021 Host Bridge
+# Integrated in the Vortex86DX2 SoC
+	6022  R6022 Host Bridge
 # Found in the Vortex86DX3 SoC
 	6023  R6023 Host Bridge
 # Found in the Vortex86EX SoC
@@ -23644,6 +23646,16 @@
 1cc1  ADATA Technology Co., Ltd.
 	8201  XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive
 1cc4  Union Memory (Shenzhen)
+	1203  NVMe SSD Controller UHXXXa series
+		1cc4 a121  NVMe SSD UHXXXa series U.2 960GB
+		1cc4 a122  NVMe SSD UHXXXa series U.2 1920GB
+		1cc4 a123  NVMe SSD UHXXXa series U.2 3840GB
+		1cc4 a124  NVMe SSD UHXXXa series U.2 7680GB
+		1cc4 a125  NVMe SSD UHXXXa series U.2 15360GB
+		1cc4 a211  NVMe SSD UHXXXa series U.2 800GB
+		1cc4 a212  NVMe SSD UHXXXa series U.2 1600GB
+		1cc4 a213  NVMe SSD UHXXXa series U.2 3200GB
+		1cc4 a214  NVMe SSD UHXXXa series U.2 6400GB
 	17ab  NVMe 256G SSD device
 1cc5  Embedded Intelligence, Inc.
 	0100  CAN-PCIe-02
