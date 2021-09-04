@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.02
-#	Date:    2021-09-02 03:15:02
+#	Version: 2021.09.04
+#	Date:    2021-09-04 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12318,6 +12318,7 @@
 	20b5  GA100 [A100 PCIe 80GB]
 	20b6  GA100GL [PG506-232]
 	20b7  GA100GL [A30 PCIe]
+	20bb  GA100 [DRIVE A100 PROD]
 	20be  GA100 [GRID A100A]
 	20bf  GA100 [GRID A100B]
 	20f1  GA100 [A100 PCIe 40GB]
