@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.05
-#	Date:    2021-09-05 03:15:01
+#	Version: 2021.09.06
+#	Date:    2021-09-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12628,6 +12628,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 		1028 06e6  Latitude 11 5175 2-in-1
+		1028 09be  Latitude 7410
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5260  RTS5260 PCI Express Card Reader
 	5286  RTS5286 PCI Express Card Reader
@@ -18736,6 +18737,7 @@
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
+	a809  NVMe SSD Controller 980
 	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
 		0128 215a  DC NVMe PM9A3 RI U.2 960GB
 		0128 215b  DC NVMe PM9A3 RI U.2 1.92TB
@@ -25204,8 +25206,11 @@
 	0176  3rd Gen Core processor Graphics Controller
 	0201  Arctic Sound
 	0284  Comet Lake PCH-LP LPC Premium Controller/eSPI Controller
+		1028 09be  Latitude 7410
 	02a3  Comet Lake PCH-LP SMBus Host Controller
+		1028 09be  Latitude 7410
 	02a4  Comet Lake SPI (flash) Controller
+		1028 09be  Latitude 7410
 	02a6  Comet Lake North Peak
 	02b0  Comet Lake PCI Express Root Port #9
 	02b1  Comet Lake PCI Express Root Port #10
@@ -25214,14 +25219,21 @@
 	02b8  Comet Lake PCI Express Root Port #1
 	02bc  Comet Lake PCI Express Root Port #5
 	02c5  Comet Lake Serial IO I2C Host Controller
+		1028 09be  Latitude 7410
 	02c8  Comet Lake PCH-LP cAVS
+		1028 09be  Latitude 7410
 	02d3  Comet Lake SATA AHCI Controller
 	02e0  Comet Lake Management Engine Interface
+		1028 09be  Latitude 7410
 	02e8  Serial IO I2C Host Controller
+		1028 09be  Latitude 7410
 	02e9  Comet Lake Serial IO I2C Host Controller
+		1028 09be  Latitude 7410
 	02ea  Comet Lake PCH-LP LPSS: I2C Controller #2
 	02ed  Comet Lake PCH-LP USB 3.1 xHCI Host Controller
+		1028 09be  Latitude 7410
 	02ef  Comet Lake PCH-LP Shared SRAM
+		1028 09be  Latitude 7410
 	02f0  Comet Lake PCH-LP CNVi WiFi
 		8086 0034  Wireless-AC 9560 160MHz
 		8086 0070  Wi-Fi 6 AX201 160MHz
@@ -25229,7 +25241,9 @@
 		8086 4070  Wi-Fi 6 AX201 160MHz
 	02f5  Comet Lake PCH-LP SCS3
 	02f9  Comet Lake Thermal Subsytem
+		1028 09be  Latitude 7410
 	02fc  Comet Lake Integrated Sensor Solution
+		1028 09be  Latitude 7410
 	0309  80303 I/O Processor PCI-to-PCI Bridge
 	030d  80312 I/O Companion Chip PCI-to-PCI Bridge
 	0326  6700/6702PXH I/OxAPIC Interrupt Controller A
@@ -27376,7 +27390,9 @@
 	15e9  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 2C 2018]
 	15ea  JHL7540 Thunderbolt 3 Bridge [Titan Ridge 4C 2018]
 	15eb  JHL7540 Thunderbolt 3 NHI [Titan Ridge 4C 2018]
+		1028 09be  Latitude 7410
 	15ec  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge 4C 2018]
+		1028 09be  Latitude 7410
 	15ef  JHL7540 Thunderbolt 3 Bridge [Titan Ridge DD 2018]
 	15f0  JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]
 	15f2  Ethernet Controller I225-LM
@@ -27473,6 +27489,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 		1028 06e6  Latitude 11 5175 2-in-1
+		1028 09be  Latitude 7410
 		103c 825b  OMEN-17-w001nv
 		17aa 225d  ThinkPad T480
 	1904  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
@@ -27495,6 +27512,7 @@
 		103c 825b  OMEN-17-w001nv
 	1911  Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
 		1028 0869  Vostro 3470
+		1028 09be  Latitude 7410
 		1462 7a72  H270 PC MATE
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -32598,10 +32616,12 @@
 	9a68  TigerLake-H GT1 [UHD Graphics]
 	9b41  CometLake-U GT2 [UHD Graphics]
 		1028 09bd  Latitude 7310
+		1028 09be  Latitude 7410
 	9b44  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b53  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b54  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b61  Comet Lake-U v1 4c Host Bridge/DRAM Controller
+		1028 09be  Latitude 7410
 	9b63  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
 	9bc4  CometLake-H GT2 [UHD Graphics]
