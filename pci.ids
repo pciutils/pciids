@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.06
-#	Date:    2021-09-06 03:15:02
+#	Version: 2021.09.10
+#	Date:    2021-09-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18840,6 +18840,7 @@
 1456  Advanced Hardware Architectures
 1457  Nuera Communications Inc
 1458  Gigabyte Technology Co., Ltd
+	22e8  Ellesmere [Radeon RX 480]
 	3483  USB 3.0 Controller (VIA VL80x-based xHCI Controller)
 1459  DOOIN Electronics
 145a  Escalate Networks Inc
@@ -26625,6 +26626,7 @@
 		103c 2159  Ethernet 10Gb 2-port 562i Adapter
 		108e 7b11  Ethernet Server Adapter X520-2
 		1170 004c  82599 DP 10G Mezzanine Adapter
+		1374 1a08  PE310G4SPI9/PE310G4SPI9L/PE310G4SPI9LA Quad Port Fiber 10 Gigabit Ethernet PCI Express Server Adapter
 		15d9 0611  AOC-STGN-i2S
 		1734 11a9  10 Gigabit Dual Port Network Connection
 		17aa 1071  ThinkServer X520-2 AnyFabric
