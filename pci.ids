@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.10
-#	Date:    2021-09-10 03:15:01
+#	Version: 2021.09.12
+#	Date:    2021-09-12 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -33760,13 +33760,16 @@
 		9005 1380  SmartRAID 3154-16i
 		9005 1400  SmartRAID Ultra 3258p-16i /e
 		9005 1402  HBA Ultra 1200p-16i
+		9005 1410  HBA Ultra 1200-16e
+		9005 1430  SmartRAID Ultra 3254-16e /e
 		9005 1441  HBA Ultra 1200p-32i
 		9005 1450  SmartRAID Ultra 3258p-32i /e
 		9005 1462  HBA 1200-8i
 		9005 1471  SmartRAID 3254-16i /e
 		9005 1472  SmartRAID 3258-16i /e
-		9005 14a0  SmartRaid 3254-8i
+		9005 14a0  SmartRAID 3254-8i
 		9005 14a1  SmartRAID 3204-8i
+		9005 14a2  SmartRAID 3252-8i
 		9005 14c0  SmartHBA 2200-16i
 		9005 14c1  HBA 1200-16i
 	0410  AIC-9410W SAS (Razor HBA RAID)
