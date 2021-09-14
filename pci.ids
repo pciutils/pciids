@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.12
-#	Date:    2021-09-12 03:15:01
+#	Version: 2021.09.14
+#	Date:    2021-09-14 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3715,7 +3715,7 @@
 	738c  Arcturus GL-XL [AMD Instinct MI100]
 	738e  Arcturus GL-XL
 	73a2  Navi 21 Pro-XTA [Radeon Pro W6900X]
-	73a3  Navi 21 [Radeon PRO W6800]
+	73a3  Navi 21 GL-XL [Radeon PRO W6800]
 	73a4  Navi 21 USB
 	73ab  Navi 21 Pro-XLA [Radeon Pro W6800X/Radeon Pro W6800X Duo]
 	73af  Navi 21 [Radeon RX 6900 XT]
@@ -12339,7 +12339,7 @@
 	21d1  TU116BM [GeForce GTX 1660 Ti Mobile]
 	2200  GA102
 	2204  GA102 [GeForce RTX 3090]
-	2205  GA102 [GeForce RTX 3080 20GB]
+	2205  GA102 [GeForce RTX 3080 Ti 20GB]
 	2206  GA102 [GeForce RTX 3080]
 		10de 1467  GA102 [GeForce RTX 3080]
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
