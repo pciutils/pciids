@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.14
-#	Date:    2021-09-14 03:15:01
+#	Version: 2021.09.15
+#	Date:    2021-09-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23851,6 +23851,7 @@
 	101b  AR-ARK-SRIOV-FX1 [Arkville 64B Primary Physical Function]
 	101c  AR-ARK-SRIOV-VF [Arkville Virtual Function]
 	101d  AR-ARK-NIC [Arkville ArkNIC Kernel Path Device]
+	101e  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover for Agilex R-Tile]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -24034,6 +24035,7 @@
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+1ddd  Thorlabs
 1de0  Groq
 # rename due to conflict with a term in use by another company for an entirely different product.
 	0000  TSP100 Tensor Streaming Processor
