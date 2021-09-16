@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.15
-#	Date:    2021-09-15 03:15:02
+#	Version: 2021.09.16
+#	Date:    2021-09-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -693,10 +693,10 @@
 		1000 4660  eHBA 9600-24i Tri-Mode Storage Adapter
 		1000 4670  eHBA 9600-16i Tri-Mode Storage Adapter
 		1000 4680  eHBA 9600-16e Tri-Mode Storage Adapter
-		1000 4690  eHBA 9620-16i Tri-Mode Storage Adapter
+		1000 4690  MegaRAID 9620-16i Tri-Mode Storage Adapter
 		1000 46a0  MegaRAID 9660-24i Tri-Mode Storage Adapter
-		1000 46b0  MegaRAID 9665W-16i Tri-Mode Storage Adapter
-		1000 46c0  MegaRAID 9680W-16e Tri-Mode Storage Adapter
+		1000 46c0  eHBA 9680W-16e Tri-Mode Storage Adapter
+		1000 46d0  eHBA 9600-8i8e Tri-Mode Storage Adapter
 		1028 2114  PERC H965 Adapter
 		1028 2115  PERC H965 Front
 		1028 2117  PERC H965 MX
