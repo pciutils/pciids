@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.24
-#	Date:    2021-09-24 03:15:02
+#	Version: 2021.09.28
+#	Date:    2021-09-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2084,7 +2084,7 @@
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
 	66a0  Vega 20 [Radeon Instinct]
-	66a1  Vega 20 WKS GL-XE [Radeon Pro VII]
+	66a1  Vega 20 [Radeon Pro VII/Radeon Instinct MI50 32GB]
 	66a2  Vega 20
 	66a3  Vega 20 [Radeon Pro Vega II/Radeon Pro Vega II Duo]
 	66a7  Vega 20 [Radeon Pro Vega 20]
@@ -2697,6 +2697,7 @@
 	67cc  Ellesmere [Polaris10]
 	67cf  Ellesmere [Polaris10]
 	67d0  Ellesmere [Radeon Pro V7300X / V7350x2]
+	67d4  Ellesmere [Radeon Pro WX 7100 / Barco MXRT-8700]
 	67d7  Ellesmere [Radeon Pro WX 5100 / Barco MXRT-6700]
 	67df  Ellesmere [Radeon RX 470/480/570/570X/580/580X/590]
 		1002 0b37  Radeon RX 480
@@ -24550,7 +24551,6 @@
 	7073  CH356 PCI Quad Serial and Parallel Ports Controller
 	7173  CH355 PCI Quad Serial Port Controller
 434e  Cornelis Networks
-43bc  Tiger Lake-H PCIe Root Port #5
 4444  Internext Compression Inc
 	0016  iTVC16 (CX23416) Video Decoder
 		0070 0003  WinTV PVR 250
@@ -25859,7 +25859,9 @@
 		8086 8008  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P5510)
 		8086 8d08  NVMe Datacenter SSD [3DNAND] VE 2.5" U.2 (P5316)
 		8086 8d1d  NVMe Datacenter SSD [3DNAND] VE E1.L 9.5/18mm (P5316)
+		8086 c008  NVMe Datacenter SSD [3DNAND] SE U.2 15mm (P5530)
 	0bd0  Ponte Vecchio 2T
+	0bd5  Ponte Vecchio 1T
 	0be0  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 	0be1  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 		105b 0d7c  D270S/D250S Motherboard
@@ -33741,6 +33743,13 @@
 		1bd4 004b  RAID PM8204-2GB
 		1bd4 004c  RAID PM8204-4GB
 		1bd4 004f  PM8222-HBA
+		1d49 0220  ThinkSystem 4350-8i SAS/SATA 12Gb HBA
+		1d49 0221  ThinkSystem 4350-16i SAS/SATA 12Gb HBA
+		1d49 0520  ThinkSystem RAID 5350-8i PCIe 12Gb Adapter
+		1d49 0620  ThinkSystem RAID 9350-8i 2GB Flash PCIe 12Gb Adapter
+		1d49 0621  ThinkSystem RAID 9350-8i 2GB Flash PCIe 12Gb Internal Adapter
+		1d49 0622  ThinkSystem RAID 9350-16i 4GB Flash PCIe 12Gb Adapter
+		1d49 0623  ThinkSystem RAID 9350-16i 4GB Flash PCIe 12Gb Internal Adapter
 		9005 0608  SmartRAID 3162-8i /e
 		9005 0800  SmartRAID 3154-8i
 		9005 0801  SmartRAID 3152-8i
