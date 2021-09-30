@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.09.28
-#	Date:    2021-09-28 03:15:02
+#	Version: 2021.09.30
+#	Date:    2021-09-30 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3715,8 +3715,8 @@
 	7360  Navi 12 [Radeon Pro 5600M / V520]
 	7362  Navi 12 [Radeon Pro V520]
 	7388  Arcturus GL-XL
-	738c  Arcturus GL-XL [AMD Instinct MI100]
-	738e  Arcturus GL-XL
+	738c  Arcturus GL-XL [Instinct MI100]
+	738e  Arcturus GL-XL [Instinct MI100]
 	73a2  Navi 21 Pro-XTA [Radeon Pro W6900X]
 	73a3  Navi 21 GL-XL [Radeon PRO W6800]
 	73a4  Navi 21 USB
@@ -24270,6 +24270,7 @@
 # aka SED Systems
 1e94  Calian SED
 1e95  Solid State Storage Technology Corporation
+	1002  LJ1
 1ea0  Tencent Technology (Shenzhen) Company Limited
 	2a16  Cloud Intelligent Inference Controller
 1ea7  Intelliprop, Inc
