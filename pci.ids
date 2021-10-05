@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.02
-#	Date:    2021-10-02 03:15:02
+#	Version: 2021.10.05
+#	Date:    2021-10-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24270,7 +24270,7 @@
 # aka SED Systems
 1e94  Calian SED
 1e95  Solid State Storage Technology Corporation
-	1002  1002 NVMe Datacenter LJ1 SSD [3DNAND, Rainier Controller]
+	1002  NVMe Datacenter LJ1 SSD [3DNAND, Rainier Controller]
 		1ea0 5636  TP1500 Series U.2 NVMe Datacenter SSD
 1ea0  Tencent Technology (Shenzhen) Company Limited
 	2a16  Cloud Intelligent Inference Controller
