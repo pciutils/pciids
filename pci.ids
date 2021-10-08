@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.05
-#	Date:    2021-10-05 03:15:02
+#	Version: 2021.10.08
+#	Date:    2021-10-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24285,6 +24285,8 @@
 	1001  Video Accelerator
 1ebd  EMERGETECH Company Ltd.
 	0101  Seirios 2063 Video Codec
+1ed2  FuriosaAI, Inc.
+	0000  Warboy
 1ed3  Yeston
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
@@ -25344,6 +25346,7 @@
 		8086 01f7  SCRU32
 # uninitialized SRCU32 RAID Controller
 	061f  80303 I/O Processor
+	064d  12th Gen Core Processor PCI Express x4 Controller #0
 	068d  Comet Lake LPC Controller
 	06a3  Comet Lake PCH SMBus Controller
 	06a4  Comet Lake PCH SPI Controller
@@ -31832,11 +31835,13 @@
 		8086 0264  Wireless-AC 9461
 		8086 02a4  Wireless-AC 9462
 	444e  Turbo Memory Controller
+	460d  12th Gen Core Processor PCI Express x16 Controller #1
 	461e  Alder Lake-P Thunderbolt 4 USB Controller
 	461f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #3
 	462f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #2
 	463e  Alder Lake-P Thunderbolt 4 NHI #0
 	463f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #1
+	4641  12th Gen Core Processor Host Bridge/DRAM Registers
 	466d  Alder Lake-P Thunderbolt 4 NHI #1
 	466e  Alder Lake-P Thunderbolt 4 PCI Express Root Port #0
 	467f  Volume Management Device NVMe RAID Controller
@@ -31914,6 +31919,17 @@
 	504a  EP80579 Reserved
 	504b  EP80579 Reserved
 	504c  EP80579 Integrated Processor with QuickAssist TDM
+	5181  Alder Lake PCH-P LPC/eSPI Controller
+	51a3  Alder Lake PCH-P SMBus Host Controller
+	51bf  Alder Lake PCH-P PCI Express Root Port #9
+	51c8  Alder Lake PCH-P High Definition Audio Controller
+	51e0  Alder Lake PCH HECI Controller
+	51e8  Alder Lake PCH Serial IO I2C Controller #0
+	51e9  Alder Lake PCH Serial IO I2C Controller #1
+	51ea  Alder Lake PCH Serial IO I2C Controller #2
+	51eb  Alder Lake PCH Serial IO I2C Controller #3
+	51ed  Alder Lake PCH USB 3.2 xHCI Host Controller
+	51ef  Alder Lake PCH Shared SRAM
 	5200  EtherExpress PRO/100 Intelligent Server PCI Bridge
 	5201  EtherExpress PRO/100 Intelligent Server Fast Ethernet Controller
 		8086 0001  EtherExpress PRO/100 Server Ethernet Adapter
