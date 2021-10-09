@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.08
-#	Date:    2021-10-08 03:15:01
+#	Version: 2021.10.09
+#	Date:    2021-10-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24248,6 +24248,7 @@
 	0001  MinION Mk1C
 1e60  Hailo Technologies Ltd.
 	2864  Hailo-8 AI Processor
+1e68  Jiangsu Xinsheng Intelligent Technology Co., Ltd
 1e6b  Axiado Corp.
 1e7b  Dataland
 1e7c  Brainchip Inc
@@ -24377,6 +24378,7 @@
 2048  Beijing SpaceControl Technology Co.Ltd
 20f4  TRENDnet
 2116  ZyDAS Technology Corp.
+21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
 	22a0  Flex Logix InferX X1 Inference Accelerator
@@ -25346,7 +25348,6 @@
 		8086 01f7  SCRU32
 # uninitialized SRCU32 RAID Controller
 	061f  80303 I/O Processor
-	064d  12th Gen Core Processor PCI Express x4 Controller #0
 	068d  Comet Lake LPC Controller
 	06a3  Comet Lake PCH SMBus Controller
 	06a4  Comet Lake PCH SPI Controller
