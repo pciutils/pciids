@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.09
-#	Date:    2021-10-09 03:15:02
+#	Version: 2021.10.11
+#	Date:    2021-10-11 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -33762,6 +33762,8 @@
 		1bd4 004b  RAID PM8204-2GB
 		1bd4 004c  RAID PM8204-4GB
 		1bd4 004f  PM8222-HBA
+		1bd4 006c  RS0800M5E8i
+		1bd4 006d  RS0800M5H8i
 		1d49 0220  ThinkSystem 4350-8i SAS/SATA 12Gb HBA
 		1d49 0221  ThinkSystem 4350-16i SAS/SATA 12Gb HBA
 		1d49 0520  ThinkSystem RAID 5350-8i PCIe 12Gb Adapter
