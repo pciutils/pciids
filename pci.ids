@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.13
-#	Date:    2021-10-13 03:15:01
+#	Version: 2021.10.15
+#	Date:    2021-10-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4783,6 +4783,7 @@
 	1471  Vega 10 PCIe Bridge
 	1480  Starship/Matisse Root Complex
 		1462 7c37  X570-A PRO motherboard
+		15d9 1b95  H12SSL-i
 	1481  Starship/Matisse IOMMU
 	1482  Starship/Matisse PCIe Dummy Host Bridge
 	1483  Starship/Matisse GPP Bridge
@@ -4796,6 +4797,7 @@
 	148a  Starship/Matisse PCIe Dummy Function
 	148b  Starship/Matisse Non-Transparent Bridge
 	148c  Starship USB 3.0 Host Controller
+		15d9 145c  H12SSL-i
 	148d  Starship/Matisse Switch Upstream (PCIE SW.US)
 	148e  Starship/Matisse Switch Downstream (PCIE SW.DS)
 	148f  Starship Reserved SSP
@@ -5216,6 +5218,7 @@
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		1043 876b  PRIME Motherboard
 		1462 7c37  X570-A PRO motherboard
+		15d9 7901  H12SSL-i
 		ea50 ce19  mCOM10-L1900
 	7902  FCH SATA Controller [RAID mode]
 	7903  FCH SATA Controller [RAID mode]
@@ -5226,12 +5229,14 @@
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		1043 876b  PRIME Motherboard
 		1462 7c37  X570-A PRO motherboard
+		15d9 790b  H12SSL-i
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	790e  FCH LPC Bridge
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		1043 876b  PRIME B450M-A Motherboard
 		1462 7c37  X570-A PRO motherboard
+		15d9 790e  H12SSL-i
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	790f  FCH PCI Bridge
@@ -18742,6 +18747,7 @@
 	a804  NVMe SSD Controller SM961/PM961/SM963
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
+		144d a801  SSD 970 EVO Plus 1TB
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a809  NVMe SSD Controller 980
 	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
@@ -19304,6 +19310,7 @@
 		103c 2133  NC332i Adapter
 		103c 22e8  NC332i Adapter
 		103c 22eb  NC332i Adapter
+		15d9 165f  H12SSL-i
 	1662  NetXtreme II BCM57712 10 Gigabit Ethernet
 	1663  NetXtreme II BCM57712 10 Gigabit Ethernet Multi Function
 	1665  NetXtreme BCM5717 Gigabit Ethernet PCIe
@@ -22949,6 +22956,7 @@
 	1150  AST1150 PCI-to-PCI Bridge
 	2000  ASPEED Graphics Family
 		15d9 0832  X10SRL-F
+		15d9 1b95  H12SSL-i
 1a05  deltaww
 1a07  Kvaser AB
 	0006  CAN interface PC104+ HS/HS
@@ -24395,6 +24403,7 @@
 	2263  A2000 NVMe SSD
 	5008  U-SNS8154P3 NVMe SSD
 	500d  OM3PDP3 NVMe SSD
+	500e  SNVS2000G [NV1 NVMe PCIe SSD 2TB]
 270b  Xantel Corporation
 270f  Chaintech Computer Co. Ltd
 2711  AVID Technology Inc.
@@ -27339,6 +27348,7 @@
 		1bd4 0057  Ethernet Network Adapter E810-XXVAM2
 		1bd4 0058  Ethernet Network Adapter E810-XXVAM2 for OCP 3.0
 		1bd4 006e  25G SFP28 DP EO252FiE Adapter
+		1eec 0102  VSE250241E Dual-port 10Gb/25Gb Ethernet PCIe
 		8086 0001  Ethernet 25G 2P E810-XXV OCP
 		8086 0002  Ethernet 25G 2P E810-XXV Adapter
 		8086 0003  Ethernet Network Adapter E810-XXV-2
