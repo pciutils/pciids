@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.15
-#	Date:    2021-10-15 03:15:02
+#	Version: 2021.10.16
+#	Date:    2021-10-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12369,6 +12369,7 @@
 	2296  Tegra PCIe Endpoint Virtual Network
 	2302  GA103
 	2321  GA103
+	2420  GA103 [GN20-E8]
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2483  GA104
 	2484  GA104 [GeForce RTX 3070]
@@ -12382,6 +12383,7 @@
 	249c  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	249d  GA104M [GeForce RTX 3070 Mobile / Max-Q]
 	249f  GA104M
+	24a0  GA104 [GN20-E6]
 	24ac  GA104 [GeForce RTX 30x0 Engineering Sample]
 	24ad  GA104 [GeForce RTX 3060 Engineering Sample]
 	24af  GA104 [GeForce RTX 3070 Engineering Sample]
@@ -25374,6 +25376,8 @@
 	06c0  Comet Lake PCI Express Root Port #17
 	06c8  Comet Lake PCH cAVS
 	06d2  Comet Lake SATA AHCI Controller
+	06d6  Comet Lake PCH-H RAID
+	06d7  Comet Lake PCH-H RAID
 	06e0  Comet Lake HECI Controller
 	06e3  Comet Lake Keyboard and Text (KT) Redirection
 	06e8  Comet Lake PCH Serial IO I2C Controller #0
@@ -31854,15 +31858,18 @@
 	460d  12th Gen Core Processor PCI Express x16 Controller #1
 	461e  Alder Lake-P Thunderbolt 4 USB Controller
 	461f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #3
+	4629  12th Gen Core Processor Host Bridge/DRAM Registers
 	462f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #2
 	463e  Alder Lake-P Thunderbolt 4 NHI #0
 	463f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #1
 	4641  12th Gen Core Processor Host Bridge/DRAM Registers
+	464d  12th Gen Core Processor PCI Express x4 Controller #0
 	466d  Alder Lake-P Thunderbolt 4 NHI #1
 	466e  Alder Lake-P Thunderbolt 4 PCI Express Root Port #0
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
 	46a0  AlderLake-P GT2
+	46a3  Alder Lake-P GT1 [UHD Graphics]
 	46c0  AlderLake-M GT1
 	4905  DG1 [Iris Xe MAX Graphics]
 	4906  DG1 [Iris Xe Pod]
@@ -31937,8 +31944,12 @@
 	504c  EP80579 Integrated Processor with QuickAssist TDM
 	5181  Alder Lake PCH-P LPC/eSPI Controller
 	51a3  Alder Lake PCH-P SMBus Host Controller
+	51a4  Alder Lake-P PCH SPI Controller
 	51bf  Alder Lake PCH-P PCI Express Root Port #9
+	51c5  Alder Lake-P Serial IO I2C Controller #0
+	51c6  Alder Lake-P Serial IO I2C Controller #1
 	51c8  Alder Lake PCH-P High Definition Audio Controller
+	51d3  Alder Lake-P SATA AHCI Controller
 	51e0  Alder Lake PCH HECI Controller
 	51e8  Alder Lake PCH Serial IO I2C Controller #0
 	51e9  Alder Lake PCH Serial IO I2C Controller #1
@@ -31946,6 +31957,11 @@
 	51eb  Alder Lake PCH Serial IO I2C Controller #3
 	51ed  Alder Lake PCH USB 3.2 xHCI Host Controller
 	51ef  Alder Lake PCH Shared SRAM
+	51f0  Alder Lake-P PCH CNVi WiFi
+		8086 0034  Wireless-AC 9560 160MHz
+		8086 0070  Wi-Fi 6 AX201 160MHz
+		8086 0074  Wi-Fi 6 AX201 160MHz
+		8086 4070  Wi-Fi 6 AX201 160MHz
 	5200  EtherExpress PRO/100 Intelligent Server PCI Bridge
 	5201  EtherExpress PRO/100 Intelligent Server Fast Ethernet Controller
 		8086 0001  EtherExpress PRO/100 Server Ethernet Adapter
