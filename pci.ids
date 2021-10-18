@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.16
-#	Date:    2021-10-16 03:15:02
+#	Version: 2021.10.18
+#	Date:    2021-10-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -10979,6 +10979,7 @@
 		1043 8334  EN210 SILENT
 		1458 36a9  GV-N210D3-1GI (rev. 6.0/6.1)
 		1462 8094  N210 [Geforce 210] PCIe graphics adapter
+		19da 7222  GeForce 210 1GB [Synergy Edition]
 	0a66  GT218 [GeForce 310]
 	0a67  GT218 [GeForce 315]
 	0a68  GT218M [GeForce G 105M]
@@ -31860,15 +31861,19 @@
 	461f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #3
 	4629  12th Gen Core Processor Host Bridge/DRAM Registers
 	462f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #2
+	463d  12th Gen Core Processor PCI Express x4 Controller #2
 	463e  Alder Lake-P Thunderbolt 4 NHI #0
 	463f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #1
 	4641  12th Gen Core Processor Host Bridge/DRAM Registers
 	464d  12th Gen Core Processor PCI Express x4 Controller #0
+	464f  12th Gen Core Processor Gaussian & Neural Accelerator
 	466d  Alder Lake-P Thunderbolt 4 NHI #1
 	466e  Alder Lake-P Thunderbolt 4 PCI Express Root Port #0
+	467d  Platform Monitoring Technology
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
 	46a0  AlderLake-P GT2
+	46a1  UHD Graphics
 	46a3  Alder Lake-P GT1 [UHD Graphics]
 	46c0  AlderLake-M GT1
 	4905  DG1 [Iris Xe MAX Graphics]
