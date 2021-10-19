@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.18
-#	Date:    2021-10-18 03:15:02
+#	Version: 2021.10.19
+#	Date:    2021-10-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27082,6 +27082,7 @@
 	1530  X540 Virtual Function
 	1531  I210 Gigabit Unprogrammed
 	1533  I210 Gigabit Network Connection
+		1028 0b35  I210 Gigabit Network Connection
 		103c 0003  Ethernet I210-T1 GbE NIC
 		1059 0180  RD10019 1GbE interface
 		1093 7706  Compact Vision System Ethernet Adapter
