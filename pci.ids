@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.19
-#	Date:    2021-10-19 03:15:02
+#	Version: 2021.10.23
+#	Date:    2021-10-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24319,6 +24319,7 @@
 	5236  IG5236-Based NVMe SSD
 	5636  IG5636-Based NVMe SSD
 1fab  Unifabrix Ltd.
+	0000  Nexus Alpha IPVU
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -33799,6 +33800,7 @@
 		1bd4 004b  RAID PM8204-2GB
 		1bd4 004c  RAID PM8204-4GB
 		1bd4 004f  PM8222-HBA
+		1bd4 006b  RS0800M5H24I
 		1bd4 006c  RS0800M5E8i
 		1bd4 006d  RS0800M5H8i
 		1d49 0220  ThinkSystem 4350-8i SAS/SATA 12Gb HBA
