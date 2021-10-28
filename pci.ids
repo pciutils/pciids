@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.23
-#	Date:    2021-10-23 03:15:02
+#	Version: 2021.10.28
+#	Date:    2021-10-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12370,7 +12370,7 @@
 	2296  Tegra PCIe Endpoint Virtual Network
 	2302  GA103
 	2321  GA103
-	2420  GA103 [GN20-E8]
+	2420  GA103 [Geforce RTX 3080 Ti Laptop GPU]
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2483  GA104
 	2484  GA104 [GeForce RTX 3070]
@@ -12384,7 +12384,7 @@
 	249c  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	249d  GA104M [GeForce RTX 3070 Mobile / Max-Q]
 	249f  GA104M
-	24a0  GA104 [GN20-E6]
+	24a0  GA104 [Geforce RTX 3070 Ti Laptop GPU]
 	24ac  GA104 [GeForce RTX 30x0 Engineering Sample]
 	24ad  GA104 [GeForce RTX 3060 Engineering Sample]
 	24af  GA104 [GeForce RTX 3070 Engineering Sample]
@@ -24199,6 +24199,7 @@
 	0022  T20(64GB) [CloudBlazer]
 	0023  T21(32GB) [CloudBlazer]
 	0024  T21(64GB) [CloudBlazer]
+	8001  I20 [CloudBlazer]
 	8011  I10 [CloudBlazer]
 	8012  I10L [CloudBlazer]
 # nee Thinci, Inc
@@ -24319,7 +24320,7 @@
 	5236  IG5236-Based NVMe SSD
 	5636  IG5636-Based NVMe SSD
 1fab  Unifabrix Ltd.
-	0000  Nexus Alpha IPVU
+	0000  Nexus Alpha IVPU
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -33803,6 +33804,10 @@
 		1bd4 006b  RS0800M5H24I
 		1bd4 006c  RS0800M5E8i
 		1bd4 006d  RS0800M5H8i
+		1bd4 006f  RS0804M5R16i
+		1bd4 0070  RS0800M5E24i
+		1bd4 0071  RS0800M5H16i
+		1bd4 0072  RS0800M5E16i
 		1d49 0220  ThinkSystem 4350-8i SAS/SATA 12Gb HBA
 		1d49 0221  ThinkSystem 4350-16i SAS/SATA 12Gb HBA
 		1d49 0520  ThinkSystem RAID 5350-8i PCIe 12Gb Adapter
