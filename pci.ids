@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.10.28
-#	Date:    2021-10-28 03:15:02
+#	Version: 2021.11.01
+#	Date:    2021-11-01 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4739,14 +4739,14 @@
 	1439  Family 16h Processor Functions 5:1
 	143a  Kingston/Clayton/Gladius/Montego Root Complex
 	143b  Kingston/Clayton/Gladius/Montego P2P Bridge for UMI Link
-	1440  Matisse Device 24: Function 0
-	1441  Matisse Device 24: Function 1
-	1442  Matisse Device 24: Function 2
-	1443  Matisse Device 24: Function 3
-	1444  Matisse Device 24: Function 4
-	1445  Matisse Device 24: Function 5
-	1446  Matisse Device 24: Function 6
-	1447  Matisse Device 24: Function 7
+	1440  Matisse/Vermeer Data Fabric: Device 18h; Function 0
+	1441  Matisse/Vermeer Data Fabric: Device 18h; Function 1
+	1442  Matisse/Vermeer Data Fabric: Device 18h; Function 2
+	1443  Matisse/Vermeer Data Fabric: Device 18h; Function 3
+	1444  Matisse/Vermeer Data Fabric: Device 18h; Function 4
+	1445  Matisse/Vermeer Data Fabric: Device 18h; Function 5
+	1446  Matisse/Vermeer Data Fabric: Device 18h; Function 6
+	1447  Matisse/Vermeer Data Fabric: Device 18h; Function 7
 	1448  Renoir Device 24: Function 0
 	1449  Renoir Device 24: Function 1
 	144a  Renoir Device 24: Function 2
@@ -5015,6 +5015,23 @@
 	1644  Renoir I2S
 	1648  VanGogh Root Complex
 	1649  VanGogh PSP/CCP
+	164f  Milan IOMMU
+	1650  Milan Data Fabric; Function 0
+	1651  Milan Data Fabric; Function 1
+	1652  Milan Data Fabric; Function 2
+	1653  Milan Data Fabric; Function 3
+	1654  Milan Data Fabric; Function 4
+	1655  Milan Data Fabric; Function 5
+	1656  Milan Data Fabric; Function 6
+	1657  Milan Data Fabric; Function 7
+	166a  Cezanne Data Fabric; Function 0
+	166b  Cezanne Data Fabric; Function 1
+	166c  Cezanne Data Fabric; Function 2
+	166d  Cezanne Data Fabric; Function 3
+	166e  Cezanne Data Fabric; Function 4
+	166f  Cezanne Data Fabric; Function 5
+	1670  Cezanne Data Fabric; Function 6
+	1671  Cezanne Data Fabric; Function 7
 	1700  Family 12h/14h Processor Function 0
 	1701  Family 12h/14h Processor Function 1
 	1702  Family 12h/14h Processor Function 2
@@ -12370,7 +12387,7 @@
 	2296  Tegra PCIe Endpoint Virtual Network
 	2302  GA103
 	2321  GA103
-	2420  GA103 [Geforce RTX 3080 Ti Laptop GPU]
+	2420  GA103M [GeForce RTX 3080 Ti Mobile]
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2483  GA104
 	2484  GA104 [GeForce RTX 3070]
@@ -23793,6 +23810,12 @@
 	f410  ZX-100/ZX-D/ZX-E PCI Com Port
 1d18  RME
 	0001  Fireface UFX+
+# acquired by Intel
+1d1c  Barefoot Networks, Inc.
+	0001  Tofino 1
+	0010  Tofino 1
+	0100  Tofino 2
+	0110  Tofino 2
 1d1d  CNEX Labs
 	1f1f  QEMU NVM Express LightNVM Controller
 	2807  8800 series NVMe SSD
@@ -34431,6 +34454,10 @@ C 04  Multimedia controller
 C 05  Memory controller
 	00  RAM memory
 	01  FLASH memory
+	02  CXL
+		00  CXL Memory Device - vendor specific
+# Devices compliant to CXL spec
+		10  CXL Memory Device (CXL 2.x)
 	80  Memory controller
 C 06  Bridge
 	00  Host bridge
