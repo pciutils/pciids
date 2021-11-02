@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.01
-#	Date:    2021-11-01 03:15:01
+#	Version: 2021.11.02
+#	Date:    2021-11-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27378,7 +27378,7 @@
 		1137 02be  E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC
 		1bd4 0057  Ethernet Network Adapter E810-XXVAM2
 		1bd4 0058  Ethernet Network Adapter E810-XXVAM2 for OCP 3.0
-		1bd4 006e  25G SFP28 DP EO252FiE Adapter
+		1bd4 006e  Ethernet Network Adapter E810-XXVAM2 for BD
 		1eec 0102  VSE250241E Dual-port 10Gb/25Gb Ethernet PCIe
 		8086 0001  Ethernet 25G 2P E810-XXV OCP
 		8086 0002  Ethernet 25G 2P E810-XXV Adapter
