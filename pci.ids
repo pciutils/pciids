@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.02
-#	Date:    2021-11-02 03:15:02
+#	Version: 2021.11.03
+#	Date:    2021-11-03 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -15251,6 +15251,7 @@
 	2b38  88W8897 [AVASTAR] 802.11ac Wireless
 	2b40  88W8964 [Avastar] 802.11ac Wireless
 	4101  OLPC Cafe Controller Secure Digital Controller
+	4146  GT-64111 System Controller
 	4320  88E8001 Gigabit Ethernet Controller
 		1019 0f38  Marvell 88E8001 Gigabit Ethernet Controller (ECS)
 		1019 8001  Marvell 88E8001 Gigabit Ethernet Controller (ECS)
@@ -20114,6 +20115,7 @@
 	2f30  SoftV92 SpeakerPhone SoftRing Modem with SmartSP
 		14f1 2014  Devolo MikroLink 56K Modem PCI
 	2f50  Conexant SoftK56 Data/Fax Modem
+	510f  Conexant CX 20751/20752
 	5b7a  CX23418 Single-Chip MPEG-2 Encoder with Integrated Analog Video/Broadcast Audio Decoder
 		0070 7444  WinTV HVR-1600
 		107d 6f34  WinFast DVR3100 H
@@ -24309,6 +24311,7 @@
 1e95  Solid State Storage Technology Corporation
 	1002  NVMe Datacenter LJ1 SSD [3DNAND, Rainier Controller]
 		1ea0 5636  TP1500 Series U.2 NVMe Datacenter SSD
+1e9f  Lynxi Technologies Co., Ltd.
 1ea0  Tencent Technology (Shenzhen) Company Limited
 	2a16  Cloud Intelligent Inference Controller
 1ea7  Intelliprop, Inc
