@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.03
-#	Date:    2021-11-03 03:15:02
+#	Version: 2021.11.07
+#	Date:    2021-11-07 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4530,6 +4530,8 @@
 	021b  GXT6500P Graphics Adapter
 	021c  GXT4500P Graphics Adapter
 	0233  GXT135P Graphics Adapter
+# Internal debugging card for CELL based systems
+	025a  Drone card
 	028c  Citrine chipset SCSI controller
 		1014 028d  Dual Channel PCI-X DDR SAS RAID Adapter (572E)
 		1014 02be  Dual Channel PCI-X DDR U320 SCSI RAID Adapter (571B)
@@ -24314,6 +24316,7 @@
 1e9f  Lynxi Technologies Co., Ltd.
 1ea0  Tencent Technology (Shenzhen) Company Limited
 	2a16  Cloud Intelligent Inference Controller
+	2a18  Video Transcode Controller
 1ea7  Intelliprop, Inc
 	223a  Typhon+ PCIe to Gen-Z Bridge
 	224a  IPA-PE224A CXL to Gen-Z Bridge [Sphinx]
@@ -24441,6 +24444,7 @@
 2955  Connectix Virtual PC
 	6e61  OHCI USB 1.1 controller
 2a15  3D Vision(???)
+2a18  Video Transcode Controller
 2bd8  ROPEX Industrie-Elektronik GmbH
 3000  Hansol Electronics Inc.
 3112  Satelco Ingenieria S.A.
