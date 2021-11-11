@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.07
-#	Date:    2021-11-07 03:15:01
+#	Version: 2021.11.11
+#	Date:    2021-11-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20865,7 +20865,7 @@
 	500b  PC SN530 NVMe SSD
 		1414 500b  Xbox Series X
 	500d  WD Ultrastar DC SN340 NVMe SSD
-	5011  WD Black SN850
+	5011  WD PC SN810 / Black SN850 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -25263,7 +25263,7 @@
 	015d  Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port
 		1043 844d  P8 series motherboard
 	015e  Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller
-	0162  Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller
+	0162  IvyBridge GT2 [HD Graphics 4000]
 		1043 84ca  P8 series motherboard
 		1849 0162  Motherboard
 	0166  3rd Gen Core processor Graphics Controller
@@ -26689,7 +26689,7 @@
 		1059 0130  T4009 10GbE interface
 		8086 000c  Ethernet X520 10GbE Dual Port KX4-KR Mezz
 	10f9  82599 10 Gigabit Dual Port Network Connection
-	10fb  82599 10 Gigabit Dual Port Network Connection
+	10fb  82599ES 10-Gigabit SFI/SFP+ Network Connection
 		1028 1f72  Ethernet 10G 4P X520/I350 rNDC
 		103c 17d0  Ethernet 10Gb 2-port 560FLR-SFP+ Adapter
 		103c 17d2  Ethernet 10Gb 2-port 560M Adapter
