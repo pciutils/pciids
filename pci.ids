@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.11
-#	Date:    2021-11-11 03:15:02
+#	Version: 2021.11.16
+#	Date:    2021-11-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12369,6 +12369,7 @@
 	21d1  TU116BM [GeForce GTX 1660 Ti Mobile]
 	2200  GA102
 	2204  GA102 [GeForce RTX 3090]
+		147d 10de  NVIDIA Geforce RTX 3090 Founders Edition
 	2205  GA102 [GeForce RTX 3080 Ti 20GB]
 	2206  GA102 [GeForce RTX 3080]
 		10de 1467  GA102 [GeForce RTX 3080]
@@ -12381,6 +12382,7 @@
 	222f  GA102 [GeForce RTX 3080 11GB / 12GB Engineering Sample]
 	2230  GA102GL [RTX A6000]
 	2231  GA102GL [RTX A5000]
+	2232  GA102GL [RTX A4500]
 	2235  GA102GL [A40]
 	2236  GA102GL [A10]
 	2237  GA102GL [A10G]
@@ -33402,6 +33404,7 @@
 		8086 390b  SSD Pro 7600p/760p/E 6100p Series [NVM Express]
 	f1a8  SSD 660P Series
 8088  Beijing Wangxun Technology Co., Ltd.
+	0100  WX1860AL-W Gigabit Ethernet Controller
 	0101  WX1860A2 Gigabit Ethernet Controller
 		8088 0201  Dual-Port Ethernet Network Adaptor SF200T
 		8088 4201  Dual-Port Ethernet Network Adaptor SF200T (WOL)
