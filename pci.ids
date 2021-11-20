@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.16
-#	Date:    2021-11-16 03:15:01
+#	Version: 2021.11.20
+#	Date:    2021-11-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23372,6 +23372,8 @@
 		1028 1fdf  BOSS-S1 Modular
 		1028 1fe2  BOSS-S1 Adapter
 		1028 2010  BOSS-S2 Adapter
+# RS0200L6R2iM2
+		1bd4 0073  RS0200L6R2iM2
 		1d49 0300  ThinkSystem M.2 with Mirroring Enablement Kit
 		1d49 0301  ThinkSystem SR630 x16 PCIE with 4 SATA ports Riser
 		1d49 0302  ThinkSystem SE350 M.2 SATA 4-Bay Data RAID Mirroring Enablement Kit
@@ -23666,10 +23668,11 @@
 	0001  Hunter PCI Express
 1c8c  Mobiveil, Inc.
 1cb0  Shannon Systems
-	8266  Andalusia Series SSD
-		1cb0 2021  Andalusia Series OCS U.2 SSD
-		1cb0 2121  Andalusia Series ZNS U.2 SSD
-		1cb0 2f21  Andalusia Series NVMe U.2 SSD
+	8266  SP4 Series SSD
+		1cb0 2021  SP4 Series OCS U.2 SSD
+		1cb0 2121  SP4 Series ZNS U.2 SSD
+		1cb0 2f21  SP4E Series NVMe U.2 SSD(1920/3840/7680GB)
+		1cb0 2f22  SP4X Series NVMe U.2 SSD(1600/3200/6400GB)
 	d000  Venice NVMe SSD
 		1cb0 2010  Venice-E Series OCS U.2
 		1cb0 2011  Venice Series OCS U.2
@@ -24074,6 +24077,12 @@
 		1dd8 400d  DSP DSC-100 Ent 100Gb Card
 		1dd8 400e  DSC-25 10/25G 2-port 4G RAM 8G eMMC G1 Services Card
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+	1005  DSC NVMe Controller
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+	1006  DSC NVMe Controller VF
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 	1007  DSC Storage Accelerator
@@ -26021,6 +26030,9 @@
 		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0d9f  Ethernet Controller (2) I225-IT
+	0dd2  Ethernet Network Adapter I710
+		8086 000d  Ethernet Network Adapter I710-T4L
+		8086 0010  Ethernet Network Adapter I710-T4L for OCP 3.0
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
 		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 		15d9 066b  X9SRL-F
@@ -27509,6 +27521,10 @@
 		8086 000b  Ethernet Network Adapter X710-T2L for OCP 3.0
 		8086 000c  Ethernet Network Adapter X710-T2L for OCP 3.0
 		8086 000f  Ethernet Network Adapter X710-T2L for OCP 3.0
+		8086 4009  Ethernet Network Adapter X710-T2L
+		8086 4012  Ethernet Network Adapter X710-T4L for OCP 3.0
+		8086 4018  Ethernet Network Adapter X710-T2L for OCP 3.0
+		8086 4019  Ethernet Network Adapter X710-T4L
 	1600  Broadwell-U Host Bridge -OPI
 	1601  Broadwell-U PCI Express x16 Controller
 	1602  Broadwell-U Integrated Graphics
