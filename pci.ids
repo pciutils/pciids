@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.20
-#	Date:    2021-11-20 03:15:02
+#	Version: 2021.11.24
+#	Date:    2021-11-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1017,7 +1017,7 @@
 	1551  Arlene
 	1552  Pooky
 	1561  Anubis
-	15d8  Picasso
+	15d8  Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		17aa 3181  ThinkCentre M75n IoT
 		17aa 5124  ThinkPad E595
@@ -20647,9 +20647,11 @@
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
 	0263  MT27710 [ConnectX-4 Lx Programmable Virtual Function] EN
 	0264  Innova-2 Flex Burn image
+	0270  Spectrum-4L, Flash recovery mode
+	0271  Spectrum-4L, RMA
+	0274  Spectrum-4C, Flash recovery mode
+	0275  Spectrum-4C RMA
 	0281  NPS-600 Flash Recovery
-	0357  Abir GearBox in Flash Recovery Mode
-	0358  Abir GearBox in RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
 		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
@@ -20833,6 +20835,8 @@
 	cf6c  MT53100 [Spectrum-2]
 	cf70  Spectrum-3
 	cf80  Spectrum-4
+	cf82  Spectrum-4L
+	cf84  Spectrum-4C
 	d2f0  Quantum HDR (200Gbps) switch
 	d2f2  Quantum-2 NDR (400Gbps) switch
 15b4  CCI/TRIAD
@@ -20868,6 +20872,7 @@
 		1414 500b  Xbox Series X
 	500d  WD Ultrastar DC SN340 NVMe SSD
 	5011  WD PC SN810 / Black SN850 NVMe SSD
+	501a  WD Blue SN570 NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -24496,6 +24501,7 @@
 	1783  AS-i 3.0 cPCI Master
 	1922  AS-i 3.0 PCI Master
 3475  Arista Networks, Inc.
+34ba  Ice Lake-LP PCI Express Root Port #3
 3513  ARCOM Control Systems Ltd
 37d9  ITD Firm ltd.
 	1138  SCHD-PH-8 Phase detector
@@ -25407,6 +25413,7 @@
 		8086 01f7  SCRU32
 # uninitialized SRCU32 RAID Controller
 	061f  80303 I/O Processor
+	0687  Q470 Chipset LPC/eSPI Controller
 	068d  Comet Lake LPC Controller
 	06a3  Comet Lake PCH SMBus Controller
 	06a4  Comet Lake PCH SPI Controller
@@ -31111,6 +31118,7 @@
 	34ab  Ice Lake-LP Serial IO SPI Controller #1
 	34b0  Ice Lake-LP PCI Express Root Port #9
 	34b7  Ice Lake-LP PCI Express Root Port #16
+	34ba  Ice Lake-LP PCI Express Root Port #3
 	34bc  Ice Lake-LP PCI Express Root Port #5
 	34c5  Ice Lake-LP Serial IO I2c Controller #4
 	34c6  Ice Lake-LP Serial IO I2c Controller #5
@@ -33311,6 +33319,7 @@
 	a2f0  200 Series PCH HD Audio
 		1462 7a72  H270 PC MATE
 		1462 fa72  H270 PC MATE
+	a303  H310 Chipset LPC/eSPI Controller
 	a304  H370 Chipset LPC/eSPI Controller
 		1028 0869  Vostro 3470
 	a305  Z390 Chipset LPC/eSPI Controller
@@ -33371,10 +33380,16 @@
 	a379  Cannon Lake PCH Thermal Controller
 		1028 0869  Vostro 3470
 	a382  400 Series Chipset Family SATA AHCI Controller
+	a394  Comet Lake PCI Express Root Port #05
+	a397  Comet Lake PCI Express Root Port #08
 	a3a1  Memory controller
 	a3a3  Comet Lake PCH-V SMBus Host Controller
 	a3af  Comet Lake PCH-V USB Controller
 	a3b1  Comet Lake PCH-V Thermal Subsystem
+	a3ba  Comet Lake PCH-V HECI Controller
+	a3c8  B460 Chipset LPC/eSPI Controller
+	a3eb  Comet Lake PCI Express Root Port #21
+	a3f0  Comet Lake PCH-V cAVS
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
 	b152  21152 PCI-to-PCI Bridge
@@ -34598,6 +34613,7 @@ C 0c  Serial bus controller
 		02  BT (Block Transfer)
 	08  SERCOS interface
 	09  CANBUS
+	80  Serial bus controller
 C 0d  Wireless controller
 	00  IRDA controller
 	01  Consumer IR controller
