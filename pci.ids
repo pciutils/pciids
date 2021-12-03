@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.11.24
-#	Date:    2021-11-24 03:15:02
+#	Version: 2021.12.03
+#	Date:    2021-12-03 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3734,6 +3734,7 @@
 	73e3  Navi 23 WKS-XL [Radeon PRO W6600]
 	73e4  Navi 23 USB
 	73ff  Navi 23 [Radeon RX 6600/6600 XT/6600M]
+		148c 2412  PowerColor Red Devil RX 6600 XT
 	7408  Aldebaran
 	740c  Aldebaran
 	740f  Aldebaran
@@ -12886,6 +12887,7 @@
 	7038  FPGA Card XC7VX690T
 		17aa 402f  FPGA XC7VX690T-3FFG1157E
 	8019  Memory controller
+		1eec 0201  VSEC10232X Dual-port 100Gb/s Etherent PCIe
 	8380  Ellips ProfiXpress Profibus Master
 	8381  Ellips Santos Frame Grabber
 	d154  Copley Controls CAN card (PCI-CAN-02)
@@ -15220,7 +15222,7 @@
 # Nee Galileo Technology, Inc.
 11ab  Marvell Technology Group Ltd.
 	0100  88F3700 [Armada 3700 Family] ARM SoC
-	0110  88F8040 PCI Express controller
+	0110  88F60x0/88F70x0/88F80x0/CN913x ARM SoC
 	0146  GT-64010/64010A System Controller
 	0f53  88E6318 Link Street network controller
 	11ab  MV88SE614x SATA II PCI-E controller
@@ -15438,14 +15440,17 @@
 	6480  MV64460/64461/64462 System Controller
 		1775 c200  C2K CompactPCI single board computer
 	6485  MV64460/64461/64462 System Controller, Revision B
+	6560  88F6560 [Avanta] ARM SoC
+	6710  88F6710 [Armada 370] ARM SoC
 	6820  88F6820 [Armada 385] ARM SoC
 	6828  88F6828 [Armada 388] ARM SoC
+	6920  88F6920 [Armada 390] ARM SoC
 	7042  88SX7042 PCI-e 4-port SATA-II
 		16b8 434b  Tempo SATA E4P
 	7810  MV78100 [Discovery Innovation] ARM SoC
 	7820  MV78200 [Discovery Innovation] ARM SoC
 	7823  MV78230 [Armada XP] ARM SoC
-	7846  88F6820 [Armada 385] ARM SoC
+	7846  MV78460 [Armada XP] ARM SoC
 	d40f  Bobcat3 Ethernet Switch
 	f003  GT-64010 Primary Image Piranha Image Generator
 11ac  Canon Information Systems Research Aust.
@@ -21414,6 +21419,7 @@
 	003e  QCA6174 802.11ac Wireless Network Adapter
 		1a56 143a  Killer 1435 Wireless-AC
 		1a56 1525  Killer N1525 Wireless-AC
+		1a56 1535  Killer Wireless-n/a/ac 1535 Wireless Network Adapter
 	0040  QCA9980/9990 802.11ac Wireless Network Adapter
 	0041  QCA6164 802.11ac Wireless Network Adapter
 	0042  QCA9377 802.11ac Wireless Network Adapter
@@ -25413,6 +25419,7 @@
 		8086 01f7  SCRU32
 # uninitialized SRCU32 RAID Controller
 	061f  80303 I/O Processor
+	0684  H470 Chipset LPC/eSPI Controller
 	0687  Q470 Chipset LPC/eSPI Controller
 	068d  Comet Lake LPC Controller
 	06a3  Comet Lake PCH SMBus Controller
@@ -31374,6 +31381,9 @@
 		17aa 4025  Ethernet Connection X722 for 10GbE SFP+
 	37d4  Ethernet Connection X722 for 10GbE QSFP+
 	37d9  X722 Hyper-V Virtual Function
+	3882  Ice Lake LPC Controller
+	38a4  Ice Lake SPI Controller
+	38e0  Ice Lake Management Engine Interface
 	3a00  82801JD/DO (ICH10 Family) 4-port SATA IDE Controller
 	3a02  82801JD/DO (ICH10 Family) SATA AHCI Controller
 	3a05  82801JD/DO (ICH10 Family) SATA RAID Controller
@@ -31753,7 +31763,7 @@
 	3e89  8th Gen Core Processor PCIe Controller (x4)
 	3e90  CoffeeLake-S GT1 [UHD Graphics 610]
 	3e91  CoffeeLake-S GT2 [UHD Graphics 630]
-	3e92  CometLake-S GT2 [UHD Graphics 630]
+	3e92  CoffeeLake-S GT2 [UHD Graphics 630]
 		1028 0869  Vostro 3470
 	3e93  CoffeeLake-S GT1 [UHD Graphics 610]
 	3e96  CoffeeLake-S GT2 [UHD Graphics P630]
@@ -32462,6 +32472,7 @@
 	8a0d  Ice Lake Thunderbolt 3 NHI #1
 	8a12  Ice Lake-LP Processor Host Bridge/DRAM Registers
 	8a13  Ice Lake Thunderbolt 3 USB Controller
+	8a14  Ice Lake Processor Host Bridge/DRAM Registers
 	8a17  Ice Lake Thunderbolt 3 NHI #0
 	8a19  Image Signal Processor
 	8a1d  Ice Lake Thunderbolt 3 PCI Express Root Port #0
@@ -32747,6 +32758,7 @@
 	9a49  TigerLake-LP GT2 [Iris Xe Graphics]
 	9a60  TigerLake-H GT1 [UHD Graphics]
 	9a68  TigerLake-H GT1 [UHD Graphics]
+	9b33  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b41  CometLake-U GT2 [UHD Graphics]
 		1028 09bd  Latitude 7310
 		1028 09be  Latitude 7410
@@ -33382,12 +33394,15 @@
 	a382  400 Series Chipset Family SATA AHCI Controller
 	a394  Comet Lake PCI Express Root Port #05
 	a397  Comet Lake PCI Express Root Port #08
+	a398  Comet Lake PCI Express Root Port 9
+	a39a  Comet Lake PCI Express Root Port 11
 	a3a1  Memory controller
 	a3a3  Comet Lake PCH-V SMBus Host Controller
 	a3af  Comet Lake PCH-V USB Controller
 	a3b1  Comet Lake PCH-V Thermal Subsystem
 	a3ba  Comet Lake PCH-V HECI Controller
 	a3c8  B460 Chipset LPC/eSPI Controller
+	a3da  H410 Chipset LPC/eSPI Controller
 	a3eb  Comet Lake PCI Express Root Port #21
 	a3f0  Comet Lake PCH-V cAVS
 	a620  6400/6402 Advanced Memory Buffer (AMB)
