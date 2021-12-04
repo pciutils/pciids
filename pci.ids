@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.12.03
-#	Date:    2021-12-03 03:15:01
+#	Version: 2021.12.04
+#	Date:    2021-12-04 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -97,6 +97,9 @@
 0721  Sapphire, Inc.
 0731  Jingjia Microelectronics Co Ltd
 	7200  JM7200 Series GPU
+		0731 7201  JM7201
+		0731 7202  JM7202
+	9230  JM9230
 0777  Ubiquiti Networks, Inc.
 0795  Wired Inc.
 	6663  Butane II (MPEG2 encoder board)
@@ -120,6 +123,7 @@
 	0905  R1T3 Single T3 Digital Telephony Card
 	0906  RCB24FXX 24-channel modular analog telephony card
 	0a06  RCB672FXX 672-channel modular analog telephony card
+0ccd  Preferred Networks, Inc.
 0e11  Compaq Computer Corporation
 	0001  PCI to EISA Bridge
 	0002  PCI to ISA Bridge
@@ -19947,6 +19951,12 @@
 	b960  Broadcom BCM56960 Switch ASIC
 # Tomahawk4
 	b990  BCM56990 Switch ASIC
+# Tomahawk4G
+	b996  BCM56996 Tomahawk4G 106G Switch ASIC
+# Tomahawk4GT
+	b998  BCM56998 Tomahawk4GT 106G Switch ASIC
+# Tomahawk4D
+	b999  BCM56999 Tomahawk4D 106G Switch ASIC
 	c909  BCM78909 Switch ASIC
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
 		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
@@ -24023,6 +24033,7 @@
 1dc5  FADU Inc.
 1dcd  Liqid Inc.
 1dcf  Beijing Sinead Technology Co., Ltd.
+1dd3  Sage Microelectronics Corp.
 1dd8  Pensando Systems
 	0002  DSC2 Elba Upstream Port
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
