@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.12.04
-#	Date:    2021-12-04 03:15:01
+#	Version: 2021.12.07
+#	Date:    2021-12-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -99,7 +99,21 @@
 	7200  JM7200 Series GPU
 		0731 7201  JM7201
 		0731 7202  JM7202
+		0731 7208  JM7200
+		0731 7212  JM7200
+		0731 7214  JM7500
+		0731 7215  JM7200
+	9200  JM9200
+	920a  JH920
+	920b  JH920-I
+	920c  JH920-M
+	9210  JM9210
+	9211  JM9210-I
 	9230  JM9230
+	9231  JM9231-I
+	9250  JM9250
+	930a  JH930-I
+	930b  JH930-M
 0777  Ubiquiti Networks, Inc.
 0795  Wired Inc.
 	6663  Butane II (MPEG2 encoder board)
@@ -2573,6 +2587,7 @@
 		174b e164  Radeon HD 6450 1 GB DDR3
 		174b e180  Radeon HD 6450
 		174b e201  Radeon HD 6450
+		1787 2311  Radeon HD 6450
 		17af 8450  Radeon HD 8450 OEM
 		1b0a 9096  Radeon HD 6450
 		1b0a 9097  Radeon HD 6450
@@ -12228,6 +12243,7 @@
 	1cfa  GP107GL [Quadro P2000]
 	1cfb  GP107GL [Quadro P1000]
 	1d01  GP108 [GeForce GT 1030]
+	1d02  GP108 [GeForce GT 1010]
 	1d10  GP108M [GeForce MX150]
 		17aa 225e  ThinkPad T480
 	1d11  GP108M [GeForce MX230]
@@ -20648,6 +20664,8 @@
 	021b  MT43162 Family [BlueField-3 Lx Secure Flash Recovery]
 	021c  MT43244 Family [BlueField-3 SoC Flash Recovery]
 	021d  MT43244 Family [BlueField-3 Secure Flash Recovery]
+	021e  CX8 Family [ConnectX-8 Flash Recovery]
+	021f  CX8 Family [ConnectX-8 Secure Flash Recovery]
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
 	024f  MT53100 [Spectrum-2, Secure Flash recovery mode]
 	0250  Spectrum-3, Flash recovery mode
@@ -20762,6 +20780,7 @@
 	101f  MT2894 Family [ConnectX-6 Lx]
 	1020  MT28860
 	1021  MT2910 Family [ConnectX-7]
+	1023  CX8 Family [ConnectX-8]
 	1974  MT28800 Family [ConnectX-5 PCIe Bridge]
 	1975  MT416842 Family [BlueField SoC PCIe Bridge]
 	1976  MT28908 Family [ConnectX-6 PCIe Bridge]
@@ -20770,10 +20789,12 @@
 	1979  MT2910 Family [ConnectX-7 PCIe Bridge]
 	197a  MT43162 Family [BlueField-3 Lx SoC PCIe Bridge]
 	197b  MT43244 Family [BlueField-3 SoC PCIe Bridge]
+	197c  CX8 Family [ConnectX-8 PCIe Bridge]
 	2020  MT2892 Family [ConnectX-6 Dx Emulated PCIe Bridge]
 	2021  MT42822 Family [BlueField-2 SoC Emulated PCIe Bridge]
 	2023  MT2910 Family [ConnectX-7 Emulated PCIe Bridge]
 	2024  MT43244 Family [BlueField-3 SoC Emulated PCIe Bridge]
+	2025  CX8 Family [ConnectX-8 Emulated PCIe Bridge]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
 		1bd4 003a  25G SFP28 SP EO251FM9 Adapter
@@ -27094,6 +27115,7 @@
 		8086 00a2  Ethernet Server Adapter I350-T2
 		8086 00a3  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
 		8086 00aa  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
+		8086 4017  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
 		8086 5001  Ethernet Server Adapter I350-T4
 		8086 5002  Ethernet Server Adapter I350-T2
 		8086 5003  Ethernet 1G 4P I350-t OCP
