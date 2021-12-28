@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.12.25
-#	Date:    2021-12-25 03:15:02
+#	Version: 2021.12.28
+#	Date:    2021-12-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -32010,8 +32010,10 @@
 		8086 02a4  Wireless-AC 9462
 	444e  Turbo Memory Controller
 	460d  12th Gen Core Processor PCI Express x16 Controller #1
+	461d  Alder Lake Innovation Platform Framework Processor Participant
 	461e  Alder Lake-P Thunderbolt 4 USB Controller
 	461f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #3
+	4626  Alder Lake-P Integrated Graphics Controller
 	4629  12th Gen Core Processor Host Bridge/DRAM Registers
 	462f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #2
 	463d  12th Gen Core Processor PCI Express x4 Controller #2
