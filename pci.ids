@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.12.28
-#	Date:    2021-12-28 03:15:02
+#	Version: 2021.12.30
+#	Date:    2021-12-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12366,9 +12366,12 @@
 	1fb9  TU117GLM [Quadro T1000 Mobile]
 	1fba  TU117GLM [T600 Mobile]
 	1fbb  TU117GLM [Quadro T500 Mobile]
+	1fbc  TU117GLM [T1200 Laptop GPU]
 	1fbf  TU117GL
 	1fd9  TU117BM [GeForce GTX 1650 Mobile Refresh]
 	1fdd  TU117BM [GeForce GTX 1650 Mobile Refresh]
+	1ff0  TU117GL [T1000 8GB]
+	1ff2  TU117GL [T400 4GB]
 	1ff9  TU117GLM [Quadro T1000 Mobile]
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
@@ -20688,6 +20691,7 @@
 	0256  Abir GearBox
 	0257  Quantum-2 in Flash Recovery Mode
 	0258  Quantum-2 RMA
+	0259  Abir Chiplet
 	0262  MT27710 [ConnectX-4 Lx Programmable] EN
 	0263  MT27710 [ConnectX-4 Lx Programmable Virtual Function] EN
 	0264  Innova-2 Flex Burn image
