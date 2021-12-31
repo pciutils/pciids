@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.12.30
-#	Date:    2021-12-30 03:15:02
+#	Version: 2021.12.31
+#	Date:    2021-12-31 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24174,6 +24174,9 @@
 	2000  NoLoad Hardware Development Kit
 	3000  eBPF-based PCIe Accelerator
 1ded  Alibaba (China) Co., Ltd.
+# A RDMA (iWarp) device provided by Alibaba Cloud used in ECS environment
+	107f  Elastic RDMA Adapter
+	5007  Elastic RDMA Adapter
 	8000  M1 Root Port
 	8001  ACC-RCiEP
 	8002  RCiEP VF
