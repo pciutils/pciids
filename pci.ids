@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.12.31
-#	Date:    2021-12-31 03:15:01
+#	Version: 2022.01.11
+#	Date:    2022-01-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -11493,6 +11493,7 @@
 	10ef  GP102 HDMI Audio Controller
 	10f0  GP104 High Definition Audio Controller
 	10f1  GP106 High Definition Audio Controller
+		1043 85b6  DUAL-GTX1060-O6G [GeForce GTX 1060 6GB Dual]
 	10f7  TU102 High Definition Audio Controller
 	10f8  TU104 HD Audio Controller
 	10f9  TU106 High Definition Audio Controller
@@ -12190,6 +12191,7 @@
 	1c01  GP106
 	1c02  GP106 [GeForce GTX 1060 3GB]
 	1c03  GP106 [GeForce GTX 1060 6GB]
+		1043 85b6  DUAL-GTX1060-O6G [GeForce GTX 1060 6GB Dual]
 	1c04  GP106 [GeForce GTX 1060 5GB]
 	1c06  GP106 [GeForce GTX 1060 6GB Rev. 2]
 	1c07  GP106 [P106-100]
@@ -12462,6 +12464,7 @@
 	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a4  GA107
 	25a5  GA107M [GeForce RTX 3050 Mobile]
+	25a6  GA107M [GeForce MX570]
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
 	25b8  GA107GLM [RTX A2000 Mobile]
@@ -12799,6 +12802,8 @@
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		103c 825b  OMEN-17-w001nv
 		103c 8615  Pavilion Laptop 15-cw1xxx
+# Rev 29, uses r8169 Driver on Linux
+		103c 8882  HP ProDesk 405 G8 Desktop Mini PC
 		1043 11f5  Notebook motherboard (one of many models)
 		1043 16d5  U6V/U31J laptop
 		1043 81aa  P5B
@@ -19092,6 +19097,7 @@
 # MT7612E too?
 	7662  MT7662E 802.11ac PCI Express Wireless Network Adapter
 	7915  MT7915E 802.11ax PCI Express Wireless Network Adapter
+	7961  MT7921 802.11ax PCI Express Wireless Network Adapter
 14c4  IWASAKI Information Systems Co Ltd
 14c5  Automation Products AB
 14c6  Data Race Inc
@@ -23768,6 +23774,7 @@
 		1cc4 a213  NVMe SSD UHXXXa series U.2 3200GB
 		1cc4 a214  NVMe SSD UHXXXa series U.2 6400GB
 	17ab  NVMe 256G SSD device
+	6303  AM630 PCIe 4.0 x4 NVMe SSD Controller
 1cc5  Embedded Intelligence, Inc.
 	0100  CAN-PCIe-02
 1cc7  Radian Memory Systems Inc.
@@ -24379,6 +24386,7 @@
 		1e3b 0091  Enterprise NVMe SSD HHHL 0.75TB (H3900)
 1e3d  Burlywood, Inc
 1e49  Yangtze Memory Technologies Co.,Ltd
+	0041  ZHITAI TiPro7000
 # YMTC PCIe/NVMe SSD
 	1013  PC210
 1e4b  MAXIO Technology (Hangzhou) Ltd.
@@ -24434,6 +24442,9 @@
 1eab  Hefei DATANG Storage Technology Co.,LTD.
 	300a  NVMe SSD Controller 300A
 	300b  NVMe SSD Controller 300B
+1eac  Quectel Wireless Solutions Co., Ltd.
+	1001  EM120R-GL LTE Modem
+	1002  EM160R-GL LTE Modem
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
@@ -27498,7 +27509,10 @@
 		8086 000c  Ethernet Network Adapter E810-XXV-4 for OCP 3.0
 		8086 000d  Ethernet 25G 4P E810-XXV OCP
 		8086 000e  Ethernet Network Adapter E810-XXV-4T
+		8086 000f  Ethernet 25G 4P E810-XXV-stg Adapter
+		8086 0010  Ethernet 25G 4P E810-XXV-st Adapter
 	1599  Ethernet Controller E810-XXV for backplane
+		8086 0001  Ethernet 25G 2P E810-XXV-k Mezz
 	159a  Ethernet Controller E810-XXV for QSFP
 	159b  Ethernet Controller E810-XXV for SFP
 		1137 02be  E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC
