@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.01.11
-#	Date:    2022-01-11 03:15:02
+#	Version: 2022.01.13
+#	Date:    2022-01-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -961,10 +961,13 @@
 	10e4  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	10e5  MegaRAID 12GSAS/PCIe SAS38xx
 	10e6  MegaRAID 12GSAS/PCIe Secure SAS38xx
+		1028 2170  HBA350i Mini
 		1028 2172  PERC H355 Adapter
 		1028 2173  PERC H355 Front
 		1028 2174  PERC H350 Mini
 		1028 2177  PERC H350 Adapter
+		1028 2197  HBA350i Mini LP
+		1028 2199  PERC H350 Mini LP
 		1d49 0505  ThinkSystem RAID 540-8i PCIe Gen4 12Gb Adapter
 		1d49 0506  ThinkSystem RAID 540-16i PCIe Gen4 12Gb Adapter
 	10e7  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
@@ -986,6 +989,7 @@
 	c010  PEX88048 50 lane, 50 port, PCI Express Gen 4.0 ExpressFabric Platform
 	c012  PEX880xx PCIe Gen 4 Switch
 		1d49 0003  ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter
+	c030  PEX890xx PCIe Gen 5 Switch
 1001  Kolter Electronic
 	0010  PCI 1616 Measurement card with 32 digital I/O lines
 	0011  OPTO-PCI Opto-Isolated digital I/O board
@@ -12360,6 +12364,7 @@
 	1f9d  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 # via Lenovo 496.90
 	1f9f  TU117M [GeForce MX550]
+	1fa0  TU117M [GeForce MX550]
 	1fae  TU117GL
 	1fb0  TU117GLM [Quadro T1000 Mobile]
 	1fb1  TU117GL [T600]
@@ -12408,6 +12413,7 @@
 		10de 146d  GA102 [GeForce RTX 3080 20GB]
 		1462 3892  RTX 3080 10GB GAMING X TRIO
 	2208  GA102 [GeForce RTX 3080 Ti]
+	220a  GA102 [GeForce RTX 3080 12GB]
 	220d  GA102 [CMP 90HX]
 	2216  GA102 [GeForce RTX 3080 Lite Hash Rate]
 	222b  GA102 [GeForce RTX 3090 Engineering Sample]
@@ -12423,6 +12429,7 @@
 	2296  Tegra PCIe Endpoint Virtual Network
 	2302  GA103
 	2321  GA103
+	2414  GA103 [GeForce RTX 3060 Ti]
 	2420  GA103M [GeForce RTX 3080 Ti Mobile]
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2483  GA104
@@ -12465,8 +12472,12 @@
 	25a4  GA107
 	25a5  GA107M [GeForce RTX 3050 Mobile]
 	25a6  GA107M [GeForce MX570]
+	25a7  GA107M [GeForce MX570]
+	25a9  GA107M [GeForce RTX 2050]
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
+# A16 - 25B6 10DE 14A9 / A2 - 25B6 10DE 157E
+	25b6  GA107GL [A2 / A16]
 	25b8  GA107GLM [RTX A2000 Mobile]
 	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
 	25e2  GA107BM [GeForce RTX 3050 Mobile]
@@ -25213,6 +25224,11 @@
 	1400  CooVOX TDM GSM Module
 	1600  CooVOX TDM E1/T1 Module
 	1800  CooVOX TDM BRI Module
+6766  Glenfly Tech Co., Ltd.
+	3d00  Arise-GT-10C0
+	3d02  Arise 1020
+	3d40  Arise-GT-10C0 High Definition Audio Controller
+	3d41  Arise 1020 High Definition Audio Controller
 # nee Qumranet
 6900  Red Hat, Inc.
 7063  pcHDTV
