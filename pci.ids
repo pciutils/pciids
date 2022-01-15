@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.01.13
-#	Date:    2022-01-13 03:15:02
+#	Version: 2022.01.15
+#	Date:    2022-01-15 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2036,7 +2036,7 @@
 		174b a240  Radeon R7 240 OEM
 		174b d340  Radeon R7 340 OEM
 		1b0a 90d3  Radeon R7 240 OEM
-	6613  Oland PRO [Radeon R7 240/340]
+	6613  Oland PRO [Radeon R7 240/340 / Radeon 520]
 		148c 7340  Radeon R7 340
 		1682 7240  R7 240 2048 MB
 	6631  Oland
@@ -22840,6 +22840,10 @@
 	0011  FlexCard PMC-II Ethernet
 	0018  FlexCard PXIe3
 	0019  FlexCard PCIe3
+# IO card for std ethernet and automotive ethernet (ieee 1000Base-T1)
+	001a  FlexCard PXIe Ethernet
+# IO card for std ethernet and automotive ethernet (ieee 1000Base-T1)
+	001b  FlexCard PCIe Ethernet
 1976  TRENDnet
 1977  Parsec
 197b  JMicron Technology Corp.
