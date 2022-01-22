@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.01.15
-#	Date:    2022-01-15 03:15:01
+#	Version: 2022.01.22
+#	Date:    2022-01-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21967,6 +21967,7 @@
 	0401  Datacenter Technologies QDF2400 PCI Express Root Port
 	1000  QCS405 PCIe Root Complex
 	1101  QCA6390 Wireless Network Adapter [AX500-DBS (2x2)]
+	1103  Atheros QCNFA765
 17cc  NetChip Technology, Inc
 	2280  USB 2.0
 17cd  Cadence Design Systems, Inc.
@@ -23728,6 +23729,19 @@
 		1c5c 0100  PE8000 Series NVMe Solid State Drive
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	000d  PBlaze5 520/526
+	000e  PBlaze6 6530
+		1c5f 0b20  NVMe SSD PBlaze6 6530 1920G AIC
+		1c5f 0b21  NVMe SSD PBlaze6 6530 1920G 2.5" U.2
+		1c5f 0b30  NVMe SSD PBlaze6 6530 3840G AIC
+		1c5f 0b31  NVMe SSD PBlaze6 6530 3840G 2.5" U.2
+		1c5f 0b40  NVMe SSD PBlaze6 6530 7680G AIC
+		1c5f 0b41  NVMe SSD PBlaze6 6530 7680G 2.5" U.2
+		1c5f 4b20  NVMe SSD PBlaze6 6530 1600G AIC
+		1c5f 4b21  NVMe SSD PBlaze6 6530 1600G 2.5" U.2
+		1c5f 4b30  NVMe SSD PBlaze6 6530 3200G AIC
+		1c5f 4b31  NVMe SSD PBlaze6 6530 3200G 2.5" U.2
+		1c5f 4b40  NVMe SSD PBlaze6 6530 6400G AIC
+		1c5f 4b41  NVMe SSD PBlaze6 6530 6400G 2.5" U.2
 	003d  PBlaze5 920/926
 	003e  PBlaze6 6920
 		1c5f 0a31  NVMe SSD PBlaze6 6920 3840GB 2.5" U.2
@@ -24468,6 +24482,8 @@
 1ed2  FuriosaAI, Inc.
 	0000  Warboy
 1ed3  Yeston
+1ed5  Moore Threads Technology Co.,Ltd
+	0101  MTT S30
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
 1ed9  Myrtle.ai
