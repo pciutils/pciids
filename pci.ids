@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.01.22
-#	Date:    2022-01-22 03:15:01
+#	Version: 2022.01.25
+#	Date:    2022-01-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3764,6 +3764,8 @@
 	7408  Aldebaran
 	740c  Aldebaran
 	740f  Aldebaran
+	743f  Navi 24 [Radeon RX 6400 / 6500 XT]
+		1da2 e457  Navi 24 [PULSE AMD Radeon RX 6500 XT]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -12459,6 +12461,7 @@
 	2503  GA106 [GeForce RTX 3060]
 	2504  GA106 [GeForce RTX 3060 Lite Hash Rate]
 	2505  GA106
+	2507  GA106 [Geforce RTX 3050]
 	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	2523  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	252f  GA106 [GeForce RTX 3060 Engineering Sample]
@@ -23574,6 +23577,7 @@
 		1bb1 01a1  Nytro XP7102
 	5012  FireCuda 510 SSD
 	5016  FireCuda 520 SSD
+	5018  FireCuda 530 SSD
 1bb3  Bluecherry
 	4304  BC-04120A MPEG4 4 port video encoder / decoder
 	4309  BC-08240A MPEG4 4 port video encoder / decoder
@@ -32079,6 +32083,7 @@
 	4641  12th Gen Core Processor Host Bridge/DRAM Registers
 	464d  12th Gen Core Processor PCI Express x4 Controller #0
 	464f  12th Gen Core Processor Gaussian & Neural Accelerator
+	4660  12th Gen Core Processor Host Bridge/DRAM Registers
 	466d  Alder Lake-P Thunderbolt 4 NHI #1
 	466e  Alder Lake-P Thunderbolt 4 PCI Express Root Port #0
 	467d  Platform Monitoring Technology
@@ -32099,7 +32104,7 @@
 	4c8b  RocketLake-S GT1 [UHD Graphics 730]
 	4c90  RocketLake-S GT1 [UHD Graphics P750]
 	4c9a  RocketLake-S [UHD Graphics]
-	4da3  JaserLake SMBus
+	4da3  JasperLake HD Audio
 	4da4  JaserLake SPI (flash) Controller
 	4de0  Management Engine Interface
 	4de8  Serial IO I2C Host Controller
@@ -32547,6 +32552,20 @@
 		10b4 202f  Lightspeed 740
 		8086 0000  Terminator 2x/i
 		8086 0100  Intel740 Graphics Accelerator
+# Unlike other PCH components. The eSPI controller is specific to each chipset model
+	7a84  Z690 Chipset LPC/eSPI Controller
+	7aa3  Alder Lake-S PCH SMBus Controller
+	7aa4  Alder Lake-S PCH SPI Controller
+	7aa7  Alder Lake-S PCH Shared SRAM
+	7ab4  Alder Lake-S PCH PCI Express Root Port #13
+	7abd  Alder Lake-S PCH PCI Express Root Port #6
+	7acc  Alder Lake-S PCH I2C Controller #0
+	7ad0  Alder Lake-S HD Audio Controller
+	7ae0  Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller
+	7ae2  Alder Lake-S PCH SATA Controller [AHCI Mode]
+	7ae8  Alder Lake-S PCH HECI Controller #1
+	7af0  Alder Lake-S PCH CNVi WiFi
+		8086 0094  Wi-Fi 6 AX201 160MHz
 	8002  Trusted Execution Technology Registers
 	8003  Trusted Execution Technology Registers
 	8100  US15W/US15X SCH [Poulsbo] Host Bridge
