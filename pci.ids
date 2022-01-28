@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.01.25
-#	Date:    2022-01-25 03:15:01
+#	Version: 2022.01.28
+#	Date:    2022-01-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3765,7 +3765,7 @@
 	740c  Aldebaran
 	740f  Aldebaran
 	743f  Navi 24 [Radeon RX 6400 / 6500 XT]
-		1da2 e457  Navi 24 [PULSE AMD Radeon RX 6500 XT]
+		1da2 e457  PULSE AMD Radeon RX 6500 XT
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -12433,6 +12433,7 @@
 	2321  GA103
 	2414  GA103 [GeForce RTX 3060 Ti]
 	2420  GA103M [GeForce RTX 3080 Ti Mobile]
+	2460  GA103M [GeForce RTX 3080 Ti Laptop GPU]
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2483  GA104
 	2484  GA104 [GeForce RTX 3070]
@@ -19106,6 +19107,7 @@
 		103c 1240  Myrinet M2L-PCI64/2-3.0 LANai 7.4 (HP OEM)
 14c2  DTK Computer
 14c3  MEDIATEK Corp.
+	0616  MT7922 802.11ax PCI Express Wireless Network Adapter
 	7612  MT7612E 802.11acbgn PCI Express Wireless Network Adapter
 	7630  MT7630e 802.11bgn Wireless Network Adapter
 # MT7612E too?
@@ -23249,6 +23251,8 @@
 	0a58  microEnable 5 VD8-CL
 # CameraLink frame grabber
 	0a5a  microEnable 5 AD8-CL
+# CoaXpress frame grabber
+	0a64  imaWorx CXP-12 Quad
 # OEM product
 	0b52  mE5 Abacus 4G Base
 # OEM product
@@ -26077,6 +26081,12 @@
 		1028 2102  NVMe RI U.2 1.92TB (P5500)
 		1028 2103  NVMe RI U.2 3.84TB (P5500)
 		1028 2104  NVMe RI U.2 7.68TB (P5500)
+		1028 219a  NVMe P5316 RI 15.36TB
+		1028 219b  NVMe P5316 RI 30.72TB
+		1028 219c  NVMe SED P5316 RI 15.36
+		1028 219d  NVMe SED P5316 RI 30.72
+		1028 219e  NVMe FIPS P5316 RI 15.36TB
+		1028 219f  NVMe FIPS P5316 RI 30.72
 		8086 8008  NVMe Datacenter SSD [3DNAND] SE 2.5" U.2 (P5510)
 		8086 8d08  NVMe Datacenter SSD [3DNAND] VE 2.5" U.2 (P5316)
 		8086 8d1d  NVMe Datacenter SSD [3DNAND] VE E1.L 9.5/18mm (P5316)
@@ -32104,8 +32114,9 @@
 	4c8b  RocketLake-S GT1 [UHD Graphics 730]
 	4c90  RocketLake-S GT1 [UHD Graphics P750]
 	4c9a  RocketLake-S [UHD Graphics]
-	4da3  JasperLake HD Audio
-	4da4  JaserLake SPI (flash) Controller
+	4da3  Jasper Lake SMBus
+	4da4  Jasper Lake SPI Controller
+	4dc8  Jasper Lake HD Audio
 	4de0  Management Engine Interface
 	4de8  Serial IO I2C Host Controller
 	4de9  Serial IO I2C Host Controller
