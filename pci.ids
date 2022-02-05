@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.01.28
-#	Date:    2022-01-28 03:15:02
+#	Version: 2022.02.05
+#	Date:    2022-02-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3751,6 +3751,7 @@
 		148c 2414  Navi 21 XTXH [PowerColor Red Devil RX 6900 XT Ultimate]
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
 		1002 0e3a  Radeon RX 6900 XT
+		148c 2408  Red Devil AMD Radeon RX 6900 XT
 		1eae 6701  XFX Speedster MERC 319 AMD Radeon RX 6800 XT Black
 	73c3  Navi 22
 	73c4  Navi 22 USB
@@ -4963,14 +4964,14 @@
 		1043 876b  PRIME Motherboard
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
-	15e2  Raven/Raven2/FireFlight/Renoir Audio Processor
+	15e2  ACP/ACP3X/ACP6x Audio Coprocessor
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
-	15e3  Family 17h (Models 10h-1fh) HD Audio Controller
+	15e3  Family 17h/19h HD Audio Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		1043 86c7  PRIME B450M-A Motherboard
 		17aa 5124  ThinkPad E595
-	15e4  Raven/Raven2/Renoir Sensor Fusion Hub
+	15e4  Sensor Fusion Hub
 	15e5  Raven2 USB 3.1
 		ea50 ce19  mCOM10-L1900
 	15e6  Raven/Raven2/Renoir Non-Sensor Fusion Hub KMDF driver
@@ -12371,6 +12372,8 @@
 	1fb0  TU117GLM [Quadro T1000 Mobile]
 	1fb1  TU117GL [T600]
 	1fb2  TU117GLM [Quadro T400 Mobile]
+	1fb6  TU117GLM [T600 Laptop GPU]
+	1fb7  TU117GLM [T550 Laptop GPU]
 	1fb8  TU117GLM [Quadro T2000 Mobile / Max-Q]
 	1fb9  TU117GLM [Quadro T1000 Mobile]
 	1fba  TU117GLM [T600 Mobile]
@@ -12385,6 +12388,8 @@
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
 	20b2  GA100 [A100 SXM4 80GB]
+# 20B3 14A7 10DE PG506-242 / 20B3 14A8 10DE PG506-243
+	20b3  GA100 [PG506-242/243]
 	20b5  GA100 [A100 PCIe 80GB]
 	20b6  GA100GL [PG506-232]
 	20b7  GA100GL [A30 PCIe]
@@ -12392,7 +12397,9 @@
 	20be  GA100 [GRID A100A]
 	20bf  GA100 [GRID A100B]
 	20c2  GA100 [CMP 170HX]
+	20f0  GA100 [A100-PG506-207]
 	20f1  GA100 [A100 PCIe 40GB]
+	20f2  GA100 [A100-PG506-217]
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
@@ -12423,9 +12430,11 @@
 	2230  GA102GL [RTX A6000]
 	2231  GA102GL [RTX A5000]
 	2232  GA102GL [RTX A4500]
+	2233  GA102GL [RTX A5500]
 	2235  GA102GL [A40]
 	2236  GA102GL [A10]
 	2237  GA102GL [A10G]
+	2238  GA102GL [A10M]
 	223f  GA102GL
 	228b  GA104 High Definition Audio Controller
 	2296  Tegra PCIe Endpoint Virtual Network
@@ -12445,7 +12454,8 @@
 	2489  GA104 [GeForce RTX 3060 Ti Lite Hash Rate]
 	248a  GA104 [CMP 70HX]
 	249c  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
-	249d  GA104M [GeForce RTX 3070 Mobile / Max-Q]
+# installed in a Crosshair 15-12u Engineering Sample
+	249d  RTX 3070 TI Engineering Sample
 	249f  GA104M
 	24a0  GA104 [Geforce RTX 3070 Ti Laptop GPU]
 	24ac  GA104 [GeForce RTX 30x0 Engineering Sample]
@@ -12458,6 +12468,8 @@
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
+	24e0  GA104M [Geforce RTX 3070 Ti Laptop GPU]
+	24fa  GA104 [RTX A4500 Embedded GPU ]
 	2501  GA106 [GeForce RTX 3060]
 	2503  GA106 [GeForce RTX 3060]
 	2504  GA106 [GeForce RTX 3060 Lite Hash Rate]
@@ -12483,9 +12495,12 @@
 # A16 - 25B6 10DE 14A9 / A2 - 25B6 10DE 157E
 	25b6  GA107GL [A2 / A16]
 	25b8  GA107GLM [RTX A2000 Mobile]
+	25b9  GA107GLM [RTX A1000 Laptop GPU]
 	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
 	25e2  GA107BM [GeForce RTX 3050 Mobile]
 	25e5  GA107BM [GeForce RTX 3050 Mobile]
+	25f9  GA107 [RTX A1000 Embedded GPU ]
+	25fa  GA107 [RTX A2000 Embedded GPU]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -17484,6 +17499,8 @@
 		13a3 0036  DX1730 Acceleration Card
 	0037  8204 Acceleration Processor
 		13a3 0036  DX1740 Acceleration Card
+	9240  XR9240 Compression and Security Coprocessor [Panther II]
+		13a3 9200  DX2040 Compression and Security Acceleration Card [Panther II]
 13a4  Rascom Inc
 13a5  Audio Digital Imaging Inc
 13a6  Videonics Inc
@@ -23181,6 +23198,8 @@
 1aa8  Ciprico, Inc.
 	0009  RAIDCore Controller
 	000a  RAIDCore Controller
+1aa9  Schweitzer Engineering Laboratories
+	000d  SEL-3390S8 serial adaptor
 1aae  Global Velocity, Inc.
 1ab4  Distributed Management Task Force, Inc. (DMTF)
 1ab6  CalDigit, Inc.
@@ -24328,7 +24347,7 @@
 		1028 210e  Dell Ent NVMe FIPS CM6 MU 1.6TB
 		1028 210f  Dell Ent NVMe FIPS CM6 MU 3.2TB
 		1028 2110  Dell Ent NVMe FIPS CM6 MU 6.4TB
-		1e0f 0001  Generic NVMe CM6 RI 3.84TB
+		1e0f 0001  Generic NVMe CM6
 	0009  NVMe SSD
 		1e0f 0001  Toshiba RC500 NVMe SSD 500GB
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
@@ -26195,8 +26214,11 @@
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0d9f  Ethernet Controller (2) I225-IT
 	0dd2  Ethernet Network Adapter I710
+		1137 02e3  I710T4LG 4x1 GbE RJ45 PCIe NIC
 		8086 000d  Ethernet Network Adapter I710-T4L
 		8086 0010  Ethernet Network Adapter I710-T4L for OCP 3.0
+		8086 401a  Ethernet Network Adapter I710-T4L
+		8086 401b  Ethernet Network Adapter I710-T4L for OCP 3.0
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
 		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 		15d9 066b  X9SRL-F
