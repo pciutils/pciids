@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.06
-#	Date:    2022-02-06 03:15:01
+#	Version: 2022.02.07
+#	Date:    2022-02-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23466,6 +23466,7 @@
 	9128  88SE9128 PCIe SATA 6 Gb/s RAID controller
 	9130  88SE9128 PCIe SATA 6 Gb/s RAID controller with HyperDuo
 		1043 8438  P8P67 Deluxe Motherboard
+	9170  88SE9170 PCIe 2.0 x1 2-port SATA 6 Gb/s Controller
 	9172  88SE9172 SATA 6Gb/s Controller
 	9178  88SE9170 PCIe SATA 6Gb/s Controller
 	917a  88SE9172 SATA III 6Gb/s RAID Controller
