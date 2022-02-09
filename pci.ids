@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.07
-#	Date:    2022-02-07 03:15:02
+#	Version: 2022.02.09
+#	Date:    2022-02-09 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23199,7 +23199,8 @@
 	0009  RAIDCore Controller
 	000a  RAIDCore Controller
 1aa9  Schweitzer Engineering Laboratories
-	000d  SEL-3390S8 serial adaptor
+	000d  SEL-3390S8 Serial Adapter
+	0018  SEL-3390E4 Ethernet Adapter
 1aae  Global Velocity, Inc.
 1ab4  Distributed Management Task Force, Inc. (DMTF)
 1ab6  CalDigit, Inc.
@@ -24027,6 +24028,7 @@
 	101c  AR-ARK-SRIOV-VF [Arkville Virtual Function]
 	101d  AR-ARK-NIC [Arkville ArkNIC Kernel Path Device]
 	101e  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover for Agilex R-Tile]
+	101f  AR-Q420F [2x100GbE Packet Capture Device]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -32969,6 +32971,7 @@
 		1028 09be  Latitude 7410
 	9b63  10th Gen Core Processor Host Bridge/DRAM Registers
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
+	9ba8  CometLake-S GT1 [UHD Graphics 610]
 	9bc4  CometLake-H GT2 [UHD Graphics]
 	9bc5  CometLake-S GT2 [UHD Graphics 630]
 	9bc8  CometLake-S GT2 [UHD Graphics 630]
@@ -34858,8 +34861,7 @@ C 11  Signal processing controller
 	80  Signal processing controller
 C 12  Processing accelerators
 	00  Processing accelerators
-# For the class of PCI attached devices which perform a function of Deep Learning Neural Network inference acceleration
-	01  AI Inference Accelerator
+	01  SNIA Smart Data Accelerator Interface (SDXI) controller
 C 13  Non-Essential Instrumentation
 C 40  Coprocessor
 C ff  Unassigned class
