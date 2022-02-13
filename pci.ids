@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.09
-#	Date:    2022-02-09 03:15:01
+#	Version: 2022.02.13
+#	Date:    2022-02-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -961,12 +961,10 @@
 	10e4  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	10e5  MegaRAID 12GSAS/PCIe SAS38xx
 	10e6  MegaRAID 12GSAS/PCIe Secure SAS38xx
-		1028 2170  HBA350i Mini
 		1028 2172  PERC H355 Adapter
 		1028 2173  PERC H355 Front
 		1028 2174  PERC H350 Mini
 		1028 2177  PERC H350 Adapter
-		1028 2197  HBA350i Mini LP
 		1028 2199  PERC H350 Mini LP
 		1d49 0505  ThinkSystem RAID 540-8i PCIe Gen4 12Gb Adapter
 		1d49 0506  ThinkSystem RAID 540-16i PCIe Gen4 12Gb Adapter
