@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.13
-#	Date:    2022-02-13 03:15:02
+#	Version: 2022.02.15
+#	Date:    2022-02-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12452,8 +12452,7 @@
 	2489  GA104 [GeForce RTX 3060 Ti Lite Hash Rate]
 	248a  GA104 [CMP 70HX]
 	249c  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
-# installed in a Crosshair 15-12u Engineering Sample
-	249d  RTX 3070 TI Engineering Sample
+	249d  GA104M [GeForce RTX 3070 Mobile / Max-Q]
 	249f  GA104M
 	24a0  GA104 [Geforce RTX 3070 Ti Laptop GPU]
 	24ac  GA104 [GeForce RTX 30x0 Engineering Sample]
