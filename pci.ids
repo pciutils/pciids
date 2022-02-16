@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.15
-#	Date:    2022-02-15 03:15:02
+#	Version: 2022.02.16
+#	Date:    2022-02-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -821,7 +821,9 @@
 		1028 200c  HBA355i Front
 		1028 200d  HBA355e Adapter
 		1028 200e  HBA350i MX
+		1028 2170  HBA350i MM
 		1028 2175  HBA350i Adapter
+		1028 2197  HBA350i MM LP
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0207  ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
@@ -24025,7 +24027,7 @@
 	101c  AR-ARK-SRIOV-VF [Arkville Virtual Function]
 	101d  AR-ARK-NIC [Arkville ArkNIC Kernel Path Device]
 	101e  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover for Agilex R-Tile]
-	101f  AR-Q420F [2x100GbE Packet Capture Device]
+	101f  AR-TK242 [2x100GbE Packet Capture Device]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
@@ -24350,6 +24352,17 @@
 		1e0f 0001  Generic NVMe CM6
 	0009  NVMe SSD
 		1e0f 0001  Toshiba RC500 NVMe SSD 500GB
+	0011  NVMe SSD Controller CD7
+		1028 2189  DC NVMe SED CD7 RI 960GB
+		1028 218a  DC NVMe CD7 RI 960GB
+		1028 218b  DC NVMe SED CD7 RI 1.92TB
+		1028 218c  DC NVMe CD7 RI 1.92TB
+		1028 218d  DC NVMe SED CD7 RI 3.84TB
+		1028 218e  DC NVMe CD7 RI 3.84TB
+		1028 218f  DC NVMe SED CD7 RI 7.68TB
+		1028 2190  DC NVMe CD7 RI 7.68TB
+		1028 2191  DC NVMe SED CD7 RI 15.36TB
+		1028 2192  DC NVMe CD7 RI 15.36TB
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
 1e24  Squirrels Research Labs
 	0101  Acorn CLE-101
@@ -26214,7 +26227,9 @@
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0d9f  Ethernet Controller (2) I225-IT
 	0dd2  Ethernet Network Adapter I710
+		1137 0000  I710T4LG 4x1 GbE RJ45 PCIe NIC
 		1137 02e3  I710T4LG 4x1 GbE RJ45 PCIe NIC
+		8086 0000  Ethernet Network Adapter I710-T4L
 		8086 000d  Ethernet Network Adapter I710-T4L
 		8086 0010  Ethernet Network Adapter I710-T4L for OCP 3.0
 		8086 401a  Ethernet Network Adapter I710-T4L
@@ -33597,7 +33612,7 @@
 	a397  Comet Lake PCI Express Root Port #08
 	a398  Comet Lake PCI Express Root Port 9
 	a39a  Comet Lake PCI Express Root Port 11
-	a3a1  Memory controller
+	a3a1  Cannon Lake PCH Power Management Controller
 	a3a3  Comet Lake PCH-V SMBus Host Controller
 	a3af  Comet Lake PCH-V USB Controller
 	a3b1  Comet Lake PCH-V Thermal Subsystem
@@ -34088,6 +34103,8 @@
 		1bd4 0070  RS0800M5E24i
 		1bd4 0071  RS0800M5H16i
 		1bd4 0072  RS0800M5E16i
+		1cc4 0101  Ramaxel RAID FBGF-RAD-R1S1
+		1cc4 0201  Ramaxel HBA FBGF-RAD-R1S2
 		1d49 0220  ThinkSystem 4350-8i SAS/SATA 12Gb HBA
 		1d49 0221  ThinkSystem 4350-16i SAS/SATA 12Gb HBA
 		1d49 0520  ThinkSystem RAID 5350-8i PCIe 12Gb Adapter
