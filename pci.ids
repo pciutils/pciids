@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.16
-#	Date:    2022-02-16 03:15:01
+#	Version: 2022.02.18
+#	Date:    2022-02-18 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2039,6 +2039,7 @@
 	6613  Oland PRO [Radeon R7 240/340 / Radeon 520]
 		148c 7340  Radeon R7 340
 		1682 7240  R7 240 2048 MB
+		1dcf 3000  Oland PRO [Radeon R7 240/340 / Radeon 520]
 	6631  Oland
 	6640  Saturn XT [FirePro M6100]
 		106b 014b  Tropo XT [Radeon R9 M380 Mac Edition]
@@ -21874,6 +21875,32 @@
 	a036  ThunderX RAD (RAID acceleration engine) virtual function
 	a037  THUNDERX ZIP virtual function
 	a040  THUNDERX CPT Cryptographic Accelerator
+# MAC found on OcteonTx2 series of silicons
+	a059  Octeon TX2 CGX (MAC)
+# MAC found on Octeon 10 series of silicons
+	a060  Octeon 10 RPM (MAC)
+# Octeon Tx2 Loopback Interface block
+	a061  Octeon Tx2 Loopback Interface (LBK)
+# Octeon Tx2 Resource Virtualization Unit Physical Function
+	a063  Octeon Tx2 RVU Physical Function
+# Octeon Tx2 Resource Virtualization Unit Virtual Function
+	a064  Octeon Tx2 RVU Virtual Function
+# Octeon Tx2 Resource Virtualization Unit Admin Function
+	a065  Octeon Tx2 RVU Admin Function
+# PTP Timestamping unit on Octeon 10 silicon series
+	a09e  Octeon 10 PTP controller
+# Cryptographic Accelerator found on Octeon 10 series of silicons
+	a0f2  Octeon 10 CPT Cryptographic Accelerator, Physical function
+	a0f3  Octeon 10 CPT Cryptographic Accelerator, Virtual function
+# Octeon Tx2 System DPI Interface (SDP) Physical Function
+	a0f6  Octeon Tx2 SDP Physical Function
+# Octeon Tx2 System DPI Interface (SDP) Virtual Function
+	a0f7  Octeon Tx2 SDP Virtual Function
+	a0f8  Octeon Tx2 Loopback Interface Virtual Function (LBKVF)
+# Cryptographic Accelerator found on OcteonTx2 series of silicons
+	a0fd  Octeon Tx2 CPT Cryptographic Accelerator, Physical function
+# Cryptographic Accelerator found on OcteonTx2 series of silicons
+	a0fe  Octeon Tx2 CPT Cryptographic Accelerator, Virtual function
 	a100  THUNDERX CN88XX 48 core SoC
 	a200  OCTEON TX CN81XX/CN80XX
 	a300  OCTEON TX CN83XX
@@ -23755,6 +23782,7 @@
 		1028 2149  DC NVMe SED PE8010 RI U.2 7.68TB
 		1028 214a  DC NVMe PE8010 RI U.2 7.68TB
 		1c5c 0100  PE8000 Series NVMe Solid State Drive
+	2849  PE81x0 U.2/3
 1c5f  Beijing Memblaze Technology Co. Ltd.
 	000d  PBlaze5 520/526
 	000e  PBlaze6 6530
@@ -24541,6 +24569,7 @@
 	5220  IG5220-Based NVMe SSD
 	5236  IG5236-Based NVMe SSD
 	5636  IG5636-Based NVMe SSD
+1f2f  China Mobile (Hangzhou) Information Technology Co.Ltd.
 1fab  Unifabrix Ltd.
 	0000  Nexus Alpha IVPU
 # nee Tumsan Oy
@@ -34103,8 +34132,8 @@
 		1bd4 0070  RS0800M5E24i
 		1bd4 0071  RS0800M5H16i
 		1bd4 0072  RS0800M5E16i
-		1cc4 0101  Ramaxel RAID FBGF-RAD-R1S1
-		1cc4 0201  Ramaxel HBA FBGF-RAD-R1S2
+		1cc4 0101  Ramaxel FBGF-RAD PM8204
+		1cc4 0201  Ramaxel FBGF-RAD PM8222
 		1d49 0220  ThinkSystem 4350-8i SAS/SATA 12Gb HBA
 		1d49 0221  ThinkSystem 4350-16i SAS/SATA 12Gb HBA
 		1d49 0520  ThinkSystem RAID 5350-8i PCIe 12Gb Adapter
