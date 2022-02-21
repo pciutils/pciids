@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.19
-#	Date:    2022-02-19 03:15:02
+#	Version: 2022.02.21
+#	Date:    2022-02-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13743,6 +13743,8 @@
 	9082  Standard AHCI 1.0 SATA Controller
 	9140  HDMI Audio Device
 	9201  USB3.0 Controller
+# Centaur CNS Coprocessor
+	9380  Ncore Coprocessor
 	9530  VX800/820/900 Series Secure Digital Memory Card Controller
 	95d0  VX800/820/900 Series SDIO Host Controller
 	a208  PT890 PCI to PCI Bridge Controller
