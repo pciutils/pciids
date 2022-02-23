@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.21
-#	Date:    2022-02-21 03:15:02
+#	Version: 2022.02.23
+#	Date:    2022-02-23 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12386,6 +12386,7 @@
 	1ff0  TU117GL [T1000 8GB]
 	1ff2  TU117GL [T400 4GB]
 	1ff9  TU117GLM [Quadro T1000 Mobile]
+	2082  GA100 [CMP 170HX]
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
 	20b2  GA100 [A100 SXM4 80GB]
@@ -23486,6 +23487,7 @@
 	2241  88NR2241 Non-Volatile memory controller
 		1028 2112  BOSS-N1 Monolithic
 		1028 2113  BOSS-N1 Modular
+		1028 2151  BOSS-N1 Modular ET
 		1d49 0306  ThinkSystem M.2 NVMe 2-Bay RAID Enablement Kit
 		1d49 0307  ThinkSystem 7mm NVMe 2-Bay Rear RAID Enablement Kit
 	9120  88SE9120 SATA 6Gb/s Controller
