@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.23
-#	Date:    2022-02-23 03:15:01
+#	Version: 2022.02.25
+#	Date:    2022-02-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1066,7 +1066,7 @@
 	163f  VanGogh
 	164c  Lucienne
 	164d  Rembrandt
-	1681  Rembrandt
+	1681  Rembrandt [Radeon 680M]
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
 	3150  RV380/M24 [Mobility Radeon X600]
@@ -24549,6 +24549,8 @@
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
+1eb4  Quantum Nebula Microelectronics Technology Co.,Ltd.
+	3401  SSD Contoller
 1ebd  EMERGETECH Company Ltd.
 	0101  Seirios 2063 Video Codec
 1ed2  FuriosaAI, Inc.
