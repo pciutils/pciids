@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.02.25
-#	Date:    2022-02-25 03:15:01
+#	Version: 2022.03.06
+#	Date:    2022-03-06 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -105,6 +105,9 @@
 		0731 7215  JM7200
 	9200  JM9200
 	920a  JH920
+		0731 920a  JH920
+		0731 920b  JH920-I
+		0731 920c  JH920-M
 	920b  JH920-I
 	920c  JH920-M
 	9210  JM9210
@@ -829,8 +832,8 @@
 		1d49 0207  ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0208  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0209  ThinkSystem 440-8e SAS/SATA PCIe Gen4 12Gb HBA
-		8086 4050  Storage Controller RS3P4QF160F
-		8086 4070  Storage Controller RS3P4GF016F
+		8086 4050  Storage Controller RS3P4QF160J
+		8086 4070  Storage Controller RS3P4GF016J
 	00e7  Fusion-MPT 12GSAS/PCIe Unsupported SAS38xx
 # Tampered part
 		1028 200b  HBA355i Adapter Tampered
@@ -3747,6 +3750,7 @@
 	73a2  Navi 21 Pro-XTA [Radeon Pro W6900X]
 	73a3  Navi 21 GL-XL [Radeon PRO W6800]
 	73a4  Navi 21 USB
+	73a5  Navi 21 [Radeon RX 6950 XT]
 	73ab  Navi 21 Pro-XLA [Radeon Pro W6800X/Radeon Pro W6800X Duo]
 	73af  Navi 21 [Radeon RX 6900 XT]
 		148c 2414  Navi 21 XTXH [PowerColor Red Devil RX 6900 XT Ultimate]
@@ -5148,6 +5152,13 @@
 	43c7  400 Series Chipset PCIe Port
 	43c8  400 Series Chipset SATA Controller
 	43d5  400 Series Chipset USB 3.1 XHCI Controller
+	43e9  500 Series Chipset Switch Upstream Port
+	43eb  500 Series Chipset SATA Controller
+# or ASM106X Serial ATA Controller
+		1b21 1062  ASM1062 Serial ATA Controller
+	43ee  500 Series Chipset USB 3.1 XHCI Controller
+# maybe
+		1b21 1142  ASM1042A USB 3.0 Host Controller
 	57a3  Matisse PCIe GPP Bridge
 	57a4  Matisse PCIe GPP Bridge
 	57ad  Matisse Switch Upstream
@@ -19476,6 +19487,10 @@
 		1259 2708  AT-2712 FX
 # The Broadcom 57800 device has two 1Gig ports and two 10Gig ports. The subsystem information can be used to differentiate.
 	168a  NetXtreme II BCM57800 1/10 Gigabit Ethernet
+# SFP+ ports
+		1014 0493  PCIe2 LP 4-Port (10Gb+1GbE) SR+RJ45 Adapter (FC EN0T; CCIN 2CC3)
+# RJ-45 ports
+		1014 0494  PCIe2 LP 4-Port (10Gb+1GbE) SR+RJ45 Adapter (FC EN0T; CCIN 2CC3)
 		1028 1f5c  BCM57800 10-Gigabit Ethernet
 		1028 1f5d  BCM57800 10-Gigabit Ethernet
 		1028 1f67  BCM57800 1-Gigabit Ethernet
@@ -23229,6 +23244,8 @@
 	000a  RAIDCore Controller
 1aa9  Schweitzer Engineering Laboratories
 	000d  SEL-3390S8 Serial Adapter
+	000e  SEL-3390E4 Ethernet Adapter
+	0014  SEL-3390T Time and Ethernet Adapter
 	0018  SEL-3390E4 Ethernet Adapter
 1aae  Global Velocity, Inc.
 1ab4  Distributed Management Task Force, Inc. (DMTF)
@@ -23488,6 +23505,7 @@
 		1028 2112  BOSS-N1 Monolithic
 		1028 2113  BOSS-N1 Modular
 		1028 2151  BOSS-N1 Modular ET
+		1028 2196  ROR-N100
 		1d49 0306  ThinkSystem M.2 NVMe 2-Bay RAID Enablement Kit
 		1d49 0307  ThinkSystem 7mm NVMe 2-Bay Rear RAID Enablement Kit
 	9120  88SE9120 SATA 6Gb/s Controller
@@ -23629,6 +23647,14 @@
 		1bb1 0151  Nytro 5520
 # Kersey 2.5" TCG
 		1bb1 0152  Nytro 5520 TCG
+# Nytro 5050H (Ebonhawk - High Performance)
+		1bb1 0153  Nytro 5050H
+# Nytro 5050H TCG (Ebonhawk High Performance)
+		1bb1 0154  Nytro 5050H TCG
+# Nytro 5050M (Ebonhawk Mainstream Performance)
+		1bb1 0155  Nytro 5050M
+# Nytro 5050M TCG (Ebonhawk Mainstream Performance)
+		1bb1 0156  Nytro 5050M TCG
 		1bb1 01a1  Nytro XP7102
 	5012  FireCuda 510 SSD
 	5016  FireCuda 520 SSD
@@ -23850,6 +23876,8 @@
 	0002  Clarett
 1cb8  Dawning Information Industry Co., Ltd.
 1cc1  ADATA Technology Co., Ltd.
+# 256GB NVMe SSD
+	5766  ADATA XPG GAMMIXS1 1L Media
 	8201  XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive
 1cc4  Union Memory (Shenzhen)
 	1203  NVMe SSD Controller UHXXXa series
@@ -24557,6 +24585,7 @@
 	0000  Warboy
 1ed3  Yeston
 1ed5  Moore Threads Technology Co.,Ltd
+	0100  MTT S10
 	0101  MTT S30
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
@@ -25324,6 +25353,7 @@
 	3d02  Arise 1020
 	3d40  Arise-GT-10C0 High Definition Audio Controller
 	3d41  Arise 1020 High Definition Audio Controller
+6899  ZT Systems
 # nee Qumranet
 6900  Red Hat, Inc.
 7063  pcHDTV
@@ -27619,6 +27649,7 @@
 		8086 000c  Ethernet 100G 2P E810-C OCP
 		8086 000d  Ethernet Network Adapter E810-L-Q2 for OCP 3.0
 		8086 000e  Ethernet Network Adapter E810-2C-Q2
+		8086 0010  Intel(R) Ethernet 100G 2P E810-C-stg Adapter
 	1593  Ethernet Controller E810-C for SFP
 		1137 02c3  E810XXVDA4 4x25/10 GbE SFP28 PCIe NIC
 		8086 0002  Ethernet Network Adapter E810-L-2
@@ -33274,6 +33305,7 @@
 	9da4  Cannon Point-LP SPI Controller
 	9da8  Cannon Point-LP Serial IO UART Controller #2
 	9daa  Cannon Point-LP Serial IO SPI Controller
+	9dab  Cannon Point-LP Serial IO SPI Controller
 	9db0  Cannon Point-LP PCI Express Root Port #9
 	9db1  Cannon Point-LP PCI Express Root Port #10
 	9db2  Cannon Point-LP PCI Express Root Port #1
@@ -33284,6 +33316,7 @@
 	9dbc  Cannon Point-LP PCI Express Root Port #5
 	9dbe  Cannon Point-LP PCI Express Root Port #7
 	9dbf  Cannon Point PCI Express Root Port #8
+	9dc4  Cannon Point-LP SD Host Controller
 	9dc5  Cannon Point-LP Serial IO I2C Host Controller
 	9dc8  Cannon Point-LP High Definition Audio Controller
 		1028 089e  Inspiron 5482
