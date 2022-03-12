@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.03.06
-#	Date:    2022-03-06 03:15:01
+#	Version: 2022.03.12
+#	Date:    2022-03-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -111,11 +111,18 @@
 	920b  JH920-I
 	920c  JH920-M
 	9210  JM9210
+		0731 9210  JM9210
+		0731 9211  JM9210-I
 	9211  JM9210-I
 	9230  JM9230
+		0731 9230  JM9230
+		0731 9231  JM9230-I
 	9231  JM9231-I
 	9250  JM9250
+		0731 9250  JM9250
 	930a  JH930-I
+		0731 930a  JH930-I
+		0731 930b  JH930-M
 	930b  JH930-M
 0777  Ubiquiti Networks, Inc.
 0795  Wired Inc.
@@ -937,6 +944,8 @@
 	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
 # 9560 16 internal port RAID controller
 		1000 4000  MegaRAID 9560-16i
+# 9561 16 internal port RAID controller
+		1000 4002  MegaRAID 9561-16i
 # 9560 8 internal port RAID controller
 		1000 4010  MegaRAID 9560-8i
 # 9580 8 internal & 8 external port RAID controller
@@ -4174,7 +4183,7 @@
 	ab10  Lexa HDMI Audio
 	ab18  Vega 12 HDMI Audio
 	ab20  Vega 20 HDMI Audio [Radeon VII]
-	ab28  Navi 21 HDMI Audio [Radeon RX 6800/6800 XT / 6900 XT]
+	ab28  Navi 21/23 HDMI/DP Audio Controller
 	ab38  Navi 10 HDMI Audio
 	ac00  Theater 506 World-Wide Analog Decoder
 	ac01  Theater 506 World-Wide Analog Decoder
@@ -19140,6 +19149,7 @@
 14c3  MEDIATEK Corp.
 	0616  MT7922 802.11ax PCI Express Wireless Network Adapter
 	7612  MT7612E 802.11acbgn PCI Express Wireless Network Adapter
+	7615  MT7615E 802.11ac PCI Express Wireless Network Adapter
 	7630  MT7630e 802.11bgn Wireless Network Adapter
 # MT7612E too?
 	7662  MT7662E 802.11ac PCI Express Wireless Network Adapter
@@ -22034,6 +22044,7 @@
 	1000  QCS405 PCIe Root Complex
 	1101  QCA6390 Wireless Network Adapter [AX500-DBS (2x2)]
 	1103  Atheros QCNFA765
+	1104  QCN6024/9024/9074 Wireless Network Adapter
 17cc  NetChip Technology, Inc
 	2280  USB 2.0
 17cd  Cadence Design Systems, Inc.
@@ -24605,6 +24616,12 @@
 	5236  IG5236-Based NVMe SSD
 	5636  IG5636-Based NVMe SSD
 1f2f  China Mobile (Hangzhou) Information Technology Co.Ltd.
+	1513  DERA MENG NVMe Controller
+		1f2f 6113  KM660 U.2 1.6TB NVMe SSD
+		1f2f 6114  KM560 U.2 1.92TB NVMe SSD
+		1f2f 6115  KM660 U.2 3.2TB NVMe SSD
+		1f2f 6116  KM560 U.2 3.84TB NVMe SSD
+		1f2f 6118  KM560 U.2 7.68TB NVMe SSD
 1fab  Unifabrix Ltd.
 	0000  Nexus Alpha IVPU
 # nee Tumsan Oy
@@ -25366,6 +25383,9 @@
 7401  EndRun Technologies
 	e100  PTP3100 PCIe PTP Slave Clock
 7470  TP-LINK Technologies Co., Ltd.
+7526  HongQin (Beijing) Technology Co., Ltd.
+	0082  HQ SSD 1TB
+	0083  HQ SSD 2TB M.2 NVMe
 7604  O.N. Electronic Co Ltd.
 7bde  MIDAC Corporation
 7fed  PowerTV
@@ -26299,6 +26319,8 @@
 		8086 0010  Ethernet Network Adapter I710-T4L for OCP 3.0
 		8086 401a  Ethernet Network Adapter I710-T4L
 		8086 401b  Ethernet Network Adapter I710-T4L for OCP 3.0
+	0dda  Connection X722 for 10GbE SFP+
+		1bd4 0076  Connection X722 for 10GbE SFP+
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
 		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 		15d9 066b  X9SRL-F
@@ -27649,7 +27671,7 @@
 		8086 000c  Ethernet 100G 2P E810-C OCP
 		8086 000d  Ethernet Network Adapter E810-L-Q2 for OCP 3.0
 		8086 000e  Ethernet Network Adapter E810-2C-Q2
-		8086 0010  Intel(R) Ethernet 100G 2P E810-C-stg Adapter
+		8086 0010  Ethernet 100G 2P E810-C-stg Adapter
 	1593  Ethernet Controller E810-C for SFP
 		1137 02c3  E810XXVDA4 4x25/10 GbE SFP28 PCIe NIC
 		8086 0002  Ethernet Network Adapter E810-L-2
