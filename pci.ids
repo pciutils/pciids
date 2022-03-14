@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.03.12
-#	Date:    2022-03-12 03:15:02
+#	Version: 2022.03.14
+#	Date:    2022-03-14 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24463,7 +24463,7 @@
 	0102  Xplorer X1600
 # https://www.medion.com/
 1e39  MEDION AG
-1e3b  Shenzhen DAPU Microelectronics Co., Ltd
+1e3b  DapuStor Corporation
 	0600  NVMe SSD Controller DPU600
 		1e3b 0030  Enterprise NVMe SSD U.2 3.84TB (J5100)
 		1e3b 0031  Enterprise NVMe SSD U.2 7.68TB (J5100)
