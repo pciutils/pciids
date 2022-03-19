@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.03.14
-#	Date:    2022-03-14 03:15:01
+#	Version: 2022.03.19
+#	Date:    2022-03-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3769,11 +3769,12 @@
 		1eae 6701  XFX Speedster MERC 319 AMD Radeon RX 6800 XT Black
 	73c3  Navi 22
 	73c4  Navi 22 USB
-	73df  Navi 22 [Radeon RX 6700/6700 XT / 6800M]
+	73df  Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M]
 	73e0  Navi 23
 	73e1  Navi 23 WKS-XM [Radeon PRO W6600M]
 	73e3  Navi 23 WKS-XL [Radeon PRO W6600]
 	73e4  Navi 23 USB
+	73ef  Navi 23 [Radeon RX 6650 XT]
 	73ff  Navi 23 [Radeon RX 6600/6600 XT/6600M]
 		148c 2412  PowerColor Red Devil RX 6600 XT
 	7408  Aldebaran
@@ -12752,6 +12753,7 @@
 		1028 09be  Latitude 7410
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5260  RTS5260 PCI Express Card Reader
+	5261  RTS5261 PCI Express Card Reader
 	5286  RTS5286 PCI Express Card Reader
 	5287  RTL8411B PCI Express Card Reader
 		1025 1094  Acer Aspire E5-575G
@@ -19147,6 +19149,7 @@
 		103c 1240  Myrinet M2L-PCI64/2-3.0 LANai 7.4 (HP OEM)
 14c2  DTK Computer
 14c3  MEDIATEK Corp.
+	0608  RZ608 Wi-Fi 6E 80MHz
 	0616  MT7922 802.11ax PCI Express Wireless Network Adapter
 	7612  MT7612E 802.11acbgn PCI Express Wireless Network Adapter
 	7615  MT7615E 802.11ac PCI Express Wireless Network Adapter
@@ -20712,6 +20715,7 @@
 	07b0  VMXNET3 Ethernet Controller
 	07c0  PVSCSI SCSI Controller
 	07e0  SATA AHCI controller
+	07f0  NVMe SSD Controller
 	0801  Virtual Machine Interface
 		15ad 0800  Hypervisor ROM Interface
 	0820  Paravirtual RDMA controller
@@ -21040,8 +21044,9 @@
 15cc  Hotrail Inc
 15cd  Dreamtech Co Ltd
 15ce  Genrad Inc
-15cf  Hilscher GmbH
-	0000  CIFX 50E-DP(M/S)
+# https://www.hilscher.com/imprint/
+15cf  Hilscher Gesellschaft für Systemautomation mbH
+	0000  CIFX PCI/PCIe
 15d1  Infineon Technologies AG
 15d2  FIC (First International Computer Inc)
 15d3  NDS Technologies Israel Ltd
@@ -23666,6 +23671,10 @@
 		1bb1 0155  Nytro 5050M
 # Nytro 5050M TCG (Ebonhawk Mainstream Performance)
 		1bb1 0156  Nytro 5050M TCG
+# Nytro 5050M (Ebonhawk Mainstream Performance) - 7mm
+		1bb1 0157  Nytro 5050M 7mm
+# Nytro 5050M (Ebonhawk Mainstream Performance) TCG - 7mm
+		1bb1 0158  Nytro 5050M TCG 7mm
 		1bb1 01a1  Nytro XP7102
 	5012  FireCuda 510 SSD
 	5016  FireCuda 520 SSD
@@ -24545,6 +24554,9 @@
 		0000 0100  PY8800 64GB Accelerator
 1e59  Oxford Nanopore Technologies
 	0001  MinION Mk1C
+1e5d  ASR Microelectronics
+	7000  AI controller A7000
+	7010  AI controller A7010
 1e60  Hailo Technologies Ltd.
 	2864  Hailo-8 AI Processor
 1e68  Jiangsu Xinsheng Intelligent Technology Co., Ltd
@@ -31396,6 +31408,7 @@
 	3432  5520/5500/X58 Chipset QuickData Technology Device
 	3433  5520/5500/X58 Chipset QuickData Technology Device
 	3438  7500/5520/5500/X58 I/O Hub Throttle Registers
+	347e  Ice Lake Xeon Non-Transparent Bridge
 	3482  Ice Lake-LP LPC Controller
 	34a3  Ice Lake-LP SMBus Controller
 	34a4  Ice Lake-LP SPI Controller
