@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.03.19
-#	Date:    2022-03-19 03:15:01
+#	Version: 2022.03.20
+#	Date:    2022-03-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12465,6 +12465,7 @@
 	2321  GA103
 	2414  GA103 [GeForce RTX 3060 Ti]
 	2420  GA103M [GeForce RTX 3080 Ti Mobile]
+	2438  GA103GLM [RTX A5500 Laptop GPU]
 	2460  GA103M [GeForce RTX 3080 Ti Laptop GPU]
 	2482  GA104 [GeForce RTX 3070 Ti]
 	2483  GA104
@@ -12487,6 +12488,9 @@
 	24b6  GA104GLM [RTX A5000 Mobile]
 	24b7  GA104GLM [RTX A4000 Mobile]
 	24b8  GA104GLM [RTX A3000 Mobile]
+	24b9  GA104GLM [RTX A3000 12GB Laptop GPU]
+	24ba  GA104GLM [RTX A4500 Laptop GPU]
+	24bb  GA104GLM [RTX A3000 Laptop GPU]
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
@@ -12518,6 +12522,7 @@
 	25b6  GA107GL [A2 / A16]
 	25b8  GA107GLM [RTX A2000 Mobile]
 	25b9  GA107GLM [RTX A1000 Laptop GPU]
+	25ba  GA107GLM [RTX A2000 8GB Laptop GPU]
 	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
 	25e2  GA107BM [GeForce RTX 3050 Mobile]
 	25e5  GA107BM [GeForce RTX 3050 Mobile]
