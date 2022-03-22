@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.03.20
-#	Date:    2022-03-20 03:15:02
+#	Version: 2022.03.22
+#	Date:    2022-03-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20775,6 +20775,7 @@
 	0271  Spectrum-4L, RMA
 	0274  Spectrum-4C, Flash recovery mode
 	0275  Spectrum-4C RMA
+	0277  Spectrum-4TOR RMA
 	0281  NPS-600 Flash Recovery
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
@@ -23444,12 +23445,15 @@
 	1080  ASM1083/1085 PCIe to PCI Bridge
 		1849 1080  Motherboard
 	1142  ASM1042A USB 3.0 Host Controller
+	1166  ASM1166 Serial ATA Controller
 	1182  ASM1182e 2-Port PCIe x1 Gen2 Packet Switch
 		1b21 118f  ASM1182e 2-Port PCIe x1 Gen2 Packet Switch
 	1184  ASM1184e 4-Port PCIe x1 Gen2 Packet Switch
 		1849 1184  ASM1184e 4-Port PCIe x1 Gen2 Packet Switch
+	1187  ASM1187e 7-Port PCIe x1 Gen2 Packet Switch
 	1242  ASM1142 USB 3.1 Host Controller
 	1343  ASM1143 USB 3.1 Host Controller
+	1812  ASM1812 6-Port PCIe x4 Gen2 Packet Switch
 	2142  ASM2142 USB 3.1 Host Controller
 		1462 7a72  H270 PC MATE
 	2824  ASM2824 PCIe Gen3 Packet Switch
@@ -26336,8 +26340,8 @@
 		8086 0010  Ethernet Network Adapter I710-T4L for OCP 3.0
 		8086 401a  Ethernet Network Adapter I710-T4L
 		8086 401b  Ethernet Network Adapter I710-T4L for OCP 3.0
-	0dda  Connection X722 for 10GbE SFP+
-		1bd4 0076  Connection X722 for 10GbE SFP+
+	0dda  Ethernet Connection X722 for 10GbE SFP+
+		1bd4 0076  Ethernet Connection X722 for 10GbE SFP+
 	0e00  Xeon E7 v2/Xeon E5 v2/Core i7 DMI2
 		1028 04f7  Xeon E5 v2 on PowerEdge R320 server
 		15d9 066b  X9SRL-F
@@ -34499,6 +34503,8 @@ cddd  Tyzx, Inc.
 	0101  DeepSea 1 High Speed Stereo Vision Frame Grabber
 	0200  DeepSea 2 High Speed Stereo Vision Frame Grabber
 ceba  KEBA AG
+cf86  Spectrum-4TOR
+	0276  Spectrum-4TOR in Flash Recovery Mode
 d161  Digium, Inc.
 	0120  Wildcard TE120P single-span T1/E1/J1 card
 	0205  Wildcard TE205P/TE207P dual-span T1/E1/J1 card 5.0V
