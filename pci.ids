@@ -2,7 +2,7 @@
 #	List of PCI ID's
 #
 #	Version: 2022.04.16
-#	Date:    2022-04-16 00:11:44
+#	Date:    2022-04-16 00:17:00
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -34936,7 +34936,6 @@ C 05  Memory controller
 	01  FLASH memory
 	02  CXL
 		00  CXL Memory Device - vendor specific
-# Devices compliant to CXL spec
 		10  CXL Memory Device (CXL 2.x)
 	80  Memory controller
 C 06  Bridge
