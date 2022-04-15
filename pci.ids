@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.04.15
-#	Date:    2022-04-15 03:15:02
+#	Version: 2022.04.16
+#	Date:    2022-04-16 00:11:44
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12427,6 +12427,7 @@
 	20b6  GA100GL [PG506-232]
 	20b7  GA100GL [A30 PCIe]
 	20b8  GA100 [A100X]
+	20b9  GA100 [A30X]
 	20bb  GA100 [DRIVE A100 PROD]
 	20be  GA100 [GRID A100A]
 	20bf  GA100 [GRID A100B]
@@ -24682,7 +24683,14 @@
 1ed3  Yeston
 1ed5  Moore Threads Technology Co.,Ltd
 	0100  MTT S10
-	0101  MTT S30
+	0101  MTT S10
+	0102  MTT S30
+	0105  MTT S50
+	0106  MTT S60
+	0111  MTT S100
+	0121  MTT S1000M
+	0122  MTT S1000
+	0123  MTT S2000
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
 1ed9  Myrtle.ai
