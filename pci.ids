@@ -14,20 +14,42 @@
 
 14e4  Broadcom Inc. and subsidiaries
 	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
-		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
+		14e4 1402  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
 	1751  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
+		14e4 4250  BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
+		14e4 5425  Device
 15b3  Mellanox Technologies
 	1015  MT27710 Family [ConnectX-4 Lx]
 		15b3 0003  Stand-up ConnectX-4 Lx EN, 25GbE dual-port SFP28, PCIe3.0 x8, MCX4121A-ACAT
+		19e5 d11b  Huawei Technologies Co., Ltd. Device
+	1017  MT27800 Family [ConnectX-5]
+		15b3 0001  MT27800 Family [ConnectX-5]
+		15b3 0020  ConnectX®-5 EN network interface card, 10/25GbE dual-port SFP28, PCIe3.0 x8, tall bracket ; MCX512A-ACAT
 	101d  MT2892 Family [ConnectX-6 Dx]
+		15b3 0013  Mellanox Technologies MT2892 Family [ConnectX-6 Dx]
+	101f  MT2894 Family [ConnectX-6 Lx]
+		15b3 0001  MT2894 Family [ConnectX-6 Lx]
 8086  Intel Corporation
+	0a54  NVMe Datacenter SSD [3DNAND, Beta Rock Controller]
+		8086 4812  NVMe Datacenter SSD [3DNAND] ME 2.5" U.2 (P4610)
 	1521  I350 Gigabit Network Connection
+		8086 0001  Intel Corporation Ethernet Server Adapter I350-T4
+		8086 1521  I350 Gigabit Network Connection
+		15bb 0000  Portwell Inc I350 Gigabit Network Connection
+	1522  I350 Gigabit Fiber Network Connection
 	1533  I210 Gigabit Network Connection
 	1539  I211 Gigabit Network Connection
 	1572  Ethernet Controller X710 for 10GbE SFP+
 		1137 013b  Ethernet Converged NIC X710-DA4
 		1137 020a  Ethernet Converged NIC X710-DA2
+		1374 025c  Silicom Ltd. Ethernet Controller X710 for 10GbE SFP+
 		1590 0000  Ethernet Controller X710 for 10GbE SFP+
+		8086 0000  Ethernet Converged Network Adapter X710
+		8086 0001  Ethernet Converged Network Adapter X710-4
+		8086 0004  Ethernet Converged Network Adapter X710-4  
+		8086 0007  Ethernet Converged Network Adapter X710-2
+	158b  Ethernet Controller XXV710 for 25GbE SFP28
+		8086:0002  Ethernet Network Adapter XXV710-2
 	1593  Ethernet Controller E810-C for SFP
 	159b  Ethernet Controller E810-XXV for SFP
 		1137 02be  E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC
@@ -64,11 +86,14 @@
 	2261  ISP2722-based 16/32Gb Fibre Channel to PCIe Adapter
 		1077 0299  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
 		1077 029a  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1077 029c  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02a7  QLE2690 Single Port 16Gb FC to PCIe Gen3 x8 Adapter
 		1077 02a8  QLE2692 Dual Port 16Gb FC to PCIe Gen3 x8 Adapter
 	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
 		1077 015d  QLE2562 PCI Express to 8Gb FC Dual Channel
 		1077 015e  QLE2564 PCI Express to 8Gb FC Quad Channel
+	8070  FastLinQ QL41000 Series 10/25/40/50GbE Controller
+		1077 000d  FastLinQ QL41262H 25GbE FCoE Adapter
 10df  Emulex Corporation
 	e131  LightPulse 8Gb/s PCIe Shared I/O Fibre Channel Adapter
 	e300  LPe31000/LPe32000 Series 16Gb/32Gb Fibre Channel Adapter
@@ -79,14 +104,22 @@
 #------------
 
 10de  NVIDIA Corporation
+	1cb1  GP107GL [Quadro P1000]
+		10de 11bc  GP107GL [Quadro P1000]
 	1db6  GV100GL [Tesla V100 PCIe 32GB]
 	1df6  GV100GL [Tesla V100S PCIe 32GB]
+		10de 13d6  GV100GL [Tesla V100S PCIe 32GB]
 	1eb8  TU104GL [Tesla T4]
+		10de 12a2  TU104GL [Tesla T4]
+	20f1  A100-PCIE-40GB
+		10de 145f  A100-PCIE-40GB
 
 # SAS/SATA RAID/HBA controllers
 #-----------------------------
 
 1000  Broadcom / LSI
+	0014  MegaRAID Tri-Mode SAS3516
+		1000 9460  MegaRAID Tri-Mode SAS3516
 	005d  MegaRAID SAS-3 3108 [Invader]
 		1000 9361  MegaRAID SAS 9361-8i
 		1000 9363  MegaRAID SAS 9361-4i
@@ -99,18 +132,31 @@
 	0097  SAS3008 PCI-Express Fusion-MPT SAS-3
 		1000 30a0  SAS9300-8e
 		1000 30e0  SAS9300-8i
+	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
+		1000 3040  HBA 9400-8i8e
+	00ac  SAS3416 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
+		1000 3000  HBA 9400-16i
+	00c4  SAS3224 PCI-Express Fusion-MPT SAS-3
+		1000 3190  SAS3224 PCI-Express Fusion-MPT SAS-3
 	00c9  SAS3216 PCI-Express Fusion-MPT SAS-3
 	00ce  MegaRAID SAS-3 3316 [Intruder]
 		1000 9371  MegaRAID SAS 9361-16i
 		1000 9390  MegaRAID SAS 9380-8i8e
+	00e6  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
+		1000 4060  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
+		1000 4080  Fusion-MPT 12GSAS/PCIe Secure SAS38xx
 	10e2  MegaRAID 12GSAS/PCIe Secure SAS39xx
 		1000 4000  MegaRAID 9560-16i
 		1000 4010  MegaRAID 9560-8i
+		1d49 060c  Lenovo ThinkSystem RAID 940-16i 8GB Flash PCIe Gen4 12Gb Adapter
 9005  Adaptec
-	028f  Smart Storage PQI SAS
+	028f  Smart Storage PQI 12G SAS/PCIe 3
 		9005 0800  SmartRAID 3154-8i
 		9005 0801  SmartRAID 3152-8i
+		9005 0804  Smart Storage PQI 12G SAS/PCIe 3
 		9005 0807  SmartRAID 3162-8i
+		9005 1280  HBA 1100-16i
+		9005 1301  HBA 1100-24i
 		9005 1380  SmartRAID 3154-16i
 
 # NVMe SSD
@@ -119,6 +165,11 @@
 1344  Micron Technology Inc
 	51a2  7300 Dual Port U.2 PRO
 	51a3  7300 Dual Port U.2 MAX
+	51b2  9300 MAX NVMe SSD
+		1344 4000  3.2TB U.2
+	51c0  7400 PRO NVMe SSD
+		1344 2000  U.3 960GB
+		1344 3000  U.3 1920GB
 144d  Samsung Electronics Co Ltd
 	a808  NVMe SSD Controller SM981/PM981/PM983
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
@@ -128,6 +179,10 @@
 		1028 1ff4  Express Flash PM1725b 3.2TB SFF
 		1028 1ff5  Express Flash PM1725b 6.4TB SFF
 		1028 1ff6  Express Flash PM1725b 12.8TB SFF
+	a824  NVMe SSD Controller PM173X
+		144d a801  Device
+		144d a827  NVMe SSD Controller PM173X
+		144d a829  NVMe SSD Controller PM173X
 1b96  Western Digital
 	2400  Ultrastar DC SN640 NVMe SSD
 	2401  Ultrastar DC SN640 NVMe SSD
@@ -136,6 +191,12 @@
 1c58  HGST, Inc.
 	0023  Ultrastar SN200 Series NVMe SSD
 		1c58 8823  Ultrastar Memory (ME200)
+1e0f  KIOXIA Corporation
+	1e0f 0007  NVMe SSD Controller Cx6
+		1e0f 0001  Generic NVMe CM6
+		1e0f 0021  Device
+2646  Kingston Technology Company, Inc.
+	500b  Device
 
 # Internal devices
 #--------
