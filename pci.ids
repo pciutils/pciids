@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.07.02
-#	Date:    2022-07-02 03:15:02
+#	Version: 2022.07.05
+#	Date:    2022-07-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2697,7 +2697,7 @@
 # FX-797A-TNBC
 		1682 3213  HD 7970 Black Edition
 		1682 3214  Double D HD 7970
-		1787 201c  HD 7970 IceQ X²
+		1787 201c  HD 7970 IceQ XÂ²
 # Radeon HD 7970 X2
 		1787 2317  Radeon HD 7990
 		1787 3000  Tahiti XT2 [Radeon HD 7970 GHz Edition]
@@ -2760,7 +2760,7 @@
 		174b e282  Vapor-X R9 290X Tri-X OC
 		174b e285  R9 290X Tri-X OC
 		174b e324  Grenada XT2 [Radeon R9 390X]
-		1787 2020  R9 290X IceQ X² Turbo
+		1787 2020  R9 290X IceQ XÂ² Turbo
 		1787 2357  Grenada XT [Radeon R9 390X]
 	67b1  Hawaii PRO [Radeon R9 290/390]
 		1043 04dd  STRIX R9 390
@@ -3110,7 +3110,7 @@
 	688c  Cypress XT GL [FireStream 9370]
 	688d  Cypress PRO GL [FireStream 9350]
 	6898  Cypress XT [Radeon HD 5870]
-		1002 0b00  Radeon HD 5870 Eyefinity⁶ Edition
+		1002 0b00  Radeon HD 5870 Eyefinityâ¶ Edition
 		106b 00d0  Radeon HD 5870 Mac Edition
 # R5870-PM2D1G
 		1462 8032  Radeon HD 5870 1 GB GDDR5
@@ -3651,7 +3651,7 @@
 		1002 0322  All-in-Wonder X1800XL
 		1002 0d02  Radeon X1800 CrossFire Edition
 	710a  R520 [Radeon X1800 GTO]
-		1002 0b12  Radeon X1800 GTO²
+		1002 0b12  Radeon X1800 GTOÂ²
 	710b  R520 [Radeon X1800 GTO]
 	710e  R520 GL [FireGL V7300]
 		13cc 3d0c  MXRT-5150
@@ -7385,7 +7385,7 @@
 		1077 02f2  QLogic 1x32Gb QLE2770 FC HBA
 		1077 02f3  QLogic 2x32Gb QLE2772 FC HBA
 		1590 02d3  SN1610Q - 1P Enhanced 32GFC Single Port Fibre Channel Host Bus Adapter
-		1590 02d4  SN1610Q – 2P Enhanced 32GFC Dual Port Fibre Channel Host Bus Adapter
+		1590 02d4  SN1610Q â€“ 2P Enhanced 32GFC Dual Port Fibre Channel Host Bus Adapter
 	2289  ISP2852-based 64/32G Fibre Channel to PCIe Controller with StorCryption
 		1077 02e9  QLE2882 Dual Port 64GFC PCIe Gen4 x8 Adapter with StorCryption
 		1077 02eb  QLE2782 Dual Port 32GFC PCIe Gen4 x8 Adapter with StorCryption
@@ -13051,7 +13051,7 @@
 		10ec 8739  Dell Wireless 1801
 		17aa b736  Z50-75
 	b822  RTL8822BE 802.11a/b/g/n/ac WiFi adapter
-		103c 831b  Realtek RTL8822BE 802.11ac 2 × 2 Wi-Fi + Bluetooth 4.2 Combo Adapter (MU-MIMO supported)
+		103c 831b  Realtek RTL8822BE 802.11ac 2 Ã— 2 Wi-Fi + Bluetooth 4.2 Combo Adapter (MU-MIMO supported)
 		17aa 5124  ThinkPad E595
 		17aa b023  ThinkPad E595
 	c821  RTL8821CE 802.11ac PCIe Wireless Network Adapter
@@ -21041,10 +21041,10 @@
 		193d 1084  NIC-ETH540F-3S-2P
 	1016  MT27710 Family [ConnectX-4 Lx Virtual Function]
 	1017  MT27800 Family [ConnectX-5]
-		15b3 0006  ConnectX®-5 EN network interface card, 100GbE single-port QSFP28, PCIe3.0 x16, tall bracket; MCX515A-CCAT
-		15b3 0007  Mellanox ConnectX®-5 MCX516A-CCAT
-		15b3 0020  ConnectX®-5 EN network interface card, 10/25GbE dual-port SFP28, PCIe3.0 x8, tall bracket ; MCX512A-ACAT
-		15b3 0068  ConnectX®-5 EN network interface card for OCP2.0, Type 1, with host management, 25GbE dual-port SFP28, PCIe3.0 x8, no bracket Halogen free ; MCX542B-ACAN
+		15b3 0006  ConnectXÂ®-5 EN network interface card, 100GbE single-port QSFP28, PCIe3.0 x16, tall bracket; MCX515A-CCAT
+		15b3 0007  Mellanox ConnectXÂ®-5 MCX516A-CCAT
+		15b3 0020  ConnectXÂ®-5 EN network interface card, 10/25GbE dual-port SFP28, PCIe3.0 x8, tall bracket ; MCX512A-ACAT
+		15b3 0068  ConnectXÂ®-5 EN network interface card for OCP2.0, Type 1, with host management, 25GbE dual-port SFP28, PCIe3.0 x8, no bracket Halogen free ; MCX542B-ACAN
 		193d 1051  NIC-IB1040i-Mb-2P
 	1018  MT27800 Family [ConnectX-5 Virtual Function]
 	1019  MT28800 Family [ConnectX-5 Ex]
@@ -21239,7 +21239,7 @@
 15cd  Dreamtech Co Ltd
 15ce  Genrad Inc
 # https://www.hilscher.com/imprint/
-15cf  Hilscher Gesellschaft für Systemautomation mbH
+15cf  Hilscher Gesellschaft fÃ¼r Systemautomation mbH
 	0000  CIFX PCI/PCIe
 15d1  Infineon Technologies AG
 15d2  FIC (First International Computer Inc)
@@ -21709,14 +21709,14 @@
 	002e  AR9287 Wireless Network Adapter (PCI-Express)
 		105b e034  T77H167.00
 	0030  AR93xx Wireless Network Adapter
-		103c 1627  AR9380/HB112 802.11abgn 3×3 Wi-Fi Adapter
+		103c 1627  AR9380/HB112 802.11abgn 3Ã—3 Wi-Fi Adapter
 		106b 009a  AirPort Extreme
 		1186 3a7e  DWA-566 Wireless N 300 Dual Band PCIe Desktop Adapter
 		1a56 2000  Killer Wireless-N 1102 Half-size Mini PCIe Card [AR9382]
 		1a56 2001  Killer Wireless-N 1103 Half-size Mini PCIe Card [AR9380]
 	0032  AR9485 Wireless Network Adapter
 		1028 0208  Wireless 1506 WLAN Half Mini-Card
-		103c 1838  AR9485/HB125 802.11bgn 1×1 Wi-Fi Adapter
+		103c 1838  AR9485/HB125 802.11bgn 1Ã—1 Wi-Fi Adapter
 		105b e044  Unex DHXA-225
 		144d 410e  AR9485WB-EG 802.11b/g/n mini-PCIe card on a series 3 laptop
 		1a3b 1186  AW-NE186H
@@ -24852,13 +24852,13 @@
 	1203  NVMe SSD Controller UHXXXa series
 		1e81 a121  NVMe SSD UHXXXa series U.2 960GB
 		1e81 a122  NVMe SSD UHXXXa series U.2 1920GB
-		1e81 a123  NVMe SSD UHXXXa series U.2 3840GB 
-		1e81 a124  NVMe SSD UHXXXa series U.2 7680GB 
+		1e81 a123  NVMe SSD UHXXXa series U.2 3840GBÂ 
+		1e81 a124  NVMe SSD UHXXXa series U.2 7680GBÂ 
 		1e81 a125  NVMe SSD UHXXXa series U.2 15360GB
-		1e81 a211  NVMe SSD UHXXXa series U.2 800GBÂ 
-		1e81 a212  NVMe SSD UHXXXa series U.2 1600GB 
-		1e81 a213  NVMe SSD UHXXXa series U.2 3200GB 
-		1e81 a214  NVMe SSD UHXXXa series U.2 6400GB 
+		1e81 a211  NVMe SSD UHXXXa series U.2 800GBÃ‚Â 
+		1e81 a212  NVMe SSD UHXXXa series U.2 1600GBÂ 
+		1e81 a213  NVMe SSD UHXXXa series U.2 3200GBÂ 
+		1e81 a214  NVMe SSD UHXXXa series U.2 6400GBÂ 
 1e85  Heitec AG
 1e89  ID Quantique SA
 	0002  Quantis-PCIe-40M
@@ -30184,7 +30184,7 @@
 		8086 3904  NVMe Datacenter SSD [Optane] x4 AIC (P4800X)
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2723  Wi-Fi 6 AX200
-		1a56 1654  Killer™ Wi-Fi 6 AX1650x (AX200NGW)
+		1a56 1654  Killerâ„¢ Wi-Fi 6 AX1650x (AX200NGW)
 		8086 0084  Wi-Fi 6 AX200NGW
 	2725  Wi-Fi 6 AX210/AX211/AX411 160MHz
 		8086 0020  Wi-Fi 6 AX210 160MHz
@@ -34804,7 +34804,7 @@
 # 2-port Serial 1-port Parallel Adaptor
 	9912  PCIe 9912 Multi-I/O Controller
 	9922  MCS9922 PCIe Multi-I/O Controller
-	9990  MCS9990 PCIe to 4‐Port USB 2.0 Host Controller
+	9990  MCS9990 PCIe to 4â€Port USB 2.0 Host Controller
 # Subsystem ID on a 3c985B-SX network card
 9850  3Com (wrong ID)
 9902  Stargen Inc.
