@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.07.05
-#	Date:    2022-07-05 03:15:02
+#	Version: 2022.07.17
+#	Date:    2022-07-17 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12599,6 +12599,8 @@
 	25a7  GA107M [GeForce MX570]
 	25a9  GA107M [GeForce RTX 2050]
 	25aa  GA107M [GeForce MX570 A]
+# GN20-P0 Refresh
+	25ac  GN20-P0-R-K2
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
 # A16 - 25B6 10DE 14A9 / A2 - 25B6 10DE 157E
@@ -12610,6 +12612,8 @@
 	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
 	25e2  GA107BM [GeForce RTX 3050 Mobile]
 	25e5  GA107BM [GeForce RTX 3050 Mobile]
+# GN20-P0 Refresh
+	25ec  GN20-P0-R-K2
 	25f9  GA107 [RTX A1000 Embedded GPU ]
 	25fa  GA107 [RTX A2000 Embedded GPU]
 	2684  AD102 [GeForce RTX 4090]
@@ -18103,6 +18107,7 @@
 	0002  MN-130 (ADMtek Centaur-P based)
 # Virtual Video Card Device for Windows Remote Desktop (RDP)
 	008c  Basic Render Driver
+	008e  Basic Render Driver
 	5353  Hyper-V virtual VGA
 	5801  XMA Decoder (Xenon)
 	5802  SATA Controller - CdRom (Xenon)
@@ -23277,6 +23282,9 @@
 		19e5 d303  Hi1822 SP522 (2*8G FC)
 		19e5 d306  Hi1822 SP523 (2*8G FC)
 	0222  Hi1822 Family
+		19e5 0051  Hi1822 SP681 (2*25/10GE)
+		19e5 0052  Hi1822 SP680 (4*25/10GE)
+		19e5 00a1  Hi1822 SP670 (2*100GE)
 	1710  iBMA Virtual Network Adapter
 	1711  Hi171x Series [iBMC Intelligent Management system chip w/VGA support]
 	1822  Hi1822 Family (4*25GE)
@@ -24086,12 +24094,16 @@
 		1c5f 0b31  NVMe SSD PBlaze6 6530 3840G 2.5" U.2
 		1c5f 0b40  NVMe SSD PBlaze6 6530 7680G AIC
 		1c5f 0b41  NVMe SSD PBlaze6 6530 7680G 2.5" U.2
+		1c5f 1331  NVMe SSD PBlaze6 6531 3840G 2.5" U.2
+		1c5f 1341  NVMe SSD PBlaze6 6531 7680G 2.5" U.2
 		1c5f 4b20  NVMe SSD PBlaze6 6530 1600G AIC
 		1c5f 4b21  NVMe SSD PBlaze6 6530 1600G 2.5" U.2
 		1c5f 4b30  NVMe SSD PBlaze6 6530 3200G AIC
 		1c5f 4b31  NVMe SSD PBlaze6 6530 3200G 2.5" U.2
 		1c5f 4b40  NVMe SSD PBlaze6 6530 6400G AIC
 		1c5f 4b41  NVMe SSD PBlaze6 6530 6400G 2.5" U.2
+		1c5f 5331  NVMe SSD PBlaze6 6537 3200G 2.5" U.2
+		1c5f 5341  NVMe SSD PBlaze6 6537 6400G 2.5" U.2
 	003d  PBlaze5 920/926
 	003e  PBlaze6 6920
 		1c5f 0a31  NVMe SSD PBlaze6 6920 3840GB 2.5" U.2
@@ -24143,7 +24155,7 @@
 # 256GB NVMe SSD
 	5766  ADATA XPG GAMMIXS1 1L Media
 	8201  XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive
-1cc4  Union Memory (Shenzhen)
+1cc4  Shenzhen Unionmemory Information System Ltd.
 	1203  NVMe SSD Controller UHXXXa series
 		1cc4 a121  NVMe SSD UHXXXa series U.2 960GB
 		1cc4 a122  NVMe SSD UHXXXa series U.2 1920GB
@@ -24393,9 +24405,10 @@
 		1d78 6108  D6437 U.2 7.68TB NVMe SSD
 		1d78 6115  D6456 U.2 3.2TB NVMe SSD
 		1d78 6116  D6436 U.2 3.84TB NVMe SSD
-		1d78 6117  D6436 U.2 6.4TB NVMe SSD
+		1d78 6117  D6456 U.2 6.4TB NVMe SSD
 		1d78 6118  D6436 U.2 7.68TB NVMe SSD
 	1515  DERA EMEI NVMe Controller
+1d79  Transcend Information, Inc.
 1d7c  Aerotech, Inc.
 # Fiber-optic HyperWire motion control bus from Aerotech.
 	0001  HyperWire Adapter
@@ -24843,6 +24856,7 @@
 1e60  Hailo Technologies Ltd.
 	2864  Hailo-8 AI Processor
 1e67  Untether AI
+	0002  runAI200 AI Inference Accelerator
 1e68  Jiangsu Xinsheng Intelligent Technology Co., Ltd
 1e6b  Axiado Corp.
 1e7b  Dataland
@@ -24901,6 +24915,7 @@
 	0121  MTT S1000M
 	0122  MTT S1000
 	0123  MTT S2000
+	01ff  MTT HDMI/DP Audio
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
 1ed9  Myrtle.ai
@@ -27792,6 +27807,7 @@
 		10a9 802c  UV300 BaseIO single-port GbE
 		10a9 802d  UV3000 BaseIO GbE Network
 		17aa 1100  ThinkServer Ethernet Server Adapter
+		17aa 404d  I210 PCIe 1Gb 1-Port RJ45 LOM
 		8086 0001  Ethernet Server Adapter I210-T1
 		8086 0002  Ethernet Server Adapter I210-T1
 	1536  I210 Gigabit Fiber Network Connection
@@ -28276,6 +28292,7 @@
 		17aa 382a  B51-80 Laptop
 	1908  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1909  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x4)
+	190b  HD Graphics 510
 	190c  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 		1028 06d6  Latitude 7275 tablet
 		1028 06e6  Latitude 11 5175 2-in-1
@@ -28309,6 +28326,7 @@
 		1028 06e6  Latitude 11 5175 2-in-1
 	191f  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1921  HD Graphics 520
+	1923  HD Graphics 535
 	1926  Iris Graphics 540
 	1927  Iris Graphics 550
 	192b  Iris Graphics 555
@@ -32440,12 +32458,19 @@
 	3e92  CoffeeLake-S GT2 [UHD Graphics 630]
 		1028 0869  Vostro 3470
 	3e93  CoffeeLake-S GT1 [UHD Graphics 610]
+	3e94  Coffee Lake-S GT2 [UHD Graphics P630]
 	3e96  CoffeeLake-S GT2 [UHD Graphics P630]
 	3e98  CoffeeLake-S GT2 [UHD Graphics 630]
+	3e9a  Coffee Lake-S GT2 [UHD Graphics P630]
 	3e9b  CoffeeLake-H GT2 [UHD Graphics 630]
+	3e9c  Coffee Lake-S GT1 [UHD Graphics 610]
 	3ea0  WhiskeyLake-U GT2 [UHD Graphics 620]
 		1028 089e  Inspiron 5482
+	3ea1  Whiskey Lake-U GT1 [UHD Graphics 610]
 	3ea5  CoffeeLake-U GT3e [Iris Plus Graphics 655]
+	3ea6  Coffee Lake-U GT3 [Iris Plus Graphics 645]
+	3ea8  Coffee Lake-U GT3 [Iris Plus Graphics 655]
+	3ea9  Coffee Lake-U GT2 [UHD Graphics 620]
 	3ec2  8th Gen Core Processor Host Bridge/DRAM Registers
 		1028 0869  Vostro 3470
 		1043 8694  PRIME H310M-D
@@ -32601,11 +32626,14 @@
 		8086 02a4  Wireless-AC 9462
 	43fc  Tiger Lake-H Integrated Sensor Hub
 	444e  Turbo Memory Controller
+	4555  Elkhart Lake [UHD Graphics Gen11 16EU]
+	4571  Elkhart Lake [UHD Graphics Gen11 32EU]
 	460d  12th Gen Core Processor PCI Express x16 Controller #1
 	461d  Alder Lake Innovation Platform Framework Processor Participant
 	461e  Alder Lake-P Thunderbolt 4 USB Controller
 	461f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #3
 	4626  Alder Lake-P Integrated Graphics Controller
+	4628  Alder Lake-UP3 GT2 [UHD Graphics]
 	4629  12th Gen Core Processor Host Bridge/DRAM Registers
 	462f  Alder Lake-P Thunderbolt 4 PCI Express Root Port #2
 	463d  12th Gen Core Processor PCI Express x4 Controller #2
@@ -32621,11 +32649,20 @@
 	467d  Platform Monitoring Technology
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
+	4682  Alder Lake-S GT1 [UHD Graphics 730]
+	4688  Alder Lake-HX GT1 [UHD Graphics 770]
+	4690  Alder Lake-S GT1 [UHD Graphics 770]
+	4692  Alder Lake-S GT1 [UHD Graphics 730]
+	4693  Alder Lake-S GT1 [UHD Graphics 710]
 	46a0  AlderLake-P GT2
 	46a1  UHD Graphics
 	46a3  Alder Lake-P GT1 [UHD Graphics]
 	46a6  Alder Lake-P Integrated Graphics Controller
+	46a8  Alder Lake-UP3 GT2 [Iris Xe Graphics]
+	46aa  Alder Lake-UP4 GT2 [Iris Xe Graphics]
+	46b3  Alder Lake-UP3 GT1 [UHD Graphics]
 	46c0  AlderLake-M GT1
+	46c3  Alder Lake-UP4 GT1 [UHD Graphics]
 	4905  DG1 [Iris Xe MAX Graphics]
 	4906  DG1 [Iris Xe Pod]
 	4907  SG1 [Server GPU SG-18M]
@@ -32729,7 +32766,9 @@
 	530d  80310 (IOP) IO Processor
 	5502  Ethernet Controller (2) I225-LMvP
 		1ab6 0225  TS4 On-Board 2.5GbE Ethernet Adaptor
+	5690  DG2 [Arc A770M]
 	5691  DG2 [Arc A730M]
+	5692  DG2 [Arc A550M]
 	5693  DG2 [Arc A370M]
 	5694  DG2 [Arc A350M]
 	56a5  DG2 [Arc A380]
@@ -32743,7 +32782,9 @@
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5905  Xeon E3-1200 v6/7th Gen Core Processor PCIe Controller (x8)
+	5906  HD Graphics 610
 	5909  Xeon E3-1200 v6/7th Gen Core Processor PCIe Controller (x4)
+	590b  HD Graphics 610
 	590c  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 	590f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
 		1462 7a68  B250 KRAIT GAMING (MS-7A68)
@@ -32766,6 +32807,7 @@
 	591d  HD Graphics P630
 	591e  HD Graphics 615
 	591f  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+	5921  HD Graphics 620
 	5923  HD Graphics 635
 	5926  Iris Plus Graphics 640
 	5927  Iris Plus Graphics 650
@@ -33116,6 +33158,7 @@
 	7ae2  Alder Lake-S PCH SATA Controller [AHCI Mode]
 	7ae8  Alder Lake-S PCH HECI Controller #1
 	7af0  Alder Lake-S PCH CNVi WiFi
+		8086 0034  Wireless-AC 9560
 		8086 0094  Wi-Fi 6 AX201 160MHz
 	7afc  Alder Lake-S PCH Serial IO I2C Controller #4
 	7afd  Alder Lake-S PCH Serial IO I2C Controller #5
@@ -33181,6 +33224,7 @@
 		1993 0def  mGuard-PCI AV#0
 	8603  Ice Lake-LP Dynamic Tuning Processor Participant
 	87c0  UHD Graphics 617
+	87ca  UHD Graphics 617
 	8800  Platform Controller Hub EG20T PCI Express Port
 	8801  Platform Controller Hub EG20T Packet Hub
 	8802  Platform Controller Hub EG20T Gigabit Ethernet Controller
@@ -33222,6 +33266,7 @@
 	8a52  Iris Plus Graphics G7
 	8a53  Iris Plus Graphics G7
 	8a56  Iris Plus Graphics G1 (Ice Lake)
+	8a58  Ice Lake-Y GT1 [UHD Graphics G1]
 	8a5a  Iris Plus Graphics G4 (Ice Lake)
 	8a5c  Iris Plus Graphics G4 (Ice Lake)
 	8c00  8 Series/C220 Series Chipset Family 4-port SATA Controller 1 [IDE mode]
@@ -33470,6 +33515,8 @@
 	9622  Integrated RAID
 	9641  Integrated RAID
 	96a1  Integrated RAID
+	9840  Lakefield GT2 [UHD Graphics]
+	9841  Lakefield GT1.5 [UHD Graphics]
 	9a01  11th Gen Core Processor PCIe Controller #1
 	9a03  TigerLake-LP Dynamic Tuning Processor Participant
 	9a09  11th Gen Core Processor PCIe Controller
@@ -33495,9 +33542,13 @@
 	9a31  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3
 	9a33  Tiger Lake Trace Hub
 	9a36  11th Gen Core Processor Host Bridge/DRAM Registers
+	9a40  Tiger Lake-UP4 GT2 [Iris Xe Graphics]
 	9a49  TigerLake-LP GT2 [Iris Xe Graphics]
 	9a60  TigerLake-H GT1 [UHD Graphics]
 	9a68  TigerLake-H GT1 [UHD Graphics]
+	9a70  Tiger Lake-H GT1 [UHD Graphics]
+	9a78  Tiger Lake-LP GT2 [UHD Graphics G4]
+	9b21  Comet Lake-U GT2 [UHD Graphics 620]
 	9b33  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b41  CometLake-U GT2 [UHD Graphics]
 		1028 09bd  Latitude 7310
@@ -33512,10 +33563,16 @@
 	9b64  10th Gen Core Processor Host Bridge/DRAM Registers
 	9ba4  Comet Lake-H GT1 [UHD Graphics 610]
 	9ba8  CometLake-S GT1 [UHD Graphics 610]
+	9baa  Comet Lake UHD Graphics
+	9bac  Comet Lake UHD Graphics
 	9bc4  CometLake-H GT2 [UHD Graphics]
 	9bc5  CometLake-S GT2 [UHD Graphics 630]
+	9bc6  Comet Lake-S GT2 [UHD Graphics P630]
 	9bc8  CometLake-S GT2 [UHD Graphics 630]
 	9bca  Comet Lake UHD Graphics
+	9bcc  Comet Lake UHD Graphics
+	9be6  Comet Lake-S GT2 [UHD Graphics P630]
+	9bf6  Coffee Lake-S GT2 [UHD Graphics P630]
 	9c00  8 Series SATA Controller 1 [IDE mode]
 	9c01  8 Series SATA Controller 1 [IDE mode]
 	9c02  8 Series SATA Controller 1 [AHCI mode]
@@ -34154,6 +34211,14 @@
 	a3eb  Comet Lake PCI Express Root Port #21
 	a3f0  Comet Lake PCH-V cAVS
 	a620  6400/6402 Advanced Memory Buffer (AMB)
+	a780  Raptor Lake-S UHD Graphics
+	a781  Raptor Lake-S UHD Graphics
+	a782  Raptor Lake-S UHD Graphics
+	a783  Raptor Lake-S UHD Graphics
+	a788  Raptor Lake-S UHD Graphics
+	a789  Raptor Lake-S UHD Graphics
+	a78a  Raptor Lake-S UHD Graphics
+	a78b  Raptor Lake-S UHD Graphics
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
 	b152  21152 PCI-to-PCI Bridge
 		8086 b152  21152 PCI-to-PCI Bridge
