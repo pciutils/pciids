@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.10.19
-#	Date:    2022-10-19 03:15:02
+#	Version: 2022.10.22
+#	Date:    2022-10-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4938,6 +4938,11 @@
 	149c  Matisse USB 3.0 Host Controller
 		1462 7c37  X570-A PRO motherboard
 	149d  Vangogh CVIP
+	14b5  Family 17h-19h PCIe Root Complex
+	14b6  Family 17h-19h IOMMU
+	14b7  Family 17h-19h PCIe Dummy Host Bridge
+	14b9  Family 17h-19h Internal PCIe GPP Bridge
+	14ba  Family 17h-19h PCIe GPP Bridge
 	1510  Family 14h Processor Root Complex
 		174b 1001  PURE Fusion Mini
 	1512  Family 14h Processor Root Port
@@ -12524,6 +12529,8 @@
 	20f0  GA100 [A100-PG506-207]
 	20f1  GA100 [A100 PCIe 40GB]
 	20f2  GA100 [A100-PG506-217]
+	20f5  GA100 [A800-80]
+	20f6  GA100 [A800-40]
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
@@ -15121,6 +15128,7 @@
 	0113  BG3 NVMe SSD Controller
 		1179 0001  Toshiba KBG30ZMS128G 128GB NVMe SSD
 	0115  XG4 NVMe SSD Controller
+	0116  XG5 NVMe SSD Controller
 	011a  XG6 NVMe SSD Controller
 	0404  DVD Decoder card
 	0406  Tecra Video Capture device
@@ -25023,6 +25031,15 @@
 	3401  SSD Contoller
 1ebd  EMERGETECH Company Ltd.
 	0101  Seirios 2063 Video Codec
+1ec8  Innosilicon Co Ltd
+	8800  Fantasy I
+		1ec8 12a2  Fantasy I Device
+	9800  Fantasy II
+		1ec8 12a2  Fantasy II Device
+	9802  Fantasy II
+		1ec8 12a2  Fantasy II Device
+	9804  Fantasy II
+		1ec8 12a2  Fantasy II Device
 1ec9  Wingtech Group(HongKong)Limited
 1ed2  FuriosaAI, Inc.
 	0000  Warboy
@@ -25053,7 +25070,7 @@
 1ed9  Myrtle.ai
 1ee1  Suzhou Kuhan Information Technologies
 	0050  Aurora NVMe SSD Controller
-1ee4  PETAiO, Inc
+1ee4  PETAIO INC
 	1180  P8118 U.2 Single Port SSD
 1ee9  SUSE LLC
 1eec  Viscore Technologies Ltd
@@ -27788,6 +27805,7 @@
 	124f  Ethernet Connection E823-L 1GbE
 	1250  430HX - 82439HX TXC [Triton II]
 	125b  Ethernet Controller I226-LM
+	125c  Ethernet Controller I226-V
 	1360  82806AA PCI64 Hub PCI Bridge
 	1361  82806AA PCI64 Hub Controller (HRes)
 		8086 1361  82806AA PCI64 Hub Controller (HRes)
@@ -27881,6 +27899,7 @@
 		1bd4 0035  1G base-T QP EP014Ti1 Adapter
 		1bd4 0066  F014I350
 		1bd4 008a  F012I350
+		1bd4 008d  ENFI1100-T4
 		8086 0001  Ethernet Server Adapter I350-T4
 		8086 0002  Ethernet Server Adapter I350-T2
 		8086 0003  Ethernet Network Adapter I350-T4 for OCP NIC 3.0
@@ -27954,6 +27973,7 @@
 		1093 7706  Compact Vision System Ethernet Adapter
 		10a9 802c  UV300 BaseIO single-port GbE
 		10a9 802d  UV3000 BaseIO GbE Network
+		17aa 1059  I210 Gigabit Network Connection
 		17aa 1100  ThinkServer Ethernet Server Adapter
 		17aa 1509  I210 Gigabit Network Connection
 		17aa 404d  I210 PCIe 1Gb 1-Port RJ45 LOM
@@ -35183,6 +35203,7 @@ bdbd  Blackmagic Design
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
 	2263  P1 NVMe PCIe SSD
+	5407  P5 Plus NVMe PCIe SSD
 	540a  P2 NVMe PCIe SSD
 c0de  Motorola
 c0fe  Motion Engineering, Inc.
