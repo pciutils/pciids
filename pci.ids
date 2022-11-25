@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.11.19
-#	Date:    2022-11-19 03:15:02
+#	Version: 2022.11.25
+#	Date:    2022-11-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3088,20 +3088,20 @@
 		144d c0c7  Radeon HD 7550M
 	6842  Thames LE [Radeon HD 7000M Series]
 	6843  Thames [Radeon HD 7670M]
-	6860  Vega 10 [Radeon Instinct MI25]
+	6860  Vega 10 [Instinct MI25/MI25x2/V340/V320]
 		1002 0c35  Radeon PRO V320
 		1002 6c75  Radeon PRO V320
 		106b 017c  Radeon Pro Vega 64
 	6861  Vega 10 XT [Radeon PRO WX 9100]
 	6862  Vega 10 XT [Radeon PRO SSG]
 	6863  Vega 10 XTX [Radeon Vega Frontier Edition]
-	6864  Vega 10 [Radeon Pro V340]
+	6864  Vega 10 [Radeon Pro V340/Instinct MI25x2]
 	6867  Vega 10 XL [Radeon Pro Vega 56]
 	6868  Vega 10 [Radeon PRO WX 8100/8200]
 	6869  Vega 10 XGA [Radeon Pro Vega 48]
 	686a  Vega 10 LEA
 	686b  Vega 10 XTXA [Radeon Pro Vega 64X]
-	686c  Vega 10 [Radeon Instinct MI25 MxGPU]
+	686c  Vega 10 [Instinct MI25 MxGPU/MI25x2 MxGPU/V340 MxGPU/V340L MxGPU]
 	686d  Vega 10 GLXTA
 	686e  Vega 10 GLXLA
 	687f  Vega 10 XL/XT [Radeon RX Vega 56/64]
@@ -3813,7 +3813,7 @@
 	7347  Navi 14 [Radeon Pro W5500M]
 	734f  Navi 14 [Radeon Pro W5300M]
 	7360  Navi 12 [Radeon Pro 5600M/V520/BC-160]
-	7362  Navi 12 [Radeon Pro V520]
+	7362  Navi 12 [Radeon Pro V520/V540]
 	7388  Arcturus GL-XL
 	738c  Arcturus GL-XL [Instinct MI100]
 	738e  Arcturus GL-XL [Instinct MI100]
@@ -3854,15 +3854,16 @@
 		148c 2412  PowerColor Red Devil RX 6600 XT
 # This is the non-XT version
 		1849 5218  Radeon RX 6600 Challenger ITX 8GB
-	7408  Aldebaran
-	740c  Aldebaran
-	740f  Aldebaran
+	7408  Aldebaran/MI200 [Instinct MI250X]
+	740c  Aldebaran/MI200 [Instinct MI250X/MI250]
+	740f  Aldebaran/MI200 [Instinct MI210]
 	7421  Navi 24 [Radeon PRO W6500M]
 	7422  Navi 24 [Radeon PRO W6400]
 	7423  Navi 24 [Radeon PRO W6300/W6300M]
 	7424  Navi 24 [Radeon RX 6300]
 	743f  Navi 24 [Radeon RX 6400/6500 XT/6500M]
 		1da2 e457  PULSE AMD Radeon RX 6500 XT
+	744c  Navi 31 [Radeon RX 7900 XT/7900 XTX]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -19155,7 +19156,7 @@
 	a804  NVMe SSD Controller SM961/PM961/SM963
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
-		144d a801  SSD 970 EVO Plus 1TB
+		144d a801  SSD 970 EVO Plus
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a809  NVMe SSD Controller 980
 	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
@@ -19976,6 +19977,8 @@
 		14e4 4146  NetXtreme-E Dual-port 25G SFP28 Ethernet OCP 3.0 Adapter (BCM957414N4140C)
 		1590 020e  Ethernet 25Gb 2-port 631SFP28 Adapter
 		1590 0211  Ethernet 25Gb 2-port 631FLR-SFP28 Adapter
+		1bd4 008e  ENFB2251-SP2
+		1bd4 008f  ENPB2251-SP2
 # VSE-225-31S Dual-port 10Gb/25Gb Ethernet PCIe
 		1eec 0101  VSE-225-31S Dual-port 10Gb/25Gb Ethernet PCIe
 	16d8  BCM57416 NetXtreme-E Dual-Media 10G RDMA Ethernet Controller
@@ -24417,6 +24420,7 @@
 	3a02  ZX-100 C-320 GPU
 	3a03  ZX-D C-860 GPU
 	3a04  ZX-E C-960 GPU
+	3d01  ZX C1080 GPU
 	9002  ZX-100/ZX-200 EIDE Controller
 	9003  ZX-100/ZX-E EIDE Controller
 	9045  ZX-100/ZX-D/ZX-E RAID Accelerator 0
@@ -25179,6 +25183,10 @@
 	5220  IG5220-Based NVMe SSD
 	5236  IG5236-Based NVMe SSD
 	5636  IG5636-Based NVMe SSD
+1f24  xFusion Digital Technologies Co., Ltd.
+	1058  EP500/EP600 NVMe SSD
+		1f24 1114  EP500 NVMe SSD(RI)
+		1f24 1115  EP600 NVMe SSD(MU)
 1f2f  China Mobile (Hangzhou) Information Technology Co.Ltd.
 	1513  DERA MENG NVMe Controller
 		1f2f 6113  KM660 U.2 1.6TB NVMe SSD
