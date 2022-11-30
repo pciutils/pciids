@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.11.25
-#	Date:    2022-11-25 03:15:01
+#	Version: 2022.11.30
+#	Date:    2022-11-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5141,6 +5141,8 @@
 	162a  Arden Internal PCIe GPP Bridge 0 to bus X
 	162b  Arden PCIe Non-Transparent Bridge
 	162c  VanGogh USB2
+	162e  Rembrandt USB4/Thunderbolt NHI controller #1
+	162f  Rembrandt USB4/Thunderbolt NHI controller #2
 	1630  Renoir/Cezanne Root Complex
 	1631  Renoir/Cezanne IOMMU
 	1632  Renoir PCIe Dummy Host Bridge
@@ -12617,6 +12619,7 @@
 		10de 146b  GA104 [GeForce RTX 3070]
 		10de 14ae  GA104 [GeForce RTX 3070 16GB]
 	2486  GA104 [GeForce RTX 3060 Ti]
+		19da 6630  ZT-A30610H-10M [RTX 3060 Ti Twin Edge OC]
 	2487  GA104 [GeForce RTX 3060]
 	2488  GA104 [GeForce RTX 3070 Lite Hash Rate]
 	2489  GA104 [GeForce RTX 3060 Ti Lite Hash Rate]
@@ -25076,6 +25079,7 @@
 		1e81 a213  NVMe SSD UHXXXa series U.2 3200GBÂ 
 		1e81 a214  NVMe SSD UHXXXa series U.2 6400GBÂ 
 		1e81 f123  NVMe SSD TP6500 series U.2 3840GB
+1e83  Huaqin Technology Co.Ltd
 1e85  Heitec AG
 1e89  ID Quantique SA
 	0002  Quantis-PCIe-40M
@@ -25238,6 +25242,7 @@
 1f52  MangoBoost Inc.
 1f60  Accelecom
 	0001  XELE-NIC 25K5
+	0054  XELE-NIC 25K5
 1faa  Hexaflake (Shanghai) Information Technology Co., Ltd.
 	0c10  Compass C10 PF
 	0c11  Compass C10 VF
@@ -33439,6 +33444,7 @@
 	71a2  440GX - 82443GX Host bridge (AGP disabled)
 		4c53 1000  CC7/CR7/CP7/VC7/VP7/VR7 mainboard
 	7360  XMM7360 LTE Advanced Modem
+	7560  XMM7560 LTE Advanced Pro Modem
 	7600  82372FB PIIX5 ISA
 	7601  82372FB PIIX5 IDE
 	7602  82372FB PIIX5 USB
