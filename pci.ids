@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.11.30
-#	Date:    2022-11-30 03:15:02
+#	Version: 2022.12.04
+#	Date:    2022-12-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12607,6 +12607,7 @@
 	2302  GH100
 	2321  GH100
 	2322  GH100 [H800]
+	2330  GH100[H100 SXM5 80GB]
 	2331  GH100 [H100 PCIe]
 	2336  GH100 [H100 96GB]
 	2414  GA103 [GeForce RTX 3060 Ti]
@@ -12653,6 +12654,7 @@
 	2505  GA106
 	2507  GA106 [Geforce RTX 3050]
 	2508  GA106 [GeForce RTX 3050 OEM]
+	2509  GA106 [GeForce RTX 3060 12GB Rev. 2]
 	2520  GA106M [GeForce RTX 3060 Mobile / Max-Q]
 	2521  GA106M [GeForce RTX 3060 Laptop GPU]
 	2523  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
@@ -12663,6 +12665,7 @@
 	2561  GA106M [GeForce RTX 3060 Laptop GPU]
 	2563  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	2571  GA106 [RTX A2000 12GB]
+	2582  GA107 [GeForce RTX 3050]
 	2583  GA107 [GeForce RTX 3050]
 	25a0  GA107M [GeForce RTX 3050 Ti Mobile]
 	25a2  GA107M [GeForce RTX 3050 Mobile]
@@ -19551,6 +19554,7 @@
 	1609  BCM5745X NetXtreme-E Ethernet Virtual Function
 	1612  BCM70012 Video Decoder [Crystal HD]
 	1614  BCM57454 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb Ethernet
+		14e4 d140  NetXtreme-E Quad-port 10GBASE-T Ethernet PCIe Adapter (BCM957454-P410SDBT)
 		14e4 d340  NetXtreme-E Quad-port 10GBASE-T Ethernet OCP 3.0 Adapter (BCM957454-N410SDBT)
 	1615  BCM70015 Video Decoder [Crystal HD]
 	1639  NetXtreme II BCM5709 Gigabit Ethernet
@@ -21102,6 +21106,7 @@
 		15b3 0025  ConnectX-3 IB QDR Dual Port Mezzanine Card
 		15b3 0026  ConnectX-3 IB FDR Dual Port Mezzanine Card
 		15b3 0028  ConnectX-3 VPI Dual QSFP+ Port QDR Infiniband 40Gb/s or 10Gb Ethernet
+		15b3 0055  ConnectX-3 10 GbE Single Port SFP+ Adapter
 		15b3 0059  ConnectX-3 VPI IB FDR/40 GbE Single Port QSFP+ Mezzanine Card
 		15b3 0064  ConnectX-3 EN 10/40 GbE Single Port QSFP+ Adapter (MCX313A-BCBT)
 		15b3 0065  ConnectX-3 VPI IB FDR/40 GbE Dual Port QSFP+ Adapter
@@ -24376,6 +24381,7 @@
 	7064  NeuronDevice (Inferentia)
 	7164  NeuronDevice (Trainium)
 		1d0f 0000  Trainium
+	7264  NeuronDevice (Inferentia2)
 	8061  NVMe EBS Controller
 	cd01  NVMe SSD Controller
 	ec20  Elastic Network Adapter (ENA)
@@ -24391,14 +24397,14 @@
 	0714  ZX-100/ZX-200 PCI Express Root Port
 	0715  ZX-100/ZX-200 PCI Express Root Port
 	0716  ZX-D PCI Express Root Port
-	0717  ZX-D/ZX-E PCI Express Root Port
-	0718  ZX-D/ZX-E PCI Express Root Port
-	0719  ZX-D/ZX-E PCI Express Root Port
-	071a  ZX-D/ZX-E PCI Express Root Port
-	071b  ZX-D/ZX-E PCI Express Root Port
-	071c  ZX-D/ZX-E PCI Express Root Port
-	071d  ZX-D/ZX-E PCI Express Root Port
-	071e  ZX-D/ZX-E PCI Express Root Port
+	0717  KX-5000/KX-6000/KX-6000G Express Root Port
+	0718  KX-5000/KX-6000/KX-6000G Express Root Port
+	0719  KX-5000/KX-6000/KX-6000G Express Root Port
+	071a  KX-5000/KX-6000/KX-6000G Express Root Port
+	071b  KX-5000/KX-6000/KX-6000G Express Root Port
+	071c  KX-5000/KX-6000/KX-6000G Express Root Port
+	071d  KX-5000/KX-6000/KX-6000G Express Root Port
+	071e  KX-5000/KX-6000/KX-6000G Express Root Port
 	071f  ZX-200 Upstream Port of PCI Express Switch
 	0720  ZX-200 PCIE RC6 controller
 	0721  ZX-200 Downstream Port of PCI Express Switch
@@ -24406,43 +24412,47 @@
 	1000  ZX-D Standard Host Bridge
 	1001  ZX-D/ZX-E Miscellaneous Bus
 	1003  ZX-E Standard Host Bridge
+	1006  KX-6000G Standard Host Bridge
 	3001  ZX-100 Standard Host Bridge
 	300a  ZX-100 Miscellaneous Bus
-	3038  ZX-100/ZX-200/ZX-E Standard Universal PCI to USB Host Controller
-	3104  ZX-100/ZX-200/ZX-E Standard Enhanced PCI to USB Host Controller
-	31b0  ZX-100/ZX-D Standard Host Bridge
-	31b1  ZX-100/ZX-D Standard Host Bridge
-	31b2  ZX-100/ZX-D DRAM Controller
-	31b3  ZX-100/ZX-D Power Management Controller
-	31b4  ZX-100/ZX-D I/O APIC
-	31b5  ZX-100/ZX-D Scratch Device
-	31b7  ZX-100/ZX-D/ZX-E Standard Host Bridge
+	3038  ZX-100/ZX-200/KX-6000/KX-6000G Standard Universal PCI to USB Host Controller
+	3104  ZX-100/ZX-200/KX-6000/KX-6000G Standard Enhanced PCI to USB Host Controller
+	31b0  ZX-100/KX-5000/KX-6000/KX-6000G Standard Host Bridge
+	31b1  ZX-100/KX-5000/KX-6000/KX-6000G Standard Host Bridge
+	31b2  ZX-100/KX-5000/KX-6000/KX-6000G DRAM Controller
+	31b3  ZX-100/KX-5000/KX-6000/KX-6000G Power Management Controller
+	31b4  ZX-100/KX-5000/KX-6000/KX-6000G I/O APIC
+	31b5  ZX-100/KX-5000/KX-6000/KX-6000G Scratch Device
+	31b7  ZX-100/KX-5000/KX-6000/KX-6000G Standard Host Bridge
 	31b8  ZX-100/ZX-D PCI to PCI Bridge
-	3288  ZX-100/ZX-D/ZX-E High Definition Audio Controller
-	345b  ZX-100/ZX-D/ZX-E Miscellaneous Bus
+	3288  ZX-100/KX-5000/KX-6000/KX-6000G High Definition Audio Controller
+	345b  ZX-100/KX-5000/KX-6000/KX-6000G Miscellaneous Bus
 	3a02  ZX-100 C-320 GPU
 	3a03  ZX-D C-860 GPU
 	3a04  ZX-E C-960 GPU
-	3d01  ZX C1080 GPU
+	3c02  KX-6000G DRAM Controller
+	3d01  KX-6000G C-1080 GPU
 	9002  ZX-100/ZX-200 EIDE Controller
-	9003  ZX-100/ZX-E EIDE Controller
+	9003  ZX-100/KX-6000/KX-6000G EIDE Controller
+	9043  KX-6000G RAID Controller
 	9045  ZX-100/ZX-D/ZX-E RAID Accelerator 0
 	9046  ZX-D/ZX-E RAID Accelerator 1
-	9083  ZX-100/ZX-200/ZX-E StorX AHCI Controller
+	9083  ZX-100/ZX-200/KX-6000/KX-6000G StorX AHCI Controller
 	9084  ZX-100 StorX AHCI Controller
 	9100  ZX-200 Cross bus
 	9101  ZX-200 Traffic Controller
 	9141  ZX-100 High Definition Audio Controller
 	9142  ZX-D High Definition Audio Controller
 	9144  ZX-E High Definition Audio Controller
+	9145  KX-6000G High Definition Audio Controller
 	9180  ZX-200 Networking Gigabit Ethernet Adapter
 	9202  ZX-100 USB eXtensible Host Controller
 	9203  ZX-200 USB eXtensible Host Controller
-	9204  ZX-E USB eXtensible Host Controller
+	9204  KX-6000/KX-6000G USB eXtensible Host Controller
 	9286  ZX-D eMMC Host Controller
-	9300  ZX-D/ZX-E eSPI Host Controller
+	9300  ZX-100/KX-5000/KX-6000/KX-6000G eSPI Host Controller
 	95d0  ZX-100 Universal SD Host Controller
-	f410  ZX-100/ZX-D/ZX-E PCI Com Port
+	f410  ZX-100/KX-5000/KX-6000/KX-6000G PCI Com Port
 1d18  RME
 	0001  Fireface UFX+
 # acquired by Intel
