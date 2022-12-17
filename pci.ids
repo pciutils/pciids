@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.12.04
-#	Date:    2022-12-04 03:15:02
+#	Version: 2022.12.17
+#	Date:    2022-12-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -93,6 +93,8 @@
 0432  SCM Microsystems, Inc.
 	0001  Pluto2 DVB-T Receiver for PCMCIA [EasyWatch MobilSet]
 0497  Dell Inc. (wrong ID)
+060e  Lightelligence
+	0001  Hummingbird ES
 0675  Dynalink
 	1700  IS64PH ISDN Adapter
 	1702  IS64PH ISDN Adapter
