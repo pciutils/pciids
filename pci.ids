@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.12.17
-#	Date:    2022-12-17 03:15:02
+#	Version: 2022.12.19
+#	Date:    2022-12-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3792,6 +3792,7 @@
 	72b1  RV560 [Radeon X1650 XT] (Secondary)
 	72b3  RV560 [Radeon X1650 GT] (Secondary)
 	7300  Fiji [Radeon R9 FURY / NANO Series]
+		1002 0b35  FirePro S9300 X2
 		1002 0b36  Radeon R9 FURY X / NANO
 		1002 1b36  Radeon Pro Duo
 		1043 049e  Radeon R9 FURY
@@ -3804,6 +3805,7 @@
 	731f  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1002 0b36  Reference RX 5700 XT
 		1458 2313  Radeon RX 5700 XT Gaming OC
+		1458 231d  Radeon RX 5600 XT/REV 2.0 [Windforce 6GB OC]
 		148c 2398  AXRX 5700 XT 8GBD6-3DHE/OC [PowerColor Red Devil Radeon RX 5700 XT]
 		1682 5701  RX 5700 XT RAW II
 		1849 5120  Radeon RX 5600 XT
@@ -3833,6 +3835,7 @@
 		1002 0e3a  Radeon RX 6900 XT
 		148c 2408  Red Devil AMD Radeon RX 6900 XT
 		1da2 440f  TOXIC RX 6900 XT
+		1da2 e437  Pulse Radeon RX 6800
 		1eae 6701  Speedster MERC 319 AMD Radeon RX 6800 XT Black
 		1eae 6901  Speedster MERC 319 AMD Radeon RX 6900 XT Black
 	73c3  Navi 22
@@ -4893,14 +4896,14 @@
 	1453  Family 17h (Models 00h-0fh) PCIe GPP Bridge
 	1454  Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
 	1455  Zeppelin/Renoir PCIe Dummy Function
-	1456  Family 17h (Models 00h-0fh) Platform Security Processor
+	1456  Family 17h (Models 00h-0fh) Platform Security Processor (PSP) 3.0 Device
 	1457  Family 17h (Models 00h-0fh) HD Audio Controller
 	145a  Zeppelin/Raven/Raven2 PCIe Dummy Function
 	145b  Zeppelin Non-Transparent Bridge
 	145c  Family 17h (Models 00h-0fh) USB 3.0 Host Controller
 	145d  Zeppelin Switch Upstream (PCIE SW.US)
 	145e  Zeppelin Switch Downstream (PCIE SW.DS)
-	145f  Zeppelin USB 3.0 Host controller
+	145f  Zeppelin USB 3.0 xHCI Compliant Host Controller
 	1460  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
 	1461  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
 	1462  Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
@@ -5282,7 +5285,7 @@
 	43c6  400 Series Chipset PCIe Bridge
 	43c7  400 Series Chipset PCIe Port
 	43c8  400 Series Chipset SATA Controller
-	43d5  400 Series Chipset USB 3.1 XHCI Controller
+	43d5  400 Series Chipset USB 3.1 xHCI Compliant Host Controller
 	43e9  500 Series Chipset Switch Upstream Port
 	43eb  500 Series Chipset SATA Controller
 # or ASM106X Serial ATA Controller
@@ -5510,6 +5513,7 @@
 	9930  CyberBlade/XPm
 	9960  CyberBlade XP2
 1024  Beijing Dajia Internet Information Technology Co.
+	0101  StreamLake 200 AI-VPU
 1025  Acer Incorporated [ALI]
 	1435  M1435
 	1445  M1445
@@ -8562,6 +8566,7 @@
 # nee CMD Technology Inc
 1095  Silicon Image, Inc.
 	0240  Adaptec AAR-1210SA SATA HostRAID Controller
+	0242  AAR-1220SA SATA RAID Controller
 	0640  PCI0640
 	0643  PCI0643
 	0646  PCI0646
@@ -9351,10 +9356,8 @@
 		103c 0024  Pavilion ze4400 builtin USB
 		103c 0025  XE4500 Notebook
 		104d 810f  VAIO PCG-U1 USB/OHCI Revision 1.0
-		10b9 5237  ASRock 939Dual-SATA2 Motherboard
 		1849 5237  ASRock 939Dual-SATA2 Motherboard
 	5239  USB 2.0 Controller
-		10b9 5239  ASRock 939Dual-SATA2 Motherboard
 		1849 5239  ASRock 939Dual-SATA2 Motherboard
 	5243  M1541 PCI to AGP Controller
 	5246  AGP8X Controller
@@ -12606,7 +12609,9 @@
 	228b  GA104 High Definition Audio Controller
 	228e  GA106 High Definition Audio Controller
 	2296  Tegra PCIe Endpoint Virtual Network
+	22ba  AD102 High Definition Audio Controller
 	2302  GH100
+	2313  GH100 [H100 CNX]
 	2321  GH100
 	2322  GH100 [H800]
 	2330  GH100[H100 SXM5 80GB]
@@ -12667,8 +12672,8 @@
 	2561  GA106M [GeForce RTX 3060 Laptop GPU]
 	2563  GA106M [GeForce RTX 3050 Ti Mobile / Max-Q]
 	2571  GA106 [RTX A2000 12GB]
-	2582  GA107 [GeForce RTX 3050]
-	2583  GA107 [GeForce RTX 3050]
+	2582  GA107 [GeForce RTX 3050 8GB]
+	2583  GA107 [GeForce RTX 3050 4GB]
 	25a0  GA107M [GeForce RTX 3050 Ti Mobile]
 	25a2  GA107M [GeForce RTX 3050 Mobile]
 	25a3  GA107
@@ -19164,7 +19169,7 @@
 	a804  NVMe SSD Controller SM961/PM961/SM963
 		144d a801  SM963 2.5" NVMe PCIe SSD
 	a808  NVMe SSD Controller SM981/PM981/PM983
-		144d a801  SSD 970 EVO Plus
+		144d a801  SSD 970 EVO
 		1d49 403b  Thinksystem U.2 PM983 NVMe SSD
 	a809  NVMe SSD Controller 980
 	a80a  NVMe SSD Controller PM9A1/PM9A3/980PRO
@@ -21133,6 +21138,7 @@
 		117c 0092  FastFrame NQ11
 		117c 0093  FastFrame NQ12
 		15b3 0006  Mellanox Technologies ConnectX-3 Pro Stand-up dual-port 40GbE MCX314A-BCCT
+		15b3 000c  ConnectX-3 Pro 10 GbE Dual Port SFP+ Adapter revision A1
 		15b3 0078  ConnectX-3 Pro 10 GbE Dual Port KR Mezzanine Card
 		15b3 0079  ConnectX-3 Pro 40 GbE Dual Port QSFP+ Adapter
 		15b3 0080  ConnectX-3 Pro 10 GbE Dual Port SFP+ Adapter
@@ -24624,6 +24630,7 @@
 1d87  Rockchip Electronics Co., Ltd
 	0100  RK3399 PCI Express Root Port
 	1808  RK1808 Neural Network Processor Card
+	3528  RK3528 PCI Express Root Port
 	3566  RK3568 Remote Signal Processor
 	3588  RK3588
 1d89  YEESTOR Microelectronics Co., Ltd
@@ -24724,10 +24731,12 @@
 1dcf  Beijing Sinead Technology Co., Ltd.
 1dd3  Sage Microelectronics Corp.
 1dd4  Swissbit AG
-1dd8  Pensando Systems
+1dd8  AMD Pensando Systems
 	0002  DSC2 Elba Upstream Port
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1000  DSC Capri Upstream Port
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -24752,6 +24761,8 @@
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1002  DSC Ethernet Controller
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -24765,6 +24776,8 @@
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1003  DSC Ethernet Controller VF
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -24778,6 +24791,8 @@
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1004  DSC Management Controller
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -24791,12 +24806,18 @@
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1005  DSC NVMe Controller
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1006  DSC NVMe Controller VF
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 	1007  DSC Storage Accelerator
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
 		1dd8 4001  Naples 100Gb 2-port QSFP28 x16 4GB
@@ -24810,10 +24831,40 @@
 		1dd8 4014  DSC-100 40/100G 2-port 8G RAM 16G eMMC G1 Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
 		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
+	1009  DSC Ethernet Controller UPT
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
+	100a  DSC Serial Port Controller
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
+	100b  DSC vDPA Network Device VF
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
+	100c  DSC PDS Core Management
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
+	100d  DSC Virtio Network Device VF
+		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 5003  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
+		1dd8 500a  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R2
+		1dd8 500b  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU
 1ddd  Thorlabs
 1de0  Groq
-# rename due to conflict with a term in use by another company for an entirely different product.
-	0000  TSP100 Tensor Streaming Processor
+	0000  TSP [GroqChip]
+		1de0 0000  GC1-010X-ES [GroqCard]
+		1de0 c005  GC1-010B [GroqCard]
+		1de0 c006  GC1-0109 [GroqCard]
+		1de0 c007  GC1-0100 [GroqCard]
 1de1  Tekram Technology Co.,Ltd.
 	0391  TRM-S1040 [DC-315 / DC-395 series]
 	2020  DC-390 Series SCSI Adapter [AMD Am53C974]
@@ -26863,8 +26914,14 @@
 		8086 8d08  NVMe Datacenter SSD [3DNAND] VE 2.5" U.2 (P5316)
 		8086 8d1d  NVMe Datacenter SSD [3DNAND] VE E1.L 9.5/18mm (P5316)
 		8086 c008  NVMe Datacenter SSD [3DNAND] SE U.2 15mm (P5530)
-	0bd0  Ponte Vecchio 2T
-	0bd5  Ponte Vecchio 1T
+	0bd0  Ponte Vecchio XL (2 Tile)
+	0bd5  Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1550]
+	0bd6  Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1550]
+	0bd7  Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1350]
+	0bd8  Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1350]
+	0bd9  Ponte Vecchio XT (1 Tile) [Data Center GPU Max 1100]
+	0bda  Ponte Vecchio XT (1 Tile) [Data Center GPU Max 1100]
+	0bdb  Ponte Vecchio XT (1 Tile) [Data Center GPU Max 1100]
 	0be0  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 	0be1  Atom Processor D2xxx/N2xxx Integrated Graphics Controller
 		105b 0d7c  D270S/D250S Motherboard
@@ -32916,6 +32973,7 @@
 		8086 02a4  Wireless-AC 9462
 	43fc  Tiger Lake-H Integrated Sensor Hub
 	444e  Turbo Memory Controller
+	4538  Elkhart Lake PCI-e Root Complex
 	4555  Elkhart Lake [UHD Graphics Gen11 16EU]
 	4571  Elkhart Lake [UHD Graphics Gen11 32EU]
 	460d  12th Gen Core Processor PCI Express x16 Controller #1
@@ -32976,6 +33034,17 @@
 		193d 4000  UN-GPU-XG310-32GB-FHFL
 	4908  DG1 [Iris Xe Graphics]
 	4909  DG1 [Iris Xe MAX 100]
+	4b00  Elkhart Lake eSPI Controller
+	4b23  Elkhart Lake SMBus Controller
+	4b24  Elkhart Lake SPI (Flash) Controller
+	4b38  Elkhart Lake PCH PCI Express Root Port #0
+	4b39  Elkhart Lake PCH PCI Express Root Port #1
+	4b3e  Elkhart Lake PCH PCI Express Root Port #6
+	4b58  Elkhart Lake High Density Audio bus interface
+	4b63  Elkhart Lake SATA AHCI
+	4b70  Elkhart Lake Management Engine Interface
+	4b7d  Elkhart Lake USB 3.10 XHCI
+	4b7f  Elkhart Lake PMC SRAM
 	4c3d  Volume Management Device NVMe RAID Controller
 	4c8a  RocketLake-S GT1 [UHD Graphics 750]
 	4c8b  RocketLake-S GT1 [UHD Graphics 730]
@@ -32996,6 +33065,9 @@
 	4f80  DG2
 	4f81  DG2
 	4f82  DG2
+	4f90  DG2 Audio Controller
+	4f91  DG2 Audio Controller
+	4f92  DG2 Audio Controller
 	5001  LE80578
 	5002  LE80578 Graphics Processor Unit
 	5009  LE80578 Video Display Controller
@@ -34556,7 +34628,7 @@
 	a3f0  Comet Lake PCH-V cAVS
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	a77f  Volume Management Device NVMe RAID Controller Intel Corporation
-	a780  Raptor Lake-S UHD Graphics
+	a780  Raptor Lake-S GT1 [UHD Graphics 770]
 	a781  Raptor Lake-S UHD Graphics
 	a782  Raptor Lake-S UHD Graphics
 	a783  Raptor Lake-S UHD Graphics
