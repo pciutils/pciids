@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2022.12.19
-#	Date:    2022-12-19 03:15:01
+#	Version: 2023.01.06
+#	Date:    2023-01-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12236,7 +12236,7 @@
 	13c2  GM204 [GeForce GTX 970]
 	13c3  GM204
 	13d7  GM204M [GeForce GTX 980M]
-	13d8  GM204M [GeForce GTX 970M]
+	13d8  GM204M [GeForce GTX 960 OEM / 970M]
 	13d9  GM204M [GeForce GTX 965M]
 	13da  GM204M [GeForce GTX 980 Mobile]
 	13e7  GM204GL [GeForce GTX 980 Engineering Sample]
@@ -12685,6 +12685,7 @@
 	25aa  GA107M [GeForce MX570 A]
 # GN20-P0 Refresh
 	25ac  GN20-P0-R-K2
+	25ad  GA107 [GeForce RTX 2050]
 	25af  GA107 [GeForce RTX 3050 Engineering Sample]
 	25b5  GA107GLM [RTX A4 Mobile]
 # A16 - 25B6 10DE 14A9 / A2 - 25B6 10DE 157E
@@ -12709,6 +12710,7 @@
 	2704  AD103 [GeForce RTX 4080]
 	2717  GN21-X11
 	2757  GN21-X11
+	2782  AD104 [GeForce RTX 4070 Ti]
 	2785  AD104
 	27a0  GN21-X9
 	27b8  AD104GL [L4]
@@ -19701,6 +19703,7 @@
 		103c 22be  Ethernet 1Gb 4-port 331i Adapter
 		103c 3383  Ethernet 1Gb 4-port 331T Adapter
 		14e4 1904  4-port 1Gb Ethernet Adapter
+		14e4 1909  Broadcom NetXtreme 5719 Quad Port Gigabit NIC
 		193d 1025  NIC-ETH330T-LP-4P
 	1659  NetXtreme BCM5721 Gigabit Ethernet PCI Express
 		1014 02c6  eServer xSeries server mainboard
@@ -22367,6 +22370,7 @@
 	0017  StorSecure 300 GZIP Compression and AES Encryption Card
 17c0  Wistron Corp.
 17c2  Newisys, Inc.
+17c3  Protogate, Inc.
 # nee Airgo Networks, Inc.
 17cb  Qualcomm
 	0001  AGN100 802.11 a/b/g True MIMO Wireless Card
@@ -24221,6 +24225,7 @@
 	1504  PC400 NVMe SSD
 	1527  PC401 NVMe Solid State Drive 256GB
 	174a  Gold P31/PC711 NVMe Solid State Drive
+	1959  Platinum P41 NVMe Solid State Drive 2TB
 	2204  960GB TLC PCIe Gen3 x4 NVMe M.2 22110
 	243b  PE6110 NVMe Solid State Drive
 		1c5c 0100  PE6110 NVMe Solid State Drive
@@ -24272,11 +24277,18 @@
 		1c5f 4a31  NVMe SSD PBlaze5 926 3200G 2.5" U.2
 		1c5f 4a40  NVMe SSD PBlaze5 926 6400G AIC
 		1c5f 4a41  NVMe SSD PBlaze5 926 6400G 2.5" U.2
-	003e  PBlaze6 6920
+	003e  PBlaze6 6920/6930
 		1c5f 0a31  NVMe SSD PBlaze6 6920 3840GB 2.5" U.2
 		1c5f 0a41  NVMe SSD PBlaze6 6920 7680GB 2.5" U.2
+		1c5f 0b31  NVMe SSD PBlaze6 6930 3840GB 2.5" U.3
+		1c5f 0b41  NVMe SSD PBlaze6 6930 7680GB 2.5" U.3
+		1c5f 0b51  NVMe SSD PBlaze6 6930 15360GB 2.5" U.3
+		1c5f 0b61  NVMe SSD PBlaze6 6930 30720GB 2.5" U.3
 		1c5f 4a31  NVMe SSD PBlaze6 6920 3200GB 2.5" U.2
 		1c5f 4a41  NVMe SSD PBlaze6 6920 6400GB 2.5" U.2
+		1c5f 4b41  NVMe SSD PBlaze6 6936 6400GB 2.5" U.3
+		1c5f 4b51  NVMe SSD PBlaze6 6936 12800GB 2.5" U.3
+		1c5f 4b61  NVMe SSD PBlaze6 6936 25600GB 2.5" U.3
 	0540  PBlaze4 NVMe SSD
 	0550  PBlaze5 700/900
 	0555  PBlaze5 510/516
@@ -24618,6 +24630,9 @@
 		1d78 7108  D7436 U.2 15mm 7.68TB NVMe SSD
 		1d78 7109  D7456 U.2 15mm 12.8TB NVMe SSD
 		1d78 710a  D7436 U.2 15mm 15.36TB NVMe SSD
+		1d78 7202  Aliflash V2 U.2 15mm 1.92TB NVMe SSD
+		1d78 7204  Aliflash V2 U.2 15mm 3.84TB NVMe SSD
+		1d78 7208  Aliflash V2 U.2 15mm 7.68TB NVMe SSD
 1d79  Transcend Information, Inc.
 1d7c  Aerotech, Inc.
 # Fiber-optic HyperWire motion control bus from Aerotech.
@@ -24726,6 +24741,7 @@
 		1dbe 3001  DONGHU-Z1 DC ZNS SSD U.2
 1dbf  Guizhou Huaxintong Semiconductor Technology Co., Ltd
 	0401  StarDragon4800 PCI Express Root Port
+1dc2  Alco Digital Devices Limited
 1dc5  FADU Inc.
 1dcd  Liqid Inc.
 1dcf  Beijing Sinead Technology Co., Ltd.
@@ -25202,7 +25218,7 @@
 	0200  MTT S80 Engineering Sample
 	0201  MTT S80
 	0202  MTT S70
-	0203  G2D10
+	0203  MTT S60
 	0211  G2D40
 	0221  G2S80
 	0222  MTT S3000
@@ -25250,6 +25266,19 @@
 	5220  IG5220-Based NVMe SSD
 	5236  IG5236-Based NVMe SSD
 	5636  IG5636-Based NVMe SSD
+1f0f  NebulaMatrix Technology
+	1041  D1055AS vDPA Ethernet Controller
+		1f0f 0001  D1055AS vDPA Ethernet Controller
+	1042  D1055AS vDPA Storage Controller
+		1f0f 0001  D1055AS vDPA Storage Controller
+	1220  D1055AS Ethernet Controller
+	1221  D1055AS Ethernet Controller
+	1222  D1055AS Ethernet Controller
+	1223  D1055AS Ethernet Controller
+	1600  M16104 Family
+	1601  M16104 Family Virtual Function
+	2022  D1055AS PCI Express Switch Upstream Port
+	9088  D1055AS PCI Express Switch Downstream Port
 1f24  xFusion Digital Technologies Co., Ltd.
 	1058  EP500/EP600 NVMe SSD
 		1f24 1114  EP500 NVMe SSD(RI)
@@ -32973,6 +33002,7 @@
 		8086 02a4  Wireless-AC 9462
 	43fc  Tiger Lake-H Integrated Sensor Hub
 	444e  Turbo Memory Controller
+	4511  Elkhart Lake Gaussian and Neural Accelerator
 	4538  Elkhart Lake PCI-e Root Complex
 	4555  Elkhart Lake [UHD Graphics Gen11 16EU]
 	4571  Elkhart Lake [UHD Graphics Gen11 32EU]
@@ -33152,6 +33182,7 @@
 		8086 0034  Wireless-AC 9560 160MHz
 		8086 0070  Wi-Fi 6 AX201 160MHz
 		8086 0074  Wi-Fi 6 AX201 160MHz
+		8086 0094  Wi-Fi 6E AX211 160MHz
 		8086 4070  Wi-Fi 6 AX201 160MHz
 		8086 4090  Wi-Fi 6E AX211 160MHz
 	51fc  Alder Lake-P Integrated Sensor Hub
@@ -33177,6 +33208,7 @@
 	56b1  DG2 [Arc Pro A40/A50]
 	56c0  Data Center GPU Flex 170
 	56c1  Data Center GPU Flex 140
+	57b1  Ethernet Controller E610 1GBASE T
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
 	5900  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
