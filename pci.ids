@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.01.06
-#	Date:    2023-01-06 03:15:02
+#	Version: 2023.01.14
+#	Date:    2023-01-14 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1107,6 +1107,7 @@
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		17aa 3181  ThinkCentre M75n IoT
 		17aa 5124  ThinkPad E595
+		1dc2 2209  Avita Pura 14 Notebook
 		ea50 cc10  RXi2-BP
 	15dd  Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 83c6  Radeon Vega 8 Mobile
@@ -3869,6 +3870,7 @@
 	743f  Navi 24 [Radeon RX 6400/6500 XT/6500M]
 		1da2 e457  PULSE AMD Radeon RX 6500 XT
 	744c  Navi 31 [Radeon RX 7900 XT/7900 XTX]
+		1da2 e471  NITRO+ RX 7900 XTX Vapor-X
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -5514,6 +5516,8 @@
 	9960  CyberBlade XP2
 1024  Beijing Dajia Internet Information Technology Co.
 	0101  StreamLake 200 AI-VPU
+		1024 0201  SL200-NP
+		1024 0301  SL200-P
 1025  Acer Incorporated [ALI]
 	1435  M1435
 	1445  M1445
@@ -7298,6 +7302,7 @@
 	006a  Intrepid2 Firewire
 	006b  Intrepid2 GMAC (Sun GEM)
 	0074  U4 HT Bridge
+	100c  Apple Silicon PCI Express Root Port
 # should be 14e4:1645
 	1645  Broadcom NetXtreme BCM5701 Gigabit Ethernet
 	1801  T2 Bridge Controller
@@ -11132,6 +11137,7 @@
 	086d  C79 [GeForce 9200]
 	086e  C79 [GeForce 9100M G]
 	086f  MCP79 [GeForce 8200M G]
+		1043 16b2  F5GL Notebook
 	0870  C79 [GeForce 9400M]
 	0871  C79 [GeForce 9200]
 	0872  C79 [GeForce G102M]
@@ -11258,21 +11264,28 @@
 	0a88  MCP79 Memory Controller
 	0a89  MCP79 Memory Controller
 	0a98  MCP79 Memory Controller
+		1043 1a87  F5GL Notebook
 		10de cb79  iMac 9,1
 	0aa0  MCP79 PCI Express Bridge
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 	0aa2  MCP79 SMBus
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 		19da a123  IONITX-F-E
 	0aa3  MCP79 Co-processor
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 		19da a123  IONITX-F-E
 	0aa4  MCP79 Memory Controller
+		1043 1a87  F5GL Notebook
 		19da a123  IONITX-F-E
 	0aa5  MCP79 OHCI USB 1.1 Controller
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 		19da a123  IONITX-F-E
 	0aa6  MCP79 EHCI USB 2.0 Controller
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 		19da a123  IONITX-F-E
 	0aa7  MCP79 OHCI USB 1.1 Controller
@@ -11284,14 +11297,17 @@
 		19da a123  IONITX-F-E
 	0aaa  MCP79 EHCI USB 2.0 Controller
 	0aab  MCP79 PCI Bridge
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 	0aac  MCP79 LPC Bridge
 	0aad  MCP79 LPC Bridge
 		19da a123  IONITX-F-E
 	0aae  MCP79 LPC Bridge
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 	0aaf  MCP79 LPC Bridge
 	0ab0  MCP79 Ethernet
+		1043 1215  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 		19da a123  IONITX-F-E
 	0ab1  MCP79 Ethernet
@@ -11303,6 +11319,7 @@
 	0ab6  MCP79 SATA Controller
 	0ab7  MCP79 SATA Controller
 	0ab8  MCP79 AHCI Controller
+		1043 1a87  F5GL Notebook
 	0ab9  MCP79 AHCI Controller
 		10de cb79  Apple iMac 9,1
 	0aba  MCP79 AHCI Controller
@@ -11312,6 +11329,7 @@
 	0abe  MCP79 RAID Controller
 	0abf  MCP79 RAID Controller
 	0ac0  MCP79 High Definition Audio
+		1043 1903  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 	0ac1  MCP79 High Definition Audio
 	0ac2  MCP79 High Definition Audio
@@ -11320,8 +11338,10 @@
 		10de cb79  Apple iMac 9,1
 	0ac5  MCP79 PCI Express Bridge
 	0ac6  MCP79 PCI Express Bridge
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 	0ac7  MCP79 PCI Express Bridge
+		1043 1a87  F5GL Notebook
 		10de cb79  Apple iMac 9,1
 	0ac8  MCP79 PCI Express Bridge
 	0ad0  MCP78S [GeForce 8200] SATA Controller (non-AHCI mode)
@@ -12551,8 +12571,7 @@
 	20b0  GA100 [A100 SXM4 40GB]
 	20b1  GA100 [A100 PCIe 40GB]
 	20b2  GA100 [A100 SXM4 80GB]
-# 20B3 14A7 10DE PG506-242 / 20B3 14A8 10DE PG506-243
-	20b3  GA100 [PG506-242/243]
+	20b3  GA100 [A100-SXM-64GB]
 	20b5  GA100 [A100 PCIe 80GB]
 	20b6  GA100GL [PG506-232]
 	20b7  GA100GL [A30 PCIe]
@@ -12702,6 +12721,7 @@
 	25f9  GA107 [RTX A1000 Embedded GPU ]
 	25fa  GA107 [RTX A2000 Embedded GPU]
 	25fb  GA107 [RTX A500 Embedded GPU]
+	2681  AD102 [RTX TITAN Ada]
 	2684  AD102 [GeForce RTX 4090]
 	26b1  AD102GL [L6000 / RTX 6000 Ada Generation]
 	26b5  AD102GL [L40]
@@ -13062,6 +13082,7 @@
 		103c 86d4  Pavilion Laptop 15-ec0xxx
 # Rev 29, uses r8169 Driver on Linux
 		103c 8882  HP ProDesk 405 G8 Desktop Mini PC
+		103c 8b17  ProBook 445 G9/455 G9 [RTL8111HSH-CG GbE Controller]
 		1043 11f5  Notebook motherboard (one of many models)
 		1043 16d5  U6V/U31J laptop
 		1043 81aa  P5B
@@ -13715,6 +13736,7 @@
 		1462 7181  K8MM3-V mainboard
 		147b 1407  KV8-MAX3 motherboard
 		1695 300c  Realtek ALC655 audio on EP-8KRA series mainboard
+		16f3 4170  J7F2 motherboard
 		1849 0850  ASRock 775Dual-880 Pro onboard audio (Realtek ALC850)
 		1849 9739  P4VT8 Mainboard (C-Media CMI9739A codec)
 # probably all K7VT2/4*/6
@@ -14333,6 +14355,7 @@
 112a  Hermes Electronics Company, Ltd.
 # nee Linotype - Hell AG
 112b  Heidelberger Druckmaschinen AG
+	0001  SCU5
 112c  Zenith Data Systems
 112d  Ravicad
 112e  Infomedia Microelectronics Inc.
@@ -24641,6 +24664,7 @@
 	0101  Codensity D400 SSD
 	0102  Codensity D408 PCIe Gen4 NVMe SSD
 	0202  Codensity T408 Video Encoding-Decoding Accelerator
+	0401  Quadra Video Processing Unit (VPU)
 # nee Fuzhou Rockchip Electronics Co., Ltd
 1d87  Rockchip Electronics Co., Ltd
 	0100  RK3399 PCI Express Root Port
@@ -27053,6 +27077,7 @@
 		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0d9f  Ethernet Controller (2) I225-IT
+	0dcd  Ethernet Connection C825-X
 	0dd2  Ethernet Network Adapter I710
 		1137 0000  I710T4LG 4x1 GbE RJ45 PCIe NIC
 		1137 02e3  I710T4LG 4x1 GbE RJ45 PCIe NIC
@@ -27772,7 +27797,7 @@
 	1107  PRO/1000 MF Server Adapter (LX)
 	1130  82815 815 Chipset Host Bridge and Memory Controller Hub
 		1025 1016  Travelmate 612 TX
-		1043 8027  TUSL2-C Mainboard
+		1043 8027  CUSL2-C/TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
 		8086 4532  Desktop Board D815EEA2/D815EFV
 		8086 4557  D815EGEW Mainboard
@@ -29303,6 +29328,8 @@
 	2088  Sky Lake-E DDRIO Registers
 	208d  Sky Lake-E CHA Registers
 	208e  Sky Lake-E CHA Registers
+# Engineering sample GPU
+	2240  Larrabee
 	2241  Larrabee
 	2250  Xeon Phi coprocessor 5100 series
 	225c  Xeon Phi coprocessor SE10/7120 series
@@ -29411,7 +29438,7 @@
 		1028 00d8  Precision 530
 		1028 010e  Optiplex GX240
 		103c 126f  e-pc 40
-		1043 8027  TUSL2-C Mainboard
+		1043 8027  CUSL2-C/TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
 		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
@@ -29426,7 +29453,7 @@
 		1028 00d8  Precision 530
 		1028 010e  Optiplex GX240
 		103c 126f  e-pc 40
-		1043 8027  TUSL2-C Mainboard
+		1043 8027  CUSL2-C/TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
 		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
@@ -29440,7 +29467,7 @@
 		1028 00d8  Precision 530
 		1028 010e  Optiplex GX240
 		103c 126f  e-pc 40
-		1043 8027  TUSL2-C Mainboard
+		1043 8027  CUSL2-C/TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
 		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
@@ -29528,7 +29555,7 @@
 		1028 00d8  Precision 530
 		1028 010e  Optiplex GX240
 		103c 126f  e-pc 40
-		1043 8027  TUSL2-C Mainboard
+		1043 8027  CUSL2-C/TUSL2-C Mainboard
 		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		15d9 3280  Supermicro P4SBE Mainboard
@@ -33208,7 +33235,11 @@
 	56b1  DG2 [Arc Pro A40/A50]
 	56c0  Data Center GPU Flex 170
 	56c1  Data Center GPU Flex 140
+	579c  Ethernet Connection E825-C for backplane
+	579d  Ethernet Connection E825-C for QSFP
+	579e  Ethernet Connection E825-C for SFP
 	57b1  Ethernet Controller E610 1GBASE T
+		8086 0000  Ethernet Converged Network Adapter E610
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
 	5900  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
