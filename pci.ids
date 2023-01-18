@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.01.14
-#	Date:    2023-01-14 03:15:01
+#	Version: 2023.01.18
+#	Date:    2023-01-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1123,6 +1123,7 @@
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		ea50 ce19  mCOM10-L1900
 	15e7  Barcelo
+		103c 8b17  ProBook 445 G9/455 G9
 	15ff  Fenghuang [Zhongshan Subor Z+]
 	1607  Arden
 	1636  Renoir
@@ -5082,6 +5083,7 @@
 		ea50 ce19  mCOM10-L1900
 	15e3  Family 17h/19h HD Audio Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
+		103c 8b17  ProBook 445 G9/455 G9
 		1043 86c7  PRIME B450M-A Motherboard
 		17aa 5124  ThinkPad E595
 	15e4  Sensor Fusion Hub
@@ -5424,6 +5426,7 @@
 	7908  FCH USB EHCI Controller
 	790b  FCH SMBus Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
+		103c 8b17  ProBook 445 G9/455 G9
 		1043 876b  PRIME Motherboard
 		1462 7c37  X570-A PRO motherboard
 		15d9 790b  H12SSL-i
@@ -7303,6 +7306,7 @@
 	006b  Intrepid2 GMAC (Sun GEM)
 	0074  U4 HT Bridge
 	100c  Apple Silicon PCI Express Root Port
+	1010  Apple Silicon USB4/Thunderbolt PCI Express Root Port
 # should be 14e4:1645
 	1645  Broadcom NetXtreme BCM5701 Gigabit Ethernet
 	1801  T2 Bridge Controller
@@ -22395,7 +22399,7 @@
 17c2  Newisys, Inc.
 17c3  Protogate, Inc.
 # nee Airgo Networks, Inc.
-17cb  Qualcomm
+17cb  Qualcomm Technologies, Inc
 	0001  AGN100 802.11 a/b/g True MIMO Wireless Card
 		1385 5c00  WGM511 Pre-N 802.11g Wireless CardBus Adapter
 		1737 0045  WMP54GX v1 802.11g Wireless-G PCI Adapter with SRX
@@ -24370,9 +24374,9 @@
 		1cc4 a212  NVMe SSD UHXXXa series U.2 1600GB
 		1cc4 a213  NVMe SSD UHXXXa series U.2 3200GB
 		1cc4 a214  NVMe SSD UHXXXa series U.2 6400GB
-		1cc4 e122  VNMe SSD UH711a series U.2 1920GB
-		1cc4 e123  VNMe SSD UH711a series U.2 3840GB
-		1cc4 e124  VNMe SSD UH711a series U.2 7680GB
+		1cc4 e122  NVMe SSD UH711a series U.2 1920G
+		1cc4 e123  NVMe SSD UH711a series U.2 3840GB
+		1cc4 e124  NVMe SSD UH711a series U.2 7680GB
 	17ab  NVMe 256G SSD device
 	6303  AM630 PCIe 4.0 x4 NVMe SSD Controller
 1cc5  Embedded Intelligence, Inc.
