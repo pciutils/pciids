@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.02.19
-#	Date:    2023-02-19 03:15:02
+#	Version: 2023.02.23
+#	Date:    2023-02-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -79,6 +79,7 @@
 021b  Compaq Computer Corporation
 	8139  HNE-300 (RealTek RTL8139c) [iPaq Networking]
 025e  Solidigm
+	0b60  NVMe DC SSD [Sentinel Rock Plus controller]
 # Solidigm SSD Product
 	0b70  NVMe DC SSD [Yorktown controller]
 0270  Hauppauge computer works Inc. (Wrong ID)
@@ -1136,7 +1137,8 @@
 	1551  Arlene
 	1552  Pooky
 	1561  Anubis
-	15bf  Phoenix
+	15bf  Phoenix1
+	15c8  Phoenix2
 	15d8  Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		17aa 3181  ThinkCentre M75n IoT
@@ -3837,6 +3839,8 @@
 	7310  Navi 10 [Radeon Pro W5700X]
 	7312  Navi 10 [Radeon Pro W5700]
 	7314  Navi 10 USB
+	7319  Navi 10 [Radeon Pro 5700 XT]
+	731b  Navi 10 [Radeon Pro 5700]
 	731e  TDC-150
 	731f  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1002 0b36  Reference RX 5700 XT
@@ -3888,7 +3892,6 @@
 	73e3  Navi 23 WKS-XL [Radeon PRO W6600]
 	73e4  Navi 23 USB
 	73ef  Navi 23 [Radeon RX 6650 XT / 6700S / 6800S]
-		1002 73ef  Navi 23 [Radeon RX 6700S / 6800S / 6650 XT]
 		1458 2405  Navi 23 [Radeon RX 6650 XT]
 	73ff  Navi 23 [Radeon RX 6600/6600 XT/6600M]
 		1462 5022  RX 6600 MECH 2X
@@ -3906,6 +3909,7 @@
 		1da2 e457  PULSE AMD Radeon RX 6500 XT
 	744c  Navi 31 [Radeon RX 7900 XT/7900 XTX]
 		1da2 e471  NITRO+ RX 7900 XTX Vapor-X
+		1eae 7901  RX-79XMERCB9 [SPEEDSTER MERC 310 RX 7900 XTX]
 	7480  Navi 33 [Radeon RX 7600S]
 	7483  Navi 33 [Radeon RX 7600M/7600M XT]
 	7833  RS350 Host Bridge
@@ -12758,7 +12762,7 @@
 	25b9  GA107GLM [RTX A1000 Laptop GPU]
 	25ba  GA107GLM [RTX A2000 8GB Laptop GPU]
 	25bb  GA107GLM [RTX A500 Laptop GPU]
-	25bc  GA107
+	25bc  GA107GLM [RTX A1000 6GB Laptop GPU]
 	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
 	25e2  GA107BM [GeForce RTX 3050 Mobile]
 	25e5  GA107BM [GeForce RTX 3050 Mobile]
@@ -12780,19 +12784,19 @@
 	2782  AD104 [GeForce RTX 4070 Ti]
 	2785  AD104
 	2786  AD104 [GeForce RTX 4070]
-	27a0  GN21-X9
+	27a0  AD104M [GeForce RTX 4080 Max-Q / Mobile]
 	27b8  AD104GL [L4]
 	27ba  AD104
 	27bb  AD104GLM [RTX 3500 Ada Generation Laptop GPU]
-	27e0  GN21-X9
-	2820  GN21-X6
+	27e0  AD104M [GeForce RTX 4080 Max-Q / Mobile]
+	2820  AD106M [GeForce RTX 4070 Max-Q / Mobile]
 	2838  AD106GLM [RTX 3000 Ada Generation Laptop GPU]
-	2860  GN21-X6
-	28a0  GN21-X4
-	28a1  GN21-X2
+	2860  AD106M [GeForce RTX 4070 Max-Q / Mobile]
+	28a0  AD107M [GeForce RTX 4060 Max-Q / Mobile]
+	28a1  AD107M [GeForce RTX 4050 Max-Q / Mobile]
 	28b8  AD107GLM [RTX 2000 Ada Generation Laptop GPU]
-	28e0  GN21-X4
-	28e1  GN21-X2
+	28e0  AD107M [GeForce RTX 4060 Max-Q / Mobile]
+	28e1  AD107M [GeForce RTX 4050 Max-Q / Mobile]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -21235,6 +21239,10 @@
 	0281  NPS-600 Flash Recovery
 	0282  ArcusE Flash recovery
 	0283  ArcusE RMA
+# Sagitta ID
+	0284  Sagitta
+# Sagitta RMA
+	0285  Sagitta RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
 		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
@@ -22626,6 +22634,9 @@
 		17d3 1882  ARC-1882 8/12/16/24 Port PCIe 3.0 to SAS/SATA 6Gb RAID Controller
 		17d3 1883  ARC-1883 8/12/16/24 Port PCIe 3.0 to SAS/SATA 12Gb RAID Controller
 	1884  ARC-1884 series PCIe 3.0 to SAS/SATA 12/6Gb RAID Controller
+	1886  ARC-1886 series PCIe 4.0 to NVMe/SAS/SATA 16/12/6Gb RAID Controller
+		17d3 1686  ARC-1686 PCIe 4.0 to NVMe/SAS/SATA 16/12/6Gb RAID Controller
+		17d3 1886  ARC-1886 PCIe 4.0 to NVMe/SAS/SATA 16/12/6Gb RAID Controller
 	188a  ARC-1886 series PCIe 4.0 to NVMe/SAS/SATA 16/12/6Gb RAID Controller
 		17d3 1217  ARC-1217 4-Port PCIe 4.0 to SAS/SATA 12/6Gb RAID Controller
 		17d3 1227  ARC-1227 8-Port PCIe 4.0 to SAS/SATA 12/6Gb RAID Controller
@@ -24456,6 +24467,7 @@
 		1c5f 0b40  NVMe SSD PBlaze6 6530 7680G AIC
 		1c5f 0b41  NVMe SSD PBlaze6 6530 7680G 2.5" U.2
 		1c5f 0b47  NVMe SSD PBlaze6 6630 7680G 2.5" U.2
+		1c5f 1321  NVMe SSD PBlaze6 6531 1920G 2.5" U.2
 		1c5f 1331  NVMe SSD PBlaze6 6531 3840G 2.5" U.2
 		1c5f 1341  NVMe SSD PBlaze6 6531 7680G 2.5" U.2
 		1c5f 1431  NVMe SSD PBlaze6 6541 3840G 2.5" U.2
@@ -24471,6 +24483,7 @@
 		1c5f 4b40  NVMe SSD PBlaze6 6536 6400G AIC
 		1c5f 4b41  NVMe SSD PBlaze6 6536 6400G 2.5" U.2
 		1c5f 4b47  NVMe SSD PBlaze6 6636 6400G 2.5" U.2
+		1c5f 5321  NVMe SSD PBlaze6 6537 1600G 2.5" U.2
 		1c5f 5331  NVMe SSD PBlaze6 6537 3200G 2.5" U.2
 		1c5f 5341  NVMe SSD PBlaze6 6537 6400G 2.5" U.2
 		1c5f 5431  NVMe SSD PBlaze6 6547 3200G 2.5" U.2
@@ -25525,7 +25538,13 @@
 	1222  D1055AS Ethernet Controller
 	1223  D1055AS Ethernet Controller
 	1600  M16104 Family
+		1f0f 0001  M16104 Family
 	1601  M16104 Family Virtual Function
+		1f0f 0001  M16104 Family Virtual Function
+	1a00  M16104 Family
+		1f0f 0001  M16104 Family
+	1a01  M16104 Family Virtual Function
+		1f0f 0001  M16104 Family Virtual Function
 	2022  D1055AS PCI Express Switch Upstream Port
 	9088  D1055AS PCI Express Switch Downstream Port
 1f24  xFusion Digital Technologies Co., Ltd.
@@ -35725,6 +35744,12 @@ c0a9  Micron/Crucial Technology
 	540a  P2 NVMe PCIe SSD
 c0de  Motorola
 c0fe  Motion Engineering, Inc.
+ca01  I-TEK OptoElectronics Co., LTD.
+# CameraLink Frame Grabber
+	0212  Vulcan-CL
+ca02  I-TEK OptoElectronics Co., LTD.
+# VulcanCXP-CXP frame grabber.
+	0213  Vulcan-CXP
 ca3b  Cambrionix Ltd.
 ca50  Varian Australia Pty Ltd
 cace  CACE Technologies, Inc.
