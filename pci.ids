@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.02.23
-#	Date:    2023-02-23 03:15:02
+#	Version: 2023.03.17
+#	Date:    2023-03-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -80,6 +80,9 @@
 	8139  HNE-300 (RealTek RTL8139c) [iPaq Networking]
 025e  Solidigm
 	0b60  NVMe DC SSD [Sentinel Rock Plus controller]
+		025e d408  NVMe DC SSD U.2 15mm [D5-P5430]
+		025e d40c  NVMe DC SSD E1.S 9.5mm [D5-P5430]
+		025e d419  NVMe DC SSD E3.S 7.5mm [D5-P5430]
 # Solidigm SSD Product
 	0b70  NVMe DC SSD [Yorktown controller]
 0270  Hauppauge computer works Inc. (Wrong ID)
@@ -3656,6 +3659,7 @@
 	692b  Tonga PRO GL [FirePro W7100]
 		13cc 3d2b  MXRT-7600
 	692f  Tonga XTV GL [FirePro S7150V]
+	6930  Tonga PRO [Radeon R9 380 4GB]
 	6938  Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X]
 		1043 04f5  Radeon R9 380X
 		1043 04f7  Radeon R9 380X
@@ -3910,7 +3914,7 @@
 	744c  Navi 31 [Radeon RX 7900 XT/7900 XTX]
 		1da2 e471  NITRO+ RX 7900 XTX Vapor-X
 		1eae 7901  RX-79XMERCB9 [SPEEDSTER MERC 310 RX 7900 XTX]
-	7480  Navi 33 [Radeon RX 7600S]
+	7480  Navi 33 [Radeon RX 7700S/7600S]
 	7483  Navi 33 [Radeon RX 7600M/7600M XT]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
@@ -12525,7 +12529,7 @@
 		10de 1349  GRID RTX T10-2
 		10de 1370  Tesla T10 16GB
 		10de 13a5  GRID RTX T10-8
-	1e38  TU102GL [Tesla T10 24GB]
+	1e38  TU102GL [Tesla T40 24GB]
 	1e3c  TU102GL
 	1e3d  TU102GL
 	1e3e  TU102GL
@@ -12717,7 +12721,9 @@
 	24ba  GA104GLM [RTX A4500 Laptop GPU]
 	24bb  GA104GLM [RTX A3000 Laptop GPU]
 	24bf  GA104 [GeForce RTX 3070 Engineering Sample]
-	24c9  GA104 [GeForce RTX 3060 Ti]
+	24c7  GA104 [GeForce RTX 3060 GDDR6X]
+	24c8  GA104 [GeForce RTX 3070 GDDR6X]
+	24c9  GA104 [GeForce RTX 3060 Ti GDDR6X]
 	24dc  GA104M [GeForce RTX 3080 Mobile / Max-Q 8GB/16GB]
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
 	24df  GA104M
@@ -16482,6 +16488,13 @@
 	0000  EasyConnect 8/32
 	0002  EasyConnect 8/64
 	0003  EasyIO
+	0047  PCIe4 CDa
+	004b  PCIe4 CDa 16
+	009d  VisionLink F1
+	00a0  PCIe8g3 S5 (10G/40G)
+	00a3  VisionLink F4
+	00a9  VisionLink CLS
+	00ab  PCIe8g3 A5 10G
 123e  Simutech, Inc.
 # nee C-Cube Microsystems / acquired by Magnum Semiconductor
 123f  LSI Logic
@@ -20514,6 +20527,8 @@
 # Tomahawk4D
 	b999  BCM56999 Tomahawk4D 106G Switch ASIC
 	c909  BCM78909 Switch ASIC
+# Tomahawk6C A0 Switch ASIC
+	c914  BCM78914
 	d802  BCM58802 Stingray 50Gb Ethernet SoC
 		14e4 8021  Stingray Dual-Port 25Gb Ethernet PCIe SmartNIC w16GB DRAM (Part No BCM958802A8046C)
 		14e4 8023  PS410T-H04 NetXtreme-S 4x10G 10GBaseT PCIe SmartNIC
@@ -21062,7 +21077,7 @@
 156d  Alpha-Top Corp
 156e  Alfa Inc
 156f  M-Systems Flash Disk Pioneers Ltd
-1570  Lecroy Corp
+1570  Teledyne Lecroy
 1571  Contemporary Controls
 	a001  CCSI PCI20-485 ARCnet
 	a002  CCSI PCI20-485D ARCnet
@@ -21419,6 +21434,7 @@
 	a2de  BF4 Family Crypto disabled [BlueField-4 SoC Crypto disabled]
 	a2df  BF4 Family integrated network controller [BlueField-4 integrated network controller]
 	b200  ArcusE
+	c2d1  BlueField DPU Family Auxiliary Communication Channel [BlueField Family]
 	c2d2  MT416842 BlueField SoC management interfac
 	c2d3  MT42822 BlueField-2 SoC Management Interface
 	c2d4  MT43162 BlueField-3 Lx SoC Management Interface
@@ -21475,7 +21491,9 @@
 		1414 500b  Xbox Series X
 	500d  WD Ultrastar DC SN340 NVMe SSD
 	5011  WD PC SN810 / Black SN850 NVMe SSD
-	501a  WD Blue SN570 NVMe SSD
+	501a  WD Blue SN570 NVMe SSD 1TB
+	5025  WD Blue SN570 NVMe SSD 2TB
+	5030  Western Digital WD Black SN850X NVMe SSD
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -21534,6 +21552,8 @@
 15d8  Cybernetics Technology Co Ltd
 15d9  Super Micro Computer Inc
 	1b67  AOC-S3916L-H16iR-32DD
+	1b9d  Supermicro AOC-S3816L-L16IR
+	1c6e  Supermicro AOC-SLG4-2H8M2
 15da  Cyberfirm Inc
 15db  Applied Computing Systems Inc
 15dc  Litronic Inc
@@ -24279,6 +24299,10 @@
 		1bb1 0173  Nytro 5060M E1.S
 # Nytro 5060M (Rocinante Mainstream Performance) - E1.S TCG
 		1bb1 0174  Nytro 5060M E1.S TCG
+# Nytro 5350S (Ebonhawk Single Port) - 15mm
+		1bb1 0175  Nytro 5350S - 15mm
+# Nytro 5350S (Ebonhawk Single Port) TCG - 15mm
+		1bb1 0176  Nytro 5350S TCG - 15mm
 		1bb1 01a1  Nytro XP7102
 	5012  FireCuda 510 SSD
 	5016  FireCuda 520 SSD
@@ -25600,6 +25624,7 @@
 1f44  VVDN Technologies Private Limited
 1f4b  Axera Semiconductor Co., Ltd
 1f52  MangoBoost Inc.
+1f56  SAPEON Inc.
 1f60  Accelecom
 	0001  XELE-NIC 25K5
 	0054  XELE-NIC 25K5
@@ -28077,6 +28102,7 @@
 	11a5  Merrifield Serial IO PWM Controller
 	11c3  Quark SoC X1000 PCIe Root Port 0
 	11c4  Quark SoC X1000 PCIe Root Port 1
+	11eb  Simics NVMe Controller
 	1200  IXP1200 Network Processor
 		172a 0000  AEP SSL Accelerator
 	1209  8255xER/82551IT Fast Ethernet Controller
@@ -35768,6 +35794,7 @@ ccec  Curtiss-Wright Controls Embedded Computing
 cddd  Tyzx, Inc.
 	0101  DeepSea 1 High Speed Stereo Vision Frame Grabber
 	0200  DeepSea 2 High Speed Stereo Vision Frame Grabber
+cdfa  NextSilicon Ltd
 ceba  KEBA AG
 cf86  Spectrum-4TOR
 	0276  Spectrum-4TOR in Flash Recovery Mode
@@ -36029,6 +36056,7 @@ f849  ASRock Incorporation (Wrong ID)
 fa57  Interagon AS
 	0001  PMC [Pattern Matching Chip]
 fab7  Fabric7 Systems, Inc.
+fe19  TenaFe, Inc.
 febd  Ultraview Corp.
 # Nee Epigram
 feda  Broadcom Inc
