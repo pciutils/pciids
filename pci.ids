@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.03.17
-#	Date:    2023-03-17 03:15:02
+#	Version: 2023.04.01
+#	Date:    2023-04-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -83,6 +83,9 @@
 		025e d408  NVMe DC SSD U.2 15mm [D5-P5430]
 		025e d40c  NVMe DC SSD E1.S 9.5mm [D5-P5430]
 		025e d419  NVMe DC SSD E3.S 7.5mm [D5-P5430]
+		025e d808  NVMe DC SSD U.2 15mm [D5-P5336]
+		025e d819  NVMe DC SSD E3.S 7.5mm [D5-P5336]
+		025e d81d  NVMe DC SSD E1.L 9.5mm [D5-P5336]
 # Solidigm SSD Product
 	0b70  NVMe DC SSD [Yorktown controller]
 0270  Hauppauge computer works Inc. (Wrong ID)
@@ -768,6 +771,9 @@
 		1028 2142  HBA465e Adapter
 		1028 2209  HBA465i Adapter
 		1028 220a  HBA465i Front
+		15d9 1d03  AOC-S4116L-H16IR (16DD/96DD) RAID Adapter
+		15d9 1d07  AOC-S4016L-L16IT Storage Adapter
+		15d9 1d08  AOC-S4016L-L16IR Storage Adapter
 		1d49 020a  ThinkSystem 450W-16e SAS/SATA PCIe Gen4 24Gb HBA
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 # 8 Internal and 8 External port channel 9400 HBA
@@ -867,6 +873,9 @@
 		1028 2175  HBA350i Adapter
 		1028 2197  HBA350i MM LP
 		1028 2212  HBA355e-s Adapter
+		15d9 1b64  SCC-B8SB80-B1 (NI22) Storage Controller Card
+		15d9 1b65  AOC-S3816L-L16iT (NI22) Storage Adapter
+		15d9 1b99  AOC-S3808L-L8iT Storage Adapter
 		1d49 0205  ThinkSystem 440-16i SAS/SATA PCIe Gen4 12Gb Internal HBA
 		1d49 0206  ThinkSystem 440-16e SAS/SATA PCIe Gen4 12Gb HBA
 		1d49 0207  ThinkSystem 440-8i SAS/SATA PCIe Gen4 12Gb HBA
@@ -995,6 +1004,9 @@
 		1028 1ae3  PERC H755 MX
 		1028 2171  PERC H750 Mini
 		1028 2176  PERC H750 Adapter
+		15d9 1b66  AOC-S3908L-H8iR RAID Adapter
+		15d9 1b67  AOC-S3916L-H16iR RAID Adapter
+		15d9 1c06  AOC-S3916L-H16iR-32DD+ RAID Adapter
 		1d49 060a  ThinkSystem RAID 940-8i 4GB Flash PCIe Gen4 12Gb Adapter
 		1d49 060b  ThinkSystem RAID 940-8i 8GB Flash PCIe Gen4 12Gb Adapter
 		1d49 060c  ThinkSystem RAID 940-16i 8GB Flash PCIe Gen4 12Gb Adapter
@@ -1018,6 +1030,10 @@
 		1028 2174  PERC H350 Mini
 		1028 2177  PERC H350 Adapter
 		1028 2199  PERC H350 Mini LP
+		15d9 1b9d  AOC-S3816L-L16IR Storage Adapter
+		15d9 1b9f  AOC-S3816L-L8IR Storage Adapter
+		15d9 1c6d  AOC-S3808L-L8IR Storage Adapter
+		15d9 1c6e  AOC-SLG4-2H8M2 Storage Adapter
 		1d49 0505  ThinkSystem RAID 540-8i PCIe Gen4 12Gb Adapter
 		1d49 0506  ThinkSystem RAID 540-16i PCIe Gen4 12Gb Adapter
 	10e7  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
@@ -1357,7 +1373,7 @@
 		1043 8445  M5A78L LE
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1179 ff50  Satellite P305D-S8995E
-		1458 a022  GA-MA770-DS3rev2.0 Motherboard
+		1458 a022  GA-770/78-series motherboard
 		1458 a102  GA-880GMA-USB3
 		1462 7596  760GM-E51(MS-7596) Motherboard
 		17f2 5000  KI690-AM2 Motherboard
@@ -1370,7 +1386,7 @@
 		1043 8389  M4A785TD Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
 		1179 ff50  Satellite P305D-S8995E
-		1458 4385  GA-MA770-DS3rev2.0 Motherboard
+		1458 4385  GA-770/78-series motherboard
 		1462 7368  K9AG Neo2
 		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
@@ -1432,7 +1448,7 @@
 		1043 8443  M5A88-V EVO
 		1043 84dd  M5A99X EVO (R1.0) SB950
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
-		1458 b002  GA-880GMA-USB3
+		1458 b002  GA-78/880-series motherboard
 		174b 1001  PURE Fusion Mini
 	4392  SB7x0/SB8x0/SB9x0 SATA Controller [Non-RAID5 mode]
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
@@ -1446,7 +1462,7 @@
 		1043 82ef  M3A78-EH Motherboard
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
-		1458 5004  GA-880GMA-USB3
+		1458 5004  GA-78/880-series motherboard
 		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 		174b 1001  PURE Fusion Mini
@@ -1457,7 +1473,7 @@
 		1043 82ef  M3A78-EH Motherboard
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
-		1458 5004  GA-880GMA-USB3
+		1458 5004  GA-78/880-series motherboard
 		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 		174b 1001  PURE Fusion Mini
@@ -1465,6 +1481,7 @@
 		1019 2120  A785GM-M
 		1043 82ef  M3A78-EH Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
+		1458 5004  GA-MA78GM-S2H motherboard
 		1462 7596  760GM-E51(MS-7596) Motherboard
 		15d9 a811  H8DGU
 	4399  SB7x0/SB8x0/SB9x0 USB OHCI2 Controller
@@ -1472,7 +1489,7 @@
 		1043 82ef  M3A78-EH Motherboard
 		1043 8443  M5A88-V EVO
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
-		1458 5004  GA-880GMA-USB3
+		1458 5004  GA-78/880-series motherboard
 		1462 7596  760GM-E51(MS-7596) Motherboard
 		174b 1001  PURE Fusion Mini
 	439c  SB7x0/SB8x0/SB9x0 IDE Controller
@@ -1481,6 +1498,7 @@
 		103c 1609  ProLiant MicroServer N36L
 		1043 82ef  M3A78-EH Motherboard
 		105b 0e13  N15235/A74MX mainboard / AMD SB700
+		1458 5002  GA-MA78GM-S2H motherboard
 		1462 7596  760GM-E51(MS-7596) Motherboard
 	439d  SB7x0/SB8x0/SB9x0 LPC host controller
 		1019 2120  A785GM-M
@@ -3878,6 +3896,7 @@
 	73bf  Navi 21 [Radeon RX 6800/6800 XT / 6900 XT]
 		1002 0e3a  Radeon RX 6900 XT
 		148c 2408  Red Devil AMD Radeon RX 6900 XT
+		1da2 438e  NITRO+ Radeon RX 6800 XT
 		1da2 440f  TOXIC RX 6900 XT
 		1da2 e437  Pulse Radeon RX 6800
 		1eae 6701  Speedster MERC 319 AMD Radeon RX 6800 XT Black
@@ -12640,6 +12659,7 @@
 	20f3  GA100 [A800-SXM4-80GB]
 	20f5  GA100 [A800 80GB PCIe]
 	20f6  GA100 [A800 40GB PCIe]
+	20fd  GA100 [A100T]
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
@@ -12685,10 +12705,12 @@
 	2302  GH100
 	2313  GH100 [H100 CNX]
 	2321  GH100
-	2322  GH100 [H800]
+	2322  GH100 [H800 PCIe]
+	2324  GH100 [H800]
 	2330  GH100[H100 SXM5 80GB]
 	2331  GH100 [H100 PCIe]
 	2336  GH100 [H100]
+	2339  GH100 [H100]
 	2414  GA103 [GeForce RTX 3060 Ti]
 	2420  GA103M [GeForce RTX 3080 Ti Mobile]
 	2438  GA103GLM [RTX A5500 Laptop GPU]
@@ -12769,6 +12791,7 @@
 	25ba  GA107GLM [RTX A2000 8GB Laptop GPU]
 	25bb  GA107GLM [RTX A500 Laptop GPU]
 	25bc  GA107GLM [RTX A1000 6GB Laptop GPU]
+	25bd  GA107GLM [RTX A500 Laptop GPU]
 	25e0  GA107BM [GeForce RTX 3050 Ti Mobile]
 	25e2  GA107BM [GeForce RTX 3050 Mobile]
 	25e5  GA107BM [GeForce RTX 3050 Mobile]
@@ -12791,10 +12814,13 @@
 	2785  AD104
 	2786  AD104 [GeForce RTX 4070]
 	27a0  AD104M [GeForce RTX 4080 Max-Q / Mobile]
+	27b0  AD104GL [RTX 4000 SFF Ada Generation]
+	27b7  AD104GL [L16]
 	27b8  AD104GL [L4]
-	27ba  AD104
+	27ba  AD104GLM [RTX 4000 Ada Generation Laptop GPU]
 	27bb  AD104GLM [RTX 3500 Ada Generation Laptop GPU]
 	27e0  AD104M [GeForce RTX 4080 Max-Q / Mobile]
+	2803  AD106 [GeForce RTX 4060 Ti]
 	2820  AD106M [GeForce RTX 4070 Max-Q / Mobile]
 	2838  AD106GLM [RTX 3000 Ada Generation Laptop GPU]
 	2860  AD106M [GeForce RTX 4070 Max-Q / Mobile]
@@ -13012,6 +13038,7 @@
 10ec  Realtek Semiconductor Co., Ltd.
 	0139  RTL-8139/8139C/8139C+ Ethernet Controller
 	3000  Killer E3000 2.5GbE Controller
+	4321  RTL8852BE 802.11ax PCIe Wireless Network Adapter
 	5208  RTS5208 PCI Express Card Reader
 	5209  RTS5209 PCI Express Card Reader
 	5227  RTS5227 PCI Express Card Reader
@@ -18039,7 +18066,7 @@
 		1043 8180  NX1101
 13f1  Oce' - Technologies B.V.
 13f2  Ford Microelectronics Inc
-13f3  Mcdata Corporation
+13f3  Brocade Communications Systems, Inc.
 13f4  Troika Networks, Inc.
 	1401  Zentai Fibre Channel Adapter
 13f5  Kansai Electric Co. Ltd
@@ -22772,6 +22799,7 @@
 	2012  M2012/R3308 VGA-compatible graphics adapter
 # IGP = on-chip integrated in the Vortex86DX3. Basic 2D accel. UMA architecture.
 	2015  RDC M2015 VGA-compatible graphics adapter
+	3010  R3010 HD Audio Controller
 # Found in the Vortex86EX SoC
 	6011  R6011 ISA Bridge
 # Found in the Vortex86EX2 SoC
@@ -24385,6 +24413,7 @@
 	001d  Vega
 	001f  FD940
 	0020  FD2110
+	0021  FD722
 1c28  Lite-On IT Corp. / Plextor
 	0122  M6e PCI Express SSD [Marvell 88SS9183]
 # previously Fiberblaze
@@ -25277,6 +25306,38 @@
 		1028 2193  NVMe CD7 E3.S 1.92TB
 		1028 2194  NVMe CD7 E3.S 3.84TB
 		1028 2195  NVMe CD7 E3.S 7.68TB
+	0013  NVMe SSD Controller CM7 2.5"
+		1028 222d  Ent NVMe CM7 FIPS U.2 RI 30.72TB
+		1028 222e  Ent NVMe CM7 FIPS U.2 RI 15.36TB
+		1028 222f  Ent NVMe CM7 FIPS U.2 RI 7.68TB
+		1028 2230  Ent NVMe CM7 FIPS U.2 RI 3.84TB
+		1028 2231  Ent NVMe CM7 FIPS U.2 RI 1.92TB
+		1028 2232  Ent NVMe CM7 U.2 RI 30.72TB
+		1028 2233  Ent NVMe CM7 U.2 RI 15.36TB
+		1028 2234  Ent NVMe CM7 U.2 RI 7.68TB
+		1028 2235  Ent NVMe CM7 U.2 RI 3.84TB
+		1028 2236  Ent NVMe CM7 U.2 RI 1.92TB
+		1028 2237  Ent NVMe CM7 FIPS U.2 MU 12.8TB
+		1028 2238  Ent NVMe CM7 FIPS U.2 MU 6.4TB
+		1028 2239  Ent NVMe CM7 FIPS U.2 MU 3.2TB
+		1028 223a  Ent NVMe CM7 FIPS U.2 MU 1.6TB
+		1028 223b  Ent NVMe CM7 U.2 MU 12.8TB
+		1028 223c  Ent NVMe CM7 U.2 MU 6.4TB
+		1028 223d  Ent NVMe CM7 U.2 MU 3.2TB
+		1028 223e  Ent NVMe CM7 U.2 MU 1.6TB
+		1028 228c  Ent NVMe CM7 U.2 MU 6.4TB
+	0014  NVMe SSD Controller CM7 EDSFF
+		1028 223f  Ent NVMe CM7 FIPS E3.S RI 15.36TB
+		1028 2240  Ent NVMe CM7 FIPS E3.S RI 7.68TB
+		1028 2241  Ent NVMe CM7 FIPS E3.S RI 3.84TB
+		1028 2242  Ent NVMe CM7 E3.S RI 15.36TB
+		1028 2243  Ent NVMe CM7 E3.S RI 7.68TB
+		1028 2244  Ent NVMe CM7 E3.S RI 3.84TB
+		1028 2245  Ent NVMe CM7 E3.S RI 1.92TB
+		1028 2246  Ent NVMe CM7 E3.S MU 12.8TB
+		1028 2247  Ent NVMe CM7 E3.S MU 6.4TB
+		1028 2248  Ent NVMe CM7 E3.S MU 3.2TB
+		1028 2249  Ent NVMe CM7 E3.S MU 1.6TB
 	001f  NVMe SSD Controller CD8
 		1028 2223  DC NVMe CD8 U.2 SED 15.36TB
 		1028 2224  DC NVMe CD8 U.2 SED 7.68TB
@@ -34975,6 +35036,7 @@
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	a720  Raptor Lake-P [UHD Graphics]
 	a721  Raptor Lake-P [UHD Graphics]
+	a74f  GNA Scoring Accelerator module
 	a77f  Volume Management Device NVMe RAID Controller Intel Corporation
 	a780  Raptor Lake-S GT1 [UHD Graphics 770]
 	a781  Raptor Lake-S UHD Graphics
