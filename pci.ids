@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.04.01
-#	Date:    2023-04-01 03:15:02
+#	Version: 2023.04.10
+#	Date:    2023-04-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21567,7 +21567,7 @@
 15cd  Dreamtech Co Ltd
 15ce  Genrad Inc
 # https://www.hilscher.com/imprint/
-15cf  Hilscher Gesellschaft fÃ¼r Systemautomation mbH
+15cf  Hilscher Gesellschaft für Systemautomation mbH
 	0000  CIFX PCI/PCIe
 15d1  Infineon Technologies AG
 15d2  FIC (First International Computer Inc)
