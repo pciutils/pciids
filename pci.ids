@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.05.15
-#	Date:    2023-05-15 03:15:02
+#	Version: 2023.05.16
+#	Date:    2023-05-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25537,6 +25537,7 @@
 	1002  NVMe SSD [3DNAND] 2.5" U.2 (LJ1)
 		1e95 1101  NVMe SSD [3DNAND] 2.5" U.2 (LJ1)
 		1ea0 5636  TP1500 Series U.2 NVMe Datacenter SSD
+1e96  Drut Technologies Inc.
 1e9f  Lynxi Technologies Co., Ltd.
 1ea0  Tencent Technology (Shenzhen) Company Limited
 	2a16  Cloud Intelligent Inference Controller
