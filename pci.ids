@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.05.16
-#	Date:    2023-05-16 03:15:01
+#	Version: 2023.05.23
+#	Date:    2023-05-23 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2876,7 +2876,7 @@
 		1462 3411  Radeon RX 470
 		1462 3413  Radeon RX 480 Gaming X 8GB
 		1462 3416  Radeon RX 570
-		1462 3418  Radeon RX 580 Armor 4G OC
+		1462 3418  Radeon RX 580 ARMOR 8G OC
 		1462 341b  Radeon RX 570 Armor 8G OC
 		1462 341e  Radeon RX 570 Armor 4G OC
 		1462 809e  Radeon RX 480 4GB
@@ -9437,8 +9437,10 @@
 		103c 0024  Pavilion ze4400 builtin USB
 		103c 0025  XE4500 Notebook
 		104d 810f  VAIO PCG-U1 USB/OHCI Revision 1.0
+		10b9 5237  M5273 USB OHCI PCI adapter
 		1849 5237  ASRock 939Dual-SATA2 Motherboard
 	5239  USB 2.0 Controller
+		10b9 5239  M5273 USB PCI adapter
 		1849 5239  ASRock 939Dual-SATA2 Motherboard
 	5243  M1541 PCI to AGP Controller
 	5246  AGP8X Controller
@@ -19642,6 +19644,7 @@
 # MT7612E too?
 	7662  MT7662E 802.11ac PCI Express Wireless Network Adapter
 	7915  MT7915E 802.11ax PCI Express Wireless Network Adapter
+	7916  MT7905D/MT7975
 # WiFi 6E capable
 	7922  MT7922 802.11ax PCI Express Wireless Network Adapter
 	7961  MT7921 802.11ax PCI Express Wireless Network Adapter
@@ -20576,9 +20579,9 @@
 		1bb0 0021  HPE SimpliVity Accelerator
 	d804  BCM58804 Stingray 100Gb Ethernet SoC
 	f800  BCM78800 Switch ASIC [Trident5-X12]
-	f900  BCM78900 Switch ASIC [Tomahawk5]
+	f900  BCM78900 Switch ASIC [Tomahawk6]
 	f903  BCM78903 Switch ASIC [Tomahawk6]
-	f905  BCM78905 Switch ASIC [Tomahawk5]
+	f905  BCM78905 Switch ASIC [Tomahawk5+]
 	f910  BCM78910 Switch ASIC [Tomahawk6]
 	f914  BCM78914 Switch ASIC [Tomahawk6]
 	f917  BCM78917 Switch ASIC [Tomahawk6]
@@ -24818,6 +24821,7 @@
 	08b1  AQC108 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 	11b1  AQC111 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 	12b1  AQC112 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+	14c0  AQC113C NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 	87b1  AQC107 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 	94c0  AQC113CS NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
 		1043 87f5  ProArt X570-CREATOR WIFI
@@ -25559,12 +25563,33 @@
 	3401  SSD Contoller
 1ebd  EMERGETECH Company Ltd.
 	0101  Seirios 2063 Video Codec
-1ec6  Vastai Technologies (Shanghai) Inc.
+1ec6  Vastai Technologies
 	0100  SV100
+		1ec6 0010  VA1V
+		1ec6 0011  VA1A
+		1ec6 0012  VA1
+		1ec6 0013  VA1E
+		1ec6 0020  VA10V
+		1ec6 0021  VA10A
+		1ec6 0022  VA10
+		1ec6 0030  VE1P
+		1ec6 0031  VE1S
+		1ec6 0032  VE1V
+		1ec6 0033  VE1M
+		1ec6 0034  VE1E
+		1ec6 0040  VV1U
+		1ec6 0041  VA1U
+	0200  SG100
+		1ec6 0060  VG1200
+		1ec6 0061  VG1600
+		1ec6 0062  VG1800
+		1ec6 0063  VG1000
+	020f  SG100 vGPU
 1ec8  Innosilicon Co Ltd
 	8800  Fantasy I
 		1ec8 12a2  Fantasy I Device
 	8810  Fantasy I
+		1ec8 12a2  Fantasy I Device
 	9800  Fantasy II
 		1ec8 12a2  Fantasy II Device
 	9802  Fantasy II
@@ -29106,6 +29131,8 @@
 	1b48  82597EX 10GbE Ethernet Controller
 		8086 a01f  PRO/10GbE LR Server Adapter
 		8086 a11f  PRO/10GbE LR Server Adapter
+	1bd2  Sapphire Rapids SATA AHCI Controller
+	1bf2  Sapphire Rapids SATA AHCI Controller
 	1c00  6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 0-3)
 	1c01  6 Series/C200 Series Chipset Family Mobile SATA Controller (IDE mode, ports 0-3)
 	1c02  6 Series/C200 Series Chipset Family 6 port Desktop SATA AHCI Controller
@@ -33908,6 +33935,11 @@
 	7afc  Alder Lake-S PCH Serial IO I2C Controller #4
 	7afd  Alder Lake-S PCH Serial IO I2C Controller #5
 	7d0b  Volume Management Device NVMe RAID Controller Intel Corporation
+	7d40  Meteor Lake [Intel Graphics]
+	7d45  Meteor Lake [Intel Graphics]
+	7d55  Meteor Lake [Intel Graphics]
+	7d60  Meteor Lake [Intel Graphics]
+	7dd5  Meteor Lake [Intel Graphics]
 	7e01  Meteor Lake-P LPC/eSPI Controller
 	7e22  Meteor Lake-P SMBus Controller
 	7e23  Meteor Lake-P SPI Controller
@@ -35674,9 +35706,11 @@
 	1500  STAR1500 PCIe NVMe SSD Controller
 	1501  STAR1500C NVMe SSD
 	1502  STAR1500E NVMe SSD
+	1504  STAR1500L NVMe SSD
 	2000  STAR2000 NVMe Controller
 	2001  STAR2000E NVMe SSD
 	2002  STAR2000C NVMe SSD
+	2003  STAR2000L NVMe SSD
 a000  Asix Electronics Corporation (Wrong ID)
 a0a0  AOPEN Inc.
 a0f1  UNISYS Corporation
