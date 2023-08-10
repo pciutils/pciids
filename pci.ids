@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.08.09
-#	Date:    2023-08-09 03:15:02
+#	Version: 2023.08.10
+#	Date:    2023-08-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12863,6 +12863,7 @@
 	2786  AD104 [GeForce RTX 4070]
 	27a0  AD104M [GeForce RTX 4080 Max-Q / Mobile]
 	27b0  AD104GL [RTX 4000 SFF Ada Generation]
+	27b2  AD104GL [RTX 4000 Ada Generation]
 	27b7  AD104GL [L16]
 	27b8  AD104GL [L4]
 	27ba  AD104GLM [RTX 4000 Ada Generation Laptop GPU]
@@ -25562,6 +25563,16 @@
 	8001  I20 [CloudBlazer]
 	8011  I10 [CloudBlazer]
 	8012  I10L [CloudBlazer]
+# HHHL PCIe card, single slot, 3rd generation from Enflame
+	8031  S6 [Enflame]
+# HHHL PCIe card, single slot, 3rd generation from Enflame, 24GB device memory
+	8032  S6 [Enflame]
+# FHFL PCIe card, single slot, 3rd generation from Enflame
+	c031  S30 [Enflame]
+# HHHL PCIe card, dual slot, 3rd generation from Enflame
+	c032  S60 [Enflame]
+# FHFL PCIe card, single slot, 3rd generation from Enflame, 48GB device memory
+	c033  S30 [Enflame]
 # nee Thinci, Inc
 1e38  Blaize, Inc
 	0102  Xplorer X1600
