@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.08.10
-#	Date:    2023-08-10 03:15:02
+#	Version: 2023.08.12
+#	Date:    2023-08-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12853,6 +12853,7 @@
 	26b2  AD102GL [RTX 5000 Ada Generation]
 	26b5  AD102GL [L40]
 	26b8  AD102GL [L40G]
+	26b9  AD102GL [L40S]
 	26f5  AD102GL [L40 CNX]
 	2704  AD103 [GeForce RTX 4080]
 	2717  GN21-X11 [GeForce RTX 4090 Laptop GPU]
@@ -35409,7 +35410,7 @@
 	011b  WX1860AL1 Gigabit Ethernet Controller Virtual Function
 	1000  Ethernet Controller RP1000 Virtual Function for 10GbE SFP+
 	1001  Ethernet Controller RP1000 for 10GbE SFP+
-		1bd4 0084  Ethernet Controller SP1000A for 10GbE SFP+(lldp）
+		1bd4 0084  Ethernet Controller SP1000A for 10GbE SFP+(lldp)
 		1bd4 0085  Ethernet Controller SP1000A for 10GBASE-T
 		8088 0000  Ethernet Network Adaptor RP1000 for 10GbE SFP+
 		8088 0300  Ethernet Network Adaptor RP1000-A03 for 10GbE SFP+
