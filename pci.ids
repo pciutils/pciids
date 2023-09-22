@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2023.09.19
-#	Date:    2023-09-19 03:15:01
+#	Version: 2023.09.22
+#	Date:    2023-09-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -802,6 +802,20 @@
 		1d49 0204  ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA
 	00b2  PCIe Switch management endpoint
 		1d49 0003  ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter
+# 24G SAS/PCIe storage adapter chip
+	00b3  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
+# 9760W 32 internal port RAID controller
+		1000 5000  MegaRAID 9760W-32i 24G SAS/PCIe Storage Adapter
+# 9760W 16 internal port RAID controller
+		1000 5001  MegaRAID 9760W-16i 24G SAS/PCIe Storage Adapter
+# 9760W 16 internal and 16 external port RAID controller
+		1000 5010  MegaRAID 9760W-16i16e 24G SAS/PCIe Storage Adapter
+# 9700W 32 internal port Storage controller
+		1000 5020  eHBA 9700W-32i 24G SAS/PCIe Storage Adapter
+# 9700W 16 internal port Storage controller
+		1000 5021  eHBA 9700W-16i 24G SAS/PCIe Storage Adapter
+# 9700 16 external port Storage controller
+		1000 5030  eHBA 9700-16e 24G SAS/PCIe Storage Adapter
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00bf  SAS3404 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
 	00c0  SAS3324 PCI-Express Fusion-MPT SAS-3
@@ -24551,6 +24565,7 @@
 1bf4  VTI Instruments Corporation
 	0001  SentinelEX
 	7011  RX0xxx
+1bf5  Greenliant
 1bfc  Duagon AG
 1bfd  EeeTOP
 1c00  Nanjing Qinheng Microelectronics Co., Ltd.
