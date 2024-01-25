@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2024.01.24
-#	Date:    2024-01-24 03:15:02
+#	Version: 2024.01.25
+#	Date:    2024-01-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -48,7 +48,11 @@
 	7a15  Vivante GPU (Graphics Processing Unit)
 	7a19  PCI-to-PCI Bridge
 	7a24  OHCI USB Controller
+# Found on 7A2000 PCH
+	7a25  LG100 GPU
 	7a29  PCI-to-PCI Bridge
+# Found on 7A2000 PCH
+	7a36  Display Controller
 0018  Fn-Link Technology Limited
 	6252  6252CPUB 802.11ax PCIe Wireless Network Adapter
 001c  PEAK-System Technik GmbH
@@ -99,6 +103,7 @@
 		025e d81c  NVMe DC SSD E1.L 18mm [D5-P5336]
 		025e d81d  NVMe DC SSD E1.L 9.5mm [D5-P5336]
 	0b70  NVMe DC SSD [Yorktown controller]
+	2b59  NVMe DC SSD [Atomos Prime]
 	f1ab  P41 Plus NVMe SSD (DRAM-less) [Echo Harbor]
 	f1ac  P44 Pro NVMe SSD [Hollywood Beach]
 0270  Hauppauge computer works Inc. (Wrong ID)
@@ -13015,6 +13020,7 @@
 	26b9  AD102GL [L40S]
 	26ba  AD102GL [L20]
 	26f5  AD102GL [L40 CNX]
+	2702  AD103 [GeForce RTX 4080 SUPER]
 	2703  AD103 [GeForce RTX 4080 SUPER]
 	2704  AD103 [GeForce RTX 4080]
 	2705  AD103 [GeForce RTX 4070 Ti SUPER]
@@ -14428,6 +14434,8 @@
 # Superfastcom-PCI (Commtech, Inc.) or DSCC4 WAN Adapter
 	2102  DSCC4 PEB/PEF 20534 DMA Supported Serial Communication Controller with 4 Channels
 	2104  Eicon Diva 2.02 compatible passive ISDN card
+# S30807-Q5474
+	3101  HiPath 4000 PCI card
 	3141  SIMATIC NET CP 5611 / 5621
 	3142  SIMATIC NET CP 5613 / 5614
 	3143  SIMATIC NET CP 1613
@@ -21740,6 +21748,8 @@
 	0283  ArcusE RMA
 	0284  Sagitta
 	0285  Sagitta RMA
+	0286  LibraE Flash Recovery
+	0287  LibraE RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
 		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
@@ -21918,6 +21928,7 @@
 	a2de  BF4 Family Crypto disabled [BlueField-4 SoC Crypto disabled]
 	a2df  BF4 Family integrated network controller [BlueField-4 integrated network controller]
 	b200  ArcusE
+	b201  LibraE
 	c2d1  BlueField DPU Family Auxiliary Communication Channel [BlueField Family]
 	c2d2  MT416842 BlueField SoC management interfac
 	c2d3  MT42822 BlueField-2 SoC Management Interface
@@ -23440,6 +23451,7 @@
 	0701  RT2760 Wireless 802.11n 1T/2R
 		1737 0074  WMP110 v2 802.11n RangePlus Wireless PCI Adapter
 	0781  RT2790 Wireless 802.11n 1T/2R PCIe
+		11ad 7600  HP WN7600R
 		1814 2790  RT2790 Wireless 802.11n 1T/2R PCIe
 	3060  RT3060 Wireless 802.11n 1T/1R
 		1186 3c04  DWA-525 Wireless N 150 Desktop Adapter (rev.A1)
@@ -24584,6 +24596,8 @@
 1afa  J & W Electronics Co., Ltd.
 1b00  Montage Technology Co., Ltd.
 	c001  CXL Memory Expander Controller M88MX5891
+		1ff9 00a2  CXL Memory Expander
+		1ff9 00a4  CXL Memory Expander
 1b03  Magnum Semiconductor, Inc,
 	6100  DXT/DXTPro Multiformat Broadcast HD/SD Encoder/Decoder/Transcoder
 	7000  D7 Multiformat Broadcast HD/SD Encoder/Decoder/Transcoder
@@ -26896,6 +26910,7 @@
 2003  Smart Link Ltd.
 	8800  LM-I56N
 2004  Smart Link Ltd.
+2046  Shenzhen Inovance Technology Co., Ltd.
 2048  Beijing SpaceControl Technology Co.Ltd
 20f4  TRENDnet
 2116  ZyDAS Technology Corp.
@@ -26905,8 +26920,11 @@
 	22a0  Flex Logix InferX X1 Inference Accelerator
 22db  Missing Link Electronics, Inc.
 2304  Colorgraphic Communications Corp.
+2321  Bruker AXS Inc.
 2348  Racore
 	2010  8142 100VG/AnyLAN
+256c  Graphics Technology (HK) Co., Ltd.
+	006d  HS610
 2646  Kingston Technology Company, Inc.
 	0010  HyperX Predator PCIe AHCI SSD
 	2262  KC2000/KC2500 NVMe SSD SM2262EN
@@ -26987,6 +27005,7 @@
 3475  Arista Networks, Inc.
 34ba  Ice Lake-LP PCI Express Root Port #3
 3513  ARCOM Control Systems Ltd
+369a  HighSecLabs, Ltd.
 37d9  ITD Firm ltd.
 	1138  SCHD-PH-8 Phase detector
 	1140  VR-12-PCI 12-ch Relay Actuator Card
@@ -26994,6 +27013,8 @@
 	1142  PCI-CAN2
 3842  eVga.com. Corp.
 38ef  4Links
+# Wrong ID in board programmed sub-did in place of sub-vid
+393e  Lenovo (wrong ID)
 3d3d  3DLabs
 	0001  GLINT 300SX
 	0002  GLINT 500TX
@@ -27309,6 +27330,7 @@
 	5000  NV5000SC
 		4a14 5000  RT8029-Based Ethernet Adapter
 4b10  Buslogic Inc.
+4b43  KonteX Inc.
 4c48  LUNG HWA Electronics
 4c4d  Liquid-Markets GmbH
 # Dev versions of TaSR, not for production.
@@ -27371,6 +27393,7 @@
 	0d10  SB-365x Motion Feedback Device
 	2f00  SB-3642 Motion Feedback Device
 	3000  SB-3644 Motion Feedback Device
+4e4c  NieL TechSolution
 4e58  Nutanix, Inc.
 	0001  Virtual NVMe Controller
 5045  University of Toronto
@@ -27568,6 +27591,7 @@
 	0001  I-30xx Scanner Interface
 5555  Genroco, Inc
 	0003  TURBOstor HFP-832 [HiPPI NIC]
+	0004  Torrent QN16e [16-128 Channel MPEG QAM Modulator for DVB-C]
 	3b00  Epiphan DVI2PCIe video capture card
 5646  Vector Fabrics BV
 5654  VoiceTronix Pty Ltd
@@ -27635,6 +27659,7 @@
 6903  TBS Technologies (wrong ID)
 6909  TBS Technologies (wrong ID)
 6910  TBS Technologies (wrong ID)
+6f67  NOVAIUM Technology
 7063  pcHDTV
 	2000  HD-2000
 	3000  HD-3000
@@ -34565,6 +34590,7 @@
 	464d  12th Gen Core Processor PCI Express x4 Controller #0
 	464f  12th Gen Core Processor Gaussian & Neural Accelerator
 		1028 0b10  Precision 3571
+	4650  12th Gen Core Processor Host Bridge
 	465d  Alder Lake Imaging Signal Processor
 	4660  12th Gen Core Processor Host Bridge/DRAM Registers
 	4668  12th Gen Core Processor Host Bridge/DRAM Registers
@@ -34921,6 +34947,7 @@
 	5aee  Celeron N3350/Pentium N4200/Atom E3900 Series HSUART Controller #4
 	5af0  Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge
 	6420  Lunar Lake [Intel Graphics]
+	643e  Lunar Lake NPU
 	64a0  Lunar Lake [Intel Graphics]
 	64b0  Lunar Lake [Intel Graphics]
 	65c0  5100 Chipset Memory Controller Hub
@@ -35234,6 +35261,7 @@
 		8086 0090  WiFi 6E AX211 160MHz
 # Unlike other PCH components. The eSPI controller is specific to each chipset model
 	7a84  Z690 Chipset LPC/eSPI Controller
+	7a85  Alder Lake-S PCH PCI Express Root Port #?????
 	7aa3  Alder Lake-S PCH SMBus Controller
 	7aa4  Alder Lake-S PCH SPI Controller
 	7aa7  Alder Lake-S PCH Shared SRAM
@@ -35243,9 +35271,11 @@
 	7ab4  Alder Lake-S PCH PCI Express Root Port #13
 	7ab8  Alder Lake-S PCH PCI Express Root Port #1
 	7ab9  Alder Lake-S PCH PCI Express Root Port #2
+	7aba  Alder Lake-S PCH PCI Express Root Port #????
 	7abc  Alder Lake-S PCH PCI Express Root Port #5
 	7abd  Alder Lake-S PCH PCI Express Root Port #6
 	7abf  Alder Lake-S PCH PCI Express Root Port #8
+	7ac4  Alder Lake-S PCH PCI Express Root Port #????
 	7ac8  Alder Lake-S PCH PCI Express Root Port #25
 	7acc  Alder Lake-S PCH Serial IO I2C Controller #0
 	7acd  Alder Lake-S PCH Serial IO I2C Controller #1
@@ -36234,6 +36264,8 @@
 	a2ba  200 Series PCH CSME HECI #1
 		1462 7a72  H270 PC MATE
 	a2bb  200 Series PCH CSME HECI #2
+# AMT serial over LAN
+	a2bd  200 Series Chipset Family KT Redirection
 	a2c4  200 Series PCH LPC Controller (H270)
 		1462 7a72  H270 PC MATE
 	a2c5  200 Series PCH LPC Controller (Z270)
@@ -36402,6 +36434,7 @@
 	a87d  Lunar Lake-M USB 3.2 Gen 2x1 xHCI Host Controller
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
 	ad0b  Volume Management Device NVMe RAID Controller Intel Corporation
+	ad1d  Arrow Lake NPU
 	b152  21152 PCI-to-PCI Bridge
 		8086 b152  21152 PCI-to-PCI Bridge
 # observed, and documented in Intel revision note; new mask of 1011:0026
