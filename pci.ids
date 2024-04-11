@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2024.03.31
-#	Date:    2024-03-31 03:15:02
+#	Version: 2024.04.11
+#	Date:    2024-04-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -12761,6 +12761,7 @@
 	1dc1  GV100 [CMP 100-200]
 	1df0  GV100GL [Tesla PG500-216]
 	1df2  GV100GL [Tesla PG503-216]
+	1df4  GV100 [CMP 100-210]
 	1df5  GV100GL [Tesla V100 SXM2 16GB]
 	1df6  GV100GL [Tesla V100S PCIe 32GB]
 	1e02  TU102 [TITAN RTX]
@@ -13369,6 +13370,7 @@
 	5762  RTS5762 NVMe SSD Controller
 	5763  RTS5763DL NVMe SSD Controller (DRAM-less)
 	5765  RTS5765DL NVMe SSD Controller (DRAM-less)
+	5770  RTS5770DL NVMe SSD Controller (DRAM-less)
 	5772  RTS5772DL NVMe SSD Controller (DRAM-less)
 	8029  RTL-8029(AS)
 		10b8 2011  EZ-Card (SMC1208)
@@ -26561,6 +26563,17 @@
 		1e3b 00f3  Enterprise NVMe SSD U.2 3.20TB (X2900)
 		1e3b 00f5  Enterprise NVMe SSD U.2 0.40TB (X2900P)
 		1e3b 00f6  Enterprise NVMe SSD U.2 0.80TB (X2900P)
+	0800  DP800
+		1e3b 0001  Enterprise NVMe SSD U.2 QDP 3.84TB(R6100)
+		1e3b 0007  Enterprise NVMe SSD U.2 ODP 15.36TB (R6100)
+		1e3b 000a  Enterprise NVMe SSD U.2 3.20TB (R6300)
+		1e3b 000d  Enterprise NVMe SSD U.2 6.40TB (R6300)
+		1e3b 0010  Enterprise NVMe SSD U.2 12.80TB (R6300)
+		1e3b 0018  Enterprise NVMe SSD U.2 QDP 3.84TB (R6100C)
+		1e3b 0019  Enterprise NVMe SSD U.2 ODP 7.68TB (R6100C)
+		1e3b 001a  Enterprise NVMe SSD U.2 3.20TB (R6300C)
+		1e3b 001b  Enterprise NVMe SSD U.2 6.40TB (R6300C)
+		1e3b 001c  Enterprise NVMe SSD U.2 ODP 7.68TB (R6100)
 	1098  Haishen3 NVMe SSD
 		1e3b 0001  Enterprise NVMe SSD U.2 0.8TB (H2100)
 		1e3b 0002  Enterprise NVMe SSD U.2 0.96TB (H2200)
@@ -26613,6 +26626,7 @@
 	1011  PC210 NVMe SSD
 	1013  PC210 NVMe SSD
 	1031  PC300 NVMe SSD (DRAM-less)
+	1033  PC300 NVMe SSD (DRAM-less)
 1e4b  MAXIO Technology (Hangzhou) Ltd.
 	1001  NVMe SSD Controller MAP1001
 	1002  NVMe SSD Controller MAP1002 (DRAM-less)
@@ -27069,6 +27083,7 @@
 		1fe4 0076  Enterprise NVMe SSD U.2 7.68TB(HP610)
 		1fe4 0077  Enterprise NVMe SSD U.2 6.40TB(HP630)
 		1fe4 0078  Enterprise NVMe SSD U.2 3.20TB(HP630)
+1fe9  MemryX
 1ff4  DEEPX Co., Ltd.
 	0000  DX_M1
 	0001  DX_M1A
@@ -34870,6 +34885,7 @@
 	46b0  AlderLake-P [Iris Xe Graphics]
 	46b1  AlderLake-P [Iris Xe Graphics]
 	46b3  Alder Lake-UP3 GT1 [UHD Graphics]
+		1025 161d  N22C6 [Extensa 15 EX215-55]
 	46b6  AlderLake-P [Iris Xe Graphics]
 	46b8  AlderLake-P [Iris Xe Graphics]
 	46ba  AlderLake-P [Iris Xe Graphics]
@@ -36438,6 +36454,7 @@
 		1028 06e4  XPS 15 9550
 		103c 825b  OMEN-17-w001nv
 		1043 86c7  H110I-PLUS Motherboard
+		1462 f994  H110M ECO/GAMING
 	a171  CM238 HD Audio Controller
 	a182  C620 Series Chipset Family SATA Controller [AHCI mode]
 	a186  C620 Series Chipset Family SATA Controller [RAID mode]
@@ -36580,6 +36597,7 @@
 		1028 0869  Vostro 3470
 	a305  Z390 Chipset LPC/eSPI Controller
 	a306  Q370 Chipset LPC/eSPI Controller
+	a308  300 Series Chipset Family LPC Controller
 	a309  Cannon Point-LP LPC Controller
 	a30c  QM370 Chipset LPC/eSPI Controller
 	a30d  HM470 Chipset LPC/eSPI Controller
@@ -36650,10 +36668,12 @@
 	a3eb  Comet Lake PCI Express Root Port #21
 	a3f0  Comet Lake PCH-V cAVS
 	a620  6400/6402 Advanced Memory Buffer (AMB)
+	a703  Raptor Lake-S Host Bridge/DRAM Controller
 	a706  Raptor Lake-P 6p+8e cores Host Bridge/DRAM Controller
 		1028 0c06  Precision 3580
 	a707  Raptor Lake-P/U 4p+8e cores Host Bridge/DRAM Controller
 	a708  Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller
+	a70d  Raptor Lake PCI Express 5.0 Graphics Port (PEG010)
 	a71d  Raptor Lake Dynamic Platform and Thermal Framework Processor Participant
 		1028 0c06  Precision 3580
 	a71e  Raptor Lake-P Thunderbolt 4 USB Controller
@@ -36810,9 +36830,10 @@
 		8088 0420  Qual-Port Ethernet Network Adaptor SF400HT-S
 	0109  WX1860-LC Gigabit Ethernet Controller
 	010a  WX1860A1 Gigabit Ethernet Controller
-		4c52 2023  LRES2034PT Single-port 1Gb Ethernet Network Adapter
 		4c52 2026  LRES2026PF Single-port 1Gb Ethernet Network Adapter
+		4c52 2034  LRES2034PT Single-port 1Gb Ethernet Network Adapter
 	010b  WX1860AL1 Gigabit Ethernet Controller
+		4c52 2215  LRES2215PT Single-port 1Gb Ethernet Network Adapter
 		8088 0102  Single-Port Ethernet Network Adaptor SF100HT
 		8088 4102  Single-Port Ethernet Network Adaptor SF100HT (WOL)
 		8088 8102  Single-Port Ethernet Network Adaptor SF100HT (NCSI)
@@ -36858,6 +36879,7 @@
 # Wuxi Micro Innovation Integrated Circuit Design Co.,Ltd.
 8848  MUCSE
 	1000  Ethernet Controller N10 Series for 10GbE or 40GbE (Dual-port)
+		4c52 3032  LRES3032PF Dual-port 10Gb Ethernet Server Adapter for OCP
 		8848 8410  Ethernet Network Adapter N10G-X2-DC for 10GbE SFP+ 2-port
 	1001  Ethernet Controller N400 Series for 1GbE (Dual-port)
 	1003  Ethernet Controller N400 Series for 10GbE (Single-port)
@@ -36875,12 +36897,18 @@
 	1081  Ethernet Controller N400 Series Virtual Function
 	1083  Ethernet Controller N400 Series Virtual Function
 	8308  Ethernet Controller N500 Series for 1GbE (Quad-port, Copper RJ45)
+# NIC-ETH3M0T-3S-4P Quad-Port RJ45 Adapter for OCP 3.0
+		193d 1088  NIC-ETH3M0T-3S-4P
 		4c52 1048  LRES1048PT Quad-port 1Gb Ethernet Network Adapter
+		4c52 3044  LRES3044PT Quad-port 1Gb Ethernet Server Adapter for OCP
 	8309  Ethernet Controller N500 Series Virtual Function
 	8318  Ethernet Controller N500 Series for 1GbE (Dual-port, Copper RJ45)
 		4c52 1049  LRES1049PT Dual-port 1Gb Ethernet Network Adapter
+		4c52 3043  LRES3043PT Dual-port 1Gb Ethernet Server Adapter for OCP
 8866  T-Square Design Inc.
 8888  Silicon Magic
+# 4 port HDMI capture card
+	8504  AVMatrix VC42
 8912  TRX
 # 8c4a is not Winbond but there is a board misprogrammed
 8c4a  Winbond
@@ -37458,6 +37486,7 @@
 	2001  STAR2000E NVMe SSD
 	2002  STAR2000C NVMe SSD
 	2003  STAR2000L NVMe SSD
+	2004  EAST 2000K SSD
 	bb5b  Asgard AN3+ NVMe SSD
 	fc22  Asgard AN3+ NVMe SSD
 a000  Asix Electronics Corporation (Wrong ID)
@@ -37555,6 +37584,7 @@ c0a9  Micron/Crucial Technology
 	5412  P5 NVMe PCIe SSD[SlashP5]
 	5415  T500 NVMe PCIe SSD
 	5419  T700 NVMe PCIe SSD
+	5421  P3 Plus NVMe PCIe SSD (DRAM-less)
 c0de  Motorola
 c0fe  Motion Engineering, Inc.
 ca01  I-TEK OptoElectronics Co., LTD.
