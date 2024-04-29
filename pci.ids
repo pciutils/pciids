@@ -5464,6 +5464,7 @@
 		1849 43d0  Fatal1ty X370 Professional Gaming
 	43ba  X399 Series Chipset USB 3.1 xHCI Controller
 	43bb  300 Series Chipset USB 3.1 xHCI Controller
+        43bc  AMD A320 USB 3.1 XHCI Host Controller
 	43c6  400 Series Chipset PCIe Bridge
 	43c7  400 Series Chipset PCIe Port
 	43c8  400 Series Chipset SATA Controller
