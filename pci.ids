@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2024.09.12
-#	Date:    2024-09-12 03:15:02
+#	Version: 2024.09.20
+#	Date:    2024-09-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25330,7 +25330,7 @@
 	5012  FireCuda/IronWolf 510 SSD
 	5013  BarraCuda Q5 NVMe SSD (DRAM-less)
 	5016  FireCuda 520/IronWolf 525 SSD
-	5018  FireCuda 530 SSD
+	5018  E18 PCIe SSD
 	5019  BarraCuda PCIe SSD (DRAM-less)
 # 2TB
 	5021  FireCuda 520 SSD
