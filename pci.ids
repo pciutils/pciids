@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2024.11.25
-#	Date:    2024-11-25 03:15:02
+#	Version: 2025.01.13
+#	Date:    2025-01-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -35810,7 +35810,7 @@
 	4deb  Jasper Lake Serial IO I2C Host Controller #3
 	4ded  Jasper Lake USB 3.1 xHCI Host Controller
 	4def  Jasper Lake Shared SRAM
-	4df0  Wi-Fi 6 AX201 160MHz
+	4df0  Wireless-AC 9560 160MHz
 	4df8  Jasper Lake SD Controller
 	4e03  Dynamic Tuning service
 	4e19  JasperLake IPU
