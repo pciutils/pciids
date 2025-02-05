@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.01.27
-#	Date:    2025-01-27 03:15:01
+#	Version: 2025.02.05
+#	Date:    2025-02-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3985,7 +3985,7 @@
 		1849 5120  Radeon RX 5600 XT
 		1da2 e409  Sapphire Technology Limited Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1da2 e410  Sapphire NITRO+ RX 5700 XT
-		1da2 e411  Radeon RX 5600 XT
+		1da2 e411  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5500M]
 	7341  Navi 14 [Radeon Pro W5500]
 	7347  Navi 14 [Radeon Pro W5500M]
@@ -5651,6 +5651,7 @@
 	43f5  600 Series Chipset PCIe Switch Downstream Port
 	43f6  600 Series Chipset SATA Controller
 	43f7  600 Series Chipset USB 3.2 Controller
+	43fd  800 Series Chipset USB 3.x XHCI Controller
 	57a3  Matisse PCIe GPP Bridge
 	57a4  Matisse PCIe GPP Bridge
 	57ad  Matisse Switch Upstream
@@ -13482,6 +13483,7 @@
 	f500  LPe37000/LPe38000 Series 32Gb/64Gb Fibre Channel Adapter
 		1014 06c1  PCIe4 4-Port 32Gb Fibre Channel Adapter for POWER (FC EN1L/EN1M; CCIN 2CFC)
 		1014 06c2  PCIe4 2-Port 64Gb Fibre Channel Adapter for POWER (FC EN1N/EN1P; CCIN 2CFD)
+		1590 0454  Synergy 5331C 32Gb Fibre Channel Host Bus Adapter
 	f600  LPe37100S/LPe38100S Series 32Gb/64Gb Fibre Channel Adapter
 	f700  LP7000 Fibre Channel Host Adapter
 	f701  LP7000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
@@ -13645,6 +13647,7 @@
 		1af4 1100  QEMU Virtual Machine
 	8125  RTL8125 2.5GbE Controller
 		4c52 2022  LRES2022PT Single-port 2.5Gb Ethernet Network Adapter
+	8126  RTL8126 5GbE Controller
 	8129  RTL-8129
 		10ec 8129  RT8129 Fast Ethernet Adapter
 		11ec 8129  RTL8111/8168 PCIe Gigabit Ethernet (misconfigured)
@@ -24509,12 +24512,20 @@
 		1924 802b  XtremeScale X2552 OCP 2.0 Dual Port SFP28
 		1924 802c  XtremeScale X2522-25G PCIe Dual Port SFP28
 		1924 802d  XtremeScale X2562 OCP 3.0 Dual Port SFP28
+	0c03  NS9480 1/10/25/40/50/100Gb Ethernet Controller PLUS
+		1924 8031  X4522 Express and Enterprise Ethernet Adapter
+		1924 8032  X4542 Express and Enterprise Ethernet Adapter
 	1803  SFC9020 10G Ethernet Controller (Virtual Function)
 	1813  SFL9021 10GBASE-T Ethernet Controller (Virtual Function)
 	1903  SFC9120 10G Ethernet Controller (Virtual Function)
 	1923  SFC9140 10/40G Ethernet Controller (Virtual Function)
 	1a03  SFC9220 10/40G Ethernet Controller (Virtual Function)
 	1b03  XtremeScale SFC9250 10/25/40/50/100G Ethernet Controller (Virtual Function)
+	1c03  NS9480 1/10/25/40/50/100Gb Ethernet Controller PLUS (Virtual Function)
+	2c03  NS9480 1/10/25/40/50/100Gb Ethernet Controller
+		1924 8031  X4522 Enterprise Ethernet Adapter
+		1924 8032  X4542 Enterprise Ethernet Adapter
+	3c03  NS9480 1/10/25/40/50/100Gb Ethernet Controller (Virtual Function)
 	6703  SFC4000 rev A iSCSI/Onload [Solarstorm]
 		10b8 0102  SMC10GPCIe-10BT (A2) [TigerCard]
 		10b8 0103  SMC10GPCIe-10BT (A3) [TigerCard]
@@ -25518,6 +25529,7 @@
 	2720  Ultrastar DC SN650 NVMe SSD
 	2721  Ultrastar DC SN650 NVMe SSD
 	2722  Ultrastar DC SN655 NVMe SSD
+	2751  Ultrastar DC SN861 NVMe SSD
 	3001  RapidFlex C2000 NVMe Initiator
 	3714  PC SN730 NVMe SSD
 	3734  PC SN730 NVMe SSD
@@ -26359,6 +26371,7 @@
 	0140  Open Network Interface Card 40G
 	e004  AB01/EMB01 Development Board
 1d2a  KAYA Instruments
+	1000  Frame grabber
 1d37  NovaSparks
 	0013  PM3
 	0014  PM4
@@ -26408,6 +26421,7 @@
 	93c0  AQtion AQC114CS NBase-T/IEEE 802.3bz Ethernet Controller [Antigua 5G]
 	94c0  AQtion AQC113CS NBase-T/IEEE 802.3an Ethernet Controller [Antigua 10G]
 		1043 87f5  ProArt X570-CREATOR WIFI
+		1043 8812  ASUS XG-C100C 10G PCI-E Network Adapter
 	d107  AQtion AQC107 NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]
 		1043 8741  XG-C100C
 	d108  AQC108 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
@@ -26852,6 +26866,7 @@
 		1dd8 500d  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4
 		1dd8 500e  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R5
 		1dd8 500f  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T
+		1dd8 5200  DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card
 	1006  DSC NVMe Controller VF
 		1dd8 100e  Distributed Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
@@ -26864,6 +26879,7 @@
 		1dd8 500d  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4
 		1dd8 500e  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R5
 		1dd8 500f  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T
+		1dd8 5200  DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card
 	1007  DSC Storage Accelerator
 		1dd8 100e  Distributed Services Card
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
@@ -26934,6 +26950,8 @@
 		1dd8 500d  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4
 		1dd8 500e  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R5
 		1dd8 500f  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T
+		1dd8 5200  DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card
+		1dd8 5201  POLLARA-1Q400 100/200/400G 1-port Card
 	100d  DSC Virtio Network Device VF
 		1dd8 100e  Distributed Services Card
 		1dd8 5001  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 Services Card
@@ -26946,6 +26964,7 @@
 		1dd8 500d  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4
 		1dd8 500e  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R5
 		1dd8 500f  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T
+		1dd8 5200  DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card
 1ddd  Thorlabs
 1de0  Groq
 	0000  TSP [GroqChip]
@@ -27202,6 +27221,7 @@
 # nee Bitmain Technologies Ltd.
 1e30  Sophgo
 	1684  BM1684 [Sophon Series Deep Learning Accelerator]
+	2042  SG2042 Root Complex
 1e36  Shanghai Enflame Technology Co. Ltd
 	0001  T10 [CloudBlazer]
 	0002  T11 [CloudBlazer]
@@ -28179,6 +28199,7 @@
 	1000  TCU Family - TCU-1
 20a9  LDA Technologies Ltd.
 	1008  NEOTAPX FPGA Accelerator Card
+	1104  NEOTAPX FPGA Timing Synchronization Card
 20f4  TRENDnet
 2116  ZyDAS Technology Corp.
 21b4  Hunan Goke Microelectronics Co., Ltd
@@ -28409,6 +28430,7 @@
 		434e 0002  CN5000 HFI Adapter, Dual Port, QSFP-DD, x16 PCIe Gen 5, Air-Cooled
 		434e 0003  CN5000 HFI Adapter, Single Port, QSFP, x16 PCIe Gen 5, Air-Cooled, Thermally Enhanced
 		434e 0004  CN5000 HFI Adapter, Single Port, QSFP, x16 PCIe Gen 5, Conduction-Cooled
+	0002  CN6000 HFI Silicon, Dual Port, BGA [discrete]
 	8001  CN5000 Switch Silicon, 48 Port, BGA
 4444  Internext Compression Inc
 	0016  iTVC16 (CX23416) Video Decoder
@@ -36016,6 +36038,8 @@
 	4602  Alder Lake Host and DRAM Controller
 	460d  12th Gen Core Processor PCI Express x16 Controller #1
 	4619  Core i9/i7/i5/i3 Host Bridge/DRAM Registers
+	461b  Alder Lake-N Processor Host Bridge/DRAM Registers
+	461c  Alder Lake-N Processor Host Bridge/DRAM Registers
 	461d  Alder Lake Innovation Platform Framework Processor Participant
 		1028 0b10  Precision 3571
 	461e  Alder Lake-P Thunderbolt 4 USB Controller
@@ -36046,6 +36070,7 @@
 	466d  Alder Lake-P Thunderbolt 4 NHI #1
 	466e  Alder Lake-P Thunderbolt 4 PCI Express Root Port #0
 	467d  Platform Monitoring Technology
+	467e  GNA Scoring Accelerator
 	467f  Volume Management Device NVMe RAID Controller
 	4680  AlderLake-S GT1
 	4682  Alder Lake-S GT1 [UHD Graphics 730]
@@ -36292,6 +36317,7 @@
 	54b8  Alder Lake-N PCI Express Root Port #1
 	54b9  Alder Lake-N PCI Express Root Port #2
 	54ba  Alder Lake-N PCI Express Root Port #3
+	54bb  Alder Lake-N PCI Express Root Port #4
 	54be  Alder Lake-N PCI Express Root Port #7
 	54c8  Alder Lake-N PCH High Definition Audio Controller
 	54d3  Alder Lake-N SATA AHCI Controller
@@ -36353,10 +36379,13 @@
 	57ae  Ethernet Controller E610 Backplane
 	57af  Ethernet Controller E610 SFP
 	57b0  Ethernet Controller E610 10GBASE T
+		8086 0001  Ethernet Network Adapter E610-XT4
+		8086 0002  Ethernet Network Adapter E610-XT2
 		8086 0003  Ethernet Network Adapter E610-XT4 for OCP 3.0
 		8086 0004  Ethernet Network Adapter E610-XT2 for OCP 3.0
 	57b1  Ethernet Controller E610 2.5GBASE T
 		8086 0000  Ethernet Converged Network Adapter E610
+		8086 0002  Ethernet Network Adapter E610-IT4
 		8086 0003  Ethernet Network Adapter E610-IT4 for OCP 3.0
 	57b2  Ethernet Controller E610 SGMII
 	5845  QEMU NVM Express Controller
@@ -38044,7 +38073,10 @@
 	e20b  Battlemage G21 [Arc B580]
 	e20c  Battlemage G21 [Arc B570]
 	e20d  Battlemage G21 [Intel Graphics]
+	e210  Battlemage G21 [Intel Graphics]
 	e212  Battlemage G21 [Intel Graphics]
+	e215  Battlemage G21 [Intel Graphics]
+	e216  Battlemage G21 [Intel Graphics]
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
 	f1a6  SSD DC P4101/Pro 7600p/760p/E 6100p Series
@@ -39189,6 +39221,9 @@ f1d0  AJA Video
 	eb25  Corvid 44 12g
 	eb26  T-Tap Pro
 	eb27  IoX3
+	eb28  Kona XM
+	eb29  Kona X
+	eb30  Kona IP 25G
 	efac  Xena SD-MM/SD-22-MM
 	facd  Xena HD-MM
 f5f5  F5 Networks, Inc.
