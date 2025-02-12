@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.02.05
-#	Date:    2025-02-05 03:15:02
+#	Version: 2025.02.12
+#	Date:    2025-02-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4941,6 +4941,8 @@
 		1014 04fc  PCIe3 x8 12Gb Quad SAS RAID+ Adapter(580A)
 	04ed  Internal Shared Memory (ISM) virtual PCI device
 	0611  4769 Cryptographic Adapter
+	06a7  Spyre Accelerator
+	06a8  Spyre Accelerator Virtual Function
 	3022  QLA3022 Network Adapter
 	4022  QLA3022 Network Adapter
 	ffff  MPIC-2 interrupt controller
@@ -7311,6 +7313,7 @@
 1055  Microchip Technology / SMSC
 	7430  LAN7430
 	7431  LAN7431
+		1059 01a0  RD10055 M.2 Dual 1GbE-T1 40m
 	9130  SLC90E66 [Victory66] IDE
 	9460  SLC90E66 [Victory66] ISA
 	9462  SLC90E66 [Victory66] USB
@@ -13361,10 +13364,12 @@
 	28f8  AD107GLM [RTX 2000 Ada Generation Embedded GPU]
 	2900  GB100 [Reserved Dev ID A]
 	2901  GB100 [B200]
+	2920  GB100 [TS4]
 	2940  GB100 [Reserved Dev ID B]
 	2941  GB100 [GB200 SKU]
-	2980  GB102
-	29c0  GB102
+	2980  GB102 [Reserved Dev ID A]
+	29bc  GB102 [B100]
+	29c0  GB102 [Reserved Dev ID B]
 	2b85  GB202 [GeForce RTX 5090]
 	2b87  GB202 [GeForce RTX 5090 D]
 	2c02  GB203 [GeForce RTX 5080]
@@ -21164,6 +21169,7 @@
 	16d4  BCM57402 NetXtreme-E Ethernet Partition
 	16d5  BCM57407 NetXtreme-E 10GBase-T Ethernet Controller
 	16d6  BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller
+		1059 01b0  RD10057 10GbE interface
 		117c 00cd  FastFrame N4S2 Dual-port 10Gb Ethernet Adapter
 		14e4 1202  BCM957412M4122C OCP 1x25G Type1 wRoCE
 		14e4 4120  NetXtreme E-Series Advanced Dual-port 10Gb SFP+ Ethernet Network Daughter Card
@@ -26418,6 +26424,7 @@
 	14c0  AQC113C NBase-T/IEEE 802.3an Ethernet Controller [Marvell Scalable mGig]
 	80b1  AQtion AQC100S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]
 	87b1  AQtion AQC107S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]
+		1c7a de2b  Thunderbolt 10G Ethernet Adapter
 	93c0  AQtion AQC114CS NBase-T/IEEE 802.3bz Ethernet Controller [Antigua 5G]
 	94c0  AQtion AQC113CS NBase-T/IEEE 802.3an Ethernet Controller [Antigua 10G]
 		1043 87f5  ProArt X570-CREATOR WIFI
@@ -27005,6 +27012,14 @@
 		1dee 0012  NVMe SSD SP406 3.84T 2.5" U.2
 		1dee 0013  NVMe SSD SP406 7.68T 2.5" U.2
 	5161  BIWIN NVMe SSD SP506/SP516
+		1dee 6101  NVMe SSD SP506 1.92TB U.2
+		1dee 6102  NVMe SSD SP516 1.6TB U.2
+		1dee 6103  NVMe SSD SP506 3.84TB U.2
+		1dee 6104  NVMe SSD SP506 3.2TB U.2
+		1dee 6105  NVMe SSD SP506 7.68TB U.2
+		1dee 6106  NVMe SSD SP506 6.4TB U.2
+		1dee 6107  NVMe SSD SP506 15.36TB U.2
+		1dee 6108  NVMe SSD SP506 12.8TB U.2
 	5216  KingSpec NX series NVMe SSD (DRAM-less)
 	7700  BIWIN NVMe SSD SP50Y/SP51Y
 1def  Ampere Computing, LLC
@@ -28197,6 +28212,7 @@
 	5404  KCP54(04) 2280 PCIe G4 x4 TLC
 209b  BitIntelligence Technology
 	1000  TCU Family - TCU-1
+209f  Mobilint, Inc.
 20a9  LDA Technologies Ltd.
 	1008  NEOTAPX FPGA Accelerator Card
 	1104  NEOTAPX FPGA Timing Synchronization Card
@@ -31040,6 +31056,7 @@
 		1059 0150  RD-01068 1GbE interface
 		1059 0170  RD-01213 10GbE interface
 	1538  I210 Gigabit Network Connection
+		1059 0190  RD20057 M.2 Dual 1GbE-T1 15m
 	1539  I211 Gigabit Network Connection
 	153a  Ethernet Connection I217-LM
 		103c 1909  ZBook 15
@@ -36155,7 +36172,8 @@
 	4deb  Jasper Lake Serial IO I2C Host Controller #3
 	4ded  Jasper Lake USB 3.1 xHCI Host Controller
 	4def  Jasper Lake Shared SRAM
-	4df0  Wireless-AC 9560 160MHz
+	4df0  Jasper Lake PCH CNVi WiFi
+		8086 4030  Wireless-AC 9560 160MHz
 	4df8  Jasper Lake SD Controller
 	4e03  Dynamic Tuning service
 	4e11  Gaussian Mixture Model and Neural Network Accelerator (GNA)
@@ -36327,6 +36345,8 @@
 	54f0  CNVi: Wi-Fi
 		8086 0244  Wi-Fi 6 AX101NGW
 	5502  Ethernet Controller (2) I225-LMvP
+		103c 87b9  Thunderbolt Dock G4 PCIe NIC
+		17aa 2303  ThinkPad Universal Thunderbolt 4 Dock PCIe NIC
 		1ab6 0225  TS4 On-Board 2.5GbE Ethernet Adaptor
 	5690  DG2 [Arc A770M]
 	5691  DG2 [Arc A730M]
