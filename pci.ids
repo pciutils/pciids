@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.03.03
-#	Date:    2025-03-03 03:15:02
+#	Version: 2025.03.04
+#	Date:    2025-03-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1120,6 +1120,7 @@
 		1000 40d6  MegaRAID 9520-8i
 		1000 40d8  MegaRAID 9524-8i
 		1000 40e0  MegaRAID 9540-2M2
+		1028 1a3d  BOSS-MR1
 		1028 2172  PERC H355 Adapter
 		1028 2173  PERC H355 Front
 		1028 2174  PERC H350 Mini
