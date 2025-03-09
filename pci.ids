@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.03.04
-#	Date:    2025-03-04 03:15:02
+#	Version: 2025.03.09
+#	Date:    2025-03-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5312,6 +5312,7 @@
 	153c  Turin RCEC
 	153d  Turin PCIe Dummy Host Bridge
 	153e  Turin GPP Bridge
+		01de fff8  Cosmo Baseboard
 	1540  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky HT Configuration
 	1541  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Address Maps
 	1542  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky DRAM Configuration
@@ -20076,6 +20077,7 @@
 	6089  T62100-6089 Unified Wire Ethernet Controller
 	608a  T62100-608a Unified Wire Ethernet Controller
 	6092  T62100-KR Unified Wire Ethernet Controller
+		01de fff8  Cosmo Baseboard
 		01de fff9  Gimlet Baseboard
 	6401  T6225-CR Unified Wire Ethernet Controller
 	6402  T6225-SO-CR Unified Wire Ethernet Controller
@@ -20102,6 +20104,7 @@
 	6489  T62100-6089 Unified Wire Ethernet Controller
 	648a  T62100-608a Unified Wire Ethernet Controller
 	6492  T62100-KR Unified Wire Ethernet Controller
+		01de fff8  Cosmo Baseboard
 		01de fff9  Gimlet Baseboard
 	6501  T6225-CR Unified Wire Storage Controller
 	6502  T6225-SO-CR Unified Wire Storage Controller
@@ -21315,6 +21318,7 @@
 		14e4 9325  BCM57608 2x200G OCP Ethernet NIC
 		14e4 9326  BCM57608 2x100G OCP Ethernet NIC
 		14e4 9340  BCM57608 4x100G OCP Ethernet NIC
+		14e4 9345  BCM57608 4x25G OCP Ethernet NIC
 		14e4 d125  BCM57608 2x200G PCIe Ethernet NIC
 	1800  BCM57502 NetXtreme-E Ethernet Partition
 	1801  BCM57504 NetXtreme-E Ethernet Partition
@@ -22411,6 +22415,8 @@
 	0288  Arcus2
 	0289  Arcus2 RMA
 	0290  SagittaZ
+	0292  Arcus3 Flash Recovery
+	0293  Arcus3 RMA
 	02a0  Quantum-6 in Flash Recovery Mode
 	02a1  Quantum-6 RMA
 	02a2  Spectrum-7 in Flash Recovery Mode
@@ -22615,6 +22621,7 @@
 	b200  ArcusE
 	b201  LibraE
 	b202  Arcus2
+	b203  Arcus3
 	c2d1  BlueField DPU Family Auxiliary Communication Channel [BlueField Family]
 	c2d2  MT416842 BlueField SoC management interfac
 	c2d3  MT42822 BlueField-2 SoC Management Interface
@@ -25774,6 +25781,7 @@
 	1007  NS6610G1U320, NS6510G1U384 NVME SSD
 	100c  NS8510G1Uxxx, NS8610G1Uxxx NVME SSD
 	100e  NS8500G2Uxxxx, NS8600G2Uxxxx NVME SSD
+	100f  NS6500G2UXXXX,NS6600G2UXXXX NVME SSD
 1bee  IXXAT Automation GmbH
 	0002  CAN-IB100/PCIe
 	0003  CAN-IB200/PCIe
@@ -26736,6 +26744,7 @@
 	5208  NVMe SSD Controller IG5208 [Shasta] (DRAM-less)
 	5216  NVMe SSD Controller IG5216 [Shasta+] (DRAM-less)
 	5220  NVMe SSD Controller IG5220 [RainierQX] (DRAM-less)
+	5222  NVMe SSD Controller IG5222 [RainierX] (DRAM-less)
 	5236  NVMe SSD Controller IG5236 [RainierPC]
 		1dbe 4001  Dongting-B1 DC SSD M.2 480GB
 		1dbe 4002  Dongting-B1 DC SSD M.2 960GB
@@ -26755,6 +26764,14 @@
 		1dbe 2004  Dongting-N2 DC SSD U.2 3840GB
 		1dbe 2005  Dongting-N2 DC SSD U.2 6400GB
 		1dbe 2006  Dongting-N2 DC SSD U.2 7680GB
+		1dbe 2118  Dongting-N2Q DC QLC SSD U.2 15360GB
+		1dbe 2190  Dongting-N2Q DC QLC SSD U.2 30720GB
+		1dbe 2201  Dongting-N2 2000 DC SSD U.2 1600GB
+		1dbe 2202  Dongting-N2 2000 DC SSD U.2 1920GB
+		1dbe 2203  Dongting-N2 2000 DC SSD U.2 3200GB
+		1dbe 2204  Dongting-N2 2000 DC SSD U.2 3840GB
+		1dbe 2205  Dongting-N2 2000 DC SSD U.2 6400GB
+		1dbe 2206  Dongting-N2 2000 DC SSD U.2 7680GB
 		1dbe 3001  Donghu-Z2 DC ZNS SSD U.2 4000GB
 		1dbe 3002  Donghu-Z2 DC ZNS SSD U.2 8000GB
 	5666  NVMe SSD Controller IG5666
@@ -26767,6 +26784,9 @@
 		1dbe 5008  Dongting-N3 DC SSD U.2 15360GB
 		1dbe 5009  Dongting-N3 DC SSD U.2 25600GB
 		1dbe 5010  Dongting-N3 DC SSD U.2 30720GB
+		1dbe 5118  Dongting-N3Q DC QLC SSD U.2 15360GB
+		1dbe 5190  Dongting-N3Q DC QLC SSD U.2 30720GB
+		1dbe 6116  Dongting-Z3Q DC ZNS SSD U.2 7680GB
 	5669  NVMe SSD Controller IG5669 [Tacoma]
 1dbf  Guizhou Huaxintong Semiconductor Technology Co., Ltd
 	0401  StarDragon4800 PCI Express Root Port
@@ -28205,6 +28225,33 @@
 2061  Unis Flash Memory
 	4000  E4000 controller
 	4100  E4100 controller
+	4200  E4200 NVMe Controller
+		2061 2021  E4200 NVMe SSD 1.6TB PCIe 4.0 U.2
+		2061 2022  E4200 NVMe SSD 1.92TB PCIe 4.0 U.2
+		2061 2023  E4200 NVMe SSD 3.2TB PCIe 4.0 U.2
+		2061 2024  E4200 NVMe SSD 3.84TB PCIe 4.0 U.2
+		2061 2025  E4200 NVMe SSD 6.4TB PCIe 4.0 U.2
+		2061 2026  E4200 NVMe SSD 7.68TB PCIe 4.0 U.2
+	5100  E5100 NVMe Controller
+		2061 2031  E5100 NVMe SSD 3.2TB PCIe 5.0 U.2
+		2061 2032  E5100 NVMe SSD 3.84TB PCIe 5.0 U.2
+		2061 2033  E5100 NVMe SSD 6.4TB PCIe 5.0 U.2
+		2061 2034  E5100 NVMe SSD 7.68TB PCIe 5.0 U.2
+		2061 2035  E5100 NVMe SSD 12.8TB PCIe 5.0 U.2
+		2061 2036  E5100 NVMe SSD 15.36TB PCIe 5.0 U.2
+		2061 2051  E510Q NVMe SSD 30.72TB PCIe 5.0 U.2
+		2061 2052  E510Q NVMe SSD 61.44TB PCIe 5.0 U.2
+		2061 2053  E510Q NVMe SSD 122.88TB PCIe 5.0 U.2
+	5200  E5200 NVMe Controller
+		2061 2041  E5200 NVMe SSD 3.2TB PCIe 5.0 U.2
+		2061 2042  E5200 NVMe SSD 3.84TB PCIe 5.0 U.2
+		2061 2043  E5200 NVMe SSD 6.4TB PCIe 5.0 U.2
+		2061 2044  E5200 NVMe SSD 7.68TB PCIe 5.0 U.2
+		2061 2045  E5200 NVMe SSD 12.8TB PCIe 5.0 U.2
+		2061 2046  E5200 NVMe SSD 15.36TB PCIe 5.0 U.2
+		2061 2061  E520Q NVMe SSD 30.72TB PCIe 5.0 U.2
+		2061 2062  E520Q NVMe SSD 61.44TB PCIe 5.0 U.2
+		2061 2063  E520Q NVMe SSD 122.88TB PCIe 5.0 U.2
 2063  Hubei Yangtze Mason Semiconductor Technology Co., Ltd.
 	1406  ME7000 NVMe SSD
 206d  GigaIO Networks, Inc.
@@ -28283,6 +28330,7 @@
 	5026  NV3 NVMe SSD [E21T] (DRAM-less)
 	5027  NV3 NVMe SSD [E27T] (DRAM-less)
 	5028  NV3 NVMe SSD [SM2268XT2] (DRAM-less)
+	502a  FURY Renegade G5 NVMe SSD [SM2508]
 	502c  DC3000ME NVMe SSD [SC5]
 270b  Xantel Corporation
 270f  Chaintech Computer Co. Ltd
