@@ -1,3 +1,5 @@
+# History of pci.ids
+
 This repository contains the history of the pci.ids file, which is
 automatically generated from the PCI ID Database at http://pci-ids.ucw.cz/.
 
