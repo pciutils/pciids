@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.05.26
-#	Date:    2025-05-26 10:13:16
+#	Version: 2025.05.27
+#	Date:    2025-05-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28426,6 +28426,9 @@
 	0100  Default ID for Titanium FPGA PCIe Interface (AXI)
 1f82  d-Matrix
 	0011  Corsair [DMX 1000 Series]
+1f90  Quside Technologies
+	7024  QRNG PCIe Device
+	7025  QRNG PCIe Device
 1f99  Shenzhen Techwinsemi Technology Co., Ltd.
 	1202  TWSC TE3420 series
 	1608  PCIe Gen4 x4 M.2 2280
