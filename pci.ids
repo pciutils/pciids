@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.06.08
-#	Date:    2025-06-08 18:04:12
+#	Version: 2025.06.09
+#	Date:    2025-06-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -653,7 +653,7 @@
 		1bd4 000e  6G SAS2008IR
 		1bd4 000f  6G SAS2008IT SA5248
 		1bd4 0010  6G SAS2008IR SA5248
-		4c52 96c8  LRSA96C8 8-Port SATA3(6Gb/s)Exchange Adapter (with Raid)
+		4c52 96c8  LRSA96C8 8-Port SATA3 (6Gb/s) Exchange Adapter (with RAID)
 		8086 350f  RMS2LL040 RAID Controller
 		8086 3700  SSD 910 Series
 	0073  MegaRAID SAS 2008 [Falcon]
@@ -25530,7 +25530,7 @@
 	1069  Virtio 1.0 GPIO
 		1af4 1100  QEMU
 	1110  QEMU Inter-VM shared memory device
-		1af4 1100  QEMU Virtual Machine
+		1af4 1100  QEMU
 1af5  Netezza Corp.
 1afa  J & W Electronics Co., Ltd.
 1b00  Montage Technology Co., Ltd.
