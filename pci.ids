@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.10.18
-#	Date:    2025-10-18 03:15:01
+#	Version: 2025.10.29
+#	Date:    2025-10-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28538,17 +28538,7 @@
 	1003  FLEXFLOW-2200T Ethernet Controller [MGMT Function]
 	1004  FLEXFLOW-2200T DATA Offload Engine
 	1005  CONFLUX-2200P NVMe Controller
-	1011  FLEXFLOW-2200T Ethernet Controller
-		1f47 0001  Ethernet 10G 2P FLEXFLOW-2200T
-		1f47 0002  Ethernet 25G 2P FLEXFLOW-2200T
-		1f47 0003  Ethernet 40G 2P FLEXFLOW-2200T
-		1f47 0004  Ethernet 100G 1P FLEXFLOW-2200T
-		1f47 0005  Ethernet 100G 2P FLEXFLOW-2200T
-		1f47 0006  Ethernet 10G 2P FLEXFLOW-2200T
-		1f47 0007  Ethernet 25G 2P FLEXFLOW-2200T
-		1f47 0008  Ethernet 40G 2P FLEXFLOW-2200T
-		1f47 0009  Ethernet 100G 1P FLEXFLOW-2200T
-		1f47 000a  Ethernet 100G 2P FLEXFLOW-2200T
+	1105  CONFLUX-2200P NVMe Controller [Virtual Function]
 # RDMA-PF
 	1203  FLEXFLOW-2200T RoCEv2 Network Controller
 # Network Accelerating Card
@@ -28565,15 +28555,6 @@
 		1f47 0007  Ethernet 50G 2P FLEXFLOW-2100R
 		1f47 0008  Ethernet 100G 2P FLEXFLOW-2100R
 	3201  FLEXFLOW-2200R Ethernet Controller
-		1f47 0001  Ethernet 10G 2P FLEXFLOW-2200R
-		1f47 0002  Ethernet 25G 2P FLEXFLOW-2200R
-		1f47 0003  Ethernet 50G 2P FLEXFLOW-2200R
-		1f47 0004  Ethernet 100G 2P FLEXFLOW-2200R
-		1f47 0005  Ethernet 10G 2P FLEXFLOW-2200R
-		1f47 0006  Ethernet 25G 2P FLEXFLOW-2200R
-		1f47 0007  Ethernet 50G 2P FLEXFLOW-2200R
-		1f47 0008  Ethernet 100G 2P FLEXFLOW-2200R
-	3211  FLEXFLOW-2200R Ethernet Controller
 		1f47 0001  Ethernet 10G 2P FLEXFLOW-2200R
 		1f47 0002  Ethernet 25G 2P FLEXFLOW-2200R
 		1f47 0003  Ethernet 50G 2P FLEXFLOW-2200R
@@ -28633,6 +28614,11 @@
 	5016  CONFLUX-2200P Ethernet Controller [YDMI Function]
 		1f47 0001  CONFLUX-2200P Ethernet Controller [YDMI Function]
 		1f47 0002  CONFLUX-2200P Ethernet Controller [YDMI Function] DPU
+	6001  CONFLUX-2200X Ethernet Controller
+	6002  CONFLUX-2200X Ethernet Controller [Virtual Function]
+	6003  CONFLUX-2200X Ethernet Controller [MGMT Function]
+	6004  CONFLUX-2200X DATA Offload Engine
+	6203  CONFLUX-2200X RoCEv2 Network Controller (RDMA-PF)
 1f4b  Axera Semiconductor Co., Ltd
 1f52  MangoBoost Inc.
 	1008  Mango GPUBoost - RDMA
@@ -28937,6 +28923,7 @@
 	2001  PACIFIC-S1 NVMe SSD
 20d2  Awide Labs LTD.
 	0200  XRaid [Extreme Performance Compression RAID Accelerator]
+20e3  Elix Systems SA
 20f4  TRENDnet
 2116  ZyDAS Technology Corp.
 21b4  Hunan Goke Microelectronics Co., Ltd
