@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.10.29
-#	Date:    2025-10-29 03:15:02
+#	Version: 2025.10.31
+#	Date:    2025-10-31 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1282,7 +1282,8 @@
 	145a  Dummy Function (absent graphics controller)
 	1478  Navi 10 XL Upstream Port of PCI Express Switch
 	1479  Navi 10 XL Downstream Port of PCI Express Switch
-	1506  Mendocino
+	1506  Mendocino [Radeon 610M]
+		17aa 380e  IdeaPad 1 15AMN7
 	150e  Strix [Radeon 880M / 890M]
 	154c  Kryptos [Radeon RX 350]
 		1462 7c28  MS-7C28 Motherboard
@@ -1291,6 +1292,7 @@
 	1552  Pooky
 	1561  Anubis
 	1586  Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics]
+	15b3  Stoney HDMI/DP Audio Controller
 	15bf  Phoenix1
 	15c8  Phoenix2
 	15d8  Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]
@@ -3849,6 +3851,7 @@
 	6995  Lexa XT [Radeon PRO WX 2100]
 	699f  Lexa PRO [Radeon 540/540X/550/550X / RX 540X/550/550X]
 		1028 1720  Radeon RX 550X
+		1458 22f3  Radeon RX 550 2GB
 		148c 2380  Lexa XL [Radeon RX 550]
 		17aa 5069  Thinkpad E480/E580
 		1da2 e367  Lexa PRO [Radeon RX 550]
@@ -4056,6 +4059,7 @@
 	73c4  Navi 22 USB
 	73ce  Navi 22-XL SRIOV MxGPU
 	73df  Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT]
+		1002 0e36  Radeon RX 6700 XT 12G
 		1043 16c2  Radeon RX 6800M
 		1458 2408  Radeon RX 6750 XT GAMING OC 12G
 		1462 3980  Radeon RX 6700 XT Mech 2X 12G [MSI]
@@ -4136,6 +4140,8 @@
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
 	7551  Navi 48 [Radeon AI PRO R9700]
 	7590  Navi 44 [Radeon RX 9060 XT]
+	75a0  Aqua Vanjaram [Instinct MI350X]
+	75a3  Aqua Vanjaram [Instinct MI355X]
 	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
@@ -12891,6 +12897,7 @@
 	15fb  GP100GL [GP100 SKU 200]
 	15fc  GP100GL [Tesla P100-DGXS-16GB]
 	15ff  GP100GL [GP100 SKU 15ff]
+	1613  GM204GL [GRID M60 Service Provider]
 	1617  GM204M [GeForce GTX 980M]
 	1618  GM204M [GeForce GTX 970M]
 	1619  GM204M [GeForce GTX 965M]
@@ -13284,6 +13291,7 @@
 	2343  GH100
 	2345  GH100 [GH100-88K-A1]
 	2348  GH100 [GH200 144G HBM3e]
+	237e  GH100 [H100 GH3]
 	237f  GH100 [Skinny Joe]
 	23b0  GH100
 	23f0  GH100
@@ -13456,22 +13464,29 @@
 	2941  GB100 [HGX GB200]
 	297e  GB100
 	2980  GB102 [Reserved Dev ID A]
+	29bb  GB102 [DRIVE P2021]
 	29bc  GB102 [B100]
 	29c0  GB102 [Reserved Dev ID B]
 	29f1  GB102
-	2b00  TA1090SA [THOR]
+# space added
+	2b00  GB10B [Jetson AGX Thor]
 	2b85  GB202 [GeForce RTX 5090]
 	2b87  GB202 [GeForce RTX 5090 D]
+	2b8c  GB202 [GeForce RTX 5090 D V2]
 	2bb1  GB202GL [RTX PRO 6000 Blackwell Workstation Edition]
+	2bb2  GB202GL [RTX PRO 6000D Blackwell Workstation Edition]
 	2bb3  GB202GL [RTX PRO 5000 Blackwell]
 	2bb4  GB202GL [RTX PRO 6000 Blackwell Max-Q Workstation Edition]
 	2bb5  GB202GL [RTX PRO 6000 Blackwell Server Edition]
+	2bb9  GB202GL [RTX 6000D]
+	2bbc  GB202GL [RTX PRO 6000D Blackwell Max-Q Workstation Edition]
 	2c02  GB203 [GeForce RTX 5080]
 	2c05  GB203 [GeForce RTX 5070 Ti]
 	2c18  GB203M / GN22 [GeForce RTX 5090 Max-Q / Mobile]
 	2c19  GB203M / GN22 [GeForce RTX 5080 Max-Q / Mobile]
 	2c2c  GB6-256(N22W-ES-A1)
 	2c31  GB203GL [RTX PRO 4500 Blackwell]
+	2c33  GB203GL [RTX PRO 4000 Blackwell SFF Edition]
 	2c34  GB203GL [RTX PRO 4000 Blackwell]
 	2c38  GB203GLM [RTX PRO 5000 Blackwell Generation Laptop GPU]
 	2c39  GB203GLM [RTX PRO 4000 Blackwell Generation Laptop GPU]
@@ -13482,6 +13497,7 @@
 	2d18  GB206M [GeForce RTX 5070 Max-Q / Mobile]
 	2d19  GB206M [GeForce RTX 5060 Max-Q / Mobile]
 	2d2c  GB6-128 (N22Y-ES-A1)
+	2d30  GB206GL [RTX PRO 2000 Blackwell]
 	2d39  GB206GLM [RTX PRO 2000 Blackwell Generation Laptop GPU]
 	2d58  GB206M [GeForce RTX 5070 Max-Q / Mobile]
 	2d59  GB206M [GeForce RTX 5060 Max-Q / Mobile]
@@ -13490,12 +13506,22 @@
 	2db8  GB207GLM [RTX PRO 1000 Blackwell Generation Laptop GPU]
 	2db9  GB207GLM [RTX PRO 500 Blackwell Generation Laptop GPU]
 	2dd8  GB207M [GeForce RTX 5050 Max-Q / Mobile]
-	2e2a  GB20B
+	2e12  GB20B [GB10]
+# N1X
+	2e2a  GB20B [JMJWOA-Generic-GPU]
 	2f04  GB205 [GeForce RTX 5070]
 	2f18  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
-	31c0  GB110
+	3180  GB110 [Reserved Dev ID A]
+	3182  GB110 [B300 SXM6 AC]
+	31a1  GB110
+	31c0  GB110 [Reserved Dev ID B]
+	31c2  GB110 [GB300]
+	31fe  GB110
+	3200  GB112
+	3224  GB112
+	323e  GB112
 	3340  GB120
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
