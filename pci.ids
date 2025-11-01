@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.10.31
-#	Date:    2025-10-31 03:15:01
+#	Version: 2025.11.01
+#	Date:    2025-11-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -642,6 +642,7 @@
 		1000 3040  9210-8i
 		1000 3080  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
 		1000 30b0  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
+		1000 30e0  9202-16e
 		1014 03ca  IBM 6Gb SAS HBA [9212-4i4e]
 		1028 1f1c  6Gbps SAS HBA Adapter
 		1028 1f1d  PERC H200 Adapter
@@ -760,6 +761,7 @@
 		1000 3040  9207-8e SAS2.1 HBA
 		1000 3050  SAS9217-8i
 		1000 3060  SAS9217-4i4e
+		1000 3070  SAS9206-16e
 		1014 0472  N2125 External Host Bus Adapter
 		1014 047a  N2115 Internal Host Bus Adapter
 		1590 0041  H220i
@@ -920,6 +922,7 @@
 		1000 3190  SAS9305-16i
 # SAS 9305 24 internal port HBA
 		1000 31a0  SAS9305-24i
+		1000 31b0  SAS9306-24i
 		1170 0002  SAS3224 PCI Express to 12Gb HBA MEZZ CARD
 	00c5  SAS3316 PCI-Express Fusion-MPT SAS-3
 	00c6  SAS3316 PCI-Express Fusion-MPT SAS-3
@@ -6424,6 +6427,7 @@
 	01b4  Celleb platform IDE interface
 	01b5  SCC USB 2.0 EHCI controller
 	01b6  SCC USB 1.1 OHCI controller
+	01ba  SpursEngine SE1000 accelerator
 1030  TMC Research
 1031  Miro Computer Products AG
 	5601  DC20 ASIC
@@ -6499,6 +6503,7 @@
 	010c  VR7701
 	0125  uPD720400 PCI Express - PCI/PCI-X Bridge
 	013a  Dual Tuner/MPEG Encoder
+	0165  uPD61253F1 MPEG Video Broadcast Decoder
 	0194  uPD720200 USB 3.0 Host Controller
 		1028 04a3  Precision M4600
 		1028 04b2  Vostro 3350
@@ -7274,6 +7279,7 @@
 	ac8f  PCI7420/7620 SD/MS-Pro Controller
 		1028 018d  Inspiron 700m/710m
 	b001  TMS320C6424
+	b012  TDA4VH PCIE Root Complex
 	fe00  FireWire Host Controller
 	fe03  12C01A FireWire Host Controller
 104d  Sony Corporation
