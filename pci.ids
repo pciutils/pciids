@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.03
-#	Date:    2025-11-03 03:15:02
+#	Version: 2025.11.04
+#	Date:    2025-11-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13613,6 +13613,9 @@
 	f500  LPe37000/LPe38000 Series 32Gb/64Gb Fibre Channel Adapter
 		1014 06c1  PCIe4 4-Port 32Gb Fibre Channel Adapter for POWER (FC EN1L/EN1M; CCIN 2CFC)
 		1014 06c2  PCIe4 2-Port 64Gb Fibre Channel Adapter for POWER (FC EN1N/EN1P; CCIN 2CFD)
+		1590 042e  Synergy 7330C 64Gb Fibre Channel Host Bus Adapter
+		1590 0451  SN1620E 2-Port 32Gb Fibre Channel Adapter
+		1590 0452  SN1720E 2-Port 64Gb Fibre Channel Adapter
 		1590 0454  Synergy 5331C 32Gb Fibre Channel Host Bus Adapter
 	f600  LPe37100S/LPe38100S Series 32Gb/64Gb Fibre Channel Adapter
 	f700  LP7000 Fibre Channel Host Adapter
@@ -25052,6 +25055,8 @@
 198a  Nallatech Ltd.
 1993  Innominate Security Technologies AG
 1998  Toyou Feiji Electronics Co., Ltd.
+	0001  TOBOLT1 51987 NVMe SSD
+		1998 2012  TOBOLT1 51987 3840G 2.5" U.2 NVMe SSD
 1999  A-Logics
 	a900  AM-7209 Video Processor
 199a  Pulse-LINK, Inc.
@@ -25754,7 +25759,6 @@
 		1d49 0306  ThinkSystem M.2 NVMe 2-Bay RAID Enablement Kit
 		1d49 0307  ThinkSystem 7mm NVMe 2-Bay Rear RAID Enablement Kit
 		207d 0800  TrustRAID B310n
-		207d 0801  TrustRAID B260s
 		4c52 9541  LRNV9541 2-port M.2 NVMe Raid Adapter
 	2b42  88W8997 2.4/5 GHz Dual-Band 2x2 Wi-Fi® 5 (802.11ac) + Bluetooth® 5.3 Solution
 	2b43  NXP 88W9098 Wi-Fi 6 (ax) MAC #1
@@ -27030,6 +27034,7 @@
 	3588  RK3588
 1d89  YEESTOR Microelectronics Co., Ltd
 	0280  PCIe NVMe SSD
+	ef25  GDRAMARS GMT1000 NVMe SSD (DRAM-less)
 1d8f  Exegy
 1d92  Abaco Systems Inc.
 1d93  YADRO
@@ -27887,7 +27892,6 @@
 		1e3b 0019  Enterprise NVMe SSD U.2 7.68TB (R6101C)
 		1e3b 001a  Enterprise NVMe SSD U.2 3.2TB (R6301C)
 		1e3b 001b  Enterprise NVMe SSD U.2 6.4TB (R6301C)
-		1e3b 001c  Enterprise NVMe SSD U.2 7.68TB (R6100)
 		1e3b 001d  Enterprise NVMe SSD U.2 3.84TB (R6101)
 		1e3b 001e  Enterprise NVMe SSD U.2 3.84TB (R6100)
 		1e3b 001f  Enterprise NVMe SSD U.2 1.92TB (R6101)
@@ -29222,7 +29226,7 @@
 	0201  TUNAN-7 1x200GbE Controller
 		20d8 0201  TUNAN-7S 1x200GbE Controller
 		20d8 0211  TUNAN-7 1x200GbE Controller
-	1201  TUNAN-7S 2x100GbE Controller
+	1201  TUNAN-7 2x100GbE Controller
 		20d8 1201  TUNAN-7S 2x100GbE Controller
 		20d8 1211  TUNAN-7 2x100GbE Controller
 	2201  TUNAN-7 2x25GbE Controller
@@ -37995,31 +37999,73 @@
 		10b4 202f  Lightspeed 740
 		8086 0000  Terminator 2x/i
 		8086 0100  Intel740 Graphics Accelerator
-	7a04  Raptor Lake LPC/eSPI Controller
-	7a23  Raptor Lake-S PCH SMBus Controller
+	7a04  Z790 Chipset LPC/eSPI Controller
+	7a05  H770 Chipset LPC/eSPI Controller
+	7a06  B760 Chipset LPC/eSPI Controller
+	7a0c  HM770 Chipset LPC/eSPI Controller
+	7a0d  WM790 Chipset LPC/eSPI Controller
+	7a13  C266 Chipset LPC/eSPI Controller
+	7a14  C262 Chipset LPC/eSPI Controller
+	7a20  700 Series Chipset P2SB
+	7a21  700 Series Chipset Power Management Controller
+	7a23  700 Series Chipset SMBus Controller
 	7a24  Raptor Lake SPI (flash) Controller
-	7a27  Raptor Lake-S PCH Shared SRAM
+	7a27  Raptor Lake PCH Shared SRAM
+	7a28  700 Series Chipset Serial IO UART Controller #0
+	7a29  700 Series Chipset Serial IO UART Controller #1
+	7a2a  700 Series Chipset Serial IO GSPI Controller #0
+	7a2b  700 Series Chipset Serial IO GSPI Controller #1
 	7a30  Raptor Lake PCI Express Root Port #9
+	7a31  Raptor Lake PCI Express Root Port #10
+	7a32  Raptor Lake PCI Express Root Port #11
+	7a33  Raptor Lake PCI Express Root Port #12
 	7a34  Raptor Lake PCI Express Root Port #13
+	7a35  Raptor Lake PCI Express Root Port #14
+	7a36  Raptor Lake PCI Express Root Port #15
+	7a37  Raptor Lake PCI Express Root Port #16
 	7a38  Raptor Lake PCI Express Root Port #1
 	7a39  Raptor Lake PCI Express Root Port #2
 	7a3a  Raptor Lake PCI Express Root Port #3
 	7a3b  Raptor Lake PCI Express Root Port #4
 	7a3c  Raptor Lake PCI Express Root Port #5
+	7a3d  Raptor Lake PCI Express Root Port #6
+	7a3e  Raptor Lake PCI Express Root Port #7
+	7a3f  Raptor Lake PCI Express Root Port #8
 	7a40  Raptor Lake PCI Express Root Port #17
+	7a41  Raptor Lake PCI Express Root Port #18
+	7a42  Raptor Lake PCI Express Root Port #19
+	7a43  Raptor Lake PCI Express Root Port #20
 	7a44  Raptor Lake PCI Express Root Port #21
+	7a45  Raptor Lake PCI Express Root Port #22
+	7a46  Raptor Lake PCI Express Root Port #23
+	7a47  Raptor Lake PCI Express Root Port #24
 	7a48  Raptor Lake PCI Express Root Port #25
+	7a49  Raptor Lake PCI Express Root Port #26
+	7a4a  Raptor Lake PCI Express Root Port #27
+	7a4b  Raptor Lake PCI Express Root Port #28
 	7a4c  Raptor Lake Serial IO I2C Host Controller #0
 	7a4d  Raptor Lake Serial IO I2C Host Controller #1
 	7a4e  Raptor Lake Serial IO I2C Host Controller #2
+	7a4f  Raptor Lake Serial IO I2C Host Controller #3
 	7a50  Raptor Lake High Definition Audio Controller
+	7a5c  700 Series Chipset Serial IO UART Controller #3
 	7a60  Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller
+	7a61  Raptor Lake USB 3.2 Gen 1x1 (5 Gb/s) xDCI Device Controller
 	7a62  Raptor Lake SATA AHCI Controller
 	7a68  Raptor Lake CSME HECI #1
 	7a69  Raptor Lake CSME HECI #2
-	7a70  Raptor Lake-S PCH CNVi WiFi
+	7a6a  Raptor Lake CSME IDE Redirection
+	7a6b  Raptor Lake CSME Keyboard and Text (KT) Redirection
+	7a6c  Raptor Lake CSME HECI #3
+	7a6d  Raptor Lake CSME HECI #4
+	7a70  700 Series Chipset CNVi WiFi
 		8086 0074  Wi-Fi 6 AX201 160MHz
 		8086 0090  WiFi 6E AX211 160MHz
+	7a79  700 Series Chipset Serial IO GSPI Controller #3
+	7a7b  700 Series Chipset Serial IO GSPI Controller #2
+	7a7c  Raptor Lake Serial IO I2C Host Controller #4
+	7a7d  Raptor Lake Serial IO I2C Host Controller #5
+	7a7e  700 Series Chipset Serial IO UART Controller #2
 # Unlike other PCH components. The eSPI controller is specific to each chipset model
 	7a84  Z690 Chipset LPC/eSPI Controller
 	7a85  LPC Controller/eSPI Controller (H670)
@@ -39246,7 +39292,7 @@
 	a73e  Raptor Lake-P Thunderbolt 4 NHI #0
 		1028 0c06  Precision 3580
 	a740  Raptor Lake-S 8+12 - Host Bridge/DRAM Controller
-	a74d  Raptor Lake PCIe 4.0 Graphics Port
+	a74d  Raptor Lake PCI Express 4.0 Graphics Port
 	a74f  GNA Scoring Accelerator module
 		1028 0c06  Precision 3580
 	a75d  Raptor Lake IPU
@@ -39254,7 +39300,7 @@
 	a76e  Raptor Lake-P Thunderbolt 4 PCI Express Root Port #0
 	a77d  Raptor Lake Crashlog and Telemetry
 		1028 0c06  Precision 3580
-	a77f  Volume Management Device NVMe RAID Controller Intel Corporation
+	a77f  RST Volume Management Device Controller
 	a780  Raptor Lake-S GT1 [UHD Graphics 770]
 	a781  Raptor Lake-S UHD Graphics
 	a782  Raptor Lake-S UHD Graphics
