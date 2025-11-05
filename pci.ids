@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.04
-#	Date:    2025-11-04 03:15:02
+#	Version: 2025.11.05
+#	Date:    2025-11-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -72,7 +72,6 @@
 # Real TJN ID is e159, but they got it wrong several times --mj
 0059  Tiger Jet Network Inc. (Wrong ID)
 0070  Hauppauge computer works Inc.
-	7801  WinTV HVR-1800 MCE
 0071  Nebula Electronics Ltd.
 0095  Silicon Image, Inc. (Wrong ID)
 	0680  Ultra ATA/133 IDE RAID CONTROLLER CARD
@@ -1130,11 +1129,15 @@
 		1d49 0505  ThinkSystem RAID 540-8i PCIe Gen4 12Gb Adapter
 		1d49 0506  ThinkSystem RAID 540-16i PCIe Gen4 12Gb Adapter
 		1d49 0507  ThinkSystem RAID 545-8i PCIe Gen4 12Gb Adapter
+		1d49 0508  ThinkSystem RAID 545-8i PCIe Gen4 12Gb Internal Adapter
 		1d49 0700  ThinkSystem M.2 RAID B540i-2i SATA/NVMe Enablement Kit
 		1d49 0701  ThinkSystem 7mm RAID B540p-2HS SATA/NVMe Enablement Kit
 		1d49 0702  ThinkSystem M.2 RAID B540p-2HS SATA/NVMe Enablement Kit
 		1d49 0703  ThinkSystem M.2 RAID B540d-2HS SATA/NVMe Enablement Kit
 		1d49 0704  ThinkSystem M.2 RAID B545i-2i SATA/NVMe Enablement Kit
+		1d49 0705  ThinkSystem M.2 RAID B550p-2HS SATA/NVMe Enablement Kit
+		1d49 0706  ThinkSystem M.2 RAID B550d-2HS SATA/NVMe Enablement Kit
+		1d49 0707  ThinkSystem M.2 RAID B550i-2i SATA/NVMe Enablement Kit
 	10e7  MegaRAID 12GSAS/PCIe Unsupported SAS38xx
 	1960  MegaRAID
 		1000 0518  MegaRAID 518 SCSI 320-2 Controller
@@ -1193,6 +1196,7 @@
 		1000 100b  PEX89000 PCIe Gen 5 Virtual Upstream/Downstream Port
 		1000 2004  PEX89000 Virtual PCIe TWC/NT 2.0 Endpoint
 		1000 2005  PEX89000 Virtual PCIe gDMA Endpoint
+		15d9 1d24  SYS-522GA-NRT
 # Lower lane count PEX89000 switch
 	c034  PEX890xx PCIe Gen 5 Switch
 # Lower lane count PEX89000 switch
@@ -6217,6 +6221,7 @@
 	0534  G200eR2
 		1028 04f7  PowerEdge R320 server
 	0536  Integrated Matrox G200eW3 Graphics Controller
+		1028 0a6b  PowerEdge R760
 	0538  MGA G200eH3
 		1590 00e4  iLO5 VGA
 	0540  M91XX
@@ -13200,6 +13205,7 @@
 	2182  TU116 [GeForce GTX 1660 Ti]
 	2183  TU116
 	2184  TU116 [GeForce GTX 1660]
+	2186  TU116 [PG160 SKU18]
 	2187  TU116 [GeForce GTX 1650 SUPER]
 	2188  TU116 [GeForce GTX 1650]
 	2189  TU116 [CMP 30HX]
@@ -13480,6 +13486,8 @@
 	2c39  GB203GLM [RTX PRO 4000 Blackwell Generation Laptop GPU]
 	2c58  GB203M / GN22-X11 [GeForce RTX 5090 Max-Q / Mobile]
 	2c59  GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]
+	2c77  GB203GLM [RTX PRO 5000 Blackwell Embedded GPU]
+	2c79  GB203GLM [RTX PRO 4000 Blackwell Embedded GPU]
 	2d04  GB206 [GeForce RTX 5060 Ti]
 	2d05  GB206 [GeForce RTX 5060]
 	2d18  GB206M [GeForce RTX 5070 Max-Q / Mobile]
@@ -13489,11 +13497,13 @@
 	2d39  GB206GLM [RTX PRO 2000 Blackwell Generation Laptop GPU]
 	2d58  GB206M [GeForce RTX 5070 Max-Q / Mobile]
 	2d59  GB206M [GeForce RTX 5060 Max-Q / Mobile]
+	2d79  GB206GLM [RTX PRO 2000 Blackwell Embedded GPU]
 	2d83  GB207 [GeForce RTX 5050]
 	2d98  GB207M [GeForce RTX 5050 Max-Q / Mobile]
 	2db8  GB207GLM [RTX PRO 1000 Blackwell Generation Laptop GPU]
 	2db9  GB207GLM [RTX PRO 500 Blackwell Generation Laptop GPU]
 	2dd8  GB207M [GeForce RTX 5050 Max-Q / Mobile]
+	2df9  GB207GLM [RTX PRO 500 Blackwell Embedded GPU]
 	2e12  GB20B [GB10]
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
@@ -22555,8 +22565,8 @@
 	0278  Quantum-4 in Flash Recovery Mode
 	0279  Quantum-4 RMA
 	027a  Eros Chiplet
-	027c  Quantum-5 in Flash Recovery Mode
-	027d  Quantum-5 RMA
+	027c  Nvlink-7 Switch in Flash Recovery Mode
+	027d  Nvlink-7 Switch RMA
 	0281  NPS-600 Flash Recovery
 	0282  ArcusE Flash recovery
 	0283  ArcusE RMA
@@ -22579,8 +22589,8 @@
 	029a  OPHY3.1
 # Sagitta
 	029c  OPHY3.5
-	02a0  Quantum-6 in Flash Recovery Mode
-	02a1  Quantum-6 RMA
+	02a0  Nvlink-8 Switch in Flash Recovery Mode
+	02a1  Nvlink-8 RMA
 	02a2  Spectrum-7 in Flash Recovery Mode
 	02a3  Spectrum-7 RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
@@ -22812,8 +22822,8 @@
 	d2f4  Quantum-3
 	d2f6  Quantum-3CPO
 	d2f8  Quantum-4
-	d2fa  Quantum-5
-	d2fc  Quantum-6
+	d2fa  Nvlink-7 Switch
+	d2fc  Nvlink-8 Switch
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
@@ -22939,9 +22949,6 @@
 15d7  Rockwell-Collins Inc
 15d8  Cybernetics Technology Co Ltd
 15d9  Super Micro Computer Inc
-	1b64  SCC-B8SB80-B1
-	1b9d  Supermicro AOC-S3816L-L16IR
-	1c6e  Supermicro AOC-SLG4-2H8M2
 15da  Cyberfirm Inc
 15db  Applied Computing Systems Inc
 15dc  Litronic Inc
@@ -25253,10 +25260,12 @@
 19ff  Eclipse Electronic Systems, Inc.
 1a03  ASPEED Technology, Inc.
 	1150  AST1150 PCI-to-PCI Bridge
+		15d9 1d50  X14DBG-AP
 	2000  ASPEED Graphics Family
-		15d9 0821  X10DRW-i
-		15d9 0832  X10SRL-F
-		15d9 1b95  H12SSL-i
+		15d9 0821  X10DRW-i (AST2400 BMC)
+		15d9 0832  X10SRL-F (AST2400 BMC)
+		15d9 1b95  H12SSL-i (AST2500 BMC)
+		15d9 1d50  X14DBG-AP (AST2600 BMC)
 1a05  deltaww
 1a07  Kvaser AB
 	0006  CAN interface PC104+ HS/HS
@@ -26875,6 +26884,7 @@
 	14c0  AQC113C NBase-T/IEEE 802.3an Ethernet Controller [Marvell Scalable mGig]
 	80b1  AQtion AQC100S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]
 	87b1  AQtion AQC107S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]
+		16b8 72e1  Solo 10G Thunderbolt 3 PCIe 10Gb Ethernet Adapter
 		1c7a de2b  Thunderbolt 10G Ethernet Adapter
 	93c0  AQtion AQC114CS NBase-T/IEEE 802.3bz Ethernet Controller [Antigua 5G]
 	94c0  AQtion AQC113CS NBase-T/IEEE 802.3an Ethernet Controller [Antigua 10G]
@@ -27746,6 +27756,8 @@
 	0031  PCIe 5.0 NVMe SSD Controller XG10
 	0032  PCIe 4.0 NVMe SSD Controller XG10d
 	0033  Exceria Plus G4 NVMe SSD (DRAM-less)
+	0034  CM9-based E3.S NVMe SSD
+	0035  CM9-based U3 NVMe SSD
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
 1e18  Beijing GuangRunTong Technology Development Co.,Ltd
 1e24  Squirrels Research Labs
@@ -30359,8 +30371,10 @@
 	0684  H470 Chipset LPC/eSPI Controller
 	0685  Z490 Chipset LPC/eSPI Controller
 	0687  Q470 Chipset LPC/eSPI Controller
-	068d  Comet Lake LPC Controller
+	068c  QM480 Chipset LPC/eSPI Controller
+	068d  HM470 Chipset LPC/eSPI Controller
 	068e  WM490 Chipset LPC/eSPI Controller
+	0697  W480 Chipset LPC/eSPI Controller
 	06a3  Comet Lake PCH SMBus Controller
 	06a4  Comet Lake PCH SPI Controller
 	06a8  Comet Lake PCH Serial IO UART Host Controller #0
@@ -30748,6 +30762,7 @@
 		1028 1fe8  Express Flash NVMe 2.0TB HHHL AIC (P4600)
 		1028 1fe9  Express Flash NVMe 4.0TB HHHL AIC (P4600)
 	0b00  Ice Lake CBDMA [QuickData Technology]
+	0b23  Xeon Root Event Collector
 	0b25  Data Streaming Accelerator (DSA)
 	0b26  Thunderbolt 4 Bridge [Goshen Ridge 2020]
 	0b27  Thunderbolt 4 USB Controller [Goshen Ridge 2020]
@@ -32541,6 +32556,7 @@
 		1137 02c2  X710T4LG 4x10 GbE RJ45 PCIe NIC
 		1137 02d9  Ethernet Network Adapter X710-T2L OCP 3.0
 		1137 02da  Ethernet Network Adapter X710-T4L OCP 3.0
+		15d9 1c76  SYS-522GA-NRT
 # NIC-ETH565T-3S-2P OCP3.0 2x10G Base-T Card
 		193d 1082  NIC-ETH565T-3S-2P
 		4c52 1012  LRES1012PT Dual-port 10Gb Ethernet Network Adapter
@@ -37580,7 +37596,9 @@
 	5785  JHL9540 Thunderbolt 4 USB Controller [Barlow Ridge Host 40G 2023]
 	5786  JHL9480 Thunderbolt 5 80/120G Bridge [Barlow Ridge Hub 80G 2023]
 	5787  JHL9480 Thunderbolt 5 80/120G USB Controller [Barlow Ridge Hub 80G 2023]
+	5794  Granite Rapids SPI Controller
 	5795  Granite Rapids Chipset LPC Controller
+	5796  Granite Rapids SMBus Controller
 	579c  Ethernet Connection E825-C for backplane
 	579d  Ethernet Connection E825-C for QSFP
 	579e  Ethernet Connection E825-C for SFP
@@ -38066,10 +38084,15 @@
 	7a7c  Raptor Lake Serial IO I2C Host Controller #4
 	7a7d  Raptor Lake Serial IO I2C Host Controller #5
 	7a7e  700 Series Chipset Serial IO UART Controller #2
+	7a83  Q670 Chipset LPC/eSPI Controller
 # Unlike other PCH components. The eSPI controller is specific to each chipset model
 	7a84  Z690 Chipset LPC/eSPI Controller
-	7a85  LPC Controller/eSPI Controller (H670)
-	7a88  Alder Lake-S LPC/eSPI Controller
+	7a85  H670 Chipset LPC/eSPI Controller
+	7a86  B660 Chipset LPC/eSPI Controller
+	7a87  H610 Chipset LPC/eSPI Controller
+	7a88  W680 Chipset LPC/eSPI Controller
+	7a8c  HM670 Chipset LPC/eSPI Controller
+	7a8d  WM690 Chipset LPC/eSPI Controller
 	7aa3  Alder Lake-S PCH SMBus Controller
 	7aa4  Alder Lake-S PCH SPI Controller
 	7aa7  Alder Lake-S PCH Shared SRAM
