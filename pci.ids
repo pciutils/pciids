@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.05
-#	Date:    2025-11-05 03:15:02
+#	Version: 2025.11.06
+#	Date:    2025-11-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -183,6 +183,7 @@
 		0731 920a  JH920
 		0731 920b  JH920-I
 		0731 920c  JH920-M
+		0731 920d  JH920-II
 	920b  JH920-I
 	920c  JH920-M
 	9210  JM9210
@@ -199,6 +200,7 @@
 		0731 930a  JH930-I
 		0731 930b  JH930-M
 		0731 930c  JH930
+		0731 930d  JH930-II
 	930b  JH930-M
 	f011  JM1100-IV
 	f111  JM1100-MV
@@ -6433,6 +6435,7 @@
 		1033 0035  USB Controller
 		103c 1293  USB add-in card
 		103c 1294  USB 2.0 add-in card
+		1154 0207  Buffalo IFC-USB2P4
 		1179 0001  USB
 		1186 0035  DUB-C2 USB 2.0 2-port 32-bit cardbus controller
 		12ee 7000  Root Hub
@@ -6467,6 +6470,7 @@
 	00ce  uPD72871 [Firewarden] IEEE1394a OHCI 1.0 Link/1-port PHY Controller
 	00df  Vr4131
 	00e0  uPD72010x USB 2.0 Controller
+		1154 0208  Buffalo IFC-USB2P4
 		1186 f100  DUB-C2 USB 2.0 2-port 32-bit cardbus controller
 		12ee 7001  Root hub
 		14c2 0205  PTI-205N USB 2.0 Host Controller
