@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.06
-#	Date:    2025-11-06 03:15:02
+#	Version: 2025.11.07
+#	Date:    2025-11-07 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -36251,6 +36251,10 @@
 	31f0  Gemini Lake Host Bridge
 	3200  GD31244 PCI-X SATA HBA
 		1775 c200  C2K onboard SATA host bus adapter
+	3245  Xeon UPI Mesh Stop M2UPI Registers
+	324a  Xeon IMC0 Mesh to Mem Registers
+	324c  Xeon Unicast Group1 CHA Registers
+	324d  Xeon Unicast Group0 CHA Registers
 	3258  Power Control Unit (PCU) CR0
 	3259  Power Control Unit (PCU) CR1
 	325a  Power Control Unit (PCU) CR2
@@ -38135,6 +38139,7 @@
 	7d0b  Volume Management Device NVMe RAID Controller Intel Corporation
 	7d0d  Meteor Lake-P Platform Monitoring Technology
 	7d19  Meteor Lake IPU
+	7d1c  Arrow Lake-HX 8p+16e cores Host Bridge
 	7d1d  Meteor Lake NPU
 	7d40  Meteor Lake-M [Intel Graphics]
 	7d41  Arrow Lake-U [Intel Graphics]
@@ -38184,8 +38189,34 @@
 	7ec7  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3
 	7eca  Meteor Lake-H/U PCIe Root Port #10
 	7ecc  Meteor Lake-H PCIe Root Port #12
+	7f03  Q870 Chipset LPC/eSPI Controller
+	7f04  Z890 Chipset LPC/eSPI Controller
+	7f06  B860 Chipset LPC/eSPI Controller
+	7f07  H810 Chipset LPC/eSPI Controller
+	7f08  W880 Chipset LPC/eSPI Controller
+	7f0c  HM870 Chipset LPC/eSPI Controller
+	7f0d  WM880 Chipset LPC/eSPI Controller
+	7f20  800 Series PCH P2SB
+	7f21  800 Series PCH Power Management Controller
+	7f23  800 Series PCH SMBus Controller
+	7f24  800 Series PCH SPI (flash) Controller
+	7f27  800 Series PCH Shared SRAM
+	7f30  800 Series PCH PCIe Root Port #9
+	7f34  800 Series PCH PCIe Root Port #13
+	7f36  800 Series PCH PCIe Root Port #15
+	7f38  800 Series PCH PCIe Root Port #1
+	7f3e  800 Series PCH PCIe Root Port #7
+	7f40  800 Series PCH PCIe Root Port #17
+	7f44  800 Series PCH PCIe Root Port #21
+	7f4c  800 Series PCH I2C Controller #0
+	7f4f  800 Series PCH I2C Controller #3
+	7f50  800 Series ACE (Audio Context Engine)
+	7f68  800 Series PCH HECI #1
+	7f6e  800 Series PCH USB 3.1 xHCI HC
 	7f70  Arrow Lake-S PCH CNVi WiFi
 		8086 0094  WiFi 6E AX211 160MHz
+	7f7a  800 Series PCH I2C Controller #4
+	7f7b  800 Series PCH I2C Controller #5
 	8002  Trusted Execution Technology Registers
 	8003  Trusted Execution Technology Registers
 	8100  US15W/US15X SCH [Poulsbo] Host Bridge
@@ -39383,7 +39414,13 @@
 	a87f  Lunar Lake-M Shared SRAM
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
 	ad0b  Volume Management Device NVMe RAID Controller Intel Corporation
+	ad0d  Arrow Lake-HX Crash Log & Telemetry
 	ad1d  Arrow Lake NPU
+	ae10  Arrow Lake-HX Direct eSPI Controller
+	ae23  Arrow Lake-HX SPI (flash) Controller
+	ae4c  Arrow Lake-HX Gauss Newton Algorithm (GNA)
+	ae4d  Arrow Lake-HX PCIe Root Port #13
+	ae7f  Arrow Lake-HX Shared SRAM (SOC-S)
 	b03e  Panther Lake NPU
 	b080  Panther Lake [Intel Graphics]
 	b081  Panther Lake [Intel Graphics]
