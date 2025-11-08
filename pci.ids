@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.07
-#	Date:    2025-11-07 03:15:01
+#	Version: 2025.11.08
+#	Date:    2025-11-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -879,7 +879,6 @@
 		1028 22d3  PERC H975i Adapter - Virtual
 		1028 23cb  PERC H975i Front - Virtual
 		1028 23cd  PERC H975i Adapter - Virtual
-		1028 2446  PERC H976i Front - Virtual
 # Broadcom next-gen MPT PCIe switch
 	00b8  Fusion-MPT Switch SAS50xx/SAS51xx
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
@@ -1303,7 +1302,7 @@
 		1043 16c2  Radeon Vega 8
 # Used in the Steam Deck LCD
 	163f  VanGogh [AMD Custom GPU 0405]
-	1640  Radeon High Definition Audio Controller [Rembrandt/Strix]
+	1640  Radeon High Definition Audio Controller
 	164c  Lucienne
 	164d  Rembrandt
 	164e  Raphael
@@ -5458,7 +5457,7 @@
 	15e2  Audio Coprocessor
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
-	15e3  Family 17h/19h/1ah HD Audio Controller
+	15e3  Ryzen HD Audio Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		103c 8b17  ProBook 445 G9/455 G9
 		1043 86c7  PRIME B450M-A Motherboard
@@ -9633,6 +9632,8 @@
 		1885 0701  Tsunami FPGA PMC with Altera Stratix S30
 	9712  PEX9712 12-Lane, 5-Port PCIe Gen 3 (8.0 GT/s) ExpressFabric Switch
 	9733  PEX 9733 33-lane, 9-port PCI Express Gen 3 (8.0 GT/s) Switch
+		1028 1fc7  UCEA-200 0235NK NVMe PCIe Extender Adapter with Full-Height Bracket
+		1028 1fc8  UCEA-200 0CDC7W NVMe PCIe Extender Adapter with Half-Height Bracket
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
 	9749  PEX 9749 49-lane, 13-port PCI Express Gen 3 (8.0 GT/s) Switch
@@ -13546,6 +13547,7 @@
 	072b  OneConnect iSCSI Initiator + Target (Skyhawk-VF)
 	072c  OneConnect FCoE Initiator (Skyhawk-VF)
 	1ae5  LP6000 Fibre Channel Host Adapter
+	d300  LPE41100/LPE42100 Series 64G/128G Fibre Channel Adapter
 	e100  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
 	e131  LightPulse 8Gb/s PCIe Shared I/O Fibre Channel Adapter
 	e180  Proteus-X: LightPulse IOV Fibre Channel Host Adapter
@@ -26135,6 +26137,10 @@
 	4265  10G-PCIE3-8E-2S Network Adapter
 	5000  25G-PCIE3-8A-2S Security Intelligent Adapter
 	5001  25G-PCIE3-8B-2S Security Intelligent Adapter
+1c19  LaCie
+	0003  6big and 12big Thunderbolt 3
+		1c19 0003  6big Thunderbolt 3
+		1c19 0004  12big Thunderbolt 3
 1c1c  Symphony
 	0001  82C101
 1c1f  SoftLab-NSK
@@ -26210,6 +26216,7 @@
 	1100  Fuzedrive NVMe SSD
 	8000  8000 Storage IO Controller
 1c4e  TECHWAY
+	7024  Default PCIe Endpoint ID
 # A Western Digital Subsidiary
 1c58  HGST, Inc.
 	0003  Ultrastar SN100 Series NVMe SSD
@@ -26845,6 +26852,8 @@
 	0014  PM4
 	0015  PM4edge
 	0016  PM4edge User Device
+1d39  Baikal Electronics
+	8060  Baikal-M PCIe Controller
 1d40  Techman Electronics (Changshu) Co., Ltd.
 	5501  XC100C55-xxxx NVME SSD
 	5c01  XC100C5C-xxxx, XC100E5C-xxxx NVME SSD
@@ -28760,20 +28769,20 @@
 	5765  PCIe 3 NVMe SSD (DRAM-less)
 1f44  VVDN Technologies Private Limited
 1f47  YUSUR Technology Co., Ltd.
-	1001  FLEXFLOW-2200T Ethernet Controller
-		1f47 0001  Ethernet 10G 2P FLEXFLOW-2200T
-		1f47 0002  Ethernet 25G 2P FLEXFLOW-2200T
-		1f47 0003  Ethernet 40G 2P FLEXFLOW-2200T
+	1001  K2-Pro Family [FLEXFLOW-2200T]
+		1f47 0001  FLEXFLOW-2200T 2*10GE Ethernet Adapter
+		1f47 0002  FLEXFLOW-2200T 2*25GE Ethernet Adapter
+		1f47 0003  FLEXFLOW-2200T 2*40GE Ethernet Adapter
 		1f47 0004  Ethernet 100G 1P FLEXFLOW-2200T
-		1f47 0005  Ethernet 100G 2P FLEXFLOW-2200T
+		1f47 0005  FLEXFLOW-2200T 2*100GE Ethernet Adapter
 		1f47 0006  Ethernet 10G 2P FLEXFLOW-2200T
 		1f47 0007  Ethernet 25G 2P FLEXFLOW-2200T
 		1f47 0008  Ethernet 40G 2P FLEXFLOW-2200T
 		1f47 0009  Ethernet 100G 1P FLEXFLOW-2200T
 		1f47 000a  Ethernet 100G 2P FLEXFLOW-2200T
-	1002  FLEXFLOW-2200T Ethernet Controller [Virtual Function]
-	1003  FLEXFLOW-2200T Ethernet Controller [MGMT Function]
-	1004  FLEXFLOW-2200T DATA Offload Engine
+	1002  K2-Pro Family [FLEXFLOW-2200T Virtual Function]
+	1003  K2-Pro Family [FLEXFLOW-2200T MGMT Function]
+	1004  K2-Pro Family [FLEXFLOW-2200T DATA Offload Engine]
 	1005  CONFLUX-2200P NVMe Controller
 	1105  CONFLUX-2200P NVMe Controller [Virtual Function]
 # RDMA-PF
@@ -28851,10 +28860,11 @@
 	5016  CONFLUX-2200P Ethernet Controller [YDMI Function]
 		1f47 0001  CONFLUX-2200P Ethernet Controller [YDMI Function]
 		1f47 0002  CONFLUX-2200P Ethernet Controller [YDMI Function] DPU
-	6001  CONFLUX-2200X Ethernet Controller
-	6002  CONFLUX-2200X Ethernet Controller [Virtual Function]
-	6003  CONFLUX-2200X Ethernet Controller [MGMT Function]
-	6004  CONFLUX-2200X DATA Offload Engine
+	6001  K2-Pro Family [CONFLUX-2200X]
+		1f47 0002  CONFLUX-2200X 2*25GE Ethernet Adapter
+	6002  K2-Pro Family [CONFLUX-2200X Virtual Function]
+	6003  K2-Pro Family [CONFLUX-2200X MGMT Function]
+	6004  K2-Pro Family [CONFLUX-2200X DATA Offload Engine]
 	6203  CONFLUX-2200X RoCEv2 Network Controller (RDMA-PF)
 1f4b  Axera Semiconductor Co., Ltd
 1f52  MangoBoost Inc.
@@ -31876,7 +31886,15 @@
 	1240  82752 (752) AGP Graphics Accelerator
 	1248  Ethernet Controller E835-CC for backplane
 	1249  Ethernet Controller E835-CC for QSFP
+		8086 0001  Ethernet Network Adapter E835-C-Q2
+		8086 0002  Ethernet Network Adapter E835-C-Q2 for OCP 3.0
+		8086 0003  Ethernet Network Adapter E835-CC-Q1
+		8086 0004  Ethernet Network Adapter E835-CC-Q1 for OCP 3.0
 	124a  Ethernet Controller E835-CC for SFP
+		8086 0001  Ethernet Network Adapter E835-XXV-2 for OCP 3.0
+		8086 0002  Ethernet Network Adapter E835-XXV-4
+		8086 0003  Ethernet Network Adapter E835-XXV-2
+		8086 0004  Ethernet Network Adapter E835-XXV-4 for OCP 3.0
 	124b  82380FB (MPCI2) Mobile Docking Controller
 	124c  Ethernet Connection E823-L for backplane
 	124d  Ethernet Connection E823-L for SFP
@@ -37563,7 +37581,14 @@
 		103c 87b9  Thunderbolt Dock G4 PCIe NIC
 		17aa 2303  ThinkPad Universal Thunderbolt 4 Dock PCIe NIC
 		1ab6 0225  TS4 On-Board 2.5GbE Ethernet Adaptor
+	550a  Ethernet Connection (18) I219-LM
+	550b  Ethernet Connection (18) I219-LM
+	550c  Ethernet Connection (19) I219-LM
 	550d  Ethernet Connection (19) I219-V
+	550e  Ethernet Connection (20) I219-LM
+	550f  Ethernet Connection (20) I219-V
+	5510  Ethernet Connection (21) I219-LM
+	5511  Ethernet Connection (21) I219-V
 	5690  DG2 [Arc A770M]
 	5691  DG2 [Arc A730M]
 	5692  DG2 [Arc A550M]
@@ -37611,7 +37636,8 @@
 	579d  Ethernet Connection E825-C for QSFP
 	579e  Ethernet Connection E825-C for SFP
 	579f  Ethernet Connection E825-C 10GbE
-	57a0  Arrow Lake Gigabit vPRO Ethernet Controller
+	57a0  Ethernet Connection (24) I219-LM
+	57a1  Ethernet Connection (24) I219-V
 	57a4  JHL9440 Thunderbolt 4 Bridge [Barlow Ridge Hub 40G 2023]
 	57a5  JHL9440 Thunderbolt 4 USB Controller [Barlow Ridge Hub 40G 2023]
 	57ad  E610 Virtual Function
@@ -37627,6 +37653,14 @@
 		8086 0002  Ethernet Network Adapter E610-IT4
 		8086 0003  Ethernet Network Adapter E610-IT4 for OCP 3.0
 	57b2  Ethernet Controller E610 SGMII
+	57b3  Ethernet Connection (25) I219-LM
+	57b4  Ethernet Connection (25) I219-V
+	57b5  Ethernet Connection (26) I219-LM
+	57b6  Ethernet Connection (26) I219-V
+	57b7  Ethernet Connection (27) I219-LM
+	57b8  Ethernet Connection (27) I219-V
+	57b9  Ethernet Connection (29) I219-LM
+	57ba  Ethernet Connection (29) I219-V
 	5845  QEMU NVM Express Controller
 		1af4 1100  QEMU Virtual Machine
 	5900  Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
@@ -40712,6 +40746,11 @@ C 00  Unclassified device
 	05  Image coprocessor
 C 01  Mass storage controller
 	00  SCSI storage controller
+		00  Vendor specific
+		11  SCSI storage device (SOP target port using PQI)
+		12  SCSI controller (SOP target port using PQI)
+		13  SCSI storage device & controller (SOP target port using PQI)
+		21  SCSI storage device (SOP target port using NVMe)
 	01  IDE interface
 		00  ISA Compatibility mode-only controller
 		05  PCI native mode-only controller
@@ -40724,6 +40763,7 @@ C 01  Mass storage controller
 	02  Floppy disk controller
 	03  IPI bus controller
 	04  RAID bus controller
+		00  Vendor specific
 	05  ATA controller
 		20  ADMA single stepping
 		30  ADMA continuous operation
@@ -40736,12 +40776,14 @@ C 01  Mass storage controller
 	08  Non-Volatile memory controller
 		01  NVMHCI
 		02  NVM Express
+		03  NVM Express administrative controller
 	09  Universal Flash Storage controller
 		00  Vendor specific
 		01  UFSHCI
 	80  Mass storage controller
 C 02  Network controller
 	00  Ethernet controller
+		01  Ethernet Controller with IDPF Compliant Interface
 	01  Token ring network controller
 	02  FDDI network controller
 	03  ATM network controller
@@ -40763,13 +40805,15 @@ C 04  Multimedia controller
 	01  Multimedia audio controller
 	02  Computer telephony device
 	03  Audio device
+		00  HDA compatible
+		80  HDA compatible with vendor specific extensions
 	80  Multimedia controller
 C 05  Memory controller
 	00  RAM memory
 	01  FLASH memory
 	02  CXL
 		00  CXL Memory Device - vendor specific
-		10  CXL Memory Device (CXL 2.x)
+		10  CXL Memory Device (CXL 2.0 or later)
 	80  Memory controller
 C 06  Bridge
 	00  Host bridge
@@ -40885,6 +40929,7 @@ C 0c  Serial bus controller
 		02  BT (Block Transfer)
 	08  SERCOS interface
 	09  CANBUS
+	0a  MIPI I3C
 	80  Serial bus controller
 C 0d  Wireless controller
 	00  IRDA controller
@@ -40892,8 +40937,10 @@ C 0d  Wireless controller
 	10  RF controller
 	11  Bluetooth
 	12  Broadband
-	20  802.1a controller
-	21  802.1b controller
+	20  802.11a 5 GHz controller
+	21  802.11b 2.4 GHz controller
+	40  Cellular controller/modem
+	41  Cellular controller/modem plus Ethernet (802.11)
 	80  Wireless controller
 C 0e  Intelligent controller
 	00  I2O
