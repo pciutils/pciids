@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.08
-#	Date:    2025-11-08 03:15:01
+#	Version: 2025.11.09
+#	Date:    2025-11-09 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -511,7 +511,7 @@
 		1028 1f35  PERC H710 Adapter
 		1028 1f37  PERC H710 Mini (for blades)
 		1028 1f38  PERC H710 Mini (for monolithics)
-		15d9 0690  LSI MegaRAID ROMB
+		15d9 0690  AOC-S2208L-H8iR
 		8086 3510  RMS25PB080 RAID Controller
 		8086 3511  RMS25PB040 RAID Controller
 		8086 3512  RMT3PB080 RAID Controller
@@ -25266,12 +25266,16 @@
 19ff  Eclipse Electronic Systems, Inc.
 1a03  ASPEED Technology, Inc.
 	1150  AST1150 PCI-to-PCI Bridge
+		15d9 0821  X10DRW-i
+		15d9 086b  X10DRS
 		15d9 1d50  X14DBG-AP
 	2000  ASPEED Graphics Family
 		15d9 0821  X10DRW-i (AST2400 BMC)
 		15d9 0832  X10SRL-F (AST2400 BMC)
+		15d9 086b  X10DRS (AST2400 BMC)
 		15d9 1b95  H12SSL-i (AST2500 BMC)
 		15d9 1d50  X14DBG-AP (AST2600 BMC)
+		1849 2000  ROME2D32LM3 (AST2500 BMC)
 1a05  deltaww
 1a07  Kvaser AB
 	0006  CAN interface PC104+ HS/HS
@@ -28192,6 +28196,7 @@
 	1005  PLEXTOR M10P(GN) NVMe SSD M.2
 	1007  CL4-8D512 NVMe SSD M.2 (DRAM-less)
 	1008  CL5-8D512 NVMe SSD M.2 (DRAM-less)
+	100b  XB2-311024 NVMe SSD M.2 (DRAM-less)
 	100c  CL6 Series NVMe SSD M.2 (DRAM-less)
 	100d  PJ1 Series NVMe SSD
 		1e95 0000  M.2 2280 480 GB
@@ -31471,7 +31476,7 @@
 		8086 10a6  PRO/1000 PF Quad Port Server Adapter
 	10a6  82599EB 10-Gigabit Dummy Function
 	10a7  82575EB Gigabit Network Connection
-		15d9 10a7  X10DRW-i
+		15d9 10a7  AOC-SG-i2
 		8086 10a8  82575EB Gigabit Riser Card
 	10a9  82575EB Gigabit Backplane Connection
 	10b0  82573L PRO/1000 PL Network Connection
@@ -32578,7 +32583,7 @@
 		1137 02c2  X710T4LG 4x10 GbE RJ45 PCIe NIC
 		1137 02d9  Ethernet Network Adapter X710-T2L OCP 3.0
 		1137 02da  Ethernet Network Adapter X710-T4L OCP 3.0
-		15d9 1c76  SYS-522GA-NRT
+		15d9 1c76  AOC-ATG-i2SM
 # NIC-ETH565T-3S-2P OCP3.0 2x10G Base-T Card
 		193d 1082  NIC-ETH565T-3S-2P
 		4c52 1012  LRES1012PT Dual-port 10Gb Ethernet Network Adapter
@@ -38511,6 +38516,7 @@
 	8d00  C610/X99 series chipset 4-port SATA Controller [IDE mode]
 	8d02  C610/X99 series chipset 6-Port SATA Controller [AHCI mode]
 		15d9 0821  X10DRW-i
+		15d9 086b  X10DRS
 	8d04  C610/X99 series chipset SATA Controller [RAID mode]
 	8d06  C610/X99 series chipset SATA Controller [RAID mode]
 		17aa 1031  ThinkServer RAID 110i
@@ -38518,11 +38524,13 @@
 	8d0e  C610/X99 series chipset SATA Controller [RAID mode]
 	8d10  C610/X99 series chipset PCI Express Root Port #1
 		1028 0617  Precision T5810
+		15d9 086b  X10DRS
 	8d11  C610/X99 series chipset PCI Express Root Port #1
 	8d12  C610/X99 series chipset PCI Express Root Port #2
 		1028 0617  Precision T5810
 	8d13  C610/X99 series chipset PCI Express Root Port #2
 	8d14  C610/X99 series chipset PCI Express Root Port #3
+		15d9 086b  X10DRS
 	8d15  C610/X99 series chipset PCI Express Root Port #3
 	8d16  C610/X99 series chipset PCI Express Root Port #4
 	8d17  C610/X99 series chipset PCI Express Root Port #4
@@ -38541,29 +38549,36 @@
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d24  C610/X99 series chipset Thermal Subsystem
 		15d9 0821  X10DRW-i
+		15d9 086b  X10DRS
 	8d26  C610/X99 series chipset USB Enhanced Host Controller #1
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d2d  C610/X99 series chipset USB Enhanced Host Controller #2
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d31  C610/X99 series chipset USB xHCI Host Controller
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d33  C610/X99 series chipset LAN Controller
 	8d34  C610/X99 series chipset NAND Controller
 	8d3a  C610/X99 series chipset MEI Controller #1
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d3b  C610/X99 series chipset MEI Controller #2
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d3c  C610/X99 series chipset IDE-r Controller
 	8d3d  C610/X99 series chipset KT Controller
 	8d40  C610/X99 series chipset LPC Controller
@@ -38574,6 +38589,7 @@
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d45  C610/X99 series chipset LPC Controller
 	8d46  C610/X99 series chipset LPC Controller
 	8d47  C610/X99 series chipset LPC Controller
@@ -38589,6 +38605,7 @@
 	8d62  C610/X99 series chipset sSATA Controller [AHCI mode]
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
+		15d9 086b  X10DRS
 	8d64  C610/X99 series chipset sSATA Controller [RAID mode]
 	8d66  C610/X99 series chipset sSATA Controller [RAID mode]
 	8d68  C610/X99 series chipset sSATA Controller [IDE mode]
@@ -38597,9 +38614,11 @@
 		1028 0617  Precision T5810
 		15d9 0821  X10DRW-i
 		15d9 0832  X10SRL-F
+		15d9 086b  X10DRS
 	8d7d  C610/X99 series chipset MS SMBus 0
 	8d7e  C610/X99 series chipset MS SMBus 1
 	8d7f  C610/X99 series chipset MS SMBus 2
+		15d9 086b  X10DRS
 	9000  IXP2000 Family Network Processor
 	9001  IXP2400 Network Processor
 	9002  IXP2300 Network Processor
