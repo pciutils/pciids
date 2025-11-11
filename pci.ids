@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.09
-#	Date:    2025-11-09 03:15:01
+#	Version: 2025.11.11
+#	Date:    2025-11-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -862,6 +862,7 @@
 		1028 23cd  PERC H975i Adapter
 		1028 2446  PERC H976i Front
 		1d49 020b  ThinkSystem 460-16e SAS/SATA PCIe Gen5 24Gb HBA
+	00b4  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
 	00b5  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
 # 9760W 32 internal port RAID controller
 		1000 5000  MegaRAID 9760W-32i 24G SAS/PCIe Storage Adapter
@@ -879,6 +880,7 @@
 		1028 22d3  PERC H975i Adapter - Virtual
 		1028 23cb  PERC H975i Front - Virtual
 		1028 23cd  PERC H975i Adapter - Virtual
+	00b6  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
 # Broadcom next-gen MPT PCIe switch
 	00b8  Fusion-MPT Switch SAS50xx/SAS51xx
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
@@ -13261,6 +13263,9 @@
 	22bc  AD104 High Definition Audio Controller
 	22bd  AD106M High Definition Audio Controller
 	22be  AD107 High Definition Audio Controller
+	22ce  GB20B PCI bridge
+	22d0  GB20B PCI bridge
+	22d1  GB20B PCI bridge
 	22d8  THOR Processor PCI Express Root Port
 	22e6  THOR Processor PCI Express x16 Controller
 	22e8  GB202 High Definition Audio Controller
@@ -29018,6 +29023,14 @@
 		1fc9 3015  Ethernet Adapter
 		4c52 1001  LREC6860BT 10 Gigabit Ethernet Adapter
 	4527  TN9710Q 5GBase-T/NBASE-T Ethernet Adapter
+1fcb  Varex Imaging Deutschland AG
+	0001  XRD_FG (PCGR-200) [95510214H]
+	0002  XRD_FGx Opto (PCGR-300) [95510215H]
+	0003  XRD_FGe Opto (PCGR-400) [95510216H / 95510218H]
+	0004  XRD_FGe (PCGR-210) [95510217H]
+	0005  XRD_FGe Opto V3 (PCGR-415) [95510220H]
+	0006  XRD_FGe Opto V4 (PCGR-500) [95510221H]
+	0007  XRD_FGe Opto V5 (PCGR-510) [95510222H]
 1fcc  StreamLabs
 	f416  MS416
 	fb01  MH4LM
@@ -39651,13 +39664,13 @@
 		8510 0002  GB2062-PCIe-C20
 		8510 0003  GB2062-PCIe-C41
 		8510 0004  GB2062-PCIe-HIEILP4
-		8510 0005  CQ2040-PCIe-C21
+		8510 0005  GB02-PCIe-C21
 		8510 0006  CQ2020-C2X Series
 		8510 0007  GB02-PCIe-C46-4HDMI
 		8510 0008  GB02-MXM-M60
 		8510 0009  GB02-PCIe-C46-4HDMI-2DP
 		8510 000a  GB02-MXM-M62-A-DP
-		8510 000b  GB2062-PCIe-HIEILP42
+		8510 000b  GB02-PCIe-C42
 		8510 000c  GB02-PUB
 		8510 000d  GB02-PCIe-C46-6HDMI
 		8510 000e  GB02-MXM-M62-A-HDMI
