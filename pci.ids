@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.11
-#	Date:    2025-11-11 03:15:02
+#	Version: 2025.11.12
+#	Date:    2025-11-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -841,6 +841,7 @@
 		1d49 0202  ThinkSystem 430-8e SAS/SATA 12Gb HBA
 		1d49 0204  ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA
 	00b2  PCIe Switch management endpoint
+		15d9 1d24  AOM-PCIE5-418P
 		1d49 0003  ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter
 # 24G SAS/PCIe storage adapter chip
 	00b3  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
@@ -1199,7 +1200,7 @@
 		1000 100b  PEX89000 PCIe Gen 5 Virtual Upstream/Downstream Port
 		1000 2004  PEX89000 Virtual PCIe TWC/NT 2.0 Endpoint
 		1000 2005  PEX89000 Virtual PCIe gDMA Endpoint
-		15d9 1d24  SYS-522GA-NRT
+		15d9 1d24  AOM-PCIE5-418P
 # Lower lane count PEX89000 switch
 	c034  PEX890xx PCIe Gen 5 Switch
 # Lower lane count PEX89000 switch
@@ -20375,6 +20376,8 @@
 1432  Edimax Computer Co.
 	9130  RTL81xx Fast Ethernet
 1433  Eltec Elektronik GmbH
+	0002  XRD_FG (PCGR-200) [95510214H]
+	0006  XRD_FGx Opto (PCGR-300) [95510215H]
 # Nee Real Time Devices US Inc.
 1435  RTD Embedded Technologies, Inc.
 	4520  PCI4520
@@ -20845,6 +20848,8 @@
 # WiFi 6E capable
 	7922  MT7922 802.11ax PCI Express Wireless Network Adapter
 		1a3b 5300  ASUS PCE-AXE59BT
+	7925  MT7925 802.11be 160MHz 2x2 PCIe Wireless Network Adapter [Filogic 360]
+	7927  MT7927 802.11be 320MHz 2x2 PCIe Wireless Network Adapter [Filogic 380]
 	7961  MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]
 	7988  MT7988 PCI Express Host Bridge [Filogic 880]
 	7990  MT7996 802.11be PCI Express Wireless Network Adapter (Port 0)
@@ -25788,6 +25793,9 @@
 	2b43  NXP 88W9098 Wi-Fi 6 (ax) MAC #1
 	2b44  NXP 88W9098 Wi-Fi 6 (ax) MAC #2
 	2b45  NXP 88W9098 Bluetooth 5.3
+# some cards use this device ID instead of 9230
+	624e  DAWICONTROL DC-624e RAID
+		dc93 624e  DC-624e RAID
 	9120  88SE9120 SATA 6Gb/s Controller
 	9122  88SE912x SATA 6Gb/s Controller [AHCI mode]
 	9123  88SE9123 PCIe SATA 6.0 Gb/s controller
@@ -25828,6 +25836,7 @@
 		1d49 0304  ThinkSystem M.2 SATA 2-Bay RAID Enablement Kit
 		1d49 0305  ThinkSystem 7mm SATA 2-Bay Rear RAID Enablement Kit
 		4c52 9630  LRST9630 4-port SATA3(6Gb/s) Raid Adapter
+		dc93 624e  DC-624e RAID
 	9235  88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller
 	9445  88SE9445 PCIe 2.0 x4 4-Port SAS/SATA 6 Gbps RAID Controller
 	9480  88SE9480 SAS/SATA 6Gb/s RAID controller
@@ -28184,7 +28193,7 @@
 	6206  AM620 NVMe SSD
 	6a02  AM6A0 NVMe SSD (DRAM-less)
 1e83  Huaqin Technology Co.Ltd
-1e85  Heitec AG
+1e85  HEITEC AG
 1e89  ID Quantique SA
 	0002  Quantis-PCIe-40M
 	0003  Quantis-PCIe-240M
@@ -28795,8 +28804,7 @@
 	1004  K2-Pro Family [FLEXFLOW-2200T DATA Offload Engine]
 	1005  CONFLUX-2200P NVMe Controller
 	1105  CONFLUX-2200P NVMe Controller [Virtual Function]
-# RDMA-PF
-	1203  FLEXFLOW-2200T RoCEv2 Network Controller
+	1203  K2-Pro Family [FLEXFLOW-2200T RoCEv2 Network Controller]
 # Network Accelerating Card
 	2018  DPU Card
 # Network Accelerating Card
@@ -28819,19 +28827,19 @@
 		1f47 0006  Ethernet 25G 2P FLEXFLOW-2200R
 		1f47 0007  Ethernet 50G 2P FLEXFLOW-2200R
 		1f47 0008  Ethernet 100G 2P FLEXFLOW-2200R
-	4001  CONFLUX-2200E Ethernet Controller
+	4001  K2-Pro Family [CONFLUX-2200E]
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200E
 		1f47 0002  Ethernet 40G 2P CONFLUX-2200E
 		1f47 0003  Ethernet 100G 1P CONFLUX-2200E
 		1f47 0004  Ethernet 100G 2P CONFLUX-2200E
-		1f47 0005  Ethernet 25G 2P CONFLUX-2200E
+		1f47 0005  CONFLUX-2200E 2*25GE Ethernet Adapter
 		1f47 0006  Ethernet 40G 2P CONFLUX-2200E
 		1f47 0007  Ethernet 100G 1P CONFLUX-2200E
-		1f47 0008  Ethernet 100G 2P CONFLUX-2200E
-	4002  CONFLUX-2200E Ethernet Controller [Virtual Function]
-	4003  CONFLUX-2200E Ethernet Controller [MGMT Function]
-	4004  CONFLUX-2200E DATA Offload Engine
-	4203  CONFLUX-2200E RoCEv2 Network Controller
+		1f47 0008  CONFLUX-2200E 2*100GE Ethernet Adapter
+	4002  K2-Pro Family [CONFLUX-2200E Virtual Function]
+	4003  K2-Pro Family [CONFLUX-2200E MGMT Function]
+	4004  K2-Pro Family [CONFLUX-2200E DATA Offload Engine]
+	4203  K2-Pro Family [CONFLUX-2200E RoCEv2 Network Controller]
 	5001  CONFLUX-2200P Ethernet Controller
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200P
 		1f47 0003  Ethernet 100G 2P CONFLUX-2200P
@@ -28872,10 +28880,11 @@
 		1f47 0002  CONFLUX-2200P Ethernet Controller [YDMI Function] DPU
 	6001  K2-Pro Family [CONFLUX-2200X]
 		1f47 0002  CONFLUX-2200X 2*25GE Ethernet Adapter
+		1f47 0003  CONFLUX-2200X 2*40GE Ethernet Adapter
+		1f47 0005  CONFLUX-2200X 2*100GE Ethernet Adapter
 	6002  K2-Pro Family [CONFLUX-2200X Virtual Function]
 	6003  K2-Pro Family [CONFLUX-2200X MGMT Function]
 	6004  K2-Pro Family [CONFLUX-2200X DATA Offload Engine]
-	6203  CONFLUX-2200X RoCEv2 Network Controller (RDMA-PF)
 1f4b  Axera Semiconductor Co., Ltd
 1f52  MangoBoost Inc.
 	1008  Mango GPUBoost - RDMA
@@ -29026,7 +29035,7 @@
 1fcb  Varex Imaging Deutschland AG
 	0001  XRD_FG (PCGR-200) [95510214H]
 	0002  XRD_FGx Opto (PCGR-300) [95510215H]
-	0003  XRD_FGe Opto (PCGR-400) [95510216H / 95510218H]
+	0003  XRD_FGe Opto (PCGR-400 / PCGR-410) [95510216H / 95510218H]
 	0004  XRD_FGe (PCGR-210) [95510217H]
 	0005  XRD_FGe Opto V3 (PCGR-415) [95510220H]
 	0006  XRD_FGe Opto V4 (PCGR-500) [95510221H]
@@ -32596,7 +32605,7 @@
 		1137 02c2  X710T4LG 4x10 GbE RJ45 PCIe NIC
 		1137 02d9  Ethernet Network Adapter X710-T2L OCP 3.0
 		1137 02da  Ethernet Network Adapter X710-T4L OCP 3.0
-		15d9 1c76  AOC-ATG-i2SM
+		15d9 1c76  AOM-PTG-I2T-P
 # NIC-ETH565T-3S-2P OCP3.0 2x10G Base-T Card
 		193d 1082  NIC-ETH565T-3S-2P
 		4c52 1012  LRES1012PT Dual-port 10Gb Ethernet Network Adapter
