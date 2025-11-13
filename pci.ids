@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.12
-#	Date:    2025-11-12 03:15:02
+#	Version: 2025.11.13
+#	Date:    2025-11-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -33357,6 +33357,7 @@
 	201c  Sky Lake-E Non-Transparent Bridge Registers
 	201d  Volume Management Device NVMe RAID Controller
 	2020  Sky Lake-E DMI3 Registers
+		15d9 0917  X11DPi-N(T)
 		15d9 095d  X11SPM-TF
 	2021  Sky Lake-E CBDMA Registers
 	2024  Sky Lake-E MM/Vt-d Configuration Registers
@@ -36673,6 +36674,7 @@
 		1590 0216  Ethernet 1Gb 2-port 368i Adapter
 		1590 0217  Ethernet 1Gb 2-port 368FLR-MMT Adapter
 		1590 0247  Ethernet 1Gb 4-port 369i Adapter
+		15d9 37d1  X11DPi-N
 		17aa 4020  Ethernet Connection X722 for 1GbE
 		17aa 4021  Ethernet Connection X722 for 1GbE
 		17aa 4022  Ethernet Connection X722 for 1GbE
