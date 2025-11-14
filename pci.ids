@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.13
-#	Date:    2025-11-13 03:15:02
+#	Version: 2025.11.14
+#	Date:    2025-11-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13264,8 +13264,8 @@
 	22bc  AD104 High Definition Audio Controller
 	22bd  AD106M High Definition Audio Controller
 	22be  AD107 High Definition Audio Controller
-	22ce  GB20B PCI bridge
-	22d0  GB20B PCI bridge
+	22ce  GB10 GEN5 X4 PCIe host
+	22d0  GB10 GEN4 X1 PCIe host
 	22d1  GB20B PCI bridge
 	22d8  THOR Processor PCI Express Root Port
 	22e6  THOR Processor PCI Express x16 Controller
@@ -39499,7 +39499,7 @@
 	ae4d  Arrow Lake-HX PCIe Root Port #13
 	ae7f  Arrow Lake-HX Shared SRAM (SOC-S)
 	b03e  Panther Lake NPU
-	b080  Panther Lake [Intel Graphics]
+	b080  Panther Lake [Arc B390]
 	b081  Panther Lake [Intel Graphics]
 	b082  Panther Lake [Intel Graphics]
 	b083  Panther Lake [Arc B370]
@@ -40465,6 +40465,10 @@ cddd  Tyzx, Inc.
 	0200  DeepSea 2 High Speed Stereo Vision Frame Grabber
 cdfa  NextSilicon Ltd
 	0007  Maverick
+	0009  Maverick-2
+		cdfa 0900  Maverick-2 Single-Die PCIe Card
+		cdfa 0906  Maverick-2 Dual-Die OAM
+		cdfa 0bff  Maverick-2 Firmware Update
 ceba  KEBA AG
 cf86  Spectrum-4TOR
 	0276  Spectrum-4TOR in Flash Recovery Mode
