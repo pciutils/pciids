@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.14
-#	Date:    2025-11-14 03:15:02
+#	Version: 2025.11.16
+#	Date:    2025-11-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30,38 +30,54 @@
 # This is a relabelled RTL-8139
 	8139  AT-2500TX V3 Ethernet
 0014  Loongson Technology LLC
-	7a00  Hyper Transport Bridge Controller
-	7a02  APB (Advanced Peripheral Bus) Controller
-	7a03  Gigabit Ethernet Controller
-	7a04  OTG USB Controller
-	7a05  Vivante GPU (Graphics Processing Unit)
-	7a06  DC (Display Controller)
-	7a07  HDA (High Definition Audio) Controller
-	7a08  SATA AHCI Controller
-	7a09  PCI-to-PCI Bridge
-	7a0b  SPI Controller
-	7a0c  LPC Controller
-	7a0f  DMA (Direct Memory Access) Controller
-# Found on some boards with two sockets
-	7a10  Hyper Transport Bridge Controller
-	7a13  7A2000 PCH Gigabit Ethernet Controller
-	7a14  EHCI USB Controller
-	7a15  Vivante GPU (Graphics Processing Unit)
-	7a18  SATA 3 AHCI Controller
+	7a00  7A1000 Chipset Hyper Transport Bridge Controller
+	7a02  2K1000 / 7A1000 Chipset Advanced Peripheral Bus Controller
+	7a03  2K1000/2000 / 7A1000 Chipset Gigabit Ethernet Controller
+	7a04  2K1000 / 7A1000 Chipset OTG USB Controller
+	7a05  2K1000 Vivante GC1000 GPU
+	7a06  2K1000 / 7A1000 Chipset Display Controller
+	7a07  2K1000/2000 / 7A1000/2000 Chipset HD Audio Controller
+	7a08  2K1000 / 7A1000 Chipset 3Gb/s SATA AHCI Controller
+	7a09  2K1000 / 7A1000 Chipset PCIe x1 Bridge
+	7a0b  7A1000 Chipset SPI Controller
+	7a0c  2K2000 / 7A1000/2000 Chipset LPC Controller
+	7a0e  2K2000 AES Controller
+	7a0f  2K1000 / 7A1000 Chipset DMA Controller
+	7a10  7A2000 Chipset Hyper Transport Bridge Controller
+	7a13  2K2000 / 7A2000 Chipset Gigabit Ethernet Controller
+	7a14  2K1000 / 7A1000/2000 Chipset USB EHCI Controller
+	7a15  7A1000 Chipset Vivante GC1000 GPU
+	7a16  2K1000/2000 VPU Decoder
+	7a17  7A1000 Chipset AC97 Audio Controller
+	7a18  2K2000 / 7A2000 Chipset 6Gb/s SATA AHCI Controller
 	7a19  PCI-to-PCI Bridge
-	7a1b  SPI Controller
-	7a24  OHCI USB Controller
-# Found on 7A2000 PCH
-	7a25  LG100 GPU
-	7a27  7A2000 PCH I2S Controller
-	7a29  PCI-to-PCI Bridge
-	7a34  xHCI USB Controller
-# Found on 7A2000 PCH
-	7a36  Display Controller
-	7a39  PCIe x1 Root Port
-	7a49  PCIe x4 Root Port
-	7a59  PCIe x8 Root Port
-	7a69  PCIe x16 Root Port
+	7a1a  2K2000 Configuration Bus
+	7a1b  2K2000 / 7A2000 Chipset SPI Controller
+	7a1d  2K2000 RapidIO Interface
+	7a1e  2K2000 DES Controller
+	7a22  2K2000 Advanced Peripheral Bus Controller
+	7a24  2K1000 / 7A1000/2000 Chipset USB OHCI Controller
+	7a25  2K2000 / 7A2000 Chipset LG100 GPU
+	7a26  2K1000 Camera Controller
+	7a27  2K2000 / 7A2000 Chipset I2S Controller
+	7a29  7A1000 Chipset PCIe x8 Bridge
+	7a2e  2K2000 RSA Controller
+	7a2f  2K2000 DMA Controller
+	7a34  2K2000 / 7A2000 Chipset USB 3.0 xHCI Controller
+	7a36  2K2000 / 7A2000 Chipset Display Controller
+	7a37  2K2000 HDMI Audio Controller
+	7a39  2K2000 / 7A2000 Chipset PCIe x1 Root Port
+	7a3e  2K2000 RNG Controller
+	7a44  2K2000 USB 2.0 xHCI Controller
+	7a48  2K2000 SDIO Controller
+	7a49  2K2000 / 7A2000 Chipset PCIe x4 Root Port
+	7a54  2K2000 OTG USB Controller
+	7a59  7A2000 Chipset PCIe x8 Root Port
+	7a69  7A2000 Chipset PCIe x16 Root Port
+	7a79  2K2000 PCIe Root Complex
+	7a88  2K2000 eMMC Controller
+	7a8e  2K2000 SE Controller
+	7af9  2K2000 PCIe Endpoint
 0018  Fn-Link Technology Limited
 	6252  6252CPUB 802.11ax PCIe Wireless Network Adapter
 001c  PEAK-System Technik GmbH
@@ -882,6 +898,12 @@
 		1028 23cb  PERC H975i Front - Virtual
 		1028 23cd  PERC H975i Adapter - Virtual
 	00b6  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
+		1000 5000  MegaRAID 9760W-32i 24G SAS/PCIe Storage Adapter
+		1000 5001  MegaRAID 9760W-16i 24G SAS/PCIe Storage Adapter
+		1000 5010  MegaRAID 9760W-16i16e 24G SAS/PCIe Storage Adapter
+		1000 5020  eHBA 9700W-32i 24G SAS/PCIe Storage Adapter
+		1000 5021  eHBA 9700W-16i 24G SAS/PCIe Storage Adapter
+		1000 5030  eHBA 9700-16e 24G SAS/PCIe Storage Adapter
 # Broadcom next-gen MPT PCIe switch
 	00b8  Fusion-MPT Switch SAS50xx/SAS51xx
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
