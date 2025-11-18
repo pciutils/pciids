@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.16
-#	Date:    2025-11-16 03:15:02
+#	Version: 2025.11.18
+#	Date:    2025-11-18 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13296,6 +13296,7 @@
 	22eb  GB206 High Definition Audio Controller
 	22ec  GB207 High Definition Audio Controller
 	2302  GH100
+	230c  GH100 [H20 NVL16]
 	230e  GH100 [H20 NVL16]
 	2313  GH100 [H100 CNX]
 	2321  GH100 [H100L 94GB]
@@ -13547,7 +13548,7 @@
 	2f80  GB205 High Definition Audio Controller
 	3180  GB110 [Reserved Dev ID A]
 	3182  GB110 [B300 SXM6 AC]
-	31a1  GB110
+	31a1  GB110 [GB300 MaxQ]
 	31c0  GB110 [Reserved Dev ID B]
 	31c2  GB110 [GB300]
 	31fe  GB110
