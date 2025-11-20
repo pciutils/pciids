@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.18
-#	Date:    2025-11-18 03:15:01
+#	Version: 2025.11.20
+#	Date:    2025-11-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28953,6 +28953,7 @@
 1f9d  Axelera AI
 	1100  Metis AIPU (rev 02)
 	11aa  Metis AIPU (rev 01)
+1fa4  Shandong SinoChip Semiconductors Co., Ltd
 1faa  Hexaflake (Shanghai) Information Technology Co., Ltd.
 	0c10  Compass C10 PF
 	0c11  Compass C10 VF
