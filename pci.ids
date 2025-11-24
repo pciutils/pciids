@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.22
-#	Date:    2025-11-22 03:15:02
+#	Version: 2025.11.24
+#	Date:    2025-11-24 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -84,6 +84,7 @@
 	0001  PCAN-PCI CAN-Bus controller
 		001c 0004  2 Channel CAN Bus SJC1000
 		001c 0005  2 Channel CAN Bus SJC1000 (Optically Isolated)
+0029  MICROCHIP
 003d  Lockheed Martin-Marietta Corp
 # Real TJN ID is e159, but they got it wrong several times --mj
 0059  Tiger Jet Network Inc. (Wrong ID)
@@ -95,6 +96,7 @@
 00a7  Teles AG (Wrong ID)
 0100  nCipher Security
 0123  General Dynamics
+0127  MIPS
 0128  Dell (wrong ID)
 # 018a is not LevelOne but there is a board misprogrammed
 018a  LevelOne
@@ -152,11 +154,14 @@
 0303  Hewlett-Packard Company (Wrong ID)
 0308  ZyXEL Communications Corporation (Wrong ID)
 0315  SK-Electronics Co., Ltd.
+031e  ANDES
 0357  TTTech Computertechnik AG (Wrong ID)
 	000a  TTP-Monitoring Card V2.0
 0432  SCM Microsystems, Inc.
 	0001  Pluto2 DVB-T Receiver for PCMCIA [EasyWatch MobilSet]
+0489  SIFIVE
 0497  Dell Inc. (wrong ID)
+05b7  THEAD
 060e  Lightelligence
 	0001  Hummingbird ES
 0675  Dynalink
