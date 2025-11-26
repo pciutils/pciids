@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.24
-#	Date:    2025-11-24 03:15:01
+#	Version: 2025.11.26
+#	Date:    2025-11-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18636,6 +18636,40 @@
 		1028 2293  DC NVMe SED 7450 MU U.2 12.8TB
 		1028 2294  DC NVMe ISE 7450 MU U.2 12.8TB
 		1344 3000  U.3 1600GB [MTFDKCB1T6TFS/MTFDKCC1T6TFS]
+	51c9  7600 PRO NVMe SSD
+		1028 2421  MTFDLBQ1T9THG-1BP1DFCDA
+		1028 2422  MTFDLBQ3T8THG-1BP1DFCDA
+		1028 2423  MTFDLBQ7T6THG-1BP1DFCDA
+		1028 2424  MTFDLBQ15T3THG-1BP1DFCDA
+		1028 2429  MTFDLBQ1T9THG-1BP1JABDA
+		1028 242a  MTFDLBQ3T8THG-1BP1JABDA
+		1028 242b  MTFDLBQ7T6THG-1BP1JABDA
+		1028 242c  MTFDLBQ15T3THG-1BP1JABDA
+		1028 2431  MTFDLAL1T9THG-1BP1DFCDA
+		1028 2432  MTFDLAL3T8THG-1BP1DFCDA
+		1028 2433  MTFDLAL7T6THG-1BP1DFCDA
+		1028 2434  MTFDLAL15T3THG-1BP1DFCDA
+		1028 2439  MTFDLAL1T9THG-1BP1JABDA
+		1028 243a  MTFDLAL3T8THG-1BP1JABDA
+		1028 243b  MTFDLAL7T6THG-1BP1JABDA
+		1028 243c  MTFDLAL15T3THG-1BP1JABDA
+	51ca  7600 MAX NVMe SSD
+		1028 2425  MTFDLBQ1T6THS-1BP1DFCDA
+		1028 2426  MTFDLBQ3T2THS-1BP1DFCDA
+		1028 2427  MTFDLBQ6T4THS-1BP1DFCDA
+		1028 2428  MTFDLBQ12T8THS-1BP1DFCDA
+		1028 242d  MTFDLBQ1T6THS-1BP1JABDA
+		1028 242e  MTFDLBQ3T2THS-1BP1JABDA
+		1028 242f  MTFDLBQ6T4THS-1BP1JABDA
+		1028 2430  MTFDLBQ12T8THS-1BP1JABDA
+		1028 2435  MTFDLAL1T6THS-1BP1DFCDA
+		1028 2436  MTFDLAL3T2THS-1BP1DFCDA
+		1028 2437  MTFDLAL6T4THS-1BP1DFCDA
+		1028 2438  MTFDLAL12T8THS-1BP1DFCDA
+		1028 243d  MTFDLAL1T6THS-1BP1JABDA
+		1028 243e  MTFDLAL3T2THS-1BP1JABDA
+		1028 243f  MTFDLAL6T4THS-1BP1JABDA
+		1028 2440  MTFDLAL12T8THS-1BP1JABDA
 	51cb  6550 ION NVMe SSD
 		1028 2379  MTFDLBQ61T4THL-1BK1JABDA
 		1028 23a6  MTFDLBQ30T7THL-1BK1JABDA
@@ -22858,6 +22892,7 @@
 # Spectrum, 100GbE Switch
 	cb84  MT52100
 	cf08  Switch-IB2
+	cf09  Quantum Aggregation Node
 	cf6c  MT53100 [Spectrum-2]
 	cf70  Spectrum-3
 	cf80  Spectrum-4
@@ -22987,7 +23022,8 @@
 15ce  Genrad Inc
 15cf  Hilscher Gesellschaft für Systemautomation mbH
 	0000  CIFX PCI/PCIe
-	0090  CIFX PCI/PCIe
+	0090  CIFX PCIe
+	0900  CIFX PCIe
 15d1  Infineon Technologies AG
 15d2  FIC (First International Computer Inc)
 15d3  NDS Technologies Israel Ltd
@@ -25376,7 +25412,7 @@
 	0200  TILE-Gx processor
 	0201  TILE-Gx Processor Virtual Function
 	2000  TILE-Gx PCI Express Root Port
-1a4a  SLAC National Accelerator Lab TID-AIR
+1a4a  SLAC National Accelerator Lab TID-ID
 	1000  MCOR Power Supply Controller
 	1010  AMC EVR - Stockholm Timing Board
 	1020  PGPCard - Gen3 Cameralink Interface
@@ -25387,6 +25423,8 @@
 	2011  PCI-Express EVR - TPR Version
 	2020  PGP-GEN3 PCIe - 8 Lane Plus EVR
 	2030  AXI Stream DAQ PCIe card
+		1a4a 0010  Xilinx Varium C1100
+		1a4a 1010  Xilinx Varium C1100 Extended
 	2040  EXO PCIe TEM
 	3000  COB DTM V1
 	3001  COB DTM V2
@@ -25882,6 +25920,20 @@
 # 2xHDMI and 2xHD-SDI inputs
 	e5f4  MPEG2 and H264 Encoder-Transcoder
 	f1c4  Dual ASI-RX/TX-CI card
+1b59  Achronix Semiconductor Corporation
+	0010  VectorPath S7t-VG6
+		1b59 ac10  SDK demonstration design
+		1b59 ac12  Ethernet board link
+		1b59 ac13  DDR4 PCIe Ethernet demonstration design
+		1b59 ac15  Licensing reference design
+		1b59 ac16  Partial reconfiguration reference design
+	0012  VectorPath VP815
+		1b59 ac10  SDK demonstration design
+		1b59 ac12  Ethernet board link
+		1b59 ac13  DDR4 PCIe Ethernet demonstration design
+		1b59 ac15  Licensing reference design
+		1b59 ac16  Partial reconfiguration reference design
+	0013  VectorPath VP708
 1b5e  STAR-Dundee Ltd.
 	0001  SpaceWire PCI Mk2
 	0002  SpaceWire PCIe Mk1
@@ -37358,7 +37410,7 @@
 	4641  12th Gen Core Processor Host Bridge/DRAM Registers
 		1028 0b10  Precision 3571
 	464d  12th Gen Core Processor PCI Express x4 Controller #0
-	464e  Alder Lake-N Thunderbolt 4 USB Controller
+	464e  Alder Lake-N Processor USB 3.2 xHCI Controller
 	464f  12th Gen Core Processor Gaussian & Neural Accelerator
 		1028 0b10  Precision 3571
 	4650  12th Gen Core Processor Host Bridge
@@ -38258,7 +38310,7 @@
 	7d40  Meteor Lake-M [Intel Graphics]
 	7d41  Arrow Lake-U [Intel Graphics]
 	7d45  Meteor Lake-P [Intel Graphics]
-	7d51  Arrow Lake-P [Arc Pro 140T]
+	7d51  Arrow Lake-P [Arc Pro 130T/140T]
 	7d55  Meteor Lake-P [Intel Arc Graphics]
 	7d60  Meteor Lake-M [Intel Graphics]
 	7d67  Arrow Lake-S [Intel Graphics]
