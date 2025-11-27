@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.26
-#	Date:    2025-11-26 03:15:02
+#	Version: 2025.11.27
+#	Date:    2025-11-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18030,6 +18030,11 @@
 		12b9 00d3  USR 56K Internal V92 FAX Modem (Model 5610)
 		12b9 baba  USR 56K Internal Voice Modem 3CP3298-DEL (Model 5601) [Hawk]
 12ba  BittWare, Inc.
+	0069  VectorPath S7t-VG6
+		12ba b5d4  BW_BMC_IF
+	0079  VectorPath VP815
+		12ba b5d4  BW_BMC_IF
+	007a  VectorPath VP708
 12bb  Nippon Unisoft Corporation
 12bc  Array Microsystems
 12bd  Computerm Corp.
@@ -26707,6 +26712,7 @@
 		1ea0 4225  NVMe SSD TP3511 E3.S 15.36TB
 		1ea0 5125  NVMe SSD TP3310 U.2 15.36TB
 		1ea0 5126  NVMe SSD TP3310 U.2 30.72TB
+		1ea0 5127  NVMe SSD TP3310 U.2 61.44TB
 		1ea0 6124  NVMe SSD TP3510 U.2 7.68TB
 		1ea0 6125  NVMe SSD TP3510 U.2 15.36TB
 		1ea0 6224  NVMe SSD TP3510 E3.S 7.68TB
