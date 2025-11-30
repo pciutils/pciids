@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.27
-#	Date:    2025-11-27 03:15:02
+#	Version: 2025.11.30
+#	Date:    2025-11-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27744,6 +27744,8 @@
 		1df8 d201  M.2 NVMe SSD
 		1df8 d600  M.2 NVMe SSD
 1dfa  Astera Labs, Inc.
+	01e2  CXL 2.0 Memory Controller CM5xxxx [Leo]
+	05c0  PCIe 6 Fabric Switch PF6xxx [Scorpio]
 1dfc  JSC NT-COM
 	1181  TDM 8 Port E1/T1/J1 Adapter
 1e0d  SambaNova Systems, Inc
