@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.30
-#	Date:    2025-11-30 03:15:02
+#	Version: 2025.12.03
+#	Date:    2025-12-03 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13526,6 +13526,7 @@
 	2c34  GB203GL [RTX PRO 4000 Blackwell]
 	2c38  GB203GLM [RTX PRO 5000 Blackwell Generation Laptop GPU]
 	2c39  GB203GLM [RTX PRO 4000 Blackwell Generation Laptop GPU]
+	2c3a  GB203GL [RTX PRO 4500 Blackwell]
 	2c58  GB203M / GN22-X11 [GeForce RTX 5090 Max-Q / Mobile]
 	2c59  GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]
 	2c77  GB203GLM [RTX PRO 5000 Blackwell Embedded GPU]
@@ -22653,6 +22654,7 @@
 	027a  Eros Chiplet
 	027c  Nvlink-7 Switch in Flash Recovery Mode
 	027d  Nvlink-7 Switch RMA
+	027e  Spectrum-7 Tile
 	0281  NPS-600 Flash Recovery
 	0282  ArcusE Flash recovery
 	0283  ArcusE RMA
@@ -25428,8 +25430,28 @@
 	2011  PCI-Express EVR - TPR Version
 	2020  PGP-GEN3 PCIe - 8 Lane Plus EVR
 	2030  AXI Stream DAQ PCIe card
-		1a4a 0010  Xilinx Varium C1100
-		1a4a 1010  Xilinx Varium C1100 Extended
+		1022 0005  Xilinx AC701
+		1022 0006  Xilinx Alveo U50
+		1022 0007  Xilinx Alveo U200
+		1022 0008  Xilinx Alveo U250
+		1022 0009  Xilinx Alveo U280
+		1022 000a  Xilinx KC705
+		1022 000b  Xilinx KCU105
+		1022 000c  Xilinx KCU116
+		1022 000d  Xilinx KCU1500
+		1022 000e  Xilinx VCU128
+		1022 000f  Xilinx Alveo U55C
+		1022 0010  Xilinx Varium C1100
+		1022 100d  Xilinx KCU1500 Extended
+		1022 100f  Xilinx Alveo U55C Extended
+		1022 1010  Xilinx Varium C1100 Extended
+		12ba 0002  XUPVV8 VU13P
+		12ba 0013  XUPVV8 VU9P
+		1a4a 0003  PGP Card GEN3
+		1a4a 0004  PGP Card GEN4
+		1d92 0011  PC821 KU085
+		1d92 0012  PC821 KU115
+		4144 0001  ADM-PCIE-KU3
 	2040  EXO PCIe TEM
 	3000  COB DTM V1
 	3001  COB DTM V2
@@ -26126,8 +26148,7 @@
 	5016  FireCuda 520/IronWolf 525 SSD
 	5018  E18 PCIe SSD
 	5019  BarraCuda PCIe SSD (DRAM-less)
-# 2TB
-	5021  FireCuda 520 SSD
+	5021  PCIe Gen4 SSD
 # 1TB
 	5026  FireCuda 540 SSD
 	5027  LaCie Rugged SSD Pro5
@@ -26618,6 +26639,7 @@
 	633a  LEGEND 900 NVMe SSD (DRAM-less)
 	634c  LEGEND 820 NVMe SSD (DRAM-less)
 	635a  XPG GAMMIX S60 NVMe SSD (DRAM-less)
+	636a  XPG GAMMIX S55 NVMe SSD (DRAM-less)
 	642a  XPG GAMMIX S50 CORE NVMe SSD (DRAM-less)
 	646a  XPG MARS 980 BLADE NVMe SSD
 	648a  LEGEND 860 NVMe SSD (DRAM-less)
@@ -27214,6 +27236,7 @@
 	2263  SM2263EN/SM2263XT-based OEM NVME SSD (DRAM-less)
 	2269  FORESEE XP2000, Lexar NM760 NVME SSD (DRAM-less)
 	2508  Lexar NM1090 PRO NVMe SSD
+	2708  Lexar microSD Express card (DRAM-less)
 	5216  FORESEE XP1000 / Lexar Professional CFexpress Type B Gold series, NM620 PCIe NVME SSD (DRAM-less)
 	5220  FORESEE XP2100 NVMe SSD (DRAM-less)
 	5236  Lexar NM800 PRO NVME SSD
@@ -27881,6 +27904,8 @@
 	0033  Exceria Plus G4 NVMe SSD (DRAM-less)
 	0034  CM9-based E3.S NVMe SSD
 	0035  CM9-based U3 NVMe SSD
+	003e  LC9 E3.S NVMe SSD
+	003f  LC9 U.2 NVMe SSD
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
 1e18  Beijing GuangRunTong Technology Development Co.,Ltd
 1e24  Squirrels Research Labs
@@ -28197,6 +28222,7 @@
 	0071  ZHITAI TiPlus7100
 	0081  ZHITAI Ti600 NVMe SSD
 	0090  ZHITAI TiPro9000 NVMe SSD
+	00a1  ZHITAI TiPlus7100s NVMe SSD (DRAM-less)
 # YMTC
 	1001  PC005 NVMe SSD
 	1011  PC210 M.2 2280 NVMe SSD
@@ -28790,6 +28816,11 @@
 	3411  M18000 Family BASE-T OCP
 	3412  M18000 Lx Family BASE-T OCP
 	3413  M18000 Family Virtual Function
+	3502  M18305 Family
+		1f0f 0001  S2055AS, 2x 25GbE, SFP28, PCIe 4.0 x8
+		1f0f 0002  S2025XS, 2x 10GbE, SFP+, PCIe 4.0 x8
+	350a  M18305 Family Virtual Function
+		1f0f 0001  M18305 Family Virtual Function
 	9088  D1055AS PCI Express Switch Downstream Port
 1f16  XConn Technologies
 	c500  XC50256 CXL2.0 Switch
@@ -28831,6 +28862,7 @@
 1f31  Nextorage
 	4512  NE1N NVMe SSD
 	451b  NN4LE NVMe SSD (DRAM-less)
+	4622  NEM-PAC NVMe SSD (DRAM-less)
 1f3f  3SNIC Ltd
 	2100  SSSHBA SAS/SATA HBA
 		1f3f 0120  HBA 32 Ports
@@ -29345,6 +29377,7 @@
 	1661  WPBSN4M8-512GMP
 	1662  WPBSN4M8-1TMP
 	1663  WPBSN4M8-2TMP
+	1664  WPBSN4M8-1TGP NVMe SSD (DRAM-less)
 2096  Kaitian Information Technology Co., Ltd.
 	5401  KCP54(01) 2280 PCIe G4 x4 TLCKCP54(01) 2280 PCIe G4 x4 TLC
 	5402  KCP54(02) 2280 PCIe G4 x4 TLC
