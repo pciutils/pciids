@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.03
-#	Date:    2025-12-03 03:15:02
+#	Version: 2025.12.06
+#	Date:    2025-12-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18172,6 +18172,7 @@
 	e110  PI7C9X110 PCIe- to-PCI bridge
 		1775 11cc  CC11/CL11 CompactPCI Bridge
 	e111  PI7C9X111SL PCIe-to-PCI Reversible Bridge
+		ea50 3bbb  OCuLink to RX3i backplane bridge
 	e112  PI7C9X112SL PCIe-to-PCI Bridge
 	e113  PI7C9X113SL/PI7C9X118SL PCIe-to-PCI Bridge
 	e130  PCI Express to PCI-XPI7C9X130 PCI-X Bridge
@@ -19158,8 +19159,13 @@
 	0252  XR17V252 Dual UART PCI controller
 	0254  XR17V254 Quad UART PCI controller
 	0258  XR17V258 Octal UART PCI controller
-	0352  XR17V3521 Dual PCIe UART
+	0352  XR17V352 High Performance Dual PCI Express UART
 		4c52 9252  LRUS9252H 2-Port RS232 Serial Adapter
+	0354  XR17V354 High Performance Quad PCI Express UART
+	0358  XR17V358 High Performance Octal PCI Express UART
+		ea50 8232  8-Channel RS232 Card
+	8358  Twin XR17V358 High Performance Octal PCI Express UARTs
+		ea50 8232  16-Channel RS232 Card
 13a9  Siemens Medical Systems, Ultrasound Group
 13aa  Broadband Networks Inc
 13ab  Arcom Control Systems Ltd
@@ -25269,14 +25275,17 @@
 		19e5 00a1  Hi1822 SP670 (2*100GE)
 	1710  iBMA Virtual Network Adapter
 	1711  Hi171x Series [iBMC Intelligent Management system chip w/VGA support]
+	1712  Intelligent Management system chip Virtual Network Adapter
 	1822  Hi1822 Family (4*25GE)
 		19e5 d129  Hi1822 SP570 (4*25GE)
 		19e5 d136  Hi1822 SP580 (4*25GE)
 		19e5 d141  Hi1822 SP583 (4*25GE)
 		19e5 d146  Hi1822 SP585 (4*25GE)
+	36f0  Intelligent Management system chip SATA AHCI support
 	3714  ES3000 V5 NVMe PCIe SSD
 		19e5 5312  NVMe SSD ES3500P V5 2000GB 2.5" U.2
 	371e  Hi1822 Family Virtual Bridge
+	3730  Intelligent Management system chip GE support
 	3754  ES3000 V6 NVMe PCIe SSD
 		19e5 6122  NVMe SSD ES3600P V6 1600GB 2.5" U.2
 		19e5 6123  NVMe SSD ES3600P V6 3200GB 2.5" U.2
@@ -25295,8 +25304,12 @@
 		19e5 01ad  RAID SP686C-M-40i 4G
 	375e  Hi1822 Family Virtual Function
 	375f  Hi1822 Family Virtual Function
+	3770  Intelligent Management system chip Virtual Feature USB2.0 HOST support
 	379e  Hi1822 Family Virtual Function
 	379f  Hi1822 Family Virtual Function
+	37b0  Intelligent Management system chip USB3.0 HOST support
+	37f0  Intelligent Management system chip USB2.0 HOST support
+	3830  Intelligent Management system chip Memory-Mapped Buffer Interface
 	3858  SP186 HBA Controller Card
 		19e5 0120  HBA SP186-M-32i
 		19e5 0125  HBA SP186-M-40i
@@ -25310,8 +25323,10 @@
 	a126  HiSilicon SDI NVMe Storage Controller
 	a127  HiSilicon SDI Accelerator
 	a12a  HiSilicon Add-on PCI-PCI Bridge
+	a12c  HiSilicon Embedded PCIe DFX
 	a12d  HiSilicon Embedded PMU
 	a12e  HiSilicon Embedded PCIe PTT
+	a12f  HiSilicon DFX Registers
 	a220  HNS GE Network Controller
 	a221  HNS GE/10GE/25GE Network Controller
 		19e5 0454  TM280
@@ -26853,6 +26868,8 @@
 		1d0f 0000  Trainium
 	7264  NeuronDevice (Inferentia2)
 	7364  NeuronDevice (Trainium2)
+	7564  NeuronDevice (Trainium3)
+	7565  NeuronDevice (Trainium3)
 	8061  NVMe EBS Controller
 	cd01  NVMe SSD Controller
 	ec20  Elastic Network Adapter (ENA)
@@ -28326,6 +28343,7 @@
 		1ea0 5636  TP1500 Series U.2 NVMe Datacenter SSD
 	1003  CLR-8W512 NVMe SSD M.2 (DRAM-less)
 	1005  PLEXTOR M10P(GN) NVMe SSD M.2
+	1006  CA8 Series NVMe SSD M.2
 	1007  CL4-8D512 NVMe SSD M.2 (DRAM-less)
 	1008  CL5-8D512 NVMe SSD M.2 (DRAM-less)
 	100b  XB2-311024 NVMe SSD M.2 (DRAM-less)
@@ -29050,6 +29068,7 @@
 	1202  TE3420 series / Patriot P320 M.2 NVMe SSD (DRAM-less)
 	1608  PCIe Gen4 x4 M.2 2280
 	1f88  TE3420 PCIe Gen3 x4 M.2 2280
+	2269  XE4403 Series NVMe PCIe Gen4x4 SSD
 	3420  PCIe Gen3 x4 M.2 2280
 	6100  TE3420 Series NVMe PCIe Gen3x4 SSD
 	6101  XE3420 Series NVMe PCIe Gen3x4 SSD
