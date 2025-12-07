@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.06
-#	Date:    2025-12-06 03:15:02
+#	Version: 2025.12.07
+#	Date:    2025-12-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23873,6 +23873,12 @@
 	0843  PCA-8439 General-purpose multifunctional PCIe card with 16 analog inputs
 	ff00  CTU CAN FD PCIe Card
 1761  Pickering Interfaces Ltd
+	4411  50-297A
+		1761 331f  50-297A-014
+		1761 3320  50-297A-050
+		1761 3321  50-297A-056
+		1761 3368  50-297A-130
+		1761 3372  50-297A-122
 1771  InnoVISION Multimedia Ltd.
 1775  General Electric
 177d  Cavium, Inc.
@@ -28230,8 +28236,8 @@
 	8906  MxL8906
 	8908  MxL8908
 1e44  Valve Software
-# the actual PCI-SIG member is Elektrobit, a daughter company of Continental
-1e48  Continental
+# The actual PCI-SIG member is Elektrobit, a daughter company of Aumovio (ex Continental)
+1e48  Aumovio
 1e49  Yangtze Memory Technologies Co.,Ltd
 	0001  ZHITAI PC005 NVMe SSD
 	0021  ZHITAI TiPro5000 NVMe SSD
@@ -29141,6 +29147,8 @@
 1fc1  QLogic, Corp.
 	000d  IBA6110 InfiniBand HCA
 	0010  IBA6120 InfiniBand HCA
+# formerly GE Intelligent Platforms
+1fc3  Emerson
 1fc9  Tehuti Networks Ltd.
 	3009  10-Giga TOE SmartNIC
 	3010  10-Giga TOE SmartNIC
@@ -29519,6 +29527,7 @@
 2a18  Video Transcode Controller
 	2a22  Video Transcode Controller
 2bd8  ROPEX Industrie-Elektronik GmbH
+2ff1  Maginfra Co., LTD
 3000  Hansol Electronics Inc.
 30c9  Luxvisions Innovation Technology Ltd.
 3100  Dynabook Inc.
@@ -37960,6 +37969,7 @@
 	65f9  5100 Chipset PCI Express x8 Port 6-7
 	65fa  5100 Chipset PCI Express x16 Port 4-7
 	65ff  5100 Chipset DMA Engine
+	674c  CRI
 	6f00  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
 		15d9 0832  X10SRL-F
 	6f01  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
