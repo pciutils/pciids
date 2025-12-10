@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.07
-#	Date:    2025-12-07 03:15:02
+#	Version: 2025.12.10
+#	Date:    2025-12-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -912,6 +912,7 @@
 		1000 5020  eHBA 9700W-32i 24G SAS/PCIe Storage Adapter
 		1000 5021  eHBA 9700W-16i 24G SAS/PCIe Storage Adapter
 		1000 5030  eHBA 9700-16e 24G SAS/PCIe Storage Adapter
+		1028 2446  PERC H976i Front - Virtual
 # Broadcom next-gen MPT PCIe switch
 	00b8  Fusion-MPT Switch SAS50xx/SAS51xx
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
@@ -14396,6 +14397,7 @@
 	0410  VX900 Series Host Bridge: Host Control
 	0415  VT6415 PATA IDE Host Controller
 		1043 838f  Motherboard
+		1849 0415  Motherboard
 	0419  VN1000 Host Bridge
 	0501  VT8501 [Apollo MVP4]
 	0505  VT82C505
@@ -39905,6 +39907,13 @@
 	8318  Ethernet Controller N500 Series for 1GbE (Dual-port, Copper RJ45)
 		4c52 1049  LRES1049PT Dual-port 1Gb Ethernet Network Adapter
 		4c52 3043  LRES3043PT Dual-port 1Gb Ethernet Server Adapter for OCP
+	8500  Ethernet Controller N20 Series for 25GbE
+		8848 0800  Ethernet Network Adapter N20 for 25GbE SFP28
+		8848 8800  Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port
+	8501  Ethernet Controller N20 Series for 100GbE
+		8848 8800  Ethernet Network Adapter N20 for RDMA 100GbE QSFP28 2-port
+	8502  Ethernet Controller N20 Series for 40GbE
+		8848 8800  Ethernet Network Adapter N20 for RDMA 40GbE QSFP+ 2-port
 8866  T-Square Design Inc.
 8888  Silicon Magic
 	8504  AVMatrix VC42 4-port HDMI Capture
