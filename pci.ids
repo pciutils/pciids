@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.11
-#	Date:    2025-12-11 03:15:02
+#	Version: 2025.12.12
+#	Date:    2025-12-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4153,6 +4153,7 @@
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
 	7551  Navi 48 [Radeon AI PRO R9700]
 	7590  Navi 44 [Radeon RX 9060 XT]
+		1eae 8601  RX-96TS316W7 [SWIFT RX 9060 XT OC White Triple Fan Gaming Edition 16GB]
 	75a0  Aqua Vanjaram [Instinct MI350X]
 	75a3  Aqua Vanjaram [Instinct MI355X]
 	7833  RS350 Host Bridge
@@ -4913,6 +4914,7 @@
 	0144  Yotta Video Compositor Output
 		1014 0145  Yotta Output Controller (ytout)
 	0156  405GP PLB to PCI Bridge
+		1fc3 0004  IC695ETM001 RX3i Ethernet PCI Module
 	015e  622Mbps ATM PCI Adapter
 	0160  64bit/66MHz PCI ATM 155 MMF
 	016e  GXT4000P Graphics Adapter
@@ -13512,7 +13514,7 @@
 	2b8c  GB202 [GeForce RTX 5090 D V2]
 	2bb1  GB202GL [RTX PRO 6000 Blackwell Workstation Edition]
 	2bb2  GB202GL [RTX PRO 6000D Blackwell Workstation Edition]
-	2bb3  GB202GL [RTX PRO 5000 Blackwell]
+	2bb3  GB202GL [RTX PRO 5000 Blackwell / RTX PRO 5000 72GB Blackwell]
 	2bb4  GB202GL [RTX PRO 6000 Blackwell Max-Q Workstation Edition]
 	2bb5  GB202GL [RTX PRO 6000 Blackwell Server Edition]
 	2bb9  GB202GL [RTX 6000D]
@@ -28276,9 +28278,12 @@
 	1602  NVMe SSD Controller MAP1602 (DRAM-less)
 	1608  NVMe SSD Controller MAP1608 (DRAM-less)
 1e4c  GSI Technology
-	0010  Associative Processing Unit [Leda]
+	0010  Associative Processing Unit [Gemini-1]
+		1e4c 0010  Leda-E
 		1e4c 0120  SE120
-	0020  Associative Processing Unit [Leda-2]
+	0020  Associative Processing Unit [Gemini-2]
+		1e4c 0010  Leda-E2
+		1e4c 0011  Leda-E2 rev 1.1
 1e50  IP3 Tech (HK) Limited
 1e52  Tenstorrent Inc
 	401e  Wormhole
@@ -28360,6 +28365,8 @@
 		1e95 0000  M.2 2280 480 GB
 		1e95 0001  M.2 2280 960 GB
 		1e95 0002  M.2 2280 1920 GB
+		1e95 0003  M.2 22110 3840 GB
+	100f  EJ5-2W3840 NVMe SSD U.2
 	1010  CX3 Series NVMe SSD
 		1e95 0000  M.2 2280 480 GB
 		1e95 0001  M.2 2280 960 GB
