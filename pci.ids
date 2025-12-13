@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.12
-#	Date:    2025-12-12 03:15:02
+#	Version: 2025.12.13
+#	Date:    2025-12-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29198,6 +29198,12 @@
 	0028  IC695RMX228 RX3i 128MB Redundancy Memory Xchange with Single Fiber transceiver
 	0029  IC695PMM345 PACMotion Digital Motion Control Module (EtherCAT)
 	002a  IC695HSC318 RX3i High Speed Counter (8 counters)
+	8003  IC695CPU310/CMU310/NIU001 RX3i Controller 300 MHz Celeron
+	8004  IC695CPU315/320/CRU320 RX3i Controller 1.0 GHz Celeron-M
+	8005  IC695PNS001/101 RX3i Profinet Scanner
+	8006  IC695CPE/CRE330 RX3i Controller 1.0 GHz G-series
+	8007  IC695CPE302/305/310/NIU001+ RX3i Controller 1.1 GHz Atom Z510
+	800d  IC695CPE302/305/310/NIU001+ RX3i Controller Atom x3930
 1fc9  Tehuti Networks Ltd.
 	3009  10-Giga TOE SmartNIC
 	3010  10-Giga TOE SmartNIC
