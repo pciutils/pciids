@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.13
-#	Date:    2025-12-13 03:15:02
+#	Version: 2025.12.15
+#	Date:    2025-12-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -14006,6 +14006,7 @@
 		1385 4700  MA521 802.11b Wireless PC Card
 		1737 0019  WPC11v4 802.11b Wireless-B Notebook Adapter
 	8185  RTL-8185 IEEE 802.11a/b/g Wireless LAN Controller
+		187e 8225  ZyAIR G-302 v3
 	818b  RTL8192EE PCIe Wireless Network Adapter
 	8190  RTL8190 802.11n PCI Wireless Network Adapter
 	8191  RTL8192CE PCIe Wireless Network Adapter
@@ -24537,8 +24538,6 @@
 	a102  VigraWATCH PMC
 	a103  Vigra I/O
 187e  ZyXEL Communications Corporation
-	3403  ZyAir G-110 802.11g
-	340e  M-302 802.11g XtremeMIMO
 1885  Avvida Systems Inc.
 1888  Varisys Ltd
 	0301  VMFX1 FPGA PMC module
