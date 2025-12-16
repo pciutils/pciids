@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.15
-#	Date:    2025-12-15 03:15:02
+#	Version: 2025.12.16
+#	Date:    2025-12-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18687,6 +18687,7 @@
 		1028 23a6  MTFDLBQ30T7THL-1BK1JABDA
 		1028 23a7  MTFDLAL61T4THL-1BK1JABDA
 		1028 23a8  MTFDLAL30T7THL-1BK1JABDA
+	51cd  9650 PRO NVMe SSD
 	5404  2210 NVMe SSD [Cobain]
 	5405  2300 NVMe SSD [Santana]
 	5407  3400 NVMe SSD [Hendrix]
