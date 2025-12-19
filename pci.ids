@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.16
-#	Date:    2025-12-16 03:15:01
+#	Version: 2025.12.19
+#	Date:    2025-12-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22661,8 +22661,8 @@
 	0274  Spectrum-6 in Flash Recovery Mode
 	0275  Spectrum-6 RMA
 	0277  Spectrum-6 Tile
-	0278  Quantum-4 in Flash Recovery Mode
-	0279  Quantum-4 RMA
+	0278  Nvlink-6 Switch in Flash Recovery Mode
+	0279  Nvlink-6 Switch RMA
 	027a  Eros Chiplet
 	027c  Nvlink-7 Switch in Flash Recovery Mode
 	027d  Nvlink-7 Switch RMA
@@ -22922,7 +22922,7 @@
 	d2f2  Quantum-2 NDR (400Gbps) switch
 	d2f4  Quantum-3
 	d2f6  Quantum-3CPO
-	d2f8  Quantum-4
+	d2f8  Nvlink-6 Switch
 	d2fa  Nvlink-7 Switch
 	d2fc  Nvlink-8 Switch
 15b4  CCI/TRIAD
@@ -25325,7 +25325,7 @@
 		19e5 0125  HBA SP186-M-40i
 		19e5 0180  HBA SP186-M-16i
 		19e5 0188  HBA SP186-M-8i
-	a120  HiSilicon PCIe Root Port with Gen4
+	a120  HiSilicon PCIe Root Port
 	a121  HiSilicon PCI-PCI Bridge
 	a122  HiSilicon Embedded DMA Engine
 	a124  HiSilicon Internal SDI Function Engine
@@ -27799,6 +27799,8 @@
 1dfc  JSC NT-COM
 	1181  TDM 8 Port E1/T1/J1 Adapter
 1e0d  SambaNova Systems, Inc
+1e0e  Qualcomm / Option SimTech, Incorporated
+	9071  SIM8230G 5GNR/LTE/GNSS
 1e0f  KIOXIA Corporation
 	0001  NVMe SSD Controller BG4 (DRAM-less)
 	0007  NVMe SSD Controller Cx6
@@ -28278,12 +28280,12 @@
 	1602  NVMe SSD Controller MAP1602 (DRAM-less)
 	1608  NVMe SSD Controller MAP1608 (DRAM-less)
 1e4c  GSI Technology
-	0010  Associative Processing Unit [Gemini-1]
+	0010  Gemini-I
 		1e4c 0010  Leda-E
 		1e4c 0120  SE120
-	0020  Associative Processing Unit [Gemini-2]
-		1e4c 0010  Leda-E2
+	0020  Gemini-II
 		1e4c 0011  Leda-E2 rev 1.1
+		1e4c 0020  G2-Edge
 1e50  IP3 Tech (HK) Limited
 1e52  Tenstorrent Inc
 	401e  Wormhole
@@ -29366,6 +29368,7 @@
 		2036 0862  NF1618 Family NX862 (2*50GE)
 		2036 0863  NF1618 Family NX863 (2*100GE)
 		2036 0864  NF1618 Family NX864 (1*200GE)
+		2036 0865  NF1618 Family NX865 (2*200GE)
 	1619  NF1618 Family Virtual Function
 203b  XTX Markets Technologies Ltd.
 2046  GXMICRO Technology (Shanghai) Co., Ltd.
