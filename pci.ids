@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.22
-#	Date:    2025-12-22 03:15:02
+#	Version: 2025.12.23
+#	Date:    2025-12-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29373,6 +29373,7 @@
 	8000  NP36xxx PCIe Gen 6 Switch
 		2036 0104  NP36104 PCIe Gen 6 26 port/104 lane Switch Upstream/Downstream Port
 		2036 0144  NP36144 PCIe Gen 6 36 port/144 lane Switch Upstream/Downstream Port
+		2036 1000  NP36000 PCIe Gen 6 Virtual Upstream/Downstream Port
 		2036 1001  NP36000 Virtual PCIe MGR 1.x Endpoint
 		2036 1002  NP36000 Virtual PCIe DMA 1.x Endpoint
 		2036 1003  NP36000 Virtual PCIe NTB 1.x Endpoint
