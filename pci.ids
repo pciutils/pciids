@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.23
-#	Date:    2025-12-23 03:15:02
+#	Version: 2025.12.24
+#	Date:    2025-12-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -268,15 +268,7 @@
 		0e11 409c  Smart Array 6400
 		0e11 409d  Smart Array 6400 EM
 	005a  Remote Insight II board - Lights-Out
-	007c  NC7770 1000BaseTX
-	007d  NC6770 1000BaseTX
-	0085  NC7780 1000BaseTX
 	00b1  Remote Insight II board - PCI device
-	00bb  NC7760
-	00ca  NC7771
-	00cf  NC7772
-	00d1  NC7783
-	00e3  NC7761
 	0508  Netelligent 4/16 Token Ring
 	1000  Triflex/Pentium Bridge, Model 1000
 	2000  Triflex/Pentium Bridge, Model 2000
@@ -324,7 +316,6 @@
 	b012  Netelligent 10 T/2 PCI UTP/Coax
 	b030  Netelligent 10/100 TX UTP
 	b060  Smart Array 5300 Controller
-	b0e1  NC3133 Fast Ethernet Module
 	b178  Smart Array 5i/532
 		0e11 4080  Smart Array 5i
 		0e11 4082  Smart Array 532
@@ -10962,6 +10953,7 @@
 		1043 02fb  V9250 Magic
 		1043 8180  V9520-X/TD/128M
 		107d 2967  WinFast A340T 128MB
+		1462 9073  MS-8907 (FX5200-TDR128)
 		1462 9110  MS-8911 (FX5200-TD128)
 		1462 9171  MS-8917 (FX5200-T128)
 		1462 9360  MS-8936 (FX5200-T128)
@@ -23298,8 +23290,6 @@
 167e  ONNTO Corp.
 1681  Hercules
 1682  XFX Pine Group Inc.
-	5701  Radeon 5700 XT Thicc III Ultra
-	c580  Radeon RX 580
 1688  CastleNet Technology Inc.
 	1170  WLAN 802.11b card
 168a  Utimaco IS GmbH
@@ -26717,6 +26707,15 @@
 	6b14  RPJYJ1T24MLR1HWY PCIe 4.0 NVMe SSD 1024GB (DRAM-less)
 	6c13  AM6C1 PCIe 4.0 NVMe SSD
 	6d03  AM6DX PCIe 5.0 NVMe SSD
+	7030  NVMe SSD Controller UH7X3X series
+		1cc4 7112  NVMe SSD UH733a U.2 1.6TB
+		1cc4 7113  NVMe SSD UH733a U.2 3.2TB
+		1cc4 7114  NVMe SSD UH733a U.2 6.4TB
+		1cc4 7115  NVMe SSD UH733a U.2 12.8TB
+		1cc4 7122  NVMe SSD UH713a U.2 1.92TB
+		1cc4 7123  NVMe SSD UH713a U.2 3.84TB
+		1cc4 7124  NVMe SSD UH713a U.2 7.68TB
+		1cc4 7125  NVMe SSD UH713a U.2 15.36TB
 	8030  NVMe SSD Controller UH8X2X/UH7X2X series
 		1cc4 1122  NVMe SSD UH812a U.2 1.92TB
 		1cc4 1123  NVMe SSD UH812a U.2 3.84TB
