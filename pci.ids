@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.12.26
-#	Date:    2025-12-26 03:15:02
+#	Version: 2025.12.27
+#	Date:    2025-12-27 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29088,6 +29088,13 @@
 	1608  PCIe Gen4 x4 M.2 2280
 	1f88  TE3420 PCIe Gen3 x4 M.2 2280
 	2269  XE4403 Series NVMe PCIe Gen4x4 SSD
+	3101  EP1021 Series M.2 2242 NVMe PCIe Gen3x4 SSD
+	3105  EP2021 Series M.2 2242 NVMe PCIe Gen4x4 SSD
+	3201  EP1021 Series M.2 2280 NVMe PCIe Gen3x4 SSD
+	3202  EP1031 Series M.2 2280 NVMe PCIe Gen3x4 SSD
+	3205  EP2021 Series M.2 2280 NVMe PCIe Gen4x4 SSD
+	3206  EP2031 Series M.2 2280 NVMe PCIe Gen4x4 SSD
+	3261  DP1421 Series M.2 2280 NVMe PCIe Gen3x4 SSD
 	3420  PCIe Gen3 x4 M.2 2280
 	6100  TE3420 Series NVMe PCIe Gen3x4 SSD
 	6101  XE3420 Series NVMe PCIe Gen3x4 SSD
@@ -37853,6 +37860,7 @@
 		103c 87b9  Thunderbolt Dock G4 PCIe NIC
 		17aa 2303  ThinkPad Universal Thunderbolt 4 Dock PCIe NIC
 		1ab6 0225  TS4 On-Board 2.5GbE Ethernet Adaptor
+	5503  Ethernet Controller I226-LMvP
 	550a  Ethernet Connection (18) I219-LM
 	550b  Ethernet Connection (18) I219-LM
 	550c  Ethernet Connection (19) I219-LM
