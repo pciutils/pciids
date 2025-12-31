@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2025.12.30
-#	Date:    2025-12-30 03:15:02
+#	Version: 2025.12.31
+#	Date:    2025-12-31 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29432,6 +29432,13 @@
 		2061 2061  E520Q NVMe SSD 30.72TB PCIe 5.0 U.2
 		2061 2062  E520Q NVMe SSD 61.44TB PCIe 5.0 U.2
 		2061 2063  E520Q NVMe SSD 122.88TB PCIe 5.0 U.2
+	5300  E5300 NVMe Controller
+		2061 2041  E5300 NVMe SSD 3.2TB PCIe 5.0 U.2
+		2061 2042  E5300 NVMe SSD 3.84TB PCIe 5.0 U.2
+		2061 2043  E5300 NVMe SSD 6.4TB PCIe 5.0 U.2
+		2061 2044  E5300 NVMe SSD 7.68TB PCIe 5.0 U.2
+		2061 2045  E5300 NVMe SSD 12.8TB PCIe 5.0 U.2
+		2061 2046  E5300 NVMe SSD 15.36TB PCIe 5.0 U.2
 2063  Hubei Yangtze Mason Semiconductor Technology Co., Ltd.
 	0bb8  MC3000
 	0bb9  RC3000
@@ -29474,16 +29481,18 @@
 208a  MICIUS Laboratory
 2094  Shenzhen Wodposit Electronics Co., Ltd.
 	1281  WPBSNM8-256GTP
-	1282  WPBSNM8-512GTP NVMe SSD (DRAM-less)
+	1282  WPBSNM8-512GTP
 	1283  WPBSNM8-1TTP
 	1284  WPBSNM8-256GMP
-	1285  WPBSNM8-512GMP
-	1286  WPBSNM8-2TMP
-	1287  WPBSNM8-1TMP
-	1661  WPBSN4M8-512GMP
-	1662  WPBSN4M8-1TMP
-	1663  WPBSN4M8-2TMP
-	1664  WPBSN4M8-1TGP NVMe SSD (DRAM-less)
+	1285  WPBSN4M8-512GMP
+	1286  WPBSN4M8-1TMP
+	1287  WPBSN4M8-2TMP
+	1661  WPBSNM8-512GMP
+	1662  WPBSNM8-1TMP
+	1663  WPBSNM8-2TMP
+	1664  WPBSN4M8-1TGP
+	1665  WPBSN4M8-2TGP
+	1666  WPBSN4M8-4TGP
 2096  Kaitian Information Technology Co., Ltd.
 	5401  KCP54(01) 2280 PCIe G4 x4 TLCKCP54(01) 2280 PCIe G4 x4 TLC
 	5402  KCP54(02) 2280 PCIe G4 x4 TLC
@@ -32886,7 +32895,7 @@
 	1603  Broadwell-U Processor Thermal Subsystem
 	1604  Broadwell-U Host Bridge -OPI
 	1605  Broadwell-U PCI Express x8 Controller
-	1606  HD Graphics
+	1606  Broadwell-U GT1 [HD Graphics]
 	1607  Broadwell-U CHAPS Device
 	1608  Broadwell-U Host Bridge -OPI
 	1609  Broadwell-U x4 PCIe
@@ -32897,18 +32906,18 @@
 	160e  Broadwell-U Integrated Graphics
 	160f  Broadwell-U SoftSKU
 	1610  Broadwell-U Host Bridge - DMI
-	1612  HD Graphics 5600
+	1612  Broadwell-H GT2 [HD Graphics 5600]
 	1614  Broadwell-U Host Bridge - DMI
-	1616  HD Graphics 5500
+	1616  Broadwell-U GT2 [HD Graphics 5500]
 		103c 2216  ZBook 15u G2 Mobile Workstation
 	1618  Broadwell-U Host Bridge - DMI
 	161a  Broadwell-U Integrated Graphics
 	161b  Broadwell-U Integrated Graphics
 	161d  Broadwell-U Integrated Graphics
-	161e  HD Graphics 5300
-	1622  Iris Pro Graphics 6200
-	1626  HD Graphics 6000
-	162a  Iris Pro Graphics P6300
+	161e  Broadwell-Y GT2 [HD Graphics 5300]
+	1622  Broadwell-DT/H GT3 [Iris Pro Graphics 6200]
+	1626  Broadwell-U GT3 [HD Graphics 6000]
+	162a  Broadwell-DT GT3 [Iris Pro Graphics P6300]
 	162b  Iris Graphics 6100
 	162d  Broadwell-U Integrated Graphics
 	162e  Broadwell-U Integrated Graphics
@@ -37988,7 +37997,7 @@
 	5926  Kaby Lake-U GT3 [Iris Plus Graphics 640]
 	5927  Kaby Lake-U GT3 [Iris Plus Graphics 650]
 	5a84  Apollo Lake [HD Graphics 505]
-	5a85  HD Graphics 500
+	5a85  Apollo Lake GT1 [HD Graphics 500]
 	5a88  Celeron N3350/Pentium N4200/Atom E3900 Series Imaging Unit
 	5a98  Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster
 	5a9a  Celeron N3350/Pentium N4200/Atom E3900 Series Trusted Execution Engine
