@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2025.12.31
-#	Date:    2025-12-31 03:15:02
+#	Version: 2026.01.02
+#	Date:    2026-01-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20918,8 +20918,9 @@
 	7662  MT7662E 802.11ac PCI Express Wireless Network Adapter
 	7663  MT7663 802.11ac PCI Express Wireless Network Adapter
 	7902  MT7902 802.11ax PCIe Wireless Network Adapter [Filogic 310]
-	7915  MT7915E 802.11ax PCI Express Wireless Network Adapter
-	7916  MT7905D/MT7975
+	7915  MT7915A/MT7915D normal link PCIe Wi-Fi 6(802.11ax) 80MHz 4x4/2x2 Wireless Network Adapter [Filogic 615]
+# MT7905D/MT7975 contain MT7915. If it works at G1 speed this extra device appears for extra bandwidth
+	7916  MT7915A/MT7915D hif link PCIe Wi-Fi 6(802.11ax) 80MHz 4x4/2x2 Wireless Network Adapter [Filogic 615]
 # WiFi 6E capable
 	7922  MT7922 802.11ax PCI Express Wireless Network Adapter
 		1a3b 5300  ASUS PCE-AXE59BT
@@ -20927,8 +20928,10 @@
 	7927  MT7927 802.11be 320MHz 2x2 PCIe Wireless Network Adapter [Filogic 380]
 	7961  MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]
 	7988  MT7988 PCI Express Host Bridge [Filogic 880]
-	7990  MT7996 802.11be PCI Express Wireless Network Adapter (Port 0)
-	7991  MT7996 802.11be PCI Express Wireless Network Adapter (Port 1)
+	7990  MT7996 primary link PCIe Wi-Fi 7(802.11be) 320MHz Wireless Network Adapter [Filogic 680]
+	7991  MT7996 secondary link PCIe Wi-Fi 7(802.11be) 320MHz Wireless Network Adapter [Filogic 680]
+	7992  MT7992 primary link PCIe Wi-Fi 7(802.11be) 160MHz Wireless Network Adapter [Filogic 660]
+	799a  MT7992 secondary link PCIe Wi-Fi 7(802.11be) 160MHz Wireless Network Adapter [Filogic 660]
 	8650  MT7650 Bluetooth
 14c4  IWASAKI Information Systems Co Ltd
 14c5  Automation Products AB
@@ -28950,7 +28953,7 @@
 	5236  NV7000 NVMe SSD
 	5765  PCIe 3 NVMe SSD (DRAM-less)
 1f44  VVDN Technologies Private Limited
-1f47  YUSUR Technology Co., Ltd.
+1f47  YUSUR Technology
 	1001  K2-Pro Family [FLEXFLOW-2200T]
 		1f47 0001  FLEXFLOW-2200T 2*10GE Ethernet Adapter
 		1f47 0002  FLEXFLOW-2200T 2*25GE Ethernet Adapter
