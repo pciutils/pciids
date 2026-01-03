@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.02
-#	Date:    2026-01-02 03:15:02
+#	Version: 2026.01.03
+#	Date:    2026-01-03 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -32921,7 +32921,7 @@
 	1622  Broadwell-DT/H GT3 [Iris Pro Graphics 6200]
 	1626  Broadwell-U GT3 [HD Graphics 6000]
 	162a  Broadwell-DT GT3 [Iris Pro Graphics P6300]
-	162b  Iris Graphics 6100
+	162b  Broadwell-U GT3 [Iris Graphics 6100]
 	162d  Broadwell-U Integrated Graphics
 	162e  Broadwell-U Integrated Graphics
 	1632  Broadwell-U Integrated Graphics
