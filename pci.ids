@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.03
-#	Date:    2026-01-03 03:15:01
+#	Version: 2026.01.07
+#	Date:    2026-01-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22656,11 +22656,11 @@
 	0274  Spectrum-6 in Flash Recovery Mode
 	0275  Spectrum-6 RMA
 	0277  Spectrum-6 Tile
-	0278  Nvlink-6 Switch in Flash Recovery Mode
-	0279  Nvlink-6 Switch RMA
+	0278  NVLink-6 Switch in Flash Recovery Mode
+	0279  NVLink-6 Switch RMA
 	027a  Eros Chiplet
-	027c  Nvlink-7 Switch in Flash Recovery Mode
-	027d  Nvlink-7 Switch RMA
+	027c  NVLink-7 Switch in Flash Recovery Mode
+	027d  NVLink-7 Switch RMA
 	027e  Spectrum-7 Tile
 	0281  NPS-600 Flash Recovery
 	0282  ArcusE Flash recovery
@@ -22684,8 +22684,8 @@
 	029a  OPHY3.1
 # Sagitta
 	029c  OPHY3.5
-	02a0  Nvlink-8 Switch in Flash Recovery Mode
-	02a1  Nvlink-8 RMA
+	02a0  NVLink-8 Switch in Flash Recovery Mode
+	02a1  NVLink-8 Switch RMA
 	02a2  Spectrum-7 in Flash Recovery Mode
 	02a3  Spectrum-7 RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
@@ -22919,9 +22919,9 @@
 	d2f2  Quantum-2 NDR (400Gbps) switch
 	d2f4  Quantum-3
 	d2f6  Quantum-3CPO
-	d2f8  Nvlink-6 Switch
-	d2fa  Nvlink-7 Switch
-	d2fc  Nvlink-8 Switch
+	d2f8  NVLink-6 Switch
+	d2fa  NVLink-7 Switch
+	d2fc  NVLink-8 Switch
 15b4  CCI/TRIAD
 15b5  Cimetrics Inc
 15b6  Texas Memory Systems Inc
@@ -23804,6 +23804,7 @@
 	7174  VSC7174 PCI/PCI-X Serial ATA Host Bus Controller
 172a  Accelerated Encryption
 	13c8  AEP SureWare Runner 1000V3
+172f  Sparkle Computer Co., Ltd.
 # nee Fujitsu Siemens Computers GmbH
 1734  Fujitsu Technology Solutions
 	1228  iRMC-S5 HTI Device
@@ -37898,6 +37899,7 @@
 	56a3  DG2 [Arc Xe Graphics]
 	56a4  DG2 [Arc Xe Graphics]
 	56a5  DG2 [Arc A380]
+		172f 4017  A380 Pioneer
 	56a6  DG2 [Arc A310]
 	56a7  DG2 [Arc Xe Graphics]
 	56a8  DG2 [Arc Xe Graphics]
