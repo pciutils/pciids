@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.07
-#	Date:    2026-01-07 03:15:02
+#	Version: 2026.01.09
+#	Date:    2026-01-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4018,6 +4018,7 @@
 		1002 0b36  Reference RX 5700 XT
 		1458 2313  Radeon RX 5700 XT Gaming OC
 		1458 231d  Radeon RX 5600 XT/REV 2.0 [Windforce 6GB OC]
+		1462 381e  RX 5600 XT MECH OC
 		148c 2398  AXRX 5700 XT 8GBD6-3DHE/OC [PowerColor Red Devil Radeon RX 5700 XT]
 		1682 5701  RX 5700 XT RAW II
 		1849 5102  RX5700 CLD 8GO [ASRock Challenger D RX 5700 OC]
@@ -20737,10 +20738,6 @@
 	f436  AVerTV Hybrid+FM
 1462  Micro-Star International Co., Ltd. [MSI]
 	3483  MSI USB 3.0 (VIA VL80x-based xHCI USB Controller)
-# This is MSI refreshed variant of their MECH series Navi 23 GPU card (73EF)
-	5027  RX 6650XT MECH 2X
-	7c56  Realtek Ethernet controller RTL8111H
-	aaf0  Radeon RX 580 Gaming X 8G
 1463  Fast Corporation
 1464  Interactive Circuits & Systems Ltd
 1465  GN NETTEST Telecom DIV.
@@ -26164,6 +26161,7 @@
 		1bb1 0181  Nytro 5060H
 		1bb1 01a1  Nytro XP7102
 	0155  Nytro 5x50 NVMe SSD
+	2000  PCIe Gen4 SSD
 	5012  FireCuda/IronWolf 510 SSD
 	5013  BarraCuda Q5 NVMe SSD (DRAM-less)
 	5016  FireCuda 520/IronWolf 525 SSD
@@ -26629,7 +26627,7 @@
 	1602  LEGEND 900 NVMe SSD (DRAM-less)
 # SX6000LNP
 	2263  XPG SX6000 Lite NVMe SSD (DRAM-less)
-	2708  Premier Extreme microSDXC SD7.1 Express Card (DRAM-less)
+	2708  Premier Extreme SDXC SD 7.0 / microSDXC SD7.1 Express Card (DRAM-less)
 	32a8  SM2P32A8 NVMe SSD (DRAM-less)
 	33f3  IM2P33F3 NVMe SSD (DRAM-less)
 	33f4  IM2P33F4 NVMe SSD (DRAM-less)
@@ -29052,6 +29050,7 @@
 	6002  K2-Pro Family [CONFLUX-2200X Virtual Function]
 	6003  K2-Pro Family [CONFLUX-2200X MGMT Function]
 	6004  K2-Pro Family [CONFLUX-2200X DATA Offload Engine]
+1f49  NeuReality LTD
 1f4b  Axera Semiconductor Co., Ltd
 1f52  MangoBoost Inc.
 	1008  Mango GPUBoost - RDMA
