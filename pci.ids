@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.09
-#	Date:    2026-01-09 03:15:02
+#	Version: 2026.01.10
+#	Date:    2026-01-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25163,6 +25163,8 @@
 1993  Innominate Security Technologies AG
 1998  Toyou Feiji Electronics Co., Ltd.
 	0001  TOBOLT1 51987 NVMe SSD
+		1998 0384  TOBOLT1 51987 3840G 2.5" U.2 NVMe SSD
+		1998 0768  TOBOLT1 51987 7680G 2.5" U.2 NVMe SSD
 		1998 2012  TOBOLT1 51987 3840G 2.5" U.2 NVMe SSD
 1999  A-Logics
 	a900  AM-7209 Video Processor
