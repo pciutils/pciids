@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.10
-#	Date:    2026-01-10 03:15:02
+#	Version: 2026.01.11
+#	Date:    2026-01-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -37900,8 +37900,11 @@
 	56a3  DG2 [Arc Xe Graphics]
 	56a4  DG2 [Arc Xe Graphics]
 	56a5  DG2 [Arc A380]
+		172f 3941  A380 ELF
+		172f 3943  A380 ELF
 		172f 4017  A380 Pioneer
 	56a6  DG2 [Arc A310]
+		172f 4019  A380 ECO
 	56a7  DG2 [Arc Xe Graphics]
 	56a8  DG2 [Arc Xe Graphics]
 	56a9  DG2 [Arc Xe Graphics]
@@ -38327,6 +38330,7 @@
 	7601  82372FB PIIX5 IDE
 	7602  82372FB PIIX5 USB
 	7603  82372FB PIIX5 SMBus
+	7702  Arrow Lake-H eSPI Controller
 	7722  Arrow Lake SMBus Controller
 	7723  Arrow Lake SPI Controller
 	7725  Arrow Lake-H [PCH Serial IO UART Host Controller]
@@ -38334,10 +38338,19 @@
 	7727  Arrow Lake-H [LPC/eSPI Controller]
 	7728  Arrow Lake cAVS
 	7730  Arrow Lake-H [LPC/eSPI Controller]
+	7738  Arrow Lake-H/U PCIe Root Port #1
+	7739  Arrow Lake-H/U PCIe Root Port #2
+	773a  Arrow Lake-H/U PCIe Root Port #3
+	773b  Arrow Lake-H/U PCIe Root Port #4
+	773c  Arrow Lake-H/U PCIe Root Port #5
+	773d  Arrow Lake-H/U PCIe Root Port #6
+	773e  Arrow Lake-H/U PCIe Root Port #7
+	773f  Arrow Lake-H/U PCIe Root Port #8
 	7740  Arrow Lake CNVi WiFi
 	7745  Arrow Lake Integrated Sensor Hub
 	7746  Arrow Lake-H [LPC/eSPI Controller]
 	774c  Arrow Lake Gaussian & Neural Accelerator
+	774d  Arrow Lake-H/U PCIe Root Port #9 (PXPC)
 	7750  Arrow Lake-H [Serial IO I2C Host Controller]
 	7751  Arrow Lake-H [Serial IO I2C Host Controller]
 	7752  Arrow Lake-H [PCH Serial IO UART Host Controller]
@@ -38520,6 +38533,7 @@
 	7ec6  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #2
 	7ec7  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3
 	7eca  Meteor Lake-H/U PCIe Root Port #10
+	7ecb  Arrow Lake-H/U PCIe Root Port #11 (PXPE)
 	7ecc  Meteor Lake-H PCIe Root Port #12
 	7f03  Q870 Chipset LPC/eSPI Controller
 	7f04  Z890 Chipset LPC/eSPI Controller
