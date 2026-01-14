@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.11
-#	Date:    2026-01-11 03:15:02
+#	Version: 2026.01.14
+#	Date:    2026-01-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28242,6 +28242,7 @@
 	50d0  NVME RAID Card DP800
 	50d1  Flexraid6 NVMeRAID
 1e3d  Burlywood, Inc
+1e3e  Shanghai Iluvatar CoreX Semiconductor Co., Ltd.
 1e43  MaxLinear Inc
 	8904  MxL8904
 	8906  MxL8906
