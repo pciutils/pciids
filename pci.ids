@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.15
-#	Date:    2026-01-15 03:15:02
+#	Version: 2026.01.16
+#	Date:    2026-01-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23308,9 +23308,11 @@
 	0007  AR5210 Wireless Network Adapter [AR5000 802.11a]
 		1186 3a00  DWL-A650 5GHz Wireless CardBus Adapter
 		1186 3a02  DWL-A520 5GHz Wireless PCI Adapter
+		1668 0429  802CA Wireless PC Card
 		1737 0007  WPC54A Wireless PC Card
 		1b47 0100  Harmony 8450CN Wireless CardBus Module
 		1b47 0110  Skyline 4030 / Harmony 8450 802.11a Wireless CardBus Adapter
+		1b47 0400  PC50E-8-FC/A Wireless Access Point Radio Card
 		8086 2500  PRO/Wireless 5000 LAN CardBus Adapter
 		8086 2501  PRO/Wireless 5000 LAN PCI Adapter Module
 	0011  AR5211 Wireless Network Adapter [AR5001A 802.11a]
