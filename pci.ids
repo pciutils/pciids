@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.16
-#	Date:    2026-01-16 03:15:02
+#	Version: 2026.01.17
+#	Date:    2026-01-17 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -38082,6 +38082,19 @@
 	65fa  5100 Chipset PCI Express x16 Port 4-7
 	65ff  5100 Chipset DMA Engine
 	674c  CRI
+	6e23  Nova Lake PCH-S SMbus Controller
+	6e24  Nova Lake PCH-S SPI Controller
+	6e28  Nova Lake PCH-S Serial IO UART Controller #0
+	6e29  Nova Lake PCH-S Serial IO UART Controller #1
+	6e2a  Nova Lake PCH-S Serial IO SPI Controller #0
+	6e2b  Nova Lake PCH-S Serial IO SPI Controller #1
+	6e4c  Nova Lake PCH-S Serial IO I2C Controller #0
+	6e4d  Nova Lake PCH-S Serial IO I2C Controller #1
+	6e4e  Nova Lake PCH-S Serial IO I2C Controller #2
+	6e4f  Nova Lake PCH-S Serial IO I2C Controller #3
+	6e5e  Nova Lake PCH-S Serial IO SPI Controller #2
+	6e7a  Nova Lake PCH-S Serial IO I2C Controller #4
+	6e7b  Nova Lake PCH-S Serial IO I2C Controller #5
 	6f00  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
 		15d9 0832  X10SRL-F
 	6f01  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
@@ -39849,6 +39862,11 @@
 	d156  Core Processor Semaphore and Scratchpad Registers
 	d157  Core Processor System Control and Status Registers
 	d158  Core Processor Miscellaneous Registers
+	d431  Nova Lake-S Thunderbolt 5 USB Controller
+	d433  Nova Lake-S Thunderbolt 5 NHI #0
+	d44e  Nova Lake-S Thunderbolt 5 PCI Express Root Port #0
+	d44f  Nova Lake-S Thunderbolt 5 PCI Express Root Port #1
+	d460  Nova Lake-S Thunderbolt 5 PCI Express Root Port #2
 	d740  NVL-S
 	d741  NVL-U
 	d742  NVL-H
@@ -39871,7 +39889,11 @@
 	e302  Panther Lake LPC/eSPI Controller
 	e322  Panther Lake SMBus Controller
 	e323  Panther Lake SPI(flash) Controller
+	e325  Panther Lake Serial IO UART Controller #0
+	e326  Panther Lake Serial IO UART Controller #1
+	e327  Panther Lake Serial IO SPI Host Controller #0
 	e328  Panther Lake Smart Sound Technology BUS
+	e330  Panther Lake Serial IO SPI Host Controller #1
 	e331  Panther Lake TCSS USB3 xHCI Controller
 	e333  Panther Lake Thunderbolt 4 NHI #0
 	e334  Panther Lake Thunderbolt 4 NHI #1
@@ -39900,12 +39922,14 @@
 	e36a  Panther Lake PCI Express Root Port D6
 	e36b  Panther Lake PCI Express Root Port D7
 	e36c  Panther Lake PCI Express Root Port D8
+	e36f  Panther Lake I3C Host Controller #0
 	e370  Panther Lake MEI Controller
 	e376  Panther Lake Bluetooth PCI Enumerator
 	e378  Panther Lake Serial IO I2C Controller #0
 	e379  Panther Lake Serial IO I2C Controller #1
 	e37a  Panther Lake Serial IO I2C Controller #2
 	e37b  Panther Lake Serial IO I2C Controller #3
+	e37c  Panther Lake I3C Host Controller #1
 	e37d  Panther Lake USB 3.2 xHCI Controller
 	e37f  Panther Lake Shared SRAM
 	f1a5  SSD 600P Series
