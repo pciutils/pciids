@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.17
-#	Date:    2026-01-17 03:15:01
+#	Version: 2026.01.18
+#	Date:    2026-01-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26636,7 +26636,7 @@
 	1602  LEGEND 900 NVMe SSD (DRAM-less)
 # SX6000LNP
 	2263  XPG SX6000 Lite NVMe SSD (DRAM-less)
-	2708  Premier Extreme SDXC SD 7.0 / microSDXC SD7.1 Express Card (DRAM-less)
+	2708  Premier Extreme SDXC SD 7.0 / microSDXC SD 7.1 Express Card (DRAM-less)
 	32a8  SM2P32A8 NVMe SSD (DRAM-less)
 	33f3  IM2P33F3 NVMe SSD (DRAM-less)
 	33f4  IM2P33F4 NVMe SSD (DRAM-less)
