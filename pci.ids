@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.18
-#	Date:    2026-01-18 03:15:02
+#	Version: 2026.01.20
+#	Date:    2026-01-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29568,6 +29568,7 @@
 20f4  TRENDnet
 20f6  Shenzhen Zhishi Network Technology Co., Ltd.
 	0001  MPU H1
+20f9  Shenzhen Silicon Dynamic Networks Co., Ltd
 2116  ZyDAS Technology Corp.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
