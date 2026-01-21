@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.20
-#	Date:    2026-01-20 03:15:02
+#	Version: 2026.01.21
+#	Date:    2026-01-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28480,6 +28480,7 @@
 		1ec8 12a2  Fantasy I Device
 	8900  GR308
 	8902  GR3 Audio
+	8904  GR308
 	9800  Fantasy II
 		1ec8 12a2  Fantasy II Device
 	9802  Fantasy II
@@ -29453,6 +29454,12 @@
 		2061 2044  E5300 NVMe SSD 7.68TB PCIe 5.0 U.2
 		2061 2045  E5300 NVMe SSD 12.8TB PCIe 5.0 U.2
 		2061 2046  E5300 NVMe SSD 15.36TB PCIe 5.0 U.2
+		2061 2085  E5300 NVMe SSD 3.2TB PCIe 5.0 U.2
+		2061 2086  E5300 NVMe SSD 3.84TB PCIe 5.0 U.2
+		2061 2087  E5300 NVMe SSD 6.4TB PCIe 5.0 U.2
+		2061 2088  E5300 NVMe SSD 7.68TB PCIe 5.0 U.2
+		2061 2089  E5300 NVMe SSD 12.8TB PCIe 5.0 U.2
+		2061 208a  E5300 NVMe SSD 15.36TB PCIe 5.0 U.2
 2063  Hubei Yangtze Mason Semiconductor Technology Co., Ltd.
 	0bb8  MC3000
 	0bb9  RC3000
@@ -29568,7 +29575,7 @@
 20f4  TRENDnet
 20f6  Shenzhen Zhishi Network Technology Co., Ltd.
 	0001  MPU H1
-20f9  Shenzhen Silicon Dynamic Networks Co., Ltd
+20f9  Shenzhen Silicon Dynamic Networks Co., Ltd.
 2116  ZyDAS Technology Corp.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
@@ -39912,7 +39919,7 @@
 	e35d  Panther Lake CSME HECI #1
 	e360  Panther Lake Thunderbolt 4 PCI Express Root Port #2
 	e361  Panther Lake PCI Express Root Port C1
-	e362  Panther Lake Microsoft Pluton Security Processor
+	e362  Primary to Sideband (P2SB) Bridge IOE
 	e363  Panther Lake PCI Express Root Port C3
 	e364  Panther Lake PCI Express Root Port C4
 	e365  Panther Lake PCI Express Root Port D1
