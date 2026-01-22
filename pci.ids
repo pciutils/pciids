@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.21
-#	Date:    2026-01-21 03:15:02
+#	Version: 2026.01.22
+#	Date:    2026-01-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -24505,6 +24505,7 @@
 	08b0  MVC200-DC
 1846  Alcatel-Lucent
 1849  ASRock Incorporation
+	1150  ASPEED AST1150 PCI-to-PCI Bridge
 	9602  RS780/RS880 PCI to PCI bridge (int gfx)
 184a  Thales Computers
 	1100  MAX II cPLD
@@ -25387,7 +25388,7 @@
 		15d9 086b  X10DRS (AST2400 BMC)
 		15d9 1b95  H12SSL-i (AST2500 BMC)
 		15d9 1d50  X14DBG-AP (AST2600 BMC)
-		1849 2000  ROME2D32LM3 (AST2500 BMC)
+		1849 2000  Onboard Graphics
 1a05  deltaww
 1a07  Kvaser AB
 	0006  CAN interface PC104+ HS/HS
@@ -27676,6 +27677,7 @@
 1de5  Eideticom, Inc
 	1000  IO Memory Controller
 	2000  NoLoad Hardware Development Kit
+	2100  NoLoad Accelerator Platform
 	3000  eBPF-based PCIe Accelerator
 1ded  Alibaba (China) Co., Ltd.
 	107f  Elastic RDMA Adapter
@@ -29417,6 +29419,21 @@
 	1535  EP9430 U.2 3.2TB NVME SSD
 	1536  EP9430 U.2 6.4TB NVME SSD
 205d  Shanghai Zijing Xinjie Intelligent Technology Co., Ltd.
+205e  SDTECH
+	0000  SD85xxx PCIe Gen5 Switch
+		205e 0048  SD85048 PCIe Gen 5 48 lane Switch Upstream/Downstream Port
+		205e 0096  SD85096 PCIe Gen 5 96 lane Switch Upstream/Downstream Port
+		205e 0104  SD85104 PCIe Gen 5 104 lane Switch Upstream/Downstream Port
+		205e 0105  SD85104 PCIe Gen 5 104 lane Switch Upstream/Downstream Port
+		205e 0144  SD85144 PCIe Gen 5 144 lane Switch Upstream/Downstream Port
+		205e 2004  SD85000 PCIe NT Endpoint
+		205e 2005  SD85000 PCIe gDMA Endpoint
+		205e 2006  SD85000 PCIe Management Endpoint
+	5048  SD85048 PCIe Gen 5 48 lane Switch Upstream/Downstream Port
+	5096  SD85096 PCIe Gen 5 96 lane Switch Upstream/Downstream Port
+	5104  SD85104 PCIe Gen 5 104 lane Switch Upstream/Downstream Port
+	5105  SD85104 PCIe Gen 5 104 lane Switch Upstream/Downstream Port
+	5144  SD85144 PCIe Gen 5 144 lane Switch Upstream/Downstream Port
 2061  Unis Flash Memory
 	4000  E4000 controller
 	4100  E4100 controller
@@ -39919,7 +39936,7 @@
 	e35d  Panther Lake CSME HECI #1
 	e360  Panther Lake Thunderbolt 4 PCI Express Root Port #2
 	e361  Panther Lake PCI Express Root Port C1
-	e362  Primary to Sideband (P2SB) Bridge IOE
+	e362  Panther Lake Primary to Sideband (P2SB) Bridge IOE
 	e363  Panther Lake PCI Express Root Port C3
 	e364  Panther Lake PCI Express Root Port C4
 	e365  Panther Lake PCI Express Root Port D1
