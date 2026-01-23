@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.22
-#	Date:    2026-01-22 03:15:02
+#	Version: 2026.01.23
+#	Date:    2026-01-23 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26281,6 +26281,8 @@
 	3252  CH382 PCIe Dual Port Serial Adapter
 # Device ID reused: CH352 is for PCI bus, CH382 for PCIe.
 	3253  CH352/CH382 PCI/PCIe Dual Port Serial Adapter
+	3470  CH384 Serial Adapter, 4-port mode
+	3853  CH384 Serial Adapter, 8-port mode
 1c09  CSP, Inc.
 	4254  10G-PCIE3-8D-2S
 	4255  10G-PCIE3-8D-Q
@@ -26699,6 +26701,12 @@
 	5201  AM520 PCIe 3.0 NVMe SSD 128GB
 	5212  AM521 PCIe 3.0 NVMe SSD 256GB
 	5414  AM541 PCIe 4.0 NVMe SSD 1024GB
+	6020  NVMe SSD Controller UM3X1X series
+		1cc4 8320  NVMe SSD UM301a M.2 480GB
+		1cc4 8321  NVMe SSD UM301a M.2 960GB
+		1cc4 8322  NVMe SSD UM301a M.2 1.92TB
+		1ea0 8320  NVMe SSD TM1300 M.2 480GB
+		1ea0 8322  NVMe SSD TM1300 M.2 1.92TB
 	6201  AM620 PCIe 3.0 NVMe SSD 128GB
 	6202  AM620 PCIe 3.0 NVMe SSD 256GB
 	6203  AM620 PCIe 3.0 NVMe SSD 512GB
@@ -26777,6 +26785,8 @@
 		1ea0 6125  NVMe SSD TP3510 U.2 15.36TB
 		1ea0 6224  NVMe SSD TP3510 E3.S 7.68TB
 		1ea0 6225  NVMe SSD TP3510 E3.S 15.36TB
+		1ea0 7124  NVMe SSD TP3512 U.2 7.68TB
+		1ea0 7125  NVMe SSD TP3512 U.2 15.36TB
 1cc5  Embedded Intelligence, Inc.
 	0100  PCIe-CAN-02 Dual CAN bus (9-pin male). PCI Express x1.
 	0101  PCIe-CAN-01 Single CAN bus (9-pin male). PCI Express x1.
@@ -29411,6 +29421,7 @@
 203b  XTX Markets Technologies Ltd.
 2046  GXMICRO Technology (Shanghai) Co., Ltd.
 2048  Beijing SpaceControl Technology Co.Ltd
+2052  Frontgrade Gaisler AB
 2058  Lime Microsystems Ltd.
 205c  Zhejiang VMing Semiconductor Co., Ltd.
 	1514  EP9410 U.2 1.92TB NVME SSD
