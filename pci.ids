@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.23
-#	Date:    2026-01-23 03:15:02
+#	Version: 2026.01.25
+#	Date:    2026-01-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4026,8 +4026,9 @@
 		1da2 e409  Sapphire Technology Limited Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1da2 e410  Sapphire NITRO+ RX 5700 XT
 		1da2 e411  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
-	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5500M]
+	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5500M]
 		106b 0210  Radeon Pro 5300M
+		106b 0219  iMac (Retina 5K, 27-inch, 2020) [Radeon Pro 5300]
 	7341  Navi 14 [Radeon Pro W5500]
 	7347  Navi 14 [Radeon Pro W5500M]
 	734f  Navi 14 [Radeon Pro W5300M]
@@ -4145,6 +4146,7 @@
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
 	7551  Navi 48 [Radeon AI PRO R9700]
 	7590  Navi 44 [Radeon RX 9060 XT]
+		1458 2429  GV-R9060XTGAMING OC-16GD [Radeon RX 9060 XT GAMING OC 16G]
 		1eae 8601  RX-96TS316W7 [SWIFT RX 9060 XT OC White Triple Fan Gaming Edition 16GB]
 	75a0  Aqua Vanjaram [Instinct MI350X]
 	75a3  Aqua Vanjaram [Instinct MI355X]
