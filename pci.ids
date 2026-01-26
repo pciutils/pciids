@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.25
-#	Date:    2026-01-25 03:15:01
+#	Version: 2026.01.26
+#	Date:    2026-01-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29848,10 +29848,10 @@
 	7173  CH355 PCI Quad Serial Port Controller
 434e  Cornelis Networks
 	0001  CN5000 HFI Silicon, Dual Port, BGA [discrete]
-		434e 0001  CN5000 HFI Adapter, Single Port, QSFP, x16 PCIe Gen 5, Air-Cooled
-		434e 0002  CN5000 HFI Adapter, Dual Port, QSFP-DD, x16 PCIe Gen 5, Air-Cooled
-		434e 0003  CN5000 HFI Adapter, Single Port, QSFP, x16 PCIe Gen 5, Air-Cooled, Thermally Enhanced
-		434e 0004  CN5000 HFI Adapter, Single Port, QSFP, x16 PCIe Gen 5, Conduction-Cooled
+		434e 0001  CN5000 SuperNIC, Single Port, QSFP, x16 PCIe Gen 5
+		434e 0002  CN5000 SuperNIC, Dual Port, QSFP-DD, x16 PCIe Gen 5
+		434e 0003  CN5000 SuperNIC, Single Port, QSFP, x16 PCIe Gen 5, II
+		434e 0004  CN5000 SuperNIC, Dual Port, QSFP-DD, x16 PCIe Gen 5, II
 	0002  CN6000 HFI Silicon, Dual Port, BGA [discrete]
 	8001  CN5000 Switch Silicon, 48 Port, BGA
 4444  Internext Compression Inc
