@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.26
-#	Date:    2026-01-26 03:15:02
+#	Version: 2026.01.27
+#	Date:    2026-01-27 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -40058,14 +40058,18 @@
 		8088 2000  Ethernet Network Adaptor RP2000 for 10GbE SFP+
 		8088 2300  Ethernet Network Adaptor RP2000-A03 for 10GbE SFP+
 		8088 2400  Ethernet Network Adaptor RP2000-A04 for 10GbE SFP+
+	5024  Ethernet Controller WX5025 Virtual Function for 25GbE SFP28
 	5025  Ethernet Controller WX5025 for 25GbE SFP28
 		8088 1000  Dual-Port Ethernet Network Adapter FF5025-DDATACXX
+	503f  Ethernet Controller WX5040 Virtual Function for 40GbE QSFP+
 # add new id
 	5040  Ethernet Controller WX5040 for 40GbE QSFP+
 # add new id
 		8088 1000  Dual-Port Ethernet Network Adapter FF5040-DDBTACXX
+	5124  Ethernet Controller WX5025AL Virtual Function for 25GbE SFP28
 	5125  Ethernet Controller WX5025AL for 25GbE SFP28
 		8088 3000  Dual-Port Ethernet Network Adapter FF5025-DDATAIXX
+	513f  Ethernet Controller WX5040AL Virtual Function for 40GbE QSFP+
 # add new id
 	5140  Ethernet Controller WX5040AL for 40GbE QSFP+
 # add new id
