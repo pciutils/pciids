@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.27
-#	Date:    2026-01-27 03:15:01
+#	Version: 2026.01.29
+#	Date:    2026-01-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -830,6 +830,7 @@
 		15d9 1d08  AOC-S4016L-L16IR Storage Adapter
 		17aa 7855  ThinkSystem RAID 950W-16i 8GB Flash PCIe Gen4 24Gb Adapter
 		1d49 020a  ThinkSystem 450W-16e SAS/SATA PCIe Gen4 24Gb HBA
+		1d49 020c  ThinkSystem 450W-16e PCIe Gen4 HBA
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 # 8 Internal and 8 External port channel 9400 HBA
 		1000 3040  HBA 9400-8i8e
@@ -22827,6 +22828,8 @@
 	2024  MT43244 Family [BlueField-3 SoC Emulated PCIe Bridge]
 	2025  ConnectX/BlueField Family mlx5Gen Emulated PCIe Bridge [Emulated PCIe Bridge]
 	2100  CX8 Family [CX8 Data Direct Interface]
+# Chip to Chip Link
+	2101  CX10 Family [ConnectX-10 C2C]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
 		1bd4 003a  25G SFP28 SP EO251FM9 Adapter
@@ -28839,10 +28842,26 @@
 		1f0f 0001  D1055AS vDPA Ethernet Controller
 	1042  D1055AS vDPA Storage Controller
 		1f0f 0001  D1055AS vDPA Storage Controller
+	1045  D1205CQ vPDA Ethernet Controller
+		1f0f 0001  D1205CQ vPDA Ethernet Controller
+	1046  D1205CQ vPDA Storage Controller
+		1f0f 0001  D1205CQ vPDA Storage Controller
+	1047  D1205CQ RDMA Ethernet Controller
+		1f0f 0001  D1205CQ RDMA Ethernet Controller
 	1220  D1055AS Ethernet Controller
 	1221  D1055AS Ethernet Controller
 	1222  D1055AS Ethernet Controller
 	1223  D1055AS Ethernet Controller
+	1224  D1205CQ Ethernet Controller
+		1f0f 0001  D1205CQ Ethernet Controller
+	1225  D1205CQ Ethernet Controller
+		1f0f 0001  D1205CQ Ethernet Controller
+	1226  D1205CQ Ethernet Controller
+		1f0f 0001  D1205CQ Ethernet Controller
+	1227  D1205CQ Ethernet Controller
+		1f0f 0001  D1205CQ Ethernet Controller
+	1228  D1205CQ Ethernet Controller
+		1f0f 0001  D1205CQ Ethernet Controller
 	1600  M16104 Family
 		1f0f 0001  N1045XS, Quad-port 10GbE, PCIe 3.0 x8
 	1601  M16104 Family Virtual Function
@@ -28863,6 +28882,7 @@
 	1a02  M16102 Family
 		1f0f 0001  N1025XT, Dual-port 10GbE, PCIe 3.0 x4, Fan
 	2022  D1055AS PCI Express Switch Upstream Port
+	2023  D1205CQ PCI Express Switch Upstream Port
 	3403  M18110 Family
 	3404  M18110 Lx Family
 	3405  M18110 Family BASE-T
@@ -28889,6 +28909,7 @@
 	350a  M18305 Family Virtual Function
 		1f0f 0001  M18305 Family Virtual Function
 	9088  D1055AS PCI Express Switch Downstream Port
+	9089  D1205CQ PCI Express Switch Downstream Port
 1f16  XConn Technologies
 	c500  XC50256 CXL2.0 Switch
 	c510  XC51256 PCIe 5.0 Switch
@@ -40938,7 +40959,7 @@ d209  Ultimarc
 	1500  PAC Drive
 	15a2  SpinTrak
 	1601  AimTrak
-d20c  Chengdu BeiZhongWangXin Technology Co., Ltd.
+d20c  Chengdu Northlink Technology Co., Ltd.
 	5011  NE5000 Ethernet Controller
 		d20c e120  N5 Series 2-port 10GbE Network Adapter
 		d20c e140  N5 Series 4-port 10GbE Network Adapter
@@ -40946,11 +40967,12 @@ d20c  Chengdu BeiZhongWangXin Technology Co., Ltd.
 		d20c e221  N5S Series 2-port 25GbE Network Adapter
 		d20c e22c  N5 Series 2-port 25GbE Network Adapter for OCP
 	6011  NE6000 Ethernet Controller
-		d20c a001  N6S Series Network Adapter
+		d20c a001  N6 Series Network Adapter
 		d20c e221  N6S Series 2-port 25GbE Network Adapter
-		d20c e281  N6S Series 8-port 25GbE Network Adapter
-		d20c e421  N6S Series 2-port 40GbE Network Adapter
-		d20c ea21  N6S Series 2-port 100GbE Network Adapter
+		d20c e22e  N6 Series 2-port 25GbE Network Adapter
+		d20c e281  N6 Series 8-port 25GbE Network Adapter
+		d20c e421  N6 Series 2-port 40GbE Network Adapter
+		d20c ea21  N6 Series 2-port 100GbE Network Adapter
 d405  LeapIO
 	8200  LeapHBA
 	8201  LeapRAID
