@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.30
-#	Date:    2026-01-30 03:15:02
+#	Version: 2026.01.31
+#	Date:    2026-01-31 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28518,6 +28518,7 @@
 1ed2  FuriosaAI, Inc.
 	0000  Warboy
 	0001  RNGD
+	0002  RNGD-Plus
 	2222  RNGD-S
 1ed3  Yeston
 1ed5  Moore Threads Technology Co.,Ltd
@@ -29042,6 +29043,10 @@
 		1f47 0006  Ethernet 25G 2P FLEXFLOW-2200R
 		1f47 0007  Ethernet 50G 2P FLEXFLOW-2200R
 		1f47 0008  Ethernet 100G 2P FLEXFLOW-2200R
+	3301  K3 Family [FLEXFLOW-3100R]
+		1f47 0001  FLEXFLOW-3100R 1*100GE Ethernet Adapter
+	3302  K3 Family [FLEXFLOW-3100R Virtual Function]
+	3303  K3 Family [CONFLUX-3100R MGMT Function]
 	4001  K2-Pro Family [CONFLUX-2200E]
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200E
 		1f47 0002  Ethernet 40G 2P CONFLUX-2200E
@@ -29447,6 +29452,12 @@
 		2036 1006  NP36000 Virtual PCIe Pktgen 1.x Endpoint
 203b  XTX Markets Technologies Ltd.
 2044  Shenzhen Jiahua Zhongli Technology Co., LTD.
+	8200  CeaCent CS211X 12G SAS RAID controller
+		2044 2110  CeaCent CS2110-8i
+		2044 2111  CeaCent CS2110-16i
+	8201  CeaCent CS215X 12G SAS RAID controller
+		2044 2150  CeaCent CS2150-8i
+		2044 2151  CeaCent CS2150-16i
 2046  GXMICRO Technology (Shanghai) Co., Ltd.
 2048  Beijing SpaceControl Technology Co.Ltd
 2052  Frontgrade Gaisler AB
@@ -40966,14 +40977,14 @@ d209  Ultimarc
 	1500  PAC Drive
 	15a2  SpinTrak
 	1601  AimTrak
-d20c  Chengdu Northlink Technology Co., Ltd.
-	5011  NE5000 Ethernet Controller
+d20c  Chengdu NorthLink Technology Co., Ltd.
+	5011  NE5025 Ethernet Controller
 		d20c e120  N5 Series 2-port 10GbE Network Adapter
 		d20c e140  N5 Series 4-port 10GbE Network Adapter
 		d20c e220  N5 Series 2-port 25GbE Network Adapter
-		d20c e221  N5S Series 2-port 25GbE Network Adapter
+		d20c e221  N5 Series 2-port 25GbE Network Adapter
 		d20c e22c  N5 Series 2-port 25GbE Network Adapter for OCP
-	6011  NE6000 Ethernet Controller
+	6011  NE6100 Ethernet Controller
 		d20c a001  N6 Series Network Adapter
 		d20c e22e  N6 Series 2-port 25GbE Network Adapter
 		d20c e281  N6 Series 8-port 25GbE Network Adapter
