@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.01.31
-#	Date:    2026-01-31 03:15:01
+#	Version: 2026.02.04
+#	Date:    2026-02-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22810,6 +22810,7 @@
 	1024  CX8 PCIe Switch Family [ConnectX-8 PCIe Switch]
 	1025  CX9 Family [ConnectX-9]
 	1027  CX10 Family [ConnectX-10]
+	1028  CX10 Family [ConnectX-10 Trusted Network Control Memory]
 	1974  MT28800 Family [ConnectX-5 PCIe Bridge]
 	1975  MT416842 Family [BlueField SoC PCIe Bridge]
 	1976  MT28908 Family [ConnectX-6 PCIe Bridge]
@@ -27832,8 +27833,6 @@
 	1181  TDM 8 Port E1/T1/J1 Adapter
 1e0b  Shenzhen Decenta Technology Co.,LTD
 1e0d  SambaNova Systems, Inc
-1e0e  Qualcomm / Option SimTech, Incorporated
-	9071  SIM8230G 5GNR/LTE/GNSS
 1e0f  KIOXIA Corporation
 	0001  NVMe SSD Controller BG4 (DRAM-less)
 	0007  NVMe SSD Controller Cx6
