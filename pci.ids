@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.04
-#	Date:    2026-02-04 03:15:02
+#	Version: 2026.02.06
+#	Date:    2026-02-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -16952,7 +16952,8 @@
 11c9  Magma
 	0010  16-line serial port w/- DMA
 	0011  4-line serial port w/- DMA
-11ca  LSI Systems, Inc
+11ca  IBEX Technology Co., Ltd.
+	0039  PAC with Altera Agilex 7 FPGA M-Series [IPAC-1000]
 11cb  Specialix Research Ltd.
 	2000  PCI_9050
 		11cb 0200  SX
@@ -22631,7 +22632,8 @@
 	0224  CX9 Family [ConnectX-9 Flash Recovery]
 	0225  CX9 Family [ConnectX-9 Secure Flash Recovery-RMA]
 	0226  CX10 Family [ConnectX-10 Flash Recovery]
-	0227  CX10 Family [ConnectX-10 Secure Flash Recovery-RMA]
+# Name change request
+	0227  CX10 Family [ConnectX-10 RMA]
 	0228  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Flash Recovery]
 	0229  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Secure Flash Recovery-RMA]
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
@@ -27273,6 +27275,7 @@
 	1466  Data Fabric: Device 18h; Function 6
 	1467  Data Fabric: Device 18h; Function 7
 	1468  NTBCCP
+	6211  K100_AI
 	7901  FCH SATA Controller [AHCI mode]
 	7904  FCH SATA Controller [AHCI mode]
 	7906  FCH SD Flash Controller
