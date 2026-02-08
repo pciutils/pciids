@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.07
-#	Date:    2026-02-07 03:15:02
+#	Version: 2026.02.08
+#	Date:    2026-02-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -9542,7 +9542,7 @@
 		e1c5 0005  TA1-PCI
 		e1c5 0006  TA1-PCI4
 	9036  9036
-	9050  PCI <-> IOBus Bridge
+	9050  PCI9050 32-bit 33MHz PCI <-> IOBus Bridge
 		103c 10b0  82350 PCI GPIB
 		10b5 1067  IXXAT CAN i165
 		10b5 114e  Wasco WITIO PCI168extended
@@ -9578,6 +9578,8 @@
 		15ed 1001  Macrolink MCCS 16-port Serial
 		15ed 1002  Macrolink MCCS 8-port Serial Hot Swap
 		15ed 1003  Macrolink MCCS 16-port Serial Hot Swap
+		1761 018e  40-199-002
+		1761 025d  40-662-001
 		5654 2036  OpenSwitch 6 Telephony card
 		5654 3132  OpenSwitch 12 Telephony card
 		5654 5634  OpenLine4 Telephony Card
@@ -23887,12 +23889,22 @@
 	0843  PCA-8439 General-purpose multifunctional PCIe card with 16 analog inputs
 	ff00  CTU CAN FD PCIe Card
 1761  Pickering Interfaces Ltd
-	4411  50-297A
+	4411  Pickering Devices with FPGA Based Bus Communication
+		1761 082f  40-737-901
+		1761 086c  40-576-001
+		1761 0881  40-584-001
+		1761 311a  42-738-001
+		1761 3190  41-765-004
+		1761 31ab  41-670-003
 		1761 331f  50-297A-014
 		1761 3320  50-297A-050
 		1761 3321  50-297A-056
+		1761 3366  41-625-004
 		1761 3368  50-297A-130
 		1761 3372  50-297A-122
+		1761 33a1  40-419-004
+		1761 33a3  41-770-002
+		1761 3714  42-297A-050
 1771  InnoVISION Multimedia Ltd.
 1775  General Electric
 177d  Cavium, Inc.
