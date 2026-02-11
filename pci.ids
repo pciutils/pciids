@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.10
-#	Date:    2026-02-10 03:15:02
+#	Version: 2026.02.11
+#	Date:    2026-02-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29231,6 +29231,8 @@
 	0002  D20 Plus
 	0003  D20 Max
 	0004  D20 Pro
+	0005  D20 Plus N
+	0006  D20 Pro N
 	0101  D2
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
