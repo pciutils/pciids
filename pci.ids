@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.13
-#	Date:    2026-02-13 03:15:02
+#	Version: 2026.02.14
+#	Date:    2026-02-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2296,7 +2296,7 @@
 		1642 3c81  Radeon HD 8670
 		1642 3c91  Radeon HD 8670
 		1642 3f09  Radeon R7 350
-	6611  Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM]
+	6611  Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340/430 / Radeon 520 OEM]
 		1028 1001  Radeon R5 430 OEM (1024 MByte)
 		1028 1002  Radeon R5 430 OEM (2048 MByte)
 # The 'AMD Radeon R5 430' instead of 240/340 is NOT a typo! It's actually correct.
@@ -2304,6 +2304,7 @@
 		1028 210b  Radeon R5 240 OEM
 # OEM-card for Dell; verified through AMD's own drivers (*.inf) and a TPU BIOS in database
 		1028 2121  Radeon HD 8570 OEM
+		103c 3375  Radeon R7 430 OEM
 # OEM-card from Fujitsu; verified through AMD's own drivers (*.inf)
 		10cf 1889  Radeon HD 8570 OEM
 		1642 1869  Radeon 520 OEM
@@ -29543,12 +29544,6 @@
 		2061 2062  E520Q NVMe SSD 61.44TB PCIe 5.0 U.2
 		2061 2063  E520Q NVMe SSD 122.88TB PCIe 5.0 U.2
 	5300  E5300 NVMe Controller
-		2061 2041  E5300 NVMe SSD 3.2TB PCIe 5.0 U.2
-		2061 2042  E5300 NVMe SSD 3.84TB PCIe 5.0 U.2
-		2061 2043  E5300 NVMe SSD 6.4TB PCIe 5.0 U.2
-		2061 2044  E5300 NVMe SSD 7.68TB PCIe 5.0 U.2
-		2061 2045  E5300 NVMe SSD 12.8TB PCIe 5.0 U.2
-		2061 2046  E5300 NVMe SSD 15.36TB PCIe 5.0 U.2
 		2061 2085  E5300 NVMe SSD 3.2TB PCIe 5.0 U.2
 		2061 2086  E5300 NVMe SSD 3.84TB PCIe 5.0 U.2
 		2061 2087  E5300 NVMe SSD 6.4TB PCIe 5.0 U.2
@@ -30739,6 +30734,7 @@
 	040a  Xeon E3-1200 v3 Processor Integrated Graphics Controller
 	0412  Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller
 		1028 05d7  Alienware X51 R2
+		103c 18e7  ProDesk 600 G1
 		103c 1998  EliteDesk 800 G1
 		17aa 3098  ThinkCentre E73
 		17aa 309f  ThinkCentre M83
