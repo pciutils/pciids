@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.14
-#	Date:    2026-02-14 03:15:02
+#	Version: 2026.02.16
+#	Date:    2026-02-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25181,6 +25181,7 @@
 	5021  PS5021-E21 PCIe4 NVMe Controller (DRAM-less)
 	5026  PS5026-E26 PCIe5 NVMe Controller
 	5027  PS5027-E27T PCIe4 NVMe Controller (DRAM-less)
+	5028  PS5028-E28 PCIe5 NVMe Controller
 	5029  PS5029-E29T PCIe4 NVMe Controller (DRAM-less)
 	5031  PS5031-E31T PCIe5 NVMe Controller
 	5302  PS5302-X2 PCIe5 NVMe Controller
