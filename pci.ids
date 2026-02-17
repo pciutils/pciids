@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.16
-#	Date:    2026-02-16 03:15:02
+#	Version: 2026.02.17
+#	Date:    2026-02-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29615,6 +29615,8 @@
 	1000  TCU Family - TCU-1
 	1001  TCU Family - TCU-1 Virtual Function
 209f  Mobilint, Inc.
+20a1  Etched AI, Inc.
+	0001  Sohu
 20a6  XCENA, Inc.
 20a7  EEVengers Inc.
 20a8  Rayson HI-TECH(SZ) Co., Ltd.
