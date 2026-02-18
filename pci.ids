@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.17
-#	Date:    2026-02-17 03:15:02
+#	Version: 2026.02.18
+#	Date:    2026-02-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -17681,6 +17681,7 @@
 	2263  SM2263EN/SM2263XT (DRAM-less) NVMe SSD Controllers
 	2268  SM2268XT (DRAM-less) NVMe SSD Controller
 	2269  SM2269XT (DRAM-less) NVMe SSD Controller
+	2504  SM2504XT NVMe 2.0 SSD Controller (DRAM-less)
 	2508  SM2508 NVMe 2.0 SSD Controller
 	8366  SM8366 NVMe SSD Controller [MonTitan]
 1270  Olympus Optical Co., Ltd.
@@ -21881,6 +21882,7 @@
 	9027  CN99xx [ThunderX2] Integrated AHCI/SATA 3 Host Controller
 	a8d8  BCM43224/5 Wireless Network Adapter
 	aa52  BCM43602 802.11ac Wireless LAN SoC
+	b070  BCM56070 Switch ASIC [Firelight]
 	b080  BCM56080 Firelight2 Switch ASIC
 	b302  BCM56302 StrataXGS 24x1GE 2x10GE Switch Controller
 	b334  BCM56334 StrataXGS 24x1GE 4x10GE Switch Controller
@@ -21897,6 +21899,7 @@
 	b800  BCM56800 StrataXGS 10GE Switch Controller
 	b842  BCM56842 Trident 10GE Switch Controller
 	b850  BCM56850 Switch ASIC [Trident2]
+	b854  BCM56854 Trident2 switch ASIC
 	b880  BCM56880 Switch ASIC
 	b960  BCM56960 Switch ASIC [Tomahawk]
 	b990  BCM56990 Switch ASIC [Tomahawk4]
@@ -26231,8 +26234,9 @@
 	5236  PCIe 4TG2-P Controller
 1bcd  Apacer Technology
 	0120  NVMe SSD Drive 960GB
-	0180  PB4480 NVMe PCIe SSD (DRAM-less)
+	0180  PB4480 NVMe SSD (DRAM-less)
 	0310  NVMe SSD Drive 480GB
+	5027  AS2280Q4 NVMe SSD
 1bcf  NEC Corporation
 	001c  Vector Engine 1.0
 1bd0  Astronics Corporation
@@ -26616,6 +26620,13 @@
 	0557  PBlaze5 910/916
 1c63  Science and Research Centre of Computer Technology (JSC "NICEVT")
 	0008  K1927BB1Ya [EC8430] Angara Interconnection Network Adapter
+1c67  PreSonus Audio Electronics Inc.
+	0101  Quantum
+	0102  Quantum 2
+	0103  Quantum 4848
+	0104  Quantum 2626
+# Unreleased product
+	0105  Quantum Mobile
 # Other World Computing
 1c7a  OWC
 1c7e  TTTech Computertechnik AG
@@ -28847,6 +28858,7 @@
 	1202  MAP1202-Based NVMe SSD (DRAM-less)
 	2262  SM2262EN-based OEM SSD
 	2263  SM2263XT-Based NVMe SSD (DRAM-less)
+	2268  SM2268XT-Based NVMe SSD (DRAM-less)
 	2269  SM2269XT-Based NVMe SSD (DRAM-less)
 	5216  IG5216-based NVMe SSD (DRAM-less)
 	5220  IG5220-Based NVMe SSD
@@ -29198,6 +29210,7 @@
 	610b  XE4406 Series NVMe PCIe Gen4x4 SSD
 	610c  TE3410 Series NVMe PCIe Gen3x4 SSD
 1f9d  Axelera AI
+	0001  Europa AIPU
 	1100  Metis AIPU (rev 02)
 	11aa  Metis AIPU (rev 01)
 1fa4  Shandong SinoChip Semiconductors Co., Ltd
