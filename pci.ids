@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.19
-#	Date:    2026-02-19 03:15:02
+#	Version: 2026.02.20
+#	Date:    2026-02-20 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -18286,6 +18286,9 @@
 1303  Innovative Integration
 	0030  X3-SDF 4-channel XMC acquisition board
 1304  Juniper Networks
+	007b  TMC Chassis Interface
+	007c  TMC PFE Interface
+	00c5  Supercon FPGA
 1305  Netphone, Inc
 1306  Duet Technologies
 # Nee ComputerBoards
@@ -21884,6 +21887,7 @@
 	aa52  BCM43602 802.11ac Wireless LAN SoC
 	b070  BCM56070 Switch ASIC [Firelight]
 	b080  BCM56080 Firelight2 Switch ASIC
+	b172  BCM56172 Hurricane3-MG
 	b302  BCM56302 StrataXGS 24x1GE 2x10GE Switch Controller
 	b334  BCM56334 StrataXGS 24x1GE 4x10GE Switch Controller
 	b370  BCM56370 Switch ASIC
@@ -26303,7 +26307,7 @@
 	1000  G7200 series U.2 NVMe SSD
 1bfc  Duagon AG
 1bfd  EeeTOP
-1c00  Nanjing Qinheng Microelectronics Co., Ltd.
+1c00  WCH (Nanjing Qinheng Microelectronics Co., Ltd.)
 	2170  CH351 PCIe Parallel Port Adapter
 	2273  CH351 PCIe Dual Port Serial Adapter
 	3050  CH382L PCIe Parallel Port Adapter
@@ -29183,7 +29187,7 @@
 	0100  Default ID for Titanium FPGA PCIe Interface (AXI)
 1f82  d-Matrix
 	0011  Corsair [DMX 1000 Series]
-	00f1  Jetstream [DMX F1 Transparent NIC]
+	00f1  JetStream [DMX F1 Transparent NIC]
 1f90  Quside Technologies
 	7024  QRNG PCIe Device
 	7025  QRNG PCIe Device
