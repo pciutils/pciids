@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.20
-#	Date:    2026-02-20 03:15:02
+#	Version: 2026.02.21
+#	Date:    2026-02-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22843,8 +22843,8 @@
 	2024  MT43244 Family [BlueField-3 SoC Emulated PCIe Bridge]
 	2025  ConnectX/BlueField Family mlx5Gen Emulated PCIe Bridge [Emulated PCIe Bridge]
 	2100  CX8 Family [CX8 Data Direct Interface]
-# Chip to Chip Link
-	2101  CX10 Family [ConnectX-10 C2C]
+# NVLink Chip to Chip Link
+	2101  CX10 Family [ConnectX-10 NVLink-C2C]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
 		1bd4 003a  25G SFP28 SP EO251FM9 Adapter
