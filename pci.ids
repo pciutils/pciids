@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.21
-#	Date:    2026-02-21 03:15:02
+#	Version: 2026.02.24
+#	Date:    2026-02-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -2384,7 +2384,7 @@
 	6667  Jet ULT [Radeon R5 M230]
 	666f  Sun LE [Radeon HD 8550M / R5 M230]
 	66a0  Vega 20 [Radeon Pro/Radeon Instinct]
-	66a1  Vega 20 [Radeon Pro VII/Radeon Instinct MI50 32GB]
+	66a1  Vega 20 [Radeon Pro VII/Radeon Instinct MI50]
 	66a2  Vega 20
 	66a3  Vega 20 [Radeon Pro Vega II/Radeon Pro Vega II Duo]
 	66a7  Vega 20 [Radeon Pro Vega 20]
