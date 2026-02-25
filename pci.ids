@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.24
-#	Date:    2026-02-24 03:15:02
+#	Version: 2026.02.25
+#	Date:    2026-02-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4121,7 +4121,7 @@
 		1eae 7901  RX-79XMERCB9 [SPEEDSTER MERC 310 RX 7900 XTX]
 		1eae 790a  RX-79GMERCBR [XFX RX 7900 GRE]
 	745e  Navi 31 [Radeon Pro W7800]
-	7460  Navi32 GL-XL [AMD Radeon PRO V710]
+	7460  Navi 32 GL-XL [AMD Radeon PRO V710]
 	7461  Navi 32 [AMD Radeon PRO V710]
 	7470  Navi 32 [Radeon PRO W7700]
 	747e  Navi 32 [Radeon RX 7700 XT / 7800 XT]
@@ -17535,7 +17535,7 @@
 		a000 2000  Parallel Port
 		a000 6000  SPI
 		a000 7000  Local Bus
-		ea50 1c10  RXi2-BP
+		ea50 1c10  RXi2-BP Serial Port
 	9105  AX99100 PCIe to I/O Bridge
 125c  Aurora Technologies, Inc.
 	0101  Saturn 4520P
