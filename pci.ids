@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.02.25
-#	Date:    2026-02-25 03:15:02
+#	Version: 2026.03.01
+#	Date:    2026-03-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28945,6 +28945,7 @@
 	3504  M18305 Family BASE-T
 		1f0f 0001  S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8, Fan
 		1f0f 0002  S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8
+		1f0f 0003  S2045XT, 4x 10GbE, Base-T, PCIe 4.0 x8
 	350a  M18305 Family Virtual Function
 		1f0f 0001  M18305 Family Virtual Function
 	9088  D1055AS PCI Express Switch Downstream Port
