@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.04
-#	Date:    2026-03-04 03:15:02
+#	Version: 2026.03.06
+#	Date:    2026-03-06 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -329,6 +329,9 @@
 	f130  NetFlex-3/P ThunderLAN 1.0
 	f150  NetFlex-3/P ThunderLAN 2.3
 0e55  HaSoTec GmbH
+# Real MediaTek ID is 0x14c3, this actually the USB VID and was used on at least the MT7621
+0e8d  MediaTek Inc. (Wrong ID)
+	0801  MT7621 PCIe Bridge
 0eac  SHF Communication Technologies AG
 	0008  Ethernet Powerlink Managing Node 01
 0f62  Acrox Technologies Co., Ltd.
@@ -4145,7 +4148,7 @@
 	74b9  Aqua Vanjaram [Instinct MI325X VF]
 	74bd  Aqua Vanjaram [Instinct MI300X HF]
 	7550  Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
-		148c 2435  Reaper Radeon RX 9070 XT 16GB GDDR6 (RX9070XT 16G-A)
+		148c 2435  Radeon RX 9070 XT 16GB
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
 	7551  Navi 48 [Radeon AI PRO R9700]
 	7590  Navi 44 [Radeon RX 9060 XT]
@@ -7821,6 +7824,7 @@
 	1020  ISP1020/1040 Fast-wide SCSI
 	1022  ISP1022 Fast-wide SCSI
 	1080  ISP1080 SCSI Host Adapter
+		1077 0001  QLA1080
 	1216  ISP12160 Dual Channel Ultra3 SCSI Processor
 		101e 8471  QLA12160 on AMI MegaRAID
 		101e 8493  QLA12160 on AMI MegaRAID
@@ -29008,6 +29012,7 @@
 	451b  NN4LE NVMe SSD (DRAM-less)
 	4622  NEM-PAC NVMe SSD (DRAM-less)
 1f32  Wuhan YuXin Semiconductor Co., Ltd.
+	ed55  U800G NVMe SSD
 1f3f  3SNIC Ltd
 	2100  SSSHBA SAS/SATA HBA
 		1f3f 0120  HBA 32 Ports
@@ -29708,6 +29713,7 @@
 20f6  Shenzhen Zhishi Network Technology Co., Ltd.
 	0001  MPU H1
 20f9  Shenzhen Silicon Dynamic Networks Co., Ltd.
+2105  Shanghai Timar Integrated Circuit Co., LTD
 2106  ZCHL Technology Co., Ltd
 	0001  HL100 Accelerator Controller
 		2106 0001  HLC100 Accelerator Card
