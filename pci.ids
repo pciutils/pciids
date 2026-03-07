@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.06
-#	Date:    2026-03-06 03:15:01
+#	Version: 2026.03.07
+#	Date:    2026-03-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -40027,6 +40027,15 @@
 	d743  NVL-HX
 	d744  NVL-UL
 	d745  NVL-HX
+	d750  NVL-P
+	d751  NVL-P
+	d752  NVL-P
+	d753  NVL-P
+	d754  NVL-P
+	d755  NVL-P
+	d756  NVL-P
+	d757  NVL-P
+	d75f  NVL-P
 	e202  Battlemage G21 [Intel Graphics]
 	e20b  Battlemage G21 [Arc B580]
 	e20c  Battlemage G21 [Arc B570]
