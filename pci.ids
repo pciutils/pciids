@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.07
-#	Date:    2026-03-07 03:15:02
+#	Version: 2026.03.08
+#	Date:    2026-03-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26705,6 +26705,7 @@
 	33f3  IM2P33F3 NVMe SSD (DRAM-less)
 	33f4  IM2P33F4 NVMe SSD (DRAM-less)
 	33f8  IM2P33F8 series NVMe SSD (DRAM-less)
+	413d  SM2P41D3Q NVMe SSD (DRAM-less)
 	41c3  SM2P41C3 NVMe SSD (DRAM-less)
 	41c8  SM2P41C8 NVMe SSD (DRAM-less)
 	41d3  SM2P41D3 NVMe SSD (DRAM-less)
@@ -28447,7 +28448,7 @@
 	1003  CLR-8W512 NVMe SSD M.2 (DRAM-less)
 	1005  PLEXTOR M10P(GN) NVMe SSD M.2
 	1006  CA8 Series NVMe SSD M.2
-	1007  CL4-8D512 NVMe SSD M.2 (DRAM-less)
+	1007  CL4 Series NVMe SSD M.2 (DRAM-less)
 	1008  CL5-8D512 NVMe SSD M.2 (DRAM-less)
 	100b  XB2-311024 NVMe SSD M.2 (DRAM-less)
 	100c  CL6 Series NVMe SSD M.2 (DRAM-less)
