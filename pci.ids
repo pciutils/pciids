@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.08
-#	Date:    2026-03-08 03:15:02
+#	Version: 2026.03.09
+#	Date:    2026-03-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28440,7 +28440,7 @@
 # aka SED Systems
 1e94  Calian SED
 1e95  Solid State Storage Technology Corporation
-	1000  XA1-311024 NVMe SSD M.2
+	1000  XA1 Series NVMe SSD M.2 (DRAM-less)
 	1001  CA6-8D512 NVMe SSD M.2
 	1002  NVMe SSD [3DNAND] 2.5" U.2 (LJ1)
 		1e95 1101  NVMe SSD [3DNAND] 2.5" U.2 (LJ1)
