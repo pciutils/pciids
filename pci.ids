@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.09
-#	Date:    2026-03-09 03:15:02
+#	Version: 2026.03.10
+#	Date:    2026-03-10 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -40017,6 +40017,24 @@
 	d156  Core Processor Semaphore and Scratchpad Registers
 	d157  Core Processor System Control and Status Registers
 	d158  Core Processor Miscellaneous Registers
+	d323  Nova Lake PCD-H SPI Controller
+	d325  Nova Lake PCD-H Serial IO UART Controller #0
+	d326  Nova Lake PCD-H Serial IO UART Controller #1
+	d327  Nova Lake PCD-H Serial IO SPI Controller #0
+	d330  Nova Lake PCD-H Serial IO SPI Controller #1
+	d331  Nova Lake-H Thunderbolt 5 USB Controller
+	d333  Nova Lake-H Thunderbolt 5 NHI #0
+	d347  Nova Lake PCD-H Serial IO SPI Controller #2
+	d34e  Nova Lake-H Thunderbolt 5 PCI Express Root Port #0
+	d34f  Nova Lake-H Thunderbolt 5 PCI Express Root Port #1
+	d350  Nova Lake PCD-H Serial IO I2C Controller #4
+	d351  Nova Lake PCD-H Serial IO I2C Controller #5
+	d352  Nova Lake PCD-H Serial IO UART Controller #2
+	d360  Nova Lake-H Thunderbolt 5 PCI Express Root Port #2
+	d378  Nova Lake PCD-H Serial IO I2C Controller #0
+	d379  Nova Lake PCD-H Serial IO I2C Controller #1
+	d37a  Nova Lake PCD-H Serial IO I2C Controller #2
+	d37b  Nova Lake PCD-H Serial IO I2C Controller #3
 	d431  Nova Lake-S Thunderbolt 5 USB Controller
 	d433  Nova Lake-S Thunderbolt 5 NHI #0
 	d44e  Nova Lake-S Thunderbolt 5 PCI Express Root Port #0
