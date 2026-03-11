@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.10
-#	Date:    2026-03-10 03:15:01
+#	Version: 2026.03.11
+#	Date:    2026-03-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29443,6 +29443,10 @@
 	10a1  NIC1160 Ethernet Controller Family
 		1ff2 0c11  10GE Ethernet Adapter 1160-2X
 	10a2  NIC1160 Ethernet Controller Virtual Function Family
+	10b1  NIC1260 Ethernet Controller Family
+	10b2  NIC1260 Ethernet Controller Family
+	10b3  NIC1260C Ethernet Controller Family
+	10b4  NIC1260C Ethernet Controller Family
 	20a1  IOC2110 Storage Controller
 		1ff2 0a11  2120-16i SATA3/SAS3 HBA Adapter
 		1ff2 0a12  2120-8i SATA3/SAS3 HBA Adapter
