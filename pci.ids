@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.20
-#	Date:    2026-03-20 03:15:02
+#	Version: 2026.03.21
+#	Date:    2026-03-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28463,6 +28463,9 @@
 		1e95 0004  U.2 1920 GB
 		1e95 0005  U.2 3840 GB
 		1e95 0006  U.2 7680 GB
+		1e95 0007  U.2 1600 GB
+		1e95 0008  U.2 3200 GB
+		1e95 0009  U.2 6400 GB
 	100f  EJ5-2W3840 NVMe SSD U.2
 	1010  CX3 Series NVMe SSD
 		1e95 0000  M.2 2280 480 GB
@@ -29734,6 +29737,8 @@
 		2106 0001  HLC100 Accelerator Card
 # HXQ
 2108  HuiLink Technologies (Xiamen) Co., Ltd.
+# HXQ
+	2401  PCIe4.0 to USB3.2 Gen2 Host Controller
 2114  EigenQ, Inc.
 	0007  QMA Board M.2 Gen2
 	000a  QMA Board PCIe Gen2
