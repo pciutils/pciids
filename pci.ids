@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.21
-#	Date:    2026-03-21 03:15:02
+#	Version: 2026.03.22
+#	Date:    2026-03-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4031,8 +4031,8 @@
 		1da2 e409  Sapphire Technology Limited Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1da2 e410  Sapphire NITRO+ RX 5700 XT
 		1da2 e411  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
-	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5500M]
-		106b 0210  Radeon Pro 5300M
+	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5300M/5500M]
+		106b 0210  MacBookPro16,1 (16", 2019) [Radeon Pro 5300M]
 		106b 0219  iMac (Retina 5K, 27-inch, 2020) [Radeon Pro 5300]
 	7341  Navi 14 [Radeon Pro W5500]
 	7347  Navi 14 [Radeon Pro W5500M]
@@ -28024,6 +28024,9 @@
 	0033  Exceria Plus G4 NVMe SSD (DRAM-less)
 	0034  CM9-based E3.S NVMe SSD
 	0035  CM9-based U3 NVMe SSD
+	003d  LC9 E3.L NVMe SSD
+		1028 244f  RLC9GZV245T
+		1028 2450  RLC9CZV245T
 	003e  LC9 E3.S NVMe SSD
 	003f  LC9 U.2 NVMe SSD
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
@@ -29731,6 +29734,7 @@
 20f6  Shenzhen Zhishi Network Technology Co., Ltd.
 	0001  MPU H1
 20f9  Shenzhen Silicon Dynamic Networks Co., Ltd.
+2100  Shenzhen Kimviking Semiconductor Co., Ltd.
 2105  Shanghai Timar Integrated Circuit Co., LTD
 2106  ZCHL Technology Co., Ltd
 	0001  HL100 Accelerator Controller
@@ -37549,6 +37553,7 @@
 	3e98  CoffeeLake-S GT2 [UHD Graphics 630]
 	3e9a  Coffee Lake-S GT2 [UHD Graphics P630]
 	3e9b  CoffeeLake-H GT2 [UHD Graphics 630]
+		106b 019c  MacBookPro16,1 (16", 2019)
 	3e9c  Coffee Lake-S GT1 [UHD Graphics 610]
 	3ea0  WhiskeyLake-U GT2 [UHD Graphics 620]
 		1028 089e  Inspiron 5482
@@ -40137,6 +40142,12 @@
 	e37c  Panther Lake I3C Host Controller #1
 	e37d  Panther Lake USB 3.2 xHCI Controller
 	e37f  Panther Lake Shared SRAM
+	e431  Panther Lake USB 3.2 xHCI Controller
+	e434  Panther Lake Thunderbolt 4 NHI #2
+	e440  Panther Lake PCH CNVi WiFi
+		8086 0114  Wi-Fi 7 BE211 320MHz
+	e476  Panther Lake Bluetooth PCI Enumerator
+	e47d  Panther Lake USB 3.2 xHCI Controller
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
 	f1a6  SSD DC P4101/Pro 7600p/760p/E 6100p Series
