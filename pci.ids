@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.22
-#	Date:    2026-03-22 03:15:02
+#	Version: 2026.03.25
+#	Date:    2026-03-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13500,6 +13500,7 @@
 	28f8  AD107GLM [RTX 2000 Ada Generation Embedded GPU]
 	2900  GB100 [Reserved Dev ID A]
 	2901  GB100 [B200]
+	2909  GB100 [B200]
 	2920  GB100 [TS4 / B100]
 	2924  GB100
 	2925  GB100
@@ -13568,6 +13569,7 @@
 	31a1  GB110 [GB300 MaxQ]
 	31c0  GB110 [Reserved Dev ID B]
 	31c2  GB110 [GB300]
+	31c3  GB110 [GB300]
 	31fe  GB110
 	3200  GB112
 	3224  GB112
@@ -25600,7 +25602,10 @@
 	0016  SEL-3350 Serial Expansion Board
 	0017  SEL-3350 GPIO Expansion Board
 	0018  SEL-3390E4 Ethernet Adapter
+	0019  SEL-2241-2/SEL-3361 Mainboard
 	001c  SEL-3390E4 Ethernet Adapter
+	001d  SEL-3350 GPIO Expansion Board
+	001e  SEL-3350 Serial Expansion Board
 1aab  Silver Creations AG
 	7750  Sceye 10L
 1aae  Global Velocity, Inc.
