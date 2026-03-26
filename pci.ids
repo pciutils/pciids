@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.25
-#	Date:    2026-03-25 03:15:02
+#	Version: 2026.03.26
+#	Date:    2026-03-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -39514,38 +39514,56 @@
 		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
-	a082  Tiger Lake-LP LPC Controller
-	a0a3  Tiger Lake-LP SMBus Controller
-	a0a4  Tiger Lake-LP SPI Controller
-	a0a6  Tiger Lake-LP Trace Hub
-	a0a8  Tiger Lake-LP Serial IO UART Controller #0
-	a0a9  Tiger Lake-LP Serial IO UART Controller #1
-	a0ab  Tiger Lake-LP Serial IO SPI Controller #1
-	a0b0  Tiger Lake-LP PCI Express Root Port #9
-	a0b1  Tiger Lake-LP PCI Express Root Port #10
-	a0b3  Tiger Lake-LP PCI Express Root Port #12
-	a0b8  Tiger Lake-LP PCI Express Root Port #0
-	a0bb  Tiger Lake-LP PCI Express Root Port #3
-	a0bc  Tiger Lake-LP PCI Express Root Port #5
-	a0bd  Tigerlake PCH-LP PCI Express Root Port #6
-	a0be  Tiger Lake-LP PCI Express Root Port #7
-	a0bf  Tiger Lake-LP PCI Express Root Port #8
-	a0c5  Tiger Lake-LP Serial IO I2C Controller #4
-	a0c6  Tiger Lake-LP Serial IO I2C Controller #5
-	a0c8  Tiger Lake-LP Smart Sound Technology Audio Controller
-# SATA controller on Intel Tiger Lake based mobile platforms in AHCI mode. Could be found on Panasonic Let's Note CF-SV2.
-	a0d3  Tiger Lake-LP SATA Controller
-	a0e0  Tiger Lake-LP Management Engine Interface
-	a0e3  Tiger Lake-LP Active Management Technology - SOL
-	a0e8  Tiger Lake-LP Serial IO I2C Controller #0
-	a0e9  Tiger Lake-LP Serial IO I2C Controller #1
-	a0ea  Tiger Lake-LP Serial IO I2C Controller #2
-	a0eb  Tiger Lake-LP Serial IO I2C Controller #3
-	a0ed  Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller
-	a0ef  Tiger Lake-LP Shared SRAM
+	a082  500 Series Chipset Family On-Package eSPI Controller
+	a0a0  : 500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)
+	a0a1  500 Series Chipset Family On-Package Power Management Controller (PMC)
+	a0a3  500 Series Chipset Family On-PackageSystem Management Bus (SMBus)
+	a0a4  500 Series Chipset Family On-Package SPI (flash) Controller
+	a0a6  500 Series Chipset Family On-Package Trace Hub
+	a0a8  500 Series Chipset Family On-Package UART Controller #0
+	a0a9  500 Series Chipset Family On-Package UART Controller #1
+	a0aa  500 Series Chipset Family On-Package Generic SPI (GSPI) #0
+	a0ab  500 Series Chipset Family On-Package Generic SPI (GSPI) #1
+	a0b0  500 Series Chipset Family On-Package PCI Express Root Port #9
+	a0b1  500 Series Chipset Family On-Package PCI Express Root Port #10
+	a0b2  500 Series Chipset Family On-Package PCI Express Root Port #11
+	a0b3  500 Series Chipset Family On-Package PCI Express Root Port #12
+	a0b8  500 Series Chipset Family On-Package PCI Express Root Port #1
+	a0b9  500 Series Chipset Family On-Package PCI Express Root Port #2
+	a0ba  500 Series Chipset Family On-Package PCI Express Root Port #3
+	a0bb  500 Series Chipset Family On-Package PCI Express Root Port #4
+	a0bc  500 Series Chipset Family On-Package PCI Express Root Port #5
+	a0bd  500 Series Chipset Family On-Package PCI Express Root Port #6
+	a0be  500 Series Chipset Family On-Package PCI Express Root Port #7
+	a0bf  500 Series Chipset Family On-Package PCI Express Root Port #8
+	a0c5  500 Series Chipset Family On-Package I2C Controller #4
+	a0c6  500 Series Chipset Family On-Package I2C Controller #5
+	a0c7  500 Series Chipset Family On-Package UART Controller #2
+	a0c8  500 Series Chipset Family On-Package High Definition Audio (HD Audio)
+	a0d0  500 Series Chipset Family On-Package Touch Host Controller #0
+	a0d1  500 Series Chipset Family On-Package Touch Host Controller #1
+	a0d3  500 Series Chipset Family On-Package SATA Controller (AHCI)
+	a0d5  500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) no premium
+	a0d7  500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) premium
+	a0da  500 Series Chipset Family On-Package UART Controller #3
+	a0e0  500 Series Chipset Family On-Package CSME HECI #1
+	a0e1  500 Series Chipset Family On-Package CSME HECI #2
+	a0e2  500 Series Chipset Family On-Package CSME IDE Redirection (IDE-R)
+	a0e3  500 Series Chipset Family On-Package CSME Keyboard and Text (KT) Redirection
+	a0e4  500 Series Chipset Family On-Package CSME HECI #3
+	a0e5  500 Series Chipset Family On-Package CSME HECI #4
+	a0e8  500 Series Chipset Family On-Package I2C Controller #0
+	a0e9  500 Series Chipset Family On-Package I2C Controller #1
+	a0ea  500 Series Chipset Family On-Package I2C Controller #2
+	a0eb  500 Series Chipset Family On-Package I2C Controller #3
+	a0ed  500 Series Chipset Family On-Package USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller
+	a0ee  500 Series Chipset Family On-Package USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)
+	a0ef  500 Series Chipset Family On-Package Shared SRAM
 	a0f0  Wi-Fi 6 AX201
 		8086 0244  Wi-Fi 6 AX101NGW
-	a0fc  Tiger Lake-LP Integrated Sensor Hub
+	a0fb  500 Series Chipset Family On-Package Generic SPI (GSPI) #2
+	a0fc  500 Series Chipset Family On-Package Integrated Sensor Hub
+	a0fd  500 Series Chipset Family On-Package Generic SPI (GSPI) #3
 	a102  Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
 		1043 8694  H110I-PLUS Motherboard
 		1462 7994  H110M ECO/GAMING
@@ -39968,7 +39986,7 @@
 	a83b  Lunar Lake-M PCI Express Root Port #4
 	a83c  Lunar Lake-M PCI Express Root Port #5
 	a83d  Lunar Lake-M PCI Express Root Port #6
-	a840  BE201 320MHz
+	a840  BE200 Series Wi-Fi 7
 	a845  Lunar Lake-M Integrated Sensor Hub
 	a847  Lunar Lake-M UFS Controller
 	a848  Lunar Lake-M Touch Host Controller #0 ID1
