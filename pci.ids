@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.26
-#	Date:    2026-03-26 03:15:02
+#	Version: 2026.03.28
+#	Date:    2026-03-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -39515,9 +39515,9 @@
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
 	a082  500 Series Chipset Family On-Package eSPI Controller
-	a0a0  : 500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)
+	a0a0  500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)
 	a0a1  500 Series Chipset Family On-Package Power Management Controller (PMC)
-	a0a3  500 Series Chipset Family On-PackageSystem Management Bus (SMBus)
+	a0a3  500 Series Chipset Family On-Package System Management Bus (SMBus)
 	a0a4  500 Series Chipset Family On-Package SPI (flash) Controller
 	a0a6  500 Series Chipset Family On-Package Trace Hub
 	a0a8  500 Series Chipset Family On-Package UART Controller #0
