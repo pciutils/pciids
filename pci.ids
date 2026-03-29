@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.28
-#	Date:    2026-03-28 03:15:02
+#	Version: 2026.03.29
+#	Date:    2026-03-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -40117,8 +40117,8 @@
 	e216  Battlemage G21 [Intel Graphics]
 	e220  Battlemage G31 [Intel Graphics]
 	e221  Battlemage G31 [Intel Graphics]
-	e222  Battlemage G31 [Intel Graphics]
-	e223  Battlemage G31 [Intel Graphics]
+	e222  Battlemage G31 [Arc Pro B65]
+	e223  Battlemage G31 [Arc Pro B70]
 	e302  Panther Lake LPC/eSPI Controller
 	e322  Panther Lake SMBus Controller
 	e323  Panther Lake SPI(flash) Controller
