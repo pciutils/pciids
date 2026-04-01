@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.29
-#	Date:    2026-03-29 03:15:02
+#	Version: 2026.04.01
+#	Date:    2026-04-01 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30,13 +30,19 @@
 # This is a relabelled RTL-8139
 	8139  AT-2500TX V3 Ethernet
 0014  Loongson Technology LLC
+	3b0f  DMA Adress Translation Unit [Loongson 3 Processor Family]
+	3c09  Internal PCI to PCI Bridge [Loongson 3 Processor Family]
+	3c0f  DMA Adress Translation Unit [Loongson 3 Processor Family]
+	3c19  PCI Express x16 Root Port [Loongson 3 Processor Family]
+	3c29  PCI Express x8 Root Port [Loongson 3 Processor Family]
+	3c39  PCI Express x4 Root Port [Loongson 3 Processor Family]
 	7a00  7A1000 Chipset Hyper Transport Bridge Controller
 	7a02  2K1000 / 7A1000 Chipset Advanced Peripheral Bus Controller
 	7a03  2K1000/2000 / 7A1000 Chipset Gigabit Ethernet Controller
 	7a04  2K1000 / 7A1000 Chipset OTG USB Controller
 	7a05  2K1000 Vivante GC1000 GPU
 	7a06  2K1000 / 7A1000 Chipset Display Controller
-	7a07  2K1000/2000 / 7A1000/2000 Chipset HD Audio Controller
+	7a07  2K1000/2000/3000 / 3B6000M / 7A1000/2000 Chipset HD Audio Controller
 	7a08  2K1000 / 7A1000 Chipset 3Gb/s SATA AHCI Controller
 	7a09  2K1000 / 7A1000 Chipset PCIe x1 Bridge
 	7a0b  7A1000 Chipset SPI Controller
@@ -49,34 +55,43 @@
 	7a15  7A1000 Chipset Vivante GC1000 GPU
 	7a16  2K1000/2000 VPU Decoder
 	7a17  7A1000 Chipset AC97 Audio Controller
-	7a18  2K2000 / 7A2000 Chipset 6Gb/s SATA AHCI Controller
+	7a18  2K2000/3000 / 3B6000M / 7A2000 Chipset 6Gb/s SATA AHCI Controller
 	7a19  PCI-to-PCI Bridge
 	7a1a  2K2000 Configuration Bus
-	7a1b  2K2000 / 7A2000 Chipset SPI Controller
-	7a1d  2K2000 RapidIO Interface
+	7a1b  2K2000/3000 / 3B6000M / 7A2000 Chipset SPI Controller
+	7a1d  2K2000 / 2K3000 / 3B6000M RapidIO Interface
 	7a1e  2K2000 DES Controller
 	7a22  2K2000 Advanced Peripheral Bus Controller
+	7a23  Gigabit Ethernet Controller [Chipset / CPU inside]
 	7a24  2K1000 / 7A1000/2000 Chipset USB OHCI Controller
 	7a25  2K2000 / 7A2000 Chipset LG100 GPU
 	7a26  2K1000 Camera Controller
-	7a27  2K2000 / 7A2000 Chipset I2S Controller
+	7a27  2K2000/3000 / 3B6000M / 7A2000 Chipset I2S Controller
 	7a29  7A1000 Chipset PCIe x8 Bridge
 	7a2e  2K2000 RSA Controller
 	7a2f  2K2000 DMA Controller
-	7a34  2K2000 / 7A2000 Chipset USB 3.0 xHCI Controller
+	7a34  2K2000/3000 / 3B6000M / 7A2000 Chipset USB 3.0 xHCI Controller
+	7a35  LG200 GPU
 	7a36  2K2000 / 7A2000 Chipset Display Controller
-	7a37  2K2000 HDMI Audio Controller
+	7a37  2K2000/3000 / 3B6000M HDMI Audio Controller
 	7a39  2K2000 / 7A2000 Chipset PCIe x1 Root Port
 	7a3e  2K2000 RNG Controller
-	7a44  2K2000 USB 2.0 xHCI Controller
-	7a48  2K2000 SDIO Controller
+	7a42  Advanced Peripheral Bus Controller [Chipset / CPU inside]
+	7a44  2K2000/3000 / 3B6000M USB 2.0 xHCI Controller
+	7a46  Video Display Controller [Chipset / CPU inside]
+	7a47  Pulse-Code Modulation [Chipset / CPU inside]
+	7a48  2K2000/3000 / 3B6000M SDIO Controller
 	7a49  2K2000 / 7A2000 Chipset PCIe x4 Root Port
 	7a54  2K2000 OTG USB Controller
+	7a56  Video Processing Unit Decoder [Chipset / CPU inside]
 	7a59  7A2000 Chipset PCIe x8 Root Port
+	7a66  Video Processing Unit Encoder [Chipset / CPU inside]
 	7a69  7A2000 Chipset PCIe x16 Root Port
 	7a79  2K2000 PCIe Root Complex
-	7a88  2K2000 eMMC Controller
+	7a88  2K2000/3000 / 3B6000M eMMC Controller
+	7a89  PCI Express x1 Root Port [Chipset / CPU inside]
 	7a8e  2K2000 SE Controller
+	7a99  PCI Express x4 Root Port [Chipset / CPU inside]
 	7af9  2K2000 PCIe Endpoint
 0018  Fn-Link Technology Limited
 	6252  6252CPUB 802.11ax PCIe Wireless Network Adapter
