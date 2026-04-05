@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.01
-#	Date:    2026-04-01 03:15:01
+#	Version: 2026.04.05
+#	Date:    2026-04-05 21:04:48
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -241,6 +241,7 @@
 	f011  JM1100-IV
 	f111  JM1100-MV
 	ff11  JM1100-YV
+0771  Xi'an Microelectronics Technology Institute
 0777  Ubiquiti Networks, Inc.
 0795  Wired Inc.
 	6663  Butane II (MPEG2 encoder board)
@@ -4279,6 +4280,7 @@
 	9500  RV670 [Radeon HD 3850 X2]
 	9501  RV670 [Radeon HD 3870]
 		174b e620  Radeon HD 3870
+		1787 2244  Radeon HD 3870
 	9504  RV670/M88 [Mobility Radeon HD 3850]
 	9505  RV670 [Radeon HD 3690/3850]
 		148c 3000  Radeon HD 3850
@@ -13202,6 +13204,7 @@
 	1f76  TU106GLM [Quadro RTX 3000 Mobile Refresh]
 	1f81  TU117
 	1f82  TU117 [GeForce GTX 1650]
+		19da 3595  GeForce GTX 1650 OC GDDR6
 	1f83  TU117 [GeForce GTX 1630]
 	1f91  TU117M [GeForce GTX 1650 Mobile / Max-Q]
 	1f92  TU117M [GeForce GTX 1650 Mobile]
@@ -40185,6 +40188,7 @@
 	e440  Panther Lake PCH CNVi WiFi
 		8086 0114  Wi-Fi 7 BE211 320MHz
 	e476  Panther Lake Bluetooth PCI Enumerator
+	e47b  Serial IO I2C Host Controller - E47B
 	e47d  Panther Lake USB 3.2 xHCI Controller
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
