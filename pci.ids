@@ -2,7 +2,7 @@
 #	List of PCI IDs
 #
 #	Version: 2026.04.05
-#	Date:    2026-04-05 21:04:48
+#	Date:    2026-04-05 21:15:31
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22683,7 +22683,6 @@
 	0224  CX9 Family [ConnectX-9 Flash Recovery]
 	0225  CX9 Family [ConnectX-9 Secure Flash Recovery-RMA]
 	0226  CX10 Family [ConnectX-10 Flash Recovery]
-# Name change request
 	0227  CX10 Family [ConnectX-10 RMA]
 	0228  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Flash Recovery]
 	0229  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Secure Flash Recovery-RMA]
@@ -22724,21 +22723,16 @@
 	0285  Sagitta RMA
 	0286  LibraE Flash Recovery
 	0287  LibraE RMA
-# Flash recovery
-	0288  Arcus2
+	0288  Arcus2 Flash Recovery
 	0289  Arcus2 RMA
 	0290  SagittaZ
 	0292  Arcus3 Flash Recovery
 	0293  Arcus3 RMA
-	0294  Ophy 2.1 (SagittaZ)
-# Sagitta
-	0296  OPHY2.6
-# Sagitta
-	0298  OPHY3.0
-# Sagitta
-	029a  OPHY3.1
-# Sagitta
-	029c  OPHY3.5
+	0294  OPHY2.1 [SagittaZ]
+	0296  OPHY2.6 [Sagitta]
+	0298  OPHY3.0 [Sagitta]
+	029a  OPHY3.1 [Sagitta]
+	029c  OPHY3.5 [Sagitta]
 	02a0  NVLink-8 Switch in Flash Recovery Mode
 	02a1  NVLink-8 Switch RMA
 	02a2  Spectrum-7 in Flash Recovery Mode
