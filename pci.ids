@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.05
-#	Date:    2026-04-05 21:15:31
+#	Version: 2026.04.08
+#	Date:    2026-04-08 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -17112,10 +17112,33 @@
 11f7  Scientific Atlanta
 # née PMC-Sierra Inc.
 11f8  Microchip Technology
+	4000  PM40100 Switchtec PFX 100xG4 Fanout PCIe Switch
+	4028  PM40028 Switchtec PFX 28xG4 Fanout PCIe Switch
 	4036  PM40036 Switchtec PFX 36xG4 Fanout PCIe Switch
 	4052  PM40052 Switchtec PFX 52xG4 Fanout PCIe Switch
+	4068  PM40068 Switchtec PFX 68xG4 Fanout PCIe Switch
 	4084  PM40084 Switchtec PFX 84xG4 Fanout PCIe Switch
+	4100  PM41100 Switchtec PSX 100xG4 Programmable PCIe Switch
 	4128  PM41028 Switchtec PSX 28xG4 Programmable PCIe Switch
+	4136  PM41036 Switchtec PSX 36xG4 Programmable PCIe Switch
+	4152  PM41052 Switchtec PSX 52xG4 Programmable PCIe Switch
+	4168  PM41068 Switchtec PSX 68xG4 Programmable PCIe Switch
+	4184  PM41084 Switchtec PSX 84xG4 Programmable PCIe Switch
+	4200  PM42100 Switchtec PAX 100xG4 Programmable Advanced Fabric PCIe Switch
+	4228  PM42028 Switchtec PAX 28xG4 Programmable Advanced Fabric PCIe Switch
+	4236  PM42036 Switchtec PAX 36xG4 Programmable Advanced Fabric PCIe Switch
+	4252  PM42052 Switchtec PAX 52xG4 Programmable Advanced Fabric PCIe Switch
+	4268  PM42068 Switchtec PAX 68xG4 Programmable Advanced Fabric PCIe Switch
+	4284  PM42084 Switchtec PAX 84xG4 Programmable Advanced Fabric PCIe Switch
+	4328  PM43028 Switchtec PFXA 28xG4 Automotive Fanout PCIe Switch
+	4336  PM43036 Switchtec PFXA 36xG4 Automotive Fanout PCIe Switch
+	4352  PM43052 Switchtec PFXA 52xG4 Automotive Fanout PCIe Switch
+	4428  PM44028 Switchtec PSXA 28xG4 Automotive Programmable PCIe Switch
+	4436  PM44036 Switchtec PSXA 36xG4 Automotive Programmable PCIe Switch
+	4452  PM44052 Switchtec PSXA 52xG4 Automotive Programmable PCIe Switch
+	4528  PM45028 Switchtec PAXA 28xG4 Automotive Programmable Advanced Fabric PCIe Switch
+	4536  PM45036 Switchtec PAXA 36xG4 Automotive Programmable Advanced Fabric PCIe Switch
+	4552  PM45052 Switchtec PAXA 52xG4 Automotive Programmable Advanced Fabric PCIe Switch
 	5000  PM50100 Switchtec PFX 100xG5 Fanout PCIe Switch
 	5028  PM50028 Switchtec PFX 28xG5 Fanout PCIe Switch
 	5036  PM50036 Switchtec PFX 36xG5 Fanout PCIe Switch
@@ -17128,7 +17151,47 @@
 	5152  PM51052 Switchtec PSX 52xG5 Programmable PCIe Switch
 	5168  PM51068 Switchtec PSX 68xG5 Programmable PCIe Switch
 	5184  PM51084 Switchtec PSX 84xG5 Programmable PCIe Switch
+	5200  PM52100 Switchtec PAX 100xG5 Programmable Advanced Fabric PCIe Switch
 	5220  BR522x [PMC-Sierra maxRAID SAS Controller]
+	5228  PM52028 Switchtec PAX 28xG5 Programmable Advanced Fabric PCIe Switch
+	5236  PM52036 Switchtec PAX 36xG5 Programmable Advanced Fabric PCIe Switch
+	5252  PM52052 Switchtec PAX 52xG5 Programmable Advanced Fabric PCIe Switch
+	5268  PM52068 Switchtec PAX 68xG5 Programmable Advanced Fabric PCIe Switch
+	5284  PM52084 Switchtec PAX 84xG5 Programmable Advanced Fabric PCIe Switch
+	5300  PM53100 Switchtec PFXA 100xG5 Automotive Fanout PCIe Switch
+	5328  PM53028 Switchtec PFXA 28xG5 Automotive Fanout PCIe Switch
+	5336  PM53036 Switchtec PFXA 36xG5 Automotive Fanout PCIe Switch
+	5352  PM53052 Switchtec PFXA 52xG5 Automotive Fanout PCIe Switch
+	5368  PM53068 Switchtec PFXA 68xG5 Automotive Fanout PCIe Switch
+	5384  PM53084 Switchtec PFXA 84xG5 Automotive Fanout PCIe Switch
+	5400  PM54100 Switchtec PSXA 100xG5 Automotive Programmable PCIe Switch
+	5428  PM54028 Switchtec PSXA 28xG5 Automotive Programmable PCIe Switch
+	5436  PM54036 Switchtec PSXA 36xG5 Automotive Programmable PCIe Switch
+	5452  PM54052 Switchtec PSXA 52xG5 Automotive Programmable PCIe Switch
+	5468  PM54068 Switchtec PSXA 68xG5 Automotive Programmable PCIe Switch
+	5484  PM54084 Switchtec PSXA 84xG5 Automotive Programmable PCIe Switch
+	5500  PM55100 Switchtec PAXA 100xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5528  PM55028 Switchtec PAXA 28xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5536  PM55036 Switchtec PAXA 36xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5552  PM55052 Switchtec PAXA 52xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5568  PM55068 Switchtec PAXA 68xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	5584  PM55084 Switchtec PAXA 84xG5 Automotive Programmable Advanced Fabric PCIe Switch
+	6044  PM60144 Switchtec PFXs 144xG6 Secure-capable Fanout PCIe Switch
+	6048  PM60048 Switchtec PFXs 48xG6 Secure-capable Fanout PCIe Switch
+	6060  PM60160 Switchtec PFXs 160xG6 Secure-capable Fanout PCIe Switch
+	6064  PM60064 Switchtec PFXs 64xG6 Secure-capable Fanout PCIe Switch
+	6144  PM61144 Switchtec PSXs 144xG6 Secure-capable Programmable PCIe Switch
+	6148  PM61048 Switchtec PSXs 48xG6 Secure-capable Programmable PCIe Switch
+	6160  PM61160 Switchtec PSXs 160xG6 Secure-capable Programmable PCIe Switch
+	6164  PM61064 Switchtec PSXs 64xG6 Secure-capable Programmable PCIe Switch
+	6244  PM62144 Switchtec PFX 144xG6 Fanout PCIe Switch
+	6248  PM62048 Switchtec PFX 48xG6 Fanout PCIe Switch
+	6260  PM62160 Switchtec PFX 160xG6 Fanout PCIe Switch
+	6264  PM62064 Switchtec PFX 64xG6 Fanout PCIe Switch
+	6344  PM63144 Switchtec PSX 144xG6 Programmable PCIe Switch
+	6348  PM63048 Switchtec PSX 48xG6 Programmable PCIe Switch
+	6360  PM63160 Switchtec PSX 160xG6 Programmable PCIe Switch
+	6364  PM63064 Switchtec PSX 64xG6 Programmable PCIe Switch
 	7364  PM7364 [FREEDM - 32 Frame Engine & Datalink Mgr]
 	7375  PM7375 [LASAR-155 ATM SAR]
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
@@ -17157,8 +17220,30 @@
 	8535  PM8535 PFX 80xG3 PCIe Fanout Switch
 	8536  PM8536 PFX 96xG3 PCIe Fanout Switch
 		1bd4 0081  PM8536 PFX 96xG3 PCIe Fanout Switch
+	8541  PM8541 PSX 24xG3 Programmable PCIe Switch
+	8542  PM8542 PSX 32xG3 Programmable PCIe Switch
+	8543  PM8543 PSX 48xG3 Programmable PCIe Switch
+	8544  PM8544 PSX 64xG3 Programmable PCIe Switch
+	8545  PM8545 PSX 80xG3 Programmable PCIe Switch
 	8546  PM8546 B-FEIP PSX 96xG3 PCIe Storage Switch
+	8551  PM8551 PAX 24xG3 Programmable Advanced Fabric PCIe Switch
+	8552  PM8552 PAX 32xG3 Programmable Advanced Fabric PCIe Switch
+	8553  PM8553 PAX 48xG3 Programmable Advanced Fabric PCIe Switch
+	8554  PM8554 PAX 64xG3 Programmable Advanced Fabric PCIe Switch
+	8555  PM8555 PAX 80xG3 Programmable Advanced Fabric PCIe Switch
+	8556  PM8556 PAX 96xG3 Programmable Advanced Fabric PCIe Switch
+	8561  PM8561 Switchtec PFX-L 24xG3 Fanout-Lite PCIe Switch
 	8562  PM8562 Switchtec PFX-L 32xG3 Fanout-Lite PCIe Gen3 Switch
+	8563  PM8563 Switchtec PFX-L 48xG3 Fanout-Lite PCIe Switch
+	8564  PM8564 Switchtec PFX-L 64xG3 Fanout-Lite PCIe Switch
+	8565  PM8565 Switchtec PFX-L 80xG3 Fanout-Lite PCIe Switch
+	8566  PM8566 Switchtec PFX-L 96xG3 Fanout-Lite PCIe Switch
+	8571  PM8571 Switchtec PFX-I 24xG3 Industrial Fanout PCIe Switch
+	8572  PM8572 Switchtec PFX-I 32xG3 Industrial Fanout PCIe Switch
+	8573  PM8573 Switchtec PFX-I 48xG3 Industrial Fanout PCIe Switch
+	8574  PM8574 Switchtec PFX-I 64xG3 Industrial Fanout PCIe Switch
+	8575  PM8575 Switchtec PFX-I 80xG3 Industrial Fanout PCIe Switch
+	8576  PM8576 Switchtec PFX-I 96xG3 Industrial Fanout PCIe Switch
 11f9  I-Cube Inc
 11fa  Kasan Electronics Company, Ltd.
 11fb  Datel Inc
