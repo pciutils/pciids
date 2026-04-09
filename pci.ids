@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.08
-#	Date:    2026-04-08 03:15:01
+#	Version: 2026.04.09
+#	Date:    2026-04-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29211,6 +29211,17 @@
 	2018  DPU Card
 # Network Accelerating Card
 	2020  DPU
+	3011  K3 Family [FLEXFLOW-3100R]
+		1f47 000a  FLEXFLOW-3100R 1*100GE Ethernet Adapter
+		1f47 000b  FLEXFLOW-3100R 2*100GE Ethernet Adapter
+		1f47 000c  FLEXFLOW-3100R 4*100GE Ethernet Adapter
+		1f47 000d  FLEXFLOW-3100R 8*100GE Ethernet Adapter
+		1f47 000e  FLEXFLOW-3100R 1*100GE Ethernet Adapter
+		1f47 000f  FLEXFLOW-3100R 2*100GE Ethernet Adapter
+		1f47 0010  FLEXFLOW-3100R 4*100GE Ethernet Adapter
+		1f47 0011  FLEXFLOW-3100R 8*100GE Ethernet Adapter
+	3012  K3 Family [FLEXFLOW-3100R Virtual Function]
+	3013  K3 Family [FLEXFLOW-3100R MGMT Function]
 	3101  FLEXFLOW-2100R Ethernet Controller
 		1f47 0001  Ethernet 10G 2P FLEXFLOW-2100R
 		1f47 0002  Ethernet 25G 2P FLEXFLOW-2100R
