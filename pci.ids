@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.09
-#	Date:    2026-04-09 03:15:02
+#	Version: 2026.04.13
+#	Date:    2026-04-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20805,7 +20805,7 @@
 		1028 230f  DC NVMe PM9D3a RI 80M.2 480GB ISE
 		1028 2310  DC NVMe PM9D3a RI 80M.2 960GB ISE
 		1028 2311  DC NVMe PM9D3a RI 80M.2 1.92TB ISE
-		1028 2341  DC NVMe PM9D3a RI U.2 960GB　
+		1028 2341  DC NVMe PM9D3a RI U.2 960GB
 		1028 2342  DC NVMe PM9D3a RI U.2 1.92TB
 		1028 2343  DC NVMe PM9D3a RI U.2 3.84TB
 		1028 2344  DC NVMe PM9D3a RI U.2 7.68GTB
