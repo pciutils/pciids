@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.21
-#	Date:    2026-04-21 03:15:02
+#	Version: 2026.04.24
+#	Date:    2026-04-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30154,7 +30154,16 @@
 		434e 0003  CN5000 SuperNIC, Single Port, QSFP, x16 PCIe Gen 5, II
 		434e 0004  CN5000 SuperNIC, Dual Port, QSFP-DD, x16 PCIe Gen 5, II
 	0002  CN6000 HFI Silicon, Dual Port, BGA [discrete]
+		434e 0001  CN6000 SuperNIC, Single Port, QSFP-DD, x16 PCIe Gen 6
 	8001  CN5000 Switch Silicon, 48 Port, BGA
+# Add CN5000 Switch
+		434e 0101  CN5000 Switch
+# Add CN5000 Director Class Switch Spine
+		434e 0103  CN5000 Director Class Switch Spine
+# Add CN5000 Director Class Switch Leaf
+		434e 0104  CN5000 Director Class Switch Leaf
+# Add CN6000 Switch
+		434e 0106  CN6000 Switch
 4444  Internext Compression Inc
 	0016  iTVC16 (CX23416) Video Decoder
 		0070 0003  WinTV PVR 250
