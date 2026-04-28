@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.24
-#	Date:    2026-04-24 03:15:02
+#	Version: 2026.04.28
+#	Date:    2026-04-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -16235,6 +16235,8 @@
 		117c 00c9  Celerity FC-641E
 		117c 00ca  Celerity FC-642E
 		117c 00d4  Celerity FC-644E
+		117c 40d8  ThunderLink FC 5642
+		117c 40d9  ThunderLink FC 5322
 	00c5  ExpressNVM PCIe Gen4 Switch
 		117c 00c6  ExpressNVM S48F PCIe Gen4
 		117c 00cb  ExpressNVM S4FF PCIe Gen4
@@ -16244,6 +16246,7 @@
 		117c 00c2  ExpressSAS H1244 GT
 		117c 00c3  ExpressSAS H12F0 GT
 		117c 00c4  ExpressSAS H120F GT
+		117c 40e0  ThunderLink SH 5128
 	8013  ExpressPCI UL4D
 	8014  ExpressPCI UL4S
 	8027  ExpressPCI UL5D
@@ -30394,6 +30397,13 @@
 		4c53 3002  PLUSTEST-MM card (PMC)
 4c54  Lisuan Technology Co., Ltd.
 	5000  LISUAN 7G100 Series Graphics
+# LISUAN 7G100 Series Graphics
+	5001  LISUAN 7G100 Series Graphics
+	5002  LISUAN 7G100 Series Graphics
+	5003  LISUAN 7G100 Series Graphics
+	5004  LISUAN 7G100 Series Graphics
+	5005  LISUAN 7G100 Series Graphics
+	5006  LISUAN 7G100 Series Graphics
 4ca1  Seanix Technology Inc
 4d51  MediaQ Inc.
 	0200  MQ-200
