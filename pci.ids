@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.28
-#	Date:    2026-04-28 03:15:02
+#	Version: 2026.04.29
+#	Date:    2026-04-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -16246,7 +16246,11 @@
 		117c 00c2  ExpressSAS H1244 GT
 		117c 00c3  ExpressSAS H12F0 GT
 		117c 00c4  ExpressSAS H120F GT
+		117c 00e1  ExpressSAS H1280 GT
+		117c 00e2  ExpressSAS H1208 GT
+		117c 00e3  ExpressSAS H1244 GT
 		117c 40e0  ThunderLink SH 5128
+		117c 40e4  ThunderLink SH 5128
 	8013  ExpressPCI UL4D
 	8014  ExpressPCI UL4S
 	8027  ExpressPCI UL5D
@@ -16254,7 +16258,7 @@
 		117c 0070  ExpressSAS H1280
 		117c 0071  ExpressSAS H1208
 		117c 0080  ExpressSAS H1244
-		117c 40ae  ThunderLink TLSH-3128
+		117c 40ae  ThunderLink SH 3128
 	8072  ExpressSAS 12Gb/s SAS/SATA HBA
 		117c 0072  ExpressSAS H12F0
 		117c 0073  ExpressSAS H120F
@@ -21654,6 +21658,7 @@
 		193d 1087  NIC-ETH531F-3S-2P
 	16d7  BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller
 		117c 00cc  FastFrame N422 Dual-port 25Gb Ethernet Adapter
+		117c 40d7  ThunderLink NS 5252 Dual-port 25Gb Ethernet Adapter
 		14e4 1402  BCM957414A4142CC 10Gb/25Gb Ethernet PCIe
 		14e4 1404  BCM957414M4142C OCP 2x25G Type1 wRoCE
 		14e4 4140  NetXtreme E-Series Advanced Dual-port 25Gb SFP28 Network Daughter Card
@@ -21725,7 +21730,7 @@
 		17aa 3a23  IdeaPad S10e
 	1750  BCM57508 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet
 		117c 00cf  FastFrame N412 Dual-port 100Gb Ethernet Adapter
-		117c 40d6  ThunderLink TLNS-5102 Dual-port 100Gb Ethernet Adapter
+		117c 40d6  ThunderLink NS 5102 Dual-port 100Gb Ethernet Adapter
 		14e4 2100  NetXtreme-E Dual-port 100G QSFP56 Ethernet PCIe4.0 x16 Adapter (BCM957508-P2100G)
 		14e4 5208  NetXtreme-E Dual-port 100G QSFP56 Ethernet OCP 3.0 Adapter (BCM957508-N2100G)
 		14e4 520a  NetXtreme-E Dual-port 100G DSFP Ethernet OCP 3.0 Adapter (BCM957508-N2100GD)
@@ -21736,6 +21741,7 @@
 		1028 09d4  PowerEdge XR11/XR12 LOM
 		1028 0b1b  PowerEdge XR5610 LOM
 		117c 00da  FastFrame N424 Quad-port 25Gb Ethernet Adapter
+		117c 40df  ThunderLink NS 5254 Quad-port 25Gb Ethernet Adapter
 		14e4 4250  NetXtreme-E Quad-port 25G SFP28 Ethernet PCIe4.0 x16 Adapter (BCM957504-P425G)
 		14e4 5045  NetXtreme-E BCM57504 4x25G OCP3.0
 		14e4 5100  NetXtreme-E Single-port 100G QSFP56 Ethernet OCP 3.0 Adapter (BCM957504-N1100G)
@@ -21746,6 +21752,7 @@
 		1590 0420  HPE Ethernet 25/50Gb 2-port 6310C Adapter
 	1752  BCM57502 NetXtreme-E 10Gb/25Gb/40Gb/50Gb Ethernet
 	1760  BCM57608 25Gb/50Gb/100Gb/200Gb/400Gb Ethernet
+		117c 00cf  FastFrame N522 Dual-port 200Gb Ethernet Adapter
 		14e4 9110  BCM57608 1x400G PCIe Ethernet NIC
 		14e4 9120  BCM57608 2x200G PCIe Ethernet NIC
 		14e4 9121  BCM57608 2x100G PCIe Ethernet NIC
@@ -25492,6 +25499,8 @@
 		19e5 0051  Hi1822 SP681 (2*25/10GE)
 		19e5 0052  Hi1822 SP680 (4*25/10GE)
 		19e5 00a1  Hi1822 SP670 (2*100GE)
+	0229  Hi1872 Family
+	022a  Hi1872 Family Virtual Function
 	1710  iBMA Virtual Network Adapter
 	1711  Hi171x Series [iBMC Intelligent Management system chip w/VGA support]
 	1712  Intelligent Management system chip Virtual Network Adapter
@@ -29911,6 +29920,8 @@
 	0007  QMA Board M.2 Gen2
 	000a  QMA Board PCIe Gen2
 2116  ZyDAS Technology Corp.
+# Add Vendor id 0x2123 to pci.ids
+2123  Shanghai Warpdrive Technology Co., Ltd
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
