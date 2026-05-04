@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.04.30
-#	Date:    2026-04-30 03:15:02
+#	Version: 2026.05.04
+#	Date:    2026-05-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27140,6 +27140,7 @@
 	efa1  Elastic Fabric Adapter (EFA)
 	efa2  Elastic Fabric Adapter (EFA)
 	efa3  Elastic Fabric Adapter (EFA)
+	efa4  Elastic Fabric Adapter (EFA)
 1d17  Zhaoxin
 	070f  ZX-100 PCI Express Root Port
 	0710  ZX-100/ZX-200 PCI Express Root Port
