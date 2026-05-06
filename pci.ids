@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.04
-#	Date:    2026-05-04 03:15:02
+#	Version: 2026.05.06
+#	Date:    2026-05-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -22862,6 +22862,8 @@
 	027c  NVLink-7 Switch in Flash Recovery Mode
 	027d  NVLink-7 Switch RMA
 	027e  Spectrum-7 Tile
+# Spectrum-8 tile
+	027f  Spectrum-8 tile
 	0281  NPS-600 Flash Recovery
 	0282  ArcusE Flash recovery
 	0283  ArcusE RMA
@@ -22886,6 +22888,10 @@
 # 400G Retimer
 	02a6  OrionR
 	02a7  OrionR RMA
+# Spectrum-8 in Flash Recovery Mode
+	02a8  Spectrum-8 in Flash Recovery Mode
+# Spectrum-8 RMA
+	02a9  Spectrum-8 RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
 		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
@@ -23104,6 +23110,8 @@
 # SwitchX-2, 40GbE switch
 	c738  MT51136
 	c739  MT51136 GW
+# Spectrum-8
+	c788  Spectrum-8
 	c838  MT52236
 	c839  MT52236 router
 	caf1  ConnectX-4 CAPI Function
@@ -26428,6 +26436,8 @@
 	5208  PCIe 3TE7 Controller
 	5216  PCIe 3TE8 Controller
 	5236  PCIe 4TG2-P Controller
+# based on PCIe 4TG2-P Controller, for 4TS2-P series
+	523a  PCIe 4TS2-P Controller
 1bcd  Apacer Technology
 	0120  NVMe SSD Drive 960GB
 	0180  PB4480 NVMe SSD (DRAM-less)
