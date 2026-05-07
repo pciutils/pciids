@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.06
-#	Date:    2026-05-06 03:15:02
+#	Version: 2026.05.07
+#	Date:    2026-05-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1256,6 +1256,7 @@
 		1000 2004  PEX89000 Virtual PCIe TWC/NT 2.0 Endpoint
 # Lower lane count PEX89000 switch
 		1000 2005  PEX89000 Virtual PCIe gDMA Endpoint
+	c040  PEX90xxx PCIe Gen 6 Switch
 1001  Kolter Electronic
 	0010  PCI 1616 Measurement card with 32 digital I/O lines
 	0011  OPTO-PCI Opto-Isolated digital I/O board
@@ -1297,6 +1298,8 @@
 	131c  Kaveri [Radeon R7 Graphics]
 	131d  Kaveri [Radeon R6 Graphics]
 	13c0  Granite Ridge [Radeon Graphics]
+# Used in the Sony PlayStation 5 Phat
+	13db  Cyan Skillfish [PlayStation 5 APU]
 	13e9  Ariel/Navi10Lite
 	13f9  Oberon/Navi12Lite
 	13fe  Cyan Skillfish [BC-250]
