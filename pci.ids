@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.07
-#	Date:    2026-05-07 03:15:02
+#	Version: 2026.05.08
+#	Date:    2026-05-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4172,6 +4172,8 @@
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
 	7551  Navi 48 [Radeon AI PRO R9700]
 	7590  Navi 44 [Radeon RX 9060 XT]
+# ASUS RX 9060 XT 16GB
+		1043 0639  Navi 44 [Radeon RX 9060 XT]
 		1458 2429  GV-R9060XTGAMING OC-16GD [Radeon RX 9060 XT GAMING OC 16G]
 		1eae 8601  RX-96TS316W7 [SWIFT RX 9060 XT OC White Triple Fan Gaming Edition 16GB]
 	75a0  Aqua Vanjaram [Instinct MI350X]
@@ -7601,7 +7603,37 @@
 	e350  80333 [SuperTrak EX24350]
 105b  Foxconn International, Inc.
 	9602  RS780/RS880 PCI to PCI bridge (int gfx)
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0ab  T99W175 5G Modem [Snapdragon X55]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0b0  DW5930e 5G Modem [Snapdragon X55]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0b1  DW5930e 5G Modem [Snapdragon X55]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0bf  T99W175 5G Modem [Snapdragon X55]
 	e0c3  T99W175 5G Modem [Snapdragon X55]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0d8  T99W368 5G Modem [Snapdragon X65]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0d9  T99W373 5G Modem [Snapdragon X62]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0f0  T99W510 4G Modem [Snapdragon X24]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0f1  T99W510 4G Modem [Snapdragon X24]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0f2  T99W510 4G Modem [Snapdragon X24]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0f5  DW5932e-eSIM 5G Modem [Snapdragon X62]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e0f9  DW5932e 5G Modem [Snapdragon X62]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e118  T99W640 5G Modem [Snapdragon X72]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e11d  DW5934e-eSIM 5G Modem [Snapdragon X72]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e11e  DW5934e 5G Modem [Snapdragon X72]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+	e123  T99W760 5G Redcap Modem [Snapdragon X35]
 105c  Wipro Infotech Limited
 105d  Number 9 Computer Company
 	2309  Imagine 128
@@ -13288,6 +13320,7 @@
 	2203  GA102 [GeForce RTX 3090 Ti]
 	2204  GA102 [GeForce RTX 3090]
 		10de 147d  GeForce RTX 3090 Founders Edition
+		1462 3881  MSI RTX 3090 VENTUS 3X OC
 		3842 3973  GeForce RTX 3090 XC3
 	2205  GA102 [GeForce RTX 3080 Ti 20GB]
 	2206  GA102 [GeForce RTX 3080]
@@ -21982,6 +22015,8 @@
 	43ba  BCM43602 802.11ac Wireless LAN SoC
 	43bb  BCM43602 802.11ac Wireless LAN SoC
 	43bc  BCM43602 802.11ac Wireless LAN SoC
+	43c3  BCM4366/BCM43465 802.11ac Wave2 4x4 Wireless Network Adapter
+		1043 86fb  PCE-AC88
 	43d3  BCM43567 802.11ac Wireless Network Adapter
 	43d9  BCM43570 802.11ac Wireless Network Adapter
 	43dc  BCM4355 802.11ac Wireless LAN SoC
@@ -24362,6 +24397,27 @@
 	0304  SDX24 [Snapdragon X24 4G]
 	0306  SDX55 [Snapdragon X55 5G]
 	0308  SDX61/SDX62/SDX65 [Snapdragon 5G X6X-series]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e142  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e143  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e144  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e145  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e146  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e150  T99W696 5G Modem [Snapdragon X61]
+		105b e151  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e152  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e153  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e154  T99W696 5G Modem [Snapdragon X61]
+# Ref: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/drivers/bus/mhi/host/pci_generic.c
+		105b e155  T99W696 5G Modem [Snapdragon X61]
 	0400  Datacenter Technologies QDF2432 PCI Express Root Port
 	0401  Datacenter Technologies QDF2400 PCI Express Root Port
 	1000  QCS405 PCIe Root Complex
@@ -37905,18 +37961,18 @@
 		8086 1216  WiMAX/WiFi Link 5150 ABG
 		8086 1311  WiMAX/WiFi Link 5150 AGN
 		8086 1316  WiMAX/WiFi Link 5150 ABG
-	4384  Q570 LPC/eSPI Controller
-	4385  Z590 LPC/eSPI Controller
-	4386  H570 LPC/eSPI Controller
-	4387  B560 LPC/eSPI Controller
-	4388  H510 LPC/eSPI Controller
-	4389  WM590 LPC/eSPI Controller
-	438a  QM580 LPC/eSPI Controller
-	438b  HM570 LPC/eSPI Controller
-	438c  C252 LPC/eSPI Controller
-	438d  C256 LPC/eSPI Controller
+	4384  Q570 Chipset eSPI Controller
+	4385  Z590 Chipset eSPI Controller
+	4386  H570 Chipset eSPI Controller
+	4387  B560 Chipset eSPI Controller
+	4388  H510 Chipset eSPI Controller
+	4389  WM590 Chipset eSPI Controller
+	438a  QM580 Chipset eSPI Controller
+	438b  HM570 Chipset eSPI Controller
+	438c  C252 Chipset eSPI Controller
+	438d  C256 Chipset eSPI Controller
 	438e  H310D LPC/eSPI Controller
-	438f  W580 LPC/eSPI Controller
+	438f  W580 Chipset eSPI Controller
 	4390  RM590E LPC/eSPI Controller
 	4391  R580E LPC/eSPI Controller
 	43a3  Tiger Lake-H SMBus Controller
@@ -38776,7 +38832,7 @@
 	777a  Arrow Lake-H [Serial IO I2C Host Controller]
 	777b  Arrow Lake-H [Serial IO I2C Host Controller]
 	777d  Arrow Lake USB 3.2 xHCI Controller
-	777f  Arrow Lake Shared SRAM
+	777f  Core Ultra 200H/200V Series Processors Shared SRAM
 	7800  82740 (i740) AGP Graphics Accelerator
 		003d 0008  Starfighter AGP
 		003d 000b  Starfighter AGP
@@ -38785,102 +38841,128 @@
 		10b4 202f  Lightspeed 740
 		8086 0000  Terminator 2x/i
 		8086 0100  Intel740 Graphics Accelerator
-	7a04  Z790 Chipset LPC/eSPI Controller
-	7a05  H770 Chipset LPC/eSPI Controller
-	7a06  B760 Chipset LPC/eSPI Controller
-	7a0c  HM770 Chipset LPC/eSPI Controller
+	7a04  Z790 Chipset eSPI Controller
+	7a05  H770 Chipset eSPI Controller
+	7a06  B760 Chipset eSPI Controller
+	7a0c  HM770 Chipset eSPI Controller
 	7a0d  WM790 Chipset LPC/eSPI Controller
-	7a13  C266 Chipset LPC/eSPI Controller
-	7a14  C262 Chipset LPC/eSPI Controller
-	7a20  700 Series Chipset P2SB
-	7a21  700 Series Chipset Power Management Controller
-	7a23  700 Series Chipset SMBus Controller
-	7a24  Raptor Lake SPI (flash) Controller
-	7a27  Raptor Lake PCH Shared SRAM
-	7a28  700 Series Chipset Serial IO UART Controller #0
-	7a29  700 Series Chipset Serial IO UART Controller #1
-	7a2a  700 Series Chipset Serial IO GSPI Controller #0
-	7a2b  700 Series Chipset Serial IO GSPI Controller #1
-	7a30  Raptor Lake PCI Express Root Port #9
-	7a31  Raptor Lake PCI Express Root Port #10
-	7a32  Raptor Lake PCI Express Root Port #11
-	7a33  Raptor Lake PCI Express Root Port #12
-	7a34  Raptor Lake PCI Express Root Port #13
-	7a35  Raptor Lake PCI Express Root Port #14
-	7a36  Raptor Lake PCI Express Root Port #15
-	7a37  Raptor Lake PCI Express Root Port #16
-	7a38  Raptor Lake PCI Express Root Port #1
-	7a39  Raptor Lake PCI Express Root Port #2
-	7a3a  Raptor Lake PCI Express Root Port #3
-	7a3b  Raptor Lake PCI Express Root Port #4
-	7a3c  Raptor Lake PCI Express Root Port #5
-	7a3d  Raptor Lake PCI Express Root Port #6
-	7a3e  Raptor Lake PCI Express Root Port #7
-	7a3f  Raptor Lake PCI Express Root Port #8
-	7a40  Raptor Lake PCI Express Root Port #17
-	7a41  Raptor Lake PCI Express Root Port #18
-	7a42  Raptor Lake PCI Express Root Port #19
-	7a43  Raptor Lake PCI Express Root Port #20
-	7a44  Raptor Lake PCI Express Root Port #21
-	7a45  Raptor Lake PCI Express Root Port #22
-	7a46  Raptor Lake PCI Express Root Port #23
-	7a47  Raptor Lake PCI Express Root Port #24
-	7a48  Raptor Lake PCI Express Root Port #25
-	7a49  Raptor Lake PCI Express Root Port #26
-	7a4a  Raptor Lake PCI Express Root Port #27
-	7a4b  Raptor Lake PCI Express Root Port #28
-	7a4c  Raptor Lake Serial IO I2C Host Controller #0
-	7a4d  Raptor Lake Serial IO I2C Host Controller #1
-	7a4e  Raptor Lake Serial IO I2C Host Controller #2
-	7a4f  Raptor Lake Serial IO I2C Host Controller #3
-	7a50  Raptor Lake High Definition Audio Controller
-	7a5c  700 Series Chipset Serial IO UART Controller #3
-	7a60  Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller
-	7a61  Raptor Lake USB 3.2 Gen 1x1 (5 Gb/s) xDCI Device Controller
-	7a62  Raptor Lake SATA AHCI Controller
-	7a68  Raptor Lake CSME HECI #1
-	7a69  Raptor Lake CSME HECI #2
-	7a6a  Raptor Lake CSME IDE Redirection
-	7a6b  Raptor Lake CSME Keyboard and Text (KT) Redirection
-	7a6c  Raptor Lake CSME HECI #3
-	7a6d  Raptor Lake CSME HECI #4
+	7a13  C266 Chipset eSPI Controller
+	7a14  C262 Chipset eSPI Controller
+	7a20  700 Series Chipset Family P2SB
+	7a21  700 Series Chipset Family PMC
+	7a23  700 Series Chipset Family SMBus
+	7a24  700 Series Chipset Family SPI (flash) Controller
+	7a26  700 Series Chipset Family Trace Hub
+	7a27  700 Series Chipset Family Shared SRAM
+	7a28  700 Series Chipset Family UART #0
+	7a29  700 Series Chipset Family UART #1
+	7a2a  700 Series Chipset Family GSPI #0
+	7a2b  700 Series Chipset Family GSPI #1
+	7a30  700 Series Chipset Family PCIe Root Port #9
+	7a31  700 Series Chipset Family PCIe Root Port #10
+	7a32  700 Series Chipset Family PCIe Root Port #11
+	7a33  700 Series Chipset Family PCIe Root Port #12
+	7a34  700 Series Chipset Family PCIe Root Port #13
+	7a35  700 Series Chipset Family PCIe Root Port #14
+	7a36  700 Series Chipset Family PCIe Root Port #15
+	7a37  700 Series Chipset Family PCIe Root Port #16
+	7a38  700 Series Chipset Family PCIe Root Port #1
+	7a39  700 Series Chipset Family PCIe Root Port #2
+	7a3a  700 Series Chipset Family PCIe Root Port #3
+	7a3b  700 Series Chipset Family PCIe Root Port #4
+	7a3c  700 Series Chipset Family PCIe Root Port #5
+	7a3d  700 Series Chipset Family PCIe Root Port #6
+	7a3e  700 Series Chipset Family PCIe Root Port #7
+	7a3f  700 Series Chipset Family PCIe Root Port #8
+	7a40  700 Series Chipset Family PCIe Root Port #17
+	7a41  700 Series Chipset Family PCIe Root Port #18
+	7a42  700 Series Chipset Family PCIe Root Port #19
+	7a43  700 Series Chipset Family PCIe Root Port #20
+	7a44  700 Series Chipset Family PCIe Root Port #21
+	7a45  700 Series Chipset Family PCIe Root Port #22
+	7a46  700 Series Chipset Family PCIe Root Port #23
+	7a47  700 Series Chipset Family PCIe Root Port #24
+	7a48  700 Series Chipset Family PCIe Root Port #25
+	7a49  700 Series Chipset Family PCIe Root Port #26
+	7a4a  700 Series Chipset Family PCIe Root Port #27
+	7a4b  700 Series Chipset Family PCIe Root Port #28
+	7a4c  700 Series Chipset Family I2C Controller #0
+	7a4d  700 Series Chipset Family I2C Controller #1
+	7a4e  700 Series Chipset Family I2C Controller #2
+	7a4f  700 Series Chipset Family I2C Controller #3
+	7a50  700 Series Chipset Family HD Audio Controller
+	7a5c  700 Series Chipset Family UART #3
+	7a60  700 Series Chipset Family USB 3.2 Gen 2x2 (20 Gbs) xHCI Host Controller
+	7a61  700 Series Chipset Family USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)
+	7a62  700 Series Chipset Family SATA Controller (AHCI)
+	7a68  700 Series Chipset Family CSME HECI #1
+	7a69  700 Series Chipset Family CSME HECI #2
+	7a6a  700 Series Chipset Family CSME IDE Redirection (IDE-R)
+	7a6b  700 Series Chipset Family CSME Keyboard and Text (KT) Redirection
+	7a6c  700 Series Chipset Family CSME HECI #3
+	7a6d  700 Series Chipset Family CSME HECI #4
 	7a70  700 Series Chipset CNVi WiFi
 		8086 0074  Wi-Fi 6 AX201 160MHz
 		8086 0090  WiFi 6E AX211 160MHz
-	7a79  700 Series Chipset Serial IO GSPI Controller #3
-	7a7b  700 Series Chipset Serial IO GSPI Controller #2
-	7a7c  Raptor Lake Serial IO I2C Host Controller #4
-	7a7d  Raptor Lake Serial IO I2C Host Controller #5
-	7a7e  700 Series Chipset Serial IO UART Controller #2
-	7a83  Q670 Chipset LPC/eSPI Controller
-# Unlike other PCH components. The eSPI controller is specific to each chipset model
-	7a84  Z690 Chipset LPC/eSPI Controller
-	7a85  H670 Chipset LPC/eSPI Controller
-	7a86  B660 Chipset LPC/eSPI Controller
-	7a87  H610 Chipset LPC/eSPI Controller
-	7a88  W680 Chipset LPC/eSPI Controller
-	7a8c  HM670 Chipset LPC/eSPI Controller
-	7a8d  WM690 Chipset LPC/eSPI Controller
-	7aa3  Alder Lake-S PCH SMBus Controller
-	7aa4  Alder Lake-S PCH SPI Controller
-	7aa7  Alder Lake-S PCH Shared SRAM
-	7aa8  Alder Lake-S PCH Serial IO UART #0
-	7aab  Alder Lake-S PCH Serial IO SPI Controller #1
-	7ab0  Alder Lake-S PCH PCI Express Root Port #9
-	7ab4  Alder Lake-S PCH PCI Express Root Port #13
-	7ab8  Alder Lake-S PCH PCI Express Root Port #1
-	7ab9  Alder Lake-S PCH PCI Express Root Port #2
-	7aba  Alder Lake-S PCH PCI Express Root Port #3
-	7abc  Alder Lake-S PCH PCI Express Root Port #5
-	7abd  Alder Lake-S PCH PCI Express Root Port #6
-	7abf  Alder Lake-S PCH PCI Express Root Port #8
-	7ac4  Alder Lake-S PCH PCI Express Root Port #21
-	7ac8  Alder Lake-S PCH PCI Express Root Port #25
-	7acc  Alder Lake-S PCH Serial IO I2C Controller #0
-	7acd  Alder Lake-S PCH Serial IO I2C Controller #1
-	7ace  Alder Lake-S PCH Serial IO I2C Controller #2
-	7acf  Alder Lake-S PCH Serial IO I2C Controller #3
-	7ad0  Alder Lake-S HD Audio Controller
+	7a78  700 Series Chipset Family Integrated Sensor Hub
+	7a79  700 Series Chipset Family GSPI #3
+	7a7b  700 Series Chipset Family GSPI #2
+	7a7c  700 Series Chipset Family I2C Controller #4
+	7a7d  700 Series Chipset Family I2C Controller #5
+	7a7e  700 Series Chipset Family UART #2
+	7a83  Q670 Chipset eSPI Controller
+	7a84  Z690 Chipset eSPI Controller
+	7a85  H670 Chipset eSPI Controller
+	7a86  B660 Chipset eSPI Controller
+	7a87  H610 Chipset eSPI Controller
+	7a88  W680 Chipset eSPI Controller
+	7a8a  W790 Chipset eSPI Controller
+	7a8c  HM670 Chipset eSPI Controller
+	7a8d  WM690 Chipset eSPI Controller
+	7aa0  600 Series Chipset Family P2SB
+	7aa1  600 Series Chipset Family PMC
+	7aa3  600 Series Chipset Family SMBus
+	7aa4  600 Series Chipset Family SPI (flash) Controller
+	7aa6  600 Series Chipset Family Trace Hub
+	7aa7  600 Series Chipset Family Shared SRAM
+	7aa8  600 Series Chipset Family UART #0
+	7aa9  600 Series Chipset Family UART #1
+	7aaa  600 Series Chipset Family GSPI #0
+	7aab  600 Series Chipset Family GSPI #1
+	7ab0  600 Series Chipset Family PCIe Root Port #9
+	7ab1  600 Series Chipset Family PCIe Root Port #10
+	7ab2  600 Series Chipset Family PCIe Root Port #11
+	7ab3  600 Series Chipset Family PCIe Root Port #12
+	7ab4  600 Series Chipset Family PCIe Root Port #13
+	7ab5  600 Series Chipset Family PCIe Root Port #14
+	7ab6  600 Series Chipset Family PCIe Root Port #15
+	7ab7  600 Series Chipset Family PCIe Root Port #16
+	7ab8  600 Series Chipset Family PCIe Root Port #1
+	7ab9  600 Series Chipset Family PCIe Root Port #2
+	7aba  600 Series Chipset Family PCIe Root Port #3
+	7abb  600 Series Chipset Family PCIe Root Port #4
+	7abc  600 Series Chipset Family PCIe Root Port #5
+	7abd  600 Series Chipset Family PCIe Root Port #6
+	7abe  600 Series Chipset Family PCIe Root Port #7
+	7abf  600 Series Chipset Family PCIe Root Port #8
+	7ac0  600 Series Chipset Family PCIe Root Port #17
+	7ac1  600 Series Chipset Family PCIe Root Port #18
+	7ac2  600 Series Chipset Family PCIe Root Port #19
+	7ac3  600 Series Chipset Family PCIe Root Port #20
+	7ac4  600 Series Chipset Family PCIe Root Port #21
+	7ac5  600 Series Chipset Family PCIe Root Port #22
+	7ac6  600 Series Chipset Family PCIe Root Port #23
+	7ac7  600 Series Chipset Family PCIe Root Port #24
+	7ac8  600 Series Chipset Family PCIe Root Port #25
+	7ac9  600 Series Chipset Family PCIe Root Port #26
+	7aca  600 Series Chipset Family PCIe Root Port #27
+	7acb  600 Series Chipset Family PCIe Root Port #28
+	7acc  600 Series Chipset Family I2C Controller #0
+	7acd  600 Series Chipset Family I2C Controller #1
+	7ace  600 Series Chipset Family I2C Controller #2
+	7acf  600 Series Chipset Family 12C Controller #3
+	7ad0  600 Series Chipset Family HD Audio
+	7adc  600 Series Chipset Family UART #3
 	7ae0  Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller
 	7ae1  Alder Lake-S PCH USB 3.2 Gen 1x1 xDCI Controller
 	7ae2  Alder Lake-S PCH SATA Controller [AHCI Mode]
@@ -38950,34 +39032,79 @@
 	7eca  Meteor Lake-H/U PCIe Root Port #10
 	7ecb  Arrow Lake-H/U PCIe Root Port #11 (PXPE)
 	7ecc  Meteor Lake-H PCIe Root Port #12
-	7f03  Q870 Chipset LPC/eSPI Controller
-	7f04  Z890 Chipset LPC/eSPI Controller
-	7f06  B860 Chipset LPC/eSPI Controller
-	7f07  H810 Chipset LPC/eSPI Controller
-	7f08  W880 Chipset LPC/eSPI Controller
-	7f0c  HM870 Chipset LPC/eSPI Controller
-	7f0d  WM880 Chipset LPC/eSPI Controller
-	7f20  800 Series PCH P2SB
-	7f21  800 Series PCH Power Management Controller
-	7f23  800 Series PCH SMBus Controller
-	7f24  800 Series PCH SPI (flash) Controller
-	7f27  800 Series PCH Shared SRAM
-	7f30  800 Series PCH PCIe Root Port #9
-	7f34  800 Series PCH PCIe Root Port #13
-	7f36  800 Series PCH PCIe Root Port #15
-	7f38  800 Series PCH PCIe Root Port #1
-	7f3e  800 Series PCH PCIe Root Port #7
-	7f40  800 Series PCH PCIe Root Port #17
-	7f44  800 Series PCH PCIe Root Port #21
-	7f4c  800 Series PCH I2C Controller #0
-	7f4f  800 Series PCH I2C Controller #3
-	7f50  800 Series ACE (Audio Context Engine)
-	7f68  800 Series PCH HECI #1
-	7f6e  800 Series PCH USB 3.1 xHCI HC
+	7f03  Q870 Chipset eSPI Controller
+	7f04  Z890 Chipset eSPI Controller
+	7f06  B860 Chipset eSPI Controller
+	7f07  H810 Chipset eSPI Controller
+	7f08  W880 Chipset eSPI Controller
+	7f0c  HM870 Chipset eSPI Controller
+	7f0d  WM880 Chipset eSPI Controller
+	7f20  800 Series Chipset Family P2SB
+	7f21  800 Series Chipset Family PMC
+	7f23  800 Series Chipset Family SMBus
+	7f24  800 Series Chipset Family SPI (flash) Controller
+	7f26  800 Series Chipset Family Trace Hub
+	7f27  800 Series Chipset Family Shared SRAM
+	7f28  800 Series Chipset Family UART #0
+	7f29  800 Series Chipset Family UART #1
+	7f2a  800 Series Chipset Family GSPI #0
+	7f2b  800 Series Chipset Family GSPI #1
+	7f30  800 Series Chipset Family PCIe Root Port #9
+	7f31  800 Series Chipset Family PCIe Root Port #10
+	7f32  800 Series Chipset Family PCIe Root Port #11
+	7f33  800 Series Chipset Family PCIe Root Port #12
+	7f34  800 Series Chipset Family PCIe Root Port #13
+	7f35  800 Series Chipset Family PCIe Root Port #14
+	7f36  800 Series Chipset Family PCIe Root Port #15
+	7f37  800 Series Chipset Family PCIe Root Port #16
+	7f38  800 Series Chipset Family PCIe Root Port #1
+	7f39  800 Series Chipset Family PCIe Root Port #2
+	7f3a  800 Series Chipset Family PCIe Root Port #3
+	7f3b  800 Series Chipset Family PCIe Root Port #4
+	7f3c  800 Series Chipset Family PCIe Root Port #5
+	7f3d  800 Series Chipset Family PCIe Root Port #6
+	7f3e  800 Series Chipset Family PCIe Root Port #7
+	7f3f  800 Series Chipset Family PCIe Root Port #8
+	7f40  800 Series Chipset Family PCIe Root Port #17
+	7f41  800 Series Chipset Family PCIe Root Port #18
+	7f42  800 Series Chipset Family PCIe Root Port #19
+	7f43  800 Series Chipset Family PCIe Root Port #20
+	7f44  800 Series Chipset Family PCIe Root Port #21
+	7f45  800 Series Chipset Family PCIe Root Port #22
+	7f46  800 Series Chipset Family PCIe Root Port #23
+	7f47  800 Series Chipset Family PCIe Root Port #24
+	7f4c  800 Series Chipset Family I2C #0
+	7f4d  800 Series Chipset Family I2C #1
+	7f4e  800 Series Chipset Family I2C #2
+	7f4f  800 Series Chipset Family I2C #3
+	7f50  800 Series Chipset Family Audio Context Engine (ACE)
+	7f58  800 Series Chipset Family Touch Host Controller (THC) #0 ID1
+	7f59  800 Series Chipset Family Touch Host Controller (THC) #0 ID2
+	7f5a  800 Series Chipset Family Touch Host Controller (THC) #1 ID1
+	7f5b  800 Series Chipset Family Touch Host Controller (THC) #1 ID2
+	7f5c  800 Series Chipset Family UART #2
+	7f5d  800 Series Chipset Family UART #3
+	7f5e  800 Series Chipset Family GSPI #2
+	7f5f  800 Series Chipset Family GSPI #3
+	7f62  800 Series Chipset Family SATA Controller (AHCI)
+	7f66  800 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium
+	7f68  800 Series Chipset Family CSME HECI #1
+	7f69  800 Series Chipset Family CSME HECI #2
+	7f6a  800 Series Chipset Family IDE Redirection (IDER-R)
+	7f6b  800 Series Chipset Family Keyboard and Text (KT) Redirection
+	7f6c  800 Series Chipset Family CSME HECI #3
+	7f6d  800 Series Chipset Family CSME HECI #4
+	7f6e  800 Series Chipset Family USB 3.1 xHCI HC
+	7f6f  800 Series Chipset Family USB Device Controller (OTG) (xDCI)
 	7f70  Arrow Lake-S PCH CNVi WiFi
 		8086 0094  WiFi 6E AX211 160MHz
-	7f7a  800 Series PCH I2C Controller #4
-	7f7b  800 Series PCH I2C Controller #5
+	7f78  800 Series Chipset Family Integrated Sensor Hub
+	7f79  800 Series Chipset Family I3C
+	7f7a  800 Series Chipset Family I2C #4
+	7f7b  800 Series Chipset Family I2C #5
+	7f7c  800 Series Chipset Family Silicon Security Engine HECI #1
+	7f7d  800 Series Chipset Family Silicon Security Engine HECI #2
+	7f7e  800 Series Chipset Family Silicon Security Engine HECI #3
 	8002  Trusted Execution Technology Registers
 	8003  Trusted Execution Technology Registers
 	8100  US15W/US15X SCH [Poulsbo] Host Bridge
