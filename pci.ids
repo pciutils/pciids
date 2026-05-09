@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.08
-#	Date:    2026-05-08 03:15:02
+#	Version: 2026.05.09
+#	Date:    2026-05-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13554,7 +13554,7 @@
 	28f8  AD107GLM [RTX 2000 Ada Generation Embedded GPU]
 	2900  GB100 [Reserved Dev ID A]
 	2901  GB100 [B200]
-	2909  GB100 [B200]
+	2909  GB100 [HGX B200 168GB]
 	2920  GB100 [TS4 / B100]
 	2924  GB100
 	2925  GB100
