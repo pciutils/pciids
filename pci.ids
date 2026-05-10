@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.09
-#	Date:    2026-05-09 03:15:02
+#	Version: 2026.05.10
+#	Date:    2026-05-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -10246,7 +10246,7 @@
 		4843 4f34  Dynamite
 	002a  NV5 [Riva TNT2]
 	002b  NV5 [Riva TNT2]
-	002c  NV5 [Vanta / Vanta LT]
+	002c  NV6 [Vanta LT / Vanta / Vanta-16]
 		1043 0200  AGP-V3800 Combat SDRAM
 		1043 0201  AGP-V3800 Combat
 		1048 0c20  TNT2 Vanta
@@ -10256,7 +10256,7 @@
 		1102 1031  CT6938 VANTA 8MB
 		1102 1034  CT6894 VANTA 16MB
 		14af 5008  Maxi Gamer Phoenix 2
-	002d  NV5 [Riva TNT2 Model 64 / Model 64 Pro]
+	002d  NV6 [Riva TNT2 Model 64 / Model 64 Pro]
 		1043 0200  AGP-V3800M
 		1043 0201  AGP-V3800M
 		1048 0c3a  Erazor III LT
@@ -30997,38 +30997,63 @@
 	0172  Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller
 	0176  3rd Gen Core processor Graphics Controller
 	0201  Arctic Sound
-	0284  Comet Lake PCH-LP LPC Premium Controller/eSPI Controller
+	0284  400 Series Chipset Family On-Package PCH-LP Prem-U LPC/eSPI Controller
 		1028 09be  Latitude 7410
-	02a3  Comet Lake PCH-LP SMBus Host Controller
+	0285  400 Series Chipset Family On-Package PCH-LP Mainstream/Base U LPC/eSPI Controller
+	02a0  400 Series Chipset Family On-Package P2SB
+	02a1  400 Series Chipset Family On-Package PMC
+	02a3  400 Series Chipset Family On-Package SMBus
 		1028 09be  Latitude 7410
-	02a4  Comet Lake SPI (flash) Controller
+	02a4  400 Series Chipset Family On-Package SPI (flash) Controller
 		1028 09be  Latitude 7410
-	02a6  Comet Lake North Peak
-	02b0  Comet Lake PCI Express Root Port #9
-	02b1  Comet Lake PCI Express Root Port #10
-	02b3  Comet Lake PCI Express Root Port #12
-	02b4  Comet Lake PCI Express Root Port #13
-	02b5  Comet Lake PCI Express Root Port #14
-	02b8  Comet Lake PCI Express Root Port #1
-	02bc  Comet Lake PCI Express Root Port #5
-	02bf  Comet Lake PCI Express Root Port #8
-	02c5  Comet Lake Serial IO I2C Host Controller
+	02a6  400 Series Chipset Family On-Package Trace Hub
+	02a8  400 Series Chipset Family On-Package UART #0
+	02a9  400 Series Chipset Family On-Package UART #1
+	02aa  400 Series Chipset Family On-Package SPI #0
+	02ab  400 Series Chipset Family On-Package SPI #1
+	02b0  400 Series Chipset Family On-Package PCIe Root Port #9
+	02b1  400 Series Chipset Family On-Package PCIe Root Port #10
+	02b2  400 Series Chipset Family On-Package PCIe Root Port #11
+	02b3  400 Series Chipset Family On-Package PCIe Root Port #12
+	02b4  400 Series Chipset Family On-Package PCIe Root Port #13
+	02b5  400 Series Chipset Family On-Package PCIe Root Port #14
+	02b6  400 Series Chipset Family On-Package PCIe Root Port #15
+	02b7  400 Series Chipset Family On-Package PCIe Root Port #16
+	02b8  400 Series Chipset Family On-Package PCIe Root Port #1
+	02b9  400 Series Chipset Family On-Package PCIe Root Port #2
+	02ba  400 Series Chipset Family On-Package PCIe Root Port #3
+	02bb  400 Series Chipset Family On-Package PCIe Root Port #4
+	02bc  400 Series Chipset Family On-Package PCIe Root Port #5
+	02bd  400 Series Chipset Family On-Package PCIe Root Port #6
+	02be  400 Series Chipset Family On-Package PCIe Root Port #7
+	02bf  400 Series Chipset Family On-Package PCIe Root Port #8
+	02c4  400 Series Chipset Family On-Package eMMC
+	02c5  400 Series Chipset Family On-Package I2C #4
 		1028 09be  Latitude 7410
-	02c8  Comet Lake PCH-LP cAVS
+	02c6  400 Series Chipset Family On-Package I2C #5
+	02c7  400 Series Chipset Family On-Package UART #2
+	02c8  400 Series Chipset Family On-Package HD Audio
 		1028 09be  Latitude 7410
-	02d3  Comet Lake SATA AHCI Controller
-	02d7  Comet Lake RAID Controller
-	02e0  Comet Lake Management Engine Interface
+	02d3  400 Series Chipset Family On-Package SATA Controller (AHCI)
+	02d5  400 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) no premium
+	02d7  400 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) premium
+	02e0  400 Series Chipset Family On-Package MEI #1
 		1028 09be  Latitude 7410
-	02e3  Comet Lake AMT SOL Redirection
-	02e8  Serial IO I2C Host Controller
+	02e1  400 Series Chipset Family On-Package MEI #2
+	02e2  400 Series Chipset Family On-Package IDE Redirection (IDER-R)
+	02e3  400 Series Chipset Family On-Package Keyboard and Text (KT) Redirection
+	02e4  400 Series Chipset Family On-Package MEI #3
+	02e5  400 Series Chipset Family On-Package MEI #4
+	02e8  400 Series Chipset Family On-Package I2C #0
 		1028 09be  Latitude 7410
-	02e9  Comet Lake Serial IO I2C Host Controller
+	02e9  400 Series Chipset Family On-Package I2C #1
 		1028 09be  Latitude 7410
-	02ea  Comet Lake PCH-LP LPSS: I2C Controller #2
-	02ed  Comet Lake PCH-LP USB 3.1 xHCI Host Controller
+	02ea  400 Series Chipset Family On-Package I2C #2
+	02eb  400 Series Chipset Family On-Package I2C #3
+	02ed  400 Series Chipset Family On-Package USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller
 		1028 09be  Latitude 7410
-	02ef  Comet Lake PCH-LP Shared SRAM
+	02ee  400 Series Chipset Family On-Package USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)
+	02ef  400 Series Chipset Family On-Package Shared SRAM
 		1028 09be  Latitude 7410
 	02f0  Comet Lake PCH-LP CNVi WiFi
 		8086 0034  Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9560 160MHz 2x2 [Jefferson Peak]
@@ -31038,10 +31063,11 @@
 		8086 0264  Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9461 80MHz 1x1 [Jefferson Peak]
 		8086 02a4  Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]
 		8086 4070  Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]
-	02f5  Comet Lake PCH-LP SCS3
-	02f9  Comet Lake Thermal Subsytem
+	02f5  400 Series Chipset Family On-Package SDXC
+	02f9  400 Series Chipset Family On-Package Thermal Subsystem
 		1028 09be  Latitude 7410
-	02fc  Comet Lake Integrated Sensor Solution
+	02fb  400 Series Chipset Family On-Package SPI #2
+	02fc  400 Series Chipset Family On-Package Integrated Sensor Hub
 		1028 09be  Latitude 7410
 	0309  80303 I/O Processor PCI-to-PCI Bridge
 	030d  80312 I/O Companion Chip PCI-to-PCI Bridge
@@ -31133,33 +31159,59 @@
 	068d  HM470 Chipset LPC/eSPI Controller
 	068e  WM490 Chipset LPC/eSPI Controller
 	0697  W480 Chipset LPC/eSPI Controller
-	06a3  Comet Lake PCH SMBus Controller
-	06a4  Comet Lake PCH SPI Controller
-	06a8  Comet Lake PCH Serial IO UART Host Controller #0
-	06a9  Comet Lake PCH Serial IO UART Host Controller #1
-	06aa  Comet Lake PCH Serial IO SPI Controller #0
-	06ab  Comet Lake PCH Serial IO SPI Controller #1
-	06ac  Comet Lake PCI Express Root Port #21
-	06b0  Comet Lake PCI Express Root Port #9
-	06b8  Comet Lake PCIe Root Port #1
-	06ba  Comet Lake PCI Express Root Port #1
-	06bb  Comet Lake PCI Express Root Port #4
-	06bd  Comet Lake PCIe Port #6
-	06be  Comet Lake PCIe Root Port #7
-	06bf  Comet Lake PCIe Port #8
-	06c0  Comet Lake PCI Express Root Port #17
-	06c8  Comet Lake PCH cAVS
-	06d2  Comet Lake SATA AHCI Controller
+	06a0  400 Series Chipset Family Platform P2SB
+	06a1  400 Series Chipset Family Platform PMC
+	06a3  400 Series Chipset Family Platform SMBus
+	06a4  400 Series Chipset Family Platform SPI (flash) Controller
+	06a6  400 Series Chipset Family Platform Trace Hub
+	06a8  400 Series Chipset Family Platform UART #0
+	06a9  400 Series Chipset Family Platform UART #1
+	06aa  400 Series Chipset Family Platform GSPI #0
+	06ab  400 Series Chipset Family Platform GSPI #1
+	06ac  400 Series Chipset Family PCIe Root Port #21
+	06ad  400 Series Chipset Family PCIe Root Port #22
+	06ae  400 Series Chipset Family PCIe Root Port #23
+	06af  400 Series Chipset Family PCIe Root Port #24
+	06b0  400 Series Chipset Family PCIe Root Port #9
+	06b1  400 Series Chipset Family PCIe Root Port #10
+	06b2  400 Series Chipset Family PCIe Root Port #11
+	06b3  400 Series Chipset Family PCIe Root Port #12
+	06b4  400 Series Chipset Family PCIe Root Port #13
+	06b5  400 Series Chipset Family PCIe Root Port #14
+	06b6  400 Series Chipset Family PCIe Root Port #15
+	06b7  400 Series Chipset Family PCIe Root Port #16
+	06b8  400 Series Chipset Family PCIe Root Port #1
+	06b9  400 Series Chipset Family PCIe Root Port #2
+	06ba  400 Series Chipset Family PCIe Root Port #3
+	06bb  400 Series Chipset Family PCIe Root Port #4
+	06bc  400 Series Chipset Family PCIe Root Port #5
+	06bd  400 Series Chipset Family PCIe Root Port #6
+	06be  400 Series Chipset Family PCIe Root Port #7
+	06bf  400 Series Chipset Family PCIe Root Port #8
+	06c0  400 Series Chipset Family PCIe Root Port #17
+	06c1  400 Series Chipset Family PCIe Root Port #18
+	06c2  400 Series Chipset Family PCIe Root Port #19
+	06c3  400 Series Chipset Family PCIe Root Port #20
+	06c7  400 Series Chipset Family UART #2
+	06c8  400 Series Chipset Family HD Audio
+	06d2  400 Series Chipset Family SATA Controller (AHCI) (Desktop)
+	06d3  400 Series Chipset Family SATA Controller (AHCI) (Mobile)
+	06d5  400 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Mobile)
 	06d6  Comet Lake PCH-H RAID
-	06d7  Comet Lake PCH-H RAID
-	06e0  Comet Lake HECI Controller
-	06e3  Comet Lake Keyboard and Text (KT) Redirection
-	06e8  Comet Lake PCH Serial IO I2C Controller #0
-	06e9  Comet Lake PCH Serial IO I2C Controller #1
-	06ea  Comet Lake PCH Serial IO I2C Controller #2
-	06eb  Comet Lake PCH Serial IO I2C Controller #3
-	06ed  Comet Lake USB 3.1 xHCI Host Controller
-	06ef  Comet Lake PCH Shared SRAM
+	06d7  400 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Mobile)
+	06de  400 Series Chipset Family SATA Controller (AHCI) Optane Caching
+	06e0  400 Series Chipset Family HECI #1
+	06e1  400 Series Chipset Family HECI #2
+	06e2  400 Series Chipset Family IDE Redirection (IDE-R)
+	06e3  400 Series Chipset Family Keyboard and Text (KT) Redirection
+	06e4  400 Series Chipset Family HECI #3
+	06e5  400 Series Chipset Family HECI #4
+	06e8  400 Series Chipset Family I2C #0
+	06e9  400 Series Chipset Family I2C #1
+	06ea  400 Series Chipset Family I2C #2
+	06eb  400 Series Chipset Family I2C #3
+	06ed  400 Series Chipset Family USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller
+	06ef  400 Series Chipset Family Shared SRAM
 	06f0  Comet Lake PCH CNVi WiFi
 		1a56 1651  Dual Band Wi-Fi 6(802.11ax) Killer AX1650s 160MHz 2x2 [Cyclone Peak]
 		1a56 1652  Dual Band Wi-Fi 6(802.11ax) Killer AX1650i 160MHz 2x2 [Cyclone Peak]
@@ -31167,9 +31219,10 @@
 		8086 0074  Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]
 		8086 02a4  Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]
 		8086 42a4  Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]
-	06f9  Comet Lake PCH Thermal Controller
-	06fb  Comet Lake PCH Serial IO SPI Controller #2
-	06fc  Comet Lake PCH Integrated Sensor Solution
+	06f5  400 Series Chipset Family SCS3 SDXC
+	06f9  400 Series Chipset Family Thermal Subsystem
+	06fb  400 Series Chipset Family GSPI #2
+	06fc  400 Series Chipset Family Integrated Sensor Hub
 	0700  CE Media Processor A/V Bridge
 	0701  CE Media Processor NAND Flash Controller
 	0703  CE Media Processor Media Control Unit 1
@@ -31654,11 +31707,11 @@
 	0d22  Crystal Well Integrated Iris Pro Graphics 5200
 	0d26  Crystal Well Integrated Graphics Controller
 	0d36  Crystal Well Integrated Graphics Controller
-	0d4c  Ethernet Connection (11) I219-LM
-	0d4d  Ethernet Connection (11) I219-V
+	0d4c  400 Series Chipset Family Platform GbE Controller (Corporate/vPro)
+	0d4d  400 Series Chipset Family Platform GbE Controller (Consumer)
 		8086 0d4d  Ethernet Connection (11) I219-V
-	0d4e  Ethernet Connection (10) I219-LM
-	0d4f  Ethernet Connection (10) I219-V
+	0d4e  400 Series Chipset Family On-Package GbE Controller (Corporate/vPro)
+	0d4f  400 Series Chipset Family On-Package GbE Controller (Consumer)
 	0d53  Ethernet Connection (12) I219-LM
 	0d55  Ethernet Connection (12) I219-V
 	0d58  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
