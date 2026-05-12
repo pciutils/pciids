@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.10
-#	Date:    2026-05-10 03:15:02
+#	Version: 2026.05.12
+#	Date:    2026-05-12 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29436,7 +29436,7 @@
 1f49  NeuReality LTD
 1f4b  Axera Semiconductor Co., Ltd
 1f52  MangoBoost Inc.
-	1008  Mango GPUBoost - RDMA
+	1008  Mango BoostX - RoCE AI
 	1020  Mango NetworkBoost - TCP
 	1022  Mango StorageBoost - NTI
 	1023  Mango StorageBoost - NTT
