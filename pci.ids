@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.12
-#	Date:    2026-05-12 03:15:01
+#	Version: 2026.05.14
+#	Date:    2026-05-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26816,8 +26816,20 @@
 		1c5f 1421  NVMe SSD PBlaze7 7A40 1920G 2.5" U.2
 		1c5f 1431  NVMe SSD PBlaze7 7A40 3840G 2.5" U.2
 		1c5f 1441  NVMe SSD PBlaze7 7A40 7680G 2.5" U.2
+		1c5f 1631  NVMe SSD PBlaze7 7A40 3840G 2.5" U.2
+		1c5f 1641  NVMe SSD PBlaze7 7A40 7680G 2.5" U.2
+		1c5f 1651  NVMe SSD PBlaze7 7A40 15360G 2.5" U.2
+		1c5f 1661  NVMe SSD PBlaze7 7A40 30720G 2.5" U.2
+		1c5f 1751  NVMe SSD PBlaze7 7A40 Ocean 15360G 2.5" U.2
+		1c5f 1761  NVMe SSD PBlaze7 7A40 Ocean 30720G 2.5" U.2
+		1c5f 1771  NVMe SSD PBlaze7 7A40 Ocean 61440G 2.5" U.2
+		1c5f 1781  NVMe SSD PBlaze7 7A40 Ocean 122880G 2.5" U.2
 		1c5f 5431  NVMe SSD PBlaze7 7A46 3200G 2.5" U.2
 		1c5f 5441  NVMe SSD PBlaze7 7A46 6400G 2.5" U.2
+		1c5f 5631  NVMe SSD PBlaze7 7A46 3200G 2.5" U.2
+		1c5f 5641  NVMe SSD PBlaze7 7A46 6400G 2.5" U.2
+		1c5f 5651  NVMe SSD PBlaze7 7A46 12800G 2.5" U.2
+		1c5f 5661  NVMe SSD PBlaze7 7A46 25600G 2.5" U.2
 	003d  PBlaze5 920/926
 		1c5f 0a30  NVMe SSD PBlaze5 920 3840G AIC
 		1c5f 0a31  NVMe SSD PBlaze5 920 3840G 2.5" U.2
