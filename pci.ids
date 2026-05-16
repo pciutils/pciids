@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.14
-#	Date:    2026-05-14 03:15:02
+#	Version: 2026.05.16
+#	Date:    2026-05-16 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28920,6 +28920,36 @@
 		1ee4 0625  NVMe SSD U.2 1.6TB (P8128Z3)
 		1ee4 0626  NVMe SSD U.2 3.2TB (P8128Z3)
 		1ee4 0627  NVMe SSD U.2 6.4TB (P8128Z3)
+		1ee4 0715  NVMe SSD U.2 1.92TB (P8118Z4)
+		1ee4 0716  NVMe SSD U.2 3.84TB (P8118Z4)
+		1ee4 0717  NVMe SSD U.2 7.68TB (P8118Z4)
+		1ee4 0725  NVMe SSD U.2 1.6TB (P8118Z4)
+		1ee4 0726  NVMe SSD U.2 3.2TB (P8118Z4)
+		1ee4 0727  NVMe SSD U.2 6.4TB (P8118Z4)
+		1ee4 0815  NVMe SSD U.2 1.92TB (P8118H4)
+		1ee4 0816  NVMe SSD U.2 3.84TB (P8118H4)
+		1ee4 0817  NVMe SSD U.2 7.68TB (P8118H4)
+		1ee4 0825  NVMe SSD U.2 1.6TB (P8118H4)
+		1ee4 0826  NVMe SSD U.2 3.2TB (P8118H4)
+		1ee4 0827  NVMe SSD U.2 6.4TB (P8118H4)
+		1ee4 0915  NVMe SSD U.2 1.92TB (P8118E2)
+		1ee4 0916  NVMe SSD U.2 3.84TB (P8118E2)
+		1ee4 0917  NVMe SSD U.2 7.68TB (P8118E2)
+		1ee4 0925  NVMe SSD U.2 1.6TB (P8118E2)
+		1ee4 0926  NVMe SSD U.2 3.2TB (P8118E2)
+		1ee4 0927  NVMe SSD U.2 6.4TB (P8118E2)
+		1ee4 0a15  NVMe SSD U.2 1.92TB (P8118H2)
+		1ee4 0a16  NVMe SSD U.2 3.84TB (P8118H2)
+		1ee4 0a17  NVMe SSD U.2 7.68TB (P8118H2)
+		1ee4 0a25  NVMe SSD U.2 1.6TB (P8118H2)
+		1ee4 0a26  NVMe SSD U.2 3.2TB (P8118H2)
+		1ee4 0a27  NVMe SSD U.2 6.4TB (P8118H2)
+		1ee4 0b15  NVMe SSD U.2 1.92TB (P8118H3)
+		1ee4 0b16  NVMe SSD U.2 3.84TB (P8118H3)
+		1ee4 0b17  NVMe SSD U.2 7.68TB (P8118H3)
+		1ee4 0b25  NVMe SSD U.2 1.6TB (P8118H3)
+		1ee4 0b26  NVMe SSD U.2 3.2TB (P8118H3)
+		1ee4 0b27  NVMe SSD U.2 6.4TB (P8118H3)
 		1ee4 3013  NVMe SSD AIC 480GB (P8118E)
 		1ee4 3014  NVMe SSD AIC 960GB (P8118E)
 		1ee4 3015  NVMe SSD AIC 1.92TB (P8118E)
@@ -29077,6 +29107,22 @@
 		1ee4 1625  NVMe SSD M.2 1.6TB (P8128Z3)
 		1ee4 1626  NVMe SSD M.2 3.2TB (P8128Z3)
 		1ee4 1627  NVMe SSD M.2 6.4TB (P8128Z3)
+		1ee4 1714  NVMe SSD M.2 960GB (P8118Z4)
+		1ee4 1715  NVMe SSD M.2 1.92TB (P8118Z4)
+		1ee4 1716  NVMe SSD M.2 3.84TB (P8118Z4)
+		1ee4 1717  NVMe SSD M.2 7.68TB (P8118Z4)
+		1ee4 1724  NVMe SSD M.2 800GB (P8118Z4)
+		1ee4 1725  NVMe SSD M.2 1.6TB (P8118Z4)
+		1ee4 1726  NVMe SSD M.2 3.2TB (P8118Z4)
+		1ee4 1727  NVMe SSD M.2 6.4TB (P8118Z4)
+		1ee4 1814  NVMe SSD M.2 960GB (P8118H4)
+		1ee4 1815  NVMe SSD M.2 1.92TB (P8118H4)
+		1ee4 1816  NVMe SSD M.2 3.84TB (P8118H4)
+		1ee4 1817  NVMe SSD M.2 7.68TB (P8118H4)
+		1ee4 1824  NVMe SSD M.2 800GB (P8118H4)
+		1ee4 1825  NVMe SSD M.2 1.6TB (P8118H4)
+		1ee4 1826  NVMe SSD M.2 3.2TB (P8118H4)
+		1ee4 1827  NVMe SSD M.2 6.4TB (P8118H4)
 1ee9  SUSE LLC
 1eec  Viscore Technologies Ltd
 	0102  VSE250231S Dual-port 10Gb/25Gb Ethernet PCIe
@@ -29798,6 +29844,8 @@
 		2036 1005  NP36000 Virtual PCIe C2PMem 1.x Endpoint
 		2036 1006  NP36000 Virtual PCIe Pktgen 1.x Endpoint
 203b  XTX Markets Technologies Ltd.
+# Vendor ID 2042 assigned by PCI-SIG
+2042  Xi'an UniIC Semiconductors Co., Ltd
 2044  Shenzhen Jiahua Zhongli Technology Co., LTD.
 	8200  CeaCent CS211X 12G SAS RAID controller
 		2044 2110  CeaCent CS2110-8i
@@ -31502,12 +31550,12 @@
 	0962  80960RM (i960RM) Bridge
 	0964  80960RP (i960RP) Microprocessor/Bridge
 	0975  Optane NVME SSD H10 with Solid State Storage [Teton Glacier]
-	0998  Ice Lake IEH
-	09a2  Ice Lake Memory Map/VT-d
-	09a3  Ice Lake RAS
-	09a4  Ice Lake Mesh 2 PCIe
-	09a6  Ice Lake MSM
-	09a7  Ice Lake PMON MSM
+	0998  Xeon 6900 6700 6500 Series with P-Cores Processors IEH
+	09a2  Xeon 6900 6700 6500 Series with P-Cores Processors VT-d
+	09a3  Xeon 6900 6700 6500 Series with P-Cores Processors RAS
+	09a4  Xeon 6900 6700 6500 Series with P-Cores Processors UFI
+	09a6  Xeon 6900 6700 6500 Series with P-Cores Processors MSM
+	09a7  Xeon 6900 6700 6500 Series with P-Cores Processors PMON MSM
 	09ab  RST VMD Managed Controller
 	09ad  Optane NVME SSD H20 with Solid State Storage [Pyramid Glacier]
 	09c4  PAC with Intel Arria 10 GX FPGA
@@ -31585,7 +31633,7 @@
 		1028 1fe8  Express Flash NVMe 2.0TB HHHL AIC (P4600)
 		1028 1fe9  Express Flash NVMe 4.0TB HHHL AIC (P4600)
 	0b00  Ice Lake CBDMA [QuickData Technology]
-	0b23  Xeon Root Event Collector
+	0b23  Xeon 6900 6700 6500 Series with P-Cores Processors IEH
 	0b25  Data Streaming Accelerator (DSA)
 	0b26  Thunderbolt 4 Bridge [Goshen Ridge 2020]
 	0b27  Thunderbolt 4 USB Controller [Goshen Ridge 2020]
@@ -31730,6 +31778,15 @@
 		8086 0000  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 		8086 0001  Ethernet Controller XXV710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking
 	0d9f  Ethernet Controller I225-IT
+	0db0  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #0
+	0db1  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #1
+	0db2  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #2
+	0db3  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #3
+	0db4  Xeon 6900 6700 6500 Series with P-Cores Processors NTB
+	0db6  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #4
+	0db7  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #5
+	0db8  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #6
+	0db9  Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #7
 	0dc5  Ethernet Connection (23) I219-LM
 		1028 0c06  Precision 3580
 	0dc6  Ethernet Connection (23) I219-V
@@ -33217,6 +33274,7 @@
 		8086 000c  Ethernet Network Adapter XXV710-DA2 for OCP 3.0
 		8086 000d  Ethernet 25G 2P XXV710 OCP
 		8086 4001  Ethernet Network Adapter XXV710-2
+	1590  Ethernet Connection E810-C
 	1591  Ethernet Controller E810-C for backplane
 		8086 bcce  Ethernet Controller E810-C for Intel(R) Open FPGA Stack
 	1592  Ethernet Controller E810-C for QSFP
@@ -33265,6 +33323,9 @@
 		8086 4010  Ethernet Network Adapter E810-XXV-4
 		8086 4013  Ethernet Network Adapter E810-XXV-4 for OCP 3.0
 		8086 401c  Ethernet Network Adapter E810-XXV-4 for OCP 3.0
+	1594  Ethernet Controller E810-C/X557-AT 10GBASE-T
+	1595  Ethernet Controller E810-C 1GbE
+	1598  Ethernet Connection E810-XXV
 	1599  Ethernet Controller E810-XXV for backplane
 		8086 0001  Ethernet 25G 2P E810-XXV-k Mezz
 	159a  Ethernet Controller E810-XXV for QSFP
@@ -33288,6 +33349,8 @@
 		8086 4002  Ethernet Network Adapter E810-XXV-2 for OCP 3.0
 		8086 4003  Ethernet Network Adapter E810-XXV-2
 		8086 4015  Ethernet Network Adapter E810-XXV-2 for OCP 3.0
+	159c  Ethernet Controller E810-XXV/X557-AT 10GBASE-T
+	159d  Ethernet Controller E810-XXV 1GbE
 	15a0  Ethernet Connection (2) I218-LM
 	15a1  Ethernet Connection (2) I218-V
 	15a2  Ethernet Connection (3) I218-LM
@@ -33379,8 +33442,8 @@
 	15f4  Ethernet Connection (15) I219-LM
 	15f5  Ethernet Connection (15) I219-V
 	15f6  I210 Gigabit Ethernet Connection
-	15f9  Ethernet Connection (14) I219-LM
-	15fa  Ethernet Connection (14) I219-V
+	15f9  500 Series Chipset Family GbE Controller (Corporate/vPro)
+	15fa  500 Series Chipset Family GbE Controller (Consumer)
 	15fb  Ethernet Connection (13) I219-LM
 	15fc  Ethernet Connection (13) I219-V
 	15ff  Ethernet Controller X710 for 10GBASE-T
@@ -35491,6 +35554,7 @@
 		8086 3905  NVMe Datacenter SSD [Optane] 15mm 2.5" U.2 (P4800X)
 	2710  Dynamic Load Balancer 2.0 (DLB)
 	2714  Dynamic Load Balancer 2.5 (DLB)
+	2715  Dynamic Load Balancer (DLB) Virtual Function
 	2723  Wi-Fi 6 AX200
 		1a56 1654  Killer Wi-Fi 6 AX1650x (AX200NGW)
 		8086 0084  Wi-Fi 6 AX200NGW
@@ -35915,7 +35979,7 @@
 		1028 01da  OptiPlex 745
 		1462 7235  P965 Neo MS-7235 mainboard
 	2821  82801HR/HO/HH (ICH8R/DO/DH) 6 port SATA Controller [AHCI mode]
-	2822  SATA Controller [RAID mode]
+	2822  SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Desktop RST)
 		1028 020d  Inspiron 530
 		103c 2a6f  Asus IPIBL-LB Motherboard
 		1043 8277  P5K PRO Motherboard: 82801IR [ICH9R]
@@ -35926,7 +35990,7 @@
 	2825  82801HR/HO/HH (ICH8R/DO/DH) 2 port SATA Controller [IDE mode]
 		1028 01da  OptiPlex 745
 		1462 7235  P965 Neo MS-7235 mainboard
-	2826  SATA Controller [RAID Mode]
+	2826  SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Server/Desktop RST)
 		1d49 0100  Intel RSTe SATA Software RAID
 		1d49 0101  Intel RSTe SATA Software RAID
 		1d49 0102  Intel RSTe SATA Software RAID
@@ -35952,7 +36016,7 @@
 		17aa 20a7  ThinkPad T61/R61
 		17c0 4083  Medion WIM 2210 Notebook PC [MD96850]
 		e4bf cc47  CCG-RUMBA
-	282a  82801 Mobile SATA Controller [RAID mode]
+	282a  SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Mobile RST)
 		1028 040b  Latitude E6510
 		e4bf 50c1  PC1-GROOVE
 	282b  C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID) Alternate ID
@@ -37085,10 +37149,17 @@
 	31f0  Gemini Lake Host Bridge
 	3200  GD31244 PCI-X SATA HBA
 		1775 c200  C2K onboard SATA host bus adapter
-	3245  Xeon UPI Mesh Stop M2UPI Registers
-	324a  Xeon IMC0 Mesh to Mem Registers
-	324c  Xeon Unicast Group1 CHA Registers
-	324d  Xeon Unicast Group0 CHA Registers
+	3240  Xeon 6900 6700 6500 Series with P-Cores Processors UPI Misc
+	3241  Xeon 6900 6700 6500 Series with P-Cores Processors UPI link/Phy0
+	3242  Xeon 6900 6700 6500 Series with P-Cores Processors UPI Phy0
+	3245  Xeon 6900 6700 6500 Series with P-Cores Processors UPI
+	324a  Xeon 6900 6700 6500 Series with P-Cores Processors IMC
+	324c  Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 1
+	324d  Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 0
+	3250  Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Event Control
+	3251  Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Register Access Control Unit
+	3252  Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Decode
+	3256  Xeon 6900 6700 6500 Series with P-Cores Processors Trace Hub
 	3258  Power Control Unit (PCU) CR0
 	3259  Power Control Unit (PCU) CR1
 	325a  Power Control Unit (PCU) CR2
@@ -37181,13 +37252,13 @@
 	344b  Ice Lake PCU Registers
 	344c  Ice Lake CHA Registers
 	344d  Ice Lake CHA Registers
-	344f  Ice Lake CHA Registers
+	344f  Xeon 6900 6700 6500 Series with P-Cores Processors CHA All 0
 	3450  Ice Lake Ubox Registers
 	3451  Ice Lake Ubox Registers
 	3452  Ice Lake Ubox Registers
 	3455  Ice Lake Ubox Registers
 	3456  Ice Lake NorthPeak
-	3457  Ice Lake CHA Registers
+	3457  Xeon 6900 6700 6500 Series with P-Cores Processors CHA All 1
 	3458  Ice Lake PCU Registers
 	3459  Ice Lake PCU Registers
 	345a  Ice Lake PCU Registers
@@ -38040,30 +38111,81 @@
 	438f  W580 Chipset eSPI Controller
 	4390  RM590E LPC/eSPI Controller
 	4391  R580E LPC/eSPI Controller
-	43a3  Tiger Lake-H SMBus Controller
-	43a4  Tiger Lake-H SPI Controller
-	43b0  Tiger Lake-H PCI Express Root Port #9
-	43b8  Tiger Lake-H PCIe Root Port #1
-	43ba  Tiger Lake-H PCIe Root Port #3
-	43bb  Tiger Lake-H PCIe Root Port #4
-	43bc  Tiger Lake-H PCI Express Root Port #5
-	43be  11th Gen Core Processor PCIe Root Port #7
-	43c0  Tiger Lake-H PCIe Root Port #17
-	43c7  Tiger Lake-H PCIe Root Port #24
-	43c8  Tiger Lake-H HD Audio Controller
-	43d3  Tiger Lake SATA AHCI Controller
-	43e0  Tiger Lake-H Management Engine Interface
-	43e3  Tiger Lake AMT SOL Redirection
-	43e8  Tiger Lake-H Serial IO I2C Controller #0
-	43e9  Tiger Lake-H Serial IO I2C Controller #1
-	43ed  Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller
-	43ef  Tiger Lake-H Shared SRAM
+	43a0  500 Series Chipset Family P2SB
+	43a1  500 Series Chipset Family PMC
+	43a3  500 Series Chipset Family SMBus
+	43a4  500 Series Chipset Family SPI (flash) Controller
+	43a6  500 Series Chipset Family Trace Hub
+	43a7  500 Series Chipset Family UART #2
+	43a8  500 Series Chipset Family UART #0
+	43a9  500 Series Chipset Family UART #1
+	43aa  500 Series Chipset Family GSPI #0
+	43ab  500 Series Chipset Family GSPI #1
+	43ad  500 Series Chipset Family I2C #4
+	43ae  500 Series Chipset Family I2C #5
+	43b0  500 Series Chipset Family PCIe Root Port #9
+	43b1  500 Series Chipset Family PCIe Root Port #10
+	43b2  500 Series Chipset Family PCIe Root Port #11
+	43b3  500 Series Chipset Family PCIe Root Port #12
+	43b4  500 Series Chipset Family PCIe Root Port #13
+	43b5  500 Series Chipset Family PCIe Root Port #14
+	43b6  500 Series Chipset Family PCIe Root Port #15
+	43b7  500 Series Chipset Family PCIe Root Port #16
+	43b8  500 Series Chipset Family PCIe Root Port #1
+	43b9  500 Series Chipset Family PCIe Root Port #2
+	43ba  500 Series Chipset Family PCIe Root Port #3
+	43bb  500 Series Chipset Family PCIe Root Port #4
+	43bc  500 Series Chipset Family PCIe Root Port #5
+	43bd  500 Series Chipset Family PCIe Root Port #6
+	43be  500 Series Chipset Family PCIe Root Port #7
+	43bf  500 Series Chipset Family PCIe Root Port #8
+	43c0  500 Series Chipset Family PCIe Root Port #17
+	43c1  500 Series Chipset Family PCIe Root Port #18
+	43c2  500 Series Chipset Family PCIe Root Port #19
+	43c3  500 Series Chipset Family PCIe Root Port #20
+	43c4  500 Series Chipset Family PCIe Root Port #21
+	43c5  500 Series Chipset Family PCIe Root Port #22
+	43c6  500 Series Chipset Family PCIe Root Port #23
+	43c7  500 Series Chipset Family PCIe Root Port #24
+	43c8  500 Series Chipset Family HD Audio
+	43c9  500 Series Chipset Family HD Audio
+	43ca  500 Series Chipset Family HD Audio
+	43cb  500 Series Chipset Family HD Audio
+	43cc  500 Series Chipset Family HD Audio
+	43cd  500 Series Chipset Family HD Audio
+	43ce  500 Series Chipset Family HD Audio
+	43cf  500 Series Chipset Family HD Audio
+	43d0  500 Series Chipset Family Touch Host Controller (THC) #0
+	43d1  500 Series Chipset Family Touch Host Controller (THC) #1
+	43d2  500 Series Chipset Family SATA Controller (AHCI) (Server/Desktop)
+	43d3  500 Series Chipset Family SATA Controller (AHCI) (Mobile)
+	43d4  500 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Desktop)
+	43d5  500 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Mobile)
+	43d6  500 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Server/Desktop)
+	43d7  500 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Mobile)
+	43d8  500 Series Chipset Family I2C #6
+	43da  500 Series Chipset Family UART #3
+	43e0  500 Series Chipset Family CSME HECI #1
+	43e1  500 Series Chipset Family CSME HECI #2
+	43e2  500 Series Chipset Family CSME IDE Redirection (IDE-R)
+	43e3  500 Series Chipset Family CSME Keyboard and Text (KT) Redirection
+	43e4  500 Series Chipset Family CSME HECI #3
+	43e5  500 Series Chipset Family CSME HECI #4
+	43e8  500 Series Chipset Family I2C #0
+	43e9  500 Series Chipset Family I2C #1
+	43ea  500 Series Chipset Family I2C #2
+	43eb  500 Series Chipset Family I2C #3
+	43ed  500 Series Chipset Family USB 3.2 Gen 2x2 (20 Gbs) xHCI Host Controller
+	43ee  500 Series Chipset Family USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)
+	43ef  500 Series Chipset Family Shared SRAM
 	43f0  Tiger Lake PCH CNVi WiFi
 		8086 0034  Wireless-AC 9560
 		8086 0074  Wi-Fi 6 AX201 160MHz
 		8086 0264  Wireless-AC 9461
 		8086 02a4  Wireless-AC 9462
-	43fc  Tiger Lake-H Integrated Sensor Hub
+	43fb  500 Series Chipset Family GSPI #2
+	43fc  500 Series Chipset Family Integrated Sensor Hub
+	43fd  500 Series Chipset Family GSPI #3
 	444e  Turbo Memory Controller
 	4511  Elkhart Lake Gaussian and Neural Accelerator
 	4538  Elkhart Lake PCI-e Root Complex
@@ -38402,8 +38524,8 @@
 	5503  Ethernet Controller I226-LMvP
 	550a  Ethernet Connection (18) I219-LM
 	550b  Ethernet Connection (18) I219-LM
-	550c  Ethernet Connection (19) I219-LM
-	550d  Ethernet Connection (19) I219-V
+	550c  800 Series Chipset Family GbE Controller (Corporate/vPro)
+	550d  800 Series Chipset Family GbE Controller (Consumer)
 	550e  Ethernet Connection (20) I219-LM
 	550f  Ethernet Connection (20) I219-V
 	5510  Ethernet Connection (21) I219-LM
@@ -38452,9 +38574,12 @@
 	5785  JHL9540 Thunderbolt 4 USB Controller [Barlow Ridge Host 40G 2023]
 	5786  JHL9480 Thunderbolt 5 80/120G Bridge [Barlow Ridge Hub 80G 2023]
 	5787  JHL9480 Thunderbolt 5 80/120G USB Controller [Barlow Ridge Hub 80G 2023]
-	5794  Granite Rapids SPI Controller
-	5795  Granite Rapids Chipset LPC Controller
-	5796  Granite Rapids SMBus Controller
+	5792  Xeon 6900 6700 6500 Series with P-Cores Processors ILMI
+	5793  Xeon 6900 6700 6500 Series with P-Cores Processors ACPI
+	5794  Xeon 6900 6700 6500 Series with P-Cores Processors SPI
+	5795  Xeon 6900 6700 6500 Series with P-Cores Processors eSPI
+	5796  Xeon 6900 6700 6500 Series with P-Cores Processors SMBus
+	5797  Xeon 6900 6700 6500 Series with P-Cores Processors UART
 	579c  Ethernet Connection E825-C for backplane
 	579d  Ethernet Connection E825-C for QSFP
 	579e  Ethernet Connection E825-C for SFP
@@ -38463,10 +38588,11 @@
 	57a1  Ethernet Connection (24) I219-V
 	57a4  JHL9440 Thunderbolt 4 Bridge [Barlow Ridge Hub 40G 2023]
 	57a5  JHL9440 Thunderbolt 4 USB Controller [Barlow Ridge Hub 40G 2023]
-	57ad  E610 Virtual Function
+	57ac  Ethernet Controller E610
+	57ad  Ethernet Controller E610 Virtual Function
 	57ae  Ethernet Controller E610 Backplane
 	57af  Ethernet Controller E610 SFP
-	57b0  Ethernet Controller E610 10GBASE T
+	57b0  Ethernet Controller E610-XT/E610-XT2 10GBASE-T
 		8086 0001  Ethernet Network Adapter E610-XT4
 		8086 0002  Ethernet Network Adapter E610-XT2
 		8086 0003  Ethernet Network Adapter E610-XT4 for OCP 3.0
@@ -39028,16 +39154,22 @@
 	7acf  600 Series Chipset Family 12C Controller #3
 	7ad0  600 Series Chipset Family HD Audio
 	7adc  600 Series Chipset Family UART #3
-	7ae0  Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller
-	7ae1  Alder Lake-S PCH USB 3.2 Gen 1x1 xDCI Controller
-	7ae2  Alder Lake-S PCH SATA Controller [AHCI Mode]
-	7ae8  Alder Lake-S PCH HECI Controller #1
-	7aeb  Alder Lake-S Keyboard and Text (KT) Redirection
+	7ae0  600 Series Chipset Family USB 3.2 Gen 2x2 (20Gbs) XHCI Host Controller
+	7ae1  600 Series Chipset Family USB 3.2 Gen 1x1 (5Gbs) Device Controller (xDCI)
+	7ae2  600 Series Chipset Family SATA Controller (AHCI)
+	7ae8  600 Series Chipset Family CSME HECI #1
+	7ae9  600 Series Chipset Family CSME HECI #2
+	7aea  600 Series Chipset Family CSME IDE Redirection (IDE-R)
+	7aeb  600 Series Chipset Family CSME Keyboard and Text (KT) Redirection
+	7aec  600 Series Chipset Family CSME HECI #3
+	7aed  600 Series Chipset Family CSME HECI #4
 	7af0  Alder Lake-S PCH CNVi WiFi
 		8086 0034  Wireless-AC 9560
 		8086 0070  Wi-Fi 6 AX201 160MHz
 		8086 0094  Wi-Fi 6 AX201 160MHz
-	7af8  Alder Lake-S Integrated Sensor Hub
+	7af8  600 Series Chipset Family Integrated Sensor Hub
+	7af9  600 Series Chipset Family GSPI #3
+	7afb  600 Series Chipset Family GSPI #2
 	7afc  Alder Lake-S PCH Serial IO I2C Controller #4
 	7afd  Alder Lake-S PCH Serial IO I2C Controller #5
 	7d01  Meteor Lake-H 6p+8e cores Host Bridge/DRAM Controller
