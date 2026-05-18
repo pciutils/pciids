@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.17
-#	Date:    2026-05-17 03:15:01
+#	Version: 2026.05.18
+#	Date:    2026-05-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -38595,7 +38595,7 @@
 		8086 0002  Ethernet Network Adapter E610-XT2
 		8086 0003  Ethernet Network Adapter E610-XT4 for OCP 3.0
 		8086 0004  Ethernet Network Adapter E610-XT2 for OCP 3.0
-	57b1  Ethernet Controller E610 2.5GBASE T
+	57b1  Ethernet Controller E610-AT2 1000BASE-T
 		8086 0000  Ethernet Converged Network Adapter E610
 		8086 0002  Ethernet Network Adapter E610-IT4
 		8086 0003  Ethernet Network Adapter E610-IT4 for OCP 3.0
