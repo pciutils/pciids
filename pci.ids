@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.18
-#	Date:    2026-05-18 03:15:02
+#	Version: 2026.05.20
+#	Date:    2026-05-20 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13612,6 +13612,7 @@
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
 	2f04  GB205 [GeForce RTX 5070]
+	2f06  GB205
 	2f18  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
@@ -29844,6 +29845,34 @@
 203b  XTX Markets Technologies Ltd.
 # Vendor ID 2042 assigned by PCI-SIG
 2042  Xi'an UniIC Semiconductors Co., Ltd
+# PCIe NVMe SSD
+	db00  UWSC256DDQYACC-N
+# PCIe NVMe SSD
+	db01  UWSC512DDQLBCC-N
+# PCIe NVMe SSD
+	db02  UWSC512DDQLACC-N
+# PCIe NVMe SSD
+	db03  UWSC1T0DDQLACC-N
+# PCIe NVMe SSD
+	dc00  UWSD512DDQYACA-N
+# PCIe NVMe SSD
+	dc01  UWSD1T0DDQYACA-N
+# PCIe NVMe SSD
+	dc02  UWSD2T0DDQYACA-N
+# PCIe NVMe SSD
+	dc03  UWSD1T0DDTYACA-N
+# PCIe NVMe SSD
+	dc04  UWSD2T0DDTYACA-N
+# PCIe NVMe SSD
+	dc05  UWSD4T0DDTYACA-N
+# PCIe NVMe SSD
+	dc06  UWSD512DDQYACB-N
+# PCIe NVMe SSD
+	dc07  UWSD1T0DDQYACB-N
+# PCIe NVMe SSD
+	dc08  UWSD512DDTMACA-N
+# PCIe NVMe SSD
+	dc09  UWSD1T0DDTMACA-N
 2044  Shenzhen Jiahua Zhongli Technology Co., LTD.
 	8200  CeaCent CS211X 12G SAS RAID controller
 		2044 2110  CeaCent CS2110-8i
@@ -29986,6 +30015,7 @@
 20a9  LDA Technologies Ltd.
 	1008  NEOTAPX FPGA Accelerator Card
 	1104  NEOTAPX FPGA Timing Synchronization Card
+	1200  MUX Ultimate FPGA Accelerator Card
 20b5  Shanghai StarFive Technology Co., Ltd.
 20ba  Hangzhou Hikstorage Technology Co., Ltd.
 	1202  NAND memory controller
