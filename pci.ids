@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.20
-#	Date:    2026-05-20 03:15:01
+#	Version: 2026.05.21
+#	Date:    2026-05-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27447,6 +27447,7 @@
 	102d  AR-TK242-FX2 [8x10GbE Gen5 Packet Capture-Replay Device]
 	102e  AR-TK242-FX2 [8x25GbE Gen5 Packet Capture-Replay Device]
 	102f  AR-TK242-FX2 [1x400GbE Gen5 Packet Capture-Replay Device]
+	1030  AR-ARKSTREAM [Arkville Streaming DMA]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d72  Xiaomi
 1d78  DERA Storage
