@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.21
-#	Date:    2026-05-21 03:15:02
+#	Version: 2026.05.22
+#	Date:    2026-05-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4130,6 +4130,7 @@
 		1da2 e457  PULSE AMD Radeon RX 6500 XT
 	7446  Navi 31 USB
 	7448  Navi 31 [Radeon Pro W7900]
+	7449  Navi 31 [Radeon Pro W7800 48GB]
 	744a  Navi 31 [Radeon Pro W7900 Dual Slot]
 	744b  Navi 31 [Radeon Pro W7900D]
 	744c  Navi 31 [Radeon RX 7900 XT/7900 XTX/7900 GRE/7900M]
@@ -38747,6 +38748,10 @@
 	65fa  5100 Chipset PCI Express x16 Port 4-7
 	65ff  5100 Chipset DMA Engine
 	674c  CRI
+	674d  CRI
+	674e  CRI
+	674f  CRI
+	6750  CRI
 	6e23  Nova Lake PCH-S SMbus Controller
 	6e24  Nova Lake PCH-S SPI Controller
 	6e28  Nova Lake PCH-S Serial IO UART Controller #0
