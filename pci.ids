@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.22
-#	Date:    2026-05-22 03:15:01
+#	Version: 2026.05.24
+#	Date:    2026-05-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13613,7 +13613,7 @@
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
 	2f04  GB205 [GeForce RTX 5070]
-	2f06  GB205
+	2f06  GB205 [GeForce RTX 5060]
 	2f18  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
@@ -23720,7 +23720,9 @@
 		1976 2008  TEW-621PC 802.11bgn Wireless CardBus Adapter
 	0024  AR5418 Wireless Network Adapter [AR5008E 802.11(a)bgn] (PCI-Express)
 		106b 0087  AirPort Extreme
+		1186 3a6f  DWA-643 Xtreme N Notebook ExpressCard
 		1186 3a70  DWA-556 Xtreme N PCI Express Desktop Adapter
+		1799 8071  F5D8071 v1 N1 Wireless ExpressCard
 	0027  AR9160 Wireless Network Adapter [AR9001 802.11(a)bgn]
 		0777 4082  SR71-A 802.11abgn Wireless Mini PCI Adapter
 	0029  AR922X Wireless Network Adapter
@@ -24729,10 +24731,13 @@
 		187e 3412  NWD-310N 802.11n Wireless PCI Adapter
 	0681  RT2890 Wireless 802.11n PCIe
 		1458 e939  GN-WS30N-RH 802.11bgn Mini PCIe Card
+		1799 8073  F5D8073 v1 N Wireless ExpressCard Adapter
+		1799 807c  F5D8071 v3 N1 Wireless ExpressCard
 	0701  RT2760 Wireless 802.11n 1T/2R
 		1737 0074  WMP110 v2 802.11n RangePlus Wireless PCI Adapter
 	0781  RT2790 Wireless 802.11n 1T/2R PCIe
 		11ad 7600  HP WN7600R
+		1799 817c  F5D8073 v3 N Wireless ExpressCard Adapter
 		1814 2790  RT2790 Wireless 802.11n 1T/2R PCIe
 	3060  RT3060 Wireless 802.11n 1T/1R
 		1186 3c04  DWA-525 Wireless N 150 Desktop Adapter (rev.A1)
@@ -30054,6 +30059,9 @@
 		20d8 4201  TUNAN-7V 1x400GbE Controller
 20dc  Sharetronic Data Technology Co., Ltd.
 	1202  M.2 2280 PCIe Gen3 x 4 Series.
+		1202 1256  M.2 2280 256GB 1202+N38A
+	5000  E5000 U.2 15mm 3.84TB NVMe SSD
+	5101  E5000 U.2 15mm 7.68TB NVMe SSD
 20e1  CECloud Computing Technology Co., Ltd.
 	7101  LS X710-E
 	7103  LS X710-M
@@ -30864,7 +30872,7 @@
 	1022  4 photo couple 4 relay Card
 	1025  16 photo couple 16 relay Card
 	4000  WatchDog Card
-6688  Zycoo Co., Ltd
+6688  GUANGZHOU MAXSUN INFORMATION TECHNOLOGY CO., LTD.
 	1200  CooVox TDM Analog Module
 	1400  CooVOX TDM GSM Module
 	1600  CooVOX TDM E1/T1 Module
