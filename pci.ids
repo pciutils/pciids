@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.24
-#	Date:    2026-05-24 03:15:02
+#	Version: 2026.05.27
+#	Date:    2026-05-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13618,6 +13618,8 @@
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f80  GB205 High Definition Audio Controller
+	3040  GR100
+	30c0  GR102
 	3180  GB110 [Reserved Dev ID A]
 	3182  GB110 [B300 SXM6 AC]
 	31a1  GB110 [GB300 MaxQ]
@@ -17235,9 +17237,25 @@
 	6348  PM63048 Switchtec PSX 48xG6 Programmable PCIe Switch
 	6360  PM63160 Switchtec PSX 160xG6 Programmable PCIe Switch
 	6364  PM63064 Switchtec PSX 64xG6 Programmable PCIe Switch
+	7044  PM70144 Switchtec PFXs 144xG7 Secure-capable Fanout PCIe Switch
+	7048  PM70048 Switchtec PFXs 48xG7 Secure-capable Fanout PCIe Switch
+	7060  PM70160 Switchtec PFXs 160xG7 Secure-capable Fanout PCIe Switch
+	7064  PM70064 Switchtec PFXs 64xG7 Secure-capable Fanout PCIe Switch
+	7144  PM71144 Switchtec PSXs 144xG7 Secure-capable Programmable PCIe Switch
+	7148  PM71048 Switchtec PSXs 48xG7 Secure-capable Programmable PCIe Switch
+	7160  PM71160 Switchtec PSXs 160xG7 Secure-capable Programmable PCIe Switch
+	7164  PM71064 Switchtec PSXs 64xG7 Secure-capable Programmable PCIe Switch
+	7244  PM72144 Switchtec PFX 144xG7 Fanout PCIe Switch
+	7248  PM72048 Switchtec PFX 48xG7 Fanout PCIe Switch
+	7260  PM72160 Switchtec PFX 160xG7 Fanout PCIe Switch
+	7264  PM72064 Switchtec PFX 64xG7 Fanout PCIe Switch
 	7364  PM7364 [FREEDM - 32 Frame Engine & Datalink Mgr]
 	7375  PM7375 [LASAR-155 ATM SAR]
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
+	7444  PM74144 Switchtec PSX 144xG7 Programmable PCIe Switch
+	7448  PM74048 Switchtec PSX 48xG7 Programmable PCIe Switch
+	7460  PM74160 Switchtec PSX 160xG7 Programmable PCIe Switch
+	7464  PM74064 Switchtec PSX 64xG7 Programmable PCIe Switch
 	8000  PM8000  [SPC - SAS Protocol Controller]
 	8009  PM8009 SPCve 8x6G
 	8018  PM8018 Adaptec SAS Adaptor ASA-70165H PCIe Gen3 x8 6 Gbps 16-lane 4x SFF-8644
@@ -29532,6 +29550,7 @@
 1f82  d-Matrix
 	0011  Corsair [DMX 1000 Series]
 	00f1  JetStream [DMX F1 Transparent NIC]
+1f8c  Exascend,INC.
 1f90  Quside Technologies
 	7024  QRNG PCIe Device
 	7025  QRNG PCIe Device
