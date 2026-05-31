@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.30
-#	Date:    2026-05-30 03:15:01
+#	Version: 2026.05.31
+#	Date:    2026-05-31 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -38863,12 +38863,13 @@
 	5ae8  Celeron N3350/Pentium N4200/Atom E3900 Series Low Pin Count Interface
 	5aee  Celeron N3350/Pentium N4200/Atom E3900 Series HSUART Controller #4
 	5af0  Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge
+	6400  Core Ultra 200V Series Processors with 4 P-Cores 4 E-Cores Host Bridge
 	641d  Lunar Lake-M Dynamic Tuning Technology
 	6420  Lunar Lake [Intel Graphics]
 	643e  Lunar Lake NPU
 	645d  Lunar Lake IPU
 	647d  Lunar Lake-M Crashlog and Telemetry
-	64a0  Lunar Lake [Intel Arc Graphics 130V / 140V]
+	64a0  Core Ultra 200V Series Processors Arc Graphics 130V/140V GPU
 	64b0  Lunar Lake [Intel Graphics]
 	65c0  5100 Chipset Memory Controller Hub
 	65e2  5100 Chipset PCI Express x4 Port 2
@@ -39163,6 +39164,8 @@
 	71a1  440GX - 82443GX AGP bridge
 	71a2  440GX - 82443GX Host bridge (AGP disabled)
 		4c53 1000  CC7/CR7/CP7/VC7/VP7/VR7 mainboard
+	7202  Core Ultra 200H Series Processors eSPI Controller
+	7203  Core Ultra 200V Series Processors eSPI Controller
 	7360  XMM7360 LTE Advanced Modem
 	7560  XMM7560 LTE Advanced Pro Modem
 	7600  82372FB PIIX5 ISA
@@ -39170,36 +39173,54 @@
 	7602  82372FB PIIX5 USB
 	7603  82372FB PIIX5 SMBus
 	7702  Arrow Lake-H eSPI Controller
-	7722  Arrow Lake SMBus Controller
-	7723  Arrow Lake SPI Controller
-	7725  Arrow Lake-H [PCH Serial IO UART Host Controller]
-	7726  Arrow Lake-H PCH Serial IO UART Host Controller]
-	7727  Arrow Lake-H [LPC/eSPI Controller]
-	7728  Arrow Lake cAVS
+	7720  Core Ultra 200H/200V Series Processors P2SB (SOC)
+	7721  Core Ultra 200H/200V Series Processors PMC (SOC)
+	7722  Core Ultra 200H/200V Series Processors SMBus
+	7723  Core Ultra 200H/200V Series Processors SPI (flash) Controller
+	7724  Core Ultra 200H/200V Series Processors Trace Hub
+	7725  Core Ultra 200H/200V Series Processors UART #0
+	7726  Core Ultra 200H/200V Series Processors UART #1
+	7727  Core Ultra 200H/200V Series Processors GSPI #0
+	7728  Core Ultra 200H/200V Series Processors HD Audio
 	7730  Arrow Lake-H [LPC/eSPI Controller]
-	7738  Arrow Lake-H/U PCIe Root Port #1
-	7739  Arrow Lake-H/U PCIe Root Port #2
-	773a  Arrow Lake-H/U PCIe Root Port #3
-	773b  Arrow Lake-H/U PCIe Root Port #4
-	773c  Arrow Lake-H/U PCIe Root Port #5
-	773d  Arrow Lake-H/U PCIe Root Port #6
-	773e  Arrow Lake-H/U PCIe Root Port #7
-	773f  Arrow Lake-H/U PCIe Root Port #8
+	7738  Core Ultra 200H/200V Series Processors PCIe Root Port #1
+	7739  Core Ultra 200H/200V Series Processors PCIe Root Port #2
+	773a  Core Ultra 200H/200V Series Processors PCIe Root Port #3
+	773b  Core Ultra 200H/200V Series Processors PCIe Root Port #4
+	773c  Core Ultra 200H/200V Series Processors PCIe Root Port #5
+	773d  Core Ultra 200H/200V Series Processors PCIe Root Port #6
+	773e  Core Ultra 200H/200V Series Processors PCIe Root Port #7
+	773f  Core Ultra 200H/200V Series Processors PCIe Root Port #8
 	7740  Arrow Lake CNVi WiFi
-	7745  Arrow Lake Integrated Sensor Hub
-	7746  Arrow Lake-H [LPC/eSPI Controller]
-	774c  Arrow Lake Gaussian & Neural Accelerator
-	774d  Arrow Lake-H/U PCIe Root Port #9 (PXPC)
-	7750  Arrow Lake-H [Serial IO I2C Host Controller]
-	7751  Arrow Lake-H [Serial IO I2C Host Controller]
-	7752  Arrow Lake-H [PCH Serial IO UART Host Controller]
-	7770  Arrow Lake HECI Controller #1
-	7773  Arrow Lake Keyboard and Text (KT) Redirection
-	7778  Arrow Lake-H [Serial IO I2C Host Controller]
-	7779  Arrow Lake-H [Serial IO I2C Host Controller]
-	777a  Arrow Lake-H [Serial IO I2C Host Controller]
-	777b  Arrow Lake-H [Serial IO I2C Host Controller]
+	7745  Core Ultra 200H/200V Series Processors Integrated Sensor Hub
+	7746  Core Ultra 200H/200V Series Processors GSPI #2
+	7748  Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #0 ID1
+	7749  Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #0 ID2
+	774a  Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #1 ID1
+	774b  Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #1 ID2
+	774c  Core Ultra 200H/200V Series Processors Gaussian & Neural-Network Accelerator (GNA)
+	774d  Core Ultra 200H/200V Series Processors PCIe Root Port #9 (PXPC)
+	7750  Core Ultra 200H/200V Series Processors I2C #4
+	7751  Core Ultra 200H/200V Series Processors I2C #5
+	7752  Core Ultra 200H/200V Series Processors UART #2
+	7758  Core Ultra 200H/200V Series Processors CSME HECI #1
+	7759  Core Ultra 200H/200V Series Processors CSME HECI #2
+	775a  Core Ultra 200H/200V Series Processors CSME HECI #3
+	7763  Core Ultra 200H/200V Series Processors SATA Controller (AHCI)
+	7767  Core Ultra 200H/200V Series Processors SATA Controller (RAID 0/1/5/10) premium
+	7770  Core Ultra 200H/200V Series Processors CSME HECI #1
+	7771  Core Ultra 200H/200V Series Processors CSME HECI #2
+	7772  Core Ultra 200H/200V Series Processors CSME IDE Redirection (IDE-R)
+	7773  Core Ultra 200H/200V Series Processors CSME Keyboard and Text (KT) Redirection
+	7774  Core Ultra 200H/200V Series Processors CSME HECI #3
+	7775  Core Ultra 200H/200V Series Processors CSME HECI #4
+	7778  Core Ultra 200H/200V Series Processors I2C #0
+	7779  Core Ultra 200H/200V Series Processors I2C #1
+	777a  Core Ultra 200H/200V Series Processors I2C #2
+	777b  Core Ultra 200H/200V Series Processors I2C #3
+	777c  Core Ultra 200H/200V Series Processors I3C
 	777d  Arrow Lake USB 3.2 xHCI Controller
+	777e  Core Ultra 200H/200V Series Processors Standalone USB Device Controller
 	777f  Core Ultra 200H/200V Series Processors Shared SRAM
 	7800  82740 (i740) AGP Graphics Accelerator
 		003d 0008  Starfighter AGP
@@ -39376,8 +39397,16 @@
 	7d0b  Volume Management Device NVMe RAID Controller Intel Corporation
 	7d0d  Meteor Lake-P Platform Monitoring Technology
 	7d19  Meteor Lake IPU
+	7d1a  Core Ultra 200S/200S-Plus Series Processors with 8 P-Cores 16 E-Cores Host Bridge
+	7d1b  Core Ultra 200S Series Processors with 8 P-Cores 12 E-Cores Host Bridge
 	7d1c  Arrow Lake-HX 8p+16e cores Host Bridge
 	7d1d  Meteor Lake NPU
+	7d29  Core Ultra 200S-Plus Series Processors with 6 P-Cores 12 E-Cores Host Bridge
+	7d2a  Core Ultra 200S Series Processors with 6 P-Cores 8 E-Cores Host Bridge
+	7d2d  Core Ultra 200HX/HX-Plus Series Processors with 8 P-Cores 12 E-Cores Host Bridge
+	7d2f  Core Ultra 200HX Series Processors with 6 P-Cores 8 E-Cores Host Bridge
+	7d30  Core Ultra 200U Series Processors with 2 P-Cores 8 E-Cores Host Bridge
+	7d35  Core Ultra 200S Series Processors with 6 P-Cores 4 E-Cores Host Bridge
 	7d40  Meteor Lake-M [Intel Graphics]
 	7d41  Arrow Lake-U [Intel Graphics]
 	7d45  Meteor Lake-P [Intel Graphics]
@@ -39418,15 +39447,20 @@
 	7e7e  Meteor Lake-P USB Device Controller
 	7e7f  Meteor Lake-H/U Shared SRAM
 	7ec0  Meteor Lake-P Thunderbolt 4 USB Controller
+	7ec1  Core Ultra 200 Series Processors USB xDCI
 	7ec2  Meteor Lake-P Thunderbolt 4 NHI #0
 	7ec3  Meteor Lake-P Thunderbolt 4 NHI #1
 	7ec4  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #0
 	7ec5  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #1
 	7ec6  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #2
 	7ec7  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3
-	7eca  Meteor Lake-H/U PCIe Root Port #10
-	7ecb  Arrow Lake-H/U PCIe Root Port #11 (PXPE)
-	7ecc  Meteor Lake-H PCIe Root Port #12
+	7ec8  Core Ultra 200 Series Processors P2SB (IOE)
+	7ec9  Core Ultra 200H/200V Series Processors IEH (IOE)
+	7eca  Core Ultra 200 Series Processors PCIe Root Port #10
+	7ecb  Core Ultra 200H/200V Series Processors PCIe Root Port #11 (PXPE)
+	7ecc  Core Ultra 200 Series Processors PCIe Root Port #12
+	7ece  Core Ultra 200 Series Processors PMC (IOE)
+	7ecf  Core Ultra 200 Series Processors Shared SRAM (IOE)
 	7f03  Q870 Chipset eSPI Controller
 	7f04  Z890 Chipset eSPI Controller
 	7f06  B860 Chipset eSPI Controller
@@ -40480,27 +40514,42 @@
 	a213  C620 Series Chipset Family (Super) PCIe Root Port #3
 	a214  C620 Series Chipset Family (Super) PCIe Root Port #4
 	a215  C620 Series Chipset Family (Super) PCIe Root Port #5
-	a216  Lewisburg PCI Express Root Port
-	a217  Lewisburg PCI Express Root Port
-	a218  Lewisburg PCI Express Root Port
-	a219  Lewisburg PCI Express Root Port
-	a21a  Lewisburg PCI Express Root Port
-	a21b  Lewisburg PCI Express Root Port
-	a21c  Lewisburg PCI Express Root Port
-	a21d  Lewisburg PCI Express Root Port
-	a21e  Lewisburg PCI Express Root Port
-	a21f  Lewisburg PCI Express Root Port
-	a221  Lewisburg Power Management Controller
+	a216  C620 Series Chipset Family (Super) PCIe Root Port #6
+	a217  C620 Series Chipset Family (Super) PCIe Root Port #7
+	a218  C620 Series Chipset Family (Super) PCIe Root Port #8
+	a219  C620 Series Chipset Family (Super) PCIe Root Port #9
+	a21a  C620 Series Chipset Family (Super) PCIe Root Port #10
+	a21b  C620 Series Chipset Family (Super) PCIe Root Port #11
+	a21c  C620 Series Chipset Family (Super) PCIe Root Port #12
+	a21d  C620 Series Chipset Family (Super) PCIe Root Port #13
+	a21e  C620 Series Chipset Family (Super) PCIe Root Port #14
+	a21f  C620 Series Chipset Family (Super) PCIe Root Port #15
+	a220  C620 Series Chipset Family (Super) P2SB
+	a221  C620 Series Chipset Family (Super) PMC
 	a223  Lewisburg SMBus
 	a224  Lewisburg SPI Controller
+	a226  C620 Series Chipset Family (Super) Trace Hub
+	a22f  C620 Series Chipset Family (Super) USB 3.0 xHCI Controller
+	a231  C620 Series Chipset Family (Super) Thermal Subsystem
+	a23a  C620 Series Chipset Family (Super) MEI HECI #1
+	a23b  C620 Series Chipset Family (Super) MEI HECI #2
+	a23c  C620 Series Chipset Family (Super) MEI IDE Redirection
+	a23d  C620 Series Chipset Family (Super) MEI Keyboard and Text (KT) Redirection
+	a23e  C620 Series Chipset Family (Super) MEI HECI #3
 	a242  Lewisburg LPC or eSPI Controller
 	a243  Lewisburg LPC or eSPI Controller
+	a244  C621 Chipset (Super) LPC/eSPI Controller
+	a245  C627 Chipset (Super) LPC/eSPI Controller
+	a246  C628 Chipset (Super) LPC/eSPI Controller
 	a252  Lewisburg SSATA Controller [AHCI mode]
 	a256  Lewisburg SSATA Controller [RAID mode]
 	a267  Lewisburg PCI Express Root Port
 	a268  Lewisburg PCI Express Root Port
 	a269  Lewisburg PCI Express Root Port
 	a26a  Lewisburg PCI Express Root Port
+	a26c  C620 Series Chipset Family (Super) MROM 0
+	a270  C620 Series Chipset Family (Super) Audio
+	a278  C620 Series Chipset Family (Super) IE HECI #1
 	a282  200 Series/Z370 Chipset Family SATA Controller (AHCI)
 		1462 7a72  H270 PC MATE
 	a286  200 Series/Z370 Chipset Family SATA Controller (RAID) Premium
