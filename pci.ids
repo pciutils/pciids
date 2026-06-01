@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.05.31
-#	Date:    2026-05-31 03:15:02
+#	Version: 2026.06.01
+#	Date:    2026-06-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4169,6 +4169,7 @@
 	74b9  Aqua Vanjaram [Instinct MI325X VF]
 	74bd  Aqua Vanjaram [Instinct MI300X HF]
 	7550  Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]
+		1458 2437  Navi 48 XTX [Radeon RX 9070 XT Gaming OC ICE 16G]
 		148c 2435  Radeon RX 9070 XT 16GB
 		1849 5403  Navi 48 XTX [Steel Legend Radeon RX 9070 XT]
 		1da2 e490  Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]
@@ -23249,6 +23250,7 @@
 	5049  SN8000S NVMe SSD
 	504a  WD Blue SN5000 NVMe SSD (DRAM-less)
 	5050  WD PC SN8050S / WD_BLACK SN8100 NVMe SSD
+	5062  WD PC SN5100S NVMe SSD (DRAM-less)
 	5063  WD Blue SN5100 NVMe SSD (DRAM-less)
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
@@ -27067,6 +27069,8 @@
 	6a04  AM6A0 PCIe 4.0 NVMe SSD 1024GB (DRAM-less)
 	6a13  RPJYJ512MKN1QWQ PCIe 4.0 NVMe SSD 512GB (DRAM-less)
 	6a14  AM6A1 PCIe 4.0 NVMe SSD 1024GB (DRAM-less)
+	6b02  AM6B0 PCIe 4.0 NVMe SSD 256GB (DRAM-less)
+	6b03  RPETJ512MMW1MDQ PCIe 4.0 NVMe SSD 512GB (DRAM-less)
 	6b04  AM6B0 PCIe 4.0 NVMe SSD
 	6b13  AM6B1 PCIe 4.0 NVMe SSD 512GB (DRAM-less)
 	6b14  RPJYJ1T24MLR1HWY PCIe 4.0 NVMe SSD 1024GB (DRAM-less)
@@ -28382,6 +28386,7 @@
 		1028 23f8  KCD9XPJE3T20
 		1028 23f9  KCD9XPJE6T40
 		1028 23fa  KCD9XPJE12T8
+	003b  Exceria Basic NVMe SSD (DRAM-less)
 	003d  LC9 E3.L NVMe SSD
 		1028 244f  RLC9GZV245T
 		1028 2450  RLC9CZV245T
@@ -28795,6 +28800,7 @@
 		1e81 f123  NVMe SSD TP6500 series U.2 3840GB
 	6206  AM620 NVMe SSD
 	6a02  AM6A0 NVMe SSD (DRAM-less)
+	6c14  RPEYJ1T24 NVMe SSD (DRAM-less)
 1e83  Huaqin Technology Co.Ltd
 1e85  HEITEC AG
 1e89  ID Quantique SA
@@ -29319,6 +29325,7 @@
 1f02  Beijing Dayu Technology
 1f03  Shenzhen Shichuangyi Electronics Co., Ltd
 	1202  MAP1202-Based NVMe SSD (DRAM-less)
+	1608  SCY C5000 NVMe SSD (DRAM-less)
 	2262  SM2262EN-based OEM SSD
 	2263  SM2263XT-Based NVMe SSD (DRAM-less)
 	2268  SM2268XT-Based NVMe SSD (DRAM-less)
@@ -29663,6 +29670,7 @@
 	7025  QRNG PCIe Device
 1f99  Shenzhen Techwinsemi Technology Co., Ltd.
 	1202  TE3420 series / Patriot P320 M.2 NVMe SSD (DRAM-less)
+	1602  PCIe Gen4 x4 M.2 2280 (DRAM-less)
 	1608  PCIe Gen4 x4 M.2 2280
 	1f88  TE3420 PCIe Gen3 x4 M.2 2280
 	2269  XE4403 Series NVMe PCIe Gen4x4 SSD
@@ -30145,6 +30153,7 @@
 20a6  XCENA, Inc.
 20a7  EEVengers Inc.
 20a8  Rayson HI-TECH(SZ) Co., Ltd.
+	1202  RS512GSSD510 PCIe 3 NVMe SSD (DRAM-less)
 20a9  LDA Technologies Ltd.
 	1008  NEOTAPX FPGA Accelerator Card
 	1104  NEOTAPX FPGA Timing Synchronization Card
@@ -30267,6 +30276,7 @@
 	502b  NV3 NVMe SSD [E29T] (DRAM-less)
 	502c  DC3000ME NVMe SSD [SC5]
 	502d  OM8TAP4 PCIe 4 NVMe SSD (QLC) (DRAM-less)
+	502f  OM3SGP4 PCIe 4 NVMe SSD (TLC)
 	5030  NV3 2230 NVMe SSD [SM2268XT2] (DRAM-less)
 	5034  NV3 NVMe SSD [E33T] (DRAM-less)
 270b  Xantel Corporation
@@ -40526,8 +40536,8 @@
 	a21f  C620 Series Chipset Family (Super) PCIe Root Port #15
 	a220  C620 Series Chipset Family (Super) P2SB
 	a221  C620 Series Chipset Family (Super) PMC
-	a223  Lewisburg SMBus
-	a224  Lewisburg SPI Controller
+	a223  C620 Series Chipset Family (Super) SMBus
+	a224  C620 Series Chipset Family (Super) SPI Controller
 	a226  C620 Series Chipset Family (Super) Trace Hub
 	a22f  C620 Series Chipset Family (Super) USB 3.0 xHCI Controller
 	a231  C620 Series Chipset Family (Super) Thermal Subsystem
@@ -40536,20 +40546,24 @@
 	a23c  C620 Series Chipset Family (Super) MEI IDE Redirection
 	a23d  C620 Series Chipset Family (Super) MEI Keyboard and Text (KT) Redirection
 	a23e  C620 Series Chipset Family (Super) MEI HECI #3
-	a242  Lewisburg LPC or eSPI Controller
-	a243  Lewisburg LPC or eSPI Controller
+	a242  C624 Chipset (Super) LPC/eSPI Controller
+	a243  C627 Chipset (Super) LPC/eSPI Controller
 	a244  C621 Chipset (Super) LPC/eSPI Controller
 	a245  C627 Chipset (Super) LPC/eSPI Controller
 	a246  C628 Chipset (Super) LPC/eSPI Controller
-	a252  Lewisburg SSATA Controller [AHCI mode]
-	a256  Lewisburg SSATA Controller [RAID mode]
-	a267  Lewisburg PCI Express Root Port
-	a268  Lewisburg PCI Express Root Port
-	a269  Lewisburg PCI Express Root Port
-	a26a  Lewisburg PCI Express Root Port
+	a252  C620 Series Chipset Family (Super) SSATA Controller (AHCI)
+	a256  C620 Series Chipset Family (Super) SSATA Controller (RAID 0/1/5/10)
+	a267  C620 Series Chipset Family (Super) PCIe Root Port #16
+	a268  C620 Series Chipset Family (Super) PCIe Root Port #17
+	a269  C620 Series Chipset Family (Super) PCIe Root Port #18
+	a26a  C620 Series Chipset Family (Super) PCIe Root Port #19
 	a26c  C620 Series Chipset Family (Super) MROM 0
 	a270  C620 Series Chipset Family (Super) Audio
 	a278  C620 Series Chipset Family (Super) IE HECI #1
+	a279  C620 Series Chipset Family (Super) IE HECI #2
+	a27a  C620 Series Chipset Family (Super) IE IDE Redirection
+	a27b  C620 Series Chipset Family (Super) IE Keyboard and Text Redirection
+	a27c  C620 Series Chipset Family (Super) IE HECI #3
 	a282  200 Series/Z370 Chipset Family SATA Controller (AHCI)
 		1462 7a72  H270 PC MATE
 	a286  200 Series/Z370 Chipset Family SATA Controller (RAID) Premium
@@ -40671,7 +40685,7 @@
 	a342  300/C240 Series Chipset Family PCIe Root Port #19
 	a343  300/C240 Series Chipset Family PCIe Root Port #20
 	a347  300/C240 Series Chipset Family UART #2
-	a348  Cannon Lake PCH cAVS
+	a348  300/C240 Series Chipset Family HD Audio
 		1028 0869  Vostro 3470
 	a352  300/C240 Series Chipset Family SATA Controller (AHCI)
 		1028 0869  Vostro 3470
@@ -40691,13 +40705,16 @@
 	a369  300/C240 Series Chipset Family I2C Controller #1
 	a36a  300/C240 Series Chipset Family I2C Controller #2
 	a36b  300/C240 Series Chipset Family I2C Controller #3
-	a36d  Cannon Lake PCH USB 3.1 xHCI Host Controller
+	a36d  300/C240 Series Chipset Family USB 3.1 xHCI
 		1028 0869  Vostro 3470
 	a36e  300/C240 Series Chipset Family USB Device Controller (Dual Role)
 	a36f  300/C240 Series Chipset Family Shared SRAM
-	a370  Cannon Lake PCH CNVi WiFi
+	a370  300/C240 Series Chipset Family CNVi Wi-Fi
 		1a56 1552  Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)
 		8086 0034  Wireless-AC 9560
+	a371  300/C240 Series Chipset Family CNVi Wi-Fi
+	a372  300/C240 Series Chipset Family CNVi Wi-Fi
+	a373  300/C240 Series Chipset Family CNVi Wi-Fi
 	a379  300/C240 Series Chipset Family Thermal Subsystem
 		1028 0869  Vostro 3470
 	a37b  300/C240 Series Chipset Family SPI #2
