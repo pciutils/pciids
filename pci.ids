@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.01
-#	Date:    2026-06-01 03:15:02
+#	Version: 2026.06.02
+#	Date:    2026-06-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13611,6 +13611,7 @@
 	2db9  GB207GLM [RTX PRO 500 Blackwell Generation Laptop GPU]
 	2dd8  GB207M [GeForce RTX 5050 Max-Q / Mobile]
 	2df9  GB207GLM [RTX PRO 500 Blackwell Embedded GPU]
+	2e03  GB20B [JMJWOA-Generic-GPU]
 	2e12  GB20B [GB10]
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
@@ -29664,7 +29665,7 @@
 	00f1  JetStream [DMX F1 Transparent NIC]
 1f8c  Exascend,INC.
 	8008  SM8008 NVMe SSD [Px5 Series SSD]
-	8366  SM8366 NVMe SSD
+	8366  SM8366 NVMe SSD [PD5 Series SSD]
 1f90  Quside Technologies
 	7024  QRNG PCIe Device
 	7025  QRNG PCIe Device
