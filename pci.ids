@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.02
-#	Date:    2026-06-02 03:15:02
+#	Version: 2026.06.03
+#	Date:    2026-06-03 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29665,7 +29665,11 @@
 	00f1  JetStream [DMX F1 Transparent NIC]
 1f8c  Exascend,INC.
 	8008  SM8008 NVMe SSD [Px5 Series SSD]
+# Px5 SSD
+		1f8c 0001  General
+		1f8c 0002  Px5 Series General
 	8366  SM8366 NVMe SSD [PD5 Series SSD]
+		1f8c 0001  PD5 Series General
 1f90  Quside Technologies
 	7024  QRNG PCIe Device
 	7025  QRNG PCIe Device
@@ -29917,11 +29921,20 @@
 		1ff2 0b23  3260-16i Tri-mode RAID Adapter
 		1ff2 0b24  3260-8i Tri-mode RAID Adapter
 1ff4  DEEPX Co., Ltd.
-	0000  DX_M1
-	0001  DX_M1A
-	1000  DX_H1
-	2000  DX_VNPU_M1
-	2001  DX_VNPU
+# DX-M1, DX-M1 M.2 Module
+	0100  M1 [Series]
+# DX-H1 Card with M1
+	0101  M1 [H1]
+# DX-H1 V-NPU Card with M1
+	0102  M1 [H1 V-NPU]
+# DX-M1M, DX-M1M M.2 Module
+	0110  M1M [Series]
+# DX-H1M Card with M1M
+	0111  M1M [H1M]
+# DX-H1M V-NPU Card with M1M
+	0112  M1M [H1M V-NPU]
+# DX-H1/H1M V-NPU Card Video Processing Unit
+	2001  VPU [H1/H1M V-NPU]
 1ff8  Beijing Gengtu Technology Co.Ltd
 	2000  GT6910
 	2010  GT6908
@@ -31396,7 +31409,7 @@
 	0697  W480 Chipset LPC/eSPI Controller
 	06a0  400 Series Chipset Family P2SB
 	06a1  400 Series Chipset Family PMC
-	06a3  400 Series Chipset Platform SMBus
+	06a3  400 Series Chipset Family SMBus
 	06a4  400 Series Chipset Family SPI (flash) Controller
 	06a6  400 Series Chipset Family Trace Hub
 	06a8  400 Series Chipset Family UART #0
@@ -38875,11 +38888,11 @@
 	5aee  Celeron N3350/Pentium N4200/Atom E3900 Series HSUART Controller #4
 	5af0  Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge
 	6400  Core Ultra 200V Series Processors with 4 P-Cores 4 E-Cores Host Bridge
-	641d  Lunar Lake-M Dynamic Tuning Technology
+	641d  Core Ultra 200V Series Processors Dynamic Tuning Technology (DTT)
 	6420  Lunar Lake [Intel Graphics]
-	643e  Lunar Lake NPU
-	645d  Lunar Lake IPU
-	647d  Lunar Lake-M Crashlog and Telemetry
+	643e  Core Ultra 200V Series Processors NPU
+	645d  Core Ultra 200V Series Processors IPU
+	647d  Core Ultra 200V Series Processors Crash Log and Telemetry
 	64a0  Core Ultra 200V Series Processors Arc Graphics 130V/140V GPU
 	64b0  Lunar Lake [Intel Graphics]
 	65c0  5100 Chipset Memory Controller Hub
@@ -39230,7 +39243,7 @@
 	777a  Core Ultra 200H/200V Series Processors I2C #2
 	777b  Core Ultra 200H/200V Series Processors I2C #3
 	777c  Core Ultra 200H/200V Series Processors I3C
-	777d  Arrow Lake USB 3.2 xHCI Controller
+	777d  Core Ultra 200H/200V Series Processors Standalone xHCI Controller
 	777e  Core Ultra 200H/200V Series Processors Standalone USB Device Controller
 	777f  Core Ultra 200H/200V Series Processors Shared SRAM
 	7800  82740 (i740) AGP Graphics Accelerator
@@ -39403,15 +39416,15 @@
 	7afd  600 Series Chipset Family I2C Controller #5
 	7afe  600 Series Chipset Family UART #2
 	7d01  Meteor Lake-H 6p+8e cores Host Bridge/DRAM Controller
-	7d03  Meteor Lake-P Dynamic Tuning Technology
-	7d06  Arrow Lake-H 6p+8e cores Host Bridge/DRAM Controller
-	7d0b  Volume Management Device NVMe RAID Controller Intel Corporation
-	7d0d  Meteor Lake-P Platform Monitoring Technology
-	7d19  Meteor Lake IPU
+	7d03  Core Ultra 200H/200V Series Processors Dynamic Tuning Technology (DTT)
+	7d06  Core Ultra 200H Series Processors with 6 P-Cores 8 E-Cores Host Bridge
+	7d0b  Core Ultra 200H/200V Series Processors VMD
+	7d0d  Core Ultra 200H/200V Series Processors Platform Monitoring Technology (PMT)
+	7d19  Core Ultra 200H/200V Series Processors IPU
 	7d1a  Core Ultra 200S/200S-Plus Series Processors with 8 P-Cores 16 E-Cores Host Bridge
 	7d1b  Core Ultra 200S Series Processors with 8 P-Cores 12 E-Cores Host Bridge
-	7d1c  Arrow Lake-HX 8p+16e cores Host Bridge
-	7d1d  Meteor Lake NPU
+	7d1c  Core Ultra 200HX/HX-Plus Series Processors with 8 P-Cores 16 E-Cores Host Bridge
+	7d1d  Core Ultra 200H/200V Series Processors NPU
 	7d29  Core Ultra 200S-Plus Series Processors with 6 P-Cores 12 E-Cores Host Bridge
 	7d2a  Core Ultra 200S Series Processors with 6 P-Cores 8 E-Cores Host Bridge
 	7d2d  Core Ultra 200HX/HX-Plus Series Processors with 8 P-Cores 12 E-Cores Host Bridge
@@ -39457,14 +39470,14 @@
 	7e7d  Meteor Lake-P USB 3.2 Gen 2x1 xHCI Host Controller
 	7e7e  Meteor Lake-P USB Device Controller
 	7e7f  Meteor Lake-H/U Shared SRAM
-	7ec0  Meteor Lake-P Thunderbolt 4 USB Controller
+	7ec0  Core Ultra 200 Series Processors USB xHCI
 	7ec1  Core Ultra 200 Series Processors USB xDCI
-	7ec2  Meteor Lake-P Thunderbolt 4 NHI #0
-	7ec3  Meteor Lake-P Thunderbolt 4 NHI #1
-	7ec4  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #0
-	7ec5  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #1
-	7ec6  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #2
-	7ec7  Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3
+	7ec2  Core Ultra 200 Series Processors Thunderbolt DMA0
+	7ec3  Core Ultra 200 Series Processors Thunderbolt DMA1
+	7ec4  Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #16
+	7ec5  Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #17
+	7ec6  Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #18
+	7ec7  Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #19
 	7ec8  Core Ultra 200 Series Processors P2SB (IOE)
 	7ec9  Core Ultra 200H/200V Series Processors IEH (IOE)
 	7eca  Core Ultra 200 Series Processors PCIe Root Port #10
@@ -40720,20 +40733,67 @@
 		1028 0869  Vostro 3470
 	a37b  300/C240 Series Chipset Family SPI #2
 	a37c  300/C240 Series Chipset Family Integrated Sensor Hub
-	a382  400 Series Chipset Family SATA AHCI Controller
-	a394  Comet Lake PCI Express Root Port #05
-	a397  Comet Lake PCI Express Root Port #08
-	a398  Comet Lake PCI Express Root Port 9
-	a39a  Comet Lake PCI Express Root Port 11
-	a3a1  Cannon Lake PCH Power Management Controller
-	a3a3  Comet Lake PCH-V SMBus Host Controller
-	a3af  Comet Lake PCH-V USB Controller
-	a3b1  Comet Lake PCH-V Thermal Subsystem
-	a3ba  Comet Lake PCH-V HECI Controller
+	a382  B460/H410 Chipset SATA Controller (AHCI)
+	a384  B460/H410 Chipset SATA Controller (RAID 0/1/5/10) Not Premium
+	a386  B460/H410 Chipset SATA Controller (RAID 0/1/5/10) Premium
+	a38e  B460/H410 Chipset SATA Controller (RST Optane)
+	a390  B460/H410 Chipset PCIe Root Port #1
+	a391  B460/H410 Chipset PCIe Root Port #2
+	a392  B460/H410 Chipset PCIe Root Port #3
+	a393  B460/H410 Chipset PCIe Root Port #4
+	a394  B460/H410 Chipset PCIe Root Port #5
+	a395  B460/H410 Chipset PCIe Root Port #6
+	a396  B460/H410 Chipset PCIe Root Port #7
+	a397  B460/H410 Chipset PCIe Root Port #8
+	a398  B460/H410 Chipset PCIe Root Port #9
+	a399  B460/H410 Chipset PCIe Root Port #10
+	a39a  B460/H410 Chipset PCIe Root Port #11
+	a39b  B460/H410 Chipset PCIe Root Port #12
+	a39c  B460/H410 Chipset PCIe Root Port #13
+	a39d  B460/H410 Chipset PCIe Root Port #14
+	a39e  B460/H410 Chipset PCIe Root Port #15
+	a39f  B460/H410 Chipset PCIe Root Port #16
+	a3a0  B460/H410 Chipset P2SB
+	a3a1  B460/H410 Chipset PMC
+	a3a3  B460/H410 Chipset SMBus
+	a3a4  B460/H410 Chipset SPI Controller
+	a3a6  B460/H410 Chipset Trace Hub
+	a3a7  B460/H410 Chipset UART #0
+	a3a8  B460/H410 Chipset UART #1
+	a3a9  B460/H410 Chipset SPI #0
+	a3aa  B460/H410 Chipset SPI #1
+	a3af  B460/H410 Chipset USB 3.2 Gen 1x1 (5 Gbs) xHCI Controller
+	a3b0  B460/H410 Chipset USB Device Controller
+	a3b1  B460/H410 Chipset Thermal Subsystem
+	a3b5  B460/H410 Chipset ISH
+	a3ba  B460/H410 Chipset CSME HECI #1
+	a3bb  B460/H410 Chipset CSME HECI #2
+	a3bc  B460/H410 Chipset CSME IDE Redirection
+	a3bd  B460/H410 Chipset CSME Keyboard and Text (KT) Redirection
+	a3be  B460/H410 Chipset CSME HECI #3
 	a3c8  B460 Chipset LPC/eSPI Controller
 	a3da  H410 Chipset LPC/eSPI Controller
-	a3eb  Comet Lake PCI Express Root Port #21
-	a3f0  Comet Lake PCH-V cAVS
+	a3e0  B460/H410 Chipset I2C #0
+	a3e1  B460/H410 Chipset I2C #1
+	a3e2  B460/H410 Chipset I2C #2
+	a3e3  B460/H410 Chipset I2C #3
+	a3e6  B460/H410 Chipset UART #2
+	a3e7  B460/H410 Chipset PCIe Root Port #17
+	a3e8  B460/H410 Chipset PCIe Root Port #18
+	a3e9  B460/H410 Chipset PCIe Root Port #19
+	a3ea  B460/H410 Chipset PCIe Root Port #20
+	a3eb  B460/H410 Chipset PCIe Root Port #21
+	a3ec  B460/H410 Chipset PCIe Root Port #22
+	a3ed  B460/H410 Chipset PCIe Root Port #23
+	a3ee  B460/H410 Chipset PCIe Root Port #24
+	a3f0  B460/H410 Chipset HD Audio
+	a3f1  B460/H410 Chipset HD Audio
+	a3f2  B460/H410 Chipset HD Audio
+	a3f3  B460/H410 Chipset HD Audio
+	a3f4  B460/H410 Chipset HD Audio
+	a3f5  B460/H410 Chipset HD Audio
+	a3f6  B460/H410 Chipset HD Audio
+	a3f7  B460/H410 Chipset HD Audio
 	a620  6400/6402 Advanced Memory Buffer (AMB)
 	a700  Raptor Lake-S Host Bridge/DRAM Controller
 	a703  Raptor Lake-S Host Bridge/DRAM Controller
@@ -40780,50 +40840,81 @@
 	a7ac  Raptor Lake-U [Intel Graphics]
 	a7ad  Raptor Lake-U [Intel Graphics]
 	a806  Lunar Lake-M LPC/eSPI Controller
+	a807  Core Ultra 200V Series Processors eSPI Controller
+	a820  Core Ultra 200V Series Processors P2SB (8 bit)
+	a821  Core Ultra 200V Series Processors PMC
 	a822  Lunar Lake-M SMbus Controller
-	a823  Lunar Lake-M SPI Controller
-	a824  Lunar Lake-M Trace Hub
-	a825  Lunar Lake-M Serial IO UART Controller #0
-	a826  Lunar Lake-M Serial IO UART Controller #1
-	a827  Lunar Lake-M Serial IO SPI Controller #0
-	a828  Lunar Lake-M HD Audio Controller
-	a830  Lunar Lake-M Serial IO SPI Controller #1
-	a831  Lunar Lake-M Thunderbolt 4 USB Controller
-	a833  Lunar Lake-M Thunderbolt 4 NHI #0
-	a834  Lunar Lake-M Thunderbolt 4 NHI #1
-	a838  Lunar Lake-M PCI Express Root Port #1
-	a839  Lunar Lake-M PCI Express Root Port #2
-	a83a  Lunar Lake-M PCI Express Root Port #3
-	a83b  Lunar Lake-M PCI Express Root Port #4
-	a83c  Lunar Lake-M PCI Express Root Port #5
-	a83d  Lunar Lake-M PCI Express Root Port #6
+	a823  Core Ultra 200V Series Processors SPI (flash) Controller
+	a824  Core Ultra 200V Series Processors Trace Hub
+	a825  Core Ultra 200V Series Processors UART #0
+	a826  Core Ultra 200V Series Processors UART #1
+	a827  Core Ultra 200V Series Processors GSPI #0
+	a828  Core Ultra 200V Series Processors HD Audio
+	a830  Core Ultra 200V Series Processors GSPI #1
+	a831  Core Ultra 200V Series Processors Type-C Subsystem xHCI
+	a833  Core Ultra 200V Series Processors Thunderbolt DMA0
+	a834  Core Ultra 200V Series Processors Thunderbolt DMA1
+	a838  Core Ultra 200V Series Processors PCIe Root Port #1
+	a839  Core Ultra 200V Series Processors PCIe Root Port #2
+	a83a  Core Ultra 200V Series Processors PCIe Root Port #3
+	a83b  Core Ultra 200V Series Processors PCIe Root Port #4
+	a83c  Core Ultra 200V Series Processors PCIe Root Port #5
+	a83d  Core Ultra 200V Series Processors PCIe Root Port #6
 	a840  BE200 Series Wi-Fi 7
-	a845  Lunar Lake-M Integrated Sensor Hub
+	a845  Core Ultra 200V Series Processors Integrated Sensor Hub (ISH)
+	a846  Core Ultra 200V Series Processors GSPI #2
 	a847  Lunar Lake-M UFS Controller
-	a848  Lunar Lake-M Touch Host Controller #0 ID1
-	a849  Lunar Lake-M Touch Host Controller #0 ID2
-	a84a  Lunar Lake-M Touch Host Controller #1 ID1
-	a84b  Lunar Lake-M Touch Host Controller #1 ID2
-	a84e  Lunar Lake-M Thunderbolt 4 PCI Express Root Port #0
-	a84f  Lunar Lake-M Thunderbolt 4 PCI Express Root Port #1
-	a860  Lunar Lake-M Thunderbolt 4 PCI Express Root Port #2
-	a870  Lunar Lake-M CSME HECI #1
-	a873  Lunar Lake-M Keyboard and Text (KT) Redirection
-	a878  Lunar Lake-M Serial IO I2C Controller #0
-	a879  Lunar Lake-M Serial IO I2C Controller #1
-	a87a  Lunar Lake-M Serial IO I2C Controller #2
-	a87b  Lunar Lake-M Serial IO I2C Controller #3
-	a87d  Lunar Lake-M USB 3.2 Gen 2x1 xHCI Host Controller
-	a87f  Lunar Lake-M Shared SRAM
+	a848  Core Ultra 200V Series Processors Touch Host Controller (THC) #0 ID1
+	a849  Core Ultra 200V Series Processors Touch Host Controller (THC) #0 ID2
+	a84a  Core Ultra 200V Series Processors Touch Host Controller (THC) #1 ID1
+	a84b  Core Ultra 200V Series Processors Touch Host Controller (THC) #1 ID2
+	a84c  Core Ultra 200V Series Processors P2SB (16 bit)
+	a84e  Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #21
+	a84f  Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #22
+	a850  Core Ultra 200V Series Processors I2C #4
+	a851  Core Ultra 200V Series Processors I2C #5
+	a852  Core Ultra 200V Series Processors UART #2
+	a85d  Core Ultra 200V Series Processors CSME HECI #1
+	a85e  Core Ultra 200V Series Processors CSME HECI #2
+	a85f  Core Ultra 200V Series Processors CSME HECI #3
+	a860  Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #23
+	a862  Core Ultra 200V Series Processors CSME HECI #1
+	a863  Core Ultra 200V Series Processors CSME HECI #2
+	a864  Core Ultra 200V Series Processors CSME HECI #3
+	a870  Core Ultra 200V Series Processors CSME HECI #1 (CSE)
+	a871  Core Ultra 200V Series Processors CSME HECI #2 (CSE)
+	a872  Core Ultra 200V Series Processors CSME IDE Redirection (IDE-R)
+	a873  Core Ultra 200V Series Processors CSME Keyboard and Text (KT) Redirection
+	a874  Core Ultra 200V Series Processors CSME HECI #3 (CSE)
+	a875  Core Ultra 200V Series Processors CSME HECI #4 (CSE)
+	a877  Core Ultra 200V Series Processors I3C #2
+	a878  Core Ultra 200V Series Processors I2C #0
+	a879  Core Ultra 200V Series Processors I2C #1
+	a87a  Core Ultra 200V Series Processors I2C #2
+	a87b  Core Ultra 200V Series Processors I2C #3
+	a87c  Core Ultra 200V Series Processors I3C #1
+	a87d  Core Ultra 200V Series Processors Standalone xHCI Controller
+	a87f  Core Ultra 200V Series Processors Shared SRAM
 	abc0  Omni-Path Fabric Switch Silicon 100 Series
-	ad0b  Volume Management Device NVMe RAID Controller Intel Corporation
-	ad0d  Arrow Lake-HX Crash Log & Telemetry
-	ad1d  Arrow Lake NPU
+	ad03  Core Ultra 200 Series Processors Dynamic Tuning Technology (DTT)
+	ad0b  Core Ultra 200 Series Processors VMD
+	ad0d  Core Ultra 200 Series Processors Crash Log and Telemetry
+	ad1d  Core Ultra 200 Series Processors NPU
 	ae10  Arrow Lake-HX Direct eSPI Controller
-	ae23  Arrow Lake-HX SPI (flash) Controller
-	ae4c  Arrow Lake-HX Gauss Newton Algorithm (GNA)
-	ae4d  Arrow Lake-HX PCIe Root Port #13
-	ae7f  Arrow Lake-HX Shared SRAM (SOC-S)
+	ae20  Core Ultra 200 Series Processors P2SB (SOC-S)
+	ae21  Core Ultra 200 Series Processors PMC (SOC-S)
+	ae22  Core Ultra 200 Series Processors SMBus
+	ae23  Core Ultra 200 Series Processors SPI (flash) Controller
+	ae24  Core Ultra 200 Series Processors Trace Hub
+	ae4c  Core Ultra 200 Series Processors Gauss Newton Algorithm (GNA)
+	ae4d  Core Ultra 200 Series Processors PCIe Root Port #13
+	ae4e  Core Ultra 200 Series Processors PCIe Root Port #14
+	ae4f  Core Ultra 200 Series Processors PCIe Root Port #15
+	ae70  Core Ultra 200 Series Processors CSME HECI #1
+	ae71  Core Ultra 200 Series Processors CSME HECI #2
+	ae74  Core Ultra 200 Series Processors CSME HECI #3
+	ae7f  Core Ultra 200 Series Processors Shared SRAM (SOC-S)
+	b000  Core Ultra Processors (Series 3) PTL-404
 	b002  Panther Lake Host Bridge/DRAM Controller
 	b01d  Panther Lake Innovation Platform Framework Processor Participant
 	b03e  Panther Lake NPU
