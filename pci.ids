@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.03
-#	Date:    2026-06-03 03:15:01
+#	Version: 2026.06.04
+#	Date:    2026-06-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29665,8 +29665,7 @@
 	00f1  JetStream [DMX F1 Transparent NIC]
 1f8c  Exascend,INC.
 	8008  SM8008 NVMe SSD [Px5 Series SSD]
-# Px5 SSD
-		1f8c 0001  General
+		1f8c 0001  PD5 Series General
 		1f8c 0002  Px5 Series General
 	8366  SM8366 NVMe SSD [PD5 Series SSD]
 		1f8c 0001  PD5 Series General
