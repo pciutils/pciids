@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.04
-#	Date:    2026-06-04 03:15:02
+#	Version: 2026.06.05
+#	Date:    2026-06-05 03:15:05
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25473,6 +25473,7 @@
 	5028  PS5028-E28 PCIe5 NVMe Controller
 	5029  PS5029-E29T PCIe4 NVMe Controller (DRAM-less)
 	5031  PS5031-E31T PCIe5 NVMe Controller
+	5037  PS5037-E37T PCIe5 NVMe Controller (DRAM-less)
 	5302  PS5302-X2 PCIe5 NVMe Controller
 1989  Montilio Inc.
 	0001  RapidFile Bridge
@@ -28260,6 +28261,7 @@
 	0018  Exceria Pro NVMe SSD
 	001a  NVMe SSD Controller BG6 (DRAM-less)
 	001b  NVMe SSD Controller EG6 (DRAM-less)
+	001e  NVMe SSD Controller LD2-L
 	001f  NVMe SSD Controller CD8
 		1028 2223  DC NVMe CD8 U.2 SED 15.36TB
 		1028 2224  DC NVMe CD8 U.2 SED 7.68TB
@@ -28387,12 +28389,14 @@
 		1028 23f8  KCD9XPJE3T20
 		1028 23f9  KCD9XPJE6T40
 		1028 23fa  KCD9XPJE12T8
+	003a  NVMe SSD Controller BG8 (DRAM-less)
 	003b  Exceria Basic NVMe SSD (DRAM-less)
 	003d  LC9 E3.L NVMe SSD
 		1028 244f  RLC9GZV245T
 		1028 2450  RLC9CZV245T
 	003e  LC9 E3.S NVMe SSD
 	003f  LC9 U.2 NVMe SSD
+	0042  NVMe SSD Controller LD4
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
 1e18  Beijing GuangRunTong Technology Development Co.,Ltd
 1e24  Squirrels Research Labs
@@ -30171,6 +30175,7 @@
 	1008  NEOTAPX FPGA Accelerator Card
 	1104  NEOTAPX FPGA Timing Synchronization Card
 	1200  MUX Ultimate FPGA Accelerator Card
+	1201  MUX Ultimate FPGA Accelerator Card
 20b5  Shanghai StarFive Technology Co., Ltd.
 20ba  Hangzhou Hikstorage Technology Co., Ltd.
 	1202  NAND memory controller
