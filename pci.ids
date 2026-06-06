@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.05
-#	Date:    2026-06-05 03:15:05
+#	Version: 2026.06.06
+#	Date:    2026-06-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -73,7 +73,7 @@
 	7a34  2K2000/3000 / 3B6000M / 7A2000 Chipset USB 3.0 xHCI Controller
 	7a35  LG200 GPU
 	7a36  2K2000 / 7A2000 Chipset Display Controller
-	7a37  2K2000/3000 / 3B6000M HDMI Audio Controller
+	7a37  2K2000/3000 / 3B6000M / 7A2000 Chipset HDMI Audio Controller
 	7a39  2K2000 / 7A2000 Chipset PCIe x1 Root Port
 	7a3e  2K2000 RNG Controller
 	7a42  Advanced Peripheral Bus Controller [Chipset / CPU inside]
@@ -29673,6 +29673,7 @@
 		1f8c 0002  Px5 Series General
 	8366  SM8366 NVMe SSD [PD5 Series SSD]
 		1f8c 0001  PD5 Series General
+		1f8c 0002  Px5 Series General
 1f90  Quside Technologies
 	7024  QRNG PCIe Device
 	7025  QRNG PCIe Device
