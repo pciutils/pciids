@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.06
-#	Date:    2026-06-06 03:15:02
+#	Version: 2026.06.07
+#	Date:    2026-06-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -642,6 +642,7 @@
 	0072  SAS2008 PCI-Express Fusion-MPT SAS-2 [Falcon]
 		1000 3020  9211-8i
 		1000 3040  9210-8i
+		1000 3060  9212-4i4e
 		1000 3080  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
 		1000 30b0  9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]
 		1000 30e0  9202-16e
@@ -14321,7 +14322,8 @@
 	000b  EMU20k2 [Sound Blaster X-Fi Titanium Series]
 		1102 0041  SB0880 [SoundBlaster X-Fi Titanium PCI-e]
 		1102 0062  SB1270 [SoundBlaster X-Fi Titanium HD]
-	0010  CA0132 Sound Core3D [Sound Blaster AE-7]
+	0010  CA0132 Sound Core3D [Sound Blaster AE-7/AE-9]
+		1102 0071  Sound Blaster AE-9
 		1102 0081  Sound Blaster AE-7
 	0012  CA0132 Sound Core3D [Sound Blaster Recon3D / Z-Series / Sound BlasterX AE-5 Plus]
 		1102 0010  SB1570 SB Audigy Fx
@@ -27269,14 +27271,14 @@
 	0714  ZX-100/ZX-200 PCI Express Root Port
 	0715  ZX-100/ZX-200 PCI Express Root Port
 	0716  ZX-D PCI Express Root Port
-	0717  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
-	0718  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
-	0719  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
+	0717  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
+	0718  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
+	0719  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
 	071a  KX-5000/KX-6000/KX-6000G/KH-40000 PCI Express Root Port
-	071b  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
-	071c  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
-	071d  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
-	071e  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port
+	071b  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
+	071c  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
+	071d  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
+	071e  KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port
 	071f  ZX-200 Upstream Port of PCI Express Switch
 	0720  ZX-200 PCIE RC6 controller
 	0721  ZX-200 Downstream Port of PCI Express Switch
@@ -27292,26 +27294,58 @@
 	0739  KX-7000 PCIE Express Root Port
 	073a  KX-7000 PCIE Express Root Port
 	073b  KX-7000 PCIE Express Root Port
+	073c  KH-50000 PCI Express Root Port
+	073d  KH-50000 PCI Express Root Port
+	073e  KH-50000 PCI Express Root Port
+	073f  KH-50000 PCI Express Root Port
+	0740  KH-50000 PCI Express Root Port
+	0741  KH-50000 PCI Express Root Port
+	0742  KH-50000 PCI Express Root Port
+	0743  KH-50000 PCI Express Root Port
+	0744  KH-50000 PCI Express Root Port
+	0745  KH-50000 PCI Express Root Port
+	0746  KH-50000 PCI Express Root Port
+	0747  KH-50000 PCI Express Root Port
+	0748  KH-50000 PCI Express Root Port
+	0749  KH-50000 PCI Express Root Port
+	074a  KH-50000 PCI Express Root Port
+	074b  KH-50000 PCI Express Root Port
+	074c  KH-50000 PCI Express Root Port
+	074d  KH-50000 PCI Express Root Port
+	074e  KH-50000 PCI Express Root Port
+	074f  KH-50000 PCI Express Root Port
+	0750  KH-50000 PCI Express Root Port
+	0751  KH-50000 PCI Express Root Port
+	0752  KH-50000 PCI Express Root Port
+	0757  KH-50000 PCI Express Root Port
+	0758  KH-50000 PCI Express Root Port
+	0759  KH-50000 PCI Express Root Port
+	075a  KH-50000 PCI Express Root Port
+	075b  KH-50000 PCI Express Root Port
+	075c  KH-50000 PCI Express Root Port
+	075d  KH-50000 PCI Express Root Port
+	075e  KH-50000 PCI Express Root Port
 	1000  ZX-D Standard Host Bridge
-	1001  ZX-D/ZX-E/KH-40000/KX-7000 Miscellaneous Bus
+	1001  ZX-D/ZX-E/KH-40000/KX-7000/KH-50000 Miscellaneous Bus
 	1003  ZX-E Standard Host Bridge
 	1005  KH-40000 Standard Host Bridge
 	1006  KX-6000G Standard Host Bridge
 	1007  KX-7000 Standard Host Bridge
+	1008  KH-50000 Standard Host Bridge
 	3001  ZX-100 Standard Host Bridge
 	300a  ZX-100 Miscellaneous Bus
-	3038  ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Universal PCI to USB Host Controller
-	3104  ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Enhanced PCI to USB Host Controller
-	31b0  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Host Bridge
-	31b1  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Host Bridge
+	3038  ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Universal PCI to USB Host Controller
+	3104  ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Enhanced PCI to USB Host Controller
+	31b0  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Host Bridge
+	31b1  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Host Bridge
 	31b2  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 DRAM Controller
-	31b3  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Power Management Controller
-	31b4  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 I/O APIC
-	31b5  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Scratch Device
-	31b7  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Host Bridge
+	31b3  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Power Management Controller
+	31b4  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 I/O APIC
+	31b5  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Scratch Device
+	31b7  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Host Bridge
 	31b8  ZX-100/ZX-D PCI to PCI Bridge
 	3200  KX-7000 Host Bridge
-	3288  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 High Definition Audio Controller
+	3288  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 High Definition Audio Controller
 	345b  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000 Miscellaneous Bus
 	3a02  ZX-100 C-320 GPU
 	3a03  ZX-D C-860 GPU
@@ -27324,12 +27358,12 @@
 	3c00  KH-40000/KX-7000 DRAM Controller
 	3c02  KX-6000G DRAM Controller
 	3d01  KX-6000G C-1080 GPU
-	9002  ZX-100/ZX-200/KH-40000/KX-7000 EIDE Controller
+	9002  ZX-100/ZX-200/KH-40000/KX-7000/KH-50000 EIDE Controller
 	9003  ZX-100/KX-6000/KX-6000G EIDE Controller
-	9043  KX-6000G/KH-40000/KX-7000 RAID Controller
+	9043  KX-6000G/KH-40000/KX-7000/KH-50000 RAID Controller
 	9045  ZX-100/ZX-D/ZX-E RAID Accelerator 0
 	9046  ZX-D/ZX-E RAID Accelerator 1
-	9083  ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000 StorX AHCI Controller
+	9083  ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 StorX AHCI Controller
 	9084  ZX-100 StorX AHCI Controller
 	9100  ZX-200 Cross bus
 	9101  ZX-200 Traffic Controller
@@ -27346,12 +27380,13 @@
 	9204  KX-6000/KX-6000G/KX-7000 USB3 xHCI Host Controller
 	9205  KH-40000 USB eXtensible Host Controller
 	9206  KX-7000 USB4 Contoller
+	9207  KH-50000 USB eXtensible Host Controller
 	9286  ZX-D eMMC Host Controller
-	9300  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 eSPI Host Controller
+	9300  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 eSPI Host Controller
 	9500  KX-7000 I2S Controller
 	9501  KX-7000 I2S Controller
 	95d0  ZX-100 Universal SD Host Controller
-	f410  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Com Port
+	f410  ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Com Port
 1d18  RME
 	0001  Fireface UFX+
 # acquired by Intel
