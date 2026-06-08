@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.07
-#	Date:    2026-06-07 03:15:02
+#	Version: 2026.06.08
+#	Date:    2026-06-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7201,9 +7201,12 @@
 	8241  TUSB73x0 SuperSpeed USB 3.0 xHCI Host Controller
 		1014 04b2  S824 (8286-42A)
 	8400  ACX 100 22Mbps Wireless Interface
+		111a 1021  SpeedStream 1021 (SS1021) Wireless Cardbus PC Card
 		1186 3b00  DWL-650+ PC Card cardbus 22Mbs Wireless Adapter [AirPlus]
 		1186 3b01  DWL-520+ 22Mbps PCI Wireless Adapter
 		1395 2201  WL22-PC
+		167d b230  Netopia TER/WPC11N1 Wireless LAN Card
+		16a5 1801  WE302-TF
 		16ab 8501  WL-8305 IEEE802.11b+ Wireless LAN PCI Adapter
 	8401  ACX 100 22Mbps Wireless Interface
 	8888  Multicore DSP+ARM KeyStone II SOC
@@ -7216,12 +7219,15 @@
 # Found in Philips ADSL ANNEX A WLAN Router SNA6500/18 sold by Belgacom
 		104c 9067  TNETW1130GVF
 		104c 9096  Trendnet TEW-412PC Wireless PCI Adapter (Version A)
+		1154 032c  WLI-CB-G54L
 		1186 3b04  DWL-G520+ Wireless PCI Adapter
 		1186 3b05  DWL-G650+ AirPlusG+ CardBus Wireless LAN
 		1186 3b08  AirPlus G DWL-G630 Wireless Cardbus Adapter (rev.B1)
 		1385 4c00  WG311v2 802.11g Wireless PCI Adapter
 		13d1 aba0  SWLMP-54108 108Mbps Wireless mini PCI card 802.11g+
 		14ea ab07  GW-NS54GM Wireless Cardbus Adapter
+		167d b260  SWL-2600N
+		16ab 9067  A90-200WG-01 802.11g Wireless PC Card
 		16ec 010d  USR5416 802.11g Wireless Turbo PCI Adapter
 		16ec 010e  USR5410 802.11g Wireless Cardbus Adapter
 		1737 0033  WPC54G v2 802.11g Wireless-G Notebook Adapter
@@ -16593,11 +16599,15 @@
 	138f  W8300 802.11 Adapter (rev 07)
 	1fa6  Marvell W8300 802.11 Adapter
 		1186 3b08  AirPlus G DWL-G630 Wireless Cardbus Adapter (rev.A1)
+		1186 3b09  AirPlus G DWL-G510 Wireless G PCI Card
 	1fa7  88W8310 and 88W8000G [Libertas] 802.11g client chipset
 	1faa  88w8335 [Libertas] 802.11b/g Wireless
+		1186 3b21  EH101 Wireless G Notebook Adapter
+		1186 3b22  EH102 Wireless G Desktop Adapter
 		1385 4e00  WG511v2 54 Mbps Wireless PC Card
 		1385 6b00  WG311v3 802.11g Wireless PCI Adapter
 		1737 0040  WPC54G v5 802.11g Wireless-G Notebook Adapter
+		a727 6802  3CRGPC10075 OfficeConnect Wireless 54Mbps 11g PC Card
 	2211  88SB2211 PCI Express to PCI Bridge
 	2a01  88W8335 [Libertas] 802.11b/g Wireless
 	2a02  88W8361 [TopDog] 802.11n Wireless
@@ -16605,9 +16615,14 @@
 		1385 7c00  WN511T RangeMax Next 300 Mbps Wireless PC Card
 		1385 7c01  WN511T RangeMax Next 300 Mbps Wireless Notebook Adapter
 		1385 7e00  WN311T RangeMax Next 300 Mbps Wireless PCI Adapter
+		1737 0065  WPC4400N Wireless-N Business Notebook Adapter
 		1799 801b  F5D8011 v2 802.11n N1 Wireless Notebook Card
 	2a08  88W8362e [TopDog] 802.11a/b/g/n Wireless
 	2a0a  88W8363 [TopDog] 802.11n Wireless
+	2a0b  88W8363 [TopDog] 802.11n Wireless
+		1154 0356  WLI-CB-AMG144N
+		1154 0357  WLI-CB-AG300N Nfiniti 802.11a/g/b + Draft 802.11n CardBus Card
+		1154 035c  WLI-CB-AMG300N
 	2a0c  88W8363 [TopDog] 802.11n Wireless
 	2a24  88W8363 [TopDog] 802.11n Wireless
 	2a2b  88W8687 [TopDog] 802.11b/g Wireless
@@ -17778,12 +17793,16 @@
 	3872  ISL3872 [Prism 3]
 		1468 0202  LAN-Express IEEE 802.11b Wireless LAN
 	3873  ISL3874 [Prism 2.5]/ISL3872 [Prism 3]
+		10b7 0001  3CRDW696 rev A Wireless LAN PCI Adapter [ISL3874]
 		10cf 1169  MBH7WM01-8734 802.11b Wireless Mini PCI Card [ISL3874]
+		10fc d009  WN-B11/PCIH
 		1186 3501  DWL-520 Wireless PCI Adapter (rev A or B) [ISL3874]
 		1186 3700  DWL-520 Wireless PCI Adapter (rev E1) [ISL3872]
 		1385 4105  MA311 802.11b wireless adapter [ISL3874]
 		1668 0414  HWP01170-01 802.11b PCI Wireless Adapter
+		1668 1406  802MIP 802.11b Mini PCI Adapter [ISL3874]
 		16a5 1601  AIR.mate PC-400 PCI Wireless LAN Adapter
+		16be 2001  CTX712
 		1737 3874  WMP11 v1 802.11b Wireless-B PCI Adapter [ISL3874]
 		4033 7033  PCW200 802.11b Wireless PCI Adapter [ISL3874]
 		8086 2510  M3AWEB Wireless 802.11b MiniPCI Adapter
@@ -21947,6 +21966,7 @@
 		1154 0330  Buffalo WLI2-PCI-G54S High Speed Mode Wireless Desktop Adapter
 		144f 7050  eMachines M6805 802.11g Built-in Wireless
 		144f 7051  Sonnet Aria Extreme PCI
+		16a5 1604  WE602-B
 		1737 0013  WMP54G v1 802.11g PCI Adapter
 		1737 0014  WMP54G v2 802.11g PCI Adapter
 		1737 0015  WMP54GS v1.0 802.11g Wireless-G PCI Adapter with SpeedBooster
@@ -23727,6 +23747,7 @@
 		1186 3a67  DWL-G650M Super G MIMO Wireless Notebook Adapter
 		1186 3a68  DWL-G520M Wireless 108G MIMO Desktop Adapter
 		187e 340e  M-302 802.11g Wireless PCI Adapter
+		1976 1600  TEW-603PI 108Mbps 802.11g Wireless PCI Adapter
 		1976 2003  TEW-601PC 802.11g Wireless CardBus Adapter
 	0023  AR5416 Wireless Network Adapter [AR5008 802.11(a)bgn]
 		0308 340b  NWD-170N 802.11bgn Wireless CardBus Adapter
@@ -24401,11 +24422,16 @@
 # nee Airgo Networks, Inc.
 17cb  Qualcomm Technologies, Inc
 	0001  AGN100 802.11 a/b/g True MIMO Wireless Card
+		1154 0337  WLI-CB-G108
 		1385 5c00  WGM511 Pre-N 802.11g Wireless CardBus Adapter
+		14ea 6101  CQW-NS108G
+		1737 0037  WPC54GX Wireless-G Notebook Adapter with SRX
 		1737 0045  WMP54GX v1 802.11g Wireless-G PCI Adapter with SRX
 	0002  AGN300 802.11 a/b/g True MIMO Wireless Card
+		1043 106f  WL-106gM 240 MIMO Wireless CardBus Adapter
 		1385 6d00  WPNT511 RangeMax 240 Mbps Wireless CardBus Adapter
 		1737 0054  WPC54GX4 v1 802.11g Wireless-G Notebook Adapter with SRX400
+		1737 0056  WMP54GX4 Wireless-G PCI Adapter with SRX400
 	0104  APQ8096 PCIe Root Complex [Snapdragon 820]
 	0105  MSM8998 PCIe Root Complex
 	0106  SDM850 PCIe Root Complex [Snapdragon 850]
@@ -24656,6 +24682,7 @@
 	2120  IPN 2120 802.11b
 		1737 0020  WMP11 v4 802.11b Wireless-B PCI Adapter
 	2220  IPN 2220 802.11g
+		1154 0334  WLI2-CB-G54L
 		1468 0305  T60N871 802.11g Mini PCI Wireless Adapter
 		1737 0029  WPC54G v4 802.11g Wireless-G Notebook Adapter
 17ff  Benq Corporation
@@ -24731,15 +24758,18 @@
 	0301  RT2561/RT61 802.11g PCI
 		1186 3c08  AirPlus G DWL-G630 Wireless Cardbus Adapter (rev.E1)
 		1186 3c09  DWL-G510 Rev C
+		1259 c123  CG-WLCB54GPX
 		13d1 abe3  miniPCI Pluscom 802.11 a/b/g
 		1458 e933  GN-WI01GS
 		1458 e934  GN-WP01GS
 		1462 b833  MP54G5 (MS-6833B)
+		1462 b834  PC60G (MS-6834B) Wireless 11g Turbo G PCI Card
 		1737 0055  WMP54G v4.1
 		1799 700e  F5D7000 v6000 Wireless G Desktop Card
 		1799 701e  F5D7010 v6000 Wireless G Notebook Card
 		17f9 0012  AWLC3026T 802.11g Wireless CardBus Adapter
 		1814 2561  EW-7108PCg/EW-7128g
+		182d 90aa  WL-170 Wireless Network Cardbus Card
 	0302  RT2561/RT61 rev B 802.11g
 		1186 3a71  DWA-510 Wireless G Desktop Adapter
 		1186 3c08  AirPlus G DWL-G630 Wireless Cardbus Adapter (rev.E2)
