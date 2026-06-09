@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.08
-#	Date:    2026-06-08 03:15:02
+#	Version: 2026.06.09
+#	Date:    2026-06-09 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23114,6 +23114,8 @@
 	2100  CX8 Family [CX8 Data Direct Interface]
 # NVLink Chip to Chip Link
 	2101  CX10 Family [ConnectX-10 NVLink-C2C]
+# Starting with CX10 generation
+	2300  ConnectX/BlueField Family Hardware Performance Monitors [HWPM]
 	4117  MT27712A0-FDCF-AE
 		1bd4 0039  SN10XMP2P25
 		1bd4 003a  25G SFP28 SP EO251FM9 Adapter
@@ -24321,6 +24323,8 @@
 	a300  OCTEON TX CN83XX
 	af00  CN99xx [ThunderX2] Integrated PCI Host bridge
 	af84  CN99xx [ThunderX2] Integrated PCI Express RP Bridge
+# Name inferred from https://www.prnewswire.com/news-releases/cavium-and-xpliant-introduce-a-fully-programmable-switch-silicon-family-scaling-to-32-terabits-per-second-275262511.html
+	f010  XPliant CNX880xx Network Processor
 1787  Hightech Information System Ltd.
 1789  Ennyah Technologies Corp.
 # also used by Struck Innovative Systeme for joint developments
