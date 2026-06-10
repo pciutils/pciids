@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.09
-#	Date:    2026-06-09 03:15:01
+#	Version: 2026.06.10
+#	Date:    2026-06-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29825,7 +29825,7 @@
 	0004  D20 Pro
 	0005  D20 Plus N
 	0006  D20 Pro N
-	0101  D2
+	0101  T1
 # nee Tumsan Oy
 1fc0  Ascom (Finland) Oy
 	0300  E2200 Dual E1/Rawpipe Card
@@ -40989,11 +40989,16 @@
 	ae74  Core Ultra 200 Series Processors CSME HECI #3
 	ae7f  Core Ultra 200 Series Processors Shared SRAM (SOC-S)
 	b000  Core Ultra Processors (Series 3) PTL-404
-	b002  Panther Lake Host Bridge/DRAM Controller
-	b01d  Panther Lake Innovation Platform Framework Processor Participant
-	b03e  Panther Lake NPU
-	b05d  Panther Lake IPU
-	b07d  Panther Lake Platform Monitoring Technology (PMT)
+	b001  Core Ultra Processors (Series 3) PTL-H12Xe
+	b002  Core Ultra Processors (Series 3) PTL-H484
+	b003  Core Ultra Processors (Series 3) PTL-204
+	b004  Core Ultra Processors (Series 3) PTL-H444
+	b005  Core Ultra Processors (Series 3) PTL-H444
+	b01d  Core Ultra Processors (Series 3) DTT
+	b02d  Core Ultra Processors (Series 3) IAA
+	b03e  Core Ultra Processors (Series 3) NPU
+	b05d  Core Ultra Processors (Series 3) IPU
+	b07d  Core Ultra Processors (Series 3) Crashlog and Telemetry
 	b080  Panther Lake [Arc B390]
 	b081  Panther Lake [Arc B370]
 	b082  Panther Lake [Arc B390]
@@ -41095,59 +41100,167 @@
 	e221  Battlemage G31 [Intel Graphics]
 	e222  Battlemage G31 [Arc Pro B65]
 	e223  Battlemage G31 [Arc Pro B70]
-	e302  Panther Lake LPC/eSPI Controller
-	e322  Panther Lake SMBus Controller
-	e323  Panther Lake SPI(flash) Controller
-	e325  Panther Lake Serial IO UART Controller #0
-	e326  Panther Lake Serial IO UART Controller #1
-	e327  Panther Lake Serial IO SPI Host Controller #0
-	e328  Panther Lake Smart Sound Technology BUS
-	e330  Panther Lake Serial IO SPI Host Controller #1
-	e331  Panther Lake TCSS USB3 xHCI Controller
-	e333  Panther Lake Thunderbolt 4 NHI #0
-	e334  Panther Lake Thunderbolt 4 NHI #1
-	e338  Panther Lake PCI Express Root Port A1
-	e339  Panther Lake PCI Express Root Port A2
-	e33a  Panther Lake PCI Express Root Port A3
-	e33b  Panther Lake PCI Express Root Port A4
-	e33c  Panther Lake PCI Express Root Port B1
-	e33d  Panther Lake PCI Express Root Port B2
-	e33e  Panther Lake PCI Express Root Port B3
-	e33f  Panther Lake PCI Express Root Port B4
-	e340  Panther Lake PCH CNVi WiFi
+	e300  Core Ultra Processors (Series 3) eSPI
+	e302  Core Ultra Processors (Series 3) eSPI
+	e31f  Core Ultra Processors (Series 3) eSPI
+	e320  Core Ultra Processors (Series 3) P2SB
+	e321  Core Ultra Processors (Series 3) PMC
+	e322  Core Ultra Processors (Series 3) SMBus
+	e323  Core Ultra Processors (Series 3) SPI (flash) Controller
+	e324  Core Ultra Processors (Series 3) Trace Hub
+	e325  Core Ultra Processors (Series 3) UART #0
+	e326  Core Ultra Processors (Series 3) UART #1
+	e327  Core Ultra Processors (Series 3) GSPI #0
+	e328  Core Ultra Processors (Series 3) HD Audio
+	e329  Core Ultra Processors (Series 3) HD Audio
+	e32a  Core Ultra Processors (Series 3) HD Audio
+	e32b  Core Ultra Processors (Series 3) HD Audio
+	e32c  Core Ultra Processors (Series 3) HD Audio
+	e32d  Core Ultra Processors (Series 3) HD Audio
+	e32e  Core Ultra Processors (Series 3) HD Audio
+	e32f  Core Ultra Processors (Series 3) HD Audio
+	e330  Core Ultra Processors (Series 3) GSPI #1
+	e331  Core Ultra Processors (Series 3) Type-C Subsystem xHCI
+	e332  Core Ultra Processors (Series 3) Type-C Subsystem xDCI
+	e333  Core Ultra Processors (Series 3) Thunderbolt DMA0
+	e334  Core Ultra Processors (Series 3) Thunderbolt DMA1
+	e337  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #24
+	e338  Core Ultra Processors (Series 3) PCIe Root Port #1
+	e339  Core Ultra Processors (Series 3) PCIe Root Port #2
+	e33a  Core Ultra Processors (Series 3) PCIe Root Port #3
+	e33b  Core Ultra Processors (Series 3) PCIe Root Port #4
+	e33c  Core Ultra Processors (Series 3) PCIe Root Port #5
+	e33d  Core Ultra Processors (Series 3) PCIe Root Port #6
+	e33e  Core Ultra Processors (Series 3) PCIe Root Port #7
+	e33f  Core Ultra Processors (Series 3) PCIe Root Port #8
+	e340  Core Ultra Processors (Series 3) CNVi Wi-Fi
 		8086 0094  Wi-Fi 6E AX211 160MHz
-	e34e  Panther Lake Thunderbolt 4 PCI Express Root Port #0
-	e35d  Panther Lake CSME HECI #1
-	e360  Panther Lake Thunderbolt 4 PCI Express Root Port #2
-	e361  Panther Lake PCI Express Root Port C1
-	e362  Panther Lake Primary to Sideband (P2SB) Bridge IOE
-	e363  Panther Lake PCI Express Root Port C3
-	e364  Panther Lake PCI Express Root Port C4
-	e365  Panther Lake PCI Express Root Port D1
-	e366  Panther Lake PCI Express Root Port D2
+	e341  Core Ultra Processors (Series 3) CNVi Wi-Fi
+	e342  Core Ultra Processors (Series 3) CNVi Wi-Fi
+	e343  Core Ultra Processors (Series 3) CNVi Wi-Fi
+	e344  Core Ultra Processors (Series 3) IEH #0
+	e345  Core Ultra Processors (Series 3) ISH
+	e346  Core Ultra Processors (Series 3) GSPI #2
+	e348  Core Ultra Processors (Series 3) THC #0 ID1
+	e349  Core Ultra Processors (Series 3) THC #0 ID2
+	e34a  Core Ultra Processors (Series 3) THC #1 ID1
+	e34b  Core Ultra Processors (Series 3) THC #1 ID2
+	e34c  Core Ultra Processors (Series 3) P2SB
+	e34d  Core Ultra Processors (Series 3) IEH #1
+	e34e  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #21
+	e34f  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #22
+	e350  Core Ultra Processors (Series 3) I2C #4
+	e351  Core Ultra Processors (Series 3) I2C #5
+	e352  Core Ultra Processors (Series 3) UART #2
+	e35c  Core Ultra Processors (Series 3) PCIe Root Port #10
+	e35d  Core Ultra Processors (Series 3) CSME HECI #1
+	e35e  Core Ultra Processors (Series 3) CSME HECI #2
+	e35f  Core Ultra Processors (Series 3) CSME HECI #3
+	e360  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #23
+	e361  Core Ultra Processors (Series 3) PCIe Root Port #9
+	e362  Core Ultra Processors (Series 3) CSME HECI #1
+	e363  Core Ultra Processors (Series 3) CSME HECI #2
+	e364  Core Ultra Processors (Series 3) CSME HECI #3
+	e365  Core Ultra Processors (Series 3) PCIe Root Port #11
+	e366  Core Ultra Processors (Series 3) PCIe Root Port #12
 	e367  Panther Lake PCI Express Root Port D3
 	e368  Panther Lake PCI Express Root Port D4
 	e369  Panther Lake PCI Express Root Port D5
 	e36a  Panther Lake PCI Express Root Port D6
 	e36b  Panther Lake PCI Express Root Port D7
 	e36c  Panther Lake PCI Express Root Port D8
-	e36f  Panther Lake I3C Host Controller #0
-	e370  Panther Lake MEI Controller
-	e376  Panther Lake Bluetooth PCI Enumerator
-	e378  Panther Lake Serial IO I2C Controller #0
-	e379  Panther Lake Serial IO I2C Controller #1
-	e37a  Panther Lake Serial IO I2C Controller #2
-	e37b  Panther Lake Serial IO I2C Controller #3
-	e37c  Panther Lake I3C Host Controller #1
-	e37d  Panther Lake USB 3.2 xHCI Controller
-	e37f  Panther Lake Shared SRAM
-	e431  Panther Lake USB 3.2 xHCI Controller
-	e434  Panther Lake Thunderbolt 4 NHI #2
-	e440  Panther Lake PCH CNVi WiFi
+	e36f  Core Ultra Processors (Series 3) I3C #2
+	e370  Core Ultra Processors (Series 3) CSME HECI #1 (CSE)
+	e371  Core Ultra Processors (Series 3) CSME HECI #2 (CSE)
+	e372  Core Ultra Processors (Series 3) CSME IDE Redirection (IDE-R)
+	e373  Core Ultra Processors (Series 3) CSME Keyboard and Text (KT) Redirection
+	e374  Core Ultra Processors (Series 3) CSME HECI #3 (CSE)
+	e375  Core Ultra Processors (Series 3) CSME HECI #4 (CSE)
+	e376  Core Ultra Processors (Series 3) CNVi Bluetooth
+	e378  Core Ultra Processors (Series 3) I2C #0
+	e379  Core Ultra Processors (Series 3) I2C #1
+	e37a  Core Ultra Processors (Series 3) I2C #2
+	e37b  Core Ultra Processors (Series 3) I2C #3
+	e37c  Core Ultra Processors (Series 3) I3C #1
+	e37d  Core Ultra Processors (Series 3) Standalone xHCI Controller
+	e37e  Core Ultra Processors (Series 3) Standalone USB Device Controller
+	e37f  Core Ultra Processors (Series 3) Shared SRAM
+	e400  Core Ultra Processors (Series 3) eSPI
+	e41f  Core Ultra Processors (Series 3) eSPI
+	e420  Core Ultra Processors (Series 3) P2SB
+	e421  Core Ultra Processors (Series 3) PMC
+	e422  Core Ultra Processors (Series 3) SMBus
+	e423  Core Ultra Processors (Series 3) SPI (flash) Controller
+	e424  Core Ultra Processors (Series 3) Trace Hub
+	e425  Core Ultra Processors (Series 3) UART #0
+	e426  Core Ultra Processors (Series 3) UART #1
+	e427  Core Ultra Processors (Series 3) GSPI #0
+	e428  Core Ultra Processors (Series 3) HD Audio
+	e429  Core Ultra Processors (Series 3) HD Audio
+	e42a  Core Ultra Processors (Series 3) HD Audio
+	e42b  Core Ultra Processors (Series 3) HD Audio
+	e42c  Core Ultra Processors (Series 3) HD Audio
+	e42d  Core Ultra Processors (Series 3) HD Audio
+	e42e  Core Ultra Processors (Series 3) HD Audio
+	e42f  Core Ultra Processors (Series 3) HD Audio
+	e430  Core Ultra Processors (Series 3) GSPI #1
+	e431  Core Ultra Processors (Series 3) Type-C Subsystem xHCI
+	e432  Core Ultra Processors (Series 3) Type-C Subsystem xDCI
+	e433  Core Ultra Processors (Series 3) Thunderbolt DMA0
+	e434  Core Ultra Processors (Series 3) Thunderbolt DMA1
+	e437  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #24
+	e438  Core Ultra Processors (Series 3) PCIe Root Port #1
+	e439  Core Ultra Processors (Series 3) PCIe Root Port #2
+	e43a  Core Ultra Processors (Series 3) PCIe Root Port #3
+	e43b  Core Ultra Processors (Series 3) PCIe Root Port #4
+	e43c  Core Ultra Processors (Series 3) PCIe Root Port #5
+	e43d  Core Ultra Processors (Series 3) PCIe Root Port #6
+	e43e  Core Ultra Processors (Series 3) PCIe Root Port #7
+	e43f  Core Ultra Processors (Series 3) PCIe Root Port #8
+	e440  Core Ultra Processors (Series 3) CNVi Wi-Fi
 		8086 0114  Wi-Fi 7 BE211 320MHz
-	e476  Panther Lake Bluetooth PCI Enumerator
-	e47b  Serial IO I2C Host Controller - E47B
-	e47d  Panther Lake USB 3.2 xHCI Controller
+	e441  Core Ultra Processors (Series 3) CNVi Wi-Fi
+	e442  Core Ultra Processors (Series 3) CNVi Wi-Fi
+	e443  Core Ultra Processors (Series 3) CNVi Wi-Fi
+	e444  Core Ultra Processors (Series 3) IEH #0
+	e445  Core Ultra Processors (Series 3) ISH
+	e446  Core Ultra Processors (Series 3) GSPI #2
+	e448  Core Ultra Processors (Series 3) THC #0 ID1
+	e449  Core Ultra Processors (Series 3) THC #0 ID2
+	e44a  Core Ultra Processors (Series 3) THC #1 ID1
+	e44b  Core Ultra Processors (Series 3) THC #1 ID2
+	e44c  Core Ultra Processors (Series 3) P2SB
+	e44d  Core Ultra Processors (Series 3) IEH #1
+	e44e  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #21
+	e44f  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #22
+	e450  Core Ultra Processors (Series 3) I2C #4
+	e451  Core Ultra Processors (Series 3) I2C #5
+	e452  Core Ultra Processors (Series 3) UART #2
+	e45c  Core Ultra Processors (Series 3) PCIe Root Port #10
+	e45d  Core Ultra Processors (Series 3) CSME HECI #1
+	e45e  Core Ultra Processors (Series 3) CSME HECI #2
+	e45f  Core Ultra Processors (Series 3) CSME HECI #3
+	e460  Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #23
+	e461  Core Ultra Processors (Series 3) PCIe Root Port #9
+	e462  Core Ultra Processors (Series 3) CSME HECI #1
+	e463  Core Ultra Processors (Series 3) CSME HECI #2
+	e464  Core Ultra Processors (Series 3) CSME HECI #3
+	e46f  Core Ultra Processors (Series 3) I3C #2
+	e470  Core Ultra Processors (Series 3) CSME HECI #1 (CSE)
+	e471  Core Ultra Processors (Series 3) CSME HECI #2 (CSE)
+	e472  Core Ultra Processors (Series 3) CSME IDE Redirection (IDE-R)
+	e473  Core Ultra Processors (Series 3) CSME Keyboard and Text (KT) Redirection
+	e474  Core Ultra Processors (Series 3) CSME HECI #3 (CSE)
+	e475  Core Ultra Processors (Series 3) CSME HECI #4 (CSE)
+	e476  Core Ultra Processors (Series 3) CNVi Bluetooth
+	e478  Core Ultra Processors (Series 3) I2C #0
+	e479  Core Ultra Processors (Series 3) I2C #1
+	e47a  Core Ultra Processors (Series 3) I2C #2
+	e47b  Core Ultra Processors (Series 3) I2C #3
+	e47c  Core Ultra Processors (Series 3) I3C #1
+	e47d  Core Ultra Processors (Series 3) Standalone xHCI Controller
+	e47e  Core Ultra Processors (Series 3) Standalone USB Device Controller
+	e47f  Core Ultra Processors (Series 3) Shared SRAM
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
 	f1a6  SSD DC P4101/Pro 7600p/760p/E 6100p Series
