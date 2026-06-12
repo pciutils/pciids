@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.10
-#	Date:    2026-06-10 03:15:02
+#	Version: 2026.06.12
+#	Date:    2026-06-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26557,6 +26557,9 @@
 	1001  PCIe 3TG6-P Controller
 	1002  PCIe 3TE6 Controller (DRAM-less)
 	1160  PCIe 3TE2 Controller
+	1202  PCIe 3TE8 Controller
+	120a  PCIe 3IE8 Controller
+	120b  PCIe 3TO8 Controller
 	1321  PCIe 4TG-P Controller
 	1322  PCIe 4TE Controller
 	1602  PCIe 4TE3 Controller
@@ -26564,9 +26567,13 @@
 	2262  PCIe 3TG3-P Controller
 	5208  PCIe 3TE7 Controller
 	5216  PCIe 3TE9 controller
+	521a  PCIe 3IE9 Controller
+	5220  PCIe 4TE2 Controller
+	522a  PCIe 4IE2 Controller
 	5236  PCIe 4TG2-P Controller
 # based on PCIe 4TG2-P Controller, for 4TS2-P series
 	523a  PCIe 4TS2-P Controller
+	523b  PCIe 4IG2-P Controller
 # based on SM8366 Controller
 	8366  PCIe 5TS-P Controller
 1bcd  Apacer Technology
