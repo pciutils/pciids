@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.12
-#	Date:    2026-06-12 03:15:02
+#	Version: 2026.06.13
+#	Date:    2026-06-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26731,6 +26731,7 @@
 	a015  FB2CGHH Capture 2x100Gb [Tivoli]
 	a016  FB2CG Capture 8x25Gb [Savona]
 	a017  FB2CGHH Capture 8x25Gb [Tivoli] a017
+	a01b  FB2CDG1 Capture 2x100Gb [Thunderfjord]
 # Used on V120 VME Crate Controller
 1c32  Highland Technology, Inc.
 1c33  Daktronics, Inc
