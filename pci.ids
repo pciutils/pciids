@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.13
-#	Date:    2026-06-13 03:15:02
+#	Version: 2026.06.14
+#	Date:    2026-06-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29663,6 +29663,21 @@
 	4002  K2-Pro Family [CONFLUX-2200E Virtual Function]
 	4003  K2-Pro Family [CONFLUX-2200E MGMT Function]
 	4004  K2-Pro Family [CONFLUX-2200E DATA Offload Engine]
+	4011  K3 Family [CONFLUX-3100E]
+		1f47 0001  CONFLUX-3100E 2*10GE Ethernet Adapter
+		1f47 0002  CONFLUX-3100E 4*10GE Ethernet Adapter
+		1f47 0003  CONFLUX-3100E 2*25GE Ethernet Adapter
+		1f47 0004  CONFLUX-3100E 4*25GE Ethernet Adapter
+		1f47 0005  Ethernet 25G 2P CONFLUX-2200E
+		1f47 0006  Ethernet 40G 2P CONFLUX-2200E
+		1f47 0007  Ethernet 100G 1P CONFLUX-2200E
+		1f47 0008  Ethernet 100G 2P CONFLUX-2200E
+		1f47 0009  Ethernet 25G 2P CONFLUX-2200E
+		1f47 000a  Ethernet 40G 2P CONFLUX-2200E
+		1f47 000b  Ethernet 100G 1P CONFLUX-2200E
+		1f47 000c  Ethernet 100G 2P CONFLUX-2200E
+	4012  K3 Family [CONFLUX-3100E Virtual Function]
+	4013  K3 Family [CONFLUX-3100E MGMT Function]
 	4203  K2-Pro Family [CONFLUX-2200E RoCEv2 Network Controller]
 	5001  CONFLUX-2200P Ethernet Controller
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200P
@@ -30243,7 +30258,7 @@
 	1000  TCU Family - TCU-1
 	1001  TCU Family - TCU-1 Virtual Function
 209f  Mobilint, Inc.
-20a1  Etched AI, Inc.
+20a1  Etched, Inc.
 	0001  Sohu
 20a6  XCENA, Inc.
 20a7  EEVengers Inc.
