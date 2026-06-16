@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.14
-#	Date:    2026-06-14 03:15:02
+#	Version: 2026.06.16
+#	Date:    2026-06-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -191,6 +191,10 @@
 	0202  GP202
 0721  Sapphire, Inc.
 0731  Jingjia Microelectronics Co Ltd
+	0100  JMN100
+		0731 0101  JMN100 16G
+	1050  JM1050
+		0731 1051  JM1050 8G
 	1100  JM1100
 		0731 1101  JM1100-C
 		0731 1102  JM1100-II
@@ -199,6 +203,11 @@
 		0731 1105  JM1100-Y
 		0731 1106  JM1100-EI
 		0731 1107  JM1100-EM
+		0731 1108  JY1008
+		0731 1109  JY1032
+	1102  JM1100-Y
+		0731 1121  JY1032 LE 64G
+		0731 1122  JY1032 LE 32G
 	7200  JM7200 Series GPU
 		0731 7201  JM7201
 		0731 7202  JM7202
@@ -241,6 +250,11 @@
 	f011  JM1100-IV
 	f111  JM1100-MV
 	ff11  JM1100-YV
+		0731 1105  JM11 Series
+		0731 1108  JY1008 vGPU
+		0731 1109  JY1032 vGPU
+		0731 1121  JY1032 LE vGPU
+		0731 1122  JY1032 LE vGPU
 0771  Xi'an Microelectronics Technology Institute
 0777  Ubiquiti Networks, Inc.
 0795  Wired Inc.
@@ -27062,6 +27076,7 @@
 	634c  LEGEND 820 NVMe SSD (DRAM-less)
 	635a  XPG GAMMIX S60 NVMe SSD (DRAM-less)
 	636a  XPG GAMMIX S55 NVMe SSD (DRAM-less)
+	641a  LEGEND 970 PRO NVMe SSD
 	642a  XPG GAMMIX S50 CORE NVMe SSD (DRAM-less)
 	646a  XPG MARS 980 BLADE NVMe SSD
 	648a  LEGEND 860 NVMe SSD (DRAM-less)
@@ -29616,7 +29631,6 @@
 	1012  K3 Family [FLEXFLOW-3100T Virtual Function]
 	1013  K3 Family [FLEXFLOW-3100T MGMT Function]
 	1105  CONFLUX-2200P NVMe Controller [Virtual Function]
-	1203  K2-Pro Family [FLEXFLOW-2200T RoCEv2 Network Controller]
 # Network Accelerating Card
 	2018  DPU Card
 # Network Accelerating Card
@@ -29650,7 +29664,6 @@
 		1f47 0006  Ethernet 25G 2P FLEXFLOW-2200R
 		1f47 0007  Ethernet 50G 2P FLEXFLOW-2200R
 		1f47 0008  Ethernet 100G 2P FLEXFLOW-2200R
-	3303  K3 Family [CONFLUX-3100R MGMT Function]
 	4001  K2-Pro Family [CONFLUX-2200E]
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200E
 		1f47 0002  Ethernet 40G 2P CONFLUX-2200E
@@ -29668,17 +29681,8 @@
 		1f47 0002  CONFLUX-3100E 4*10GE Ethernet Adapter
 		1f47 0003  CONFLUX-3100E 2*25GE Ethernet Adapter
 		1f47 0004  CONFLUX-3100E 4*25GE Ethernet Adapter
-		1f47 0005  Ethernet 25G 2P CONFLUX-2200E
-		1f47 0006  Ethernet 40G 2P CONFLUX-2200E
-		1f47 0007  Ethernet 100G 1P CONFLUX-2200E
-		1f47 0008  Ethernet 100G 2P CONFLUX-2200E
-		1f47 0009  Ethernet 25G 2P CONFLUX-2200E
-		1f47 000a  Ethernet 40G 2P CONFLUX-2200E
-		1f47 000b  Ethernet 100G 1P CONFLUX-2200E
-		1f47 000c  Ethernet 100G 2P CONFLUX-2200E
 	4012  K3 Family [CONFLUX-3100E Virtual Function]
 	4013  K3 Family [CONFLUX-3100E MGMT Function]
-	4203  K2-Pro Family [CONFLUX-2200E RoCEv2 Network Controller]
 	5001  CONFLUX-2200P Ethernet Controller
 		1f47 0001  Ethernet 25G 2P CONFLUX-2200P
 		1f47 0003  Ethernet 100G 2P CONFLUX-2200P
@@ -36511,7 +36515,8 @@
 		17c0 4083  Medion WIM 2210 Notebook PC [MD96850]
 		e4bf cc47  CCG-RUMBA
 	2880  Ice Lake DDRIO Registers
-	28c0  Volume Management Device NVMe RAID Controller
+# also seen in Xeon 6900 6700 6500 Series with P-Cores Processors
+	28c0  Volume Management Device (VMD)
 		1d49 011a  Intel VROC (VMD NVMe RAID) for ThinkSystem V4 PL
 	2912  82801IH (ICH9DH) LPC Interface Controller
 	2914  82801IO (ICH9DO) LPC Interface Controller
@@ -41453,6 +41458,9 @@
 	1080  Ethernet Controller N10 Series Virtual Function
 	1081  Ethernet Controller N400 Series Virtual Function
 	1083  Ethernet Controller N400 Series Virtual Function
+	8208  Ethernet Controller N210M for 1GbE 1-port RJ45
+	8209  Ethernet Controller N210 Series Virtual Function
+	820a  8848/820A Ethernet Controller N210L for 1GbE 1-port RJ45
 	8308  Ethernet Controller N500 Series for 1GbE (Quad-port, Copper RJ45)
 # NIC-ETH3M0T-3S-4P Quad-Port RJ45 Adapter for OCP 3.0
 		193d 1088  NIC-ETH3M0T-3S-4P
@@ -41465,10 +41473,16 @@
 	8500  Ethernet Controller N20 Series for 25GbE
 		8848 0800  Ethernet Network Adapter N20 for 25GbE SFP28
 		8848 8800  Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port
+		8848 c800  Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port OCP 3.0
 	8501  Ethernet Controller N20 Series for 100GbE
 		8848 8800  Ethernet Network Adapter N20 for RDMA 100GbE QSFP28 2-port
 	8502  Ethernet Controller N20 Series for 40GbE
 		8848 8800  Ethernet Network Adapter N20 for RDMA 40GbE QSFP+ 2-port
+	8503  Ethernet Controller N20 Series Virtual Function
+	8507  Ethernet Controller B-Series for 25GbE
+	8508  Ethernet Controller B-Series for 100GbE
+	8509  Ethernet Controller B-Series for 40GbE
+	850a  Ethernet Controller B-Series Virtual Function
 8866  T-Square Design Inc.
 8888  Silicon Magic
 	8504  AVMatrix VC42 4-port HDMI Capture
