@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.16
-#	Date:    2026-06-16 03:15:02
+#	Version: 2026.06.17
+#	Date:    2026-06-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -41460,7 +41460,7 @@
 	1083  Ethernet Controller N400 Series Virtual Function
 	8208  Ethernet Controller N210M for 1GbE 1-port RJ45
 	8209  Ethernet Controller N210 Series Virtual Function
-	820a  8848/820A Ethernet Controller N210L for 1GbE 1-port RJ45
+	820a  Ethernet Controller N210L for 1GbE 1-port RJ45
 	8308  Ethernet Controller N500 Series for 1GbE (Quad-port, Copper RJ45)
 # NIC-ETH3M0T-3S-4P Quad-Port RJ45 Adapter for OCP 3.0
 		193d 1088  NIC-ETH3M0T-3S-4P
