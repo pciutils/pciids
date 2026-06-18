@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.17
-#	Date:    2026-06-17 03:15:02
+#	Version: 2026.06.18
+#	Date:    2026-06-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25649,8 +25649,12 @@
 		19e5 0051  Hi1822 SP681 (2*25/10GE)
 		19e5 0052  Hi1822 SP680 (4*25/10GE)
 		19e5 00a1  Hi1822 SP670 (2*100GE)
+		19e5 0152  Hi1822 SP623Q (4*25/10GE)
+		19e5 01a1  Hi1822 SP625D (2*100GE)
 	0229  Hi1872 Family
 	022a  Hi1872 Family Virtual Function
+	0230  Hi1825 Family
+	0231  Hi1825 Family Virtual Function
 	1710  iBMA Virtual Network Adapter
 	1711  Hi171x Series [iBMC Intelligent Management system chip w/VGA support]
 	1712  Intelligent Management system chip Virtual Network Adapter
@@ -28507,6 +28511,8 @@
 1e30  Sophgo
 	1684  BM1684 [Sophon Series Deep Learning Accelerator]
 	2042  SG2042 Root Complex
+# https://www.sord.co.jp/
+1e31  SORD CORPORATION
 1e36  Shanghai Enflame Technology Co. Ltd
 	0001  T10 [CloudBlazer]
 	0002  T11 [CloudBlazer]
