@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.18
-#	Date:    2026-06-18 03:15:02
+#	Version: 2026.06.19
+#	Date:    2026-06-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13459,7 +13459,7 @@
 	24dd  GA104M [GeForce RTX 3070 Mobile / Max-Q]
 	24df  GA104M
 	24e0  GA104M [Geforce RTX 3070 Ti Laptop GPU]
-	24fa  GA104 [RTX A4500 Embedded GPU ]
+	24fa  GA104 [RTX A4500 Embedded GPU]
 	2501  GA106 [GeForce RTX 3060]
 	2503  GA106 [GeForce RTX 3060]
 	2504  GA106 [GeForce RTX 3060 Lite Hash Rate]
@@ -13509,7 +13509,7 @@
 	25e5  GA107BM [GeForce RTX 3050 Mobile]
 	25ec  GA107BM / GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU]
 	25ed  GA107 [GeForce RTX 2050]
-	25f9  GA107 [RTX A1000 Embedded GPU ]
+	25f9  GA107 [RTX A1000 Embedded GPU]
 	25fa  GA107 [RTX A2000 Embedded GPU]
 	25fb  GA107 [RTX A500 Embedded GPU]
 	2681  AD102 [RTX TITAN Ada]
@@ -19412,6 +19412,8 @@
 13b3  Lanart Corporation
 13b4  Wellbean Co Inc
 13b5  ARM
+	0300  Integrated [AGI CPU] PCIe/CXL Root Port
+	0301  Arm Integrated [AGI CPU] Platform PCIe Root Port
 13b6  Dlog GmbH
 13b7  Logic Devices Inc
 13b8  Nokia Telecommunications oy
@@ -19805,6 +19807,10 @@
 	5821  Xenos GPU (Zephyr/Falcon)
 	5831  Xenos GPU (Jasper)
 	5841  Xenos GPU (Slim)
+	c030  OpenVMM PCIe Root Port
+	c031  OpenVMM PCIe Switch Upstream Port
+	c032  OpenVMM PCIe Switch Downstream Port
+	c03e  OpenVMM NVMe Controller
 1415  Oxford Semiconductor Ltd
 	8401  OX9162 Mode 1 (8-bit bus)
 	8403  OX9162 Mode 0 (parallel port)
@@ -30267,6 +30273,7 @@
 209b  BitIntelligence Technology
 	1000  TCU Family - TCU-1
 	1001  TCU Family - TCU-1 Virtual Function
+	1002  TCU Family - TCU-1 PCIe Switch
 209f  Mobilint, Inc.
 20a1  Etched, Inc.
 	0001  Sohu
