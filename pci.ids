@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.19
-#	Date:    2026-06-19 03:15:02
+#	Version: 2026.06.21
+#	Date:    2026-06-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7393,6 +7393,12 @@
 	90dd  Baikal Memory (DDR3/SPM)
 	90de  Baikal USB 3.0 xHCI Host Controller
 	90eb  CXD90062GG
+	90ec  Salina PCIe Controller
+	9104  Salina Ethernet Controller
+	9105  Salina SATA AHCI Controller
+	9106  Salina SATA AHCI Controller (secondary)
+	9107  Salina PCIe Glue and Miscellaneous Devices
+	9108  Salina USB xHCI Host Controller
 	9121  Nextorage NEM-PA NVMe SSD for PlayStation
 104e  Oak Technology, Inc
 	0017  OTI-64017
@@ -19413,7 +19419,7 @@
 13b4  Wellbean Co Inc
 13b5  ARM
 	0300  Integrated [AGI CPU] PCIe/CXL Root Port
-	0301  Arm Integrated [AGI CPU] Platform PCIe Root Port
+	0301  Integrated [AGI CPU] Platform PCIe Root Port
 13b6  Dlog GmbH
 13b7  Logic Devices Inc
 13b8  Nokia Telecommunications oy
@@ -26297,6 +26303,7 @@
 	2b43  NXP 88W9098 Wi-Fi 6 (ax) MAC #1
 	2b44  NXP 88W9098 Wi-Fi 6 (ax) MAC #2
 	2b45  NXP 88W9098 Bluetooth 5.3
+	2b56  NXP IW620 Wi-Fi 6 (ax) + Bluetooth 5.3 Combo
 # some cards use this device ID instead of 9230
 	624e  DAWICONTROL DC-624e RAID
 		dc93 624e  DC-624e RAID
