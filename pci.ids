@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.21
-#	Date:    2026-06-21 03:15:02
+#	Version: 2026.06.24
+#	Date:    2026-06-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29636,7 +29636,8 @@
 	1003  K2-Pro Family [FLEXFLOW-2200T MGMT Function]
 	1004  K2-Pro Family [FLEXFLOW-2200T DATA Offload Engine]
 	1005  CONFLUX-2200P NVMe Controller
-	1011  K3 Family [FLEXFLOW-3100T]
+	1011  K3-T Family
+		1dcf 0363  K3_F2_10G_PCIE 2*10GE Ethernet Adapter
 		1f47 0001  FLEXFLOW-3100T 2*10GE Ethernet Adapter
 		1f47 0002  FLEXFLOW-3100T 4*10GE Ethernet Adapter
 		1f47 0003  FLEXFLOW-3100T 2*25GE Ethernet Adapter
@@ -29647,8 +29648,8 @@
 		1f47 0008  FLEXFLOW-3100T 4*10GE Ethernet Adapter
 		1f47 0009  FLEXFLOW-3100T 2*25GE Ethernet Adapter
 		1f47 000a  FLEXFLOW-3100T 4*25GE Ethernet Adapter
-	1012  K3 Family [FLEXFLOW-3100T Virtual Function]
-	1013  K3 Family [FLEXFLOW-3100T MGMT Function]
+	1012  K3-T Family [Virtual Function]
+	1013  K3-T Family [MGMT Function]
 	1105  CONFLUX-2200P NVMe Controller [Virtual Function]
 # Network Accelerating Card
 	2018  DPU Card
