@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.24
-#	Date:    2026-06-24 03:15:02
+#	Version: 2026.06.30
+#	Date:    2026-06-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1317,7 +1317,10 @@
 # Used in the Sony PlayStation 5 Phat
 	13db  Cyan Skillfish [PlayStation 5 APU]
 	13e9  Ariel/Navi10Lite
+	13ea  Cyan Skillfish HDMI/DP Audio Controller
 	13f9  Oberon/Navi12Lite
+# Confirmed on PS5 Phat CFI-1016B; see also 13db
+	13fb  Cyan Skillfish [PlayStation 5 APU]
 	13fe  Cyan Skillfish [BC-250]
 # Used in the Steam Deck OLED
 	1435  Sephiroth [AMD Custom GPU 0405]
@@ -29045,6 +29048,9 @@
 		1ec8 12a2  Fantasy I Device
 	8810  Fantasy I
 		1ec8 12a2  Fantasy I Device
+# Also in the Windows driver INF installation file.
+	8811  Fantasy I-V
+	8820  Fantasy III
 	8900  GR308
 	8902  GR3 Audio
 	8904  GR308
