@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.06.30
-#	Date:    2026-06-30 03:15:02
+#	Version: 2026.07.01
+#	Date:    2026-07-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26440,6 +26440,7 @@
 	2720  Ultrastar DC SN650 NVMe SSD
 	2721  Ultrastar DC SN650 NVMe SSD
 	2722  Ultrastar DC SN655 NVMe SSD
+	2750  Ultrastar DC SN861 NVMe SSD
 	2751  Ultrastar DC SN861 NVMe SSD
 	3001  RapidFlex C2000 NVMe Initiator
 	3714  PC SN730 NVMe SSD
@@ -27069,6 +27070,7 @@
 	33f4  IM2P33F4 NVMe SSD (DRAM-less)
 	33f8  IM2P33F8 series NVMe SSD (DRAM-less)
 	413d  SM2P41D3Q NVMe SSD (DRAM-less)
+	41b8  IM2P41B8P NVMe SSD
 	41c3  SM2P41C3 NVMe SSD (DRAM-less)
 	41c8  SM2P41C8 NVMe SSD (DRAM-less)
 	41d3  SM2P41D3 NVMe SSD (DRAM-less)
