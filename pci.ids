@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.01
-#	Date:    2026-07-01 03:15:02
+#	Version: 2026.07.03
+#	Date:    2026-07-03 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29068,6 +29068,10 @@
 1ec9  Wingtech Group(HongKong)Limited
 1eca  Lightmatter
 	0000  Envise-B
+# This Vendor ID 1ecc is officially allocated to Sunrise AI Inc. by PCI-SIG.
+1ecc  Sunrise AI Inc.
+# This DID 0200 corresponds to the standard PCIe version of Sun S2 GPU.
+	0200  Sun S2 Graphics Controller[Sun S2-X1 PCIe]
 1ed0  Hosin Global Electronics
 	2283  Patriot P300 NVMe SSD (DRAM-less)
 1ed2  FuriosaAI, Inc.
