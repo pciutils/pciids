@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.03
-#	Date:    2026-07-03 03:15:02
+#	Version: 2026.07.04
+#	Date:    2026-07-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26263,7 +26263,11 @@
 	0020  ADQ14
 	0023  ADQ7
 	0026  ADQ8
-	0031  ADQ3
+	0031  ADQ32/ADQ33
+	0032  ADQ System Manager
+	0033  ADQ36
+	0034  ADQ30
+	0035  ADQ35
 	2014  TX320
 	2019  S6000
 # now owned by HGST (a Western Digital subsidiary)
