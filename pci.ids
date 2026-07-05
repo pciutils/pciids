@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.04
-#	Date:    2026-07-04 03:15:02
+#	Version: 2026.07.05
+#	Date:    2026-07-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27735,6 +27735,9 @@
 	1466  Data Fabric: Device 18h; Function 6
 	1467  Data Fabric: Device 18h; Function 7
 	1468  NTBCCP
+	14ab  HGE1000 1000/100/10 Mb Ethernet Controller
+	200b  HGE2500 2500/1000/100/10 Mb Ethernet Controller
+	200c  HGE2500 1000/100/10 Mb Ethernet Controller
 	6211  K100_AI
 	7901  FCH SATA Controller [AHCI mode]
 	7904  FCH SATA Controller [AHCI mode]
@@ -30424,6 +30427,7 @@
 	5026  NV3 NVMe SSD [E21T] (DRAM-less)
 	5027  NV3 NVMe SSD [E27T] (DRAM-less)
 	5028  NV3 NVMe SSD [SM2268XT2] (DRAM-less)
+	5029  OM8SGP4 PCIe 4 NVMe SSD (TLC) (DRAM-less)
 	502a  FURY Renegade G5 NVMe SSD [SM2508]
 	502b  NV3 NVMe SSD [E29T] (DRAM-less)
 	502c  DC3000ME NVMe SSD [SC5]
