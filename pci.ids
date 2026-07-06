@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.05
-#	Date:    2026-07-05 03:15:02
+#	Version: 2026.07.06
+#	Date:    2026-07-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13651,6 +13651,10 @@
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f80  GB205 High Definition Audio Controller
+	2f95  Vera Rubin CPU
+	2f96  Vera Rubin CPU
+	2f97  Vera Rubin CPU
+	2f98  Vera Rubin CPU
 	3040  GR100
 	30c0  GR102
 	3180  GB110 [Reserved Dev ID A]
@@ -41147,6 +41151,8 @@
 	d743  NVL-HX
 	d744  NVL-UL
 	d745  NVL-HX
+	d74a  NVL-S
+	d74b  NVL-S
 	d750  NVL-P
 	d751  NVL-P
 	d752  NVL-P
