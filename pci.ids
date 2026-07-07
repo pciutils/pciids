@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.06
-#	Date:    2026-07-06 03:15:02
+#	Version: 2026.07.07
+#	Date:    2026-07-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13655,6 +13655,7 @@
 	2f96  Vera Rubin CPU
 	2f97  Vera Rubin CPU
 	2f98  Vera Rubin CPU
+	3021  GR100 PCIe Faber
 	3040  GR100
 	30c0  GR102
 	3180  GB110 [Reserved Dev ID A]
@@ -30317,6 +30318,8 @@
 	1104  NEOTAPX FPGA Timing Synchronization Card
 	1200  MUX Ultimate FPGA Accelerator Card
 	1201  MUX Ultimate FPGA Accelerator Card
+# Requesting adding PCI-SIG registered vendor ID. See https://pcisig.com/membership/member-companies, search Genstoraige Technology Co., Ltd.
+20b4  Genstoraige Technology Co., Ltd.
 20b5  Shanghai StarFive Technology Co., Ltd.
 20ba  Hangzhou Hikstorage Technology Co., Ltd.
 	1202  NAND memory controller
