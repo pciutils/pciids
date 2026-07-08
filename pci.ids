@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.07
-#	Date:    2026-07-07 03:15:02
+#	Version: 2026.07.08
+#	Date:    2026-07-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13655,8 +13655,9 @@
 	2f96  Vera Rubin CPU
 	2f97  Vera Rubin CPU
 	2f98  Vera Rubin CPU
-	3021  GR100 PCIe Faber
-	3040  GR100
+	3000  GR100 [Reserved Dev ID A]
+	3021  GR100 [PCIe Faber]
+	3040  GR100 [Reserved Dev ID B]
 	30c0  GR102
 	3180  GB110 [Reserved Dev ID A]
 	3182  GB110 [B300 SXM6 AC]
@@ -27330,7 +27331,7 @@
 1cfa  Corsair Memory, Inc
 1cfd  Mangstor
 	6300  MX6300 series PCIe x8 NVMe SSD
-1d00  Pure Storage
+1d00  Everpure
 1d05  AIstone Global Limited
 	6027  B760-N2D5 motherboard
 	7001  H610-N2 motherboard
