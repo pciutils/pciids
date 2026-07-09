@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.08
-#	Date:    2026-07-08 03:15:02
+#	Version: 2026.07.09
+#	Date:    2026-07-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13642,6 +13642,7 @@
 	2dd8  GB207M [GeForce RTX 5050 Max-Q / Mobile]
 	2df9  GB207GLM [RTX PRO 500 Blackwell Embedded GPU]
 	2e03  GB20B [JMJWOA-Generic-GPU]
+	2e06  GB20B [JMJWOA-Generic-GPU]
 	2e12  GB20B [GB10]
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
@@ -27331,7 +27332,7 @@
 1cfa  Corsair Memory, Inc
 1cfd  Mangstor
 	6300  MX6300 series PCIe x8 NVMe SSD
-1d00  Everpure
+1d00  Everpure, Inc.
 1d05  AIstone Global Limited
 	6027  B760-N2D5 motherboard
 	7001  H610-N2 motherboard
