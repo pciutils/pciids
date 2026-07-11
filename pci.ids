@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.09
-#	Date:    2026-07-09 03:15:02
+#	Version: 2026.07.11
+#	Date:    2026-07-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -31184,12 +31184,15 @@
 	3d02  Arise1020
 	3d03  Arise-GT-1040
 	3d04  Arise1010
+	3d05  Arise2050
 	3d06  Arise-GT-10C0t
 	3d07  Arise2030
 	3d08  Arise2020
+	3d09  Arise2020C
 	3d0e  Arise10D0
 	3d40  GLF HDMI/DP Audio
 	3d41  GLF HDMI/DP Audio
+	3d42  GLF HDMI/DP Audio
 	3d43  GLF HDMI/DP Audio
 6899  ZT Systems
 # nee Qumranet
