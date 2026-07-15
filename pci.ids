@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.12
-#	Date:    2026-07-12 03:15:01
+#	Version: 2026.07.15
+#	Date:    2026-07-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30390,6 +30390,10 @@
 2116  ZyDAS Technology Corp.
 # Add Vendor id 0x2123 to pci.ids
 2123  Shanghai Warpdrive Technology Co., Ltd
+# F5950QU2T3072Y02 F5950QU2T6144Y02 F5950QU2T1228Y02
+212b  Flumeio
+# NVMe SSD
+	5951  Flumeio F5950Q
 2136  Dongguan Xincun Chengbang Technology Co., Ltd.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
