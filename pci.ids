@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.15
-#	Date:    2026-07-15 03:15:02
+#	Version: 2026.07.16
+#	Date:    2026-07-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21885,6 +21885,21 @@
 		14e4 d125  BCM57608 2x200G PCIe Ethernet NIC
 		193d 105b  NIC-ETH2030F-LP-2P 2x200G PCIe Ethernet NIC
 		193d 105c  NIC-ETH4030F-LP-1P 1x400G PCIe Ethernet NIC
+	1780  BCM57708 50Gb/100Gb/200Gb/400Gb/800Gb Ethernet
+		14e4 1043  BCM957708 1x800G OCP Ethernet NIC
+		14e4 1143  BCM957708 1x800G OCP Ethernet NIC
+		14e4 1443  BCM957708 1x800G OCP Ethernet NIC
+		14e4 1543  BCM957708 1x800G OCP Ethernet NIC
+		14e4 1843  BCM957708 1x800G OCP Ethernet NIC
+		14e4 1943  BCM957708 1x800G OCP Ethernet NIC
+		14e4 8023  BCM957708 2x400G PCIe Ethernet NIC
+		14e4 8043  BCM957708 1x800G PCIe Ethernet NIC
+		14e4 8123  BCM957708 2x400G PCIe Ethernet NIC
+		14e4 8143  BCM957708 1x800G PCIe Ethernet NIC
+		14e4 9023  BCM957708 2x400G PCIe Ethernet NIC
+		14e4 9043  BCM957708 1x800G PCIe Ethernet NIC
+		14e4 9123  BCM957708 2x400G PCIe Ethernet NIC
+		14e4 9143  BCM957708 1x800G PCIe Ethernet NIC
 	1800  BCM57502 NetXtreme-E Ethernet Partition
 	1801  BCM57504 NetXtreme-E Ethernet Partition
 		1590 0420  Ethernet NPAR 6310C Adapter
@@ -23311,8 +23326,9 @@
 	5049  SN8000S NVMe SSD
 	504a  WD Blue SN5000 NVMe SSD (DRAM-less)
 	5050  WD PC SN8050S / WD_BLACK SN8100 NVMe SSD
-	5062  WD PC SN5100S NVMe SSD (DRAM-less)
-	5063  WD Blue SN5100 NVMe SSD (DRAM-less)
+	5061  PC SN5100S M.2 2230 NVMe SSD (DRAM-less)
+	5062  PC SN5100S M.2 2242 NVMe SSD (DRAM-less)
+	5063  PC SN5100S / WD Blue SN5100 M.2 2280 NVMe SSD (DRAM-less)
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
