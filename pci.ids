@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.17
-#	Date:    2026-07-17 03:15:02
+#	Version: 2026.07.18
+#	Date:    2026-07-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29681,9 +29681,9 @@
 	1005  CONFLUX-2200P NVMe Controller
 	1011  K3-T Family
 		1dcf 0363  K3_F2_10G_PCIE 2*10GE Ethernet Adapter
-		1f47 0001  FLEXFLOW-3100T 2*10GE Ethernet Adapter
+		1f47 0001  F31TX2S 2*10GE Ethernet Adapter
 		1f47 0002  FLEXFLOW-3100T 4*10GE Ethernet Adapter
-		1f47 0003  FLEXFLOW-3100T 2*25GE Ethernet Adapter
+		1f47 0003  F31TA2S 2*25GE Ethernet Adapter
 		1f47 0004  FLEXFLOW-3100T 4*25GE Ethernet Adapter
 		1f47 0005  FLEXFLOW-3100T 1*40GE Ethernet Adapter
 		1f47 0006  FLEXFLOW-3100T 1*100GE Ethernet Adapter
