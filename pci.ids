@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.18
-#	Date:    2026-07-18 03:15:02
+#	Version: 2026.07.19
+#	Date:    2026-07-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13642,9 +13642,10 @@
 	2db9  GB207GLM [RTX PRO 500 Blackwell Generation Laptop GPU]
 	2dd8  GB207M [GeForce RTX 5050 Max-Q / Mobile]
 	2df9  GB207GLM [RTX PRO 500 Blackwell Embedded GPU]
-	2e03  GB20B [JMJWOA-Generic-GPU]
-	2e06  GB20B [JMJWOA-Generic-GPU]
+	2e03  GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]
+	2e06  GB20B [RTX Spark N1X (5120-core Blackwell RTX GPU)]
 	2e12  GB20B [GB10]
+	2e13  GB20B [Desktop Device]
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
 	2f04  GB205 [GeForce RTX 5070]
