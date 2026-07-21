@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.19
-#	Date:    2026-07-19 03:15:02
+#	Version: 2026.07.21
+#	Date:    2026-07-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29683,14 +29683,14 @@
 	1011  K3-T Family
 		1dcf 0363  K3_F2_10G_PCIE 2*10GE Ethernet Adapter
 		1f47 0001  F31TX2S 2*10GE Ethernet Adapter
-		1f47 0002  FLEXFLOW-3100T 4*10GE Ethernet Adapter
+		1f47 0002  F31TX4S 4*10GE Ethernet Adapter
 		1f47 0003  F31TA2S 2*25GE Ethernet Adapter
-		1f47 0004  FLEXFLOW-3100T 4*25GE Ethernet Adapter
+		1f47 0004  F31TA4S 4*25GE Ethernet Adapter
 		1f47 0005  FLEXFLOW-3100T 1*40GE Ethernet Adapter
-		1f47 0006  FLEXFLOW-3100T 1*100GE Ethernet Adapter
-		1f47 0007  FLEXFLOW-3100T 2*10GE Ethernet Adapter
+		1f47 0006  F31TC1S 1*100GE Ethernet Adapter
+		1f47 0007  F31TA2K 2*10GE Ethernet Adapter
 		1f47 0008  FLEXFLOW-3100T 4*10GE Ethernet Adapter
-		1f47 0009  FLEXFLOW-3100T 2*25GE Ethernet Adapter
+		1f47 0009  F31TA2K 2*25GE Ethernet Adapter
 		1f47 000a  FLEXFLOW-3100T 4*25GE Ethernet Adapter
 	1012  K3-T Family [Virtual Function]
 	1013  K3-T Family [MGMT Function]
@@ -40429,11 +40429,14 @@
 	9db0  Cannon Point-LP PCI Express Root Port #9
 	9db1  Cannon Point-LP PCI Express Root Port #10
 	9db2  Cannon Point-LP PCI Express Root Port #1
+	9db3  Cannon Point-LP PCI Express Root Port #12
 	9db4  Cannon Point-LP PCI Express Root Port #13
 		1028 089e  Inspiron 5482
+	9db5  Cannon Point-LP PCI Express Root Port #14
 	9db6  Cannon Point-LP PCI Express Root Port #15
 	9db8  Cannon Point-LP PCI Express Root Port #1
 	9dbc  Cannon Point-LP PCI Express Root Port #5
+	9dbd  Cannon Point-LP PCI Express Root Port #6
 	9dbe  Cannon Point-LP PCI Express Root Port #7
 	9dbf  Cannon Point PCI Express Root Port #8
 	9dc4  Cannon Point-LP SD Host Controller
