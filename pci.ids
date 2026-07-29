@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.21
-#	Date:    2026-07-21 03:15:02
+#	Version: 2026.07.29
+#	Date:    2026-07-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -27708,6 +27708,7 @@
 	2263  NVMe PCIe SSD 110S/112S/120S/MTE300S/MTE400S/MTE652T2 (DRAM-less)
 	2264  NVMe PCIe SSD 250H
 	2267  NVMe PCIe SSD 220S/240S/MTE710T
+	2268  NVMe PCIe SSD 245S (DRAM-less)
 	2269  NVMe PCIe SSD 410S (DRAM-less)
 	5766  NVMe PCIe SSD 110Q (DRAM-less)
 1d7c  Aerotech, Inc.
@@ -30340,6 +30341,8 @@
 	1201  MUX Ultimate FPGA Accelerator Card
 # Requesting adding PCI-SIG registered vendor ID. See https://pcisig.com/membership/member-companies, search Genstoraige Technology Co., Ltd.
 20b4  Genstoraige Technology Co., Ltd.
+# PT208 PCIe 5.0 NVMe SSD Device ID
+	d28c  PT208 PCIe 5.0 NVMe SSD
 20b5  Shanghai StarFive Technology Co., Ltd.
 20ba  Hangzhou Hikstorage Technology Co., Ltd.
 	1202  NAND memory controller
