@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.29
-#	Date:    2026-07-29 03:15:02
+#	Version: 2026.07.30
+#	Date:    2026-07-30 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30341,6 +30341,10 @@
 	1201  MUX Ultimate FPGA Accelerator Card
 # Requesting adding PCI-SIG registered vendor ID. See https://pcisig.com/membership/member-companies, search Genstoraige Technology Co., Ltd.
 20b4  Genstoraige Technology Co., Ltd.
+	a20c  PT200A PCIe 5.0 NVMe SSD
+	c25c  MQ205 PCIe 5.0 NVMe SSD
+	d20c  PT200 PCIe 5.0 NVMe SSD
+	d25c  PT205 PCIe 5.0 NVMe SSD
 # PT208 PCIe 5.0 NVMe SSD Device ID
 	d28c  PT208 PCIe 5.0 NVMe SSD
 20b5  Shanghai StarFive Technology Co., Ltd.
