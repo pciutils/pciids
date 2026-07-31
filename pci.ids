@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.30
-#	Date:    2026-07-30 03:15:01
+#	Version: 2026.07.31
+#	Date:    2026-07-31 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -17643,6 +17643,7 @@
 1233  Bus-Tech, Inc.
 # nee Risq Modular Systems, Inc.
 1235  SMART Modular Technologies
+	5820  DC5820 NVMe SSD
 	c241  CXA-4F1W
 		1028 2382  4-DIMM Add In Card
 1236  Sigma Designs Corporation
