@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.07.31
-#	Date:    2026-07-31 03:15:01
+#	Version: 2026.08.01
+#	Date:    2026-08-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30304,6 +30304,7 @@
 		207d 0801  TrustRAID B260s 2-port SATA RAID Adapter
 	0612  SATA BootRAID Controller
 208a  MICIUS Laboratory
+2090  Rivian Automotive
 2094  Shenzhen Wodposit Electronics Co., Ltd.
 	1281  WPBSNM8-256GTP
 	1282  WPBSNM8-512GTP
@@ -30421,6 +30422,8 @@
 # NVMe SSD
 	5951  Flumeio F5950Q
 2136  Dongguan Xincun Chengbang Technology Co., Ltd.
+	6600  NX6600U0 NVME SSD
+	7600  NX7600U0 NVME SSD
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
