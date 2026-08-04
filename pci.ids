@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.02
-#	Date:    2026-08-02 03:15:02
+#	Version: 2026.08.04
+#	Date:    2026-08-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29621,6 +29621,13 @@
 	4622  NEM-PAC NVMe SSD (DRAM-less)
 1f32  Wuhan YuXin Semiconductor Co., Ltd.
 	ed55  U800G NVMe SSD
+1f39  Silicon Innovation Microelectronics Co. Ltd.
+	2200  XSAT2204 SATA 3.0 Host Controller
+	2201  XSAT2104 SATA 3.0 Host Controller
+	2203  XSAT2104A SATA 3.0 Host Controller
+	2204  XSAT2102A SATA 3.0 Host Controller
+	2300  XUSB2104 USB 3.0 Host Controller
+	2301  XUSB2102 USB 3.0 Host Controller
 1f3f  3SNIC Ltd
 	2100  SSSHBA SAS/SATA HBA
 		1f3f 0120  HBA 32 Ports
@@ -30208,6 +30215,9 @@
 2048  Beijing SpaceControl Technology Co.Ltd
 2052  Frontgrade Gaisler AB
 2058  Lime Microsystems Ltd.
+	001a  LimeSDR X3
+	001b  LimeSDR XTRX
+	001d  LA9310 [LimeSDR Micro]
 205c  Zhejiang VMing Semiconductor Co., Ltd.
 	1514  EP9410 U.2 1.92TB NVME SSD
 	1515  EP9410 U.2 3.84TB NVME SSD
