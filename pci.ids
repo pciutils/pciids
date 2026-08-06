@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.05
-#	Date:    2026-08-05 03:15:02
+#	Version: 2026.08.06
+#	Date:    2026-08-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -9633,6 +9633,24 @@
 		1518 0200  ThinkIO-C
 		15ed 1002  MCCS 8-port Serial Hot Swap
 		15ed 1003  MCCS 16-port Serial Hot Swap
+		1761 1122  Pickering Interfaces 50-297-010
+		1761 1123  Pickering Interfaces 50-297-011
+		1761 1124  Pickering Interfaces 50-297-012
+		1761 1125  Pickering Interfaces 50-297-013
+		1761 1126  Pickering Interfaces 50-297-020
+		1761 1129  Pickering Interfaces 50-297-023
+		1761 112b  Pickering Interfaces 50-297-030
+		1761 112c  Pickering Interfaces 50-297-031
+		1761 112d  Pickering Interfaces 50-297-032
+		1761 112e  Pickering Interfaces 50-297-033
+		1761 112f  Pickering Interfaces 50-297-034
+		1761 1130  Pickering Interfaces 50-297-040
+		1761 1131  Pickering Interfaces 50-297-041
+		1761 1132  Pickering Interfaces 50-297-042
+		1761 1133  Pickering Interfaces 50-297-043
+		1761 1134  Pickering Interfaces 50-297-044
+		1761 1135  Pickering Interfaces 50-297-050
+		1761 1139  Pickering Interfaces 50-297-113
 # MIL-STD-1553B Board
 		e1c5 0001  TE1-PCI
 		e1c5 0005  TA1-PCI
