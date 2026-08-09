@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.08
-#	Date:    2026-08-08 03:15:02
+#	Version: 2026.08.09
+#	Date:    2026-08-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13942,6 +13942,7 @@
 		1028 09be  Latitude 7410
 		1028 0b10  Precision 3571
 		1028 0c06  Precision 3580
+		1462 14af  MSI Claw A8
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
 	5260  RTS5260 PCI Express Card Reader
 	5261  RTS5261 PCIe SD Express Card Reader controller
@@ -27737,6 +27738,7 @@
 	2267  NVMe PCIe SSD 220S/240S/MTE710T
 	2268  NVMe PCIe SSD 245S (DRAM-less)
 	2269  NVMe PCIe SSD 410S (DRAM-less)
+	2708  USD710S microSDXC EX SD7.1 Express (DRAM-less)
 	5766  NVMe PCIe SSD 110Q (DRAM-less)
 1d7c  Aerotech, Inc.
 # Fiber-optic HyperWire motion control bus from Aerotech.
