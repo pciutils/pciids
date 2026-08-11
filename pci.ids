@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.10
-#	Date:    2026-08-10 03:15:02
+#	Version: 2026.08.11
+#	Date:    2026-08-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13939,6 +13939,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 		1028 06e6  Latitude 11 5175 2-in-1
+		1028 0704  XPS 13 9350
 		1028 09be  Latitude 7410
 		1028 0b10  Precision 3571
 		1028 0c06  Precision 3580
@@ -22124,6 +22125,7 @@
 	43a1  BCM4360 802.11ac 2,4G Wireless Network Adapter
 	43a2  BCM4360 802.11ac 5G Wireless Network Adapter
 	43a3  BCM4350 802.11ac Wireless Network Adapter
+		1028 0021  Wireless 1820
 # Manufactured by Foxconn for Lenovo
 		17aa 075a  00JT494
 	43a9  BCM43217 802.11b/g/n
@@ -27116,6 +27118,7 @@
 1cb5  Focusrite Audio Engineering Ltd
 	0002  Clarett
 1cb8  Dawning Information Industry Co., Ltd.
+1cbd  novachips
 1cc1  ADATA Technology Co., Ltd.
 	1202  IM2P32A8 NVMe SSD (DRAM-less)
 	1602  LEGEND 900 NVMe SSD (DRAM-less)
@@ -27158,6 +27161,7 @@
 	641a  LEGEND 970 PRO NVMe SSD
 	642a  XPG GAMMIX S50 CORE NVMe SSD (DRAM-less)
 	646a  XPG MARS 980 BLADE NVMe SSD
+	647a  XPG MARS 980 PRO NVMe SSD
 	648a  LEGEND 860 NVMe SSD (DRAM-less)
 	64ba  LEGEND 900 PRO NVMe SSD
 	8201  XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive
@@ -28233,6 +28237,7 @@
 	2262  HP EX950 NVMe SSD
 	2263  HP EX900 NVMe SSD (DRAM-less)
 	2500  XCG 2500 Enterprise Gen 4 SSD
+	2682  AP923P Gen4 NVME SSD (DRAM-less)
 	4121  PCIe 4.0 SP406/416 NVMe SSD
 		1dee 0000  NVMe SSD SP416 800G 2.5" U.2
 		1dee 0001  NVMe SSD SP416 1.6T 2.5" U.2
@@ -28254,7 +28259,14 @@
 		1dee 0014  NVMe SSD SP506 15.36T 2.5" U.2
 	5216  KingSpec NX series NVMe SSD (DRAM-less)
 	5236  Acer Predator GM7000 NVMe SSD
-	7700  BIWIN NVMe SSD SP50Y/SP51Y
+	7700  BIWIN NVMe SSD SP5 series
+		1dee 0001  NVMe SSD SP51Y 3.2TB 2.5"U.2
+		1dee 0002  NVMe SSD SP51Y 6.4TB 2.5"U.2
+		1dee 0003  NVMe SSD SP51Y 12.8TB 2.5"U.2
+		1dee 0011  NVMe SSD SP50Y 3.84TB 2.5"U.2
+		1dee 0012  NVMe SSD SP50Y 7.68TB 2.5"U.2
+		1dee 0013  NVMe SSD SP50Y 15.36B 2.5"U.2
+	7701  BIWIN NVMe SSD SP508/SP518
 1def  Ampere Computing, LLC
 	e005  eMAG PCI Express Root Port 0
 	e006  eMAG PCI Express Root Port 1
@@ -33996,12 +34008,14 @@
 		1028 06dc  Latitude E7470
 		1028 06e4  XPS 15 9550
 		1028 06e6  Latitude 11 5175 2-in-1
+		1028 0704  XPS 13 9350
 		1028 09be  Latitude 7410
 		103c 825b  OMEN-17-w001nv
 		17aa 225d  ThinkPad T480
 	1904  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
@@ -34047,6 +34061,7 @@
 	1921  HD Graphics 520
 	1923  HD Graphics 535
 	1926  Skylake-U GT3 [Iris Graphics 540]
+		1028 0704  XPS 13 9350
 	1927  Skylake-U GT3 [Iris Graphics 550]
 	192b  Iris Graphics 555
 	192d  Skylake-H GT3 [Iris Graphics P555]
@@ -36462,6 +36477,7 @@
 		e4bf cc47  CCG-RUMBA
 	282a  SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Mobile RST)
 		1028 040b  Latitude E6510
+		1028 0704  XPS 13 9350
 		e4bf 50c1  PC1-GROOVE
 	282b  C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID) Alternate ID
 	282f  tSATA Controller [RAID Mode]
@@ -40363,20 +40379,25 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 225d  ThinkPad T480
 		17aa 382a  B51-80 Laptop
 	9d10  Sunrise Point-LP PCI Express Root Port #1
+		1028 0704  XPS 13 9350
 	9d11  Sunrise Point-LP PCI Express Root Port #2
 	9d12  Sunrise Point-LP PCI Express Root Port #3
 	9d13  Sunrise Point-LP PCI Express Root Port #4
 	9d14  Sunrise Point-LP PCI Express Root Port #5
+		1028 0704  XPS 13 9350
 		17aa 382a  B51-80 Laptop
 	9d15  Sunrise Point-LP PCI Express Root Port #6
+		1028 0704  XPS 13 9350
 		17aa 382a  B51-80 Laptop
 	9d16  Sunrise Point-LP PCI Express Root Port #7
 	9d17  Sunrise Point-LP PCI Express Root Port #8
 	9d18  Sunrise Point-LP PCI Express Root Port #9
+		1028 0704  XPS 13 9350
 		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
 	9d19  Sunrise Point-LP PCI Express Root Port #10
@@ -40387,6 +40408,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -40398,6 +40420,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -40414,6 +40437,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 225d  ThinkPad T480
@@ -40424,6 +40448,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -40441,6 +40466,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 224f  ThinkPad X1 Carbon 5th Gen
@@ -40458,6 +40484,7 @@
 	9d48  Sunrise Point-LP LPC Controller
 		1028 06dc  Latitude E7470
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 	9d4e  Sunrise Point LPC/eSPI Controller
@@ -40473,12 +40500,14 @@
 		1028 06d6  Latitude 7275 tablet
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 225d  ThinkPad T480
 		8086 9d60  100 Series PCH/Sunrise Point PCH I2C0 [Skylake/Kaby Lake LPSS I2C]
 	9d61  Sunrise Point-LP Serial IO I2C Controller #1
 		1028 06d6  Latitude 7275 tablet
 		1028 06e6  Latitude 11 5175 2-in-1
+		1028 0704  XPS 13 9350
 	9d62  Sunrise Point-LP Serial IO I2C Controller #2
 		1028 06d6  Latitude 7275 tablet
 		1028 06e6  Latitude 11 5175 2-in-1
@@ -40491,6 +40520,7 @@
 		1028 06dc  Latitude E7470
 		1028 06e6  Latitude 11 5175 2-in-1
 		1028 06f3  Latitude 3570
+		1028 0704  XPS 13 9350
 		103c 8079  EliteBook 840 G3
 		17aa 2247  ThinkPad T570
 		17aa 382a  B51-80 Laptop
