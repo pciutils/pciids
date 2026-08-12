@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.11
-#	Date:    2026-08-11 03:15:02
+#	Version: 2026.08.12
+#	Date:    2026-08-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28266,7 +28266,16 @@
 		1dee 0011  NVMe SSD SP50Y 3.84TB 2.5"U.2
 		1dee 0012  NVMe SSD SP50Y 7.68TB 2.5"U.2
 		1dee 0013  NVMe SSD SP50Y 15.36B 2.5"U.2
-	7701  BIWIN NVMe SSD SP508/SP518
+		1dee 0101  NVMe SSD SP518 3.2TB 2.5"U.2
+		1dee 0102  NVMe SSD SP518 6.4TB 2.5"U.2
+		1dee 0103  NVMe SSD SP518 12.8TB 2.5"U.2
+		1dee 0111  NVMe SSD SP508 3.84TB 2.5"U.2
+		1dee 0112  NVMe SSD SP508 7.68TB 2.5"U.2
+		1dee 0113  NVMe SSD SP508 15.36B 2.5"U.2
+		1dee 0201  NVMe SSD SP5000 30.72TB 2.5"U.2
+		1dee 0202  NVMe SSD SP5000 61.44TB 2.5"U.2
+		1dee 1201  NVMe SSD SP5001 30.72TB 2.5"U.2
+		1dee 1202  NVMe SSD SP5001 61.44TB 2.5"U.2
 1def  Ampere Computing, LLC
 	e005  eMAG PCI Express Root Port 0
 	e006  eMAG PCI Express Root Port 1
