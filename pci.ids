@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.12
-#	Date:    2026-08-12 03:15:02
+#	Version: 2026.08.14
+#	Date:    2026-08-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -8015,6 +8015,7 @@
 		1077 02eb  QLE2782 Dual Port 32GFC PCIe Gen4 x8 Adapter with StorCryption
 		1077 02ef  QLE2880 Single Port 64GFC PCIe Gen4 x8 Adapter with StorCryption
 		1077 02f1  QLE2780 Single Port 32GFC PCIe Gen4 x8 Adapter with StorCryption
+	2299  SC2962I 128/64G Fibre Channel to PCIe Controller
 	2300  QLA2300 64-bit Fibre Channel Adapter
 	2312  ISP2312-based 2Gb Fibre Channel to PCI-X HBA
 		103c 0131  2Gb Fibre Channel - Single port [A7538A]
@@ -41671,6 +41672,8 @@
 		4c52 1049  LRES1049PT Dual-port 1Gb Ethernet Network Adapter
 		4c52 3043  LRES3043PT Dual-port 1Gb Ethernet Server Adapter for OCP
 	8500  Ethernet Controller N20 Series for 25GbE
+		4c52 1470  LRES1470PF Dual-Port 25G Ethernet Network Adapter
+		4c52 2502  GQM2502E Dual-Port 25G Ethernet Network Adapter
 		8848 0800  Ethernet Network Adapter N20 for 25GbE SFP28
 		8848 8800  Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port
 		8848 c800  Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port OCP 3.0
