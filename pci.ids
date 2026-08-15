@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.14
-#	Date:    2026-08-14 03:15:02
+#	Version: 2026.08.15
+#	Date:    2026-08-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30493,6 +30493,7 @@
 	6600  NX6600U0 NVME SSD
 	7500  NX7500U0 NVME SSD
 	7600  NX7600U0 NVME SSD
+214d  Equalizer Technologies
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
