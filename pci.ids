@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.15
-#	Date:    2026-08-15 03:15:02
+#	Version: 2026.08.18
+#	Date:    2026-08-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -7413,7 +7413,7 @@
 	0109  Video Adapter
 	0111  OTI-64111 [Spitfire]
 	0217  OTI-64217
-	0317  OTI-64317
+	0317  OTI-64317 [Warp 5]
 104f  Co-time Computer Ltd
 1050  Winbond Electronics Corp
 	0000  NE2000
@@ -30494,6 +30494,8 @@
 	7500  NX7500U0 NVME SSD
 	7600  NX7600U0 NVME SSD
 214d  Equalizer Technologies
+	0001  Xeetah Base Firmware
+	0002  Xeetah Development Platform
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
