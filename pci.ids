@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.18
-#	Date:    2026-08-18 03:15:02
+#	Version: 2026.08.19
+#	Date:    2026-08-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4172,7 +4172,7 @@
 		148c 2427  RX 7800 XT [Hellhound / Red Devil]
 	7480  Navi 33 [Radeon RX 7600/7600 XT/7600M XT/7600S/7700S / PRO W7600]
 		1849 5313  RX 7600 Challenger OC
-	7481  Navi 33 [Radeon Graphics]
+	7481  Navi 33 [Steam Machine]
 	7483  Navi 33 [Radeon RX 7600M/7600M XT]
 	7487  Navi 33 [Radeon Graphics]
 	7489  Navi 33 [Radeon Pro W7500]
@@ -7408,11 +7408,11 @@
 	9108  Salina USB xHCI Host Controller
 	9121  Nextorage NEM-PA NVMe SSD for PlayStation
 104e  Oak Technology, Inc
-	0017  OTI-64017
+	0017  OTI-64017 [Eon]
 	0107  OTI-107 [Spitfire]
 	0109  Video Adapter
 	0111  OTI-64111 [Spitfire]
-	0217  OTI-64217
+	0217  OTI-64217 [Eon]
 	0317  OTI-64317 [Warp 5]
 104f  Co-time Computer Ltd
 1050  Winbond Electronics Corp
@@ -17935,7 +17935,10 @@
 	2269  SM2269XT (DRAM-less) NVMe SSD Controller
 	2504  SM2504XT NVMe 2.0 SSD Controller (DRAM-less)
 	2508  SM2508 NVMe 2.0 SSD Controller
+# ADATA mSD
+	2708  SM2708 x2 NVMe SD Express SSD Controller (DRAM-less)
 	8366  SM8366 NVMe SSD Controller [MonTitan]
+	8388  SM8388 NVMe SSD Controller [MonTitan]
 1270  Olympus Optical Co., Ltd.
 1271  GW Instruments
 1272  Telematics International
@@ -27743,7 +27746,7 @@
 	2267  NVMe PCIe SSD 220S/240S/MTE710T
 	2268  NVMe PCIe SSD 245S (DRAM-less)
 	2269  NVMe PCIe SSD 410S (DRAM-less)
-	2708  USD710S microSDXC EX SD7.1 Express (DRAM-less)
+	2708  USD710S microSDXC EX SD Express 7.1 (DRAM-less)
 	5766  NVMe PCIe SSD 110Q (DRAM-less)
 1d7c  Aerotech, Inc.
 # Fiber-optic HyperWire motion control bus from Aerotech.
@@ -29616,12 +29619,16 @@
 	3413  M18000 Family Virtual Function
 	3502  M18305 Family
 		1f0f 0001  S2055AS, 2x 25GbE, SFP28, PCIe 4.0 x8
-		1f0f 0002  S2025XS, 2x 10GbE, SFP+, PCIe 4.0 x8
+		1f0f 0002  S2025XS, 2x 10GbE, SFP+, PCIe 3.0 x8
+		1f0f 0003  S2045XS,  4x 10GbE, SFP+, PCIe 4.0 x8
 	3504  M18305 Family BASE-T
-		1f0f 0001  S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8
+		1f0f 0001  S2025XT, 2x 10GbE, Base-T, PCIe 3.0 x8
 		1f0f 0002  S2025XT, 2x 10GbE, BASE-T, PCIe 4.0 x4, Fan
 		1f0f 0003  S2045XT, 4x 10GbE, Base-T, PCIe 4.0 x8
 		1f0f 0004  S2045XT, 4x 10GbE, BASE-T, PCIe 4.0 x8, Fan
+	3506  M18305 Family OCP
+		1f0f 0001  S2055AS, 2x 25GbE, SFP28, PCIe 4.0 x8, OCP 3.0 
+		1f0f 0002  S2025AS, 2x 10GbE, SFP+, PCIe 3.0 x8, OCP 3.0 
 	350a  M18305 Family Virtual Function
 		1f0f 0001  M18305 Family Virtual Function
 	9088  D1055AS PCI Express Switch Downstream Port
