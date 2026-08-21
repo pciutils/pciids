@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.19
-#	Date:    2026-08-19 03:15:01
+#	Version: 2026.08.21
+#	Date:    2026-08-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29937,6 +29937,11 @@
 	610a  TE4406 Series NVMe PCIe Gen4x4 SSD
 	610b  XE4406 Series NVMe PCIe Gen4x4 SSD
 	610c  TE3410 Series NVMe PCIe Gen3x4 SSD
+	610d  TE4403 Series NVMe PCIe Gen4x4 SSD
+	610e  TE5440 Series NVMe PCIe Gen5x4 SSD
+	610f  TE5441 Series NVMe PCIe Gen5x4 SSD
+	6110  TE5480 Series NVMe PCIe Gen5x4 SSD
+	6111  TE5481 Series NVMe PCIe Gen5x4 SSD
 1f9d  Axelera AI
 	0001  Europa AIPU
 	1100  Metis AIPU (rev 02)
