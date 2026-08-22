@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.21
-#	Date:    2026-08-21 03:15:02
+#	Version: 2026.08.22
+#	Date:    2026-08-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29753,7 +29753,7 @@
 	1003  K2-Pro Family [FLEXFLOW-2200T MGMT Function]
 	1004  K2-Pro Family [FLEXFLOW-2200T DATA Offload Engine]
 	1005  CONFLUX-2200P NVMe Controller
-	1011  K3-T Family
+	1011  K3 Family
 		1dcf 0363  K3_F2_10G_PCIE 2*10GE Ethernet Adapter
 		1f47 0001  F31TX2S 2*10GE Ethernet Adapter
 		1f47 0002  F31TX4S 4*10GE Ethernet Adapter
@@ -29765,8 +29765,8 @@
 		1f47 0008  FLEXFLOW-3100T 4*10GE Ethernet Adapter
 		1f47 0009  F31TA2K 2*25GE Ethernet Adapter
 		1f47 000a  FLEXFLOW-3100T 4*25GE Ethernet Adapter
-	1012  K3-T Family [Virtual Function]
-	1013  K3-T Family [MGMT Function]
+	1012  K3 Family [Virtual Function]
+	1013  K3 Family [MGMT Function]
 	1105  CONFLUX-2200P NVMe Controller [Virtual Function]
 # Network Accelerating Card
 	2018  DPU Card
@@ -30381,6 +30381,8 @@
 207d  HRDT
 	0610  2-port SATA 6 Gb/s RAID Controller
 		207d 0801  TrustRAID B260s 2-port SATA RAID Adapter
+	0611  JZ9234 SATA RAID Controller
+		207d 0803  B261s SATA RAID Adapter
 	0612  SATA BootRAID Controller
 208a  MICIUS Laboratory
 2090  Rivian Automotive
