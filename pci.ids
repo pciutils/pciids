@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.22
-#	Date:    2026-08-22 03:15:01
+#	Version: 2026.08.25
+#	Date:    2026-08-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5777,6 +5777,8 @@
 	43f5  600 Series Chipset PCIe Switch Downstream Port
 	43f6  600 Series Chipset SATA Controller
 	43f7  600 Series Chipset USB 3.2 Controller
+	43f9  B665 Series Chipset USB 3.1 Controller
+	43fa  A620 Series Chipset USB 3.1 Controller
 	43fc  800 Series Chipset USB 3.x XHCI Controller
 	43fd  800 Series Chipset USB 3.x XHCI Controller
 	57a3  Matisse PCIe GPP Bridge
