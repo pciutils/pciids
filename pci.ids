@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.25
-#	Date:    2026-08-25 03:15:02
+#	Version: 2026.08.26
+#	Date:    2026-08-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1035,6 +1035,17 @@
 		1028 200d  HBA355e Adapter Tampered
 # Tampered part
 		1028 200e  HBA350i MX Tampered
+	00f0  Fusion-MPT SAS/SATA SAS52xx
+		1000 5100  eHBA 9705-32i SAS/SATA Storage Adapter
+		1000 5101  eHBA 9705-16i SAS/SATA Storage Adapter
+		1000 5102  eHBA 9705-16e SAS/SATA Storage Adapter
+		1000 5103  eHBA 9705-48i SAS/SATA Storage Adapter
+	00f1  Fusion-MPT SAS/SATA SAS52xx
+		1000 5100  eHBA 9705-32i SAS/SATA Storage Adapter
+		1000 5101  eHBA 9705-16i SAS/SATA Storage Adapter
+		1000 5102  eHBA 9705-16e SAS/SATA Storage Adapter
+		1000 5103  eHBA 9705-48i SAS/SATA Storage Adapter
+	00f2  Fusion-MPT Switch SAS52xx
 	02b0  Virtual Endpoint on PCIe Switch
 		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 		1d49 0002  ThinkSystem 810-4P NVMe Switch Adapter
