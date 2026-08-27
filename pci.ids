@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.26
-#	Date:    2026-08-26 03:15:02
+#	Version: 2026.08.27
+#	Date:    2026-08-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30523,6 +30523,8 @@
 214d  Equalizer Technologies
 	0001  Xeetah Base Firmware
 	0002  Xeetah Development Platform
+# This vendor ID 0x2155 is officially assigned by PCI‑SIG to Hubei Zhuanwei Technology Co., Ltd.
+2155  Hubei Zhuanwei Technology Co., Ltd.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
