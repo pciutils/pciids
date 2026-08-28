@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.27
-#	Date:    2026-08-27 03:15:02
+#	Version: 2026.08.28
+#	Date:    2026-08-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23008,6 +23008,8 @@
 	0227  CX10 Family [ConnectX-10 RMA]
 	0228  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Flash Recovery]
 	0229  CX9 PCIe Switch Family [ConnectX-9 PCIe Switch Secure Flash Recovery-RMA]
+	022a  CX11 Family [ConnectX-11 Flash Recovery]
+	022b  CX11 Family [ConnectX-11 RMA]
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
 	024f  MT53100 [Spectrum-2, Secure Flash recovery mode]
 	0250  Spectrum-3, Flash recovery mode
@@ -23189,6 +23191,8 @@
 	1025  CX9 Family [ConnectX-9]
 	1027  CX10 Family [ConnectX-10]
 	1028  CX10 Family [ConnectX-10 Trusted Network Control Memory]
+	1029  CX11 Family [ConnectX-11]
+	102a  CX11 Family [ConnectX-11 Trusted Network Control Memory]
 	1974  MT28800 Family [ConnectX-5 PCIe Bridge]
 	1975  MT416842 Family [BlueField SoC PCIe Bridge]
 	1976  MT28908 Family [ConnectX-6 PCIe Bridge]
@@ -23201,6 +23205,7 @@
 	197d  CX8 Family [ConnectX-8 PCIe Bridge]
 	197e  CX9 Family [ConnectX-9 PCIe Bridge]
 	197f  CX10 Family [ConnectX-10 PCIe Bridge]
+	1980  CX11 Family [ConnectX-11 PCIe Bridge]
 	2020  MT2892 Family [ConnectX-6 Dx Emulated PCIe Bridge]
 	2021  MT42822 Family [BlueField-2 SoC Emulated PCIe Bridge]
 	2023  MT2910 Family [ConnectX-7 Emulated PCIe Bridge]
@@ -23209,6 +23214,7 @@
 	2100  CX8 Family [CX8 Data Direct Interface]
 # NVLink Chip to Chip Link
 	2101  CX10 Family [ConnectX-10 NVLink-C2C]
+	2102  CX11 Family [ConnectX-11 NVLink-C2C]
 # Starting with CX10 generation
 	2300  ConnectX/BlueField Family Hardware Performance Monitors [HWPM]
 	4117  MT27712A0-FDCF-AE
