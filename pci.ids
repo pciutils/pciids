@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.08.28
-#	Date:    2026-08-28 03:15:02
+#	Version: 2026.08.29
+#	Date:    2026-08-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30522,6 +30522,7 @@
 212b  Flumeio
 # NVMe SSD
 	5951  Flumeio F5950Q
+212d  APEX Technologies
 2136  Dongguan Xincun Chengbang Technology Co., Ltd.
 	6600  NX6600U0 NVME SSD
 	7500  NX7500U0 NVME SSD
@@ -38814,6 +38815,9 @@
 	4c8b  RocketLake-S GT1 [UHD Graphics 730]
 	4c90  RocketLake-S GT1 [UHD Graphics P750]
 	4c9a  RocketLake-S [UHD Graphics]
+	4d62  Core Processors (Series 3 for Edge) CSME HECI #1
+	4d63  Core Processors (Series 3 for Edge) CSME HECI #2
+	4d64  Core Processors (Series 3 for Edge) CSME HECI #3
 	4d87  Jasper Lake eSPI Controller
 	4da3  Jasper Lake SMBus
 	4da4  Jasper Lake SPI Controller
@@ -42329,6 +42333,9 @@ a200  NEC Corporation
 a259  Hewlett Packard
 a25b  Hewlett Packard GmbH PL24-MKT
 a304  Sony
+a69c  AIC Semiconductor (Shanghai) CO., Ltd.
+# Kernel driver in use: aic8800m80x2p_fdrv
+	8d90  AIC8800M80X2P Network controller
 a727  3Com Corporation
 	0013  3CRPAG175 Wireless PC Card
 	6803  3CRDAG675B Wireless 11a/b/g Adapter
