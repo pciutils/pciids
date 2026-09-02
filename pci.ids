@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.01
-#	Date:    2026-09-01 03:15:02
+#	Version: 2026.09.02
+#	Date:    2026-09-02 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3918,7 +3918,8 @@
 	69a2  Vega 12
 	69a3  Vega 12
 	69af  Vega 12 [Radeon Pro Vega 20]
-	6fdf  Polaris 20 XL [Radeon RX 580 2048SP]
+	6fdf  Polaris 20 XL/XTR [Radeon RX 580 2048SP / RX 590 GME]
+		1002 0b31  Radeon RX 580 2048SP / Radeon RX 590 GME
 	700f  RS100 AGP Bridge
 	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
@@ -15418,7 +15419,8 @@
 	0004  PCDig Digital Image Capture
 	0008  PC-CamLink PCI framegrabber
 1130  Computervision
-1131  Philips Semiconductors
+# nee Philips Semiconductors
+1131  NXP Semiconductors
 	1561  USB 1.1 Host Controller
 		1775 c200  C2K onboard USB 1.1 host controller
 	1562  USB 2.0 Host Controller
@@ -23379,6 +23381,7 @@
 	5061  PC SN5100S M.2 2230 NVMe SSD (DRAM-less)
 	5062  PC SN5100S M.2 2242 NVMe SSD (DRAM-less)
 	5063  PC SN5100S / WD Blue SN5100 M.2 2280 NVMe SSD (DRAM-less)
+	5070  SanDisk Optimus 5110, PC SN4100S, PC SN6100S / WD Green SN3000 NVMe SSD (DRAM-less)
 15b8  ADDI-DATA GmbH
 	1001  APCI1516 SP controller (16 digi outputs)
 	1003  APCI1032 SP controller (32 digi inputs w/ opto coupler)
@@ -24300,6 +24303,7 @@
 		1761 33a3  41-770-002
 		1761 33b4  50-297A-034
 		1761 33d1  50-297A-151
+		1761 33ed  50-297A-013
 		1761 3714  42-297A-050
 1771  InnoVISION Multimedia Ltd.
 1775  General Electric
@@ -24551,10 +24555,13 @@
 	0109  SA8195P PCIe Root Complex
 	010b  SM8250 PCIe Root Complex [Snapdragon 865/870 5G]
 	010c  SM8350 PCIe Root Complex [Snapdragon 888]
-	010e  SC8280XP PCI Express Root Port
+	010e  SC8280XP PCIe Root Port [Snapdragon 8cx Gen 3]
 	0110  SM8475 PCIe Root Complex [Snapdragon 8+ Gen 1]
 	0111  SC8380XP PCIe Root Complex [Snapdragon X / X Plus / X Elite]
 	0113  SM8550/SM8650 PCIe Root Complex [Snapdragon 8 Gen 2/Gen 3]
+	011c  SM8450 PCIe Root Complex [Snapdragon 8 Gen 1]
+	0120  SC8480XP PCIe Root Complex [Snapdragon X2]
+	0123  SM8750 PCIe Root Complex [Snapdragon 8 Elite]
 	0300  MDM9x35 LTE Modem [Snapdragon X7]
 	0301  MDM9x45 LTE Modem [Snapdragon X12]
 	0302  MDM9x55 LTE Modem [Snapdragon X16]
@@ -24593,6 +24600,7 @@
 		105b e0f7  High Band Simultaneous Wireless Network Adapter
 	1108  IPQ95xx/97xx PCIe Root Port
 	1109  QCN62xx/92xx Wireless Network Adapter
+	1112  QCC2072 Wi-Fi 7(802.11be) 320MHz [FastConnect C7700]
 17cc  NetChip Technology, Inc
 	2280  NET2280 PCI to USB 2.0 Hi-Speed Peripheral Controller
 	2282  NET2282 PCI to USB 2.0 Hi-Speed Peripheral Controller
@@ -27839,6 +27847,7 @@
 	1806  Lexar NM990 NVMe SSD (DRAM-less)
 	1d97  Lexar NM620 NVME SSD (DRAM-less)
 	2263  SM2263EN/SM2263XT-based OEM NVME SSD (DRAM-less)
+	2268  FORESEE XP2300F001T / Lexar NM790 NVME SSD (DRAM-less)
 	2269  FORESEE XP2000, Lexar NM760 NVME SSD (DRAM-less)
 	2508  Lexar NM1090 PRO NVMe SSD
 	2708  Lexar microSD Express card (DRAM-less)
@@ -28248,7 +28257,10 @@
 	3000  eBPF-based PCIe Accelerator
 1ded  Alibaba (China) Co., Ltd.
 	107f  Elastic RDMA Adapter
+	2050  T-Head TH7800 Family [Panmai]
+	2051  T-Head TH7800 Family [Panmai Virtual Function]
 	5007  Elastic RDMA Adapter
+	5011  T-Head TH7800 Family [Panmai Emulated PCIe Bridge]
 	8000  M1 Root Port
 	8001  ACC-RCiEP
 	8002  RCiEP VF
@@ -42428,9 +42440,10 @@ c0a9  Micron/Crucial Technology
 	5419  T700 NVMe PCIe SSD
 	5420  P3 NVMe PCIe SSD (DRAM-less)
 	5421  P3 Plus NVMe PCIe SSD (DRAM-less)
-	5426  P310 NVMe PCIe SSD (DRAM-less)
+	5426  P310 M.2 2230/2280 NVMe PCIe SSD (DRAM-less)
 	5427  P310 NVMe PCIe SSD (DRAM-less)
 	5428  T710 NVMe PCIe SSD
+	5429  P310 NVMe PCIe SSD (DRAM-less)
 	542b  T705 NVMe PCIe SSD
 	560a  P510 NVMe PCIe SSD (DRAM-less)
 	560b  E100 NVMe PCIe SSD (DRAM-less)
