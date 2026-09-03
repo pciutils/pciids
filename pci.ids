@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.02
-#	Date:    2026-09-02 03:15:02
+#	Version: 2026.09.03
+#	Date:    2026-09-03 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28258,6 +28258,10 @@
 1ded  Alibaba (China) Co., Ltd.
 	107f  Elastic RDMA Adapter
 	2050  T-Head TH7800 Family [Panmai]
+		1ded 0001  2x200GE Advanced
+		1ded 0002  2x100GE Advanced
+		1ded 0003  2x200GE Standard
+		1ded 0004  2x100GE Standard
 	2051  T-Head TH7800 Family [Panmai Virtual Function]
 	5007  Elastic RDMA Adapter
 	5011  T-Head TH7800 Family [Panmai Emulated PCIe Bridge]
@@ -41357,7 +41361,6 @@
 	d741  NVL-U
 	d742  NVL-H
 	d743  NVL-HX
-	d744  NVL-UL
 	d745  NVL-HX
 	d74a  NVL-S
 	d74b  NVL-S
