@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.03
-#	Date:    2026-09-03 03:15:01
+#	Version: 2026.09.04
+#	Date:    2026-09-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1324,7 +1324,7 @@
 	131b  Kaveri [Radeon R4 Graphics]
 	131c  Kaveri [Radeon R7 Graphics]
 	131d  Kaveri [Radeon R6 Graphics]
-	13c0  Granite Ridge [Radeon Graphics]
+	13c0  Granite Ridge [Radeon 610M]
 # Used in the Sony PlayStation 5 Phat
 	13db  Cyan Skillfish [PlayStation 5 APU]
 	13e9  Ariel/Navi10Lite
@@ -1383,7 +1383,7 @@
 	1640  Radeon High Definition Audio Controller
 	164c  Lucienne
 	164d  Rembrandt
-	164e  Raphael
+	164e  Raphael [Radeon 610M]
 	164f  Phoenix
 	1681  Rembrandt [Radeon 680M]
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
