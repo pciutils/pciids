@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.04
-#	Date:    2026-09-04 03:15:02
+#	Version: 2026.09.05
+#	Date:    2026-09-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -15661,6 +15661,19 @@
 		5ace 8201  Behold TV T8
 	9730  SAA9730 Integrated Multimedia and Peripheral Controller
 		1131 0000  Integrated Multimedia and Peripheral Controller
+	e001  i.MX9 PCIe root complex event collector
+	e002  i.MX9 PCIe root complex event collector (MSI/-X capable)
+	e100  i.MX9 ethernet controller (ENETC) rev 1
+	e101  i.MX9 ethernet controller (ENETC) rev 2
+	e110  i.MX9 switch management port (ENETC rev 2)
+	e111  i.MX9 TSN ethernet switch management port
+	e200  i.MX9 central DMA
+	ee00  i.MX9 ethernet MDIO controller rev 2
+	ee01  i.MX9 ethernet MDIO controller rev 1
+	ee02  i.MX9 IEEE 1588/1722 controller
+	eef0  i.MX9 TSN ethernet switch
+	eef2  i.MX9 ethernet switch config and control
+	ef00  i.MX9 ethernet controller virtual function
 1132  Mitel Corp.
 1133  Dialogic Corporation
 	7701  Eiconcard C90
@@ -24596,8 +24609,8 @@
 	1101  QCA6390 Wireless Network Adapter
 	1103  QCNFA765 Wireless Network Adapter
 	1104  QCN6024/9024/9074 Wireless Network Adapter
-	1107  WCN785x Wi-Fi 7(802.11be) 320MHz 2x2 [FastConnect 7800]
-		105b e0f7  High Band Simultaneous Wireless Network Adapter
+	1107  NCM8x5/WCN785x Wi-Fi 7(802.11be) 320MHz 2x2 [FastConnect 7800]
+		105b e0f7  High Band Simultaneous(Double Connect) Wireless Network Adapter
 	1108  IPQ95xx/97xx PCIe Root Port
 	1109  QCN62xx/92xx Wireless Network Adapter
 	1112  QCC2072 Wi-Fi 7(802.11be) 320MHz [FastConnect C7700]
@@ -27123,6 +27136,7 @@
 1c8a  TSF5 Corporation
 	0001  Hunter PCI Express
 1c8c  Mobiveil, Inc.
+1ca5  Corerise Electronics Co. Ltd.
 1cb0  Shannon Systems
 	8266  SP4 Series SSD
 		1cb0 2021  SP4 Series OCS U.2 SSD
