@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.09
-#	Date:    2026-09-09 03:15:02
+#	Version: 2026.09.10
+#	Date:    2026-09-10 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -113,6 +113,10 @@
 0123  General Dynamics
 0127  MIPS
 0128  Dell (wrong ID)
+# http://www.zeobercom.cn/
+0168  Chengdu ZeoberCom Co.
+# http://www.zeobercom.cn/
+	1553  1553B card
 # 018a is not LevelOne but there is a board misprogrammed
 018a  LevelOne
 	0106  FPC-0106TX misprogrammed [RTL81xx]
@@ -13650,7 +13654,7 @@
 	2bbc  GB202GL [RTX PRO 6000D Blackwell Max-Q Workstation Edition]
 	2c02  GB203 [GeForce RTX 5080]
 	2c05  GB203 [GeForce RTX 5070 Ti]
-	2c09  GB203
+	2c09  GB203 [GeForce RTX 5070]
 	2c18  GB203M / GN22 [GeForce RTX 5090 Max-Q / Mobile]
 	2c19  GB203M / GN22 [GeForce RTX 5080 Max-Q / Mobile]
 	2c2c  GB6-256(N22W-ES-A1)
@@ -13692,10 +13696,11 @@
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f80  GB205 High Definition Audio Controller
-	2f95  Vera Rubin CPU
-	2f96  Vera Rubin CPU
-	2f97  Vera Rubin CPU
-	2f98  Vera Rubin CPU
+	2f95  TB500 RP x16
+	2f96  TB500 RP x8
+	2f97  TB500 RP x4
+	2f98  TB500 RP x2
+	2f99  TB500 RP x1
 	3000  GR100 [Reserved Dev ID A]
 	3021  GR100 [PCIe Faber]
 	3040  GR100 [Reserved Dev ID B]
@@ -13711,6 +13716,7 @@
 	3224  GB112
 	323e  GB112
 	3340  GB120
+	3400  T268 / Tegra RP iGPU
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -25633,6 +25639,8 @@
 	5013  PS5013-E13 PCIe3 NVMe Controller (DRAM-less)
 	5015  PS5015-E15 PCIe3 NVMe Controller (DRAM-less)
 	5016  E16 PCIe4 NVMe Controller
+# TEAM card
+	5017  PS5017 x2 NVMe SD Express SSD Controller (DRAM-less)
 	5018  E18 PCIe4 NVMe Controller
 	5019  PS5019-E19 PCIe4 NVMe Controller (DRAM-less)
 	5020  PS5020-E20 (X1) PCIe4 NVMe Controller
