@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.10
-#	Date:    2026-09-10 03:15:02
+#	Version: 2026.09.11
+#	Date:    2026-09-11 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29035,6 +29035,7 @@
 1e59  Oxford Nanopore Technologies
 	0001  MinION Mk1C
 1e5d  ASR Microelectronics
+	3003  Key Stone K1/M1 PCIe 2.0 x2 Root Complex
 	7000  AI controller A7000
 	7010  AI controller A7010
 1e60  Hailo Technologies Ltd.
@@ -30280,8 +30281,8 @@
 	8800  LM-I56N
 2004  Smart Link Ltd.
 201f  SpacemiT
-	0001  X60 PCIe 2.0 x2 Root Complex
-	0002  X100 PCIe Root Complex
+	0001  Key Stone K1 PCIe 2.0 x2 Root Complex
+	0002  Key Stone K3 PCIe Root Complex
 202c  CAEN S.p.A.
 	5818  A5818
 2036  Netforward Microelectronics Co., Ltd.
@@ -41362,29 +41363,79 @@
 	d156  Core Processor Semaphore and Scratchpad Registers
 	d157  Core Processor System Control and Status Registers
 	d158  Core Processor Miscellaneous Registers
+	d320  Core Ultra Processors (Series 4) P2SB 8b
+	d321  Core Ultra Processors (Series 4) PMC
 	d323  Nova Lake PCD-H SPI Controller
+	d324  Core Ultra Processors (Series 4) Trace Hub
 	d325  Nova Lake PCD-H Serial IO UART Controller #0
 	d326  Nova Lake PCD-H Serial IO UART Controller #1
 	d327  Nova Lake PCD-H Serial IO SPI Controller #0
 	d330  Nova Lake PCD-H Serial IO SPI Controller #1
 	d331  Nova Lake-H Thunderbolt 5 USB Controller
 	d333  Nova Lake-H Thunderbolt 5 NHI #0
+	d335  Core Ultra Processors (Series 4) UFS Controller
+	d338  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #1
+	d339  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #2
+	d33a  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #3
+	d33b  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #4
+	d33c  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #5
+	d33d  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #6
+	d33e  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #7
+	d33f  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #8
+	d344  Core Ultra Processors (Series 4) IEH #0
+	d345  Core Ultra Processors (Series 4) IEH #1
+	d346  Core Ultra Processors (Series 4) CNVi Bluetooth
 	d347  Nova Lake PCD-H Serial IO SPI Controller #2
+	d348  Core Ultra Processors (Series 4) THC #0 ID1
+	d349  Core Ultra Processors (Series 4) THC #0 ID2
+	d34a  Core Ultra Processors (Series 4) THC #1 ID1
+	d34b  Core Ultra Processors (Series 4) THC #1 ID2
+	d34c  Core Ultra Processors (Series 4) P2SB 16b
 	d34e  Nova Lake-H Thunderbolt 5 PCI Express Root Port #0
 	d34f  Nova Lake-H Thunderbolt 5 PCI Express Root Port #1
 	d350  Nova Lake PCD-H Serial IO I2C Controller #4
 	d351  Nova Lake PCD-H Serial IO I2C Controller #5
 	d352  Nova Lake PCD-H Serial IO UART Controller #2
+	d354  Core Ultra Processors (Series 4) ISH
+	d358  Core Ultra Processors (Series 4) SSE HECI #1
+	d359  Core Ultra Processors (Series 4) SSE HECI #2
+	d35a  Core Ultra Processors (Series 4) SSE HECI #3
+	d35c  Core Ultra Processors (Series 4) PCIe Gen5 Root Port #10
 	d360  Nova Lake-H Thunderbolt 5 PCI Express Root Port #2
+	d361  Core Ultra Processors (Series 4) PCIe Gen5 Root Port #9
+	d362  Core Ultra Processors (Series 4) PSE HECI #1
+	d363  Core Ultra Processors (Series 4) PSE HECI #2
+	d364  Core Ultra Processors (Series 4) PSE HECI #3
+	d365  Core Ultra Processors (Series 4) PCIe Gen5 Root Port #11
+	d366  Core Ultra Processors (Series 4) PCIe Gen5 Root Port #12
+	d367  Core Ultra Processors (Series 4) PCIe Gen5 Root Port #13
+	d368  Core Ultra Processors (Series 4) PCIe Gen5 Root Port #14
+	d36f  Core Ultra Processors (Series 4) I3C #2
+	d370  Core Ultra Processors (Series 4) CSME HECI #1
+	d371  Core Ultra Processors (Series 4) CSME HECI #2
+	d372  Core Ultra Processors (Series 4) CSME IDE Redirection (IDER-R)
+	d373  Core Ultra Processors (Series 4) CSME Keyboard and Text (KT) Redirection
+	d374  Core Ultra Processors (Series 4) CSME HECI #3
+	d375  Core Ultra Processors (Series 4) CSME HECI #4
 	d378  Nova Lake PCD-H Serial IO I2C Controller #0
 	d379  Nova Lake PCD-H Serial IO I2C Controller #1
 	d37a  Nova Lake PCD-H Serial IO I2C Controller #2
 	d37b  Nova Lake PCD-H Serial IO I2C Controller #3
+	d37c  Core Ultra Processors (Series 4) I3C #1
+	d37d  Core Ultra Processors (Series 4) Standalone xHCI Controller
+	d37e  Core Ultra Processors (Series 4) PMC Shared SRAM
+	d37f  Core Ultra Processors (Series 4) Standalone xDCI Controller
 	d431  Nova Lake-S Thunderbolt 5 USB Controller
 	d433  Nova Lake-S Thunderbolt 5 NHI #0
 	d44e  Nova Lake-S Thunderbolt 5 PCI Express Root Port #0
 	d44f  Nova Lake-S Thunderbolt 5 PCI Express Root Port #1
 	d460  Nova Lake-S Thunderbolt 5 PCI Express Root Port #2
+	d703  Core Ultra Processors (Series 4) DTT
+	d70b  Core Ultra Processors (Series 4) VMD
+	d70d  Core Ultra Processors (Series 4) Crashlog and Telemetry
+	d719  Core Ultra Processors (Series 4) IPU
+	d71d  Core Ultra Processors (Series 4) NPU
+	d72d  Core Ultra Processors (Series 4) IAA
 	d740  NVL-S
 	d741  NVL-U
 	d742  NVL-H
