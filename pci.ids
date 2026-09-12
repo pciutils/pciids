@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.11
-#	Date:    2026-09-11 03:15:02
+#	Version: 2026.09.12
+#	Date:    2026-09-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13716,7 +13716,7 @@
 	3224  GB112
 	323e  GB112
 	3340  GB120
-	3400  T268 / Tegra RP iGPU
+	3400  GB10B [Tegra RP iGPU]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 		103c 1934  FlexFabric 20Gb 2-port 650M Adapter
@@ -30408,6 +30408,8 @@
 		2061 2088  E5300 NVMe SSD 7.68TB PCIe 5.0 U.2
 		2061 2089  E5300 NVMe SSD 12.8TB PCIe 5.0 U.2
 		2061 208a  E5300 NVMe SSD 15.36TB PCIe 5.0 U.2
+		2061 2090  E5300 NVMe SSD 25.6TB PCIe 5.0 U.2
+		2061 2091  E5300 NVMe SSD 30.72TB PCIe 5.0 U.2
 2063  Hubei Yangtze Mason Semiconductor Technology Co., Ltd.
 	0bb8  MC3000
 	0bb9  RC3000
@@ -39293,15 +39295,40 @@
 	6750  CRI
 	6e23  Nova Lake PCH-S SMbus Controller
 	6e24  Nova Lake PCH-S SPI Controller
+	6e27  Nova Lake PCH-S Shared SRAM
 	6e28  Nova Lake PCH-S Serial IO UART Controller #0
 	6e29  Nova Lake PCH-S Serial IO UART Controller #1
 	6e2a  Nova Lake PCH-S Serial IO SPI Controller #0
 	6e2b  Nova Lake PCH-S Serial IO SPI Controller #1
+	6e30  900 Series Chipset Family PCIe Root Port #9
+	6e31  900 Series Chipset Family PCIe Root Port #10
+	6e32  900 Series Chipset Family PCIe Root Port #11
+	6e33  900 Series Chipset Family PCIe Root Port #12
+	6e34  900 Series Chipset Family PCIe Root Port #13
+	6e35  900 Series Chipset Family PCIe Root Port #14
+	6e38  900 Series Chipset Family PCIe Root Port #1
+	6e39  900 Series Chipset Family PCIe Root Port #2
+	6e3a  900 Series Chipset Family PCIe Root Port #3
+	6e3b  900 Series Chipset Family PCIe Root Port #4
+	6e3c  900 Series Chipset Family PCIe Root Port #5
+	6e3d  900 Series Chipset Family PCIe Root Port #6
+	6e3e  900 Series Chipset Family PCIe Root Port #7
+	6e3f  900 Series Chipset Family PCIe Root Port #8
+	6e40  900 Series Chipset Family PCIe Root Port #17
+	6e41  900 Series Chipset Family PCIe Root Port #18
+	6e42  900 Series Chipset Family PCIe Root Port #19
+	6e43  900 Series Chipset Family PCIe Root Port #20
+	6e44  900 Series Chipset Family PCIe Root Port #21
+	6e45  900 Series Chipset Family PCIe Root Port #22
+	6e46  900 Series Chipset Family PCIe Root Port #23
+	6e47  900 Series Chipset Family PCIe Root Port #24
 	6e4c  Nova Lake PCH-S Serial IO I2C Controller #0
 	6e4d  Nova Lake PCH-S Serial IO I2C Controller #1
 	6e4e  Nova Lake PCH-S Serial IO I2C Controller #2
 	6e4f  Nova Lake PCH-S Serial IO I2C Controller #3
 	6e5e  Nova Lake PCH-S Serial IO SPI Controller #2
+	6e68  Nova Lake PCH-S CSME HECI #1
+	6e6e  Nova Lake PCH-S USB 3.2 xHCI HC
 	6e7a  Nova Lake PCH-S Serial IO I2C Controller #4
 	6e7b  Nova Lake PCH-S Serial IO I2C Controller #5
 	6f00  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
@@ -41425,11 +41452,15 @@
 	d37d  Core Ultra Processors (Series 4) Standalone xHCI Controller
 	d37e  Core Ultra Processors (Series 4) PMC Shared SRAM
 	d37f  Core Ultra Processors (Series 4) Standalone xDCI Controller
+	d423  Core Ultra Processors (Series 4) SPI (flash) Controller
 	d431  Nova Lake-S Thunderbolt 5 USB Controller
 	d433  Nova Lake-S Thunderbolt 5 NHI #0
 	d44e  Nova Lake-S Thunderbolt 5 PCI Express Root Port #0
 	d44f  Nova Lake-S Thunderbolt 5 PCI Express Root Port #1
 	d460  Nova Lake-S Thunderbolt 5 PCI Express Root Port #2
+	d462  Core Ultra Processors (Series 4) PSE HECI #1
+	d470  Core Ultra Processors (Series 4) ESE++ HECI #1
+	d47e  Core Ultra Processors (Series 4) Shared SRAM
 	d703  Core Ultra Processors (Series 4) DTT
 	d70b  Core Ultra Processors (Series 4) VMD
 	d70d  Core Ultra Processors (Series 4) Crashlog and Telemetry
