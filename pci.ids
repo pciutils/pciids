@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.13
-#	Date:    2026-09-13 03:15:02
+#	Version: 2026.09.15
+#	Date:    2026-09-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -39037,6 +39037,7 @@
 	51fc  Alder Lake-P Integrated Sensor Hub
 		1028 0b10  Precision 3571
 		1028 0c06  Precision 3580
+	51ff  Alder Lake UFS Controller
 	5200  EtherExpress PRO/100 Intelligent Server PCI Bridge
 	5201  EtherExpress PRO/100 Intelligent Server Fast Ethernet Controller
 		8086 0001  EtherExpress PRO/100 Server Ethernet Adapter
@@ -40331,6 +40332,7 @@
 	96a1  Integrated RAID
 	9840  Lakefield GT2 [UHD Graphics]
 	9841  Lakefield GT1.5 [UHD Graphics]
+	98fa  Lakefield UFS Controller
 	9a01  11th Gen Core Processor PCIe Controller #1
 	9a02  Tiger Lake-UP4 2 cores Host Bridge/DRAM Registers
 	9a03  TigerLake-LP Dynamic Tuning Processor Participant
