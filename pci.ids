@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.15
-#	Date:    2026-09-15 03:15:02
+#	Version: 2026.09.16
+#	Date:    2026-09-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -116,7 +116,51 @@
 # http://www.zeobercom.cn/
 0168  Chengdu ZeoberCom Co.
 # http://www.zeobercom.cn/
+	00ad  Multi-channel analog acquisition card, CPCI/PCI interface
+# http://www.zeobercom.cn/
+	00ca  CAN Serials Card, CPCI/PCI interface,10/more ports.
+# http://www.zeobercom.cn/
+	00da  Multi-channel analog output board, CPCI/PCI interface
+# http://www.zeobercom.cn/
+	00df  Manchester encoding card, CPCI/PCI interface,4/more ports
+# http://www.zeobercom.cn/
+	00ee  PCI-e switch Serials Card, CPCI/PCI interface,4/more ports.
+# http://www.zeobercom.cn/
+	0123  Programmable resistor output board, CPCI/PCI interface,8/more ports.
+# http://www.zeobercom.cn/
+	0232  RS232/RS422/RS485 Serials Card, CPCI/PCI interface,10/more ports.
+# http://www.zeobercom.cn/
+	025e  2.5G Ethenet switch Serials Card, CPCI/PCI interface,4/more ports.
+# http://www.zeobercom.cn/
+	0429  std ARINC429 Serials Card, CPCI/PCI interface, one/more ports.
+# http://www.zeobercom.cn/
+	0818  std ARINC818 Serials Card, CPCI/PCI interface, one/more ports.
+# http://www.zeobercom.cn/
+	0a4e  TSN Serials Card, CPCI/PCI interface,2/more ports.
+# http://www.zeobercom.cn/
+	0afd  AFDX Serials Card, CPCI/PCI interface, one/more ports.
+# http://www.zeobercom.cn/
+	0c32  Multi-channel 32-bit counter board, CPCI/PCI interface
+# http://www.zeobercom.cn/
+	0d10  Discrete I/O Board, CPCI/PCI interface,8/more ports.
+# http://www.zeobercom.cn/
+	0dac  Multi-function Data Acquisition Series Card,, CPCI/PCI interface,8/more ports.
+# http://www.zeobercom.cn/
+	1394  std MIL-STD-1394B Serials Card, CPCI/PCI interface, one/more ports.
+# http://www.zeobercom.cn/
 	1553  1553B card
+# http://www.zeobercom.cn/
+	adda  Analog input/output board, CPCI/PCI interface,8/more ports.
+# http://www.zeobercom.cn/
+	c000  NXP Series Processing Board
+# http://www.zeobercom.cn/
+	c004  Ascend series AI computing card
+# http://www.zeobercom.cn/
+	c006  Longson Series Processing Board
+# http://www.zeobercom.cn/
+	c00f  Phytium Series Processing Board
+# http://www.zeobercom.cn/
+	fcae  FC-AE Serials Card, CPCI/PCI interface, one/more ports.
 # 018a is not LevelOne but there is a board misprogrammed
 018a  LevelOne
 	0106  FPC-0106TX misprogrammed [RTL81xx]
@@ -34291,8 +34335,10 @@
 	1bc7  C740 Series (Emmitsburg) Chipsets Power Management Controller
 	1bc8  C740 Series (Emmitsburg) Chipsets Audio
 	1bc9  C740 Series (Emmitsburg) Chipsets SMBus
+	1bca  C740 Series SPI Controller [Emmitsburg]
 	1bcd  C740 Series (Emmitsburg) Chipsets USB 3.2 Gen 1 xHCI Controller
 		1bd4 00a5  RS0800I5H16i
+	1bce  C740 Series Shared SRAM
 	1bd2  Sapphire Rapids SATA AHCI Controller
 	1bd6  C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID)
 	1bf2  Sapphire Rapids SATA AHCI Controller
