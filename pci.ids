@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.16
-#	Date:    2026-09-16 03:15:02
+#	Version: 2026.09.17
+#	Date:    2026-09-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26,6 +26,7 @@
 #		subvendor subdevice  subsystem_name	<-- two tabs
 
 0001  SafeNet (wrong ID)
+0008  Ethernet Network Adapter E830-XXV-8F for OCP 3.0
 0010  Allied Telesis, Inc (Wrong ID)
 # This is a relabelled RTL-8139
 	8139  AT-2500TX V3 Ethernet
@@ -854,11 +855,13 @@
 	0097  SAS3008 PCI-Express Fusion-MPT SAS-3
 		1000 3090  SAS9311-8i
 		1000 30a0  SAS9300-8e
+		1000 30d0  SAS9300-16e
 		1000 30e0  SAS9300-8i
 		1000 3130  SAS 9300-16i
 		1000 3170  SAS9302-16e
 # IBM SAS3008 HBA controller
 		1014 0457  9302-8i [N2215]
+		1014 04cd  SAS9300-16e
 		1028 1f45  HBA330 Adapter
 		1028 1f46  12Gbps HBA
 		1028 1f53  HBA330 Mini
@@ -8035,6 +8038,7 @@
 		1077 0283  QLE2764 Quad Port 32Gb Fibre Channel to PCIe Adapter
 		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02a2  QLE2694L Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a3  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
 		1077 02ad  QLE2694U Quad Port 16/32Gb Fibre Channel to PCIe Adapter
 	2081  ISP2814-based 64/32G Fibre Channel to PCIe Controller
 		1077 02e1  QLE2874 Quad Port 64GFC PCIe Gen4 x16 Adapter
@@ -25424,6 +25428,10 @@
 		1924 0303  SFE4003-A3
 		1924 0304  SFE4003-A4
 		1924 0500  SFE4005-A0
+	8c03  X4D 1/10/25/40/50/100Gb Ethernet Controller PLUS
+	9c03  X4D 1/10/25/40/50/100Gb Ethernet Controller PLUS (Virtual Function)
+	ac03  X4D 1/10/25/40/50/100Gb Ethernet Controller
+	bc03  X4D 1/10/25/40/50/100Gb Ethernet Controller (Virtual Function)
 	c101  EF1-21022T [EtherFabric]
 192a  BiTMICRO Networks Inc.
 	0008  RAMPART
@@ -34341,6 +34349,11 @@
 	1bce  C740 Series Shared SRAM
 	1bd2  Sapphire Rapids SATA AHCI Controller
 	1bd6  C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID)
+	1be0  C740 Series ME HECI #1
+	1be1  C740 Series ME HECI #2
+	1be2  C740 Series ME IDE Redirection (IDER-R)
+	1be3  C740 Series ME Keyboard and Text (KT) Redirection
+	1be4  C740 Series ME HECI #3
 	1bf2  Sapphire Rapids SATA AHCI Controller
 	1bf6  C740 Series (Emmitsburg) Chipsets SATA1 Controller (RAID)
 	1c00  6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 0-3)
@@ -37759,12 +37772,15 @@
 	3241  Xeon 6900 6700 6500 Series with P-Cores Processors UPI link/Phy0
 	3242  Xeon 6900 6700 6500 Series with P-Cores Processors UPI Phy0
 	3245  Xeon 6900 6700 6500 Series with P-Cores Processors UPI
+	3246  Xeon 6900 6700 6500 Series with P-Cores Processors UPI PMON0 Registers
+	3247  Xeon 6900 6700 6500 Series with P-Cores Processors UPI PMON1 Registers
 	324a  Xeon 6900 6700 6500 Series with P-Cores Processors IMC
 	324c  Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 1
 	324d  Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 0
 	3250  Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Event Control
 	3251  Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Register Access Control Unit
 	3252  Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Decode
+	3255  Xeon 6900 6700 6500 Series with P-Cores Processors MS2UBox
 	3256  Xeon 6900 6700 6500 Series with P-Cores Processors Trace Hub
 	3258  Power Control Unit (PCU) CR0
 	3259  Power Control Unit (PCU) CR1
@@ -40135,7 +40151,7 @@
 	8c1d  8 Series/C220 Series Chipset Family PCI Express Root Port #7
 	8c1e  8 Series/C220 Series Chipset Family PCI Express Root Port #8
 	8c1f  8 Series/C220 Series Chipset Family PCI Express Root Port #8
-	8c20  8 Series/C220 Series Chipset High Definition Audio Controller
+	8c20  8 Series/C220/C740 Series Chipset High Definition Audio Controller
 		1028 05d7  Alienware X51 R2
 		103c 1909  ZBook 15
 		103c 1998  EliteDesk 800 G1
