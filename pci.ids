@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.17
-#	Date:    2026-09-17 03:15:02
+#	Version: 2026.09.18
+#	Date:    2026-09-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26,7 +26,6 @@
 #		subvendor subdevice  subsystem_name	<-- two tabs
 
 0001  SafeNet (wrong ID)
-0008  Ethernet Network Adapter E830-XXV-8F for OCP 3.0
 0010  Allied Telesis, Inc (Wrong ID)
 # This is a relabelled RTL-8139
 	8139  AT-2500TX V3 Ethernet
@@ -13735,7 +13734,7 @@
 	2e03  GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]
 	2e06  GB20B [RTX Spark N1X (5120-core Blackwell RTX GPU)]
 	2e12  GB20B [GB10]
-	2e13  GB20B [Desktop Device]
+	2e13  GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
 	2f04  GB205 [GeForce RTX 5070]
