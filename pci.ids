@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.18
-#	Date:    2026-09-18 03:15:02
+#	Version: 2026.09.21
+#	Date:    2026-09-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -28714,6 +28714,7 @@
 		1028 2450  RLC9CZV245T
 	003e  LC9 E3.S NVMe SSD
 	003f  LC9 U.2 NVMe SSD
+	0040  Exceria G3 PCIe 5 NVMe SSD (QLC) (DRAM-less)
 	0042  NVMe SSD Controller LD4
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
 1e18  Beijing GuangRunTong Technology Development Co.,Ltd
@@ -30633,6 +30634,8 @@
 	0002  Xeetah Development Platform
 # This vendor ID 0x2155 is officially assigned by PCI‑SIG to Hubei Zhuanwei Technology Co., Ltd.
 2155  Hubei Zhuanwei Technology Co., Ltd.
+2159  AIC Semiconductor (Shanghai) Co., Ltd.
+	8d90  AIC8800M80X2P Network controller
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
@@ -42524,9 +42527,6 @@ a200  NEC Corporation
 a259  Hewlett Packard
 a25b  Hewlett Packard GmbH PL24-MKT
 a304  Sony
-a69c  AIC Semiconductor (Shanghai) CO., Ltd.
-# Kernel driver in use: aic8800m80x2p_fdrv
-	8d90  AIC8800M80X2P Network controller
 a727  3Com Corporation
 	0013  3CRPAG175 Wireless PC Card
 	6803  3CRDAG675B Wireless 11a/b/g Adapter
