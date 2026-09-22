@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.21
-#	Date:    2026-09-21 03:15:02
+#	Version: 2026.09.22
+#	Date:    2026-09-22 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30547,6 +30547,7 @@
 20b4  Genstoraige Technology Co., Ltd.
 	a20c  PT200A PCIe 5.0 NVMe SSD
 	c25c  MQ205 PCIe 5.0 NVMe SSD
+	d15b  PT150 PCIe 4.0 NVMe SSD
 	d20c  PT200 PCIe 5.0 NVMe SSD
 	d25c  PT205 PCIe 5.0 NVMe SSD
 # PT208 PCIe 5.0 NVMe SSD Device ID
@@ -30636,6 +30637,7 @@
 2155  Hubei Zhuanwei Technology Co., Ltd.
 2159  AIC Semiconductor (Shanghai) Co., Ltd.
 	8d90  AIC8800M80X2P Network controller
+215e  SmarCo HT Tech Inc.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
