@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.23
-#	Date:    2026-09-23 03:15:02
+#	Version: 2026.09.24
+#	Date:    2026-09-24 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -26997,6 +26997,7 @@
 	1969  PC811 NVMe Solid State Drive
 	1d59  BC901 NVMe Solid State Drive (DRAM-less)
 	1f69  PVC10 NVMe Solid State Drive (DRAM-less)
+	2069  PEB110 Series NVMe Solid State Drive
 	2204  960GB TLC PCIe Gen3 x4 NVMe M.2 22110
 	2427  PE6010 NVMe Solid State Drive
 	2429  PE6011 NVMe Solid State Drive
