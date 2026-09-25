@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.24
-#	Date:    2026-09-24 03:15:01
+#	Version: 2026.09.25
+#	Date:    2026-09-25 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30672,6 +30672,7 @@
 2159  AIC Semiconductor (Shanghai) Co., Ltd.
 	8d90  AIC8800M80X2P Network controller
 215a  Suzhou Ruixin Integrated Circuit Technology Co., Ltd.
+	0301  D35 Family [DFU-3531]
 215e  SmarCo HT Tech Inc.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
