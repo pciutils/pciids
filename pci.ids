@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.25
-#	Date:    2026-09-25 03:15:01
+#	Version: 2026.09.30
+#	Date:    2026-09-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -3131,7 +3131,7 @@
 		148c 2373  Radeon RX 470
 		148c 2377  Red Devil RX 580 8G Golden
 		148c 2378  Radeon RX 580
-		148c 2379  Radeon RX 570 4G [Red Dragon]
+		148c 2379  Radeon RX 570 [Red Dragon]
 		148c 2391  Radeon RX 590 [Red Devil]
 		1682 9470  Radeon RX 470
 		1682 9480  Radeon RX 480
@@ -28174,6 +28174,7 @@
 		1dd8 500f  DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T
 		1dd8 5200  DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card
 		1dd8 5201  POLLARA-1Q400 100/200/400G 1-port Card
+		1dd8 5400  ROCm Emulated RDMA NIC
 	1003  DSC Ethernet Controller VF
 		1dd8 100e  Distributed Services Card
 		1dd8 4000  Naples 100Gb 2-port QSFP28 x16 8GB
@@ -30673,6 +30674,10 @@
 	8d90  AIC8800M80X2P Network controller
 215a  Suzhou Ruixin Integrated Circuit Technology Co., Ltd.
 	0301  D35 Family [DFU-3531]
+	0302  D35 Family [DFU-3512]
+	0303  D35 Family [DFU-3520]
+	0304  D35 Family [CIM-5000L]
+	0305  D35 Family [DFU-3541C]
 215e  SmarCo HT Tech Inc.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
