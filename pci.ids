@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.09.30
-#	Date:    2026-09-30 03:15:02
+#	Version: 2026.10.01
+#	Date:    2026-10-01 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13675,6 +13675,7 @@
 	2900  GB100 [Reserved Dev ID A]
 	2901  GB100 [B200]
 	2909  GB100 [HGX B200 168GB]
+	290a  GB100 [B200]
 	2920  GB100 [TS4 / B100]
 	2924  GB100
 	2925  GB100
@@ -13749,11 +13750,18 @@
 	2f98  TB500 RP x2
 	2f99  TB500 RP x1
 	3000  GR100 [Reserved Dev ID A]
+	3002  GR100
 	3021  GR100 [PCIe Faber]
 	3040  GR100 [Reserved Dev ID B]
-	30c0  GR102
+	3041  GR100
+	307e  GR100
+	3080  GR102 [Reserved Dev ID A]
+	30c0  GR102 [Reserved Dev ID B]
+	30ff  GR102
 	3180  GB110 [Reserved Dev ID A]
 	3182  GB110 [B300 SXM6 AC]
+	3183  GB110
+	3184  GB110
 	31a1  GB110 [GB300 MaxQ]
 	31c0  GB110 [Reserved Dev ID B]
 	31c2  GB110 [GB300]
@@ -30679,6 +30687,7 @@
 	0304  D35 Family [CIM-5000L]
 	0305  D35 Family [DFU-3541C]
 215e  SmarCo HT Tech Inc.
+2165  Dnotitia Inc.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
