@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.01
-#	Date:    2026-10-01 03:15:02
+#	Version: 2026.10.07
+#	Date:    2026-10-07 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -9718,6 +9718,12 @@
 		1761 1134  Pickering Interfaces 50-297-044
 		1761 1135  Pickering Interfaces 50-297-050
 		1761 1139  Pickering Interfaces 50-297-113
+		1761 4442  50-190-001
+		1761 4443  50-190-002
+		1761 4444  50-190-101
+		1761 4445  50-190-102
+		1761 4446  50-190-201
+		1761 4447  50-190-207
 # MIL-STD-1553B Board
 		e1c5 0001  TE1-PCI
 		e1c5 0005  TA1-PCI
@@ -24388,6 +24394,7 @@
 		1761 3320  50-297A-050
 		1761 3321  50-297A-056
 		1761 3353  50-110B-121
+		1761 335d  50-190A-002
 		1761 3366  41-625-004
 		1761 3368  50-297A-130
 		1761 3372  50-297A-122
