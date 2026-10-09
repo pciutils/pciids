@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.07
-#	Date:    2026-10-07 03:15:02
+#	Version: 2026.10.09
+#	Date:    2026-10-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30694,6 +30694,11 @@
 	0304  D35 Family [CIM-5000L]
 	0305  D35 Family [DFU-3541C]
 215e  SmarCo HT Tech Inc.
+	0301  D35 Family [GC3]
+	0302  D35 Family [SC3]
+	0303  D35 Family [RC3]
+	0304  D35 Family [D3]
+	0305  D35 Family [HC3]
 2165  Dnotitia Inc.
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
