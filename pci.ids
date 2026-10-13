@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.12
-#	Date:    2026-10-12 03:15:02
+#	Version: 2026.10.13
+#	Date:    2026-10-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -14234,6 +14234,7 @@
 	8821  RTL8821AE 802.11ac PCIe Wireless Network Adapter
 	8852  RTL8852AE 802.11ax PCIe Wireless Network Adapter
 	8922  RTL8922AE 802.11be PCIe Wireless Network Adapter
+	892d  RTL8922DE-VS 802.11be PCIe Wireless Network Adapter
 	895d  RTL8922DE-VV 802.11be PCIe Wireless Network Adapter
 	a85a  RTL8852AE WiFi 6 802.11ax PCIe Adapter
 	b520  RTL8852BE-VT PCIe 802.11ax Wireless Network Controller
