@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.13
-#	Date:    2026-10-13 03:15:02
+#	Version: 2026.10.14
+#	Date:    2026-10-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13995,6 +13995,7 @@
 	8111  Twist3 Frame Grabber
 10ec  Realtek Semiconductor Co., Ltd.
 	0139  RTL-8139/8139C/8139C+ Ethernet Controller
+	2502  Killer E2500B GbE Controller
 	2600  Killer E2600 GbE Controller
 	3000  Killer E3000 2.5GbE Controller
 	4321  RTL8852BE 802.11ax PCIe Wireless Network Adapter
@@ -30685,6 +30686,9 @@
 214d  Equalizer Technologies
 	0001  Xeetah Base Firmware
 	0002  Xeetah Development Platform
+2151  Beijing Corsource Technology Corporation Limited
+	0003  Processing accelerators
+		2151 0003  Processing Accelerator Card [YM200]
 # This vendor ID 0x2155 is officially assigned by PCI‑SIG to Hubei Zhuanwei Technology Co., Ltd.
 2155  Hubei Zhuanwei Technology Co., Ltd.
 2159  AIC Semiconductor (Shanghai) Co., Ltd.
@@ -41544,6 +41548,7 @@
 	d33d  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #6
 	d33e  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #7
 	d33f  Core Ultra Processors (Series 4) PCIe Gen4 Root Port #8
+	d340  Core Ultra Processors (Series 4) CNVi Wi-Fi
 	d344  Core Ultra Processors (Series 4) IEH #0
 	d345  Core Ultra Processors (Series 4) IEH #1
 	d346  Core Ultra Processors (Series 4) CNVi Bluetooth
