@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.14
-#	Date:    2026-10-14 03:15:02
+#	Version: 2026.10.15
+#	Date:    2026-10-15 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13738,6 +13738,7 @@
 	2db9  GB207GLM [RTX PRO 500 Blackwell Generation Laptop GPU]
 	2dd8  GB207M [GeForce RTX 5050 Max-Q / Mobile]
 	2df9  GB207GLM [RTX PRO 500 Blackwell Embedded GPU]
+	2e02  GB20B [JMJWOA-Generic-GPU]
 	2e03  GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]
 	2e06  GB20B [RTX Spark N1X (5120-core Blackwell RTX GPU)]
 	2e12  GB20B [GB10]
@@ -30667,6 +30668,14 @@
 2108  HuiLink Technologies (Xiamen) Co., Ltd.
 # HXQ
 	2401  PCIe4.0 to USB3.2 Gen2 Host Controller
+# Vendor ID 0x210e for Soynetic
+210e  Beijing Soynetic Co., Ltd
+# PCI device ID 0x1001 for Soynetic i200T Ethernet controller
+	1001  i200 Gigabit Blank chip
+# PCI device ID 0x1120 for Soynetic i200T Ethernet controller
+	1120  i200T Gigabit Coper(Single-port)
+# PCI device ID 0x1130 for Soynetic i200F Ethernet controller
+	1130  i200F Gigabit Fiber/Backplane(Single-port)
 2114  EigenQ, Inc.
 	0007  QMA Board M.2 Gen2
 	000a  QMA Board PCIe Gen2
@@ -30686,8 +30695,8 @@
 214d  Equalizer Technologies
 	0001  Xeetah Base Firmware
 	0002  Xeetah Development Platform
-2151  Beijing Corsource Technology Corporation Limited
-	0003  Processing accelerators
+2151  Beijing Corsource Technology Co., Ltd.
+	0003  YM200 LIGHT
 		2151 0003  Processing Accelerator Card [YM200]
 # This vendor ID 0x2155 is officially assigned by PCI‑SIG to Hubei Zhuanwei Technology Co., Ltd.
 2155  Hubei Zhuanwei Technology Co., Ltd.
@@ -30699,6 +30708,12 @@
 	0303  D35 Family [DFU-3520]
 	0304  D35 Family [CIM-5000L]
 	0305  D35 Family [DFU-3541C]
+	0306  D35 Family [DFU-3541L]
+	0307  D35 Family [DFU-3541V]
+	0308  D35 Family [DFU-3535]
+	0309  D35 Family [DFU-3541I]
+	030a  D35 Family [CIM-5000S]
+	030b  D35 Family [FDU-5000X]
 215e  SmarCo HT Tech Inc.
 	0301  D35 Family [GC3]
 	0302  D35 Family [SC3]
