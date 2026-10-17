@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.15
-#	Date:    2026-10-15 03:15:02
+#	Version: 2026.10.17
+#	Date:    2026-10-17 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -177,6 +177,7 @@
 	0b60  NVMe DC SSD [Sentinel Rock Plus controller]
 		025e 8008  NVMe DC SSD U.2 15mm [D7-P5510]
 		025e 8208  NVMe DC SSD U.2 15mm [D7-P5810]
+		025e 821d  NVMe DC SSD E1.L 9.5mm [D7-P5810]
 		025e 8d1d  NVMe DC SSD E1.L 9.5mm [D5-P5316]
 		025e 9008  NVMe DC SSD U.2 15mm [D7-P5520]
 		025e 900c  NVMe DC SSD E1.S 9.5mm [D7-P5520]
@@ -1431,6 +1432,7 @@
 # Used in the Steam Deck LCD
 	163f  VanGogh [AMD Custom GPU 0405]
 	1640  Radeon High Definition Audio Controller
+		17aa 387d  IdeaPad Slim 5 16AGP11
 	164c  Lucienne
 	164d  Rembrandt
 	164e  Raphael [Radeon 610M]
@@ -1441,6 +1443,7 @@
 	1900  HawkPoint1
 	1901  HawkPoint2
 	1902  Krackan2
+		17aa 3828  IdeaPad Slim 5 16AGP11
 	3150  RV380/M24 [Mobility Radeon X600]
 		103c 0934  nx8220
 	3151  RV380 GL [FireMV 2400]
@@ -5202,6 +5205,25 @@
 	1117  Krackan PCIe Dummy Function
 	1122  Krackan Root Complex
 	1123  Krackan IOMMU
+	1124  Krackan2 Dummy Host Bridge
+	1126  Krackan2 GPP Bridge
+	1130  Krackan2 Internal PCIe GPP Bridge 0 to Bus A
+	1131  Krackan2 Internal PCIe GPP Bridge 0 to Bus B
+	1132  Krackan2 Internal PCIe GPP Bridge 0 to Bus C
+	1134  Krackan2 CCP/ASP
+	1135  Krackan2 USB 2.0 xHCI
+	1136  Krackan2 PCIe Dummy Function
+	1138  Krackan2 USB 3.1 xHCI
+	1139  Krackan2 USB 3.1 xHCI
+	113a  Krackan2 USB 3.1 xHCI
+	1148  Krackan2 Data Fabric; Function 0
+	1149  Krackan2 Data Fabric; Function 1
+	114a  Krackan2 Data Fabric; Function 2
+	114b  Krackan2 Data Fabric; Function 3
+	114c  Krackan2 Data Fabric; Function 4
+	114d  Krackan2 Data Fabric; Function 5
+	114e  Krackan2 Data Fabric; Function 6
+	114f  Krackan2 Data Fabric; Function 7
 	1200  Family 10h Processor HyperTransport Configuration
 	1201  Family 10h Processor Address Map
 	1202  Family 10h Processor DRAM Controller
@@ -5599,12 +5621,14 @@
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	15e2  Audio Coprocessor
+		17aa 3902  IdeaPad Slim 5 16AGP11
 		17aa 5124  ThinkPad E595
 		ea50 ce19  mCOM10-L1900
 	15e3  Ryzen HD Audio Controller
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		103c 8b17  ProBook 445 G9/455 G9
 		1043 86c7  PRIME B450M-A Motherboard
+		17aa 38df  IdeaPad Slim 5 16AGP11
 		17aa 5124  ThinkPad E595
 	15e4  Sensor Fusion Hub
 	15e5  Raven2 USB 3.1
@@ -5758,6 +5782,7 @@
 	1719  Family 12h/14h Processor Function 7
 	17e0  Strix/Krackan/Strix Halo CCP/ASP
 	17f0  Strix/Krackan/Strix Halo Neural Processing Unit
+		17aa 3847  IdeaPad Slim 5 16AGP11
 	2000  79C97x [PCnet32 LANCE]
 		1014 2000  NetFinity 10/100 Fast Ethernet
 		1022 2000  PCnet - Fast 79C971
@@ -13399,6 +13424,7 @@
 	1ff0  TU117GL [T1000 8GB]
 	1ff2  TU117GL [T400 4GB / T400E]
 	1ff9  TU117GLM [Quadro T1000 Mobile]
+	200a  NPU
 	2080  GA100
 	2081  GA100
 	2082  GA100 [CMP 170HX]
@@ -14236,6 +14262,7 @@
 	8821  RTL8821AE 802.11ac PCIe Wireless Network Adapter
 	8852  RTL8852AE 802.11ax PCIe Wireless Network Adapter
 	8922  RTL8922AE 802.11be PCIe Wireless Network Adapter
+		17aa 4923  IdeaPad Slim 5 16AGP11
 	892d  RTL8922DE-VS 802.11be PCIe Wireless Network Adapter
 	895d  RTL8922DE-VV 802.11be PCIe Wireless Network Adapter
 	a85a  RTL8852AE WiFi 6 802.11ax PCIe Adapter
@@ -30585,6 +30612,9 @@
 	1000  TCU Family - TCU-1
 	1001  TCU Family - TCU-1 Virtual Function
 	1002  TCU Family - TCU-1 PCIe Switch
+	1008  TCUX Family - TCUX-1
+	1009  TCUX Family - TCUX-1 Virtual Function
+	100a  TCUX Family - TCUX-1 PCIe Switch
 209f  Mobilint, Inc.
 20a1  Etched, Inc.
 	0001  Sohu
@@ -30668,8 +30698,7 @@
 2108  HuiLink Technologies (Xiamen) Co., Ltd.
 # HXQ
 	2401  PCIe4.0 to USB3.2 Gen2 Host Controller
-# Vendor ID 0x210e for Soynetic
-210e  Beijing Soynetic Co., Ltd
+210e  Soynetic
 # PCI device ID 0x1001 for Soynetic i200T Ethernet controller
 	1001  i200 Gigabit Blank chip
 # PCI device ID 0x1120 for Soynetic i200T Ethernet controller
