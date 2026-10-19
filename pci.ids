@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.17
-#	Date:    2026-10-17 03:15:02
+#	Version: 2026.10.19
+#	Date:    2026-10-19 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1400,8 +1400,8 @@
 	1561  Anubis
 	1586  Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics]
 	15b3  Stoney HDMI/DP Audio Controller
-	15bf  Phoenix1
-	15c8  Phoenix2
+	15bf  Phoenix1 [Radeon 740M / 760M / 780M Graphics]
+	15c8  Phoenix2 [Radeon 740M Graphics]
 	15d8  Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		17aa 3181  ThinkCentre M75n IoT
@@ -1440,9 +1440,9 @@
 	1681  Rembrandt [Radeon 680M]
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
-	1900  HawkPoint1
-	1901  HawkPoint2
-	1902  Krackan2
+	1900  HawkPoint1 [Radeon 760M / 780M Graphics]
+	1901  HawkPoint2 [Radeon 740M Graphics]
+	1902  Krackan2 [Radeon 820M / 840M Graphics]
 		17aa 3828  IdeaPad Slim 5 16AGP11
 	3150  RV380/M24 [Mobility Radeon X600]
 		103c 0934  nx8220
@@ -5203,19 +5203,29 @@
 	1113  Krackan PCIe Dummy Function
 	1116  Krackan PCIe Dummy Function
 	1117  Krackan PCIe Dummy Function
-	1122  Krackan Root Complex
-	1123  Krackan IOMMU
-	1124  Krackan2 Dummy Host Bridge
-	1126  Krackan2 GPP Bridge
+	1118  Krackan USB 3.1 xHCI
+	111c  Krackan USB 3.1 xHCI
+	111e  Krackan USB 3.1 xHCI
+	1120  Krackan USB4/Thunderbolt NHI controller #1
+	1121  Krackan USB4/Thunderbolt NHI controller #2
+	1122  Krackan/Krackan2 Root Complex
+	1123  Krackan/Krackan2 IOMMU
+	1124  Krackan/Krackan2 Dummy Host Bridge
+	1125  Krackan/Krackan2 PCIe USB4 Bridge
+	1126  Krackan/Krackan2 GPP Bridge
+	1128  Krackan USB 3.1 xHCI
 	1130  Krackan2 Internal PCIe GPP Bridge 0 to Bus A
 	1131  Krackan2 Internal PCIe GPP Bridge 0 to Bus B
 	1132  Krackan2 Internal PCIe GPP Bridge 0 to Bus C
 	1134  Krackan2 CCP/ASP
 	1135  Krackan2 USB 2.0 xHCI
 	1136  Krackan2 PCIe Dummy Function
+	1137  Krackan2 PCIe Dummy Function
 	1138  Krackan2 USB 3.1 xHCI
 	1139  Krackan2 USB 3.1 xHCI
 	113a  Krackan2 USB 3.1 xHCI
+	113b  Krackan2 USB4/Thunderbolt NHI controller #1
+	113c  Krackan2 USB4/Thunderbolt NHI controller #2
 	1148  Krackan2 Data Fabric; Function 0
 	1149  Krackan2 Data Fabric; Function 1
 	114a  Krackan2 Data Fabric; Function 2
@@ -5468,7 +5478,7 @@
 	14f5  Phoenix Data Fabric; Function 5
 	14f6  Phoenix Data Fabric; Function 6
 	14f7  Phoenix Data Fabric; Function 7
-	1502  AMD IPU Device
+	1502  Phoenix/Hawk Point Neural Processing Unit
 	1507  Strix/Strix Halo Root Complex
 	1508  Strix/Strix Halo IOMMU
 	1509  Strix/Strix Halo Dummy Host Bridge
@@ -5483,8 +5493,12 @@
 	1514  Family 14h Processor Root Port
 	1515  Family 14h Processor Root Port
 	1516  Family 14h Processor Root Port
-	151c  USB4 Router 0
-	151d  USB4 Router 1
+	151a  Strix USB 3.1 xHCI
+	151b  Strix USB 3.1 xHCI
+	151c  Strix USB4/Thunderbolt NHI controller #1
+	151d  Strix USB4/Thunderbolt NHI controller #2
+	151e  Strix USB 3.1 xHCI
+	151f  Strix USB 3.1 xHCI
 	1530  Family 16h Processor Function 0
 	1531  Family 16h Processor Function 1
 	1532  Family 16h Processor Function 2
@@ -5655,7 +5669,7 @@
 	15f8  FireFlight Root Complex
 	15f9  FireFlight IOMMU
 	15fa  FireFlight PCIe Dummy Host Bridge
-	15fb  FireFlight PCIe GPP Bride 3:0
+	15fb  FireFlight PCIe GPP Bridge [3:0]
 	15fc  FireFlight PCIe Dummy Host Bridge
 	15fd  FireFlight Internal PCIe GPP Bridge 0 to Bus A
 	15fe  FireFlight Internal PCIe GPP Bridge 0 to Bus B
@@ -5781,7 +5795,7 @@
 	1718  Family 12h/14h Processor Function 6
 	1719  Family 12h/14h Processor Function 7
 	17e0  Strix/Krackan/Strix Halo CCP/ASP
-	17f0  Strix/Krackan/Strix Halo Neural Processing Unit
+	17f0  Strix/Krackan/Krackan2/Strix Halo Neural Processing Unit
 		17aa 3847  IdeaPad Slim 5 16AGP11
 	2000  79C97x [PCnet32 LANCE]
 		1014 2000  NetFinity 10/100 Fast Ethernet
@@ -13788,6 +13802,7 @@
 	3040  GR100 [Reserved Dev ID B]
 	3041  GR100
 	307e  GR100
+	307f  GR100
 	3080  GR102 [Reserved Dev ID A]
 	30c0  GR102 [Reserved Dev ID B]
 	30ff  GR102
@@ -35765,8 +35780,16 @@
 	2520  82805AA MTH Memory Translator Hub
 	2521  82804AA MRH-S Memory Repeater Hub for SDRAM
 	2522  NVMe Optane Memory Series
+# PCI\VEN_8086&DEV_2522&SUBSYS_00008086&REV_00
+		8086 0000  NVMe Optane Memory Series
+# PCI\VEN_8086&DEV_2522&SUBSYS_38008086&REV_00
+		8086 3800  Optane Memory M15 16GB/32GB
 		8086 3806  Optane Memory 16GB
 		8086 3810  Optane Memory M10 16GB
+# PCI\VEN_8086&DEV_2524&SUBSYS_38008086&REV_00
+	2524  NVMe Optane Memory M15 Series
+# PCI\VEN_8086&DEV_2524&SUBSYS_38008086&REV_00
+		8086 3800  Optane Memory M15 16GB/32GB
 	2525  Optane NVME SSD P1600X Series
 	2526  Wi-Fi 5(802.11ac) Wireless-AC 9x6x [Thunder Peak]
 		8086 0014  Dual Band Wi-Fi 5 Wireless-AC 9260 160MHz 2x2
