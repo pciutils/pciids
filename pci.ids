@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.19
-#	Date:    2026-10-19 03:15:02
+#	Version: 2026.10.20
+#	Date:    2026-10-20 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5263,6 +5263,14 @@
 	12c5  Turin Data Fabric; Function 5
 	12c6  Turin Data Fabric; Function 6
 	12c7  Turin Data Fabric; Function 7
+	12f8  Phoenix2 Data Fabric; Function 0
+	12f9  Phoenix2 Data Fabric; Function 1
+	12fa  Phoenix2 Data Fabric; Function 2
+	12fb  Phoenix2 Data Fabric; Function 3
+	12fc  Phoenix2 Data Fabric; Function 4
+	12fd  Phoenix2 Data Fabric; Function 5
+	12fe  Phoenix2 Data Fabric; Function 6
+	12ff  Phoenix2 Data Fabric; Function 7
 	1300  Family 11h Processor HyperTransport Configuration
 	1301  Family 11h Processor Address Map
 	1302  Family 11h Processor DRAM Controller
@@ -5392,7 +5400,7 @@
 	1483  Starship/Matisse GPP Bridge
 		01de fff9  Gimlet Baseboard
 	1484  Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
-	1485  Starship/Matisse Reserved SPP
+	1485  Starship/Matisse Reserved SSP
 	1486  Starship/Matisse Cryptographic Coprocessor PSPCPP
 	1487  Starship/Matisse HD Audio Controller
 		1462 9c37  X570-A PRO motherboard
@@ -5419,7 +5427,7 @@
 	149b  Starship Reserved SSP
 	149c  Matisse USB 3.0 Host Controller
 		1462 7c37  X570-A PRO motherboard
-	149d  Vangogh CVIP
+	149d  VanGogh CVIP
 	149e  Genoa/Bergamo IOMMU
 	149f  Genoa/Bergamo Dummy Host Bridge
 	14a4  Genoa/Bergamo Root Complex
@@ -5462,14 +5470,14 @@
 	14e5  Raphael/Granite Ridge Data Fabric; Function 5
 	14e6  Raphael/Granite Ridge Data Fabric; Function 6
 	14e7  Raphael/Granite Ridge Data Fabric; Function 7
-	14e8  Phoenix Root Complex
-	14e9  Phoenix IOMMU
-	14ea  Phoenix Dummy Host Bridge
-	14eb  Phoenix Internal GPP Bridge to Bus [C:A]
-	14ec  Phoenix Dummy Function
+	14e8  Phoenix/Phoenix2 Root Complex
+	14e9  Phoenix/Phoenix2 IOMMU
+	14ea  Phoenix/Phoenix2 Dummy Host Bridge
+	14eb  Phoenix/Phoenix2 Internal GPP Bridge to Bus [C:A]
+	14ec  Phoenix/Phoenix2 Dummy Function
 	14ed  Phoenix GPP Bridge
-	14ee  Phoenix GPP Bridge
-	14ef  Family 19h USB4/Thunderbolt PCIe tunnel
+	14ee  Phoenix/Phoenix2 GPP Bridge
+	14ef  Phoenix/Phoenix2 PCIe USB4 Bridge
 	14f0  Phoenix Data Fabric; Function 0
 	14f1  Phoenix Data Fabric; Function 1
 	14f2  Phoenix Data Fabric; Function 2
@@ -5594,11 +5602,14 @@
 	15b6  Raphael/Granite Ridge USB 3.1 xHCI
 	15b7  Raphael/Granite Ridge USB 3.1 xHCI
 	15b8  Raphael/Granite Ridge USB 2.0 xHCI
+	15bb  Phoenix2 USB 3.1 xHCI
 	15bc  Stoney PCIe [GFX,GPP] Bridge [4:0]
 	15be  Stoney Audio Processor
+	15c2  Phoenix2 USB 3.1 xHCI
+	15c3  Phoenix2 USB 3.1 xHCI
 	15c4  Phoenix USB4/Thunderbolt NHI controller #1
 	15c5  Phoenix USB4/Thunderbolt NHI controller #2
-	15c7  Phoenix CCP/PSP 3.0 Device
+	15c7  Phoenix/Phoenix2 CCP/PSP 3.0 Device
 	15d0  Raven/Raven2 Root Complex
 		103c 8615  Pavilion Laptop 15-cw1xxx
 		1043 876b  PRIME B450M-A Motherboard
@@ -5647,7 +5658,7 @@
 	15e4  Sensor Fusion Hub
 	15e5  Raven2 USB 3.1
 		ea50 ce19  mCOM10-L1900
-	15e6  Raven/Raven2/Renoir Non-Sensor Fusion Hub KMDF driver
+	15e6  Raven/Raven2/Renoir Non-Sensor Fusion Hub
 		1022 15e4  Raven/Raven2/Renoir Sensor Fusion Hub
 		ea50 ce19  mCOM10-L1900
 	15e8  Raven/Raven2 Device 24: Function 0
@@ -13327,6 +13338,7 @@
 	1df5  GV100GL [Tesla V100 SXM2 16GB]
 	1df6  GV100GL [Tesla V100S PCIe 32GB]
 	1e02  TU102 [TITAN RTX]
+		10de 12a3  TITAN RTX
 	1e03  TU102 [GeForce RTX 2080 Ti 12GB]
 	1e04  TU102 [GeForce RTX 2080 Ti]
 	1e07  TU102 [GeForce RTX 2080 Ti Rev. A]
@@ -30714,8 +30726,7 @@
 # HXQ
 	2401  PCIe4.0 to USB3.2 Gen2 Host Controller
 210e  Soynetic
-# PCI device ID 0x1001 for Soynetic i200T Ethernet controller
-	1001  i200 Gigabit Blank chip
+	1001  i200 series Ethernet controller
 # PCI device ID 0x1120 for Soynetic i200T Ethernet controller
 	1120  i200T Gigabit Coper(Single-port)
 # PCI device ID 0x1130 for Soynetic i200F Ethernet controller
@@ -33507,6 +33518,7 @@
 	124e  Ethernet Connection E823-L/X557-AT 10GBASE-T
 	124f  Ethernet Connection E823-L 1GbE
 	1250  430HX - 82439HX TXC [Triton II]
+	1256  Ethernet Controller E830(E835)-CC/X557-AT 10GBASE-T
 	125b  Ethernet Controller I226-LM
 	125c  Ethernet Controller I226-V
 	125d  Ethernet Controller I226-IT
