@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.20
-#	Date:    2026-10-20 03:15:01
+#	Version: 2026.10.22
+#	Date:    2026-10-22 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5454,7 +5454,7 @@
 	14c1  Secondary vNTB
 # Server device
 	14ca  Genoa CCP/PSP 4.0 Device
-	14cd  Family 19h USB4/Thunderbolt PCIe tunnel
+	14cd  Rembrandt PCIe USB4 Bridge
 	14d8  Raphael/Granite Ridge Root Complex
 	14d9  Raphael/Granite Ridge IOMMU
 	14da  Raphael/Granite Ridge Dummy Host Bridge
@@ -13825,7 +13825,7 @@
 	31a1  GB110 [GB300 MaxQ]
 	31c0  GB110 [Reserved Dev ID B]
 	31c2  GB110 [GB300]
-	31c3  GB110 [GB300]
+	31c3  GB110 [GB300-252]
 	31fe  GB110
 	3200  GB112
 	3224  GB112
@@ -22429,6 +22429,7 @@
 	b854  BCM56854 Trident2 switch ASIC
 	b880  BCM56880 Switch ASIC
 	b960  BCM56960 Switch ASIC [Tomahawk]
+	b980  BCM56980 Series Switch ASIC [Tomahawk3]
 	b990  BCM56990 Switch ASIC [Tomahawk4]
 # Switch ASIC
 	b991  Tomahawk4
@@ -29723,7 +29724,7 @@
 	1324  XDX X1500
 	1330  XDX150S
 	1333  XDX R1510
-	1340  XDX151
+	1340  XDX150
 	1350  XDX151S
 	1360  XDX151T
 	13c0  XDX160T
@@ -29742,6 +29743,8 @@
 	1820  XDX TJ02 Audio
 	1830  XDX TJ03 Audio
 	2100  XDX290
+# XDX260 8GB
+	2127  XDX260
 1ef6  GrAI Matter Labs
 1ef7  Shenzhen Gunnir Technology Development Co., Ltd
 1efb  Flexxon Pte Ltd
@@ -42014,6 +42017,7 @@
 		8510 0014  GB2064-VPX-V40
 		8510 0201  GB2062-PUB-DDR
 	0301  GenBu03 Series GPU
+8562  Shanghai NXFabric Technology Ltd
 # nee ScaleMP
 8686  SAP
 	1010  vSMP Foundation controller [vSMP CTL]
