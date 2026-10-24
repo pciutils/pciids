@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.23
-#	Date:    2026-10-23 03:15:02
+#	Version: 2026.10.24
+#	Date:    2026-10-24 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -29288,6 +29288,7 @@
 	2a24  Cloud Intelligent Inference Controller
 	2a26  Cloud Intelligent Inference Controller
 	2a30  Cloud Video Transcode Controller
+	2a32  Cloud Storage Accelerator‌
 1ea7  Intelliprop, Inc
 	223a  Typhon+ PCIe to Gen-Z Bridge
 	224a  IPA-PE224A CXL to Gen-Z Bridge [Sphinx]
