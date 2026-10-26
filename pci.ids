@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.24
-#	Date:    2026-10-24 03:15:02
+#	Version: 2026.10.26
+#	Date:    2026-10-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -1437,7 +1437,8 @@
 	164d  Rembrandt
 	164e  Raphael [Radeon 610M]
 	164f  Phoenix
-	1681  Rembrandt [Radeon 680M]
+# AMD integrated gpu
+	1681  Rembrandt [Radeon 660M / 680M]
 	1714  BeaverCreek HDMI Audio [Radeon HD 6500D and 6400G-6600G series]
 		103c 168b  ProBook 4535s
 	1900  HawkPoint1 [Radeon 760M / 780M Graphics]
