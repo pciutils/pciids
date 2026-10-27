@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.26
-#	Date:    2026-10-26 03:15:02
+#	Version: 2026.10.27
+#	Date:    2026-10-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -42479,6 +42479,11 @@
 		1f3f 0610  3S610-8i, SAS/SATA 12Gb HBA
 		207d 4140  TrustRAID D3152s-8i
 		207d 4240  TrustRAID D3154s-8i
+		207d 4246  TrustRAID D4154t-8i
+		207d 4256  TrustRAID D4154t-16i
+		207d 4356  TrustRAID D4158t-16i
+		207d 4840  TrustHBA H3100s-8i
+		207d 4940  TrustRAID D3102s-8i
 		9005 0608  SmartRAID 3162-8i /e
 		9005 0800  SmartRAID 3154-8i
 		9005 0801  SmartRAID 3152-8i
