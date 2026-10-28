@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.27
-#	Date:    2026-10-27 03:15:02
+#	Version: 2026.10.28
+#	Date:    2026-10-28 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13798,6 +13798,7 @@
 	2e13  GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]
 # N1X
 	2e2a  GB20B [JMJWOA-Generic-GPU]
+	2f02  GB205 [GeForce RTX 5070 SUPER]
 	2f04  GB205 [GeForce RTX 5070]
 	2f06  GB205 [GeForce RTX 5060]
 	2f18  GB205M [GeForce RTX 5070 Ti Mobile]
@@ -29720,7 +29721,19 @@
 	1160  XDX121
 	1170  XDX121S
 	11e0  XDX130
+		0000 0003  XDX130 4GB
+		0000 0004  XDX130 2GB
+		1642 0002  XDX130 2GB
+		1642 0003  XDX130 4GB
+		1642 0011  XDX130 4GB
+		1642 0012  XDX130 2GB
 		1eed 0002  XDX130 2GB
+		1eed 0003  XDX130 4GB
+		1eed 0011  XDX130 4GB
+		1eed 0012  XDX130 2GB
+		1eed 0022  XDX130 2GB
+		3e08 0002  XDX130 2GB
+		3e08 0003  XDX130 4GB
 	11e4  XDX E1300
 	1320  XDX150
 	1323  XDX R1500
@@ -29728,9 +29741,13 @@
 	1330  XDX150S
 	1333  XDX R1510
 	1340  XDX150
+		1eed 0001  XDX150 4GB
+		3e08 0004  XDX150 4GB
 	1350  XDX151S
 	1360  XDX151T
 	13c0  XDX160T
+		0000 0001  XDX160B 8GB
+		0000 0002  XDX160B 4GB
 	13d0  XDX160S
 	13d3  XDX R1610
 	1500  XDX180
@@ -29739,15 +29756,25 @@
 	1510  XDX180S
 	15a0  XDX190
 	15a3  XDX R1900
+		1eed 0000  R1900 16GB
+		1eed 0001  R1900E 16GB
 	15a4  XDX X1900
+		1eed 1000  X1900
 	15a5  XDX X1900D
 	15b0  XDX190S
 	1810  XDX TJ01 Audio
 	1820  XDX TJ02 Audio
 	1830  XDX TJ03 Audio
 	2100  XDX290
-# XDX260 8GB
-	2127  XDX260
+	2105  XDX TianJun-3 Series
+		1eed 0012  R2700E 8GB
+	2107  XDX TianJun-3 Series
+		1eed 0002  R2900E 8GB
+		1eed 0003  R2900E 16GB
+		1eed 0101  X2900S 32GB
+		1eed 0102  X2900SE 32GB
+	2127  XDX TianJun-3 Series
+		1eed 0001  XDX260 8GB
 1ef6  GrAI Matter Labs
 1ef7  Shenzhen Gunnir Technology Development Co., Ltd
 1efb  Flexxon Pte Ltd
@@ -39080,10 +39107,18 @@
 	4b7f  Elkhart Lake PMC SRAM
 	4bc1  Elkhart Lake Controller Area Network (CAN) interface #0
 	4bc2  Elkhart Lake Controller Area Network (CAN) interface #1
+	4c01  11th Gen Core Processor PCIe Root Port #0
+	4c03  11th Gen Core Processor DTT
+	4c05  11th Gen Core Processor PCIe Root Port #1
+	4c07  11th Gen Core Processor PCIe Root Port #2
+	4c09  11th Gen Core Processor PCIe Root Port #3
+	4c11  11th Gen Core Processor GNA
 	4c3d  Volume Management Device NVMe RAID Controller
-	4c8a  RocketLake-S GT1 [UHD Graphics 750]
+	4c43  11th Gen Core Processor 8 Cores Host Bridge/DRAM Controller
+	4c53  11th Gen Core Processor 6 Cores Host Bridge/DRAM Controller
+	4c8a  11th Gen Core Processor 8C DT GT1 [UHD Graphics 750]
 	4c8b  RocketLake-S GT1 [UHD Graphics 730]
-	4c90  RocketLake-S GT1 [UHD Graphics P750]
+	4c90  11th Gen Core Processor 8C WS GT1 [UHD Graphics P750]
 	4c9a  RocketLake-S [UHD Graphics]
 	4d62  Core Processors (Series 3 for Edge) CSME HECI #1
 	4d63  Core Processors (Series 3 for Edge) CSME HECI #2
@@ -40554,9 +40589,9 @@
 	9841  Lakefield GT1.5 [UHD Graphics]
 	98fa  Lakefield UFS Controller
 	9a01  11th Gen Core Processor PCIe Controller #1
-	9a02  Tiger Lake-UP4 2 cores Host Bridge/DRAM Registers
-	9a03  TigerLake-LP Dynamic Tuning Processor Participant
-	9a04  Tiger Lake-UP3 2 cores Host Bridge/DRAM Registers
+	9a02  11th Gen Core Processor UP4 2 Cores Host Bridge/DRAM Controller
+	9a03  11th Gen Core Processor Dynamic Tuning Technology
+	9a04  11th Gen Core Processor UP3 2 Cores Host Bridge/DRAM Controller
 	9a05  11th Gen Core Processor PCIe Controller #2
 	9a07  11th Gen Core Processor PCIe Controller #3
 	9a09  11th Gen Core Processor PCIe Controller
