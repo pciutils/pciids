@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.28
-#	Date:    2026-10-28 03:15:02
+#	Version: 2026.10.30
+#	Date:    2026-10-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21216,6 +21216,7 @@
 		1028 239f  MZWL93T2HFLTAD3
 # NVMe PM1755 MU U.2 6.4TB
 		1028 23a0  MZWL96T4HFLAAD3
+	ac02  NVMe SSD Controller PM1763/PM1765
 	ecec  Exynos 8895 PCIe Root Complex
 144e  OLITEC
 144f  Askey Computer Corp.
@@ -21319,6 +21320,19 @@
 	30c8  TPCI200 4 Slot IndustryPack PCI Carrier
 	70c8  TPCE200 4 Slot IndustryPack PCIe Carrier
 	9177  TXMC375 8 channel RS232/RS422/RS485 programmable serial interface
+	9178  TXMC376 4 Channel RS232/RS422/RS485 Programmable Serial Interface
+	91cf  TXMC463 4 Channel Serial Interface RS232/RS422
+	91d1  TXMC465 8 Channel RS232/RS422/RS485 Programmable Serial Interface
+	924e  TXMC590 16 Channel Thermo-/Strain Measurement
+	c190  TQMC400 4 Channel RS232/RS422/RS485 Programmable Serial Interface
+# 4 Channel isolated RS232/RS422/RS485 Programmable Serial Interface
+	c192  TQMC402
+	c1f4  TQMC500 20 Isolated Analog Inputs, Simultaneous Sampling
+	c259  TQMC601 32 Isolated Digital Inputs
+	c25a  TQMC602 16 Digital In, 16 Digital Out (0.3 A), Isolated
+	c25c  TQMC604 32 Isolated Digital Outputs
+	c25d  TQMC605 Reconfigurable FPGA with direct Connect to 40 I/Os
+	c322  TQMC802 4 Channel Isolated CAN FD
 1499  EMTEC CO., Ltd
 149a  ANDOR Technology Ltd
 149b  SEIKO Instruments Inc
