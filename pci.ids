@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.30
-#	Date:    2026-10-30 03:15:02
+#	Version: 2026.10.31
+#	Date:    2026-10-31 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21325,8 +21325,7 @@
 	91d1  TXMC465 8 Channel RS232/RS422/RS485 Programmable Serial Interface
 	924e  TXMC590 16 Channel Thermo-/Strain Measurement
 	c190  TQMC400 4 Channel RS232/RS422/RS485 Programmable Serial Interface
-# 4 Channel isolated RS232/RS422/RS485 Programmable Serial Interface
-	c192  TQMC402
+	c192  TQMC402 4 Channel isolated RS232/RS422/RS485 Programmable Serial Interface
 	c1f4  TQMC500 20 Isolated Analog Inputs, Simultaneous Sampling
 	c259  TQMC601 32 Isolated Digital Inputs
 	c25a  TQMC602 16 Digital In, 16 Digital Out (0.3 A), Isolated
@@ -27088,6 +27087,16 @@
 	1d59  BC901 NVMe Solid State Drive (DRAM-less)
 	1f69  PVC10 NVMe Solid State Drive (DRAM-less)
 	2069  PEB110 Series NVMe Solid State Drive
+# PEB210 E1.S
+	2070  PEB210 E1.S
+		1c5c 0713  PEB210 E1.S 9.5mm 1920GB
+		1c5c 0714  PEB210 E1.S 9.5mm 3840GB
+		1c5c 0715  PEB210 E1.S 9.5mm 7680GB
+		1c5c 0716  PEB210 E1.S 9.5mm 15360GB
+		1c5c 0813  PEB210 E1.S 15mm 1920GB
+		1c5c 0814  PEB210 E1.S 15mm 3840GB
+		1c5c 0815  PEB210 E1.S 15mm 7680GB
+		1c5c 0816  PEB210 E1.S 15mm 15360GB
 	2204  960GB TLC PCIe Gen3 x4 NVMe M.2 22110
 	2427  PE6010 NVMe Solid State Drive
 	2429  PE6011 NVMe Solid State Drive
@@ -30705,6 +30714,7 @@
 20b4  Genstoraige Technology Co., Ltd.
 	a20c  PT200A PCIe 5.0 NVMe SSD
 	c25c  MQ205 PCIe 5.0 NVMe SSD
+	c28c  MQ208 PCIe 5.0 NVMe SSD
 	d15b  PT150 PCIe 4.0 NVMe SSD
 	d20c  PT200 PCIe 5.0 NVMe SSD
 	d25c  PT205 PCIe 5.0 NVMe SSD
