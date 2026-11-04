@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.10.31
-#	Date:    2026-10-31 03:15:02
+#	Version: 2026.11.04
+#	Date:    2026-11-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -21217,6 +21217,18 @@
 # NVMe PM1755 MU U.2 6.4TB
 		1028 23a0  MZWL96T4HFLAAD3
 	ac02  NVMe SSD Controller PM1763/PM1765
+# Dell NVMe PM1763 RI TCG E3.S 3.84TB
+		1028 249e  MZ3LD3T8HELVAD7
+# Dell NVMe PM1763 RI TCG E3.S 7.6TB
+		1028 249f  MZ3LD7T6HELDAD7
+# Dell NVMe PM1763 RI TCG E3.S 15TB
+		1028 24a0  MZ3LD15THEL1AD7
+# Dell NVMe PM1763 RI TCG E3.S 30TB
+		1028 24a1  MZ3LD30THELFAD7
+# Dell NVMe PM1765 MU TCG E3.S 3.2TB
+		1028 24a2  MZ3LD3T2HELVAD7
+# Dell NVMe PM1765 MU TCG E3.S 6.4TB
+		1028 24a3  MZ3LD6T4HELDAD7
 	ecec  Exynos 8895 PCIe Root Complex
 144e  OLITEC
 144f  Askey Computer Corp.
@@ -26886,6 +26898,7 @@
 # based on PCIe 4TG2-P Controller, for 4TS2-P series
 	523a  PCIe 4TS2-P Controller
 	523b  PCIe 4IG2-P Controller
+	5638  PCIe 4TS3-P Controller
 # based on SM8366 Controller
 	8366  PCIe 5TS-P Controller
 1bcd  Apacer Technology
