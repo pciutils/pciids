@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.04
-#	Date:    2026-11-04 03:15:02
+#	Version: 2026.11.05
+#	Date:    2026-11-05 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13759,6 +13759,7 @@
 	2bb5  GB202GL [RTX PRO 6000 Blackwell Server Edition]
 	2bb9  GB202GL [RTX 6000D]
 	2bbc  GB202GL [RTX PRO 6000D Blackwell Max-Q Workstation Edition]
+	2bbd  GB202GL [RTX PRO 5500 Blackwell Workstation Edition]
 	2c02  GB203 [GeForce RTX 5080]
 	2c05  GB203 [GeForce RTX 5070 Ti]
 	2c09  GB203 [GeForce RTX 5070]
@@ -13805,6 +13806,7 @@
 	2f38  GB205GLM [RTX PRO 3000 Blackwell Generation Laptop GPU]
 	2f58  GB205M [GeForce RTX 5070 Ti Mobile]
 	2f80  GB205 High Definition Audio Controller
+	2f88  T256
 	2f95  TB500 RP x16
 	2f96  TB500 RP x8
 	2f97  TB500 RP x4
@@ -13814,7 +13816,7 @@
 	3002  GR100
 	3021  GR100 [PCIe Faber]
 	3040  GR100 [Reserved Dev ID B]
-	3041  GR100
+	3041  GR100 [VR NVL72]
 	307e  GR100
 	307f  GR100
 	3080  GR102 [Reserved Dev ID A]
@@ -20012,6 +20014,7 @@
 # Virtual Video Card Device for Windows Remote Desktop (RDP)
 	008c  Basic Render Driver
 	008e  Basic Render Driver
+	00ba  Microsoft Azure Network Adapter
 	5353  Hyper-V virtual VGA
 	5801  XMA Decoder (Xenon)
 	5802  SATA Controller - CdRom (Xenon)
@@ -30525,6 +30528,9 @@
 		2036 0864  NF1618 Family NX864 (1*200GE)
 		2036 0865  NF1618 Family NX865 (2*200GE)
 	1619  NF1618 Family Virtual Function
+	7000  Netforward PolarBear Ethernet Switch ASIC
+		2036 7060  Netforward NF7060 Datacenter Ethernet Switch ASIC
+		2036 7061  Netforward NF7061 Datacenter Ethernet Switch ASIC
 	8000  NP36xxx PCIe Gen 6 Switch
 		2036 0104  NP36104 PCIe Gen 6 26 port/104 lane Switch Upstream/Downstream Port
 		2036 0144  NP36144 PCIe Gen 6 36 port/144 lane Switch Upstream/Downstream Port
