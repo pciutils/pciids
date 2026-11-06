@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.05
-#	Date:    2026-11-05 03:15:02
+#	Version: 2026.11.06
+#	Date:    2026-11-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -17472,14 +17472,17 @@
 	6348  PM63048 Switchtec PSX 48xG6 Programmable PCIe Switch
 	6360  PM63160 Switchtec PSX 160xG6 Programmable PCIe Switch
 	6364  PM63064 Switchtec PSX 64xG6 Programmable PCIe Switch
+	7020  PM70320 Switchtec PFXs 320xG7 Secure-capable Fanout PCIe Switch
 	7044  PM70144 Switchtec PFXs 144xG7 Secure-capable Fanout PCIe Switch
 	7048  PM70048 Switchtec PFXs 48xG7 Secure-capable Fanout PCIe Switch
 	7060  PM70160 Switchtec PFXs 160xG7 Secure-capable Fanout PCIe Switch
 	7064  PM70064 Switchtec PFXs 64xG7 Secure-capable Fanout PCIe Switch
+	7120  PM71320 Switchtec PSXs 320xG7 Secure-capable Programmable PCIe Switch
 	7144  PM71144 Switchtec PSXs 144xG7 Secure-capable Programmable PCIe Switch
 	7148  PM71048 Switchtec PSXs 48xG7 Secure-capable Programmable PCIe Switch
 	7160  PM71160 Switchtec PSXs 160xG7 Secure-capable Programmable PCIe Switch
 	7164  PM71064 Switchtec PSXs 64xG7 Secure-capable Programmable PCIe Switch
+	7220  PM72320 Switchtec PFX 320xG7 Fanout PCIe Switch
 	7244  PM72144 Switchtec PFX 144xG7 Fanout PCIe Switch
 	7248  PM72048 Switchtec PFX 48xG7 Fanout PCIe Switch
 	7260  PM72160 Switchtec PFX 160xG7 Fanout PCIe Switch
@@ -17487,6 +17490,7 @@
 	7364  PM7364 [FREEDM - 32 Frame Engine & Datalink Mgr]
 	7375  PM7375 [LASAR-155 ATM SAR]
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
+	7420  PM74320 Switchtec PSX 320xG7 Programmable PCIe Switch
 	7444  PM74144 Switchtec PSX 144xG7 Programmable PCIe Switch
 	7448  PM74048 Switchtec PSX 48xG7 Programmable PCIe Switch
 	7460  PM74160 Switchtec PSX 160xG7 Programmable PCIe Switch
@@ -26139,9 +26143,11 @@
 		1022 000e  Xilinx VCU128
 		1022 000f  Xilinx Alveo U55C
 		1022 0010  Xilinx Varium C1100
+		1022 0014  Xilinx V80
 		1022 100d  Xilinx KCU1500 Extended
 		1022 100f  Xilinx Alveo U55C Extended
 		1022 1010  Xilinx Varium C1100 Extended
+		1022 1014  Xilinx V80 Extended
 		12ba 0002  XUPVV8 VU13P
 		12ba 0013  XUPVV8 VU9P
 		1a4a 0003  PGP Card GEN3
@@ -27119,6 +27125,7 @@
 	243b  PE6110 NVMe Solid State Drive
 		1c5c 0100  PE6110 NVMe Solid State Drive
 	2527  PE4010 NVMe Solid State Drive
+	2570  PEB210 E1.S
 	2839  PE8000 Series NVMe Solid State Drive
 		1028 2143  DC NVMe SED PE8010 RI U.2 960GB
 		1028 2144  DC NVMe PE8010 RI U.2 960GB
@@ -29507,9 +29514,11 @@
 		1ee4 0415  NVMe SSD U.2 1.92TB (P8118Z3)
 		1ee4 0416  NVMe SSD U.2 3.84TB (P8118Z3)
 		1ee4 0417  NVMe SSD U.2 7.68TB (P8118Z3)
+		1ee4 0418  NVMe SSD U.2 15.36TB (P8118Z3)
 		1ee4 0425  NVMe SSD U.2 1.6TB (P8118Z3)
 		1ee4 0426  NVMe SSD U.2 3.2TB (P8118Z3)
 		1ee4 0427  NVMe SSD U.2 6.4TB (P8118Z3)
+		1ee4 0428  NVMe SSD U.2 12.8TB (P8118Z3)
 		1ee4 0515  NVMe SSD U.2 1.92TB (P8118Z4)
 		1ee4 0516  NVMe SSD U.2 3.84TB (P8118Z4)
 		1ee4 0517  NVMe SSD U.2 7.68TB (P8118Z4)
@@ -30852,6 +30861,8 @@
 	0304  D35 Family [D3]
 	0305  D35 Family [HC3]
 2165  Dnotitia Inc.
+# Baovix Technology Co., Ltd vendor ID=2178
+2178  Baovix Technology Co., Ltd
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
@@ -40631,45 +40642,46 @@
 	9840  Lakefield GT2 [UHD Graphics]
 	9841  Lakefield GT1.5 [UHD Graphics]
 	98fa  Lakefield UFS Controller
-	9a01  11th Gen Core Processor PCIe Controller #1
+	9a01  11th Gen Core Processor PCIe Root Port
 	9a02  11th Gen Core Processor UP4 2 Cores Host Bridge/DRAM Controller
 	9a03  11th Gen Core Processor Dynamic Tuning Technology
 	9a04  11th Gen Core Processor UP3 2 Cores Host Bridge/DRAM Controller
-	9a05  11th Gen Core Processor PCIe Controller #2
-	9a07  11th Gen Core Processor PCIe Controller #3
-	9a09  11th Gen Core Processor PCIe Controller
-	9a0b  Volume Management Device NVMe RAID Controller
-	9a0d  Tigerlake Telemetry Aggregator Driver
-	9a0f  11th Gen Core Processor PCIe Controller #0
-	9a11  GNA Scoring Accelerator module
-	9a12  Tiger Lake-UP4 4 cores Host Bridge/DRAM Registers
-	9a13  Tiger Lake-LP Thunderbolt 4 USB Controller
-	9a14  Tiger Lake-UP3/H35 4 cores Host Bridge/DRAM Registers
-	9a15  Tiger Lake xDCI Controller
-	9a17  Tiger Lake-H Thunderbolt 4 USB Controller
-	9a19  Tiger Lake IPU6
-	9a1b  Tiger Lake-LP Thunderbolt 4 NHI #0
-	9a1d  Tiger Lake-LP Thunderbolt 4 NHI #1
-	9a1f  Tiger Lake-H Thunderbolt 4 NHI #0
-	9a21  Tiger Lake-H Thunderbolt 4 NHI #1
-	9a23  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #0
-	9a25  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #1
-	9a26  Tiger Lake-H 6 cores Host Bridge/DRAM Registers
-	9a27  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #2
-	9a29  Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #3
-	9a2b  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #0
-	9a2d  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #1
-	9a2f  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #2
-	9a31  Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3
-	9a33  Tiger Lake Trace Hub
-	9a36  Tiger Lake-H 8 cores Host Bridge/DRAM Registers
-	9a39  Tiger Lake H IPU6-Slim
-	9a40  Tiger Lake-UP4 GT2 [Iris Xe Graphics]
-	9a49  TigerLake-LP GT2 [Iris Xe Graphics]
-	9a60  TigerLake-H GT1 [UHD Graphics]
-	9a68  TigerLake-H GT1 [UHD Graphics]
+	9a05  11th Gen Core Processor PCIe Root Port
+	9a07  11th Gen Core Processor PCIe Root Port
+	9a09  11th Gen Core Processor Host-PCIe Bridge
+	9a0b  11th Gen Core Processor Volume Management Device
+	9a0d  11th Gen Core Processor Crash Log and Telemetry
+	9a0f  11th Gen Core Processor PCIe Root Port
+	9a11  11th Gen Core Processor Gauss Newton Algorithm Device
+	9a12  11th Gen Core Processor UP4 4 Cores Host Bridge/DRAM Controller
+	9a13  11th Gen Core Processor USB-C xHCI
+	9a14  11th Gen Core Processor UP3/H35 4 Cores Host Bridge/DRAM Controller
+	9a15  11th Gen Core Processor USB-C xDCI
+	9a17  11th Gen Core Processor USB-C xHCI
+	9a19  11th Gen Core Processor Image Processing Unit
+	9a1a  11th Gen Core Processor UP3/H35-Refresh 4 Cores Host Bridge/DRAM Controller
+	9a1b  11th Gen Core Processor Thunderbolt DMA #0
+	9a1d  11th Gen Core Processor Thunderbolt DMA #1
+	9a1f  11th Gen Core Processor Thunderbolt DMA #0
+	9a21  11th Gen Core Processor Thunderbolt DMA #1
+	9a23  11th Gen Core Processor Thunderbolt PCIe Controller #0
+	9a25  11th Gen Core Processor Thunderbolt PCIe Controller #1
+	9a26  11th Gen Core Processor H 6 Cores Host Bridge/DRAM Controller
+	9a27  11th Gen Core Processor Thunderbolt PCIe Controller #2
+	9a29  11th Gen Core Processor Thunderbolt PCIe Controller #3
+	9a2b  11th Gen Core Processor USB-C PCIe Root Port #0
+	9a2d  11th Gen Core Processor USB-C PCIe Root Port #1
+	9a2f  11th Gen Core Processor USB-C PCIe Root Port #2
+	9a31  11th Gen Core Processor USB-C PCIe Root Port #3
+	9a33  11th Gen Core Processor Trace Hub
+	9a36  11th Gen Core Processor H 8 Cores Host Bridge/DRAM Controller
+	9a39  11th Gen Core Processor Image Processing Unit
+	9a40  11th Gen Core Processor UP4 GT2 [Iris Xe Graphics]
+	9a49  11th Gen Core Processor GT2 [Iris Xe Graphics]
+	9a60  11th Gen Core Processor H GT1 [UHD Graphics]
+	9a68  11th Gen Core Processor H GT1 [UHD Graphics]
 	9a70  Tiger Lake-H GT1 [UHD Graphics]
-	9a78  Tiger Lake-LP GT2 [UHD Graphics G4]
+	9a78  11th Gen Core Processor UP3/UP4 GT2
 	9b21  Comet Lake-U GT2 [UHD Graphics 620]
 	9b33  Comet Lake-S 6c Host Bridge/DRAM Controller
 	9b41  CometLake-U GT2 [UHD Graphics]
