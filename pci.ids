@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.06
-#	Date:    2026-11-06 03:15:02
+#	Version: 2026.11.08
+#	Date:    2026-11-08 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30764,6 +30764,8 @@
 20c0  ExpectedIT GmbH
 20c1  Suzhou Yige Technology Co., Ltd.
 	1234  YG Testchip
+# Vendor ID 20ca assigned by PCI-SIG.
+20ca  Hangzhou Hualan Microelectronique Co.,Ltd.
 20d0  Telin Semiconductor (Wuhan) Co., Ltd.
 	2001  PACIFIC-S1 NVMe SSD
 20d2  Awide Labs LTD.
@@ -30863,6 +30865,15 @@
 2165  Dnotitia Inc.
 # Baovix Technology Co., Ltd vendor ID=2178
 2178  Baovix Technology Co., Ltd
+	4000  M.2 Gen4 NVMe SSD
+	4200  N400 M.2 Gen4 NVMe SSD
+	5000  M.2 Gen4 NVMe SSD
+	5200  N500 M.2 Gen5 NVMe SSD
+	e600  U.2 Gen4 SSD
+	e660  U.2 Gen4 SSD
+	e800  U.2 Gen5 SSD
+	e820  U.2 Gen5 SSD
+	e830  U.2 Gen5 SSD
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
