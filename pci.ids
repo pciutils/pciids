@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.08
-#	Date:    2026-11-08 03:15:02
+#	Version: 2026.11.09
+#	Date:    2026-11-09 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30863,6 +30863,8 @@
 	0304  D35 Family [D3]
 	0305  D35 Family [HC3]
 2165  Dnotitia Inc.
+# Vendor ID 2167 assigned by PCI-SIG
+2167  Belling Yoroo Tech Co.. Ltd.
 # Baovix Technology Co., Ltd vendor ID=2178
 2178  Baovix Technology Co., Ltd
 	4000  M.2 Gen4 NVMe SSD
