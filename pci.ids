@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.09
-#	Date:    2026-11-09 03:15:02
+#	Version: 2026.11.12
+#	Date:    2026-11-12 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13672,6 +13672,7 @@
 	2681  AD102 [RTX TITAN Ada]
 	2684  AD102 [GeForce RTX 4090]
 	2685  AD102 [GeForce RTX 4090 D]
+	2687  AD102 [GeForce RTX 4080]
 	2689  AD102 [GeForce RTX 4070 Ti SUPER]
 	26af  AD102 [PG137]
 	26b1  AD102GL [RTX 6000 Ada Generation]
@@ -29441,7 +29442,7 @@
 1ed2  FuriosaAI, Inc.
 	0000  Warboy
 	0001  RNGD
-	0002  RNGD-Plus
+	0002  RNGD-P
 	2222  RNGD-S
 1ed3  Yeston
 1ed5  Moore Threads Technology Co.,Ltd
@@ -30876,6 +30877,18 @@
 	e800  U.2 Gen5 SSD
 	e820  U.2 Gen5 SSD
 	e830  U.2 Gen5 SSD
+217a  Huaxun Group Limited
+	0041  SharQ PCIE 4,0 1.92TB
+# PCIE 4.0 SSD 1.6TB
+	0042  PCIE 4.0 SSD 1.6TB
+	0512  SHARQ 005 1600GB
+	0513  SHARQ 005 1920GB
+	0514  SQ005 U.2 SSD 3.2TB
+	0515  SQ005 U.2 SSD 3.84TB
+	0516  SQ005 U.2 SSD 6.4TB
+	0517  SQ005 U.2 SSD 7.68TB
+	0518  SQ005 U.2 SSD 12.8TB
+	0519  SQ005 U.2 SSD 15.36TB
 21b4  Hunan Goke Microelectronics Co., Ltd
 21c3  21st Century Computer Corp.
 22b8  Flex-Logix Technologies
@@ -42860,7 +42873,9 @@ bdbd  Blackmagic Design
 	a137  DeckLink Studio 4K
 	a138  Decklink SDI 4K
 	a139  Intensity Pro 4K
+	a13a  Cintel Scanner
 	a13b  DeckLink Micro Recorder
+	a13c  Avid Artist DNxIO
 	a13d  DeckLink 4K Pro
 	a13e  UltraStudio 4K Extreme
 	a13f  DeckLink Quad 2
@@ -42869,9 +42884,29 @@ bdbd  Blackmagic Design
 	a142  UltraStudio HD Mini
 	a143  DeckLink Mini Recorder 4K
 	a144  DeckLink Mini Monitor 4K
+	a147  Avid Artist DNxIQ
 	a148  DeckLink SDI Micro
 	a14b  DeckLink 8K Pro
 	a14e  DeckLink Quad HDMI Recorder
+	a14f  UltraStudio 4K Mini
+	a150  Avid Artist DNxID
+	a154  UltraStudio Monitor 3G
+	a155  UltraStudio Recorder 3G
+	a158  DeckLink Mini Monitor HD
+	a159  DeckLink Mini Recorder HD
+	a15c  DeckLink IP HD
+	a15d  DeckLink IP HD Optical
+	a15e  DeckLink IP/SDI HD
+	a15f  DeckLink 8K Pro Mini
+	a160  Media Player 10G
+	a162  DeckLink IP 100G
+	a163  ATEM Mini Extreme ISO G2
+	a165  UltraStudio Mini Recorder 12G
+	a166  UltraStudio Mini Monitor 12G
+	a167  UltraStudio Mini Replay 12G
+	a170  UltraStudio Express Monitor 3G
+	a171  UltraStudio Express Recorder 3G
+	a172  UltraStudio Express HD
 	a1ff  eGPU RX580
 c001  TSI Telsys
 c0a9  Micron/Crucial Technology
