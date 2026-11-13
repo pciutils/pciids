@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.12
-#	Date:    2026-11-12 03:15:02
+#	Version: 2026.11.13
+#	Date:    2026-11-13 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4600,11 +4600,11 @@
 	9918  Trinity [Radeon HD 7600G]
 	9919  Trinity [Radeon HD 7500G]
 	991e  Bishop [Xbox One S APU]
-	9920  Liverpool [Playstation 4 APU]
+	9920  Liverpool [Starsha]
 	9921  Liverpool HDMI/DP Audio Controller
-	9922  Starshp
-	9923  Starsha2 [Kingston/Clayton]
-	9924  Gladius
+	9922  Liverpool+ [Starsha]
+	9923  Liverpool2 [Starsha2]
+	9924  Gladius [Roma]
 	9925  Kingston/Clayton/Jupiter/Gladius/Montego HDMI Controller
 	9926  Jupiter
 	9990  Trinity 2 [Radeon HD 7520G]
@@ -30454,6 +30454,8 @@
 		1ff2 0c11  10GE Ethernet Adapter 1160-2X
 	10a2  NIC1160 Ethernet Controller Virtual Function Family
 	10b1  NIC 1260 Ethernet Controller Family
+# NIC-ETH6Z0F-LP-2P 2x25GbE PCIe Network Adapter
+		193d 1037  NIC-ETH6Z0F-LP-2P
 	10b2  NIC 1260 Ethernet Controller Virtual Function Family
 	10b3  NIC 1260C Ethernet Controller Family
 	10b4  NIC 1260C Ethernet Controller Virtual Function Family
