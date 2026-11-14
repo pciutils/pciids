@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.13
-#	Date:    2026-11-13 03:15:02
+#	Version: 2026.11.14
+#	Date:    2026-11-14 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30874,6 +30874,11 @@
 	4200  N400 M.2 Gen4 NVMe SSD
 	5000  M.2 Gen4 NVMe SSD
 	5200  N500 M.2 Gen5 NVMe SSD
+	e400  U.2 Gen4 SSD
+	e410  U.2 Gen4 SSD
+	e500  U.2 Gen5 SSD
+	e510  U.2 Gen5 SSD
+	e520  U.2 Gen5 SSD
 	e600  U.2 Gen4 SSD
 	e660  U.2 Gen4 SSD
 	e800  U.2 Gen5 SSD
