@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.14
-#	Date:    2026-11-14 03:15:02
+#	Version: 2026.11.15
+#	Date:    2026-11-15 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -5198,6 +5198,13 @@
 	1101  K8 [Athlon64/Opteron] Address Map
 	1102  K8 [Athlon64/Opteron] DRAM Controller
 	1103  K8 [Athlon64/Opteron] Miscellaneous Control
+	1105  Venice SP7 IOMMU
+	1106  Venice SP7 RCEC
+	1107  Venice SP7 PCIe Dummy Host Bridge
+	1108  Venice SP7 PCIe/CXL GPP Bridge
+	1109  Venice SP7 PCIe GPP Bridge
+	110a  Venice SP7 PCIe DDR-SSB Tunnel
+	110b  Venice SP7 Root Complex
 	1110  Krackan Internal PCIe GPP Bridge 0 to Bus A
 	1111  Krackan Internal PCIe GPP Bridge 0 to Bus B
 	1112  Krackan Internal PCIe GPP Bridge 0 to Bus C
@@ -5248,6 +5255,14 @@
 	124d  Krackan Data Fabric; Function 5
 	124e  Krackan Data Fabric; Function 6
 	124f  Krackan Data Fabric; Function 7
+	1278  Venice SP8 Data Fabric; Function 0
+	1279  Venice SP8 Data Fabric; Function 1
+	127a  Venice SP8 Data Fabric; Function 2
+	127b  Venice SP8 Data Fabric; Function 3
+	127c  Venice SP8 Data Fabric; Function 4
+	127d  Venice SP8 Data Fabric; Function 5
+	127e  Venice SP8 Data Fabric; Function 6
+	127f  Venice SP8 Data Fabric; Function 7
 	12b8  Strix Halo Data Fabric; Function 0
 	12b9  Strix Halo Data Fabric; Function 1
 	12ba  Strix Halo Data Fabric; Function 2
@@ -5264,6 +5279,14 @@
 	12c5  Turin Data Fabric; Function 5
 	12c6  Turin Data Fabric; Function 6
 	12c7  Turin Data Fabric; Function 7
+	12c8  Venice SP7 Data Fabric; Function 0
+	12c9  Venice SP7 Data Fabric; Function 1
+	12ca  Venice SP7 Data Fabric; Function 2
+	12cb  Venice SP7 Data Fabric; Function 3
+	12cc  Venice SP7 Data Fabric; Function 4
+	12cd  Venice SP7 Data Fabric; Function 5
+	12ce  Venice SP7 Data Fabric; Function 6
+	12cf  Venice SP7 Data Fabric; Function 7
 	12f8  Phoenix2 Data Fabric; Function 0
 	12f9  Phoenix2 Data Fabric; Function 1
 	12fa  Phoenix2 Data Fabric; Function 2
@@ -5806,9 +5829,28 @@
 	1716  Family 12h/14h Processor Function 5
 	1718  Family 12h/14h Processor Function 6
 	1719  Family 12h/14h Processor Function 7
+	17d0  Venice Internal PCIe GPP Bridge to Bus [D:C]
+	17d1  Venice PCIe Dummy Function
+	17d2  Venice SP7 USB 3.2 xHCI
+	17d3  Venice PCIe Dummy Function
+	17d4  Venice Primary PCIe NTV/vNTB
+	17d5  Venice Secondary PCIe vNTB
+	17d6  Venice SDXI DACC
+	17d7  Venice NTB
+	17d8  Venice ASP
+	17d9  Venice SDXI DACC VF
 	17e0  Strix/Krackan/Strix Halo CCP/ASP
 	17f0  Strix/Krackan/Krackan2/Strix Halo Neural Processing Unit
 		17aa 3847  IdeaPad Slim 5 16AGP11
+	1b30  Venice SP8 Root Complex
+	1b31  Venice SP8 IOMMU
+	1b32  Venice SP8 RCEC
+	1b33  Venice SP8 PCIe Dummy Host Bridge
+	1b34  Venice SP8 PCIe/CXL GPP Bridge
+	1b35  Venice SP8 PCIe GPP Bridge
+	1b36  Venice SP8 PCIe DDR-SSB Tunnel
+	1b37  Venice Internal PCIe GPP Bridge to Bus [F:E]
+	1b38  Venie SP8 USB 3.2 xHCI
 	2000  79C97x [PCnet32 LANCE]
 		1014 2000  NetFinity 10/100 Fast Ethernet
 		1022 2000  PCnet - Fast 79C971
