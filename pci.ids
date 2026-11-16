@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.15
-#	Date:    2026-11-15 03:15:01
+#	Version: 2026.11.16
+#	Date:    2026-11-16 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -168,6 +168,8 @@
 	0000  Propolis NVMe Controller
 	0001  Propolis xHCI Controller
 	0002  Propolis PCI-PCI Bridge
+	0003  Redhawk Communication Processor
+		01de fff7  Metro Baseboard
 # probably misprogrammed Intel Atom C2338 on Dell 0K8Y0N board
 0200  Dell (wrong ID)
 # 021b is not Compaq but there is a board misprogrammed
@@ -5548,6 +5550,7 @@
 	153c  Turin RCEC
 	153d  Turin PCIe Dummy Host Bridge
 	153e  Turin GPP Bridge
+		01de fff7  Metro Baseboard
 		01de fff8  Cosmo Baseboard
 	1540  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky HT Configuration
 	1541  Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky Address Maps
@@ -19177,7 +19180,7 @@
 		1028 249b  MTFDMBQ7T6THM-2BP1DABDA
 		1028 249c  MTFDMBQ15T3THM-2BP1DABDA
 		1028 249d  MTFDMBQ30T7THM-2BP1DABDA
-	51ce  9650 PRO NVMe SSD
+	51ce  9650 MAX NVMe SSD
 		1028 2492  MTFDMBQ6T4THP-2BP1DFCDA
 		1028 2493  MTFDMBQ12T8THP-2BP1DFCDA
 		1028 2494  MTFDMBQ25T6THP-2BP1DFCDA
@@ -34447,15 +34450,36 @@
 	189a  Ethernet Connection E822-L 1GbE
 	18a0  Atom Processor P5xxx Series QAT
 	18a1  C4XXX Series QAT Virtual Function
+	18a2  Ice Lake-D PCH PCIe Cluster 2 Root Port 11
+	18a4  Ice Lake-D PCH PCIe Cluster 0 Root Port 0
+	18a5  Ice Lake-D PCH PCIe Cluster 0 Root Port 1
+	18a6  Ice Lake-D PCH PCIe Cluster 0 Root Port 2
+	18a7  Ice Lake-D PCH PCIe Cluster 0 Root Port 3
+	18a8  Ice Lake-D PCH PCIe Cluster 1 Root Port 4
+	18a9  Ice Lake-D PCH PCIe Cluster 1 Root Port 5
+	18aa  Ice Lake-D PCH PCIe Cluster 1 Root Port 6
+	18ab  Ice Lake-D PCH PCIe Cluster 1 Root Port 7
+	18ac  Ice Lake-D Host SMBus Controller
+	18ad  Ice Lake-D PCH PCIe Cluster 2 Root Port 8
+	18ae  Ice Lake-D PCH PCIe Cluster 2 Root Port 9
+	18af  Ice Lake-D PCH PCIe Cluster 2 Root Port 10
 	18b3  Atom Processor P5xxx Series SATA Controller
 	18d0  Atom Processor P5xxx Series USB xHCI Controller
 	18d3  Atom Processor P5xxx Series MEI Controller
+	18d4  Ice Lake-D MEI Controller
 	18d6  Atom Processor P5xxx Series MEI Controller
+	18d8  Ice Lake-D HSUART
+	18da  Ice Lake-D Virtual Root Port for Intel QAT
+	18db  Ice Lake-D eMMC Controller
+	18dc  Ice Lake-D LPC/eSPI Controller
+	18dd  Ice Lake-D PCH Bridge Control
+	18de  Ice Lake-D PMC
 	18df  Atom Processor P5xxx Series SMBus Controller
 	18e0  Atom Processor P5xxx Series SPI Controller
 	18e1  Atom Processor P5xxx Series Trace Hub
 	18ee  200xx Series QAT
 	18ef  200xx Series QAT Virtual Function
+	18f2  Ice Lake-D SATA Controller
 	18f3  Atom Processor P5xxx Series SATA Controller
 	1900  Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers
 	1901  6th-10th Gen Core Processor PCIe Controller (x16)
@@ -38202,6 +38226,7 @@
 	345c  Ice Lake PCU Registers
 	345d  Ice Lake PCU Registers
 	345e  Ice Lake PCU Registers
+	345f  Ice Lake PCU Registers
 	347a  Ice Lake PCI Express Root Port A
 	347b  Ice Lake PCI Express Root Port B
 	347c  Ice Lake PCI Express Root Port C
