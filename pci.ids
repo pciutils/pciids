@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.16
-#	Date:    2026-11-16 03:15:02
+#	Version: 2026.11.18
+#	Date:    2026-11-18 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -13715,6 +13715,7 @@
 	25fa  GA107 [RTX A2000 Embedded GPU]
 	25fb  GA107 [RTX A500 Embedded GPU]
 	2681  AD102 [RTX TITAN Ada]
+	2682  AD102 [GeForce RTX 4090 Ti]
 	2684  AD102 [GeForce RTX 4090]
 	2685  AD102 [GeForce RTX 4090 D]
 	2687  AD102 [GeForce RTX 4080]
@@ -23303,13 +23304,16 @@
 	02a1  NVLink-8 Switch RMA
 	02a2  Spectrum-7 in Flash Recovery Mode
 	02a3  Spectrum-7 RMA
-# 400G Retimer
-	02a6  OrionR
+# Namechange
+	02a6  OrionR Flash Recovery
 	02a7  OrionR RMA
 # Spectrum-8 in Flash Recovery Mode
 	02a8  Spectrum-8 in Flash Recovery Mode
 # Spectrum-8 RMA
 	02a9  Spectrum-8 RMA
+# 400G DSP
+	02aa  OrionC Flash Recovery
+	02ab  OrionC RMA
 	1002  MT25400 Family [ConnectX-2 Virtual Function]
 	1003  MT27500 Family [ConnectX-3]
 		1014 04b5  PCIe3 40GbE RoCE Converged Host Bus Adapter for Power
@@ -23525,6 +23529,7 @@
 	b202  Arcus2
 	b203  Arcus3
 	b204  OrionR
+	b205  OrionC
 	c2d1  BlueField DPU Family Auxiliary Communication Channel [BlueField Family]
 	c2d2  MT416842 BlueField SoC management interfac
 	c2d3  MT42822 BlueField-2 SoC Management Interface
