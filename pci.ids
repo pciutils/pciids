@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.18
-#	Date:    2026-11-18 03:15:02
+#	Version: 2026.11.19
+#	Date:    2026-11-19 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -20948,6 +20948,71 @@
 	6888  T62100-6088 Unified Wire Ethernet Controller [VF]
 	6889  T62100-6089 Unified Wire Ethernet Controller [VF]
 	688a  T62100-608a Unified Wire Ethernet Controller [VF]
+	7001  T7250 Unified Wire Ethernet Controller
+	7002  S7250 Unified Wire Ethernet Controller
+	7003  T7450 Unified Wire Ethernet Controller
+	7004  S7450 Unified Wire Ethernet Controller
+	7005  T72200 Unified Wire Ethernet Controller
+	7006  S72200 Unified Wire Ethernet Controller
+	7007  T72200-FH Unified Wire Ethernet Controller
+	7008  S71400 Unified Wire Ethernet Controller
+	7009  S7210-BT Unified Wire Ethernet Controller
+	700d  S72200-OCP3 Unified Wire Ethernet Controller
+	700e  S7450-OCP3 Unified Wire Ethernet Controller
+	700f  S7410-BT-OCP3 Unified Wire Ethernet Controller
+	7010  S7210-BT-A Unified Wire Ethernet Controller
+	7401  T7250 Unified Wire Ethernet Controller
+	7402  S7250 Unified Wire Ethernet Controller
+	7403  T7450 Unified Wire Ethernet Controller
+	7404  S7450 Unified Wire Ethernet Controller
+	7405  T72200 Unified Wire Ethernet Controller
+	7406  S72200 Unified Wire Ethernet Controller
+	7407  T72200-FH Unified Wire Ethernet Controller
+	7408  S71400 Unified Wire Ethernet Controller
+	7409  S7210-BT Unified Wire Ethernet Controller
+	740d  S72200-OCP3 Unified Wire Ethernet Controller
+	740e  S7450-OCP3 Unified Wire Ethernet Controller
+	740f  S7410-BT-OCP3 Unified Wire Ethernet Controller
+	7410  S7210-BT-A Unified Wire Ethernet Controller
+	7501  T7250 Unified Wire Storage Controller
+	7502  S7250 Unified Wire Storage Controller
+	7503  T7450 Unified Wire Storage Controller
+	7504  S7450 Unified Wire Storage Controller
+	7505  T72200 Unified Wire Storage Controller
+	7506  S72200 Unified Wire Storage Controller
+	7507  T72200-FH Unified Wire Storage Controller
+	7508  S71400 Unified Wire Storage Controller
+	7509  S7210-BT Unified Wire Storage Controller
+	750d  S72200-OCP3 Unified Wire Storage Controller
+	750e  S7450-OCP3 Unified Wire Storage Controller
+	750f  S7410-BT-OCP3 Unified Wire Storage Controller
+	7510  S7210-BT-A Unified Wire Storage Controller
+	7601  T7250 Unified Wire Storage Controller
+	7602  S7250 Unified Wire Storage Controller
+	7603  T7450 Unified Wire Storage Controller
+	7604  S7450 Unified Wire Storage Controller
+	7605  T72200 Unified Wire Storage Controller
+	7606  S72200 Unified Wire Storage Controller
+	7607  T72200-FH Unified Wire Storage Controller
+	7608  S71400 Unified Wire Storage Controller
+	7609  S7210-BT Unified Wire Storage Controller
+	760d  S72200-OCP3 Unified Wire Storage Controller
+	760e  S7450-OCP3 Unified Wire Storage Controller
+	760f  S7410-BT-OCP3 Unified Wire Storage Controller
+	7610  S7210-BT-A Unified Wire Storage Controller
+	7801  T7250 Unified Wire Ethernet Controller [VF]
+	7802  S7250 Unified Wire Ethernet Controller [VF]
+	7803  T7450 Unified Wire Ethernet Controller [VF]
+	7804  S7450 Unified Wire Ethernet Controller [VF]
+	7805  T72200 Unified Wire Ethernet Controller [VF]
+	7806  S72200 Unified Wire Ethernet Controller [VF]
+	7807  T72200-FH Unified Wire Ethernet Controller [VF]
+	7808  S71400 Unified Wire Ethernet Controller [VF]
+	7809  S7210-BT Unified Wire Ethernet Controller [VF]
+	780d  S72200-OCP3 Unified Wire Ethernet Controller [VF]
+	780e  S7450-OCP3 Unified Wire Ethernet Controller [VF]
+	780f  S7410-BT-OCP3 Unified Wire Ethernet Controller [VF]
+	7810  S7210-BT-A Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
