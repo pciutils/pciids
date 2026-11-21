@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.19
-#	Date:    2026-11-19 03:15:01
+#	Version: 2026.11.21
+#	Date:    2026-11-21 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -25942,6 +25942,7 @@
 	5028  PS5028-E28 PCIe5 NVMe Controller
 	5029  PS5029-E29T PCIe4 NVMe Controller (DRAM-less)
 	5031  PS5031-E31T PCIe5 NVMe Controller
+	5033  PS5033-E33T PCIe4 NVMe Controller
 	5037  PS5037-E37T PCIe5 NVMe Controller (DRAM-less)
 	5302  PS5302-X2 PCIe5 NVMe Controller
 1989  Montilio Inc.
@@ -27091,6 +27092,7 @@
 	7011  RX0xxx
 1bf5  Greenliant
 	1000  G7200 series U.2 NVMe SSD
+	e040  ArmourDrive NVMe SSD (DRAM-less)
 1bfc  Duagon AG
 1bfd  EeeTOP
 1c00  WCH (Nanjing Qinheng Microelectronics Co., Ltd.)
@@ -27506,6 +27508,7 @@
 	41c3  SM2P41C3 NVMe SSD (DRAM-less)
 	41c8  SM2P41C8 NVMe SSD (DRAM-less)
 	41d3  SM2P41D3 NVMe SSD (DRAM-less)
+	41d8  SM2P41D8Q NVMe SSD (DRAM-less)
 	5236  XPG GAMMIX S70 BLADE NVMe SSD
 	5350  XPG GAMMIX S50, S50 Lite NVMe SSD
 # PREMIUM NVMe SSD for PlayStation 5
