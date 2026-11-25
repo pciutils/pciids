@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.22
-#	Date:    2026-11-22 03:15:01
+#	Version: 2026.11.25
+#	Date:    2026-11-25 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -31003,9 +31003,22 @@
 	e820  U.2 Gen5 SSD
 	e830  U.2 Gen5 SSD
 217a  Huaxun Group Limited
-	0041  SharQ PCIE 4,0 1.92TB
-# PCIE 4.0 SSD 1.6TB
-	0042  PCIE 4.0 SSD 1.6TB
+	0031  SQ9A4 M.2 SSD 480GB
+	0032  SQ9A4 M.2 SSD 960GB
+	0033  SQ9A4 M.2 SSD 1600GB
+	0034  SQ9A4 M.2 SSD 1920GB
+	0035  SQ9A4 M.2 SSD 3200GB
+	0036  SQ9A4 M.2 SSD 3840GB
+	0037  SQ9A4 M.2 SSD 6400GB
+	0038  SQ9A4 M.2 SSD 7680GB
+	0041  SharQ 9A4 PCIE4.0 1600GB
+	0042  SharQ 9A4 PCIE4.0 1920GB
+	0043  SharQ 9A4 PCIE4.0 3200GB
+	0044  SharQ 9A4 PCIE4.0 3840GB
+	0045  SharQ 9A4 PCIE4.0 6400GB
+	0046  SharQ 9A4 PCIE4.07680GB
+	0047  SharQ 9A4 PCIE4.0 12800GB
+	0048  SharQ 9A4 PCIE4.0 15360GB
 	0512  SHARQ 005 1600GB
 	0513  SHARQ 005 1920GB
 	0514  SQ005 U.2 SSD 3.2TB
@@ -35277,9 +35290,10 @@
 	2088  Sky Lake-E DDRIO Registers
 	208d  Sky Lake-E CHA Registers
 	208e  Sky Lake-E CHA Registers
-# Engineering sample GPU
-	2240  Larrabee
-	2241  Larrabee
+	2240  Larrabee E0
+	2241  Larrabee E1
+	2242  Larrabee Ec
+	2243  Larrabee E3
 	2249  Knights Ferry coprocessor
 	224a  Knights Ferry coprocessor
 	2250  Xeon Phi coprocessor 5100 series
