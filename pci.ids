@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.25
-#	Date:    2026-11-25 03:15:02
+#	Version: 2026.11.26
+#	Date:    2026-11-26 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23589,6 +23589,7 @@
 	a2dd  BF4 Family Crypto enabled [BlueField-4 SoC Crypto enabled]
 	a2de  BF4 Family Crypto disabled [BlueField-4 SoC Crypto disabled]
 	a2df  BF4 Family integrated network controller [BlueField-4 integrated network controller]
+	a2e2  BF5 Family integrated network controller [BlueField-5 integrated network controller]
 	b200  ArcusE
 	b201  LibraE
 	b202  Arcus2
@@ -23601,6 +23602,7 @@
 	c2d4  MT43162 BlueField-3 Lx SoC Management Interface
 	c2d5  MT43244 BlueField-3 SoC Management Interface
 	c2d6  BF4 Family Management Interface [BlueField-4 SoC Management Interface]
+	c2d7  BF5 Family Management Interface [BlueField-5 SoC Management Interface]
 # SwitchX-2, 40GbE switch
 	c738  MT51136
 	c739  MT51136 GW
