@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.11.26
-#	Date:    2026-11-26 03:15:02
+#	Version: 2026.11.27
+#	Date:    2026-11-27 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -30373,6 +30373,7 @@
 	6111  TE5481 Series NVMe PCIe Gen5x4 SSD
 1f9d  Axelera AI
 	0001  Europa AIPU
+	0002  Titania AIPU
 	1100  Metis AIPU (rev 02)
 	11aa  Metis AIPU (rev 01)
 1fa4  Shandong SinoChip Semiconductors Co., Ltd
